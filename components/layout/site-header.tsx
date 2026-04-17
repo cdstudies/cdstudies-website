@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "@/components/layout/mobile-nav";
-import { NAV_LINKS, SITE_NAME_SHORT } from "@/lib/constants";
+import { Logo } from "@/components/shared/logo";
+import { NAV_LINKS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
@@ -14,10 +15,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/50 bg-background/95 backdrop-blur-sm">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="font-heading text-2xl tracking-tight text-primary">
-            {SITE_NAME_SHORT}
-          </span>
+        <Link href="/" className="flex items-center">
+          <Logo />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

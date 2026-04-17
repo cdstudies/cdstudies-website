@@ -11,7 +11,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
-import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import { Logo } from "@/components/shared/logo";
+import { NAV_LINKS } from "@/lib/constants";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -24,8 +25,8 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="right" className="w-72">
-        <SheetTitle className="font-heading text-xl text-primary">
-          {SITE_NAME}
+        <SheetTitle asChild>
+          <div><Logo /></div>
         </SheetTitle>
         <Separator className="my-4" />
         <nav className="flex flex-col gap-1">
