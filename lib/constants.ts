@@ -12,6 +12,15 @@ export const GIFT_AMOUNTS = [25, 50, 100, 250] as const;
 export const DEFAULT_AMOUNT = 50;
 export const DEFAULT_FREQUENCY = "monthly" as const;
 
+export const CURRENCY = "usd";
+
+// Gathered's platform cut, taken as a Stripe Connect application fee on every
+// donation. CDS stays the merchant of record; this is booked as their expense.
+export const PLATFORM_FEE_PERCENT = 1.5;
+
+export const MIN_DONATION = 5;
+export const MAX_DONATION = 50000;
+
 export const AREAS_OF_WORK = [
   {
     title: "Government",

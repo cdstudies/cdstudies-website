@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { DonationForm } from "@/components/forms/donation-form";
+import { Endorsement } from "@/components/donate/endorsement";
 import { Card, CardContent } from "@/components/ui/card";
 import { TAX_ID, SITE_NAME } from "@/lib/constants";
 
@@ -21,8 +22,10 @@ export default function DonatePage() {
             <span className="text-accent">Invest in the future.</span>
           </h1>
           <p className="mb-4 text-lg text-muted-foreground">
-            Help us to protect pro-child, pro-family cultures before
-            it&apos;s too late
+            Birth rates are collapsing across the developed world — and almost
+            no one is working on it. Your gift funds the research, policy
+            work, and cultural initiatives that make the case for children
+            and family, before it&apos;s too late.
           </p>
         </div>
 
@@ -33,6 +36,8 @@ export default function DonatePage() {
             </Suspense>
           </CardContent>
         </Card>
+
+        <Endorsement />
 
         <p className="mt-6 text-center text-xs text-muted-foreground">
           The {SITE_NAME} is a registered 501(c)(3) non-profit

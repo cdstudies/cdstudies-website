@@ -4,6 +4,10 @@ import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SITE_NAME, TAX_ID } from "@/lib/constants";
 import "./globals.css";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: {
@@ -26,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${dmSerifDisplay.variable} ${nunitoSans.variable} h-full antialiased`}
+      className={cn("h-full", "antialiased", dmSerifDisplay.variable, nunitoSans.variable, "font-sans", geist.variable)}
     >
       <head>
         <script

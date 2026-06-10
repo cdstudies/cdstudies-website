@@ -32,30 +32,28 @@ export function StickyDonateBar() {
         >
           <div className="mx-auto flex max-w-lg items-center gap-3">
             <ToggleGroup
-              type="single"
-              value={amount}
-              onValueChange={(v) => v && setAmount(v)}
+              value={[amount]}
+              onValueChange={(v) => v[0] != null && setAmount(String(v[0]))}
               className="flex gap-1"
             >
               {GIFT_AMOUNTS.map((a) => (
                 <ToggleGroupItem
                   key={a}
                   value={String(a)}
-                  className="h-9 min-w-[3rem] text-xs font-semibold data-[state=on]:bg-accent data-[state=on]:text-accent-foreground"
+                  className="h-9 min-w-[3rem] text-xs font-semibold aria-pressed:bg-accent aria-pressed:text-accent-foreground"
                 >
                   ${a}
                 </ToggleGroupItem>
               ))}
             </ToggleGroup>
             <Button
-              asChild
+              render={<Link href={`/donate?amount=${amount}`} />}
+              nativeButton={false}
               size="sm"
               className="bg-accent text-accent-foreground hover:bg-accent/90"
             >
-              <Link href={`/donate?amount=${amount}`}>
-                <Heart data-icon="inline-start" />
-                Donate ${amount}
-              </Link>
+              <Heart data-icon="inline-start" />
+              Invest ${amount}
             </Button>
           </div>
         </motion.div>

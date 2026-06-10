@@ -51,20 +51,22 @@ export function Hero() {
             className="flex flex-col gap-3 sm:flex-row sm:gap-4"
           >
             <Button
-              asChild
+              render={<Link href="/donate" />}
+              nativeButton={false}
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90"
             >
-              <Link href="/donate">
-                <Heart data-icon="inline-start" />
-                Invest in the Future
-              </Link>
+              <Heart data-icon="inline-start" />
+              Invest in the Future
             </Button>
-            <Button asChild variant="outline" size="lg">
-              <a href="#problem">
-                <ArrowDown data-icon="inline-start" />
-                Learn More
-              </a>
+            <Button
+              render={<a href="#problem" />}
+              nativeButton={false}
+              variant="outline"
+              size="lg"
+            >
+              <ArrowDown data-icon="inline-start" />
+              Learn More
             </Button>
           </motion.div>
         </div>

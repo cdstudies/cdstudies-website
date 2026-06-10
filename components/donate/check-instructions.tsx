@@ -12,10 +12,12 @@ import { SITE_NAME, TAX_ID } from "@/lib/constants";
 export function CheckInstructions() {
   return (
     <Dialog>
-      <DialogTrigger asChild>
-        <button className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-accent">
-          You can also give by check — click for instructions
-        </button>
+      <DialogTrigger
+        render={
+          <button className="text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-accent" />
+        }
+      >
+        You can also give by check — click for instructions
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
