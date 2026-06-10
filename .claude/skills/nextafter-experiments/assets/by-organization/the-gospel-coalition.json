@@ -1,0 +1,1612 @@
+{
+  "name": "The Gospel Coalition",
+  "total": 39,
+  "tierBreakdown": {
+    "valid": 25,
+    "directional": 6,
+    "inconclusive": 8
+  },
+  "experiments": [
+    {
+      "id": 48796,
+      "experimentId": "121071",
+      "title": "How communal language vs. listed value proposition impacted a direct ask",
+      "date": "2023-02-06T16:26:30",
+      "url": "https://www.nextafter.com/experiments/how-communal-language-vs-listed-value-proposition-impacted-a-direct-ask/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": -48.1,
+      "confidence": 97,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Treatment A",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment B",
+            "metric": "0.02%",
+            "lift": "-48.1%",
+            "confidence": "97.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that highlighting the value offered for engaged website visitors will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 12/22/2022 - 01/01/2023\nDuring calendar year end, we were running a direct ask as a Dear Reader beneath articles, blogs, and podcast pages site-wide. There was a housefile cultivation email called “8 Ways TGC Will Continue Serving You” that was sent on Dec. 13 and we were curious if including these 8 ways as a reminder of the value added to the readers would propel them to make a gift. The control copy used communal language that was conversational in style and the treatment listed out the 8 ways readers are served by TGC. We split traffic between the two variants and let the experiment run for one week.",
+      "keyLearnings": "What we found was that listing out the various ways the readers were ministered to by the organization resulted in a 48% decrease in conversion rate with 96.9% confidence compared to the control language so the results are statistically valid, however we were just shy of recording 50 total transactions that we would typically target as a minimum for a test. Because valid decreases were observed across multiple channels and visitor segments after only running for one week during such a crucial time of year for fundraising, we decided to pull down the treatment copy that was diminishing results and chose to roll out the control to 100% of traffic during the final days of the year to take advantage of the higher performing copy.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 48.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48778,
+      "experimentId": "114618",
+      "title": "How adding clarity and tangibility to monthly giving premiums impacted donations",
+      "date": "2023-01-04T16:39:10",
+      "url": "https://www.nextafter.com/experiments/how-adding-clarity-and-tangibility-to-monthly-giving-premiums-impacted-donations/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "monthly donor",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 253.8,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "eBook Offers Pop-up",
+            "metric": "16.1%",
+            "lift": "253.8%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding clarity and tangibility to monthly giving premiums for page visitors will achieve an increase in recurring donations.",
+      "summary": "Timeframe: 11/09/2022 - 12/23/2022\nA ministry client incentivizes recurring giving by offering two premiums on their recurring giving donation page. When a recurring gift is made, the donor receives a copy of two different eBooks. With the recurring giving page not producing donations at the rate we hoped for, we put together an experiment.\nWe wondered if the lack of conversions is in part a result of limited clarity regarding the premiums. The eBook premiums are called out on the page by title, but the title alone does not tell the page visitor what the eBook is about, nor does it show them what the eBook looks like. A description should give page visitors clarity, connection, and application – they should know how the premium can help improve their life and their faith. Plus, imagery is powerful, and showing an image of each eBook could be appealing and a draw to the page visitor.\nThus, we developed a treatment: When the eBook premium title is clicked, a popup appears displaying the eBook cover image, title, and CTA telling the visitor how the eBook can help improve their faith or be applied to their faith.\nWe’ll see if the added clarity and tangibility improve donation conversions, specifically recurring ones.",
+      "keyLearnings": "After running for more than a month, the treatment resulted in a valid 253.8% increase in donations. Oddly enough, only one of the donations the treatment produced was recurring. In fact, the control produce two recurring gifts to the treatment's one.\nWhat might this mean? It's possible that page visitors thought they would receive the premiums when making a gift of any type, not just recurring. It does however clearly say in the \"SPECIAL OFFER\" section of the copy that the premiums would only be sent upon someone making a recurring donation.\nIt is also possible that overall giving increased to such a degree because visitors saw the type of offers TGC generates and wanted to do their part to support that work. Perhaps the popups gave credibility to the organization through proof of work, which many donation pages don't make clear.\nDespite not seeing a lift in recurring donations, the number of donations overall produced by the treatment, and valid lift, led us to roll the treatment out to 100% of traffic.\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 111.2% increase with a 89% level of confidence.\nObservations of the impact on other visitor segments in the experiment:\nDesktop visitors had a 320.9% increase in donations with a 100% level of confidence.New visitors had a 584.6% increase in donations with a 96% level of confidence.Returning visitors had a 200.8% increase in donations with a 99% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 253.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48319,
+      "experimentId": "115228",
+      "title": "How revising a headline to continue the conversation impacted donor conversion",
+      "date": "2022-12-08T15:03:00",
+      "url": "https://www.nextafter.com/experiments/how-revising-a-headline-to-continue-the-conversation-impacted-donor-conversion/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 75.8,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment Headline",
+            "metric": "2.8%",
+            "lift": "75.8%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that revising the headline to continue the conversation for instant donation page visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 11/22/2022 - 12/09/2022\nWe had observed through testing with other organizations that removing “thank you” from a headline was improving donor conversion rates. We wanted to test this hypothesis on an instant donation page to call attention to the language below the headline. Our hypothesis was that visitors were seeing “Thank you for requesting your free devotional” as a cue that they did not need to take any other action and could exit away from the confirmation page. We developed a treatment that asked them to stick around and consider reading the remainder of the copy. We produced a treatment that revised the headline to “You will receive an email containing your free devotional in just a few minutes. But before you get started, could we take a moment to ask you something?” The remainder of the body copy on the page stayed the same. We split traffic 50/50 and launched the experiment.",
+      "keyLearnings": "What we found after running the experiment after 2 weeks was a 75.8% increase in donation rates with 99.4% level of confidence so the test results are valid. We believe this lift was a result of continuing the conversation on the donation page rather than treating it as a typical confirmation page that visitors see at the end of the process. The treatment headline indicated clarity about what would happen next and still communicated to the reader that their submission was successful but framed the experience that the reader had additional action to take before closing out the site. This same concept can be tested on other instant donation pages where the cadence makes sense to invite readers to stay around for the final step of the content offer process, which is making a gift. Since we only tested changing the headline and the rest of the donation page matched the control, we know that the difference in how the headline is presented was responsible for this lift across multiple segments and channels of traffic.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 75.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 47993,
+      "experimentId": "115154",
+      "title": "How a new content offer with strengthened value prop in a dear reader impacted email acquisition",
+      "date": "2022-11-29T19:19:55",
+      "url": "https://www.nextafter.com/experiments/how-a-new-content-offer-with-strengthened-value-prop-in-a-dear-reader-impacted-email-acquisition/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Secular Creed Dear Reader",
+            "metric": "0.06%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New City Catechism Dear Reader",
+            "metric": "1.0%",
+            "lift": "1,698.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that highlighting a new content offer for website visitors will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 11/21/2022 - 12/02/2022\nWhen running an in-site content offer, we were seeing decent response rates from web visitors but we were curious about the lifespan of having a single offer available. This free eBook had been available and marketed to the audience for several months, so at some point returning visitors to the site would no longer engage if they had already received the offer. We had a new content offer to launch, but rather than replacing the existing content offer we wanted to understand how the audience would respond comparatively. We split the traffic 50/50 between the two offers to determine how this change would impact both email acquisition and instant donor conversion before rolling out the new offer to 100% of traffic.",
+      "keyLearnings": "What we found after running the experiment for one week, was that the treatment—a new devotional eBook—achieved a 1,698% increase in email acquisition rate with 100% level of confidence. We were surprised to see this increase was not limited to returning visitors, but new visitors saw similar lifts as well. Traffic from email and social and both desktop and mobile all saw valid increases in email acquisition. Donations also experienced a 51% increase with 88% level of confidence. We believe this increase is partly due to our hypothesis that a new offer would be more appealing than an offer visitors could have already seen multiple times. But we also believe the new offer was presented with an increased sense of relevancy and urgency that strengthened the value proposition and made it more appealing for visitors to get. The copy encouraged visitors to get their copy now in the last remaining weeks of the year so they could begin the devotional in the new year which was quickly approaching. This specificity on the timeline helps to answer the question in the mind of the visitors - why should I get this offer TODAY, rather than any other day or not at all? This relevance/urgency is an element missing from the control that could explain why we saw such a significant lift in results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 1,698.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 47739,
+      "experimentId": "111016",
+      "title": "How promoting a free ebook offer instead of a general subscription impacted email acquisition on a commentary page",
+      "date": "2022-11-16T21:38:20",
+      "url": "https://www.nextafter.com/experiments/how-promoting-a-free-ebook-offer-instead-of-a-general-subscription-impacted-email-acquisition-on-a-commentary-page/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Content Offer",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Content Offer - New copy",
+            "metric": "0.92%",
+            "lift": "100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that offering a free eBook at the bottom of the Commentary page for page visitors when submitting their email will achieve an increase in email acquisition because they will be more drawn to this offer after reading gospel commentary than they would be receiving email updates from TGC.",
+      "summary": "Timeframe: 10/18/2022 - 11/18/2022\nThe Gospel Coalition has a Commentary page in which visitors can study and learn about different books of the Bible. Towards the bottom of the page, there is an email subscription form where visitors can sign up for email updates. We wondered if this existing email acquisition opportunity could be optimized to be more alluring and enticing. So we developed a treatment that offered a free eBook for visitors when signing up and submitting their email. And the offer isn’t just for any eBook, but for TGC’s most popular eBook. Would this opportunity acquire more emails than the original opportunity?\nWe tested this on the TGC home page and saw negative results for the treatment; now we’re testing it on the Commentaries page to see if it aligns better when implemented there.",
+      "keyLearnings": "The treatment (eBook offer) saw an increase in email acquisitions across all segments. Overall, the treatment produced a 0.92% increase in email acquisitions at a 99.9% level of confidence. The control acquired zero emails for the duration of the test. The results tell us that page visitors were more excited to receive a free eBook than they were to sign up and receive email updates from TGC.\n\nIt's worth restating that we ran this same test on the TGC home page and the treatment saw negative results. The difference is people often go to the home page to sign up for email updates and they expect an opportunity to sign up for email updates to exist on the home page. That is not the case for TGC's Commentary page. People visit this page to acquire specific knowledge and understanding. Thus, as they keep scrolling down the page, they're intrigued by an offer that also offers them the chance to acquire knowledge and understanding. They don't care at this stage to sign up for general email updates.\n\nThis concept is worth testing on pages for which the free offer aligns with the page content. It would be worth testing on other content-heavy pages.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 47099,
+      "experimentId": "112256",
+      "title": "How adding an in-line dear reader on blog and article pages impacted email acquisition",
+      "date": "2022-11-04T18:24:26",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-in-line-dear-reader-on-blog-and-article-pages-impacted-email-acquisition/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "dear reader",
+        "Email Acquisition | Design"
+      ],
+      "tier": 1,
+      "lift": 27,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Secular Creed Dear Reader",
+            "metric": "1.1%",
+            "lift": "27,919.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an in-line content offer for blog and article visitors will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 10/27/2022 - 11/06/2022\nContent offers for TGC were being run as display ads on the site. There were also email capture forms in the footer of each page offering people a relevant newsletter subscription based on the content they were consuming. But with high volume traffic to blog and article pages, we wondered if including an in-line free content offer that included the eBook cover image, some light value proposition, and a CTA would increase the number of emails acquired from website visitors. We split traffic for this experiment 25/75 with 75% of visitors receiving the treatment which included a dear reader at the end of the article or blog.",
+      "keyLearnings": "What we found after running this experiment for 1 week was that there was a 27,919% increase in email conversion rate with 100% level of confidence. We saw valid increases across every channel, every device type, and every visitor segment. We quickly learned that web visitors responded well to this free content offer when it was featured in a highly visible placement on the web pages they were visiting. We have rolled the dear reader out to 100% of traffic and have several additional test opportunities to move forward on now that we have installed this feature. In the future, we want to test the impact of embedding the form itself so people can enter their name and email address directly on the site without clicking over to the landing page. We also want to test this against different content offers available so we can have something to offer for returning visitors who have already received this specific ebook.\nOur most notable increases were for desktop visitors and returning visitors:\nDesktop visitors had a 12,780.6% increase in email acquisitions with a 100% level of confidence.Returning visitors had a 16,432.8% increase in email acquisitions with a 100% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 27,919.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 33616,
+      "experimentId": "109966",
+      "title": "How focusing ad copy and creative on relatable messaging impacted click through rate",
+      "date": "2022-11-03T19:44:02",
+      "url": "https://www.nextafter.com/experiments/how-focusing-ad-copy-and-creative-on-relatable-messaging-impacted-click-through-rate/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "body copy",
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": [
+        -5.9,
+        142.5
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.84%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.79%",
+            "lift": "-5.9%",
+            "confidence": "54.6%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment #2",
+            "metric": "2.0%",
+            "lift": "142.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that more communal, digestable, and relatable content for ad engagers will achieve an increase in click-through rate.",
+      "summary": "Ended On: 10/10/2022\nTGC is offering its free Secular Creed eBook in acquisition. The Facebook ad promoting the offer was receiving a low click-through rate,  so we wanted to test two new ad variants to see if they would see in increase clicks. We wondered if the existing ad is difficult to process, as it uses a lot of big words, the messaging could be confusing, and overall, it does not do a good enough job of considering the audience.\nTreatment #1 took a new direction with the ad copy and the ad image. The copy begins with a more engaging, personal question that asks for their personal opinion instead of asking if they want to learn something. Overall, it uses communal language (“we” and “us”) instead of general language to get the message across that we share a particular outlook. The image is just the ebook as opposed to the ebook with a long quote to follow.\nTreatment #2 uses the same copy as treatment #1, but implements video creative instead of a static image. The video is a two-minute motivational excerpt from a speech made by the author on topic with the value prop in the ad copy.",
+      "keyLearnings": "There was little difference between the results of the control and treatment 1, with treatment 1 experiencing a 5.9% decrease in clicks with only a 54.6% level of confidence. However, treatment 2 resulted in a 142.5% increase in clicks with a 100% level of confidence.\nThere was little statistical difference between the control copy and the treatment copy, which means the video creative in treatment 2 made all the difference. Strategically selecting a 2-minute excerpt from the author of the eBook that aligned with the value prop and put the problem and solution into perspective motivated people to click the ad.\nGiven the success of this test, it would be wise to, when applicable, leverage eBook authors and leverage video of them that can reach people on a deeper level.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n142.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 32033,
+      "experimentId": "107064",
+      "title": "How including clarity in the subject line impacted clicks",
+      "date": "2022-11-03T19:24:43",
+      "url": "https://www.nextafter.com/experiments/how-including-clarity-in-the-subject-line-impacted-clicks-2/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "click rate",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 51.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Christian living in the internet age",
+            "metric": "7.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Download our latest eBook ‘Digital Discipleship’",
+            "metric": "11.2%",
+            "lift": "51.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that introducing clarity in the subject line for housefile email recipients will achieve an increase in clickthrough rate.",
+      "summary": "Ended On: 09/13/2022\nWhen sending a new offer to the housefile, we wanted to find out how recipients would respond to an email subject line that clearly stated the contents inside. Since TGC regularly sends articles and newsletters that include a subject line that highlight the theme, we wanted to draw attention to the fact that this email was different than usual because it included a newly launched free content offer that was available to download. We sent the control version “Christian living in the internet age” that introduced the topic and developed a treatment that featured the specific resource and CTA “Download our latest eBook ‘Digital Discipleship'”. We split the subject line and sent to 25% and 25% of the housefile recipients.",
+      "keyLearnings": "What we saw was a 51.3% increase in clicks with 100% level of confidence on the treatment subject line that included the specific contents of the email. We believe the treatment subject line increased the appeal of the offer and helped call attention to subscribers that this email included something different than what they usually find in their inbox from TGC that they wouldn't want to miss. The treatment subject line improved the relevance of the message, which led to a more engaged audience because those who opened the email were already primed to take the next step had a higher motivation to click the link because of their initial interest in the offer. For our next test when delivering a content offer, we will test a CTA that uses language such as \"Get\" and include the word \"free\" to see if we can drive additional clicks.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n51.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 34116,
+      "experimentId": "83279",
+      "title": "How a visual redesign of a main donate button on the website impacted clicks",
+      "date": "2022-10-31T15:24:56",
+      "url": "https://www.nextafter.com/experiments/how-visually-emphasizing-the-donate-button-affects-traffic/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "Dallas Theological Seminary"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 27.8,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old - Give Button on Website",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New - Donate to TGC Green Button",
+            "metric": "0.04%",
+            "lift": "27.8%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that visually emphasizing the donate button for homepage visitors will achieve an increase in clicks to the donation page.",
+      "summary": "Timeframe: 01/25/2022 - 03/03/2022\nThe TGC team was inspired by another experiment they saw in a NextAfter Institute webinar to visually modify the main donate button on their website navigation bar. Rather than rolling out the new version based solely on another organization’s results, we decided to test into the optimal design by splitting traffic 50/50 and measuring the results of how many people clicked on each version of the button. The existing button said “Give” and was visually the same as the other calls to action in the navigation header. The treatment was a green button to help it stand out visually from the rest of the page and the text was revised to “Donate to TGC” to add clarity.",
+      "keyLearnings": "After running the experiment for one month, we saw a valid increase in clicks on the new green button that said \"Donate to TGC\". What was interesting, however, is that donations and revenue recorded on the donation page were actually higher coming from the control version. Because an experiment was simultaneously running on the main donation page that could have been responsible for impacting these results, we will have to take this into account on a future experiment. Overall we learned that the new button design did, in fact, attract significantly more visitors to the main donate page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 27.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 32214,
+      "experimentId": "107213",
+      "title": "How adding clarity in the headline impacted email acquisition",
+      "date": "2022-10-03T14:54:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-clarity-in-the-headline-impacted-email-acquisition/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "clarity",
+        "Email Acquisition"
+      ],
+      "tier": 1,
+      "lift": 22.2,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "38.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Digital Discipleship Landing Page Headline B",
+            "metric": "46.7%",
+            "lift": "22.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing clarity and appeal in the headline for landing page visitors on an acquisition offer will achieve an increase in email conversion rate.",
+      "summary": "Timeframe: 09/15/2022 - 09/29/2022\nWhen launching a new offer for email acquisition, we hypothesized that the headline “Get your FREE copy of Digital Discipleship” did not give readers enough clarity or appeal to want to get the resource. We proposed a treatment that simply added value proposition for why someone might want the offer and how it would benefit them: “Get your FREE copy of Digital Discipleship and learn how to address the challenges of faith in the digital age” We split traffic 50/50 to each version of the page, making no other changes except the additional text in the headline for this test.",
+      "keyLearnings": "What we found after running the test for 2 weeks was the treatment produced a 22% increase in email conversions with 99% level of confidence. The lifts were valid across every channel. We believe this is due to the enhanced perceived value of the offer by explaining what the visitor would \"get\" when they received the resource as we demonstrated through the headline copy what they would learn and how it would benefit them personally. Based on the results of this test, we will move to testing this same theory in other places the offer is advertised on the website and see if enhancing the call to action with some additional appeal and clarity will increase motivation to click the display ads when presented.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 22.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 32032,
+      "experimentId": "107064",
+      "title": "How including clarity in the subject line impacted clicks",
+      "date": "2022-10-03T13:57:45",
+      "url": "https://www.nextafter.com/experiments/how-including-clarity-in-the-subject-line-impacted-clicks/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "click through rate",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 51.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Christian living in the internet age",
+            "metric": "7.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Download our latest eBook \"Digital Discipleship\"",
+            "metric": "11.2%",
+            "lift": "51.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that introducing clarity in the subject line for housefile email recipients will achieve an increase in clickthrough rate.",
+      "summary": "Ended On: 09/13/2022\nWhen sending a new offer to the housefile, we wanted to find out how recipients would respond to an email subject line that clearly stated the contents inside. Since TGC regularly sends articles and newsletters that include a subject line that highlight the theme, we wanted to draw attention to the fact that this email was different than usual because it included a newly launched free content offer that was available to download. We sent the control version “Christian living in the internet age” that introduced the topic and developed a treatment that featured the specific resource and CTA “Download our latest eBook ‘Digital Discipleship'”. We split the subject line and sent to 25% and 25% of the housefile recipients.",
+      "keyLearnings": "What we saw was a 51.3% increase in clicks with 100% level of confidence on the treatment subject line that included the specific contents of the email. We believe the treatment subject line increased the appeal of the offer and helped call attention to subscribers that this email included something different than what they usually find in their inbox from TGC that they wouldn't want to miss. The treatment subject line improved the relevance of the message, which led to a more engaged audience because those who opened the email were already primed to take the next step had a higher motivation to click the link because of their initial interest in the offer. For our next test when delivering a content offer, we will test a CTA that uses language such as \"Get\" and include the word \"free\" to see if we can drive additional clicks.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n51.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29309,
+      "experimentId": "93535",
+      "title": "How a revised headline and CTA impacted signups for a weekly newsletter",
+      "date": "2022-08-12T16:22:12",
+      "url": "https://www.nextafter.com/experiments/how-a-revised-headline-and-cta-impacted-signups-for-a-weekly-newsletter/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "CTA",
+        "Email Acquisition",
+        "Email Acquisition | Headline"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Headline/Button Copy",
+            "metric": "65.9%",
+            "lift": "100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing the value and clarity in an email newsletter signup form for potential newsletter subscribers will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 05/04/2022 - 06/06/2022\nOur third test on this page had a significant variance in the sample size on the control versus the treatment so we wanted to relaunch the test to make sure the results were not muddied. We split traffic between the control page and a treatment page with a headline that had a stronger emphasis on the VALUE provided to the subscriber rather than the newsletter product itself: “Get weekly access to trusted, timely, gospel-centered resources.” We also created a treatment to the button copy to provide additional clarity in the call to action:“Send TGC Weekly to my inbox »”",
+      "keyLearnings": "The treatment ran for one month and we observed a 24.2% decrease in conversion rate with 97.7% level of confidence so the results are valid. This time our sample sizes were accurately proportionate so these results override the increase we observed on the previous test. Our hypothesis is that getting TGC's \"best content\" was a more appealing description and \"trusted, timely, gospel-centered resources\" did not provide enough clarity, appeal, or value to convince users to subscribe to the weekly newsletter.\n\nObservations of the impact on other visitor segments in the experiment:\nDesktop visitors had a 33.2% decrease in email acquisitions with a 95% level of confidence.\n \tReturning visitors had a 40.2% decrease in email acquisitions with a 98% level of confidence.\n \tEmail visitors had a 28.6% decrease in email acquisitions with a 100% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 28699,
+      "experimentId": "93736",
+      "title": "How using a video ad on Facebook impacted clicks for a free eBook",
+      "date": "2022-05-10T13:33:12",
+      "url": "https://www.nextafter.com/experiments/how-using-a-video-ad-on-facebook-impacted-clicks-for-a-free-ebook/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 52.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.37%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.57%",
+            "lift": "52.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding appeal and evidentials through a video ad for Facebook ad viewers will achieve an increase in clicks to the landing page.",
+      "summary": "Ended On: 05/10/2022\nOn a previous acquisition offer, we saw that a video ad increased clicks to the landing page. We wanted to see if we could achieve similar results on a similar offer so we launched a video ad in the campaign that featured a Q&A audio clip from the author of the book that addressed a topic that was related to the content in the free eBook. We hypothesized that by adding credibility for the author introduced in the video we might be able to increase legitimacy of the offer as well as create additional appeal for visitors and therefore improve the clickthrough rate on the treatment. After letting the video run side by side the graphic ads for 14 days, we evaluated results.",
+      "keyLearnings": "What we discovered was the video ad treatment led to a 52.8% lift in clickthrough rate with a 99.9% level of confidence. We believe this was due to the additional appeal of the offer by featuring one of the questions that is answered in the contents of the eBook offer, thereby showing additional value and relevancy for Facebook ad viewers to increase their likelihood to click to get their free copy. Demonstrating the author's credibility in the audio clip to speak on the topic of health could have also influenced the lift that we achieved. Based on this as well as previous test results, we will continue to prioritize video when developing creative for new offers from TGC.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n52.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 28320,
+      "experimentId": "92743",
+      "title": "How using video in a Facebook ad impacted clicks on a content offer",
+      "date": "2022-04-29T01:02:07",
+      "url": "https://www.nextafter.com/experiments/how-using-video-in-a-facebook-ad-impacted-clicks-on-a-content-offer/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 40.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.33%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.46%",
+            "lift": "40.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a video highlighting an eBook offer for Facebook ad viewers will achieve an increase in clickthrough rate.",
+      "summary": "Ended On: 04/26/2022\nWhen testing different ad creative options for an online course offer, we found that using a trailer video both reduced our cost per click and increased our click-through rate for the campaign. This made us wonder if using video creative for an eBook offer would get similar results to what we observed during the online course experiment. The video we chose to use gives a quick 1-minute summary of the topics covered in the eBook and why it is a relevant message but it also evokes a sense of mystery and intrigue. We launched the video ad across all active ad sets to start collecting data to see if our hypothesis was correct.",
+      "keyLearnings": "After running the test for 3 weeks, we assessed the results. What we found was that the video treatment produced a 40.9% increase in clickthrough rate with 99.9% confidence and outperformed the still image graphics. We believe that the video 1) added more clarity by giving more context about the book description, 2) added more credibility as the video trailer is very highly produced which could help visitors believe it is a valuable offer, and 3) added mystery by not fully giving away all of the details about the book which caused an increase in interest. We believe these 3 elements of the treatment worked together to get more Facebook ad viewers to click through to the landing page to learn more about the offer and cause the valid lift. Because of this statistically significant learning, we will move forward in identifying video creative options when we are selecting new offers to launch.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n40.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 28327,
+      "experimentId": "90202",
+      "title": "How a tabbed form on an acquisition offer impacted monthly gifts",
+      "date": "2022-04-29T01:01:21",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-tabbed-form-on-an-acquisition-offer-impacted-overall-giving/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.0%",
+            "lift": "100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that offering a tabbed form for instant donation page visitors will achieve an increase in monthly donations.",
+      "summary": "Timeframe: 03/25/2022 - 05/15/2022\nBecause we have found recurring donors to consistently have a higher lifetime value as well as a higher retention rate than one time donors, we wanted to identify additional ways to convert donation page visitors into recurring donors. The standard donation form control has a checkbox underneath the gift array that says “Make this a monthly gift” but our hypothesis was that asking for the gift amount first was causing friction to then commit the chosen amount as a monthly gift after the fact. We wanted to test introducing a tabbed form on an acquisition offer so we could determine if a tabbed form would have any substantial negative impact on overall giving before we tried to put this option on the main TGC donation page. We split traffic 50/50 between the two pages, making only the change to the donation form presentation of one time vs. monthly giving.",
+      "keyLearnings": "The control received 0 monthly donations while the treatment received 13 monthly donations, resulting in a valid 1% increase in recurring donor conversion rate on the treatment with 99.9% level of confidence. As a result. revenue experienced a 1,352.4% increase with a 100% level of confidence. Additionally, overall donations experienced a 16.9% increase with a 100% level of confidence. On future tests, we will look for ways to highlight the value proposition for monthly giving in the body copy to continue to aim for increased recurring donors. It is important to note that we did not reach the desired minimum of 50 transactions to fully validate this test, so we will need to run this on the main donation page where we can get additional traffic and volume of conversions to know for sure if the treatment is producing a true lift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 28342,
+      "experimentId": "91379",
+      "title": "How a revised headline and CTA impacted email acquisition for a newsletter sign up (Part III)",
+      "date": "2022-04-29T01:00:34",
+      "url": "https://www.nextafter.com/experiments/how-a-revised-headline-and-cta-impacted-email-acquisition-for-a-newsletter-sign-up-part-iii/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 48.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "67.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Headline/Button Copy",
+            "metric": "100.0%",
+            "lift": "48.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing the value and clarity in an email newsletter signup form for potential newsletter subscribers will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 04/12/2022 - 04/29/2022\nOur previous two tests on this page failed to get the results we were after, so we gave it a third try. Rather than trying to pack the page full of value proposition, we hypothesized that page visitors were already motivated enough to sign up because of the value prop in the email copy. We still believed we could optimize the signup form page so we developed a treatment headline that had a stronger emphasis on the VALUE provided to the subscriber rather than the newsletter product itself: “Get weekly access to trusted, timely, gospel-centered resources.” We also created a treatment to the button copy to provide additional clarity in the call to action:“Send TGC Weekly to my inbox »”",
+      "keyLearnings": "What we saw after about 2 weeks was that the treatment page had a 48.3% increase in conversion rate with 99.9% level of confidence so the results are valid. We believe this is because we increased clarity and made the offer both more appealing and more exclusive in a very succinct manner. Thousands of other newsletters use \"Subscribe\" as their call to action. We wanted to show exclusivity that this is a specially branded and curated newsletter product just from TGC that is not available anywhere else. We also let people know 1) how often they could expect to receive the newsletter, 2) what they could expect to receive in the contents of the newsletter as well as the value it would provide them, and 3) where they would receive it. Because traffic to this page was limited to the email channel, specifically those in the New Subscriber Welcome Series, we had a fairly low number of total email acquisitions. It would be best to test this concept again but open the filters to include additional traffic sources such as additional emails, organic search, and internal website visitors so we can get a larger sample size.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 48.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27722,
+      "experimentId": "90142",
+      "title": "How adding value proposition impacted signups for a weekly newsletter – Part 2",
+      "date": "2022-04-12T17:04:58",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-impacted-signups-for-a-weekly-newsletter-part-2/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -64.2,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "52.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Copy (condensed)",
+            "metric": "18.8%",
+            "lift": "-64.2%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that reinforcing appeal, clarity and exclusivity for landing page visitors will achieve an increase in newsletter subscriptions.",
+      "summary": "Timeframe: 04/04/2022 - 04/15/2022\nWhen sending visitors to a landing page with a form to sign up for a weekly newsletter, we thought that providing additional clarity about the contents of the newsletter would lead to more email subscriptions. Our initial treatment decreased conversion, so we developed a second treatment that condensed the landing page copy into just a few paragraphs highlighting the appeal and exclusivity of the newsletter contents. We split traffic between the control with a single headline and the treatment with the additional value proposition and ran the experiment for 7 days.",
+      "keyLearnings": "After one week, we observed a valid 64.2% decrease in email conversion with 97.8% confidence so we ended the experiment. Mobile visitors specifically saw a 50% decrease in email acquisitions with a 95% level of confidence which leads us to believe the treatment copy was too long and hiding the form and call to action \"below the fold\" of the page and required too much scrolling which was adding friction to the page. Also, because these page visitors are coming from an email that gives a thorough description of the value and benefits of the newsletter, we know that traffic is already motivated to get the product and we believe we can use less copy once they indicate they are interested by clicking from the email. We also believe that using \"for all of life\" in the headline could be causing some friction and anxiety rather than offering clarity and making the user think they will be getting the email newsletter \"for all of life\" rather than once a week and cause confusion about their ability to opt-out of these messages in the future. We will relaunch the experiment with a simple headline and button copy change and see how this impacts email conversion going forward.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 64.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27626,
+      "experimentId": "88489",
+      "title": "How concisely communicating the value proposition impacted conversions on a main donation page",
+      "date": "2022-04-11T13:16:16",
+      "url": "https://www.nextafter.com/experiments/how-concisely-communicating-the-value-proposition-impacted-conversions-on-a-main-donation-page/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 116.4,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Main Donation Page - Control",
+            "metric": "4.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Headline + Body Copy - Treatment",
+            "metric": "8.9%",
+            "lift": "116.4%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that concisely communicating the value proposition for main donation page visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 03/15/2022 - 04/11/2022\nWe previously tested the introduction of value proposition on TGC’s main donation page and saw that it was directionally decreasing conversion on the page so we ended the test and went back to the drawing board for new ideas on how to improve conversion and achieve the lift we were looking for. We still believed that some value proposition would be better than no value proposition so we wanted to condense the copy and see if a shorter presentation of the value prop would get greater results. We developed a treatment that acknowledged the visitor’s interest in making a gift in the headline, highlighted the need at hand, and quickly outlined the direct impact the donor’s gift would make. We also removed the header and footer with outbound or distracting links to keep the visitor focused on the donation page ask and make the desired call to action clear. Traffic was split 50/50 to the page.",
+      "keyLearnings": "After running the experiment for 3 weeks, we achieved a 116.4% increase in conversion rate with 99% level of confidence so the results are valid. We saw valid lifts for desktop visitors (130.8% increase), returning visitors (295.2% increase), and email visitors (866.7%) all with 100% level of confidence. We believe this happened because we acknowledged their reason for visiting the page and began the conversation to communicate the impact of making a gift clearly and succinctly to page visitors. One thing to keep in mind is that revenue experienced a 56.1% decrease with an 87% level of confidence due to a few large gifts on the control version that are outliers impacting these results but we should also consider if there is anything on the treatment page that could be causing donors to choose a lower average gift. To combat the indication that there is a directional decline in revenue, on a future iteration of a test for this page, we could highlight a \"most popular\" gift choice on the array to help improve average gift. We could also call more attention to recurring giving to increase the overall value of a donor upon conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 116.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27661,
+      "experimentId": "90645",
+      "title": "How using a course trailer video to add clarity in a Facebook ad impacted click rate and cost per click",
+      "date": "2022-04-11T13:15:27",
+      "url": "https://www.nextafter.com/experiments/how-using-a-course-trailer-video-to-add-clarity-in-a-facebook-ad-impacted-click-rate-and-cost-per-click/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 152.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.24%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.60%",
+            "lift": "152.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing clarity about the content and format of a free online course for Facebook ad viewers will achieve an increase in clicks.",
+      "summary": "Ended On: 04/08/2022\nWhen reviewing performance for a recently launched online course, we were seeing a much higher cost per click for this offer when compared to other acquisition offers promoting eBook content. We wanted to find a way to reduce a cost per click and increase our engagement rate on the ads to close the gap in performance between the two offer types. We took a 2 minute video from the online course page and moved it up in the funnel to the Facebook ad level to give an introductory glimpse at what content and themes would be covered in the online course. The speaker in the video gives a clear outline of the format of each course module and how much time they can anticipate to spend which we hypothesized would help to reduce anxiety and friction in the decision making process in the mind of the donor asking “Why would I want to take this course?”  and create appeal and clarity in order to drive additional interest in the offer.",
+      "keyLearnings": "We found that by switching the creative in the ad from a still image featuring the course title to a 2 minute video with clear details about what they would be signing up for, we were able to achieve a 152.4% increase in click rate on the ad with 99% level of confidence. What's more, we were also able to reduce the cost per click by 25% so not only were we able to get more clicks but we were able to get them at a lower cost by introducing the video and giving viewers additional clarity before they took the next step to begin the registration process for the course. By reducing anxiety and friction by laying the groundwork and giving visitors clear direction in the form of an overview of what they would be signing up for, we were able to get additional people to say \"yes\" to take the next step and \"learn more\" about the course. Based on what we have learned through this experiment, we are going to move forward with testing a video trailer for an eBook offer as well to see if we can continue to improve results and be more effective with our paid media spend.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n152.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25817,
+      "experimentId": "80036",
+      "title": "How an instant donation page radical redesign impacted gifts from email traffic",
+      "date": "2022-02-28T15:14:37",
+      "url": "https://www.nextafter.com/experiments/how-an-instant-donation-page-radical-redesign-impacted-gifts-from-email-traffic/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 68.8,
+      "confidence": 96.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Change Headline",
+            "metric": "3.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Change headline + Add copy",
+            "metric": "6.3%",
+            "lift": "68.8%",
+            "confidence": "96.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radically redesigned donation page with clearly outlined value proposition for survey responders from a housefile email will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 12/14/2021 - 01/06/2022\nAhead of calendar year-end appeals, we sent a reader survey as a cultivation piece to engage the housefile audience. After they completed their survey, they were redirected to an instant donation page. We wanted to test a radical redesign of the donation page, optimizing various elements to see how potential donors would respond. We removed all navigation from the header/footer, removed the image from the donation page, and replaced the space above the form with value proposition. Throughout the donation page copy we highlight the relevance and urgency of the case for support, use messaging that incorporates Scripture and aligns with the donor’s beliefs, ask for a gift and then explain clearly what their gift will accomplish and give instructions on exactly how to make their gift if interested. We ran an A/B test to split traffic to each version of the page after the survey was submitted.",
+      "keyLearnings": "What we found when we analyzed donations and revenue from email traffic is that we saw a 68.8% lift in donations with 96.5% confidence and a 7.1% lift in average gift on the radically redesigned treatment page. This led to an overall 68% increase in revenue from the new donation page. We learned that potential donors responded well to the donation page copy that acknowledged their survey submission and led into a relevant ask based on their previous action and aligned with what we know about their beliefs and engagement with TGC content. We will continue to introduce value proposition for other donation pages across pathways and channels to improve conversion in the future.\nObservations of the impact on other visitor segments in the experiment:\nMobile visitors had an 80.9% increase in donations with an 85% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 68.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25950,
+      "experimentId": "80441",
+      "title": "How a radically redesigned main donation page impacted gifts at calendar year-end",
+      "date": "2022-02-28T15:13:54",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-main-donation-page-impacted-gifts-at-calendar-year-end/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 80.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Main Donation Page - Control",
+            "metric": "4.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Headline + Body Copy - Treatment",
+            "metric": "7.3%",
+            "lift": "80.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radical redesign for a main donation page at calendar year-end will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 12/22/2021 - 01/01/2022\nBecause we saw a lift in donor response in a previous experiment when adding relevant value proposition to a post-survey donation page, we wanted to introduce similar language on the main donation page for TGC during their calendar year-end campaign. In addition to outlining the value proposition in the body copy, we revised the headline to indicate how the donor’s gift would be used and mention the upcoming deadline. We also added a countdown clock at the top of the page to indicate urgency and added a live thermometer at the bottom of the page to show progress toward the revenue goal. Beneath the donation button we added a sentence of supporting value proposition demonstrating the impact TGC donors have had throughout the year. Finally, we removed the navigation bar and alternate conflicting calls to action in the footer to keep the donor on the page and stay focused on moving forward with making their gift.",
+      "keyLearnings": "After running the treatment on the main donation page during the last 10 days of the month, we observed an 80% increase in donor conversion with 99% level of confidence. By creating a specific value proposition and highlighting urgency, the treatment outperformed the general main donation page during this timeframe. For future experiments, we will look into which individual elements from this experiment could be re-tested on the main donation page to improve conversion on a more evergreen basis. TGC donors seemed to respond well to the treatment elements but we will want to condense and isolate some of the variables to identify those that can continually move the needle for traffic in general outside of a high urgency campaign.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 80.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25960,
+      "experimentId": "83279",
+      "title": "How a visual redesign of a main donate button on the website impacted clicks",
+      "date": "2022-02-28T15:12:52",
+      "url": "https://www.nextafter.com/experiments/how-a-visual-redesign-of-a-main-donate-button-on-the-website-impacted-clicks/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 27.8,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old - Give Button on Website",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New - Donate to TGC Green Button",
+            "metric": "0.04%",
+            "lift": "27.8%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that visually emphasizing the donate button for homepage visitors will achieve an increase in clicks to the donation page.",
+      "summary": "Timeframe: 01/25/2022 - 03/03/2022\nThe TGC team was inspired by another experiment they saw in a NextAfter Institute webinar to visually modify the main donate button on their website navigation bar. Rather than rolling out the new version based solely on another organization’s results, we decided to test into the optimal design by splitting traffic 50/50 and measuring the results of how many people clicked on each version of the button. The existing button said “Give” and was visually the same as the other calls to action in the navigation header. The treatment was a green button to help it stand out visually from the rest of the page and the text was revised to “Donate to TGC” to add clarity.",
+      "keyLearnings": "After running the experiment for one month, we saw a valid increase in clicks on the new green button that said \"Donate to TGC\". What was interesting, however, is that donations and revenue recorded on the donation page were actually higher coming from the control version. Because an experiment was simultaneously running on the main donation page that could have been responsible for impacting these results, we will have to take this into account on a future experiment. Overall we learned that the new button design did, in fact, attract significantly more visitors to the main donate page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 27.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25973,
+      "experimentId": "82505",
+      "title": "How adding value proposition to a main donation page impacted conversion and revenue",
+      "date": "2022-02-28T15:11:56",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-main-donation-page-impacted-conversion-and-revenue/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -45.8,
+      "confidence": 99,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Main Donation Page - Control",
+            "metric": "7.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Headline + Body Copy - Treatment",
+            "metric": "3.9%",
+            "lift": "-45.8%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that including value proposition for main donation page visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 01/18/2022 - 03/03/2022\nBecause we saw a lift in donor response at calendar year-end by adding value proposition to the main donation page, we wanted to introduce similar language on the main donation page outside of a high urgency campaign. Throughout the body copy, we emphasize the problem TGC is trying to address and revised the headline to indicate how the donor’s gift would be used. Beneath the donation button we added a sentence of supporting value proposition demonstrating the impact TGC donors have had throughout the year. Finally, we removed the navigation bar and alternate conflicting calls to action in the footer to keep the donor on the page and stay focused on moving forward with making their gift.",
+      "keyLearnings": "What we found across all channels and segments was the treatment decreased both transactions and revenue coming in from the main donation page traffic. It's possible the amount of copy before the donation form was actually getting in the way of highly motivated visitors who were already prepared to make a gift upon arrival to the page. While this approach originally worked for a high urgency campaign, we will want to test some shorter language to introduce the donation form itself.\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 71.1% decrease with a 96% level of confidence.\nObservations of the impact on other visitor segments in the experiment:\nDesktop visitors had a 50.9% decrease in donations with a 99% level of confidence.(Other) visitors had a 100.0% decrease in donations with a 100% level of confidence.Direct visitors had a 100.0% decrease in donations with a 100% level of confidence.Social visitors had a 100.0% decrease in donations with a 100% level of confidence.Returning visitors had a 55.6% decrease in donations with a 100% level of confidence.Referral visitors had a 100.0% decrease in donations with a 100% level of confidence.Email visitors had a 100.0% decrease in donations with a 100% level of confidence.Male visitors had a 100.0% decrease in donations with a 93% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 45.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25984,
+      "experimentId": "83616",
+      "title": "How a visually redesigned landing page impacted email conversion for a content offer",
+      "date": "2022-02-28T15:10:57",
+      "url": "https://www.nextafter.com/experiments/how-a-visually-redesigned-landing-page-impacted-email-conversion-for-a-content-offer/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 7.6,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "51.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "55.8%",
+            "lift": "7.6%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a visually redesigned landing page for a content offer will achieve an increase in email conversion.",
+      "summary": "Timeframe: 01/28/2022 - 02/18/2022\nWhen launching a new acquisition offer, we wanted to test a more highly visual layout that would be more in line with the organization’s branding and design themes against the standard stripped-down acquisition page. The designed layout is similar to past offers TGC had displayed for its visitors, but this was the first time they were using clear value proposition and an optimized call to action so we were curious which version would perform better.",
+      "keyLearnings": "Overall, the treatment produced a 7.6% increase in emails acquired. Looking deeper into the results, however, we see that this actually had a 32% decrease for visitors in the age 55-64 segment. This is important to note as this is a segment that generally has a higher propensity to give. Based on this analysis we could look at targeting visitors based on segment and leading them to a custom landing page based on their likelihood to convert. There are a few elements on the treatment page we would like to further test including moving all value proposition above the form and moving the graphic to the right-hand side of the page that we will build as another experiment and continue to improve email acquisition rates for this page.\nObservations of the impact on other visitor segments in the experiment:\n(Other) visitors had an 11.1% increase in email acquisitions with a 100% level of confidence.Direct visitors had a 50.0% increase in email acquisitions with a 100% level of confidence.Organic Search visitors had a 37.2% increase in email acquisitions with a 99% level of confidence.Referral visitors had a 100.0% decrease in email acquisitions with a 98% level of confidence.Mobile visitors had a 10.8% increase in email acquisitions with a 99% level of confidence.New  visitors had a 15.6% increase in email acquisitions with a 100% level of confidence.Male visitors had a 23.3% increase in email acquisitions with a 99% level of confidence.35-44 visitors had a 26.8% increase in email acquisitions with a 97% level of confidence.25-34 visitors had a 70.8% increase in email acquisitions with a 100% level of confidence.18-24 visitors had a 19.5% decrease in email acquisitions with an 90% level of confidence.55-64 visitors had a 32.1% decrease in email acquisitions with a 95% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 7.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25118,
+      "experimentId": "81349",
+      "title": "How redesigning the main donate button on the homepage affected traffic at year-end",
+      "date": "2022-01-08T23:21:28",
+      "url": "https://www.nextafter.com/experiments/how-redesigning-the-main-donate-button-on-the-homepage-affects-traffic/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 25.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old - Give Button",
+            "metric": "0.37%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New - Green Donate to TGC Button",
+            "metric": "0.46%",
+            "lift": "25.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that emphasizing the main donation button for homepage visitors will achieve an increase in traffic to the donation page.",
+      "summary": "Ended On: 12/30/2021\nLeading up to calendar year-end, we know that visitors to the TGC homepage had a high motivation to give. We wanted to make sure that potentially highly motivated donors could easily find where to make their year-end gift.\nWe rolled out a new button design on the homepage to see if we could make it easier for potential donors to find the donation page, but we wanted to run this as a test against the old version to capture the impact.\nThe new button (running as the control for this experiment) read “Donate to TGC” and we made it green to stand out for visual emphasis while the old button (the treatment version) simply said “Give” and visually matched all other menu options in the header.\nWe split traffic to each version.",
+      "keyLearnings": "What we found was the new button (green button) drove more traffic to the donation page. Of these two buttons, the “Donate to TGC” button provided the additional clarity necessary to increase traffic to the page while the white \"Give\" button saw a decrease in traffic of 20%.\nBecause we were running a separate test on the donation page, we did not factor in conversion rate or revenue on the donation page from this experiment. We only wanted to measure the impact on clicks through to the donation page. What we learned is that the more visual button made it easier for potential donors to find the next step we want them to take by adding clarity in the messaging and visually leading them where to go.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n25.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48010,
+      "experimentId": "114145",
+      "title": "How a radical redesign impacted gifts on an instant donation page",
+      "date": "2022-11-29T19:19:16",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-impacted-gifts-on-an-instant-donation-page/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -25.7,
+      "confidence": 94.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.5%",
+            "lift": "-25.7%",
+            "confidence": "94.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radical redesign for instant donation page visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 11/10/2022 - 11/25/2022\nWhen launching a new content offer, we had similar donation page language in place from previous content offers and we knew that the housefile visitors would likely be returning visitors. We wanted to test a new approach that condensed some lengthy copy on the treatment into 3 specific items the reader should know. We also updated the headline from “Thank you” to “Congratulations” and mentioned the title of the specific offer they had requested. We split traffic equally between the two pages and ran the experiment for 2 weeks before evaluating results.",
+      "keyLearnings": "After two weeks, we saw a 25.7% decrease in conversion rate with 94% level of confidence, so the results were indicating a directional decrease. We believe the treatment language in the headline \"you're all set\" was causing visitors to leave the page before reading the remaining message. We saw valid decreases for many visitor segments, so we decided to end the experiment early and reassess the best treatment to run for these visitors. On future testing for this page, we will reconstruct the headline language that asks people to read the message below before they exit the site. Then, we can better evaluate if the \"3 things you should know\" approach was the true cause for the decrease, or if there was another element from the radical redesign (in this case, the headline) that was inadvertently causing friction that interfered with the test and prevented people consuming the message.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 35357,
+      "experimentId": "110359",
+      "title": "How offering a free ebook for email acquisition in the home page footer instead of a general email subscription form impacted email acquisition",
+      "date": "2022-11-03T19:14:31",
+      "url": "https://www.nextafter.com/experiments/how-offering-a-free-ebook-for-email-acquisition-in-the-home-page-footer-instead-of-a-general-email-subscription-form-impacted-email-acquisition/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Email Acquisition | Design"
+      ],
+      "tier": 2,
+      "lift": -26.6,
+      "confidence": 89.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.02%",
+            "lift": "-26.6%",
+            "confidence": "89.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that offering a free ebook as an email acquisition method in the home page footer for page vistiors will achieve an increase in emails acquired.",
+      "summary": "Timeframe: 09/16/2022 - 10/13/2022\nIn their home page footer, TGC gives users the opportunity to subscribe to email updates. The section says “Email Updates” and users can enter their email below and sign up. We wondered if offering a free ebook to users when they sign up would acquire more emails than the existing “email updates” sign-up opportunity, so we tested the idea. In the footer, we replaced the email updates section with an offer to receive a popular ebook for free. We included value prop telling the user how the ebook could help them and below was a sign up form including first name, last name, and email, and a button that read “Get my free ebook »”.",
+      "keyLearnings": "The control saw a 0.03% conversion rate compared to a 0.02% conversion rate for the treatment. Ultimately, the treatment had a 26.6% decrease in emails acquired with an 89.1% level of confidence. Users were more likely to sign up for email updates than to receive a free ebook.\n\nGiven that TGC offers a ton of content, which users can see as they scroll through the home page and down to the footer of the page, a user's primary intent may be to receive email updates for new content and new articles. So the opportunity to receive only a single free ebook is limiting compared to receiving lots of updates with lots of new content.\n\nWe're going to run this same experiment on TGC's Commentaries page to see if/how the user motivation adjusts from the home page to the commentaries page.\n\nIt may be a good idea to test adding value prop language to the home page footer in line with receiving email updates. Right now, the sign up opportunity only says \"Email Updates\" offering no value prop as to why the user might want to sign up for email updates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30699,
+      "experimentId": "98995",
+      "title": "How adding testimonials in a sidebar impacted email acquisitions on a free eBook offer page",
+      "date": "2022-08-22T16:44:36",
+      "url": "https://www.nextafter.com/experiments/how-adding-testimonials-in-a-sidebar-impacted-email-acquisitions-on-a-free-ebook-offer-page/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Email Acquisition",
+        "landing page",
+        "social proof"
+      ],
+      "tier": 2,
+      "lift": -2.2,
+      "confidence": 94.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "62.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Testimonials",
+            "metric": "61.0%",
+            "lift": "-2.2%",
+            "confidence": "94.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding credibility via book reviews for a free eBook offer will achieve an increase in email acquisition rate.",
+      "summary": "Timeframe: 06/27/2022 - 08/05/2022\nWe wanted to find out if increasing the appeal by adding social proof through credibility and evidentials would improve email acquisition rates on a free eBook offer. We took testimonial quotes from another author and from one of the organization’s trusted pastors and council members and featured them on the landing page to further reinforce to landing page visitors that this was a valuable book offer that was available for free. We split traffic 50/50 between the control and the treatment and ran the test for a month.",
+      "keyLearnings": "What we observed as a 2.2% decrease in conversion rate with 94% level of confidence. The results were pretty much flat but overall we saw a slight decrease in the percentage of total emails acquired across all traffic for those who experienced the treatment version of the landing page. Our hypothesis is that visitors could have been unfamiliar with those who were quoted in the testimonials. Because the recommendations were coming from another author and from a pastor rather than a layperson, it could have been assumed that this offer was only suitable for those in positions of ministry or Christian writers—rather than a person in the general workforce or average home. This could have led some people to think the offer was not intended for them and so they did not take the next step. Some changes in visitor segments in the experiment that were interesting to note were that while direct visitors had a 16.2% decrease in email acquisitions with a 100% level of confidence, email visitors had a 14.0% increase in email acquisitions with a 100% level of confidence. It's possible that email visitors could have been more receptive to the treatment since they are likely to be more familiar with the style and nature of TGC book reviews if they have been receiving regular communications via email from the organization.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27990,
+      "experimentId": "91621",
+      "title": "How tightening copy and replacing a button with a hyperlink affected click rates on an auto-responder",
+      "date": "2022-04-18T12:59:33",
+      "url": "https://www.nextafter.com/experiments/how-tightening-copy-and-replacing-a-button-with-a-hyperlink-affected-click-rates-on-an-auto-responder/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 9.2,
+      "confidence": 87.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "7.1%",
+            "lift": "9.2%",
+            "confidence": "87.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that tightening the copy and replacing a button with a hyperlink for email recipients will achieve a higher click rate.",
+      "summary": "Ended On: 04/15/2022\nThe Gospel Coalition developed a content offer which provided a free e-book download when people signed up. To further cultivate this audience and provide even greater value to their experience, a discussion guide was sent the next day to anyone who downloaded the ebook. We wanted to know how different tones and link presentations might affect click rates and developed a treatment which would be run through an A/B test with traffic split 50/50.",
+      "keyLearnings": "This experiment produced a 9.2% directional lift in click rates with an 87.2% level of confidence indicating that the shorter, more direct copy of our treatment (compared to the more conversational, interrogative copy of the control) did have a measurable positive effect on click rates.\nMore subtly, the treatment copy was structured to provide the \"why\" (value proposition) of downloading the question guide at the beginning of the email, directly after the salutation. This is based on the theory of influence that states that providing a clear 'why' within a request is more likely to trigger a response of compliance—in this case by clicking to download the question guide \"to help you get the most from this insightful resource.\"\nThis value proposition is later reinforced near the CTA (call to action) by illustrating that the question guide will a) help readers apply the text's lessons to their own life and b) provide a framework for discussing the text with others.\nThe treatment also hypothesized that a simple hyperlink may also help improve click rates over a button which, while very visible, may create additional friction at the CTA.\nThese results show that providing a \"why\" and streamlining the language within an email promotion can trigger a more favorable response from recipients by creating a slippery slide which carries them effortlessly from salutation to CTA while providing enough benefit for recipients to click through.\nIn the future, we will test these elements individually to help isolate the variable that produced the lift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27745,
+      "experimentId": "88114",
+      "title": "How adding value proposition impacted email signups for a newsletter – Part 1",
+      "date": "2022-04-12T17:05:32",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-impacted-email-signups-for-a-newsletter-part-1/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -19.9,
+      "confidence": 92,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "82.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Copy",
+            "metric": "65.9%",
+            "lift": "-19.9%",
+            "confidence": "92.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing appeal and clarity for a weekly newsletter offer will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 03/07/2022 - 03/27/2022\nIn looking at ways to acquire more email addresses through a weekly newsletter offer, we looked at the current value prop offered on the landing page. With just a brief headline on the control, we saw an opportunity to develop a treatment that would provide additional language to increase specificity and exclusivity in order to get more people to subscribe. We developed a version with more appeal, outlining the benefits to the reader and giving them more details about the newsletter’s contents. We split email traffic to this page from the new subscriber welcome series.",
+      "keyLearnings": "After running the experiment for 3 weeks, we observed a directional decrease of 19.9% in email acquisition with a 92% level of confidence. Specifically, we saw valid decreases for desktop visitors and email visitors. Because we had already \"made the sale\" in the body copy of the email where our visitors were arriving from for why someone should subscribe, we believe the additional value proposition was actually causing unnecessary friction on the page. We would like to run a similar test in the future to see how this would impact visitors from other channels or calls to action in other website placements that do not lead with clarity and value proposition like the email experience provides.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 25121,
+      "experimentId": "81331",
+      "title": "How adding clarity to sticky bar messaging impacted donations for a high urgency campaign",
+      "date": "2022-01-08T23:18:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-clarity-to-sticky-bar-messaging-impacted-donations-for-a-high-urgency-campaign/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "high urgency",
+        "Sticky Bar"
+      ],
+      "tier": 2,
+      "lift": [
+        33.1,
+        20.5
+      ],
+      "confidence": 81.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.93%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1 - Every Dollar",
+            "metric": "1.2%",
+            "lift": "33.1%",
+            "confidence": "81.5%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment 2 - Encourage, Strengthen, Hope",
+            "metric": "1.1%",
+            "lift": "20.5%",
+            "confidence": "60.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding clarity and seasonally relevant messaging for website visitors will achieve more calendar year-end donations.",
+      "summary": "Timeframe: 12/30/2021 - 01/04/2022\nDuring a calendar year-end campaign, we wanted to test various messaging on a sticky bar to see what would most resonate with donors to get them to the donation page to make a gift. We had a general control message that prompted a gift to ‘share resources with believers’ and mentioned the upcoming deadline. The first treatment added clarity around what the donor’s gift would accomplish – highlighting that each dollar would impact 10 people. The second treatment posed a question to introduce donor autonomy – will you help us? The third treatment was the same message, but appeared at the bottom of the screen rather than the top of the page. We split traffic to all 4 versions for site visitors during the last week of the year.",
+      "keyLearnings": "While we did not reach statistical significance since the experiment was time-bound and only ran for a short period of time, what we did find is that the language that clearly outlined the impact of each dollar given seemed to be moving more donors to conversion. This will need to be tested again outside of a high urgency campaign window for more clear results, but we can find additional ways to incorporate this language into the value proposition for future donor communications.\n\nObservations of the impact on other visitor segments in the experiment:\n(Other) visitors had a 4.3% increase in donations with a 92% level of confidence.\n \tEmail visitors had a 5.1% increase in donations with a 98% level of confidence.\n \tMobile visitors had a 163.7% increase in donations with a 98% level of confidence.\n \tReturning visitors had a 78.0% increase in donations with a 96% level of confidence.\n \t65+ visitors had a 5.8% increase in donations with a 93% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 42003,
+      "experimentId": "108096",
+      "title": "How structuring the donation page copy in a user-friendly manner impacted donor conversion rate",
+      "date": "2022-11-04T19:10:17",
+      "url": "https://www.nextafter.com/experiments/how-structuring-the-donation-page-copy-in-a-user-friendly-manner-impacted-donor-conversion-rate/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 0,
+      "confidence": 0,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.00%",
+            "lift": "0.0%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that structuring the donation page copy in a user-friendly manner and spanning the value prop across “three important things” for potential donors will achieve a higher donor conversion rate.",
+      "summary": "Timeframe: 09/26/2022 - 10/28/2022\nTGC’s Digital Discipleship eBook funnel was producing a low instant conversion rate. Users that reached the instant donation page after signing up to receive the eBook were making donations at a rate well below the benchmark. We came across a TGC video that we thought did an excellent job of highlighting our cause and what we’re hoping to accomplish. So we transcribed it, and transferred the three important things stated in the video into the instant donation page copy for this offer. We wondered if diverting from the traditional copy format on the donation page and structuring the copy in a more user-friendly manner would increase donor conversion rate.\nThus, we updated the headline to invoke more excitement toward the step that the user just took. We then implemented the three important things from the video into the donation page copy, numbering them so they would be easy for the user to follow.",
+      "keyLearnings": "The test resulted in zero donations for the control and treatment variants, so there was no learning. The Digital Discipleship eBook offer was not performing well at the ad level either, so we turned off the ad campaign we had running for it in Facebook. As a result, there was little web traffic actually getting to the instant donation page for the offer. This test may be worth running again if we can optimize the campaign at the ad level and generate more users to the instant donation page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 42000,
+      "experimentId": "108341",
+      "title": "How emphasizing copy and expanding the value proposition impacted donor conversion rate",
+      "date": "2022-11-04T18:48:44",
+      "url": "https://www.nextafter.com/experiments/how-emphasizing-copy-and-expanding-the-value-proposition-impacted-donor-conversion-rate/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 0.7,
+      "confidence": 0.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.70%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.70%",
+            "lift": "0.7%",
+            "confidence": "0.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that emphasizing key sentences within the copy and offering real-life application through the copy for page visitors will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 09/28/2022 - 10/28/2022\nTGC’s Secular Creed eBook funnel was lacking in instant donor conversion rate. Despite having a high sign-up rate for the offer, those who signed up were not converting at the end of the funnel by not donating through the instant donation page. We wondered if the subpar results were due to a lack of motivation. Therefore, we developed a copy treatment that expanded the value proposition, adding real-life application by talking about how resources like this one will help you resolve conflict and have impactful conversions with friends, neighbors, coworkers, and family members. We also bolded key sentences to get the message across in a stronger fashion.",
+      "keyLearnings": "The results of this test were inconclusive. Both the control and treatment led to 5 donations, and the treatment ultimately had just a 0.70% lift and only a 0.88% level of confidence. Potential donors gave little indication as to which donation page copy most resonated with them.\n\nIt's also difficult to know which components of the treatment helped or hurt donor conversion rate, as there were too many differences between the control and the treatment. The treatment had a longer headline, inconsistent bolding, and different copy overall. We may want to isolate these elements in future tests on this donation page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 32255,
+      "experimentId": "105039",
+      "title": "How adding images of associated premiums impacted conversion rate and recurring giving",
+      "date": "2022-10-03T14:57:48",
+      "url": "https://www.nextafter.com/experiments/how-adding-images-of-associated-premiums-impacted-conversion-rate-and-recurring-giving/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "monthly donor"
+      ],
+      "tier": 3,
+      "lift": 20.5,
+      "confidence": 16.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Images",
+            "metric": "2.4%",
+            "lift": "20.5%",
+            "confidence": "16.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that putting the ebook premiums on display for potential donors to physically see will achieve an increase in donations and specifically recurring donations.",
+      "summary": "Timeframe: 08/22/2022 - 10/01/2022\nTGC has a recurring giving funnel in which they offer premiums as an incentive for someone making a recurring gift. The premiums are clearly stated in the copy, however, there were no images of the premiums on the page. We thought that adding images of the premiums would perhaps increase donations and recurring donations as users would be able to see the premiums that they would be receiving when making a recurring donation. We added the images after mentioning the premium incentive and above the donation form.",
+      "keyLearnings": "The outcomes of the experiment were negligible. Neither the control nor the treatment led to a recurring donation, and the treatment resulted in a 20.5% increase in one-time donations (3 donations vs. 2) but with only a 16.5% level of confidence. The addition of the premium images carried led to a small and invalid impact.\n\nWe may want to push the experiment a step further by adding some sort of preview of the ebooks. This could consist of an image and a summary of the ebook (on-page) since we're trying to stress the premiums as an incentive to make a recurring gift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28857,
+      "experimentId": "91597",
+      "title": "How a radically redesigned landing page impacted email acquisition for a free course",
+      "date": "2022-05-19T14:55:05",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-landing-page-impacted-email-acquisition-for-a-free-course/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -3.5,
+      "confidence": 23.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "31.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Faith & Work Landing Page Redesign",
+            "metric": "30.6%",
+            "lift": "-3.5%",
+            "confidence": "23.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing clarity and credibility through imagery for landing page visitors will achieve an increase in online course subscribers.",
+      "summary": "Timeframe: 04/14/2022 - 05/21/2022\nOn a past eBook offer, we had seen a highly visual landing page increase email conversion so we wanted to test the same hypothesis on an online course offer. We developed a treatment that highlighted an image of Tim Keller, one of the instructors featured in the course, to add some clarity and credibility to the offer. We split traffic between the plain-text control vs. the radically redesigned layout of the treatment.",
+      "keyLearnings": "After running the experiment for one month, we saw there was a 3.5% decrease in conversion rate with just a 23.3% level of confidence so the test is not valid and the results were flat. One interesting thing to note is when we looked downstream one step further into the funnel, donations experienced a 68.2% decrease with a 86% level of confidence in the treatment, indicating a directional decline. We believe this is because the highly designed landing page doesn't have enough synergy with the plain-text donation page that follows it, making the control landing page more congruent with the experience for each step. Next, we will test adding the Faith & Work course graphic on the plain-text page to see if adding a visual element will help indicate to visitors they are taking the correct next step to get the offer and increase email acquisition.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28833,
+      "experimentId": "87086",
+      "title": "How aligning with a donor’s beliefs impacted conversion on a donation page",
+      "date": "2022-05-18T12:54:36",
+      "url": "https://www.nextafter.com/experiments/how-aligning-with-a-donors-beliefs-impacted-conversion-on-a-donation-page/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 14.3,
+      "confidence": 49.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "3.1%",
+            "lift": "14.3%",
+            "confidence": "49.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing donor alignment and donor autonomy for post-survey donation page visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 03/03/2022 - 03/27/2022\nWe were running a survey to the housefile and wanted to test the concept of introducing donor alignment and donor autonomy in treatment copy that would improve donor conversion. The control copy outlines the problem, gives urgency, and shares how the donor’s gift is a solution to the problem. But for the treatment, we developed a version that asks the donor to align themselves with specific beliefs in an attempt to get them to “nod their head” as they read along or give the opportunity for a step by step “micro yes” at each new paragraph on the page. We pose TGC’s beliefs and then ask the donor “Do you believe this as well?” We also ask a question that feeds off the momentum of the survey they just responded to: “If you believe TGC has made a positive impact on your faith and spiritual growth, would you consider giving back today?” Throughout the survey, the readers had a chance to tell us just how much value they had personally received from TGC resources. The donation page treatment introduces an opportunity for them to provide that same value to others. We open the donation page with a conversational question, “In today’s noise world what source can you trust for truth” as opposed to our control copy which leads with a statement “The digital world is a challenging place, full of unhelpful influences.” Rather than talking AT our donors, we made additional effort to talk TO them, and bring them into being a part of the mental conversation on the page.",
+      "keyLearnings": "What we observed was a 14.3% increase in conversion rate on the treatment with a 49.4% level of confidence so the test results are invalid. We did notice some directional increases and decreases for various audience segments: Returning visitors had a 40.0% increase in donations with an 86% level of confidence. Email visitors had a 29.2% decrease in donations with a 94% level of confidence. 65+ visitors had an 18.5% increase in donations with a 99% level of confidence. Finally, mobile visitors had a 67.7% increase in donations with a 91% level of confidence. Because the confidence level for overall traffic is so low, we would need to re-run this test with more overt changes to be able to discern any true impact on donor conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27737,
+      "experimentId": "86794",
+      "title": "How a landing page layout redesign impacted email acquisition",
+      "date": "2022-04-12T17:07:30",
+      "url": "https://www.nextafter.com/experiments/how-a-landing-page-layout-redesign-impacted-email-acquisition/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -0.7,
+      "confidence": 23.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "50.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Evangelism as Exiles LP",
+            "metric": "49.8%",
+            "lift": "-0.7%",
+            "confidence": "23.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the layout for landing page visitors will achieve an increase in email acquisition.",
+      "summary": "Timeframe: 03/01/2022 - 04/15/2022\nThrough previous testing, we had found a winning version of the landing page but we identified a few changes we could implement to further optimize and test to achieve a higher conversion rate on the page. We developed a treatment that moved the eBook image to the right side of the page, relocated the supporting value proposition text/”reasons to download” from the bottom of the page into bullet points above the form, and added this copy leading into the form: “Tell us where to send your free copy now:”",
+      "keyLearnings": "We ran the experiment for one month and only achieved a 23.2% level of confidence that there was a 0.67% decrease in email acquisition on the page so the results are not valid. However, we did observe a valid increase in acquisition with some specific segments in the experiment that are worth noting: Email visitors had a 52.2% increase in email acquisitions with a 100% level of confidence. 45-54 aged visitors had an 18.3% increase in email acquisitions with a 96% level of confidence, and 55-64 aged visitors had a 34.6% increase in email acquisitions with a 100% level of confidence. Overall, what we learned was that putting the form lower on the page by increasing the text ahead of the call to action could have been causing an adverse effect on conversion for some visitors. For future testing, we will shorten the copy ahead of the form to see if the length of the copy is interrupting the experience and causing friction, and distracting from the intended call to action.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27062,
+      "experimentId": "85492",
+      "title": "How a tabbed donation form impacted donor conversion",
+      "date": "2022-03-28T13:09:23",
+      "url": "https://www.nextafter.com/experiments/how-a-tabbed-donation-form-impacted-donor-conversion/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 7.4,
+      "confidence": 29.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "3.7%",
+            "lift": "7.4%",
+            "confidence": "29.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a tabbed giving form for instant donation page visitors will achieve an increase in recurring giving.",
+      "summary": "Timeframe: 02/16/2022 - 03/28/2022\nWhen launching a new acquisition offer, we tested a tabbed giving form on the instant donation page. The existing form has a checkbox to make a recurring gift, but we were curious if visually presenting the option to choose between giving one-time or monthly would increase donor conversion. This concept has had varying results in previous tests with other organizations. First, we wanted to verify that this change would not have a negative impact on donor conversion before adding this feature to other donation pages. Secondly, we wanted to see how this would affect recurring donation conversion. All other copy and donation form elements remained the same.",
+      "keyLearnings": "We ran the experiment for one month, but the results were ultimately inconclusive. We saw a 7.4% increase in conversion rate with a 29% level of confidence so the experiment results did not produce valid learning. We did, however, see some interesting observations on the impact of recurring donations. The control had 0 recurring gifts and the treatment saw 3 recurring donations. While this was too small of a sample size of transactions to be considered statistically significant, we will be able to use these results to replicate the experiment on additional acquisition pages knowing that it did not appear to have a negative impact on recurring donations based on the initial test. We did see some specific segments see a decrease in giving on the treatment that we will need to further explore on the next iteration of the test to see if similar tests produce similar results.\n\nObservations of the impact on other visitor segments in the experiment:\n(Other) visitors had a 41.9% decrease in donations with an 88% level of confidence.\n \tEmail visitors had a 33.8% decrease in donations with a 97% level of confidence.\n \tFemale visitors had a 50.0% decrease in donations with a 95% level of confidence.\n \t18-24 visitors had a 100.0% decrease in donations with a 97% level of confidence.\n \t25-34 visitors had a 100.0% decrease in donations with a 100% level of confidence.\n \tTablet visitors had a 100.0% decrease in donations with an 86% level of confidence.\n \t45-54 visitors had a 14.0% increase in donations with a 100% level of confidence.\n \t55-64 visitors had a 7.0% increase in donations with a 93% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 25945,
+      "experimentId": "81212",
+      "title": "How a radically redesigned calendar year-end donation page impacted donor conversion",
+      "date": "2022-02-28T15:16:42",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-calendar-year-end-donation-page-impacted-donor-conversion/",
+      "organization": "The Gospel Coalition",
+      "categoryNames": [
+        "The Gospel Coalition"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 2.1,
+      "confidence": 17.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Main Donation Page - Control",
+            "metric": "36.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Headline + Body Copy - Treatment",
+            "metric": "37.1%",
+            "lift": "2.1%",
+            "confidence": "17.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radical redesign for a calendar year-end donation page will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 12/28/2021 - 01/04/2022\nBecause we saw a lift in donor response in a previous experiment when adding relevant value proposition to a post-survey donation page, we wanted to introduce similar language on the calendar year-end donation page for TGC to capture the additional responses from email appeal traffic. In addition to outlining the value proposition in the body copy, we revised the headline to indicate how the donor’s gift would be used and mention the upcoming deadline. We also added a countdown clock at the top of the page to indicate urgency and added a live thermometer at the bottom of the page to show progress toward the revenue goal. Beneath the donation button, we added a sentence supporting a value proposition demonstrating the impact TGC donors have had throughout the year. Finally, we removed the navigation bar and alternated conflicting calls to action in the footer to keep the donor on the page and stay focused on moving forward with making their gift.",
+      "keyLearnings": "Overall, we did not receive enough traffic to this particular page to validate the experiment. However, we did capture additional learnings by running this same test on the main donation page. Those learnings can be viewed in the write-up for that experiment which is linked here.\n\nObservations of the impact on other visitor segments in the experiment:\nReferral visitors had an 80.6% increase in donations with a 93% level of confidence.",
+      "fluxMetrics": null
+    }
+  ]
+}

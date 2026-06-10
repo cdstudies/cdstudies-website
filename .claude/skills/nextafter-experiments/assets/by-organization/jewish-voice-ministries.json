@@ -1,0 +1,1415 @@
+{
+  "name": "Jewish Voice Ministries",
+  "total": 35,
+  "tierBreakdown": {
+    "valid": 17,
+    "directional": 4,
+    "inconclusive": 14
+  },
+  "experiments": [
+    {
+      "id": 21109,
+      "experimentId": "11567",
+      "title": "TV Show Offer (top vs bottom)",
+      "date": "2021-11-16T15:22:58",
+      "url": "https://www.nextafter.com/experiments/tv-show-offer-top-vs-bottom-2/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 26.5,
+      "confidence": 99.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "9.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "12.5%",
+            "lift": "26.5%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will making the product more prominent on the page increase click rate?",
+      "summary": "Timeframe: 07/19/2016 - 09/01/2016\nWe wanted to increase the amount of traffic to the TV show offer. We tried having the offer on the right side of the video and under the video.",
+      "keyLearnings": "Visitors to the TV show page are interested in the product and want to be able to access it quickly.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n26.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12520,
+      "experimentId": "11576",
+      "title": "Mission Statement vs Value Proposition",
+      "date": "2019-04-20T02:22:45",
+      "url": "https://www.nextafter.com/experiments/mission-statement-vs-value-proposition/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 263.3,
+      "confidence": 98.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Mission Statement",
+            "metric": "0.66%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "2.4%",
+            "lift": "263.3%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will our Value Proposition cause more people to click thru and learn more about our organization?",
+      "summary": "Timeframe: 03/07/2016 - 03/09/2016\nWe have used the mission statement on the homepage as a way to communicate who we are and what we do. However, after learning several principles about customer-centric messaging, we decided to test our value proposition vs the mission statement.",
+      "keyLearnings": "Yes, the value proposition caused more click thrus. We believe that it helped people understand exactly who we are, while telling them the value we add as an organization.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n263.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12342,
+      "experimentId": "2875",
+      "title": "Chanukah (infographic vs info and book)",
+      "date": "2019-04-20T02:15:20",
+      "url": "https://www.nextafter.com/experiments/chanukah-infographic-vs-info-and-book/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -16.9,
+      "confidence": 98.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "48.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "40.3%",
+            "lift": "-16.9%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding an ebook to the infographic increase appeal and exclusivity?",
+      "summary": "Timeframe: 11/30/2015 - 12/20/2015\nWe wanted to see if we should add more value to our email name capture. In order to do this, we created an additional mini-ebook to add to our original concept of an infographic as the incentive.\nWe were looking to increase the appeal and exclusivity of the incentive.",
+      "keyLearnings": "We learned that our prospects preferred having just the infographic. This indicates that less is more in the case of free downloads.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 16.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12346,
+      "experimentId": "2883",
+      "title": "Prayer Points – Pic vs No Pic",
+      "date": "2019-04-20T02:15:05",
+      "url": "https://www.nextafter.com/experiments/prayer-points-pic-vs-no-pic-2/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -86.2,
+      "confidence": 99,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pictures",
+            "metric": "$0.12",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Pictures",
+            "metric": "$0.02",
+            "lift": "-86.2%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will pictures increase the likelihood of someone making a donation and will the average donation be higher?",
+      "summary": "Timeframe: 11/25/2015 - 12/01/2015\nWe wanted to get final results on whether we should add pictures to Prayer Points and what that affect would have on donation conversion rate as well as average donation amt.",
+      "keyLearnings": "We learned that images in prayer points absolutely add value to the overall donations and revenue that comes from each donation.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 73.2% decrease in conversion rate\n\t\t\t\t× 48.6% decrease in average gift\n\t\t\t\t\t\t\t\t\t86.2% decrease in revenue"
+    },
+    {
+      "id": 12390,
+      "experimentId": "2977",
+      "title": "Violent picture vs No picture (E-Appeal)",
+      "date": "2019-04-20T02:14:50",
+      "url": "https://www.nextafter.com/experiments/violent-picture-vs-no-picture-e-appeal/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.05%",
+            "lift": "100.0%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing the picture of the violent child produce more donations?",
+      "summary": "Timeframe: 01/05/2016 - 01/12/2016\nWe wanted to see if removing a picture, in this case, of a violent child, would increase donations.",
+      "keyLearnings": "By removing the image, we received a 97.7% confidence that the violent image",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12445,
+      "experimentId": "3144",
+      "title": "Long Text Email vs Image Based Email",
+      "date": "2019-04-20T02:14:18",
+      "url": "https://www.nextafter.com/experiments/user-submitted-post-for-jewish-voice-ministries/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 44.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "4.4%",
+            "lift": "44.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a shorter/image based email increase the click thru rate?",
+      "summary": "Timeframe: 02/03/2016 - 02/04/2016\nWe were looking to test the click thru rate to see if people preferred reading a lot of text in these emails or click thru to the read the text on the landing page.",
+      "keyLearnings": "Yes, by changing the email to an image based email we were able to increase the click thru rate significantly.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n44.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12464,
+      "experimentId": "927",
+      "title": "How adding clarity to the signup process affects donor conversion",
+      "date": "2019-04-20T02:14:08",
+      "url": "https://www.nextafter.com/experiments/image-based-email-vs-text-based-email-passover-cruise/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 22.6,
+      "confidence": 96.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Start Now Link",
+            "metric": "4.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "3 Step Language",
+            "metric": "5.7%",
+            "lift": "22.6%",
+            "confidence": "96.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page treatment will add clarity to the sign up process while increasing donor conversion?",
+      "summary": "Timeframe: 08/18/2015 - 09/09/2015\nThe Constitution 101 online course is one of the primary methods for email and donor acquisition for Hillsdale College.  This is a free course available in exchange for the visitors’ name and address.\nAfter signing up, the registrants are led to a donation page in hopes of an immediate donor conversion. The trouble with this process is that some participants mistake the donation page as a payment page for the course which causes some frustration.\nWe wanted to find a way to clarify that the donation is not required without giving the visitors an immediate exit path. The current control had\nreduced the number of complaints but had also reduced donor conversion.",
+      "keyLearnings": "The new treatment resulted in a 22.6% lift to the overall donor conversion on the page.\nAnecdotally, the number of subscriber complaints did not see any significant increase during the test period either. This leads to the conclusion that this new treatment provided the necessary clarity to the subscribers to ease any potential confusion that may have occurred while maintaining the high visitor conversion rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 22.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12493,
+      "experimentId": "3294",
+      "title": "Imaged based appeal vs text based appeal",
+      "date": "2019-04-20T02:14:03",
+      "url": "https://www.nextafter.com/experiments/imaged-based-appeal-vs-text-based-appeal/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -59.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "3.1%",
+            "lift": "-59.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an image based email obtain more clicks than a long-form text email",
+      "summary": "Timeframe: 03/01/2016 - 03/02/2016\nWe have been testing whether or not shorter image based emails would outperform longer, text based emails. Primarily we are looking at click thru rate and whether it increases or decreases based on image or text.",
+      "keyLearnings": "We received a substantially larger click thru rate with the image based email. However, our donations were much less than on the long-form email. We need to continue trying different options to optimize clickthru to donation.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n59.4% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 141.1% increase in average gift\n\t\t\t\t\t\t\t\t\t2.2% decrease in revenue"
+    },
+    {
+      "id": 12505,
+      "experimentId": "1362",
+      "title": "How a two-step form reduced affects cognitive friction and conversion",
+      "date": "2019-04-20T02:13:02",
+      "url": "https://www.nextafter.com/experiments/drop-down-monthly-gift-vs-become-a-shalom-partner/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 99.4,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Single Page Process",
+            "metric": "17.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Two Step Process",
+            "metric": "35.2%",
+            "lift": "99.4%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a two-step form allow for the capture of more information compared to a single page form that acquired all of the information at one time?",
+      "summary": "Timeframe: 08/10/2015 - 09/09/2015\nFor The Heritage Foundation’s Presidents’ Club Meeting registration, we wanted to find a way to increase the number of attendees to the event. Historically, the forms had all been a single page with all of the data capture fields required before someone could register. These fields included selecting each session they would like to attend and entering all of their information into the form.\nWe had the hypothesis that if we moved the process to a two-step process, it would create less friction in the visitor’s minds since the forms would be shorter. This two step process would also allow us to look up the donor’s information (based upon their email address or ID) and use this to pre-populate the second form.  We were able to not only fill in their address information but also pre-select the sessions that their membership level qualified for.  We wanted to see if this process would lead to an increased number of completed registrations.",
+      "keyLearnings": "The two step form led to a 99% increase in the number of donors completing their registration information. This increase is the result of more than just the two step form; the ability to pre-fill the donor's information into the second form would have significantly reduced the friction associated with the process. This reduction in friction made the form easier to understand end simpler to fill out.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 99.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12517,
+      "experimentId": "3377",
+      "title": "Image based email vs text based email (Outreach email)",
+      "date": "2019-04-20T02:12:52",
+      "url": "https://www.nextafter.com/experiments/image-based-email-vs-text-based-email-outreach-email/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 68.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Text Based",
+            "metric": "3.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Image Based",
+            "metric": "6.6%",
+            "lift": "68.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an image based email result in higher CTR?",
+      "summary": "Timeframe: 03/08/2016 - 03/09/2016\nWe have been testing whether image emails would do better than text based emails for certain campaigns.",
+      "keyLearnings": "Yes, after several tests, outreach emails tend to perform better as image based emails vs text based emails. Moreover, more surveys were completed and we had a higher donation rate",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n68.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 242.0% increase in average gift\n\t\t\t\t\t\t\t\t\t477.4% increase in revenue"
+    },
+    {
+      "id": 12529,
+      "experimentId": "3414",
+      "title": "Free Chapter vs Pre-Order (CTA Hope & Future)",
+      "date": "2019-04-20T02:12:38",
+      "url": "https://www.nextafter.com/experiments/free-chapter-vs-pre-order-cta-hope-future/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -41.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Free Chapter",
+            "metric": "8.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pre-Order",
+            "metric": "4.8%",
+            "lift": "-41.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will more people click on pre-order or download my copy?",
+      "summary": "Timeframe: 03/11/2016 - 03/14/2016\nWe wanted to determine if we should be asking for Pre-Orders in our launch campaign or giveaway a free chapter and 7 day devotional.",
+      "keyLearnings": "People were more interested in getting the free chapter and 7 day devotional, which allowed us to send 7 followup emails to pitch them on the pre-order",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n41.3% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13002,
+      "experimentId": "4820",
+      "title": "Single Article vs Multiple Article Email (CTR)",
+      "date": "2019-04-20T02:12:04",
+      "url": "https://www.nextafter.com/experiments/single-article-vs-multiple-article-email-ctr/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 320.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Single Article",
+            "metric": "2.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Multiple Article",
+            "metric": "11.6%",
+            "lift": "320.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will giving article snippets lead to a higher CTR versus a single article email?",
+      "summary": "Timeframe: 08/19/2016 - 08/22/2016\nWe have been sending quarterly magazine emails and wanted to look to improve engagement with these emails.",
+      "keyLearnings": "Yes, we learned that by giving people an option they were much more likely to engage and clickthru on the articles.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n320.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13021,
+      "experimentId": "4876",
+      "title": "Header w/out CTA vs Header w/ CTA",
+      "date": "2019-04-20T02:11:58",
+      "url": "https://www.nextafter.com/experiments/header-wout-cta-vs-header-w-cta/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 26.7,
+      "confidence": 98,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Header w/out CTA",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Header w/ CTA",
+            "metric": "2.7%",
+            "lift": "26.7%",
+            "confidence": "98.0%"
+          }
+        ]
+      },
+      "researchQuestion": "If we place a CTA (with a summary of the value proposition) in a header image, then we will get more clicks than we would without a CTA in a header image.",
+      "summary": "Timeframe: 08/30/2016 - 09/01/2016\nThis is an appeal that goes out once or twice a month and we wanted to explore ways to improve click-throughs.",
+      "keyLearnings": "Adding a CTA with a summary of the value proposition to the top of the email increases click-throughs on lengthier emails.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n26.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13024,
+      "experimentId": "4882",
+      "title": "TV Show Offer (top vs bottom)",
+      "date": "2019-04-20T02:11:53",
+      "url": "https://www.nextafter.com/experiments/tv-show-offer-top-vs-bottom/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 26.5,
+      "confidence": 99.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "9.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "12.5%",
+            "lift": "26.5%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will making the product more prominent on the page increase click rate?",
+      "summary": "Timeframe: 07/19/2016 - 09/01/2016\nWe wanted to increase the amount of traffic to the TV show offer. We tried having the offer on the right side of the video and under the video.",
+      "keyLearnings": "Visitors to the TV show page are interested in the product and want to be able to access it quickly.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n26.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13815,
+      "experimentId": "2618",
+      "title": "How increasing the clarity of the value proposition affects donor conversion rate",
+      "date": "2019-04-20T02:11:23",
+      "url": "https://www.nextafter.com/experiments/formatted-vs-unformatted/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 27.4,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "11.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "14.4%",
+            "lift": "27.4%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing the clarity of the value proposition increase donor conversion?",
+      "summary": "Timeframe: 05/01/2015 - 09/23/2015\nThe majority of CaringBridge’s online revenue comes from an area on each journal page that is internally called the “tribute widget”. The CaringBridge team wanted to see if they could clarify and strengthen the value proposition presented in this widget. The control had a “command” to the visitor, and made a lot of assumptions about their knowledge of where the donation went and how to use the widget itself. So they developed a treatment that suggested an action to the visitor, clarified the impact of their gift, and offered a helpful note about how to begin the process.",
+      "keyLearnings": "While the treatment delivered fewer clickthroughs or “starts”, it refined and motivated those who did begin the process, resulting in a net conversion gain.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 27.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13001,
+      "experimentId": "2619",
+      "title": "How increasing copy length and clarity affects clickthrough rate",
+      "date": "2019-04-20T02:11:17",
+      "url": "https://www.nextafter.com/experiments/how-offering-multiple-options-impacted-email-click-rate/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -15.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.13%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.11%",
+            "lift": "-15.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing the clarity of the value proposition increase donor conversion?",
+      "summary": "Timeframe: 05/01/2015 - 05/23/2015\nThe majority of CaringBridge’s online revenue comes from an area on each journal page that is internally called the “tribute widget”. The CaringBridge team wanted to see if they could clarify and strengthen the value proposition presented in this widget. The control had a “command” to the visitor, and made a lot of assumptions about their knowledge of where the donation went and how to use the widget itself. So they developed a treatment that suggested an action to the visitor, clarified the impact of their gift, and offered a helpful note about how to begin the process.",
+      "keyLearnings": "While the treatment delivered fewer clickthroughs or “starts”, it refined and motivated those who did begin the process, resulting in a net conversion gain.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.3% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14121,
+      "experimentId": "11559",
+      "title": "Gmail’s handling of full-format vs. low-format emails",
+      "date": "2019-04-20T02:08:11",
+      "url": "https://www.nextafter.com/experiments/gmails-handling-of-full-format-vs-low-format-emails/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 69.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Full-format email sent to Gmail",
+            "metric": "12.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Low-format email sent to Gmail",
+            "metric": "21.9%",
+            "lift": "69.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does Gmail treat low-format emails differently than full-format emails?",
+      "summary": "Timeframe: 07/20/2017 - 08/10/2017\nWe had already been testing a low-format version of our emails (no tables, no images, limited CSS, visible links) and seeing that they performed several percentage points better in open rate than the fully formatted versions. We suspected that one or more email clients was treating low-format emails differently than full-format emails, and our first suspect was Google due to its tabbed inbox system.",
+      "keyLearnings": "It turns out that, with no changes to email address, subject line or preheader text, Gmail directs low-format emails into the Primary inbox and full-format emails into the Promotions tab. With the email in the Primary inbox, open rates increase by 50-60%. This has held true for nearly a dozen sends over two months.\nThis indicates that a vast majority of Gmail users don’t know about the Promotions tab or forget to look there. We’ve also determined that most Gmail mobile apps make the Promotions area hard to find, although Google now includes Promotions notifications in the Primary inbox.\nAs a further note, no other email client shows a statistically significant improvement from a low-format version, and AT&T properties show a negative impact.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n69.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12448,
+      "experimentId": "3151",
+      "title": "Ask in Email vs No Ask in Email",
+      "date": "2019-04-20T02:14:12",
+      "url": "https://www.nextafter.com/experiments/ask-in-email-vs-no-ask-in-email/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 45.6,
+      "confidence": 86.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No direct ask",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct ask",
+            "metric": "0.05%",
+            "lift": "45.6%",
+            "confidence": "86.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a direct ask in the email result in a lower number of donations?",
+      "summary": "Timeframe: 02/02/2016 - 02/04/2016\nOne of the best practices that we had been following was that we should NOT ask for money directly in the e appeals. We wanted to test that best practice with our constituents.",
+      "keyLearnings": "We learned the opposite to be true.  In fact, we saw a significant lift by asking directly in the email.  We will continue to test this assumption in the next few appeals.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12592,
+      "experimentId": "3570",
+      "title": "New Donation Form vs Old Donation Form",
+      "date": "2019-04-20T02:12:26",
+      "url": "https://www.nextafter.com/experiments/new-donation-form-vs-old-donation-form/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -23.8,
+      "confidence": 80.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old Donation Form",
+            "metric": "13.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Donation Form",
+            "metric": "10.2%",
+            "lift": "-23.8%",
+            "confidence": "80.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a shorter donation form give us more donors than our standard long form?",
+      "summary": "Timeframe: 03/24/2016 - 03/28/2016\nWe are looking for ways to increase value force, while decreasing cost force on our donation forms. We did this by creating a much simpler form for users based on donation forms we have been seeing. We hoped it would decrease friction and anxiety.",
+      "keyLearnings": "In this case, we learned that donors were less likely to donate. We will continue to analyze the cost force and see if we can decrease the cost as well as increase the value force to drive donations.\nIt is possible that we decreased anxiety, but did not do a good enough job increasing value force.\nAlso, originally this test reached confidence, but after a few more days, there was not a clear confidence for the original form.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12600,
+      "experimentId": "3596",
+      "title": "Main WEB Donation Form (Short vs Long)",
+      "date": "2019-04-20T02:12:20",
+      "url": "https://www.nextafter.com/experiments/main-web-donation-form-short-vs-long/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": -11.8,
+      "confidence": 84.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old Donation Form",
+            "metric": "48.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Donation Form",
+            "metric": "42.6%",
+            "lift": "-11.8%",
+            "confidence": "84.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a shortened form increase donations?",
+      "summary": "Timeframe: 03/22/2016 - 03/31/2016\nWe are looking for ways to optimize our web donation form. This particular form is the source of over 30% of online revenue so it has high impact on donations online.",
+      "keyLearnings": "In this case, the shortened form did not increase donations. We learned a few things from this:\nNot enough value force\nThere was too much friction by having to click donate again\nWe are redesigning another donation form that will focus on adding more value force and decreasing friction.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13069,
+      "experimentId": "4990",
+      "title": "Web Donation Form (form elements)",
+      "date": "2019-04-20T02:11:47",
+      "url": "https://www.nextafter.com/experiments/web-donation-form-form-elements/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -18.1,
+      "confidence": 90.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "56.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "46.4%",
+            "lift": "-18.1%",
+            "confidence": "90.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will compressing the form elements increase conversion?",
+      "summary": null,
+      "keyLearnings": "This experiment tells us that our donors prefer form elements to be one per line.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12226,
+      "experimentId": "2577",
+      "title": "Web Donation Form (Buttons vs. No Buttons)",
+      "date": "2019-04-20T02:15:42",
+      "url": "https://www.nextafter.com/experiments/web-donation-form-buttons-vs-no-buttons/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 29.6,
+      "confidence": 64,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "$62.47",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "$80.98",
+            "lift": "29.6%",
+            "confidence": "64.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding buttons with a predefined choice increase donations and donation/visitor?",
+      "summary": "Timeframe: 10/06/2015 - 11/12/2015\nWe were looking to increase donations on our main donation form. We believed that giving people a pre-defined choice helped decrease anxiety and thus lead to more donations & higher revenue/visitor.",
+      "keyLearnings": "We did not achieve confidence on the increase in donations, although the numbers were clearly higher.  Donation/visitor was visibly higher during this test.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12229,
+      "experimentId": "2582",
+      "title": "Prayer Points – Pic vs NO Pic",
+      "date": "2019-04-20T02:15:33",
+      "url": "https://www.nextafter.com/experiments/prayer-points-pic-vs-no-pic/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -0.5,
+      "confidence": 0.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pictures",
+            "metric": "8.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Pictures",
+            "metric": "8.1%",
+            "lift": "-0.5%",
+            "confidence": "0.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Do pictures create friction or increase empathy?",
+      "summary": "Timeframe: 11/11/2015 - 11/13/2015\nWe are looking to see if its more powerful to have images in the body of the email that will lead to more donations.",
+      "keyLearnings": "Whether we should include images in every prayer points email",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12345,
+      "experimentId": "2879",
+      "title": "Insider Insights – Positive (Us) vs Negative (InProv)",
+      "date": "2019-04-20T02:15:11",
+      "url": "https://www.nextafter.com/experiments/insider-insights-positive-us-vs-negative-inprov/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -16.3,
+      "confidence": 34.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Negative version",
+            "metric": "0.15%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Positive version",
+            "metric": "0.13%",
+            "lift": "-16.3%",
+            "confidence": "34.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a positive spin, including a prayer, cause more people to donate?",
+      "summary": "Timeframe: 12/17/2015 - 12/19/2015\nWe were trying to see if creating a more positive spin of this week’s Insider’s newsletter would create more donations/ increase donation/visitor.\n*Because this test was written internally, we did not have the ability to sign the email with Jonathan’s name. Therefore, the positive version was also written using “we” and “us” vs “I”.",
+      "keyLearnings": "We found that the number of donors was down by a very small margin, but overall brought in more revenue and had a higher revenue/visitor.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12369,
+      "experimentId": "2927",
+      "title": "Anita Dittman (Background vs. No Background)",
+      "date": "2019-04-20T02:15:00",
+      "url": "https://www.nextafter.com/experiments/anita-dittman-background-vs-no-background/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 36.3,
+      "confidence": 76.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Background",
+            "metric": "41.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Background",
+            "metric": "57.1%",
+            "lift": "36.3%",
+            "confidence": "76.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the background image cause friction which leads to less subscribers?",
+      "summary": "Timeframe: 11/03/2015 - 01/05/2016\nWe wanted to see what would happen if we had a background image on our landing page.",
+      "keyLearnings": "From this test we learned that people who did not see a background image were more likely to become a subscriber. We did not reach confidence, but were given enough confidence to test it again.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12384,
+      "experimentId": "2964",
+      "title": "EOY Countdown Timer",
+      "date": "2019-04-20T02:14:55",
+      "url": "https://www.nextafter.com/experiments/eoy-countdown-timer/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -0.2,
+      "confidence": 0.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "29.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "29.3%",
+            "lift": "-0.2%",
+            "confidence": "0.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding a sense of urgency increase donations?",
+      "summary": "Timeframe: 12/21/2015 - 01/07/2016\nWe wanted to test having a countdown timer on the landing page about two weeks before the end of the year to see if that would increase donations.",
+      "keyLearnings": "We learned that the placement of the timer may or may not have had an impact on the number of donations. However, the average gift amount was $14 higher per visitor.\nI recommend testing this element again next year, but placing it closer to the body of the copy rather than next to the amount they are choosing.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12393,
+      "experimentId": "2985",
+      "title": "Confessing Hebrew Scriptures  (Background Img vs No Background Img)",
+      "date": "2019-04-20T02:14:45",
+      "url": "https://www.nextafter.com/experiments/confessing-hebrew-scriptures-background-img-vs-no-background-img/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -4.3,
+      "confidence": 72.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Background",
+            "metric": "53.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Background",
+            "metric": "51.0%",
+            "lift": "-4.3%",
+            "confidence": "72.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a background increase friction so that less users complete the form?",
+      "summary": "Timeframe: 01/04/2016 - 01/19/2016\nWe wanted to see if adding a background distracted users from completing the form.",
+      "keyLearnings": "In this test, we found that the background did not negatively affect the submissions. In fact, it increased submissions, but not to the level of confidence. We will need to add some more elements and/or try other background tests to determine if this really affects sign ups.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12416,
+      "experimentId": "3054",
+      "title": "Web Donation Form Multivariate",
+      "date": "2019-04-20T02:14:25",
+      "url": "https://www.nextafter.com/experiments/web-donation-form-multivariate/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": [
+        1.6,
+        -7.1,
+        9
+      ],
+      "confidence": 66.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "50.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #2",
+            "metric": "51.0%",
+            "lift": "1.6%",
+            "confidence": "14.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Variation #3",
+            "metric": "46.6%",
+            "lift": "-7.1%",
+            "confidence": "56.0%"
+          },
+          {
+            "code": "T3:",
+            "name": "Variation #1",
+            "metric": "54.7%",
+            "lift": "9.0%",
+            "confidence": "66.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a new headline, copy, or new combination of copy elements product more donations?",
+      "summary": "Timeframe: 01/04/2016 - 01/27/2016\nWe wanted to test headline and copy elements in a multivariate to see how visitors responded.",
+      "keyLearnings": "We learned that there was a slight variation between the original and variant #1 which combined a new headline with the old copy. The headline focused more on the value proposition, making it clear what we do that is valuable.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12589,
+      "experimentId": "3566",
+      "title": "Shop vs Store on Main Navigation",
+      "date": "2019-04-20T02:12:31",
+      "url": "https://www.nextafter.com/experiments/shop-vs-store-on-main-navigation/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 3.5,
+      "confidence": 18,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "3.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "3.4%",
+            "lift": "3.5%",
+            "confidence": "18.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will shop prompt more clicks than store?",
+      "summary": "Timeframe: 03/22/2016 - 03/25/2016\nWe are looking at changing the navigation on our site to be more action oriented to give people multiple calls to action in the navigation. We decided to start this with the shop vs store test.",
+      "keyLearnings": "Shop gave us a small lift, but after 5000 page views did not receive confidence. We will go back and add “now” to the shop button and see if that increases the lift to the point of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12612,
+      "experimentId": "3657",
+      "title": "One Column vs Two Column Donation Form (WEB)",
+      "date": "2019-04-20T02:12:13",
+      "url": "https://www.nextafter.com/experiments/one-column-vs-two-column-donation-form-web/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -6.3,
+      "confidence": 69.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "57.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "54.1%",
+            "lift": "-6.3%",
+            "confidence": "69.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a simpler form give us more donations?",
+      "summary": "Timeframe: 03/31/2016 - 04/11/2016\nWe are looking for ways to simplify our donation form to increase donations and revenue. This form was inspired by a form we found at another nonprofits website. Their form designed exactly the same was their highest performing form. We went with this design to see if it would outperform our current design.",
+      "keyLearnings": "Although this form looked really nice and was modern in design, it failed to do better than our normal form. In fact, revenue for our regular form was double what this form pulled in.\nA few things we see:\nThe picture could be distracting for people who just want to donate (causing friction)\nA new form with this many changes could have made regular donors less apt to donate (anxiety)\nThe form was not simple enough. There might have been too much friction.\nWe did not add enough value. Although we added our value proposition and text that is known to convert, it did not add enough value.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12887,
+      "experimentId": "4476",
+      "title": "TV Show (sidebar vs under)",
+      "date": "2019-04-20T02:12:08",
+      "url": "https://www.nextafter.com/experiments/tv-show-sidebar-vs-under/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -5.9,
+      "confidence": 48,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "11.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "10.6%",
+            "lift": "-5.9%",
+            "confidence": "48.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will dropping the CTA button below the video negatively affect CTR?",
+      "summary": "Timeframe: 06/13/2016 - 07/08/2016\nWe are redesigning the TV show page with Denver New Media and we wanted to see the affect of their design.",
+      "keyLearnings": "It did affect it negatively, but only about 6% decrease in clicks. This was not confident, either.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13087,
+      "experimentId": "5025",
+      "title": "Blue Links vs Red Links (Color of CTA)",
+      "date": "2019-04-20T02:11:42",
+      "url": "https://www.nextafter.com/experiments/blue-links-vs-red-links-color-of-ctr/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -3.6,
+      "confidence": 28.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Blue Links",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Red Links",
+            "metric": "2.0%",
+            "lift": "-3.6%",
+            "confidence": "28.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the color of a link play a part in the number of click throughs?",
+      "summary": "Timeframe: 09/21/2016 - 09/23/2016\nDifferent colors elicit different emotional responses. We are looking to find which colors increase click throughs for our different email audiences/topics.",
+      "keyLearnings": null,
+      "fluxMetrics": null
+    },
+    {
+      "id": 13131,
+      "experimentId": "5517",
+      "title": "MEU Stylized vs Plain (CTR)",
+      "date": "2019-04-20T02:11:37",
+      "url": "https://www.nextafter.com/experiments/meu-stylized-vs-plain-ctr/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 3.5,
+      "confidence": 26,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original - Stylized",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1 - Plain",
+            "metric": "2.2%",
+            "lift": "3.5%",
+            "confidence": "26.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a plain, letter-style email get more clicks than a stylized email?",
+      "summary": "Timeframe: 10/13/2016 - 10/14/2016\nLooking to see if MEU audience responds better to the regular email or to a plain, letter-style email that looks like it came from a real person.",
+      "keyLearnings": "More testing needed.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13154,
+      "experimentId": "5592",
+      "title": "E Appeal Stylized vs Plain (CTR)",
+      "date": "2019-04-20T02:11:31",
+      "url": "https://www.nextafter.com/experiments/e-appeal-stylized-vs-plain-ctr/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -8.4,
+      "confidence": 61,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Layout",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Plain",
+            "metric": "1.8%",
+            "lift": "-8.4%",
+            "confidence": "61.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will plain text get more clicks than stylized text.",
+      "summary": null,
+      "keyLearnings": "More testing needed.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12767,
+      "experimentId": "4129",
+      "title": "How a radical redesign impacted donor conversion",
+      "date": "2019-04-20T02:11:11",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-impacted-donor-conversion/",
+      "organization": "Jewish Voice Ministries",
+      "categoryNames": [
+        "Jewish Voice Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -2.8,
+      "confidence": 59.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "56.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "54.7%",
+            "lift": "-2.8%",
+            "confidence": "59.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the donation form radical redesign increase donor conversion?",
+      "summary": "Timeframe: 04/13/2016 - 05/23/2016\nJewish Voice Ministries was testing out a radical redesign of their standard donation page. They wanted to validate the impact of multiple factors on the conversion practice. For this experiment, they increased the amount of value proposition copy, moved to a two-step form, and switched to a two column layout to move the donation form closer to the top.",
+      "keyLearnings": "After over a month of running, this experiment did not reach a high enough level of statistical validity. When analyzing the treatment, it is difficult to determine what led to this result given the variety of factors tested.",
+      "fluxMetrics": null
+    }
+  ]
+}

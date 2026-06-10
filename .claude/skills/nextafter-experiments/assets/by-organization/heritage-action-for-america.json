@@ -1,0 +1,1466 @@
+{
+  "name": "Heritage Action for America",
+  "total": 35,
+  "tierBreakdown": {
+    "valid": 23,
+    "directional": 2,
+    "inconclusive": 10
+  },
+  "experiments": [
+    {
+      "id": 45052,
+      "experimentId": "2700",
+      "title": "How additional payment options impacted long-term revenue",
+      "date": "2022-11-03T17:02:14",
+      "url": "https://www.nextafter.com/experiments/how-additional-payment-options-impacted-long-term-revenue-2/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 55.2,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Credit Card Only",
+            "metric": "$3.39",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Credit Card and ACH",
+            "metric": "$5.26",
+            "lift": "55.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the ACH form impact donor giving?",
+      "summary": "Timeframe: 12/20/2016 - 01/10/2017\nThis test was launched on a recurring donor acquisition campaign for HAFA’s Liberty Brigade. For this campaign, a recurring donation was the pre-selected value on the form.\nAs far as conversion rate is concerned, there was no significant difference between the two forms (3.99% for the control and 3.94% for the ACH form). This is a good sign since there was concern that the ACH option would add friction to the donation process.\nWhen we analyze the impact on revenue, the value of ACH recurring gifts resulted in an overall 55% lift to long-term revenue (this includes both immediate gifts and gifts based upon the average lifespan of the recurring gift).\nWhat is interesting is that of the recurring donors, only 15% selected the ACH giving option but that 15% led to that significant increase to long-term revenue.",
+      "keyLearnings": "Heritage Action for America recently implemented an upgrade to their donation form. Historically, the online donation forms had only been able to capture credit cards. A recent upgrade provided the ability to also capture ACH transactions (donors could still make credit card gifts if they preferred).\n\nThe additional value provided by ACH comes from recurring gifts. The average lifespan of a credit card recurring gift is roughly 12 months. For ACH recurring gifts, the average lifespan expands to be 5 years. However, our concern was that adding in the additional option of ACH may create friction in the donation process which may reduce overall donor conversion. As a result, we decided to test the new form against the control.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 79.8% increase in conversion rate\n\t\t\t\t× 13.6% decrease in average gift\n\t\t\t\t\t\t\t\t\t55.2% increase in revenue"
+    },
+    {
+      "id": 45072,
+      "experimentId": "2705",
+      "title": "How ad creative affected clickthrough rate and follow-on conversion rate",
+      "date": "2022-11-03T17:01:15",
+      "url": "https://www.nextafter.com/experiments/how-ad-creative-affected-clickthrough-rate-and-follow-on-conversion-rate-2/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "click through rate",
+        "Email Acquisition",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": 90.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "11.6%",
+            "lift": "90.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does ad copy that incentivizes a specific action outperform ad copy that highlights “exclusive access”?",
+      "summary": "Timeframe: 10/01/2015 - 10/19/2015\nWhile the difference in clickthrough rate between the two ads was nonexistent, there was a massive disparity in conversion rate. The ad that incentivized visitors to see the video now resulted in 90% more conversions than the one that highlighted exclusive access. This proves the point that we must be measuring every layer of the conversion process to determine the impact of ad creative.",
+      "keyLearnings": "Heritage Action was running a campaign to acquire email addresses by leveraging exclusive video content from one of their events. They tested two ads against each other with identical creative but differing calls-to-action. One used the CTA “Watch the video now”, while the other said “Get Exclusive Access Now”. The two ads had an identical clickthrough rate of 3.8%, so we dug deeper to see if the ad creative (which went to the same landing page) resulted in different conversion rates after the click.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 90.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45082,
+      "experimentId": "2706",
+      "title": "How creating a “shortcut” to the donation form affects conversion",
+      "date": "2022-11-03T16:59:51",
+      "url": "https://www.nextafter.com/experiments/how-creating-a-shortcut-to-the-donation-form-affects-conversion-2/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -28.2,
+      "confidence": 95.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Donate Now Button",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate Now Button",
+            "metric": "2.3%",
+            "lift": "-28.2%",
+            "confidence": "95.7%"
+          }
+        ]
+      },
+      "researchQuestion": "How will removing the “Donate Now” button on a money bomb impact the number of donations and revenue?",
+      "summary": "Timeframe: 09/09/2015 - 09/17/2015\nLeading up to their Republican presidential debates, Heritage Action for America ran a money bomb campaign to create more awareness around the event. This campaign was a two week long series with multiple emails all driving to the same landing page.\nPrevious experiments had proven that longer copy is better at communicating the value proposition to the donor. However, we had a hypothesis that we may be able to create a shortcut for some donors that did not need as much convincing. The idea was to put a “Donate Now” button in the top right of the page that would jump the potential donors to the donation form at the bottom thus reducing friction.",
+      "keyLearnings": "By adding a “Donate Now” button to the top right corner of the page, we ended up reducing the number of donations by 28%. Our hypothesis is that this button prematurely tipped our hand on the purpose of the campaign and made the ask before the visitors were ready to see it. While the long page copy may add friction to the giving process, the added benefit that comes with a strong value proposition is enough to overcome that friction.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 28.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45091,
+      "experimentId": "2708",
+      "title": "How a redesign and stronger value proposition affects name acquisition rate",
+      "date": "2022-11-03T16:58:41",
+      "url": "https://www.nextafter.com/experiments/how-a-redesign-and-stronger-value-proposition-affects-name-acquisition-rate-2/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 28.8,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Exclusive Access\" Value Proposition",
+            "metric": "20.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"The Truth\" Value Proposition",
+            "metric": "25.8%",
+            "lift": "28.8%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a visual page with a value proposition centered around the core principle of truth convert more visitors than one centered around exclusive access?",
+      "summary": "Timeframe: 08/18/2015 - 08/28/2015\nHeritage Action for America was running a name acquisition campaign to promote the live stream of their 2016 Presidential Forum. They built a landing page that offered “exclusive access”, language that had produced successful results in the past. However, they wondered if they could produce a stronger response by creating a graphical treatment that included the candidates and a value proposition that centered around delivering “the truth”.",
+      "keyLearnings": "The new value proposition resulted in a 28.8% increase to the number of email addresses acquired for the event. This name acquisition page was part of a larger fundraising campaign to acquire and convert new donors for the organization. This test helped refine the overall messaging of the campaign prior to a full-scale launch to the entire email file.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 28.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45096,
+      "experimentId": "2709",
+      "title": "Email invoking disgust and sadness vs. Email highlighting betrayal of GOP leadership",
+      "date": "2022-11-03T16:57:45",
+      "url": "https://www.nextafter.com/experiments/email-invoking-disgust-and-sadness-vs-email-highlighting-betrayal-of-gop-leadership/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 191.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Disgust",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Betrayal of GOP Leadeship",
+            "metric": "0.12%",
+            "lift": "191.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which would drive more gifts and revenue: an email that invokes the emotion of horror and sadness in the response to the disturbing undercover Planned Parenthood videos or an email that shows the betrayal of GOP leadership to defunding Planned Parenthood?",
+      "summary": "Timeframe: 07/31/2015 - 07/31/2015\nWe have evidence through market research and focus groups that our donors are fed up with GOP leadership. We are looking for ways to show that supporting Heritage Action is the way to get things done in Washington. We are the solution to bypassing all of the Republican Establishment tricks and getting conservative legislation signed into law.",
+      "keyLearnings": "The email that highlighted the betrayal of GOP leadership won. When roll-out to the rest of the file it secured an additional $8,392 from 208 gifts with an average gift of $40.\n\nWe learned that connecting what GOP leaders say with what they actually do helps motivate donor to give to the solution.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 191.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13027,
+      "experimentId": "2702",
+      "title": "How simplifying the gift array affects donor conversion",
+      "date": "2020-06-18T11:42:58",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-the-gift-array-affects-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 94,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Quantified Array",
+            "metric": "0.71%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Open Array",
+            "metric": "1.4%",
+            "lift": "94.0%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will simplifying the gift array increase donor conversion?",
+      "summary": "Timeframe: 08/23/2016 - 09/02/2016\nHeritage Action created a “Proud Conservative” window decal to offer as an incentive to donors. However, when they launched it, they didn’t see the kind of response they were expecting. They had quantified the gift array to show how many window decals the donor would receive for each amount. But they hypothesized that this might be suppressing conversion by making the transaction too complex.\nThey created a treatment with just the dollar amounts on the gift buttons. That way, the donor had to make one decision: “how much do I give?” without the additional decision of “how many decals do I want?”",
+      "keyLearnings": "The simplified gift array produced a 94% increase in donor conversion, as well as an increase in average gift. This was an important ripple effect to the learning—looking at the distribution of gifts, most people just wanted one decal, which led them to select the lowest option.\nWhen the relationship between gift amount and the decals was removed, people were free to select their gift amount regardless of the number of decals they wanted, which proved to increase the average gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 94.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16252,
+      "experimentId": "15016",
+      "title": "How a new serial ask primary message decreased revenue",
+      "date": "2019-04-25T22:34:16",
+      "url": "https://www.nextafter.com/experiments/how-a-new-serial-ask-primary-message-decreased-revenue/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -44.9,
+      "confidence": 95.5,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.19",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.10",
+            "lift": "-44.9%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would an emotional appeal about the need for increased accountability for lawmakers because Washington is corrupt improve serial ask donor conversion rates or revenue?",
+      "summary": "Ended On: 04/23/2019\nHeritage Action is committed to continuously experimenting with the primary serial ask message, tactics and techniques to improve serial ask donor conversion and revenue opportunities from The Heritage Foundation donors. Our latest iteration was focused on creating an emotional appeal to the Heritage donor viewing the serial ask to determine whether or not we could test our way into a new message to improve results.\nWe wanted to focus on an emotional appeal, related to something centered around the organization’s key value proposition: Accountability.",
+      "keyLearnings": "With a 95.4% level of confidence, we saw a decrease in serial ask revenue through the treatment message by -44.9%.\nAlthough the average gift increased slightly (+1.6%), the decrease in donor conversion rate (-50.3%, with a 94.7% level of confidence), the treatment brought the overall revenue down for the treatment.\nIt should be noted that for the last 4-days of this experiment, The Heritage Foundation did introduce a new recurring gift popup experience prior to the serial ask page, which may have negatively impacted these results. That said, the preliminary trend prior to this experience being introduced followed a similar trend line, so for that reason, we decided to end the experiment with a validated revenue decrease.\nContinued experimentation with primary serial ask messaging is advised.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 45.7% decrease in conversion rate\n\t\t\t\t× 1.6% increase in average gift\n\t\t\t\t\t\t\t\t\t44.9% decrease in revenue"
+    },
+    {
+      "id": 16079,
+      "experimentId": "11061",
+      "title": "How carousel ad format promoting a survey decreased clickthrough rates",
+      "date": "2019-04-01T01:16:31",
+      "url": "https://www.nextafter.com/experiments/how-carousel-ad-format-promoting-a-survey-decreased-clickthrough-rates/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -16.4,
+      "confidence": 97.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.1%",
+            "lift": "-16.4%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a carousel ad format increase ad clickthrough rates? Subsequently, what impact does it have upon downstream metrics like email acquisition rate, donor conversion rate and revenue?",
+      "summary": "Ended On: 03/20/2019\nHeritage Action sends their Annual Grassroots Survey to subscribers and donors on their file each year, and in 2019 they wanted to test whether it could help them acquire new subscribers and donors by promoting it on Facebook.\nBecause the survey works well with a carousel ad format, and because Facebook traditionally promotes the use of more advanced ad formats, we wanted to test the impact of a carousel ad which used in-app “swiping” between 5 screens, where there was a “cover image” + 4 “question-specific” images to promote the survey.",
+      "keyLearnings": "With a 97.8% level of confidence, we saw a decrease in ad clickthrough rate of 16.8%.\nSubsequently, the static ad generated an instant donor conversion rate of 2.24%, while the carousel ad generated no donors or revenue.\nOur hypothesis is that the control ad didn't \"give away the goods\" of what was contained within the survey itself, such that the intrigue of what was in it drove a higher clickthrough rate. Subsequently, when taking the survey, the emotion was built within the survey responders within the control experience such that it moved them to give a gift.\nMeanwhile, the treatment (with a carousel ad type) exposed what was included in the survey at the ad impression level, which made the audience pre-determine (a) whether or not they wanted to click (or take the survey at all), and also spent their emotional capital potentially at the impression level, where they couldn't be tipped to give a gift when they completed the survey (e.g. the emotional release was too early in the process).\nMoving forward, we recommend continuing to optimize for the ad clickthrough rate by leveraging intrigue and not using the carousel ad type.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n16.4% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16115,
+      "experimentId": "11133",
+      "title": "How a new serial ask decreased donor conversion rate",
+      "date": "2019-03-27T15:34:50",
+      "url": "https://www.nextafter.com/experiments/how-a-new-serial-ask-decreased-donor-conversion-rate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -50.3,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.87%",
+            "lift": "-50.3%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will bringing the popup language used to previously increase desktop serial ask donor conversion rates work in the primary messaging for visitors on all device types?",
+      "summary": "Ended On: 03/26/2019\nIn reviewing the Serial Ask results from a recent experiment where the social proof elements increased gift matching and revenue from serial ask donors from The Heritage Foundation, the team at Heritage Action wanted to test bringing the popup language which had previously increased donor conversion rates into the primary page so that visitors not on a desktop device could also see it.",
+      "keyLearnings": "With a 99.4 level of confidence, we saw a decrease -50.3% in donor conversion rate.\nThis treatment also decreased revenue/visitor by -76%.\nOur hypothesis is that the serial ask is successful when emotional decisions are made. The treatment language leans heavily upon social proof, which is more of a logical argument. The additional clarity to position the difference between the two organizations may have also played a role in the donor conversion rate and revenue decreases, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16097,
+      "experimentId": "12922",
+      "title": "How offering an additional card on the serial ask decreased revenue and donor conversion rates from active members",
+      "date": "2019-03-27T15:32:08",
+      "url": "https://www.nextafter.com/experiments/how-offering-an-additional-card-on-the-serial-ask-decreased-revenue-and-donor-conversion-rates-from-active-members/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -81.4,
+      "confidence": 98.3,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$2.96",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.55",
+            "lift": "-81.4%",
+            "confidence": "98.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase donor conversion or revenue by offering a relevant “membership card offer” for Heritage Action during the Serial Ask?",
+      "summary": "Ended On: 03/23/2019\nDuring The Heritage Foundation’s annual “Membership Card Renewal” campaign, we decided to create a treatment for the Serial Ask benefiting Heritage Action with a relevant offer to also activate their 2019 Heritage Action membership. We also included with this treatment clarifying language and an image of the membership card for Heritage Action.",
+      "keyLearnings": "With a 98.2% level of confidence, we validated a decrease in 81.4% in revenue.\nThis experiment also validated a 77.6% decrease in donor conversion rate (with a 99% level of confidence).\nOur hypothesis is that the serial ask is not transactional in nature. Although the visitor/donor’s motivation to give to The Heritage Foundation prior to the serial ask treatment was highly transactional in nature, it may appear that the serial ask donor to Heritage Action at this point in the process is more highly motivated by an emotional appeal, and they are giving emotionally (rather than logically, or transactionally).\nFor this reason, it may be a good idea to develop an emotional appeal rather than a transactional one for future campaigns.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 77.6% decrease in conversion rate\n\t\t\t\t× 16.7% decrease in average gift\n\t\t\t\t\t\t\t\t\t81.4% decrease in revenue"
+    },
+    {
+      "id": 16106,
+      "experimentId": "11127",
+      "title": "How offering an additional card on the serial ask decreased revenue and donor conversion rates from non-members",
+      "date": "2019-03-27T15:29:40",
+      "url": "https://www.nextafter.com/experiments/how-offering-an-additional-card-on-the-serial-ask-decreased-revenue-and-donor-conversion-rates-from-non-members/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -56.7,
+      "confidence": 97.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.46%",
+            "lift": "-56.7%",
+            "confidence": "97.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase donor conversion or revenue by offering a relevant “membership card offer” for Heritage Action during the Serial Ask?",
+      "summary": "Ended On: 03/26/2019\nDuring The Heritage Foundation’s annual “Membership Card Renewal” campaign, we decided to create a treatment for the Serial Ask benefiting Heritage Action with a relevant offer to also activate their 2019 Heritage Action membership. We also included with this treatment clarifying language and an image of the membership card for Heritage Action.",
+      "keyLearnings": "With a 97.0% level of confidence, we validated a decreased donor conversion rates by 56.7%.\nThis experiment also nearly validated a -49.5% decrease in revenue (achieving a 93.7% level of confidence).\nOur hypothesis is that the serial ask is not transactional in nature. Although the visitor/donor's motivation to give to The Heritage Foundation prior to the serial ask treatment was highly transactional in nature, it may appear that the serial ask donor to Heritage Action at this point in the process is more highly motivated by an emotional appeal, and they are giving emotionally (rather than logically, or transactionally).\nFor this reason, it may be a good idea to develop an emotional appeal rather than a transactional one for future campaigns.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 56.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15864,
+      "experimentId": "10558",
+      "title": "How leading with our beliefs lifted donor conversion rates",
+      "date": "2019-01-26T15:05:25",
+      "url": "https://www.nextafter.com/experiments/how-leading-with-our-beliefs-lifted-donor-conversion-rates-2/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.4%",
+            "lift": "100.0%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "With the copy treatment, we really had two components that we wanted to consider testing against the treatment:\nCan setting the tone of the message by clearly stating what we believe gain alignment with the audience and inspire them to give? And,\nCan we let others tell the reader how awesome we are instead of having to tell them ourselves?",
+      "summary": "Timeframe: 01/23/2019 - 01/25/2019\nHeritage Action for America was running a campaign through a series of emails to their house file to raise money to empower their lobbyist teams to be able to apply pressure to elected officials to end the government shutdown, and more specifically to approve the president’s request for funding to build a wall along the southern border.\nThe donation form conversion rate was perceived to need improvement, and we were asked to build a treatment that we believed would increase the donor conversion rate.",
+      "keyLearnings": "Due to a temporary \"cease fire\" announcement from the president, agreeing to a \"short term\" plan to reopen the government (which has been shut down for 35-days to this point) over a lack of funding for a border wall, the experiment was cut short due to the fact that no further traffic will be sent to this landing page.\nWith that said, early results seemed promising for the treatment, but further experimentation is required to truly know the impact of leading with a belief statement, and/or if testimonial statements carry more weight than stating that ourselves.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15545,
+      "experimentId": "8272",
+      "title": "Can introducing an exit intercept & symbolic ask to a serial ask donation form acquire more donors?",
+      "date": "2019-01-16T14:10:42",
+      "url": "https://www.nextafter.com/experiments/can-introducing-an-exit-intercept-symbolic-ask-to-a-serial-ask-donation-form-acquire-more-donors/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 33.2,
+      "confidence": 95.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "17.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "23.6%",
+            "lift": "33.2%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we improve donor conversion rates by intercepting exit-intent visitors to the Heritage Action donation ask portion of the “Serial Ask” process, and give them a special ask to consider before they go?",
+      "summary": "Timeframe: 11/16/2018 - 12/11/2018\nIn reviewing the Serial Ask portion of the donation process for The Heritage Foundation we noted that visitors could simply walk away from the Heritage Action offer without much interruption.\nWe wondered if intercepting them with a pop-up before they left the page with a Construal Theory focused message of Heritage membership overlapping with Heritage Action supporters and a simplified symbolic ask for a “gift of freedom” (in the amount of $17.76) to drive an incremental lift in donors that completed the giving process for Heritage Action, as well.",
+      "keyLearnings": "With a 95% confidence score, we validated a 33% increase in donor conversion rate. Along with the increase in donor conversion rate, we recorded an increase of 39% increase in revenue over the control treatment, as well.In reviewing the transactions, we noted that there were 15 gifts for the treatment that matched our symbolic ask amount of $17.76, or put another way, 60% of the transactions collected in the treatment were for the \"symbolic gift amount\".Additional testing around both messaging and leveraging exit intercept pop-ups is advised, but the combination of both appear to have driven the lift together.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 33.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13294,
+      "experimentId": "5981",
+      "title": "How additional payment options impacted long-term revenue",
+      "date": "2018-08-17T20:18:25",
+      "url": "https://www.nextafter.com/experiments/how-additional-payment-options-impacted-long-term-revenue/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 55.2,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Credit Card Only",
+            "metric": "$3.39",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Credit Card and ACH",
+            "metric": "$5.26",
+            "lift": "55.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the ACH form impact donor giving?",
+      "summary": "Timeframe: 12/20/2016 - 01/10/2017\nHeritage Action for America recently implemented an upgrade to their donation form. Historically, the online donation forms had only been able to capture credit cards. A recent upgrade provided the ability to also capture ACH transactions (donors could still make credit card gifts if they preferred).\nThe additional value provided by ACH comes from recurring gifts. The average lifespan of a credit card recurring gift is roughly 12 months. For ACH recurring gifts, the average lifespan expands to be 5 years. However, our concern was that adding in the additional option of ACH may create friction in the donation process which may reduce overall donor conversion. As a result, we decided to test the new form against the control.",
+      "keyLearnings": "This test was launched on a recurring donor acquisition campaign for HAFA’s Liberty Brigade. For this campaign, a recurring donation was the pre-selected value on the form.\nAs far as conversion rate is concerned, there was no significant difference between the two forms (3.99% for the control and 3.94% for the ACH form). This is a good sign since there was concern that the ACH option would add friction to the donation process.\nWhen we analyze the impact on revenue, the value of ACH recurring gifts resulted in an overall 55% lift to long-term revenue (this includes both immediate gifts and gifts based upon the average lifespan of the recurring gift).\nWhat is interesting is that of the recurring donors, only 15% selected the ACH giving option but that 15% led to that significant increase to long-term revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 79.8% increase in conversion rate\n\t\t\t\t× 13.6% decrease in average gift\n\t\t\t\t\t\t\t\t\t55.2% increase in revenue"
+    },
+    {
+      "id": 14869,
+      "experimentId": "3166",
+      "title": "How a less-detailed value proposition impacted donor conversion",
+      "date": "2018-03-29T22:14:41",
+      "url": "https://www.nextafter.com/experiments/how-a-less-detailed-value-proposition-impacted-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -34.9,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "11.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Less-Detailed Value Prop",
+            "metric": "7.3%",
+            "lift": "-34.9%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "How does a less-detailed value proposition impact donor conversion?",
+      "summary": "Timeframe: 02/09/2018 - 03/28/2018\nFor a recent fundraising campaign, Heritage Action was using the news around amnesty as a reason to give a gift. They were pressuring Congress to take action and wanted donor support to help do that. With the complexity of the amnesty discussions, there was concern that going into depth on what was being done and why would cause more confusion than it would clear up. We decided to test this by removing much of the details around the efforts from the donation page and focusing on the emotional reasons to give.",
+      "keyLearnings": "The less-detailed value proposition reduced donor conversion by 35%. It is our hypothesis that, by removing the details surround the plan for amnesty, the donor did not have enough information to make their decision. Without these details, the donor was forced to rely upon their past knowledge of HAFA as the reason to make their gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 34.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12066,
+      "experimentId": "2107",
+      "title": "How creating a “shortcut” to the donation form affects conversion",
+      "date": "2018-03-28T19:50:32",
+      "url": "https://www.nextafter.com/experiments/how-creating-a-shortcut-to-the-donation-form-affects-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -28.2,
+      "confidence": 95.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Donate Now Button",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate Now Button",
+            "metric": "2.3%",
+            "lift": "-28.2%",
+            "confidence": "95.7%"
+          }
+        ]
+      },
+      "researchQuestion": "How will removing the “Donate Now” button on a money bomb impact the number of donations and revenue?",
+      "summary": "Timeframe: 09/09/2015 - 09/17/2015\nLeading up to their Republican presidential debates, Heritage Action for America ran a money bomb campaign to create more awareness around the event. This campaign was a two week long series with multiple emails all driving to the same landing page.\nPrevious experiments had proven that longer copy is better at communicating the value proposition to the donor.  However, we had a hypothesis that we may be able to create a shortcut for some donors that did not need as much convincing. The idea was to put a “Donate Now” button in the top right of the page that would jump the potential donors to the donation form at the bottom thus reducing friction.",
+      "keyLearnings": "By adding a “Donate Now” button to the top right corner of the page, we ended up reducing the number of donations by 28%. Our hypothesis is that this button prematurely tipped our hand on the purpose of the campaign and made the ask before the visitors were ready to see it. While the long page copy may add friction to the giving process, the added benefit that comes with a strong value proposition is enough to overcome that friction.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 28.2% decrease in conversion rate\n\t\t\t\t× 34.1% decrease in average gift\n\t\t\t\t\t\t\t\t\t52.6% decrease in revenue"
+    },
+    {
+      "id": 11363,
+      "experimentId": "135",
+      "title": "How text on a call-to-action button affects engagement and clickthrough rate.",
+      "date": "2018-01-04T00:17:45",
+      "url": "https://www.nextafter.com/experiments/using-outcome-language-on-social-share-button-grew-engagement-214-percent/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 214.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "How conservative are your friends",
+            "metric": "26.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Show me how my friends score",
+            "metric": "82.7%",
+            "lift": "214.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does clarifying the intent of the social share button by indicating the outcome increase social sharing (and in doing so, increase name acquisition)?",
+      "summary": "Timeframe: 08/29/2014 - 11/11/2014\nHeritage Action For America launched a name acquisition campaign through an online mini-game in 2012 called “How Conservative Are You?”. The game let people answer 10 questions about legislation, then compared them to their Congressman. The game also had a social element too — if shared on Facebook, the user’s friends could take the quiz and then compare scores. Heritage Action wanted to promote social sharing because of the multiplier effect it had on name acquisition.\nWe launched a test on the button that asked the user to share. The control asked them a question — “How conservative are your friends?” While that might pique the interest of the user, it’s unclear what the button does. We launched a treatment that teased the outcome of the social share — “Show me how my friends score”. We also clarified copy around the button to indicate what was happening.",
+      "keyLearnings": "The treatment delivered a 214.7% lift in social sharing — which meant that not only did more people share it, more of their friends saw it. This brought a tremendous lift in traffic to the site, and more names were acquired as a result. It served as a great learning and reminder that at the process level of value proposition, using “outcome” language to earn the click can increase overall CTR.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n214.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11934,
+      "experimentId": "1770",
+      "title": "Email invoking disgust and sadness vs. Email highlighting betrayal of GOP leadership",
+      "date": "2018-01-04T00:16:37",
+      "url": "https://www.nextafter.com/experiments/sadness_vs_betrayal/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 191.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Disgust",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Betrayal of GOP Leadeship",
+            "metric": "0.12%",
+            "lift": "191.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which would drive more gifts and revenue: an email that invokes the emotion of horror and sadness in the response to the disturbing undercover Planned Parenthood videos or an email that shows the betrayal of GOP leadership to defunding Planned Parenthood?",
+      "summary": "Timeframe: 07/31/2015 -\nWe have evidence through market research and focus groups that our donors are fed up with GOP leadership. We are looking for ways to show that supporting Heritage Action is the way to get things done in Washington. We are the solution to bypassing all of the Republican Establishment tricks and getting conservative legislation signed into law.",
+      "keyLearnings": "The email that highlighted the betrayal of GOP leadership won. When roll-out to the rest of the file it secured an additional $8,392 from 208 gifts with an average gift of $40.\nWe learned that connecting what GOP leaders say with what they actually do helps motivate donor to give to the solution.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 191.8% increase in conversion rate\n\t\t\t\t× 42.4% decrease in average gift\n\t\t\t\t\t\t\t\t\t68.1% increase in revenue"
+    },
+    {
+      "id": 11999,
+      "experimentId": "1349",
+      "title": "How point-of-donation upgrading affects  conversion rate",
+      "date": "2018-01-04T00:16:22",
+      "url": "https://www.nextafter.com/experiments/how-a-redesign-and-stronger-value-proposition-affects-name-acquisition-rate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -12.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Membership Language",
+            "metric": "39.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Membership Language on the Form",
+            "metric": "34.1%",
+            "lift": "-12.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Do members to the Heritage foundation give more in order to receive greater benefits?  How does communicating the available benefits of the next level affect conversion and average gift amount?",
+      "summary": "Timeframe: 01/11/2015 - 01/23/2015\nFor existing members to the Heritage Foundation, the donation form is prepopulated with the donor’s prior giving amount as a suggested gift.  However, in the case of the control, it is not clearly presented to the member what level their donation qualifies them for and what benefits are provided.  As a way to upgrade these donors, this experiment contemplated the value of communicating the membership level and associated benefits for a donation at the next highest level of membership.",
+      "keyLearnings": "The results of this experiment are very interesting.  On one hand, including the upgrade language increases average gift amount by 12.2%.  But on the other hand, the upgrade language decreased average gift by 12.6%.  This suggests that though the tactic may prove to be effective to get a donor to upgrade their gift amount, it may also turn others off.  More testing needs to be conducted to understand how changes in the language might be able to mitigate the drop off in conversion while still positively affecting average gift amount.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 12.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12150,
+      "experimentId": "2288",
+      "title": "How ad creative affected clickthrough rate and follow-on conversion rate",
+      "date": "2018-01-04T00:15:04",
+      "url": "https://www.nextafter.com/experiments/how-ad-creative-affected-clickthrough-rate-and-follow-on-conversion-rate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 90.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "11.6%",
+            "lift": "90.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does ad copy that incentivizes a specific action outperform ad copy that highlights “exclusive access”?",
+      "summary": "Timeframe: 10/01/2015 - 10/19/2015\nHeritage Action was running a campaign to acquire email addresses by leveraging exclusive video content from one of their events. They tested two ads against each other with identical creative but differing calls-to-action. One used the CTA “Watch the video now”, while the other said “Get Exclusive Access Now”. The two ads had an identical clickthrough rate of 3.8%, so we dug deeper to see if the ad creative (which went to the same landing page) resulted in different conversion rates after the click.",
+      "keyLearnings": "While the difference in clickthrough rate between the two ads was nonexistent, there was a massive disparity in conversion rate. The ad that incentivized visitors to see the video now resulted in 90% more conversions than the one that highlighted exclusive access. This proves the point that we must be measuring every layer of the conversion process to determine the impact of ad creative.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 90.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12366,
+      "experimentId": "2918",
+      "title": "How increasing the content on the page affects email acquisition",
+      "date": "2018-01-04T00:14:31",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-content-on-the-page-affects-email-acquisition/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -7.7,
+      "confidence": 99.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Checkboxes",
+            "metric": "45.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Individual Letters",
+            "metric": "42.3%",
+            "lift": "-7.7%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which method for displaying the letter will prompt the most “signatures” to the campaign?",
+      "summary": "Timeframe: 12/16/2015 - 01/04/2016\nAs part of a petition campaign to the GOP frontrunners, Heritage Action was trying to gather signatures for their conservative demand letter. The goal of this campaign was to align a group of visitors around a common set of conservative principles before asking for their email address and a donation.\nOur initial hypothesis was that a shorter page that had a generic letter would reduce the amount of friction on the page.  This page then had checkboxes that allowed the signers to select which candidates would receive the letter. It was suggested that we could improve clarity by placing three separate letters on the page, each individually addressed to the candidates. This would remove the need for people to select which candidate would receive the letter and would ensure people saw exactly what would be sent to the candidates.  We decided to test these two hypotheses.",
+      "keyLearnings": "The three separate letters on a single page resulted in a 7.7% decrease in email acquisition. Our hypothesis is that the added content increased the friction associated with the page by making it longer. It would also seem that they did not increase the clarity of the offer as we assumed it would.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 7.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13479,
+      "experimentId": "6317",
+      "title": "How clarifying the value proposition through inductive copy affects donor conversion",
+      "date": "2018-01-03T23:12:04",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-the-value-proposition-through-inductive-copy-affects-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 146.9,
+      "confidence": 97.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "0.12%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Inductive Copy",
+            "metric": "0.29%",
+            "lift": "146.9%",
+            "confidence": "97.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will clarifying the value proposition through inductive copy increase donor conversion?",
+      "summary": "Timeframe: 02/10/2017 - 03/16/2017\nHeritage Action for America was running a petition campaign to confirm Supreme Court nominee Neil Gorsuch. After the petition was signed, the signer was presented with a donation ask. Though they were acquiring thousands of signatures, donor conversion was very low, so they wanted to launch an experiment to increase response. Upon review of the page, they noticed that the headline was relatively self-contained—meaning that it provided confirmation of the signature and did not entice the reader to read any more of the copy.\nThey created a treatment that still thanked the visitor for signing, but immediately teased them by offering “three reasons” why their signature was critical, to keep them reading down the page. They hypothesized that if they could capture the reader’s attention for just a second longer, they could increase donor conversion by drawing the reader into the body copy.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "The new copy produced a massive 146.9% lift in donor conversion. This illustrates the principle of the “micro-yes”: that the headline is only one part of the conversion process, and must work in tandem with the body copy if we want the reader’s eye to be drawn down the page so that they can absorb the value proposition to donate. If the reader feels a sense of completion after reading the headline, then their potential to donate has been lost. However, if the headline provokes the reader to further engage with the copy, then it increases the conversion horizon and increases the possibility that the reader will become a donor.\nWith a few weeks until the Supreme Court confirmation hearings, Heritage Action’s team quickly moved to build on this learning with a new experiment.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 146.9% increase in conversion rate\n\t\t\t\t× 8.6% decrease in average gift\n\t\t\t\t\t\t\t\t\t125.6% increase in revenue"
+    },
+    {
+      "id": 14496,
+      "experimentId": "2472",
+      "title": "How value proposition impacts donor conversion for a serial ask",
+      "date": "2018-01-03T23:10:56",
+      "url": "https://www.nextafter.com/experiments/how-value-proposition-impacts-donor-conversion-for-a-serial-ask/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 124.8,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "11.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New HAFA Value Prop",
+            "metric": "25.2%",
+            "lift": "124.8%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the new Heritage Action value proposition increase overall conversion?",
+      "summary": "Timeframe: 12/21/2017 - 12/26/2017\nFor Heritage Action, the serial ask shown to The Heritage Foundation online donors has become a significant source of revenue. It works by allowing Heritage donors to complete their gift and then immediately positioning a second ask for Heritage Action.\nThe copy that is commonly used in the serial ask has been in place since it was first launched. There have been a handful of attempts to test this language but without any valid results.\nWith the high motivation of year end giving, we knew that we would be getting significantly more donors than normal. Given this increased volume, we wanted to try a new value proposition that aligned better with the current political climate.",
+      "keyLearnings": "After running for 5 days, we saw a 125% lift in conversion to Heritage Action donors. Given the importance of year end, we decided to roll this new treatment for the rest of the year. However, this is something that we will want to revisit in the following month. We want to be sure it has the same impact when donor motivations are lower.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 124.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16033,
+      "experimentId": "12512",
+      "title": "How emphasizing matching gifts during the serial ask impacted revenue and donor conversion.",
+      "date": "2019-03-13T19:40:44",
+      "url": "https://www.nextafter.com/experiments/how-emphasizing-matching-gifts-during-the-serial-ask-impacted-revenue-and-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 2,
+      "lift": 20.8,
+      "confidence": 80.9,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$1.81",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$2.19",
+            "lift": "20.8%",
+            "confidence": "80.9%"
+          }
+        ]
+      },
+      "researchQuestion": "There were actually two tethered research questions associated with this experiment, which were:\nWill additional social proof language to reinforce matching your gift to HAFA increase revenue?\nWill the higher gift ask amount positively or negatively impact the donor conversion rate?",
+      "summary": "Timeframe: 01/24/2019 - 02/28/2019\nDuring the calendar year end campaign for Heritage, we installed an exit popup which used social proof language along with a symbolic gift ask to people looking to leave the page (on desktop computers only) to try to increase donor conversion rate and revenue increases. We wanted to see if we could increase revenue while maintaining the donor conversion rate when using language to reinforce matching your gift amount to Heritage Action to the same amount the donor just selected to give to the Heritage Foundation.",
+      "keyLearnings": "Although the revenue lift did not fully validate we noticed two things, which were:\nWith 80.8% level of confidence, we saw that the matching gift language increased revenue by 20.8%.\nWith 100% level of confidence, we also saw that it decreased the instant donation conversion rate by -23.3%.\nAlthough the revenue lift wasn’t validated, it’s enough to be directionally accurate. Our assumption was that this would decrease the donor conversion rate relatively to the lift in revenue, and it appears that our hypothesis was indeed true.\nThere are two additional noteworthy observations from this analysis, though:\nIn reviewing the control transactions, the symbolic gift amount of $17.76 represented 87 of the 449 transactions in the “control” segment of the experiment. If those gifts were removed, the control segment was about even with the number of transactions that were in the “treatment” segment (where the treatment would only have seen -3.62% difference).\nFinally, when looking at the percentage of gifts that were matched between organizations across the two segments, only 70.8% of the gifts within the “control” segment were matched between the two organizations, but the “treatment” segment (which focused on emphasizing a matching gift between both organizations) boasted a 90.3% matching gift rate.\nRelatively speaking, that would be an increase of +27.4% increase in matching gift rates for the treatment segment — which was the driving force between the increase in revenue for that segment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14872,
+      "experimentId": "8777",
+      "title": "How an emotional value proposition impacts donor conversion",
+      "date": "2018-03-29T22:15:19",
+      "url": "https://www.nextafter.com/experiments/how-an-emotional-value-proposition-impacts-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 49.8,
+      "confidence": 91.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Value Prop",
+            "metric": "12.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Serial Ask Value Prop",
+            "metric": "18.5%",
+            "lift": "49.8%",
+            "confidence": "91.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the more emotional value proposition generate more donations than the more tactically-focused value proposition?",
+      "summary": "Timeframe: 02/09/2018 - 03/28/2018\nIn a recent experiment, Heritage Action for America had found a new value proposition that had appealed to Heritage Foundation donors in the serial ask found on The Foundation’s donation page. This experiment had nearly doubled the number of donors that were now giving to Heritage Action via the serial ask.\nWith the success of this experiment, we wanted to see if it would have the same impact on the main Heritage Action donation page. When comparing it to the copy found on that page, the new treatment relied far less on the tactical elements of Heritage Action and focused more on the emotional reasons to give a gift.",
+      "keyLearnings": "After running for nearly two months, we found that the new value proposition was able to increase giving by 69%. Now, it should be noted that there was a relatively low number of visitors and conversions compared; we generally want to see more visitors before turning off a test. However, with a long running test, we have to start being concerned about historical distortion and given the low traffic volume sent to the Heritage Action main donation page, it wasn’t likely that we would see a significant boost in conversion or traffic.\nWith that said, this value proposition should be further validated with additional experiments in areas that will experience greater volumes of traffic like email campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16610,
+      "experimentId": "18073",
+      "title": "How adding Facebook ads to lift awareness of an upcoming direct mail letter impacted letter response rates",
+      "date": "2019-09-23T00:26:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-facebook-ads-to-lift-awareness-of-an-upcoming-direct-mail-letter-impacted-letter-response-rates/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 100,
+      "confidence": 44.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "4.0%",
+            "lift": "100.0%",
+            "confidence": "44.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How does adding Facebook ads to promote direct mail letters impact direct mail responsiveness or giving?",
+      "summary": "Timeframe: 03/16/2019 - 04/06/2019\nHeritage Action wanted to experiment with whether or not adding Facebook Ads to half of the direct mail recipients in March would increase their letter response rates. Because of this, we built letter awareness ads that ran from March 1-March 16th, then switched to “urgency” ads which created an “artificial deadline” for letter recipients to “respond before it’s too late”.",
+      "keyLearnings": "There was no statistically significant impact from the advertising. However, the experiment had to be called prior to the full data set being collected.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11931,
+      "experimentId": "1765",
+      "title": "How Donation Page copy test between pro-life vs. fiscal angle on defunding Planned Parenthood",
+      "date": "2019-04-20T03:51:26",
+      "url": "https://www.nextafter.com/experiments/29_hafa_lpcopytest/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 0,
+      "confidence": 0,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pro-life",
+            "metric": "$0.00",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Fiscal",
+            "metric": "$0.00",
+            "lift": "0.0%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does including the term “pro-life,” mentioning that we work with “pro-life organizations” and that we are for stopping all abortions resonate with our donors and increase gifts and revenue?\nOR\nDoes only focusing on goal of stripping federal taxpayer dollars from going to Planned Parenthood increase gifts and revenue?",
+      "summary": "Timeframe: 07/29/2015 -\nWe have some limited knowledge that those who want to defund Planned Parenthood don’t necessarily identify themselves as pro-life. They are fiscally conservative and not necessarily social conservative. We want to drill into this and see how much of our base identifies this way. This will help guide messaging moving forward- helping with what terms to use and what terms to avoid.",
+      "keyLearnings": null,
+      "fluxMetrics": null
+    },
+    {
+      "id": 15804,
+      "experimentId": "11132",
+      "title": "How adding a security lock to a donation page affects donor conversion rate.",
+      "date": "2019-01-16T14:29:02",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-security-lock-to-a-donation-page-affects-donor-conversion-rate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 2.5,
+      "confidence": 15.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Security Lock",
+            "metric": "2.8%",
+            "lift": "2.5%",
+            "confidence": "15.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding the appearance of increased security on the donation form increase donor conversion rates?",
+      "summary": "Ended On: 11/26/2018\nWithin our research library, we have validated several experiments with nominal increases in donor conversion rates when increasing the appearance of security at the point of the donation form where the donor will need to enter credit card information. Considering year-end efforts would drive a higher likelihood of traffic through the donation page, we decided to experiment with this treatment type for HAFA.",
+      "keyLearnings": "With a 15.3% confidence score, we did not fully validate the experiment. Further experimentation is required to fully validate whether the appearance of increased security on the donation form improves donor conversion rates.\nWe decided to pause the experiment to pivot towards different experimentation opportunities during this high-traffic time of the year. We did see a slight increase (+2.5% in donor conversion rates), and just assumed the treatment would improve conversion rates (like in the other experiments for other organizations), and rolled this treatment out as the new control without validating/substantiating what kind of lift it would produce.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15801,
+      "experimentId": "11127",
+      "title": "How longer form calendar year-end copy impacted donor conversion rate.",
+      "date": "2019-01-16T14:26:18",
+      "url": "https://www.nextafter.com/experiments/how-longer-form-calendar-year-end-copy-impacted-donor-conversion-rate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 5,
+      "confidence": 39.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "23.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "24.2%",
+            "lift": "5.0%",
+            "confidence": "39.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will longer form copy increase donor conversion rate compared to the standard shortened version?",
+      "summary": "Ended On: 12/17/2018\nWhen building the landing page for HAFA’s calendar year-end efforts to finish 2018, we built the “control” from a close derivative from what was used in the previous year (with updates really to the issues that were pertinent heading into the upcoming year).\nThe treatment draft unpacked the priorities that were being addressed in a series of emails to increase relevancy between the messaging being delivered in the inbox, such that when someone clicked one of the emails (regardless of which one it was in the series), that there would be a bullet point on the landing page addressing that particular issue as a “top priority” for the upcoming year.\nBecause of this approach, it increased the amount of copy on the landing page by about 20-25%. So, we wanted to experiment with whether or not the longer form copy could perform similarly or better than the shortened control language.",
+      "keyLearnings": "With the experiment only achieving a 39.3% confidence score value, further experimentation is required to fully understand the impact of the longer form copy on donor conversion rates.\nEven so, we did see a slightly higher donor conversion rate (a +5% increase) on the treatment draft.\nConsidering we didn’t validate on donor conversions, we certainly would not have validated this experiment for revenue lift, but it is at least worth noting that we did see an improvement in revenue for the treatment draft over the control by an increase of 19.5%, as well.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11925,
+      "experimentId": "1746",
+      "title": "Personal Note email vs. Quick Donate email",
+      "date": "2018-01-04T00:17:18",
+      "url": "https://www.nextafter.com/experiments/24personal_vs_quickdonate/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 12.1,
+      "confidence": 39.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Personal text message from CEO",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Urgent message with quick donate links",
+            "metric": "0.08%",
+            "lift": "12.1%",
+            "confidence": "39.8%"
+          }
+        ]
+      },
+      "researchQuestion": "The question we set out to solve was whether or not our control of a personal casual note (in this case a text message) from the CEO outperforms an urgent message with “quick donate” links that include suggested gift amounts starting at $15 going to $300.",
+      "summary": "Timeframe: 07/24/2015 - 07/24/2015\nWe have had much success in email copy tests with person casual tone of voice email being the winner in renewal emails, solicitation emails, and new membership emails. We have also had success with using the “quick donate” tactic on emails that are responses to what’s happening Hill and how Heritage Action is engaging in the fight.",
+      "keyLearnings": "We sent two versions of the email as a test. One had a soft ask to find out more. The other had a series of hard asks that said “quick donate $15; quick donate $25; etc”.\nAs expected, the soft ask sent more than 4x more traffic: 916 visitors vs. 208. But the quick-donate version had a conversion rate nearly 5x higher: 19.7% vs. 4.0%.\nResult: more gifts and more revenue from the appeal with dramatically less traffic.\nMoving forward we will continue testing the quick donate tactic.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12084,
+      "experimentId": "2134",
+      "title": "How the length of copy affects the follow on conversion",
+      "date": "2018-01-04T00:15:42",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-copy-affects-the-follow-on-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America",
+        "The Heritage Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -3.1,
+      "confidence": 9.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Full Value Prop",
+            "metric": "15.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified Ask",
+            "metric": "15.3%",
+            "lift": "-3.1%",
+            "confidence": "9.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which treatment will acquire the most donors for a follow on ask?",
+      "summary": "Timeframe: 07/03/2015 - 09/25/2015\nOne of the best fundraising methods for Heritage Action for America is a follow on ask for Heritage donors. After a Heritage donor has completed their gift, they are prompted with a second ask for their sister organization. Friction for this ask has been dramatically reduced by requiring them to only enter the amount they want to give.\nThe copy associated with this follow on ask is relatively long since the value proposition changes between the first ask and the second. We had the hypothesis that this longer ask might not be necessary for donors and may actually be hurting our conversion. We decided to simplify the language and test the treatment.",
+      "keyLearnings": "After three months of testing, we discovered a handful of learnings.\nThe first is that we did not have enough traffic to this follow on ask to validate a small change like reducing the copy.  We either needed to expand the area of the website being tested or need to develop a more radical change.\nThe second is that the friction associated with the length of the copy did not impact the overall conversion of the page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12248,
+      "experimentId": "2634",
+      "title": "How refining the value proposition affected the follow-on HAFA gifts",
+      "date": "2018-01-04T00:14:46",
+      "url": "https://www.nextafter.com/experiments/how-refining-the-value-proposition-affected-the-follow-on-hafa-gifts/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America",
+        "The Heritage Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 1.8,
+      "confidence": 20.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Version",
+            "metric": "24.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Jeff's Version",
+            "metric": "24.6%",
+            "lift": "1.8%",
+            "confidence": "20.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition will produce the best conversion rate for follow-on Heritage Action gifts?",
+      "summary": "Timeframe: 09/25/2015 - 11/18/2015\nThe follow-on ask for Heritage Action that occurred on Heritage forms had become one of the largest sources of gifts for HAFA. In an effort to continue to improve upon the success of the page, we wanted to see if we could refine the stated value proposition. We set up a test across all donation forms so that we could test it with all completed transactions in order to reach validation quicker.",
+      "keyLearnings": "The new treatment with a refined value proposition was not able to significantly impact the conversion rate one way or another. With an average conversion rate of ~24%, it would appear that we are going to have to take a more radical approach in order to improve the results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13166,
+      "experimentId": "5636",
+      "title": "How a targeted HAFA secondary ask impacted donor response rates",
+      "date": "2018-01-04T00:13:40",
+      "url": "https://www.nextafter.com/experiments/how-a-targeted-hafa-secondary-ask-impacted-donor-response-rates/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America",
+        "The Heritage Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 6.3,
+      "confidence": 46.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "General HAFA Value Prop",
+            "metric": "16.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "SCOTUS HAFA Value Prop",
+            "metric": "17.2%",
+            "lift": "6.3%",
+            "confidence": "46.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a HAFA value proposition used in the secondary ask that is targeted to the topic of the specific campaign lift secondary asks?",
+      "summary": "Timeframe: 10/18/2016 - 11/10/2016\nAfter a gift is made to The Heritage Foundation, the donor is immediately prompted with the opportunity to make a donation to their sister organization, Heritage Action for America. Historically, we have used the same copy for the secondary ask on every donation page.\nAs part of the SCOTUS Money Bomb campaign, we had the opportunity to test a secondary ask for Heritage Action for America that was targeted to the theme of the campaign. Our goal was to determine if it is worth the time and effort to craft a unique value proposition for the HAFA ask for each campaign.",
+      "keyLearnings": "There was no statistically significant impact on donor conversion for the targeted secondary ask. It would appear that there was a slight improvement but it would have required significantly more donors to the Heritage campaign before this could be validated. In short, it would seem that it is not worth the time to develop targeted secondary asks for individual campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13906,
+      "experimentId": "2698",
+      "title": "How the gift array impact a recurring giving campaign",
+      "date": "2018-01-03T23:11:33",
+      "url": "https://www.nextafter.com/experiments/how-the-gift-array-impact-a-recurring-giving-campaign/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 50,
+      "confidence": 40.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Gift Array",
+            "metric": "0.60%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Blank Field",
+            "metric": "0.89%",
+            "lift": "50.0%",
+            "confidence": "40.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How does a blank gift array impact average gift and conversion rate?",
+      "summary": "Timeframe: 07/05/2017 - 07/19/2017\nUnfortunately, with this experiment, we did not see enough conversions to draw any meaningful analysis from the results. However, this does seem like an interesting test given the low average gift for recurring donors. It would be worth repeating with a future campaign.",
+      "keyLearnings": "For the Liberty Brigade acquisition campaign, we wanted to see what kind of impact the giving array had on the likelihood to join and the average gift. We had the hypothesis that using a blank array would allow people to “choose their own generosity” which would result in a higher gift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13903,
+      "experimentId": "7124",
+      "title": "How exclusivity and impact factor into donor conversion",
+      "date": "2017-08-11T21:58:58",
+      "url": "https://www.nextafter.com/experiments/how-exclusivity-and-impact-factor-into-donor-conversion/",
+      "organization": "Heritage Action for America",
+      "categoryNames": [
+        "Heritage Action for America"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 2.6,
+      "confidence": 14.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Exclusivity",
+            "metric": "3.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Impact",
+            "metric": "3.6%",
+            "lift": "2.6%",
+            "confidence": "14.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will exclusivity or impact have the greatest influence on donor conversion?",
+      "summary": "Timeframe: 06/27/2017 - 07/14/2017\nDuring the acquisition campaign for Heritage Action’s Leaders Club, we were trying to acquire a new group of donors for the organization’s recurring giver club. As we were reviewing past campaigns, we realized that our historical messaging had focused on the exclusivity of joining the club. However, we had the hypothesis that donors would more likely join due to the impact their gift would have over the exclusivity of the club. We decided to test these two approaches against each other.",
+      "keyLearnings": "It would seem that both factors were equally important in the donors’ minds. There was no statistically significant difference between the two versions.\nNow, it is worth pointing out that both versions incorporated both exclusivity and impact into the copy; this test was focused on determining which one of these factors should be led with.",
+      "fluxMetrics": null
+    }
+  ]
+}

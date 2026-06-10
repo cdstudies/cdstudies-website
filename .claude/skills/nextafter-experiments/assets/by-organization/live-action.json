@@ -1,0 +1,2186 @@
+{
+  "name": "Live Action",
+  "total": 53,
+  "tierBreakdown": {
+    "valid": 37,
+    "directional": 4,
+    "inconclusive": 12
+  },
+  "experiments": [
+    {
+      "id": 17659,
+      "experimentId": null,
+      "title": "How the congruency of an image in a Facebook ad affects conversion rate",
+      "date": "2021-06-14T14:28:13",
+      "url": "https://www.nextafter.com/experiments/how-the-congruency-of-an-image-in-a-facebook-ad-affects-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Facebook",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 91.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "2.5%",
+            "lift": "91.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that the image with a woman’s mouth duct taped for Live Action’s audience will achieve a greater conversion rate.",
+      "summary": "Timeframe: 01/14/2021 - 01/19/2021\nLive Action was running a campaign to acquire emails in light of censorship concerns surrounding the mainstream media and social media platforms. They wanted to test how certain images performed in getting people to sign up for updates from Live Action.",
+      "keyLearnings": "The image of the woman \"being silenced\" made a much stronger argument along with the copy of the ad to promote the campaign, which sought to get people to sign up for updates outside of social media. We were unsure if this image would pass Facebook's ad restrictions, so we tested it against a \"safer\" image of a woman and her baby. In the end, the fact that this made it through the restrictions especially when paired with this copy made a huge impact on conversion rate and the effectiveness of the ad.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 91.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17632,
+      "experimentId": null,
+      "title": "How an animated gif performs vs an image in a Facebook ad",
+      "date": "2021-06-14T14:24:23",
+      "url": "https://www.nextafter.com/experiments/how-an-animated-gif-performs-vs-an-image-in-a-facebook-ad/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Advertising"
+      ],
+      "tier": 1,
+      "lift": 24.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.9%",
+            "lift": "24.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "The animated gif will drive more traffic to the pledge landing page than the static image.",
+      "summary": "Ended On: 02/11/2021\nLive Action was promoting their pro-life pledge on Facebook using a static image. They wanted to test the effectiveness of an animated gif with the number of pledge signers on getting more traffic to the pledge landing page.",
+      "keyLearnings": "The gif outperformed the static image by 24%. We believe that the gif was a more engaging look at the number of people who had already signed the pledge that this reader would be \"joining\" if they signed, which added to the advocate mentality of the pledge. Also, Facebook is more likely to promote \"video\" content, which likely added to the success of the gif ads.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n24.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17965,
+      "experimentId": "54317",
+      "title": "How communal language used in a Dear Reader impacts conversion for monthly gifts",
+      "date": "2021-06-07T22:08:00",
+      "url": "https://www.nextafter.com/experiments/how-communal-language-used-in-a-dear-reader-impacts-conversion-for-monthly-gifts/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Communal Language",
+        "monthly donor",
+        "Recurring Giving"
+      ],
+      "tier": 1,
+      "lift": 140.8,
+      "confidence": 99.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Communal",
+            "metric": "0.07%",
+            "lift": "140.8%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "How will communal language impact monthly donor conversion in the Dear Reader",
+      "summary": "Ended On: 03/10/2021\nOn Live Action’s website, they use a Dear Reader feature that is placed at the end of their articles asking people to become monthly donors. In a recent email test, we found that using “communal” language and acknowledging their pro-life beliefs and advocacy increased donor conversion by 44%. This highlighted an interesting angle in understanding their donors and prospective donors better. Because of those results and learnings from that test, we then wanted to see the impact that communal language could have in other channels, like the Dear Reader feature. We developed a treatment Dear Reader feature that used communal language and tested this against the control feature.",
+      "keyLearnings": "The communal language increased monthly donor conversion during the two weeks the experiment ran by 141%! Additionally, not only did this approach increase overall donor conversion, but it also increased average gift by 108% resulting in a 266% increase in annualized revenue! By addressing donors and prospective donors in a way that made them feel understood and seen for the beliefs they have that align with Live Action and then clearly communicated the impact they could have, we not only increased the number of people who would be able to give, but we were also able to increase their generosity. This kind of language increases the motivation of people significantly. This concept needs to be test in all channels as we've seen is resonates well with their audience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 140.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 18433,
+      "experimentId": "54292",
+      "title": "How raw links instead of buttons impact click rate",
+      "date": "2021-06-07T19:48:12",
+      "url": "https://www.nextafter.com/experiments/how-raw-links-instead-of-buttons-impact-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "raw links"
+      ],
+      "tier": 1,
+      "lift": 4.9,
+      "confidence": 96.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Buttons",
+            "metric": "17.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Raw Links",
+            "metric": "18.6%",
+            "lift": "4.9%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "What is the impact of using raw links in an email CTA?",
+      "summary": "Timeframe: 03/08/2021 - 03/19/2021\nIn an effort to continue to understand all of the tactics that help increase engagement and conversion in an email, we wanted to test using raw links instead of buttons for the CTA. Buttons have historically been used, but as we see the more human-centric approach to email has increased conversion, we thought the raw links would be a significant test to run since all emails have a CTA.",
+      "keyLearnings": "The raw links increased click rate by 5%! This reinforces the idea that people are more likely to engage with emails that use human-centric tactics. A person is more likely to copy and paste a URL into an email they are sending you rather than insert a big, pretty button. People want to feel as if a PERSON is communicating with them and not an organization or marketing team.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n4.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17418,
+      "experimentId": "6873",
+      "title": "How adding a value proposition to donation button copy affects donor conversion rate",
+      "date": "2020-10-23T14:49:59",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-value-proposition-to-donation-button-copy-affects-donor-conversion-rate-2/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 50.1,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Defend the Pre-born",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Support Live Action",
+            "metric": "0.76%",
+            "lift": "50.1%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Do people respond better to a direct ask or a value proposition on a donate button?",
+      "summary": "Timeframe: 06/14/2017 - 06/28/2017\nLive Action was running a test on their main donate button located on their homepage. They wanted to see if users responded better to a stronger, but still direct ask (Support Live Action), or a value proposition (Defend the Preborn). All other elements of the page remained the same.",
+      "keyLearnings": "“Support Live Action” produced a 24% lift in donations as opposed to “Defend the Preborn.” This is most likely because a more direct ask produced more highly motivated traffic than a softer ask with a value proposition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17276,
+      "experimentId": "34416",
+      "title": "How using purchase optimization in Facebook ads increases instant donor conversion and lowers cost per donor",
+      "date": "2020-09-22T16:02:31",
+      "url": "https://www.nextafter.com/experiments/how-using-purchase-optimization-in-facebook-ads-increases-instant-donor-conversion-and-lowers-cost-per-donor/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 160.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Custom Conversion Optimization",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Purchase Optimization",
+            "metric": "0.04%",
+            "lift": "160.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does purchase optimization increase instant donor conversion, at a lower cost than optimizing for names?",
+      "summary": "Ended On: 08/06/2020\nLive Action was running a new petition in Facebook ads, and wanted to test their traditional method (optimizing for names) against purchase optimization. The only variable in ads was the optimization event.",
+      "keyLearnings": "Not only did purchase optimization increase instant donor conversion by 160%, it also lowered cost per donor by 60%, from about $100 to $39/donor. In addition, purchase optimization allows us to get more highly qualified names/leads than optimizing for names, but still at a cost much lower than our benchmark, at an average of $.53 per name.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 160.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17315,
+      "experimentId": "33560",
+      "title": "How removing a step in the donation pathway impacts donor conversion",
+      "date": "2020-09-22T14:59:42",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-step-in-the-donation-pathway-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -20.2,
+      "confidence": 97,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "26.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Redirect donation page",
+            "metric": "20.9%",
+            "lift": "-20.2%",
+            "confidence": "97.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase donor conversion by removing a step in the donation pathway?",
+      "summary": "Timeframe: 07/13/2020 - 08/27/2020\nAfter a prospective donor clicks the primary donation button on Live Action’s website, they are taken to a page that communicates all of the different ways they can give. From there the prospective donor has to click on the giving widget at the top of the ways to give page to get to the actual donation page. We hypothesized that this additional step in the donation pathway was causing friction. To test this, we simply removed the in-between page and sent people directly to the donation page itself from the donation button in the primary navigation.",
+      "keyLearnings": "To our surprise, when we removed the \"ways to give\" page from the donation pathway, donor conversion decreased. Having the additional page in the donation pathway helped increase donor conversion and overall revenue. Our hypothesis for this is that the in-between page acted as a micro-yes in the giving process. Instead of causing friction, it actually helped people make the decision to give sooner and more likely to complete their transaction.\nRemoving the ways to give page had the biggest impact on new visitors to the website and people on mobile devices.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17554,
+      "experimentId": null,
+      "title": "How removing a step in the donation pathway impacts donor conversion",
+      "date": "2020-09-22T10:50:00",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-step-in-the-donation-pathway-impacts-donor-conversion-2/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Donation Pages | Form"
+      ],
+      "tier": 1,
+      "lift": -20.2,
+      "confidence": 97,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "26.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Redirect donation page",
+            "metric": "20.9%",
+            "lift": "-20.2%",
+            "confidence": "97.0%"
+          }
+        ]
+      },
+      "researchQuestion": null,
+      "summary": "Timeframe: 07/13/2020 - 08/27/2020\nAfter a prospective donor clicks the primary donation button on Live Action’s website, they are taken to a page that communicates all of the ways to give. From there the prospective donor has to click on the giving widget at the top of the ways to give page to get to the actual donation page. We hypothesized that this additional step in the donation pathway was causing friction. To test this, we simply removed the in-between page",
+      "keyLearnings": null,
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17223,
+      "experimentId": "33378",
+      "title": "How adding steps to the donation form impacts donor conversion",
+      "date": "2020-07-31T14:43:22",
+      "url": "https://www.nextafter.com/experiments/how-adding-steps-to-the-donation-form-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -13.3,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "82.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stepped Process",
+            "metric": "71.4%",
+            "lift": "-13.3%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase donor conversion by adding visual breaks and clarity to the giving form?",
+      "summary": "Timeframe: 06/05/2020 - 07/19/2020\nThere aren’t a lot of additional elements on Live Action’s primary donation page that would cause friction to the donation process. But visually, we hypothesized that the donation form didn’t have enough breaks for the eye and could potentially be causing friction for people making a gift. To test into this, we added steps to the donation form to visually create breaks for the eye and to bring greater clarity to the giving process.",
+      "keyLearnings": "The added steps and hypothesized clarity to the donation process negatively impacted donor conversion by 13%. When we reviewed the impact on the different audience and device types, we saw the most significant decrease with returning visitors and mobile visitors. This tells us that instead of adding clarity to the donation process, we actually caused friction to those returning to the site to make their gift. While not fully knowing what people were mentally perceiving, we can hypothesize a couple of things...\n1. They are most likely used to seeing and experiencing the page a very specific way and when it wasn't that same similar experience, it may have caused concern for them and resulted in them not making a gift.\n2. The stepped process may have also made people feel like there were now multiple steps to the giving process in which they had considered it to just be one or a simple process with the control or what they were used to.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 13.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13822,
+      "experimentId": "6962",
+      "title": "How not mentioning we’ve met the goal in email copy during a high urgency campaign impacts donor conversion",
+      "date": "2019-04-20T03:48:45",
+      "url": "https://www.nextafter.com/experiments/how-not-mentioning-weve-met-the-goal-in-email-copy-during-a-high-urgency-campaign-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 38.3,
+      "confidence": 95.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Goal Met",
+            "metric": "25.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Mention of Goal Met",
+            "metric": "35.5%",
+            "lift": "38.3%",
+            "confidence": "95.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Would removing the copy that reached our goal motivate more people to give?",
+      "summary": "Timeframe: 06/28/2017 - 07/31/2017\nTowards the end of Live Action’s money bomb, they met their goal. This was great news! They still had two emails left to send in their campaign and we questioned that donors might be less motivated to give if they knew we had already met the goal. We tested this. For the control, we mentioned that we had reached our goal but still needed their support. For the treatment, we didn’t mention we met the goal, but emphasized that time was running out for them to make their gift.",
+      "keyLearnings": "When we removed the copy that mentioned we met the goal, we increased donor acquisition by 38.3%! Mentioning that we met the goal in the copy caused people to think that their gift wasn’t needed anymore. By focusing the messaging on urgency, we were able to motivate more people to give!",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 38.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13346,
+      "experimentId": "11552",
+      "title": "How a video screenshot in a cultivation email impacts click-through.",
+      "date": "2019-04-20T01:52:15",
+      "url": "https://www.nextafter.com/experiments/how-a-video-screenshot-in-a-cultivation-email-impacts-click-through/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -10.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Screenshot",
+            "metric": "17.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Without Screenshot",
+            "metric": "16.0%",
+            "lift": "-10.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email would get more people click through to watch the video?",
+      "summary": "Timeframe: 01/31/2017 - 02/06/2017\nLive Action produces undercover investigative videos they send out to their email file to encourage constituents to watch the video and then share it with their friends and family. They normally have a screenshot of the video in the email copy. In an earlier test, they learned that when an image isn’t included in appeals emails, they get an increase in clicks and engagement. They hypothesized that this approach might work in the same way for their cultivation emails. They developed a treatment for investigative video email that did not include a screenshot in the email copy and tested it against the control that had the image in it.",
+      "keyLearnings": "What they found is that the treatment with out the image in the email actually had a 10.7% decrease in clicks from the control. In cultivation emails, where the primary call-to-action is to watch a video, the use of an image in the email copy motivates more people to click. This is opposite of how people respond to appeal emails when an image is used. This can be attributed to the fact that the image in a cultivation email reinforces the CTA where in an appeal email, the use of an image becomes a point of friction to the giving process.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n10.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13396,
+      "experimentId": "11549",
+      "title": "How the delivery method used to present an email acquisition offer impacts conversion",
+      "date": "2019-04-20T01:51:52",
+      "url": "https://www.nextafter.com/experiments/how-the-delivery-method-used-to-present-an-email-acquisition-offer-impacts-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -76.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Slide Down",
+            "metric": "0.27%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent",
+            "metric": "0.06%",
+            "lift": "-76.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would an exit-intent popup modal increase email acquisition?",
+      "summary": "Timeframe: 02/07/2017 - 02/13/2017\nLive Action News is the publishing arm of Live Action and gets high volumes of traffic. They had an offer running on their website asking people to sign a petition. This offer was presented to people using a slide down modal at the top of the website. While this method worked well, they hypothesized that a new delivery method that was more intrusive might be more effective in acquiring petition signers/emails. They decided to test an exit-intent popup that would appear when visitors moved their mouse outside of the browser window. We made sure to target this experiment at desktop users only as mobile users would not be able to experience the effect.",
+      "keyLearnings": "The exit-intent popup decreased email acquisition conversion rate by 76%. There are a couple of take aways we can pull from these results:\nThe primary reason is that the majority of Live Action News traffic comes from mobile devices. The exit-intent pop up doesn’t effectively work on mobile devices causing the significant decrease in conversion.The kind of offer we presented to people required them to do something and not “get” something.\nWe recommend testing this again using a different kind of offer where the end-user receives something of instant value and also making the test exclusive to desktop users only to see if our results would be different.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 76.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13646,
+      "experimentId": "11542",
+      "title": "How presenting a donation ask when a reader is most engaged impacts donor conversion",
+      "date": "2019-04-20T01:51:18",
+      "url": "https://www.nextafter.com/experiments/how-presenting-a-donation-ask-when-a-reader-is-most-engaged-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 89.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dear Reader",
+            "metric": "0.02%",
+            "lift": "89.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Could we increase donor acquisition by adding a giving opportunity within the article content on the site?",
+      "summary": "Timeframe: 04/13/2017 - 05/19/2017\nLive Action News is the publishing arm of Live Action. They received large volumes of traffic every month on this site People come to Live Action News to read and learn more about what is going on in the pro-life movement. Live Action News produces human interest stories, videos, and news on a daily basis. With the volume of traffic coming to their site, they wanted to find a way to convert these site visitors into donors. There is a donation button on the primary navigation of the site, but they wondered if they could present an offer that was more intrusive within the articles on the site. They developed a “Dear Reader” treatment that presented a donation offer within the content of each article.",
+      "keyLearnings": "By adding the “Dear Reader” giving opportunity within the content on the site, we were able to increase donor acquisition by 89%. Here is what we can learn from this:1. Even though there is always the ability to give a gift on the site with the primary navigation, visitors were not as likely to take action.\n2. The Dear Reader treatment presented a donation ask at the most opportune time – when the end user is most engaged. By doing this we were able to take advantage of their high motivation and present a value proposition to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 89.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13655,
+      "experimentId": "11539",
+      "title": "How strengthening the value proposition on a donation page with highly motivated donors impacts donor conversion",
+      "date": "2019-04-20T01:50:55",
+      "url": "https://www.nextafter.com/experiments/how-strengthening-the-value-proposition-on-a-donation-page-with-highly-motivated-donors-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -68.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "84.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Extended Value Prop",
+            "metric": "26.4%",
+            "lift": "-68.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the extended value proposition increase donor acquisition?",
+      "summary": "Timeframe: 01/16/2017 - 02/19/2017\nThe value proposition on Live Action’s primary donation page was good, but we hypothesized we might be able to strengthen it and convert more donors. We developed a treatment that expanded their value proposition with evidentials to help strengthen and reinforce it. We tested this against the existing donation page and copy.",
+      "keyLearnings": "The extended value proposition decreased donor acquisition by 66%. What we can learn from this is that people coming to this donation page are already highly motivated to give. The additional value proposition copy actually created friction rather than converted these highly motivated donors.\nAs we examined the experiment further, we learned that when shown on mobile, the donation page doesn’t show the value proposition copy at all. This factor is critical in the results of a value proposition test. With over 50% of their traffic coming to this page from mobile, we will want to test this or a similar experiment with this in mind.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 68.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13680,
+      "experimentId": "11538",
+      "title": "How suggesting a gift amount in the call-to-action of an email appeal impacts donor conversion",
+      "date": "2019-04-20T01:50:47",
+      "url": "https://www.nextafter.com/experiments/how-suggesting-a-gift-amount-in-the-call-to-action-of-an-email-appeal-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 81.8,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No suggested donation amount in CTA",
+            "metric": "0.13%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With suggested donation amount in CTA",
+            "metric": "0.24%",
+            "lift": "81.8%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Would having a specific donation amount in the call-to-action increase donations and revenue?",
+      "summary": "Timeframe: 06/01/2017 - 06/05/2017\nIn an effort to understand their donors better and increase donations in their email appeals, Live Action wondered if a call-to-action would be more effective and more people would convert to donors if they added a specific donation amount in the email call-to-action. They tested this in their recent email appeal. In the control they had a call to action that stated, “Would you help reach someone like Audrey and change their mind on abortion through a donation to Live Action, today? “. For the treatment they added a specific dollar amount in the call-to-action: “Your gift of $50 can help reach someone like Audrey and change their mind on abortion. Will you make a donation to Live Action, today?”  They A/B split their email file.",
+      "keyLearnings": "The treatment with the specific donation amount in the call-to-action had a significant impact on donations. The treatment increased donations by 81.8% and revenue by 125%! By suggesting a specific dollar amount we were able to remove a decision for people out of the giving process which decreased friction. We were also able to suggest a higher giving amount then people may have originally given which impacted average gift and overall revenue!\nThis tactic should be used in appeals moving forward with additional testing on the specific donation amount that is suggested.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 81.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14177,
+      "experimentId": "11534",
+      "title": "How the kind of offer can impact name conversion.",
+      "date": "2019-04-20T01:50:06",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-offer-can-impact-name-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 616.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Get Pro-Life News Stories",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sign the Pro-Life Pledge",
+            "metric": "0.77%",
+            "lift": "616.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which content offer would acquire more names?",
+      "summary": "Timeframe: 10/03/2017 - 10/10/2017\nLive Action has a publishing arm and website called, Live Action News. On the site they publish the latest pro-life news articles and human impact stories. The site receives a high volume of traffic and they wanted to convert this significant traffic into new emails.  To do this they presented visitors who came to the site with content offers. One of the content offers was their weekly newsletter that features the top pro-life news stories of the week. They tested this offer against a pledge that people could sign in support of life being a human right. The offers were presented as a slide out feature on the website.",
+      "keyLearnings": "The “Life is a Human Right” pledge increased name conversion by 616%! Even though the Live Action News newsletter was very relevant to this audience, the newsletter had a higher mental cost for the website visitor – not only were they having to give their name and email address for the content offer, but they did so knowing that they’d be receiving more communications from Live Action. The pledge simply asked them to give us their name and email address if their beliefs aligned with those of the pledge.\nWhile relevancy is a key factor when presenting a content offer on a website, the mental cost associated with the offer is an even more important factor.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 616.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14286,
+      "experimentId": "11526",
+      "title": "How personalizing an email subject line impacts opens",
+      "date": "2019-04-20T01:49:15",
+      "url": "https://www.nextafter.com/experiments/how-personalizing-an-email-subject-line-impacts-opens/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 4.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Did you see Lila's email?",
+            "metric": "19.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "[FIRSTNAME], your name is missing...",
+            "metric": "19.9%",
+            "lift": "4.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would increase opens and potentially get more clicks?",
+      "summary": "Timeframe: 10/16/2017 - 10/17/2017\nLive Action was running a high-urgency campaign around Twitter banning their pro-life message and ads from it’s platform. The first email in the campaign was a petition to their housefile asking people to add their name to the list of pro-life advocates. They did a resend of that same email and wanted to test the subject line of the resend to see if they could get more people to open the email, read the contents in it, and click-through to the landing page. The control used a similar approach that we had worked well in a previous campaign, “Did you see Lila’s email?” The treatment used a personalization tactic in the subject line, “[FIRSTNAME], your name is missing from our Twitter petition”.",
+      "keyLearnings": "The treatment increased opens by 4.2%. While the control subject line was engaging, the treatment directly told called the end reader out and told them the purpose of the email. Even though this subject line experiment only slightly impacted open rate, it also impact click-rate. The treatment also helped increase the amount of people clicking through to the landing page because it reinforced the value proposition of the email content.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n4.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13218,
+      "experimentId": "11557",
+      "title": "How the email presentation impacted click through rate",
+      "date": "2019-04-20T01:48:53",
+      "url": "https://www.nextafter.com/experiments/how-the-email-presentation-impacted-click-through-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "email design",
+        "Email Fundraising"
+      ],
+      "tier": 1,
+      "lift": 208.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Designed Email",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified Design",
+            "metric": "4.1%",
+            "lift": "208.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a simplified version of the email increase the number of subscribers getting to the page?",
+      "summary": "Timeframe: 12/08/2016 - 12/09/2016\nAs part of a monthly appeal, Live Action wanted to test out the standard email design that had been in use for the last several months. This email template included the standard Live Action branding and an image of the Live Action president Lila Rose. The hypothesis was that if we could make the email feel more genuine, we could engage a greater proportion of the audience in the appeal.\nTo test this hypothesis, we stripped out the majority of the design elements and also softened the copy so that it did not have as many of the popular direct mail tactics such as bolding significant portions of text and including an ask array in the email (i.e. “would you consider making a $25, $50, or $100 gift.”).",
+      "keyLearnings": "The simplified design increased the subscriber click through rate by 208%. This increased traffic resulted in a 50% lift to the number of donations made to to the treatment.\nThis experiment demonstrated the importance of facilitating a one-to-one relationship in mass-marketing emails. It is our belief that people give to people and when they feel marketed to, they are not as likely to engage with an organization. By making this email look more genuine, more people engaged in the message. As we plan for future iterations of testing, this is a concept that we want to continue to explore with further testing.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n208.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14403,
+      "experimentId": "11524",
+      "title": "How a radical redesign of a weekly newsletter affects click rate",
+      "date": "2019-04-20T01:46:28",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-of-a-weekly-newsletter-affects-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -17.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Current Branded + Formatted Newsletter",
+            "metric": "1.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stripped Down Treatment",
+            "metric": "1.3%",
+            "lift": "-17.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does stripping out formatting and imagery and bringing a more personal tone to an email newsletter affect click rate?",
+      "summary": "Timeframe: 11/11/2017 - 12/01/2017\nLive Action sends out a weekly email to their housefile with the top pro-life news stories from Live Action News. The current email format is highly branded, comes from Lauren Merz, and includes mainly images with links to stories.\nThey have had success in the past with emails coming from Lila Rose, the founder. They wanted to test whether a more personal, stripped-down approach to the newsletter would increase click rate in the emails.",
+      "keyLearnings": "The stripped-down approach from Lila increased open rates by nearly 70%, however, removing the imagery decreased click rate by 18%. People are drawn to anything with Lila’s name on it, and responded well to receiving these stories from Lila, but clickthrough rate declined without the added pull of an image to tie to each story.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n17.9% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13179,
+      "experimentId": "5679",
+      "title": "How the homepage offers impact email acquisition rate",
+      "date": "2019-04-20T01:45:46",
+      "url": "https://www.nextafter.com/experiments/how-the-homepage-offers-impact-email-acquisition-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 49.7,
+      "confidence": 95.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Petition Only",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Petition & Newsletter",
+            "metric": "2.1%",
+            "lift": "49.7%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer will produce the highest email acquisition rate?",
+      "summary": "Timeframe: 10/24/2016 - 11/11/2016\nLive Action was in the process of redesigning their main website. During the process, it was suggested that they replace the existing email acquisition offer (a petition) with a more general newsletter sign up. The petition had been running for over a year so it made logical sense to update it.\nPrior to launching the new site, we decided to test the new design and offer to ensure it would have the same impact as the long running petition.",
+      "keyLearnings": "Ideally, we would have been able to test the newsletter offer by itself and then also the newsletter with the petition. Since the homepage received a limited amount of traffic, we wanted to make sure we achieved a valid lift so we opted for just one treatment.\nWhat we found was that in both the control and treatment, the petition offer received a 1.4% email acquisition rate. However, in the treatment, the newsletter sign up received an additional 0.5% conversion rate. These two offers combined to result in a 49% lift to the control.\nThis demonstrated two key takeaways:\nThe email newsletter offer is not as appealing as the petition offer. The petition received 180% more email signups. While this may have taken from the newsletter offer, it was definitely the more appealing choice for most visitors.\nThe diversity of offers increased the overall acquisition. The petition did not appeal to all audiences so having a “softer” choice allowed subscribers that did not want the petition to opt into communications from Live Action.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 49.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13243,
+      "experimentId": "5824",
+      "title": "How removing an image from an email impacts clicks-through",
+      "date": "2019-04-20T01:45:36",
+      "url": "https://www.nextafter.com/experiments/how-removing-an-image-from-an-email-impacts-clicks-through/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": 53.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Copy with images",
+            "metric": "0.24%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shorter Copy",
+            "metric": "0.37%",
+            "lift": "53.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would removing the picture from the email motivate more people to click-through to the landing page?",
+      "summary": "Timeframe: 01/22/2017 - 12/23/2016\nDuring Live Action’s year-end campaign, they sent a series of emails asking people to support their mission and give a gift to their organization. One of the emails in the campaign was a story about a baby boy named Jaxon whose parents decided against abortion when they found out he had a disease. To reinforce the message and bring a more personal connection to the story they included a picture of baby Jaxon in the control email. We hypothesized that by removing the picture, we would be able to make the email feel more genuine and believable that a person, and not an organization, had sent this email.",
+      "keyLearnings": "The email version without the picture of the baby had an increase in clicks by 54%. By removing the image in the email, we were able to make the email look and feel more authentic – as if the sender personally sent the message.\nThis reinforces our learnings from a previous test that people are more highly motivated to engage with us when they feel like they aren’t being mass-marketed to, but rather communicated with from a one-to-one basis.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n53.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13230,
+      "experimentId": "5803",
+      "title": "How copy length in an email affects the force of the value proposition",
+      "date": "2019-04-20T01:45:31",
+      "url": "https://www.nextafter.com/experiments/how-copy-length-in-an-email-affects-the-force-of-the-value-proposition/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 24.7,
+      "confidence": 98.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Copy",
+            "metric": "0.31%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shorter Copy",
+            "metric": "0.39%",
+            "lift": "24.7%",
+            "confidence": "98.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How does reducing the length of email copy affect the force of the value proposition?",
+      "summary": "Timeframe: 12/17/2016 - 12/19/2016\nLive Action sent many email appeals as part of their year-end fundraising campaign. One email in particular had a complex value proposition that took a significant amount of copy to fully explain. Since the holidays are a busy time for many people, they wondered if people would take the time to read the entire email. However, they knew that shortening the copy of the email risked removing crucial parts of the value proposition—and that would significantly affect donor conversion.\nThey created a treatment that removed sections of the copy, and re-edited the copy to make sure it presented a unified value proposition. However, this presented one more caveat: removing an early section of copy removed a link from the email, so the treatment had one less “clickable” opportunity.\nThey created two test segments and sent a test to each to determine which version attracted more clicks (the intial metric) and donors (the ultimate metric).",
+      "keyLearnings": "The email with the shorter copy, despite having one fewer link, produced a 24.7% increase in clickthrough rate. That showed, at least initially, that the value proposition could still be effectively communicated with fewer words. However, they looked deeper into the data to determine if the shorter copy produced highly-motivated clicks that turned into donors on the landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n24.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13227,
+      "experimentId": "5802",
+      "title": "How reducing copy length in an email affects donor conversion",
+      "date": "2019-04-20T01:45:25",
+      "url": "https://www.nextafter.com/experiments/how-reducing-copy-length-in-an-email-affects-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 89.5,
+      "confidence": 97.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long email",
+            "metric": "12.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shorter email copy",
+            "metric": "23.1%",
+            "lift": "89.5%",
+            "confidence": "97.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How does reducing the length of email copy affect the force of the value proposition?",
+      "summary": "Timeframe: 12/17/2016 - 12/19/2016\nLive Action sent many email appeals as part of their year-end fundraising campaign. One email in particular had a complex value proposition that took a significant amount of copy to fully explain. Since the holidays are a busy time for many people, they wondered if people would take the time to read the entire email. However, they knew that shortening the copy of the email risked removing crucial parts of the value proposition—and that would significantly affect donor conversion.\nThey created a treatment that removed sections of the copy, and re-edited the copy to make sure it presented a unified value proposition. However, this presented one more caveat: removing an early section of copy removed a link from the email, so the treatment had one less “clickable” opportunity.\nThey created two test segments and sent a test to each to determine which version attracted more clicks (the initial metric) and donors (the ultimate metric).",
+      "keyLearnings": "The email with shorter copy had a sharp increase in clickthrough rate. But not all clicks are created equal—they must be properly motivated to give (as that was the call-to-action). If more clickthroughs does not equal more gifts, then the call-to-action may be driving the wrong kind of traffic.\nHowever, upon review, the shorter copy produced an 89.5% increase in conversion, which was astounding. The increase in clickthrough rate was only 24.7%, but somehow these donors were almost twice as motivated to give. One hypothesis for this is that removing copy from the email removed an early link and call-to-action, which may have kept these readers reading further so that they absorbed more of the value proposition.\nThis test is a fascinating learning that shows that when the value proposition is communicated clearly, you don’t need many words to inspire donors to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 89.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13340,
+      "experimentId": "6049",
+      "title": "How the tone of a subject line impacts open rate",
+      "date": "2019-04-20T01:45:20",
+      "url": "https://www.nextafter.com/experiments/how-the-tone-of-a-subject-line-impacts-open-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 14.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "NEW VIDEO: Prenatal care nonexistent at Planned Parenthood",
+            "metric": "9.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "One option: abortion",
+            "metric": "11.3%",
+            "lift": "14.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would get a higher open rate?",
+      "summary": "Timeframe: 01/24/2017 - 02/01/2017\nLive Action produces investigative videos where they go undercover inside abortion facilities. These investigative videos receive millions of views. Whenever they release a new investigative video, they send it out to their email house file first. Traditionally, the subject line hints at the release of the latest video by saying “NEW VIDEO: Prenatal care nonexistent at Planned Parenthood”. They wandered if the would be able to increase the number of people who opened the email if they took a more casual approach and didn’t mention that the email was a “new video” release. They developed a treatment with the subject line: “One option: abortion:”. They A/B tested the two different subject lines.",
+      "keyLearnings": "The treatment email that didn’t mention the new video in the subject line had a 14% increase in opens. While it might seem strategic to mention the new video in the subject line since that is what the email is about, the tone of the control subject line may have come off too organization-centric causing less people to want to open it. When subject lines are more casual and believable that Lila has actually sent the email, people are more motivated to open them.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n14.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13390,
+      "experimentId": "6148",
+      "title": "How personal email copy impacts click-through",
+      "date": "2019-04-20T01:45:11",
+      "url": "https://www.nextafter.com/experiments/how-personal-email-copy-impacts-click-through/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 31.8,
+      "confidence": 99.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.93%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal approach",
+            "metric": "1.2%",
+            "lift": "31.8%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a more conversational and personal email improve click-through?",
+      "summary": "Timeframe: 02/09/2017 - 02/13/2017\nLive Action has the largest online presence for the pro-life movement. They are experts in the pro-life space and present their content with professionalism. Lila Rose, their founder and president, is the voice for a lot of their communication, including their monthly email appeals. They hypothesized that because the email was coming from Lila, the tone of the emails wasn’t matching the personal communication medium that email is.\nWhile keeping the value proposition from the control email intact, they completely rewrote a treatment email with a conversational tone and inserted personalization throughout the copy. They also stripped all the elements of branding and the picture of Lila out of the email to make it seem like it came from a person, rather than email marketing software.\nThey split their email file in half and tested.",
+      "keyLearnings": "The treatment email produced a 31.8% increase in click-through. What this tells us is that:\nResponse will increase when people feel personally engaged.\nLive Action can continue to communicate with their audience in a professional way, but when it comes to email, donors want more authentic and approachable communication. People give to people. People want to feel that Lila is personally emailing them rather than an email marketing machine.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n31.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13393,
+      "experimentId": "6154",
+      "title": "How personal, conversational email copy and tone impacts donations",
+      "date": "2019-04-20T01:45:06",
+      "url": "https://www.nextafter.com/experiments/how-personal-conversational-email-copy-and-tone-impacts-donations/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 74.9,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.19%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal approach",
+            "metric": "0.34%",
+            "lift": "74.9%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a more conversational and personal email help increase the number of donations?",
+      "summary": "Timeframe: 02/09/2017 - 02/13/2017\nLive Action has the largest online presence for the pro-life movement. They are experts in the pro-life space and present their content with professionalism. Lila Rose, their founder and president, is the voice for a lot of their communication, including their monthly email appeals. They hypothesized that because the email was coming from Lila, the tone of the emails wasn’t matching the personal communication medium that email is.\nWhile keeping the value proposition from the control email intact, they completely rewrote a treatment email with a conversational tone and inserted personalization throughout the copy. They also stripped all the elements of branding and the picture of Lila out of the email to make it seem like it came from a person, rather than email marketing software.\nThey split their email file in half and tested.",
+      "keyLearnings": "The treatment email produced a 74.9% increase in donations. What this tells us is that:\nMore people will respond when they feel personally engaged.\nPeople give to people. People want to feel that Lila is personally emailing them rather than an email marketing machine.\nDonors want authentic and conversational communication in high-touch channels like email. Email provides an opportunity for Live Action to personally connect with their audience unlike any other communication channel.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 74.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13424,
+      "experimentId": "6192",
+      "title": "How extended value proposition copy on a primary donation page impacts conversion rate.",
+      "date": "2019-04-20T01:44:56",
+      "url": "https://www.nextafter.com/experiments/how-extended-value-proposition-copy-on-a-primary-donation-page-impacts-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -66,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "77.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Extended Value Prop",
+            "metric": "26.4%",
+            "lift": "-66.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will additional value proposition copy help to strengthen the message and motivate more donors to give?",
+      "summary": "Timeframe: 01/17/2017 - 02/18/2017\nOn Live Action’s main donation page they had value proposition copy, but it wasn’t very long. In an effort to strengthen the message of the value proposition on the page and as a result increase donations, they developed a treatment that had an extended value proposition. This value proposition presented multiples claims of value with evidentials to support those claims. All other elements on the page remained the same. They A/B split their traffic and tested it.",
+      "keyLearnings": "The treatment with the extended value proposition had a 66% decrease in donations. What we can learn from this test is that people coming to the primary donation page for Live Action are highly motivated to give. The control had a 77% donor conversion rate! The majority of them have already decided that they want to give a donation once they land on the page. Because of this, the treatment with the additional value proposition copy created friction to the giving process which is why we saw such a significant decrease in donations.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 66.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13430,
+      "experimentId": "6233",
+      "title": "How clarity in the subject line impacts click-through",
+      "date": "2019-04-20T01:44:46",
+      "url": "https://www.nextafter.com/experiments/how-clarity-in-the-subject-line-impacts-click-through/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 20.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "*|MERGE16|*, it’s up to you",
+            "metric": "0.73%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Former managers: Planned Parenthood is not health care",
+            "metric": "0.88%",
+            "lift": "20.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would get more people to click-through?",
+      "summary": "Timeframe: 02/14/2017 - 02/27/2017\nFor the release of a new investigative video, Live Action sent an email to their house file and included a link for people to view it. In an effort to get more people to open and click through to watch the video, they tested two different subject lines. The control took a personal approach by including the recipients name in the subject line. The treatment was much more matter of fact and told people exactly what the email was about. They split their file and tested.",
+      "keyLearnings": "Their wasn’t a significant difference in open rate between the control and the treatment, but the treatment got a 20% increase in click-through. What we can learn from this is that:\nClarity trumps persuasion. While the control subject line was personalized and this can be a highly motivating tactic, it was also very unclear and may have caused some friction. The treatment told people exactly the topic of the email.\nThe treatment subject line helped reinforce the email value proposition and strengthened the message, resulting in more people clicking-through from the treatment.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n20.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13464,
+      "experimentId": "6278",
+      "title": "How making a subject line personal to the reader impacts open rate",
+      "date": "2019-04-20T01:44:42",
+      "url": "https://www.nextafter.com/experiments/how-making-a-subject-line-personal-to-the-reader-impacts-open-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 23.6,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Emma chose life",
+            "metric": "8.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "You saved a life",
+            "metric": "10.4%",
+            "lift": "23.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would motivate more people to open the email?",
+      "summary": "Timeframe: 03/09/2017 - 03/13/2017\nSome of the content Live Action sends in their emails is story-based and about a particular person who they name and identify in the copy. For Live Action’s recent fundraising email, it was about a person named Emma. Normally they use the name of the person that the email is about in their subject line to give it a more personal approach. For this email, they wanted to test the motivation of the reader and see which subject line would get more opens and ultimately more clicks to their landing page. The two subject lines they tested were “Emma chose life” and “You saved a life”.",
+      "keyLearnings": "The treatment subject line, “You saved a life” had a 23.6% increase in opens. Not only did this subject line significantly increase the open rate, it also got a 33% increase in clicks. What we can learn from this experiment is:\n1. By saying “You” saved a life, it made the subject line personal to the reader. It also empowered them and caused intrigue into “how” they saved a life resulting in more people wanting to open the email and read it.\n2. The treatment subject line reinforced the call-to-action for people to help save more lives. This resulted in more people clicking through to the donation page to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n23.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13638,
+      "experimentId": "6637",
+      "title": "How an image reinforces value proposition in a Facebook ad and affects conversion rate",
+      "date": "2019-04-20T01:44:32",
+      "url": "https://www.nextafter.com/experiments/how-an-image-reinforces-value-proposition-in-a-facebook-ad-and-affects-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 39.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Baby in Womb Image",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Protesters with Stop Sign Image",
+            "metric": "2.1%",
+            "lift": "39.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "If the image in a Facebook ad reinforces the value proposition of the offer, are people more likely to download?",
+      "summary": "Timeframe: 05/17/2017 - 05/22/2017\nLiveAction launched a new eBook titled, “5 Talking Points to Debunk Planned Parenthood.” When promoting this eBook in paid Facebook ads, they wanted to test whether an image of a preborn child or an image of pro-life activists in protest would cause more people to download the eBook. All other elements of the ad remained the same.",
+      "keyLearnings": "The image of protesters holding a stop sign and fighting for the preborn increased conversion rate by 39%.\nThe increase in name acquisition can be attributed to two things:\nThe image of the protesters was not only more congruent with the nature of the offer, which encourages people to educate themselves on talking points to debunk myths about Planned Parenthood, it also supported the value proposition- by downloading the offer, they could more effectively protest the organization.\nPeople more closely identified themselves with the people in the ad (pro-life activists) rather than identifying with the image of the baby in the womb.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 39.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13784,
+      "experimentId": "11537",
+      "title": "How adding a value proposition to donation button copy affects donor conversion rate",
+      "date": "2019-04-20T01:44:02",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-value-proposition-to-donation-button-copy-affects-donor-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 50.1,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Defend the Pre-born",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Support Live Action",
+            "metric": "0.76%",
+            "lift": "50.1%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Do people respond better to a direct ask or a value proposition on a donate button?",
+      "summary": "Timeframe: 06/14/2017 - 06/28/2017\nLive Action was running a test on their main donate button located on their homepage. They wanted to see if users responded better to a stronger, but still direct ask (Support Live Action), or a value proposition (Defend the Preborn). All other elements of the page remained the same.",
+      "keyLearnings": "“Support Live Action” produced a 24% lift in donations as opposed to “Defend the Preborn.” This is most likely because a more direct ask produced more highly motivated traffic than a softer ask with a value proposition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13774,
+      "experimentId": "6861",
+      "title": "How high-urgency copy affects donor conversion rate",
+      "date": "2019-04-20T01:43:52",
+      "url": "https://www.nextafter.com/experiments/how-high-urgency-copy-affects-donor-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 459,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control Copy",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Moneybomb-Specific Copy",
+            "metric": "0.06%",
+            "lift": "459.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does urgency increase donor conversion rate?",
+      "summary": "Timeframe: 06/22/2017 - 06/26/2017\nLive Action was running a high-urgency campaign and wanted to test a “dear reader” treatment on Live Action News by prompting readers to donate at the end of each article on the site with urgent copy surrounding the deadline and including value proposition copy around the topic of the campaign- promoting a culture of life.",
+      "keyLearnings": "The high-urgency copy saw a 459% increase in donations, which supports the hypothesis that people are more likely to donate when there is a specific urgent goal and deadline in place. In addition, the copy surrounding the campaign supported the main value proposition of Live Action News- which is to promote a pro-life voice in the midst of mainstream media that does not promote that voice. This created a perfect combination of urgency and value that deeply resonated with the donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 459.0% increase in conversion rate\n\t\t\t\t× 85.4% decrease in average gift\n\t\t\t\t\t\t\t\t\t18.6% decrease in revenue"
+    },
+    {
+      "id": 13827,
+      "experimentId": "6969",
+      "title": "How adding a countdown clock to a high urgency email affects click rate",
+      "date": "2019-04-20T01:43:38",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-countdown-clock-to-a-high-urgency-email-affects-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -27.7,
+      "confidence": 97.4,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Without Clock",
+            "metric": "0.09%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Clock",
+            "metric": "0.07%",
+            "lift": "-27.7%",
+            "confidence": "97.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a countdown clock to an email appeal increase click rate?",
+      "summary": "Timeframe: 06/29/2017 - 06/29/2017\nLive Action was running a high urgency email campaign and wanted to test whether adding a countdown clock to the email appeal would increase the sense of immediacy attached to the goal. All other copy in the email remained the same.",
+      "keyLearnings": "While adding the countdown clock produced a 27% decrease in clicks, it saw a 30% increase in donations. Although the donations test did not validate, we can still gather that the urgency of the countdown clock affected people’s motivation to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n27.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14174,
+      "experimentId": "7587",
+      "title": "How adding a testimonial quote to a “Dear Reader” donation ask affects donor conversion",
+      "date": "2019-04-20T01:41:32",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-testimonial-quote-to-a-dear-reader-donation-ask-affects-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -89.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Updated Copy",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Updated Copy with Quote",
+            "metric": "0.00%",
+            "lift": "-89.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a personal testimonial to a donation ask increase donor conversion rate?",
+      "summary": "Timeframe: 08/14/2017 - 10/10/2017\nLive Action was running a test on their highly successful “Dear Reader” addition to their Live Action News site. The “Dear Reader” popup shows up at the end of each article and asks for a donation to fund Live Action News. They wanted to see if adding a quote testimonial would increase conversion rate on this test. Other elements of the test remained the same as the control.",
+      "keyLearnings": "The addition of the quote significantly decreased donor conversion by 89%. This could be due to the length of the quote, which added unnecessary length to the copy that created friction and potentially decreased the chances that a person seeing the popup would finish reading it and donate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 89.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13240,
+      "experimentId": "5821",
+      "title": "How simplifying copy in an email can impact click rate",
+      "date": "2019-04-20T01:41:03",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-copy-in-an-email-can-impact-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -64.5,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.27%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.10%",
+            "lift": "-64.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email would increase click-through?",
+      "summary": "Timeframe: 10/23/2016 - 12/23/2016\nDuring Live Action’s Calendar Year End campaign, they sent a series of emails asking for support to their year-end goal. One of their emails addressed what would happen in the first 100 days of the new administration and the kind of impact it would have on the preborn. The email appeals were traditionally lengthy, full of detail, and offered two opportunities for people to click through to the donation page – one at the top of the email and one at the bottom. They developed a treatment that simplified the copy and moved the call-to-action to the bottom of the email. They tested the two different emails against each other.",
+      "keyLearnings": "The treatment version decreased click-through by 64.5%! What we can learn from this experiment is that people needed the additional value proposition that was present in the control to motivate them enough to click-through to the donation page. The significant more clicks on the control could result in significant more donations and revenue. While we know that simplified message can help improve conversion, we need to be mindful that we aren’t stripping the email of critical messaging and weakening the value proposition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n64.5% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14105,
+      "experimentId": "7440",
+      "title": "How a personal approach in a Facebook ad affects conversion rate",
+      "date": "2019-04-20T01:40:57",
+      "url": "https://www.nextafter.com/experiments/how-a-personal-touch-in-a-facebook-ad-affects-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 192.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Feet Image",
+            "metric": "0.22%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Lila Approach",
+            "metric": "0.63%",
+            "lift": "192.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a personal approach to Facebook ads increase conversion rate?",
+      "summary": "Timeframe: 09/13/2017 - 09/18/2017\nLive Action was running paid Facebook ads to promote their free newsletter offer. They wanted to test a personal approach from a known figure at the organization, Lila Rose, to see if more people would connect with her and in turn click through to the newsletter page and sign up for weekly updates from Live Action. The personal touches included copy in Lila’s voice, signing her name on the ad, and including a photo of her as the ad image.",
+      "keyLearnings": "The Lila approach increased conversion rate by over 192%, which tells us that people not only know who Lila is, but connect with her and believe in her authority as a pro-life news source. This increased the perceived value proposition of the offer by adding exclusivity and authority to the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 192.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14400,
+      "experimentId": "8013",
+      "title": "How a radical redesign of a weekly newsletter affects open rate",
+      "date": "2019-04-20T01:40:37",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-of-a-weekly-newsletter-affects-open-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 69,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Current Branded + Formatted Newsletter",
+            "metric": "12.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stripped Down Treatment",
+            "metric": "20.4%",
+            "lift": "69.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does stripping out formatting and imagery and bringing a more personal tone to an email newsletter affect open rate?",
+      "summary": "Timeframe: 11/11/2017 - 12/01/2017\nLive Action sends out a weekly email to their housefile with the top pro-life news stories from Live Action News. The current email format is highly branded, comes from Lauren Merz, and includes mainly images with links to stories.\nThey have had success in the past with emails coming from Lila Rose, the founder. They wanted to test whether a more personal, stripped-down approach to the newsletter would increase open rate of the emails.",
+      "keyLearnings": "The stripped-down approach from Lila increased open rates by nearly 70%, however, removing the imagery decreased click rate by 18%. People are drawn to anything with Lila’s name on it, and responded well to receiving these stories from Lila, but clickthrough rate declined without the added pull of an image to tie to each story.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n69.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17677,
+      "experimentId": null,
+      "title": "How adding a person’s name to the confirmation page of a pledge impacts donor conversion",
+      "date": "2021-06-14T14:26:46",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-persons-name-to-the-confirmation-page-of-a-pledge-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": -14.3,
+      "confidence": 89.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Name personalization",
+            "metric": "1.0%",
+            "lift": "-14.3%",
+            "confidence": "89.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will personalizing the instant donation page increase donor conversion?",
+      "summary": "Timeframe: 08/20/2020 - 11/16/2020\nLive Action uses a pledge as an email acquisition opportunity. Through recent experiments with other organizations, we found that by personalizing the instant donation page that people are taken to after they sign a pledge can increase donor conversion. To test this with Live Action, we simply added the person’s first name to the headline of the confirmation/instant donation page. This data was passed through the URL from the form field on the pledge.",
+      "keyLearnings": "We weren't able to validate this experiment, but we did see a directional 14% decrease in donor conversion. We saw this similar result across all channels, device types, and user types. Our hypothesis with seeing a decrease in donor conversion when using this personalization tactic is that instead of increasing motivation we increased friction on the page. Maybe the use of their first name was too invasive for the prospective donors.\n\nWe'd like to continue to test into this theory around personalization as we've seen it perform consistently well with other organization and with similar offers.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13819,
+      "experimentId": "6959",
+      "title": "How active language in the call to action increases donor conversion",
+      "date": "2019-04-20T03:48:35",
+      "url": "https://www.nextafter.com/experiments/how-active-language-in-the-call-to-action-increases-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 46.5,
+      "confidence": 94.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Defend the Preborn",
+            "metric": "0.52%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Support Live Action",
+            "metric": "0.76%",
+            "lift": "46.5%",
+            "confidence": "94.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does active language on a donate button increase donor conversion?",
+      "summary": "Timeframe: 05/26/2017 - 06/14/2017\nLive Action wanted to increase donations on their main donation page. They tested the copy used on the “Donate” button in the navigation of liveaction.org. After finding that the copy “Defend the Preborn” had a 60% increase in clicks over the original “Donate” copy and the other treatment, “Support Live Action”, they tested which copy converted more donors.",
+      "keyLearnings": "The control was “Defend the Preborn” and treatment #1 was “Support Live Action”. “Support Live Action” had a 46.5% increase in donations over “Defend the Preborn.” So while “Defend the Preborn” was able to get more people to the donation page initially, more people gave a donation using the text “Support Live Action”. What this tells us is that even though people were more motivated to click on “Defend the Preborn”, the lack of clarity in that copy to where they would be taken resulted in less people converting to what the primary objective was on the page – to give a gift. By using more active language with greater clarity, we were able to increase traffic to the donation page and increase donations and revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13427,
+      "experimentId": "6199",
+      "title": "How the way a name acquisition offer is presented impacts conversion rate",
+      "date": "2019-04-20T01:44:51",
+      "url": "https://www.nextafter.com/experiments/how-the-way-a-name-acquisition-offer-is-presented-impacts-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 11.7,
+      "confidence": 91.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pop-down",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pop-up modal",
+            "metric": "1.2%",
+            "lift": "11.7%",
+            "confidence": "91.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Which acquisition feature would acquire more names?",
+      "summary": "Timeframe: 01/20/2017 - 02/19/2017\nLive Action developed a petition for people to sign to Defund Planned Parenthood. With the recent political climate and conversation around this topic, they wanted to really push this petition and did so through multiple channels. One of those channels was their website. They had a pop-down feature at the top of their site that asked people if they wanted to sign the petition. They hypothesized that they might be able to get more signatures if they had a pop-up modal on their site. They developed a treatment with this modal and tested it against the pop-down feature.",
+      "keyLearnings": "The pop-up modal increased petition signers by 11%. While the results did not reach the 95% validity that we would like to reach, it did reach 91% which is enough for us to draw insights and push out the treatment as the winning version.\nThe increase in petition signers and names with the pop-up modal can be attributed to it being more disruptive to the end-user’s experience on the page than the pop-down feature. This disruption puts the offer right in front of the person with no other elements buying for their attention.\nAdditional testing is recommended for this name acquisition opportunity to see if we can increase the conversion rate even more drastically.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13652,
+      "experimentId": "6659",
+      "title": "How directly connecting the value proposition to the ask impacts clicks",
+      "date": "2019-04-20T01:44:16",
+      "url": "https://www.nextafter.com/experiments/how-directly-connecting-the-value-proposition-to-the-ask-impacts-clicks/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 22.6,
+      "confidence": 86,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Mother's Day/Transactional",
+            "metric": "0.67%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stronger Value Prop",
+            "metric": "0.82%",
+            "lift": "22.6%",
+            "confidence": "86.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a stronger value proposition increase clicks?",
+      "summary": "Timeframe: 05/13/2017 - 05/23/2017\nAs Mother’s Day was approaching, Live Action sent a fundraising email asking people to give a gift in honor of a mom in their life. We hypothesized that we might be able to increase clicks from the email to the donation page by better connecting the Mother’s Day holiday to the value proposition of Live Action. We developed a treatment with this strengthened value proposition and tested it against the control.",
+      "keyLearnings": "This experiment didn’t validate, but the data we did collect shows that by strengthening the value proposition of the email, we were able to increase clicks by 22%. Here is a great takeaway from this experiment: When we present an ask, more people are willing to click through (and hopefully give) when we can connect the ask to a strong reason to give. If we don’t do this, the ask sounds and feels transactional. People give not just to give, but to have an even greater impact. A strong value proposition can clearly communicate this and result in more people being motivated to give.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17633,
+      "experimentId": "50009",
+      "title": "How expanding the value proposition in a monthly donation ask email affects click rate",
+      "date": "2021-06-22T13:58:58",
+      "url": "https://www.nextafter.com/experiments/how-expanding-the-value-proposition-in-a-monthly-donation-ask-email-affects-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "email",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 31,
+      "confidence": 72.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.03%",
+            "lift": "31.0%",
+            "confidence": "72.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that expanding the value proposition for a monthly donor ask will achieve a higher click rate.",
+      "summary": "Ended On: 02/11/2021\nIn this monthly donor ask email, Live Action tested an expanded value proposition to become a monthly donor over a shortened version that left out a lot of the benefits of becoming a Life Defender.",
+      "keyLearnings": "There was a slight lift in clicks from the expanded value proposition treatment, but ultimately this experiment proved invalid.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17226,
+      "experimentId": "33368",
+      "title": "How bringing clarity to a homepage redirect experience impacts donor conversion",
+      "date": "2020-07-31T14:43:53",
+      "url": "https://www.nextafter.com/experiments/how-bringing-clarity-to-a-homepage-redirect-experience-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -19.8,
+      "confidence": 45.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Go Back Links",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pardon the Interruption",
+            "metric": "1.6%",
+            "lift": "-19.8%",
+            "confidence": "45.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase donor conversion by bringing clarity to a homepage redirect?",
+      "summary": "Timeframe: 06/30/2020 - 07/13/2020\nDuring Live Action’s high urgency campaign, we ran a homepage redirect where we redirected traffic that came to the homepage to the donation page for the campaign. We were curious what would happen if we brought more clarity to the experience and helped to orientate people with what was going on once they saw the donation page, so we tested language on the page that simply said, “Pardon the interruption but we wanted to be sure you saw this”. Our hypothesis was that people may be more likely to read what we were wanting them to see and do if we communicated that to them.",
+      "keyLearnings": "Regardless of audience, or device type, there was no difference in donor conversion. Because this test was run on the very last day of the high urgency campaign, the motivation of donors was already high resulting in no difference in conversion between the control and treatment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14437,
+      "experimentId": "11523",
+      "title": "How multichannel communication impacted a Giving Tuesday solicitation",
+      "date": "2019-05-02T14:42:08",
+      "url": "https://www.nextafter.com/experiments/how-multichannel-communication-impacted-a-giving-tuesday-solicitation/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 13.6,
+      "confidence": 39.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No SlyBroadcast",
+            "metric": "3.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With SlyBroadcast",
+            "metric": "4.5%",
+            "lift": "13.6%",
+            "confidence": "39.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a direct ask made via a straight-to-voicemail call increase the likelihood of a donor to convert?",
+      "summary": "Timeframe: 11/28/2017 - 11/30/2017\nAs part of their Giving Tuesday campaign, Live Action wanted to see if they could use multiple channels of communication to drive incremental giving. Using a new technology named SlyBroadcast, we recorded a “voicemail” from the organization’s founder, Lila Rose. SlyBroadcast was then able to send this message straight to the voicemail of several hundred of their donors.\nThe message itself started with stewardship and led to a direct ask for support on Giving Tuesday. We wanted to see how this would impact the donor’s likelihood to give.\nTo determine this, we divided all recent donors with an email and phone number in half. We then sent the SlyBroadcast message to one segment. It should be noted that not everyone in the treatment segment would have actually received the voicemail since it would only work with digital phone lines. We saw a 60% delivery rate.",
+      "keyLearnings": "While the treatment shows a percentage increase, it did not come anywhere close to statistical significance. This same test was performed with two other organizations at the same time and all had similar results. What this indicates is that while it didn’t hurt the chances of giving, it didn’t seem to help them either.\nIn the future, we will likely want to avoid using SlyBroadcast for direct solicitations. Instead, it should be reserved for stewardship and cultivation; basically, any communication where we are not making a call to action.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13558,
+      "experimentId": "11694",
+      "title": "How membership benefits affect conversion during a year end campaign",
+      "date": "2019-04-20T01:44:36",
+      "url": "https://www.nextafter.com/experiments/how-including-a-social-media-comment-in-email-appeal-copy-impacts-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -8.1,
+      "confidence": 42.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Benefits",
+            "metric": "12.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Benefits",
+            "metric": "11.4%",
+            "lift": "-8.1%",
+            "confidence": "42.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does talking about member benefits on the year end landing page increase donor conversion?",
+      "summary": "Timeframe: 09/14/2015 - 09/30/2015\nDuring the fiscal year end campaign, the Texas State Historical Association had a landing page targeting non-members. It focused on the legacy of the organization and the work being done day-in and day-out. There was a premium for a gift of $50 or more but there were no other mentions of associated member benefits. These benefits had proven to be successful in other experiments so we decided to test them out in the year end campaign as well.",
+      "keyLearnings": "The member benefits produced no statistically significant change in donor conversion. This would suggest that either they are not necessary during an urgency-based appeal like the fiscal year end or that the benefits did not add significant value for the potential donors. We will need to isolate these factors on a general donation form to determine which of these hypothesis are true.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13649,
+      "experimentId": "6655",
+      "title": "How using an image of the free resource offer in an email can decrease clicks",
+      "date": "2019-04-20T01:44:22",
+      "url": "https://www.nextafter.com/experiments/how-using-an-image-of-the-free-resource-offer-in-an-email-can-decrease-clicks/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 3,
+      "lift": -3.5,
+      "confidence": 71.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "WITHOUT IMAGE",
+            "metric": "10.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "WITH IMAGE",
+            "metric": "10.1%",
+            "lift": "-3.5%",
+            "confidence": "71.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the image of the book help increase clicks to the landing page?",
+      "summary": "Timeframe: 05/11/2017 - 05/23/2017\nLive Action created a new content offer to acquire new names and emails. They used this same content offer as a cultivation offer to their housefile. In an effort to increase click-through from the housefile email for the offer to the landing page, they put an image of the eBook in the email. They tested this against the same email without the image of the book.",
+      "keyLearnings": "This experiment did not validate, but the initial data showed that the treatment with the image of the book slightly decreased clicks in the email. In a previous test we learned that their housefile responds best when the email from the sender is highly personal, casual and conversational. What the initial data in this new test suggests is that by having the image of the book in the email, it may not have felt as genuine or authentic that the sender personally sent them this email and eBook. This could have caused friction and resulted in less people clicking through to the landing page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13768,
+      "experimentId": "6849",
+      "title": "How positive or negative tone in donation page copy impacts donor conversion",
+      "date": "2019-04-20T01:43:56",
+      "url": "https://www.nextafter.com/experiments/how-positive-or-negative-tone-in-donation-page-copy-impacts-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -12.7,
+      "confidence": 57.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Positive",
+            "metric": "25.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Negative",
+            "metric": "22.6%",
+            "lift": "-12.7%",
+            "confidence": "57.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a positive or negative tone on a donation page motivate more people to give?",
+      "summary": "Timeframe: 06/15/2017 - 06/21/2017\nLive Action was running a high-urgency campaign centered around the topic of cultivating a culture of life. They wanted to test whether a positive tone that focused on donor impact (“You can help create a culture of life”) or a negative tone that focused on media silencing of the pro-life voice (“Our voice is being silenced”) would motivate more people to give.\nThe elements tested were headline and body copy. All other elements remained the same.",
+      "keyLearnings": "Though this experiment didn’t validate, there was still a 12.7% decrease in conversion rate on the negatively-toned variant. This is due to a couple of things:\nPeople like to know that their gift will make a positive and direct impact. Positive and uplifting language empowers the reader and makes them feel like their gift is making a difference.\nThe negative-tone test was focused on things happening to Live Action (being silenced by the media), which was not as directly affective to the donor as the positive tone test- changing their culture. People aren’t as likely to feel they can really change that situation.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13886,
+      "experimentId": "7080",
+      "title": "How the navigation’s donate button copy impacted giving",
+      "date": "2019-04-20T01:43:43",
+      "url": "https://www.nextafter.com/experiments/how-the-navigations-donate-button-copy-impacted-giving/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": [
+        -7.3,
+        -7.9
+      ],
+      "confidence": 16.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "DONATE",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Defend the Preborn",
+            "metric": "0.01%",
+            "lift": "-7.3%",
+            "confidence": "15.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Support Live Action",
+            "metric": "0.01%",
+            "lift": "-7.9%",
+            "confidence": "16.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which button’s call to action will drive the most donations?",
+      "summary": "Timeframe: 07/21/2017 - 08/02/2017\nOn the Live Action News website, we wanted to see if we could apply the learnings we had seen with the LiveAction.org navigation test. In this test, we had found that a button that communicated more value than a simple “Donate” but was still was clear on the purpose, was able to increase donations.\nFor this test, we decided to test out two options: “Support the Preborn” and “Support Live Action.”",
+      "keyLearnings": "None of the treatments had significant impact on the donor conversion rate. It is our hypothesis that this is likely due to the motivation of the audience. With Live Action News, the audience is motivated to read news and see uplifting stories. As a result, the language used around donating did not see much of an impact. In future tests, we will need to lay out the case for support more thoroughly, most likely in the form of the Dear Reader treatment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13588,
+      "experimentId": "6529",
+      "title": "How identifying the “next steps” impacts donor conversion after email acquisition",
+      "date": "2019-04-20T01:43:31",
+      "url": "https://www.nextafter.com/experiments/how-identifying-the-next-steps-impacts-donor-conversion-after-email-acquisition/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 1.6,
+      "confidence": 11.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Value Prop",
+            "metric": "0.41%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Updated Value Prop",
+            "metric": "0.42%",
+            "lift": "1.6%",
+            "confidence": "11.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will explaining the “next steps” in the process increase the perceived impact of their gift.",
+      "summary": "Timeframe: 02/02/2017 - 04/25/2017\nFor Live Action, there had been a significant emphasis on acquiring email addresses using their Pro-Life petition. However, they new subscribers had not been converting to donors at a significant level so we decided to launch a test.\nOur hypothesis is that if we explain the process to the potential donors, they can understand how the next step they take (a donation) will play into the bigger picture of defunding Planned Parenthood. This would increase the perceived impact of their gift and, subsequently, the donor conversion.",
+      "keyLearnings": "After running for two months, we were not able to see a significant impact to donation conversion for the treatment. Our hypothesis is this was likely caused by the low motivation of the audience. Petition signers are not often a good source of donors given the low barrier for entry (signing a petition). Since there is minimal value exchange, the donation ask is not as likely to happen.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14213,
+      "experimentId": "11695",
+      "title": "How the donation premium can affect both conversion rate and average gift",
+      "date": "2019-04-20T01:43:01",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-petition-affects-conversion-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -0.1,
+      "confidence": 65,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "2016-17 Texas Almanac Premium",
+            "metric": "$9.25",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Along Forgotten River Premium",
+            "metric": "$9.24",
+            "lift": "-0.1%",
+            "confidence": "65.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which premium will increase the overall revenue from existing members?",
+      "summary": "Timeframe: 08/13/2015 - 09/30/2015\nAs part of Texas State Historical Association’s fiscal year end campaign, we wanted to find a way to improve the average gift of existing members in order to boost revenue. The majority of existing members were acquired using the premium of the 2014-15 Texas Almanac. The update to this book was going to be released in the coming months so we had a feeling it would be a popular premium offer to use with the donor base.\nHowever, this book is normally offered for a gift of $50 which meant it wouldn’t do much to raise the average gift. We decided to test another popular book as a premium and increase the minimum gift to $100 or more.",
+      "keyLearnings": "The Along Forgotten River premium offer reduced the donor conversion rate of the page by 50%. However, it was also able to increase the average gift by 64%. These two factors cancelled out the combined impact on revenue and produced no statistically significant change in either direction.  This does prove to us that if we can find the right premium offer, we should be able to increase the average gift enough to boost revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13685,
+      "experimentId": "6736",
+      "title": "How mentioning a specific giving amount in the call-to-action of an email impacts click-rate.",
+      "date": "2019-04-20T01:40:53",
+      "url": "https://www.nextafter.com/experiments/how-mentioning-a-specific-giving-amount-in-the-call-to-action-of-an-email-impacts-click-rate/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 10.9,
+      "confidence": 68.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Without specific $ ask",
+            "metric": "0.96%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With the specific $ ask",
+            "metric": "1.1%",
+            "lift": "10.9%",
+            "confidence": "68.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email would increase conversion?",
+      "summary": "Timeframe: 06/01/2017 - 06/05/2017\nLive Action sends monthly email appeals to their email file. In an effort to get more people clicking through to their donation page, they wanted to test if putting a specific donation amount in the call-to-action would help increase conversion. The control didn’t mention a specific giving amount and the treatment mention a specific giving amount of $50. All of the other copy in the email remained the same.",
+      "keyLearnings": "While not statistically valid, the treatment email decreased click rate by 10%. We will need to do more testing around this idea to know exactly the impact a specific giving amount has on click-through, but we could hypothesize from this initial data that mentioning a specific giving amount to people presents a point of friction in the conversion process.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13757,
+      "experimentId": "6842",
+      "title": "How shorter copy in a “Dear Reader” experiment affects donor conversion",
+      "date": "2019-04-20T01:40:48",
+      "url": "https://www.nextafter.com/experiments/how-shorter-copy-in-a-dear-reader-experiment-affects-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -43.4,
+      "confidence": 64.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Copy",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Updated Copy",
+            "metric": "0.02%",
+            "lift": "-43.4%",
+            "confidence": "64.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does shorter, value focused copy increase donor conversion?",
+      "summary": "Timeframe: 06/07/2017 - 06/20/2017\nThe Live Action team was running a “Dear Reader” experiment on Live Action news, and wanted to test if a shortened version of the copy would convert more donors. The new copy had more personal, value-focused copy on the benefits to the donor, rather than an overview of what Live Action News does.",
+      "keyLearnings": "The results of this experiment were not valid, and the experiment was ended in favor of a new experiment before we could reach conclusive results on the effectiveness of the copy. However, the experiment trended in favor of the control, which could have increased the perception of the impact that Live Action News was having on the worldwide perception of abortion versus the shorter version that had fewer statistics. The statistics could have impacted the motivation of the giver more than the personal, donor-focused approach in this case.\nAnother factor that could have impacted giving was the stepped approach that the control took in leading potential donors through why they should give, rather than text blocks in the treatment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14487,
+      "experimentId": "8156",
+      "title": "How an extended value proposition on a main donation page affects donor conversion",
+      "date": "2019-04-20T01:40:21",
+      "url": "https://www.nextafter.com/experiments/how-an-extended-value-proposition-on-a-main-donation-page-affects-donor-conversion/",
+      "organization": "Live Action",
+      "categoryNames": [
+        "Live Action"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -0.6,
+      "confidence": 3.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "14.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "14.8%",
+            "lift": "-0.6%",
+            "confidence": "3.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Does an extended value proposition increase donor conversion on a main donation page?",
+      "summary": "Timeframe: 10/30/2017 - 12/21/2017\nLive Action wanted to re-test an extended value proposition on their main donation page. Earlier tests had revealed that extended value proposition decreased conversion, but due to technical restrictions and errors on the donation platform, these results proved to be faulty and not reliable. Because of this, they ran a new test on the main donation page, testing a new headline and body copy that had a longer explanation of the value proposition of the organization.",
+      "keyLearnings": "This test did not validate, as there was not enough traffic during the two months the test ran to get statistically sound data on a winning treatment. We recommend testing this approach in the future during a high-urgency campaign that will guarantee more traffic to the page in order to secure a valid learning on this experiment.",
+      "fluxMetrics": null
+    }
+  ]
+}

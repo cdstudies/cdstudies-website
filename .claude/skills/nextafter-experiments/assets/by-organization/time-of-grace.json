@@ -1,0 +1,1178 @@
+{
+  "name": "Time of Grace",
+  "total": 27,
+  "tierBreakdown": {
+    "valid": 12,
+    "directional": 4,
+    "inconclusive": 11
+  },
+  "experiments": [
+    {
+      "id": 723191,
+      "experimentId": "189302",
+      "title": "How a Dear Reader on Blog Pages Impacts Email and Donor Acquisition",
+      "date": "2026-02-02T17:42:54",
+      "url": "https://www.nextafter.com/experiments/how-a-dear-reader-on-blog-pages-impacts-email-and-donor-acquisition/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "dear reader",
+        "donor conversion",
+        "Email Acquisition | Design",
+        "Email Fundraising | Design"
+      ],
+      "tier": 1,
+      "lift": [
+        1,
+        1
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.23%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dear Reader (How to fight anxiety)",
+            "metric": "4.2%",
+            "lift": "1,708.7%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Dear Reader (Mental Wellness)",
+            "metric": "4.2%",
+            "lift": "1,698.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a dear reader presenting a content offer for users on the Time of Grace blog and written devotion pages will increase email and donor acquisition, as it offers Time of Grace content to users who are already interested in and enjoy Time of Grace resources.",
+      "summary": "Timeframe: 08/14/2024 - 08/26/2024\nTime of Grace receives significant traffic to its blogs and written devotion pages. Our hypothesis was that this traffic left a huge opportunity to capture emails and donors by presenting traffic that we already know is interested in Time of Grace content, with an opportunity to receive a free content offer. At the end of this funnel, they would also then be presented with an ask.",
+      "keyLearnings": "Key Learnings from this Experiment: The experiment showed that presenting a content offer to users on Time of Grace blog and written devotion pages resulted in a significant increase in email acquisition. This indicates that users who are already engaged with Time of Grace content are more likely to provide their email in exchange for additional resources. The experiment also demonstrated a substantial increase in transactions, showcasing the potential to convert these engaged users into donors, resulting in $802 in revenue from this additional passive stream of audience cultivation. This indicates that providing valuable content offerings can not only increase email acquisition but also boost conversion rates. Further, both the increase in email acquisition and transactions were statistically significant, underscoring the validity and reliability of the findings. Overall, the key learnings from this experiment highlight the importance of providing valuable content offerings to an already engaged audience to boost email acquisition and drive transactions. By leveraging these insights and implementing them in future experimentation, Time of Grace Ministry can further enhance its outreach and impact on its audience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 1,708.7% increase in conversion rate\n\t\t\t\t× 76.7% decrease in average gift\n\t\t\t\t\t\t\t\t\t321.1% increase in revenue"
+    },
+    {
+      "id": 722840,
+      "experimentId": "198799",
+      "title": "How does pre-selecting monthly on a tabbed form impact recurring gifts in paid media?",
+      "date": "2026-01-12T19:23:51",
+      "url": "https://www.nextafter.com/experiments/how-does-pre-selecting-monthly-on-a-tabbed-form-impact-recurring-gifts-in-paid-media/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "gift array",
+        "Recurring Giving"
+      ],
+      "tier": 1,
+      "lift": 1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Variation 1",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 2",
+            "metric": "0.41%",
+            "lift": "1,354.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that\ndefaulting the tabbed form to monthly for paid media users on instant donation pages will achieve an increase in recurring giving, while not negatively impacting overall transactions because it treats monthly giving like a priority, suggesting it as the primary way of giving, versus an after-thought or add-on.\nbecause  it treats monthly giving like a priority, suggesting it as the primary way of giving, versus an after-thought or add-on.\nbecause  it treats monthly giving like a priority, suggesting it as the primary way of giving, versus an after-thought or add-on.",
+      "summary": "Timeframe: 07/23/2025 - 08/25/2025\nTime of Grace had recently tested into and rolled out a valid increase in overall transactions, when using a tabbed form for paid media traffic. We hypothesize that defaulting the tab to monthly would passively increase recurring giving while not having a negative impact on overall transactions.",
+      "keyLearnings": "Based on this data, defaulting the tabbed form to monthly giving for paid media users on instant donation pages significantly increased recurring donations by 1,354.5%.\nIn addition, Overall Transactions were not negatively impacted; instead, there was a slight bump in giving overall to the treatment. Indicating that this experience is not misleading, and of the 300+ donors who participated, donors were selecting the type of gift they wanted to give—whether that was monthly or one-time. Total transactions and validity of the lift can be seen below:\nOverall Transactions:\nControl: 3,452 Samples | 151 Donations |\nTreatment: 3,652 Samples | 172 Donations | +10% Increase with 64% LOC.\nFinally, within the time frame of this experiment being run only one donor reached out to cancel their monthly gift. The impact of this experiment is that Time of Grace can now begin passively acquiring recurring donors from their paid media traffic, without any increase to budget or a separate monthly campaign.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 1,354.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 721605,
+      "experimentId": "194885",
+      "title": "How writing more direct copy in an email affects click-through rate",
+      "date": "2025-11-13T22:40:32",
+      "url": "https://www.nextafter.com/experiments/how-writing-more-direct-copy-in-an-email-affects-click-through-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "click through rate",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 153.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.27%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.68%",
+            "lift": "153.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that presenting a more direct email for the housefile will achieve an increase in click-through rate because shorter copy would allow the user to grasp the message of the email quicker and help the user focus on the CTA. because  shorter copy would allow the user to grasp the message of the email quicker and help the user focus on the CTA.",
+      "summary": "Ended On: 01/27/2025\nFor Time of Grace, we send out emails to the housefile for TOG’s premium offers. For this email, we wanted to test how presenting a more direct email with shorter copy would affect click-through rate for their email.",
+      "keyLearnings": "The key learning from this experiment is that presenting a more direct email with shorter copy resulted in a significant increase in click-through rate for Time of Grace Ministry's premium offers. The treatment group saw a 153.9% increase in clicks compared to the control group, with a statistical confidence level of 100.0%.\nDuring this experiment, we also saw a valid 111% increase in donations.\nThis outcome indicates that users responded positively to the shorter, more direct messaging by being able to grasp the email's message quicker and focus on the call-to-action. In future experimentation, Time of Grace Ministry should consider using shorter and more direct copy in their emails to the housefile to potentially increase click-through rates. This strategy could lead to more effective communication with their audience and ultimately drive more conversions or engagement with their premium offers.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n153.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 721834,
+      "experimentId": "198799",
+      "title": "How does pre-selecting monthly on a tabbed form impact recurring gifts in paid media?",
+      "date": "2025-11-10T20:11:34",
+      "url": "https://www.nextafter.com/experiments/how-does-pre-selecting-monthly-on-a-tabbed-form-impact-recurring-gifts-in-paid-media-3/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "monthly donor",
+        "Recurring Giving"
+      ],
+      "tier": 1,
+      "lift": 1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.41%",
+            "lift": "1,354.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that defaulting the tabbed form to monthly for paid media users on instant donation pages will lead to an increase in recurring giving, while not negatively impacting overall transactions, as it treats monthly giving as a priority, suggesting it as the primary way of giving, rather than an afterthought or add-on.",
+      "summary": "Timeframe: 07/23/2025 - 08/05/2025\nTime of Grace had recently tested and rolled out a valid increase in overall transactions when using a tabbed form for paid media traffic. We hypothesize that defaulting the tab to monthly would passively increase recurring giving without a negative impact on overall transactions.",
+      "keyLearnings": "Based on this data, defaulting the tabbed form to monthly giving for paid media users on instant donation pages significantly increased recurring donations by 1,354.5%.\nIn addition, Overall Transactions were not negatively impacted; instead, there was a slight bump in giving overall to the treatment. Indicating that this experience is not misleading, the 300+ donors who participated were able to select the type of gift they wanted to give—whether that was monthly or one-time. Total transactions and validity of the lift can be seen below:\nOverall Transactions:\nControl: 3,452 Samples | 151 Donations |\nTreatment: 3,652 Samples | 172 Donations | +10% Increase with 64% LOC.\nFinally, within the time frame of this experiment, only one donor reached out to cancel their monthly gift. The impact of this experiment is that Time of Grace can now begin passively acquiring recurring donors from their paid media traffic, without any increase to budget or a separate monthly campaign.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 1,354.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 721139,
+      "experimentId": "193981",
+      "title": "How Having a Humanized Exit Intent pop up during Calendar Year End affect conversions",
+      "date": "2025-09-22T15:55:22",
+      "url": "https://www.nextafter.com/experiments/how-having-a-humanized-exit-intent-pop-up-during-calendar-year-end-affect-conversions/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency",
+        "pop-up"
+      ],
+      "tier": 1,
+      "lift": -87,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "40.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "5.3%",
+            "lift": "-87.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a humanized version of the exit intent for users wanting to exit out of the main donation page will achieve an increase in donations because seeing a message from someone from Time of Grace would motivate them to want to participate in the CYE efforts.",
+      "summary": "Timeframe: 12/13/2024 - 12/16/2024\nFor Time of Grace’s Calendar Year End, we wanted to test two variations of an exit intent: a regular one and a humanized version that would come from a person. We ran this experiment on their main donation page to capture users leaving the page and reinforce why they should donate. The exit intent would appear when the user hovered over the exit button.",
+      "keyLearnings": "The key learning from this experiment is that the humanized version of the exit intent for users wanting to leave the main donation page did not achieve the desired outcome. In fact, it resulted in a significant decrease in transactions for all traffic, with a 100% statistical confidence level, and an even larger reduction of one-time donations.\nIn future experimentation, carefully considering the messaging and timing of exit intents is crucial. While adding a human touch can often be beneficial in marketing and communication strategies, in this case, it did not resonate with users in a way that encouraged donations.\nIt may be beneficial to test different messaging variations, including humanized and more traditional approaches, to see what resonates best with users. Additionally, considering the timing of the exit intent and ensuring it is strategically placed in the user journey may also impact its effectiveness.\nOverall, this experiment highlights the importance of testing and iterating on different strategies to determine what motivates users to donate, ultimately leading to more successful fundraising efforts for Time of Grace Ministry.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 87.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 720346,
+      "experimentId": "198980",
+      "title": "How adding an impact statement below the donate button during a Challenge Grant affects revenue",
+      "date": "2025-08-11T18:35:57",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-impact-statement-below-the-donate-button-during-a-challenge-grant-affects-revenue/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 187.7,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "control",
+            "metric": "$6.21",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Impact CTA",
+            "metric": "$17.86",
+            "lift": "187.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the copy on the donate button and adding a statement highlighting an impact statement for donation page visitors will achieve an increase in revenue and donations because highlighting the impact of their gift and reminding them that the impact of the gift will double would encourage users to donate.",
+      "summary": "Timeframe: 08/04/2025 - 08/06/2025\nTime of Grace has a challenge grant every year in August. This allows users to double the impact of their gift up to the goal amount that TOG sets, with each challenge grant highlighting a problem that TOG is trying to tackle. For this test, we wanted to test changing the copy on the donate button and adding a statement below the donate button highlighting the impact of the user’s gift. The statement was dynamic and would pull in the amount that the user was planning on donating. So for example, if the user were to donate $25, the statement would read as “Your $25 gift connects more people with the healing and freedom found only in Christ when we are equipped to confess and confront the struggles we don’t talk about.”",
+      "keyLearnings": "The key learning from this experiment is that changing the copy on the donate button and adding a personalized impact statement below the button significantly increased revenue and donations. The treatment group, which included the updated copy and impact statement, saw a substantial 187.7% increase in revenue compared to the control group. This result was statistically significant at a 100.0% confidence level.\n\nIt is also important to note that we saw a slight increase in transactions as well, making sure that this experiment did not cause a decrease.\n\nIn future experimentation, it is crucial to continue emphasizing the impact of the donation and the concept of doubling the impact through the challenge grant. Highlighting the tangible outcomes of a user's donation can motivate them to contribute more and feel a stronger connection to the cause they are supporting. Personalized impact statements based on the user's intended donation amount can also be a powerful way to make the donation feel more meaningful and relevant to the donor.\n\nOverall, this experiment demonstrates the importance of effectively communicating the impact of a donation to potential donors and how small changes to the donation process can lead to significant increases in revenue. These learnings should be applied to future experiments and donation campaigns to continue optimizing donation processes and driving more support for Time of Grace Ministry.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 23.5% increase in conversion rate\n\t\t\t\t× 132.9% increase in average gift\n\t\t\t\t\t\t\t\t\t187.7% increase in revenue"
+    },
+    {
+      "id": 719901,
+      "experimentId": "195385",
+      "title": "How a slideup with a gift array selection vs a stickybar affects monthly donations for a campaign",
+      "date": "2025-08-05T15:01:11",
+      "url": "https://www.nextafter.com/experiments/how-a-slideup-with-a-gift-array-selection-vs-a-stickybar-affects-monthly-donations-for-a-campaign/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "gift array",
+        "monthly donor"
+      ],
+      "tier": 1,
+      "lift": 122.7,
+      "confidence": 96,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Sticky Bar",
+            "metric": "0.14%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Slideup with Gift Selection",
+            "metric": "0.31%",
+            "lift": "122.7%",
+            "confidence": "96.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding in a slideup with gift array for website visitors will achieve an increase in donations because that slideup with the gift array would lead them directly to the donation page with their gift pre-filled, hence reducing a good amount of friction.",
+      "summary": "Timeframe: 02/17/2025 - 02/28/2025\nTime of Grace had their recurring campaign in the last two weeks of February. We wanted to test how a slideup with a gift array selection vs a stickybar would affect the donor conversion rate. The language on the sticky bar and the slideup was the same, so the elements of the sticky bar and slideup were being tested against each other.",
+      "keyLearnings": "Key Learnings from the Experiment:\n\n1. The addition of a slideup with a gift array selection significantly increased the Recurring Donation for All Traffic by 122.7% with a high level of confidence (96.0%). This indicates that the slideup with the gift array was more effective in encouraging donations compared to the sticky bar.\n\nRecommendations for Future Experimentation:\n\n1. Consider the trade-off between increased donations and user engagement when implementing slideups with gift arrays. It may be beneficial to test different variations to find the optimal balance between the two.\n\n2. Use the learnings from this experiment to inform future strategies for maximizing donations while maintaining user engagement. This could involve testing different placements, designs, or messaging to find the most effective approach.\n\n3. Consider conducting follow-up experiments to further refine the approach and iterate on the findings from this experiment. This will help in continuously optimizing the donation process and improving overall performance.\n\nOverall, the key takeaway is to balance the trade-off between increasing donations and maintaining user engagement when implementing similar strategies in the future. The success of the slideup with gift array highlights the importance of reducing friction in the donation process, but it should be done in a way that complements overall website engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 122.7% increase in conversion rate\n\t\t\t\t× 47.3% decrease in average gift\n\t\t\t\t\t\t\t\t\t17.4% increase in revenue"
+    },
+    {
+      "id": 719856,
+      "experimentId": "198781",
+      "title": "How does defaulting appeal-language to a monthly ask impact overall transactions?",
+      "date": "2025-08-05T14:50:20",
+      "url": "https://www.nextafter.com/experiments/how-does-defaulting-appeal-language-to-a-monthly-ask-impact-overall-transactions/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Copy",
+        "monthly donor"
+      ],
+      "tier": 1,
+      "lift": -64.7,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.01%",
+            "lift": "-64.7%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that defaulting to a monthly ask for users receiving the premium appeal will achieve an increase in recurring gifts without decreasing overall transactions because it prioritizes recurring, while still giving the opportunity to make a one-time gift if they choose..",
+      "summary": "Ended On: 07/28/2025\nEvery month, Time of Grace shares an opportunity to receive the latest monthly book offer as a thank-you for a gift. However, donors also have the ability to request the monthly resource every single month when they begin a recurring gift. Each month, this ask neatly lends itself to a recurring ask. We hypothesized that defaulting the appeal language to a monthly gift, while still allowing the donor to make a one-time gift if they choose, will increase recurring gifts while not negatively impacting overall transactions.",
+      "keyLearnings": "The treatment was responsible for the only 2 recurring gifts received from this appeal, however, it was still below the level needed for statistical validity. Additionally, the experiment disproved our hypothesis that defaulting to monthly would not negatively impact overall transactions. We saw a 64% decrease in transactions with a 96% level of confidence. \n\nIn terms of next steps, this experiment provides us with key pieces of data for actions items:\n\nUsers will make a recurring gift to the monthly premium if they are asked. This alone is valuable. Typically, Time of Grace only presents a Grace Partner ask to users during the annual high-urgency push for monthly donors. However, the two gifts here indicate that there is an opportunity to highlight the monthly ask and perks in the standard premium appeal that takes place every month. However, composing the email around the Grace Partner ask has a decrease in transactions overall that outweighs the gain. Which leads us to the second action item.\n\nTime of Grace should explore a way of prioritizing monthly that isn't so intrusive to the experience of donors who would've made a one-time ask. Defaulting to a Grace Partner ask could cause donors to exclude themselves: The ministry is asking for monthly. If I can't give monthly, then maybe I shouldn't give at all. An opportunity for further testing could be focusing our efforts on the donation page. Keeping standard language in email and on the donation page, but prioritizing monthly or the premium-related perks when selecting gift frequency. This will ensure we don't discourage clicks and traffic overall at the top of funnnel, while still highlighting monthly for those who would be inclined to start a recurring gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 64.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 719772,
+      "experimentId": "198660",
+      "title": "How adding a sticky, top navigation bar in mobile impacts donor conversion rate",
+      "date": "2025-07-24T19:54:44",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-sticky-top-navigation-bar-in-mobile-impacts-donor-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "mobile",
+        "Sticky Bar"
+      ],
+      "tier": 1,
+      "lift": 118.1,
+      "confidence": 96.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.49%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky Stacked Navigation Bar",
+            "metric": "1.1%",
+            "lift": "118.1%",
+            "confidence": "96.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a sticky upper navigation bar that prioritizes donate and search for for mobile users on the homepage will achieve an increase in donor conversion rate because it highlights donate as a clickable button, while keeping this call-to-action present at the top.",
+      "summary": "Timeframe: 07/16/2025 - 07/19/2025\nOn Time of Grace’s homepage, the mobile experience presents a vastly different display to users. The donate button is removed from the navigation bar, in favor of a lengthwise “banner style” button along with a separate call-to-action: Make a donation. We hypothesized that separating the navigation bar into a top and bottom split, with a sticky upper portion that presented Donate and Search functions would increase conversion rate.",
+      "keyLearnings": "The key learnings from this experiment are that implementing a sticky upper navigation bar that prioritizes the donate and search functions for mobile users on the homepage significantly increased donor conversion rate. In this case, the treatment resulted in a 118.1% increase in transactions for all traffic with a 96.2% statistical level of confidence. Revenue also experienced a 90.3% increase with a 100% level of confidence.\nThis experiment underscores the importance of the mobile experience. Often, the desktop layout is tested extensively , only for key elements to be left off in the mobile view due to lack of space: different donate CTAs, hiding the button in hamburger menus, changing it's size, functionality, etc.\nFew can prioritize all calls to action in one mobile navigation, but splitting the experience into a top and bottom allowed Time of Grace to prioritize the donate experience while still maintaining a clean display and user experience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 118.1% increase in conversion rate\n\t\t\t\t× 25.0% decrease in average gift\n\t\t\t\t\t\t\t\t\t63.6% increase in revenue"
+    },
+    {
+      "id": 719225,
+      "experimentId": "198467",
+      "title": "How a $50 impact callout on a premium donation page affects average gift",
+      "date": "2025-07-10T16:36:56",
+      "url": "https://www.nextafter.com/experiments/how-a-50-impact-callout-on-a-premium-donation-page-affects-average-gift/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "call to action",
+        "Donation Pages | Copy",
+        "Key Metrics | Average Gift Size"
+      ],
+      "tier": 1,
+      "lift": [
+        72,
+        66.9
+      ],
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$1.46",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "$2.51",
+            "lift": "72.0%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Variation 2",
+            "metric": "$2.44",
+            "lift": "66.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an impact callout for donation page visitors will achieve an increase in revenue and average gift because highlighting what the $50 gift could do for someone would encourage users to give a higher gift.",
+      "summary": "Timeframe: 07/03/2025 - 07/08/2025\nFor Time of Grace’s premium donation pages, we wanted to test some iterations of an impact callout to see how that would affect revenue and average gift. We did and A/B/C test here. For the first variant, the language was highlighting what the gift amount would do. The second variant was more about the impact of the gift. This test was done for Facebook audiences.",
+      "keyLearnings": "The key learning from this experiment is that adding an impact callout to donation pages leads to a significant increase in revenue. The treatment, which highlighted what a $50 gift could do for someone, resulted in a 72.0% increase in revenue for all traffic with a 100.0% statistical level of confidence.\nWe also saw a significant increase in average gift for both variants, with variant 1 having the higher average gift.\nIn future experimentation, it is important to continue testing the effectiveness of impact callouts on donation pages. This could involve further refining the messaging around the impact of donations and testing different ways to communicate the difference a gift could make. Additionally, expanding this test to other channels or audiences could help determine the broader impact of impact callouts on donation behavior. Overall, the results of this experiment highlight the importance of emphasizing the impact of donations in fundraising efforts for Time of Grace Ministry.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 17.5% decrease in conversion rate\n\t\t\t\t× 108.5% increase in average gift\n\t\t\t\t\t\t\t\t\t72.0% increase in revenue"
+    },
+    {
+      "id": 70374,
+      "experimentId": null,
+      "title": "How retargeting direct mail recipients with Facebook ads during year-end impacts total revenue",
+      "date": "2025-02-28T19:51:07",
+      "url": "https://www.nextafter.com/experiments/how-retargeting-direct-mail-recipients-with-facebook-ads-during-year-end-impacts-total-revenue/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "facebook ad",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 18.1,
+      "confidence": 99,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$52.46",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "$61.93",
+            "lift": "18.1%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that utilizing Facebook ads to retarget direct mail recipients will achieve an increase in donations because it helps reinforce that the mail piece is incoming – keeping the ask and year-end giving to Time of Grace top of mind.",
+      "summary": "Ended On: 02/03/2025\nDuring Time of Grace’s calendar year-end campaign, we hypothesized that retargeting ads in Facebook that referenced the incoming direct mail piece would increase donor conversion rate. It is important to note that these ads did not contain an ask or a donation page to give. Instead, direct mail donors were retargeted with ads that just reinforced the timing of year-end and that their direct mail piece was in the mail. Our hypothesis is that this second-channel approach would keep the direct mail piece (and Time of Grace’s ministry) top of mind during this critical fundraising period – resulting in more donors looking out for the piece and donating to it. The second related hypothesis was that if efforts did not increase donations directly to the mail piece, treatment donors would still give more overall to the organization (in either offline or online).",
+      "keyLearnings": "Key Learnings from the Experiment:\n\nFirst, it was worth noting that the treatment did not increase overall donations and revenue directly to the offline mail piece. However, when expanding the definition to include giving in the control and treatment (both online and offline) the increase in revenue is statistically significant. This means that this multi-channel targeting, if not directly impactful upon offline giving, still increases overall giving to the ministry across channels.\n\nHere is an additional breakdown of key facts: \n\n1. Utilizing Facebook ads to retarget direct mail recipients resulted in a significant increase in revenue for Time of Grace Ministry.\n\n2. The treatment group, which received the retargeting ads referencing the incoming direct mail piece, showed a 16.9% increase in revenue compared to the control group.\n\n3. The increase in revenue was statistically significant at a 100.0% confidence level, indicating that the results were not due to chance.\n\n4. The hypothesis that using Facebook ads to remind donors of the incoming direct mail piece would increase donations and keep the organization top of mind during the critical year-end fundraising period was validated.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 2.3% decrease in conversion rate\n\t\t\t\t× 20.8% increase in average gift\n\t\t\t\t\t\t\t\t\t18.1% increase in revenue"
+    },
+    {
+      "id": 58424,
+      "experimentId": null,
+      "title": "How offering a book as a premium with a donation vs at retail price impacts conversion rate and overall revenue",
+      "date": "2024-03-01T16:34:16",
+      "url": "https://www.nextafter.com/experiments/how-offering-a-book-as-a-premium-with-a-donation-vs-at-retail-price-impacts-conversion-rate-and-overall-revenue/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Call-to-Action",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 92.2,
+      "confidence": 99.5,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.32%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.61%",
+            "lift": "92.2%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that offering a new book as a premium gift in exchange for a donation rather than as a product for purchase for Time of Grace’s donor file will achieve an increase in transactions and revenue because users are more likely to be motivated by the generosity of the organization, and the value of receiving the gift for a donation.. because users are more likely to be motivated by the generosity of the organization, and the value of receiving the gift for a donation..",
+      "summary": "Ended On: 02/16/2024\nFor Time of Grace’s monthly book promotion, we hypothesized that offering the book in exchange for a donation would result in increased transactions and revenue versus just offering it for purchase. Historically, Time of Grace has promoted their new books on their Shopify store at retail price. This test was accomplished by making a change to two areas of the funnel. The control vs treatment emails would have a change in the call-to-action copy. The control (for purchase) would lead them to Time of Grace’s Shopify page, whereas the treatment would lead them to a donation page that had the book as a premium on it.",
+      "keyLearnings": "The key learning from this experiment is that offering a new book as a premium gift in exchange for a donation, instead of selling it at retail price, significantly increased the number of donations received. The treatment group saw a 92.2% increase in donations compared to the control group, with a high statistical level of confidence.\n\nNot only did this result in an increase in donor/purchaser conversion rate, it also resulted in a valid 199% increase in revenue with a 98.9% level of confidence.\n\nControl: 27 Purchases | $996 in Revenue | $36.89 Average Gift\n\nTreatment 52 Donations |$2,985 in Revenue | $57.40 Average Gift\n\nThis approach also did not limit the ministry's impact in actual copies \"sold\" with 53 units being purchased under the control and 55 units being requested as premiums with a donation.\n\nThis indicates that users are more motivated by the generosity of the organization and the perceived value of receiving a gift in exchange for their donation. Therefore, in future experimentation, it would be beneficial to continue offering premium gifts as incentives for donations.\n\nThis could be applied to other products or promotions as well, where offering a premium gift or exclusive content in exchange for a donation or purchase may motivate users to take action and increase overall transactions and revenue. The organization should consider implementing this strategy more frequently to leverage the increased motivation and generosity of their audience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n92.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 55.6% increase in average gift\n\t\t\t\t\t\t\t\t\t199.0% increase in revenue"
+    },
+    {
+      "id": 724630,
+      "experimentId": "202780",
+      "title": "Does a shortened landing page with added credibility language improve sign-up rate?",
+      "date": "2026-03-24T16:23:08",
+      "url": "https://www.nextafter.com/experiments/does-a-shortened-landing-page-with-added-credibility-language-improve-sign-up-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy"
+      ],
+      "tier": 2,
+      "lift": 37.7,
+      "confidence": 89.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "14.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shortened Credibility",
+            "metric": "20.2%",
+            "lift": "37.7%",
+            "confidence": "89.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that swapping in credibility language for new names on the “Taboo Questions” landing page will increase sign-up rates by prioritizing copy that addresses the hypothesis (users aren’t sure who Time of Grace or Pastor Mike Novotny is) without simply adding to the page’s overall length.",
+      "summary": "Timeframe: 03/12/2026 - 03/18/2026\nTime of Grace landing page, “Taboo Questions With Pastor Mike” has struggled with a low sign-up rate of 10% – 14%. With ad targeting suppressing known audience and only being directed to new names, we hypothesized that credibility may be a point of friction. “Who is Time of Grace?” “Why should I care what Pastor Mike thinks about these topics”? An initial test that simply added this credibility language resulted in an even greater decrease. However, we hypothesized that it was not the credibility language itself. Rather, this latest iteration added in credibility language while also shortening the length of the page. This way, the treatment wasn’t simply giving the user a longer page to read, but was swapping existing copy for copy that addressed our hypothesis—keeping the overall length similar, or if anything a little bit shorter.",
+      "keyLearnings": "Key Learnings:\nAdding credibility language about Time of Grace and Pastor Mike Novotny led to a significant increase in email signups for all traffic on the \"Taboo Questions\" landing page. In contrast, this same language \"failed\" in a previous experiment, providing critical insight into test execution and Time of Grace's audience. This iteration shows the language addresses a friction point that users encountered on the landing page. Its success depended on being swapped in, not just added to and lengthened. Simply increasing its length previously had a negative impact. This demonstrates that an asset cannot \"have it all\" or use every tool at once. Instead, it must prioritize what donors need most.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 721593,
+      "experimentId": "200541",
+      "title": "How adding an image of the premium in an appeal email affects clickthrough rate",
+      "date": "2025-11-11T17:40:37",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-image-of-the-premium-in-an-appeal-email-affects-clickthrough-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "click through rate",
+        "Email Fundraising | Design"
+      ],
+      "tier": 2,
+      "lift": -25.5,
+      "confidence": 91.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.13%",
+            "lift": "-25.5%",
+            "confidence": "91.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding the image of the premium to the appeal email for the housefile will increase the click-through rate because the cover image is unique and would encourage users to click through.",
+      "summary": "Ended On: 11/03/2025\nTime of Grace offers a new premium each month. They send out appeal emails for this premium. The cover for their October premium was particularly distinctive and stood out to the audience.\nTherefore, we wanted to test including the image in the email. We wanted to see how that would affect click-through rate.",
+      "keyLearnings": "The key takeaway from this experiment is that adding the image of the premium to the appeal email did not achieve the desired increase in click-through rate. In fact, the treatment group experienced a 25.5% decrease in clicks compared to the control group, with a 91.2% statistical level of confidence. While these results are not considered valid, they are approaching validity, indicating that further testing would be necessary to confirm the effect.\nIn terms of donations, however, we did see an increase in the treatment, but not with a 95% level of confidence.\nControl - 11 Donations\nTreatment - 17 Donations\nLOC = 74.9%\nFuture studies should investigate how images in emails influence user behavior. Further testing can reveal whether certain images or situations are more effective. Keep analyzing results to improve email marketing strategies.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719406,
+      "experimentId": "198436",
+      "title": "How a tabbed form on the main donation page affects conversion rate",
+      "date": "2025-07-14T20:26:25",
+      "url": "https://www.nextafter.com/experiments/how-a-tabbed-form-on-the-main-donation-page-affects-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": 46.3,
+      "confidence": 92.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "29.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tabbed Form",
+            "metric": "42.7%",
+            "lift": "46.3%",
+            "confidence": "92.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a tabbed form for main donation page visitors will achieve an increase in conversion rate because the tabbed form provides more clarity on what type of gift the user is giving, therefore reducing potential friction while giving.",
+      "summary": "Timeframe: 07/02/2025 - 07/13/2025\nFor Time of Grace’s main donation page, we wanted to add a tabbed gift array. We previously tested this, but we made some changes to this version. The first version said “Single Gift” for one-time gifts, and also had a dark green color for the selected tabs which was a bit confusing. So for this version, we changed the copy to say “One-Time Gift” and changed the selected tab color to be the gradient green they have on the website.",
+      "keyLearnings": "The key learnings from this experiment are as follows:\nThe addition of a tabbed gift array on the main donation page resulted in a 46.3% increase in transactions for all traffic, showing potential clarity on the type of gift reducing potential friction in the donation process.\n \tThe treatment group also saw a significant 659% increase in One-Time Donation transactions, indicating that the tabbed form may have been particularly effective for this type of donation.\n \tDespite the positive results, the statistical confidence level of 92.3% for All Traffic is slightly below the 95% threshold for validity. This suggests that further testing would be necessary to confirm the impact of the tabbed gift array.\n \tFuture experimentation should focus on refining the tabbed gift array design based on these results, such as adjusting colors, copy, or layout to further optimize the donation experience. Additionally, conducting additional tests with a larger sample size could help validate the initial findings and provide more conclusive results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 71673,
+      "experimentId": "196874",
+      "title": "How changing the call-to-action on the homepage affects conversion rate",
+      "date": "2025-05-12T16:21:22",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-call-to-action-on-the-homepage-affects-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "call to action",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": 102.3,
+      "confidence": 89.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate CTA Banner",
+            "metric": "5.0%",
+            "lift": "102.3%",
+            "confidence": "89.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the CTA on the homepage banner for website visitors will achieve an increase in donor conversion rate because having the CTA be donation focused would give clarity and encourage users to give a donations.",
+      "summary": "Timeframe: 04/29/2025 - 05/02/2025\nEvery month, Time of Grace has a banner on their homepage of the premium running that month, with the CTA “Get the Book”. For this experiment, we wanted to change the CTA to be more focused on donating rather than it being focused on the book.",
+      "keyLearnings": "The key learning from this experiment is that changing the CTA on the homepage banner to focus on donations instead of a book led to a significant increase in donor conversion rate. The treatment showed a 102.3% increase in Transactions for All Traffic with an 89.4% statistical level of confidence, indicating that the change was effective in encouraging users to donate.\n\nIn future experimentation, we should continue to explore the impact of donation-focused CTAs on user behavior and conversion rates. It would be beneficial to conduct additional tests with a larger sample size and over a longer period to validate the results and ensure consistency. Additionally, we can consider testing different variations of donation-focused CTAs to optimize and further enhance the impact on donor conversion rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 724349,
+      "experimentId": "202721",
+      "title": "How testing a premium focused donation page vs a mission focused donation page affects donor acquisition rate",
+      "date": "2026-03-09T20:23:08",
+      "url": "https://www.nextafter.com/experiments/how-testing-a-premium-focused-donation-page-vs-a-mission-focused-donation-page-affects-donor-acquisition-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -25,
+      "confidence": 52.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.59%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.44%",
+            "lift": "-25.0%",
+            "confidence": "52.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that having a missional focused funnel for the housefile will achieve an increase in donor acquisition rate because having the copy be missional focused would encourage the user to give to the overall mission.",
+      "summary": "Ended On: 03/09/2026\nTime of Grace has a new premium of the month, and they send emails to the housefile to offer them a chance to donate and receive it.\nUsually, the copy on emails and donation pages focuses on the value proposition of the premium being offered. For this test, we wanted to explore a funnel focused on the overall mission of Time of Grace rather than just the premium.\nWe ran this test on both the email and donation pages, dividing the list into those who received the premium-focused or mission-focused versions.",
+      "keyLearnings": "The key learning from this experiment is that a mission focused funnel for Time of Grace Ministry's housefile did not increase donor acquisition rates. The treatment group actually experienced a decrease in donations compared to the control group. Because statistical confidence is below 95%, these results are not valid for future decision-making. It is essential to keep testing different strategies and funnels to find the most effective way to increase donor acquisition rates. For future tests, carefully design experiments with a clear hypothesis and ensure the sample size is large enough for valid results. Also, test a variety of messaging strategies. Use both premium focused and mission-focused funnels to see which best resonates with the audience and drives donations.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 723049,
+      "experimentId": "201546",
+      "title": "How changing the headline on a donation page to be more tangible affects donor conversion rate during Calendar Year End",
+      "date": "2026-01-20T20:26:45",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-headline-on-a-donation-page-to-be-more-tangible-affects-donor-conversion-rate-during-calendar-year-end/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -12,
+      "confidence": 46.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "19.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment \"Tangible Headline\"",
+            "metric": "17.0%",
+            "lift": "-12.0%",
+            "confidence": "46.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the headline for donation page visitors will achieve an increase in donor conversion rate because having a more tangible ask will help provide clarity to the user as to what the goal is, encouraging users to donate.",
+      "summary": "Timeframe: 12/22/2025 - 12/26/2025\nAs part of Time of Grace’s Calendar Year End campaign, our goal was to understand how the messaging on our donation page could influence giving behavior. Specifically, we tested whether a more tangible, outcome-oriented headline would drive higher donor conversion compared to a more general, open-ended ask.\nThe hypothesis was that clearly articulating the impact of a gift would make the donation opportunity feel more concrete and persuasive, thereby encouraging more visitors to complete a donation.",
+      "keyLearnings": "Looking at the results, there was a slight decrease in donations on the treatment version. However, looking at the revenue, there was a 141% increase in revenue to the treatment. Control - $8,605 Treatment - $21,830. This suggests that while the tangible ask didn't increase donations, it encouraged users to make larger gifts, resulting in an increase in revenue for TOG during their campaign. Therefore, this campaign was a success.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 721608,
+      "experimentId": "200313",
+      "title": "How adding a monthly callout to a tabbed form donation page affects recurring donations",
+      "date": "2025-11-04T22:48:47",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-monthly-callout-to-a-tabbed-form-donation-page-affects-recurring-donations/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "monthly donor",
+        "Recurring Giving",
+        "tabbed form"
+      ],
+      "tier": 3,
+      "lift": -49.4,
+      "confidence": 43,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.18%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Monthly callout on tabbed form",
+            "metric": "0.09%",
+            "lift": "-49.4%",
+            "confidence": "43.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a callout on the monthly gift tab for donation page visitors will achieve an increase in recurring donations because describing what kind of impact the user could make with a monthly gift would encourage the user to give a recurring gift.",
+      "summary": "Timeframe: 10/21/2025 - 10/31/2025\nTime of Grace’s donation pages feature a tabbed form, allowing users to switch between one-time and monthly donations. We wanted to test adding a monthly callout to the monthly tab to see how that would affect recurring transactions.\nThe language described how the user could make a tangible impact by sharing Jesus’ love with people all year round through a monthly gift.",
+      "keyLearnings": "The key takeaway from this experiment is that adding a callout to the monthly gift tab on the donation page for visitors did not have the intended effect of increasing recurring donations. In fact, the treatment resulted in a 49.4% decrease in recurring donations across all traffic, with a 43.0% statistical significance level. However, since the statistical level of confidence is below the desired threshold of 95%, these results cannot be considered valid or reliable.\nThere was an increase in the overall number of transactions.\nIn future experimentation, it is crucial to carefully analyze the results and assess statistical significance before drawing conclusions or implementing changes based on the findings. It is also essential to consider factors such as the potential impact of the proposed changes on user behavior and donation patterns. Additionally, conducting A/B experiments for a longer duration and with a larger sample size may help in obtaining more reliable and conclusive results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719652,
+      "experimentId": "196230",
+      "title": "How does specific value prop for Youtube traffic impact conversion on main donate",
+      "date": "2025-07-21T15:16:39",
+      "url": "https://www.nextafter.com/experiments/how-does-specific-value-prop-for-youtube-traffic-impact-conversion-on-main-donate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -66.7,
+      "confidence": 71.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "13.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "4.5%",
+            "lift": "-66.7%",
+            "confidence": "71.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that “video-specific” value prop for Youtube traffic coming to the main donate page will achieve an increase in donor conversion rate because it acknowledges where they’re coming from and focuses in on an aspect of the mission that they have experienced themselves.",
+      "summary": "Timeframe: 03/30/2025 - 04/28/2025\nFor Time of Grace, we observed an increase in the amount of traffic coming to the main donate page from their YouTube channel. We hypothesized that leading this traffic to a main donate that was “video-specific” acknowledging the type of content they were coming from and focusing on this form of outreach in particular would increase donor conversion rate.",
+      "keyLearnings": "The key learning from this experiment is that the \"video-specific\" value proposition for YouTube traffic coming to the main donate page did not increase donor conversion rate. In fact, the treatment group saw a significant decrease in transactions compared to the control group. However, it is important to note that the statistical level of confidence was only 71.2%, which is below the generally accepted threshold of 95%. This means that the results are not considered statistically significant and should not be used for future decision making.\n\nOne way of understanding these results is that perhaps focusing the copy too much on one aspect of the mission, left the overall value prop less effective, indicating that users respond better to copy about video, but also the other missional outreach Time of Grace is doing.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719674,
+      "experimentId": "197048",
+      "title": "How does adding a button to the May Challenge Grant banner impact donations?",
+      "date": "2025-07-21T14:54:37",
+      "url": "https://www.nextafter.com/experiments/how-does-adding-a-button-to-the-may-challenge-grant-banner-impact-donations/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "banner",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -12.3,
+      "confidence": 40.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate CTA Banner",
+            "metric": "4.3%",
+            "lift": "-12.3%",
+            "confidence": "40.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a clickable button with a clear call-to-action beneath the May Challenge Grant banner for users on the homepage will achieve an increase in donations because it eliminates any confusion around the banner being clickable, while also giving a directive to the user.",
+      "summary": "Timeframe: 05/06/2025 - 05/13/2025\nDuring Time of Grace’s May Challenge Grant, the primary banner lacked a button and call-to-action directly beneath it. We hypothesized that, despite the banner itself being clickable, it may not be immediately obvious to users on the homepage—especially those on mobile who would not have the ability to “hover” over the banner and see it darken as clickable. We believe adding a clear button and direct call-to-action will increase donations",
+      "keyLearnings": "The key learning from this experiment is that adding a clickable button with a clear call-to-action beneath the May Challenge Grant banner did not result in an increase in donations. The treatment group saw a 12.3% decrease in transactions for all traffic compared to the control group, however, the statistical confidence level was only 40.4%.\n\nThese results indicate that there may not be confusion or friction for users on the homepage, knowing they can click the banner itself. After this test, we instead turned our attention to the ask contained in this banner itself.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719688,
+      "experimentId": "197192",
+      "title": "How does adding an image of the book in the May Challenge Grant banner impact donations?",
+      "date": "2025-07-21T14:52:54",
+      "url": "https://www.nextafter.com/experiments/how-does-adding-an-image-of-the-book-in-the-may-challenge-grant-banner-impact-donations/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "banner",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 10.5,
+      "confidence": 40.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate CTA Banner",
+            "metric": "4.8%",
+            "lift": "10.5%",
+            "confidence": "40.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an image of the book premium in the May Challenge Grant banner image for users on the homepage will achieve an increase in donations because it provides a stronger visual of what the donor would receive with their gift.",
+      "summary": "Timeframe: 05/13/2025 - 05/27/2025\nDuring Time of Grace’s May Challenge Grant, we hypothesized that adding an image of the book/premium that donors would receive with their gift would increase the donor conversion rate versus a more general background and call-to-action.",
+      "keyLearnings": "The key learnings from this experiment are that adding an image of the book premium in the May Challenge Grant banner on the homepage led to a 10.5% increase in transactions for all traffic. However, the statistical level of confidence was only 40.9%, which is below the 95% threshold needed for results to be considered valid.\n\nIn future experimentation, it is important to ensure that the sample size is sufficient to achieve a higher level of statistical confidence. Additionally, it may be beneficial to test different variations of the banner image with the book premium to see if the results can be replicated and validated. It is also important to consider other factors that may have influenced the results, such as the timing of the experiment or any external events that may have impacted donor behavior.\n\nOverall, while the initial results are promising, it is essential to conduct further testing to validate the impact of adding an image of the book premium on donor conversion rates before making any definitive conclusions or changes to future campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719700,
+      "experimentId": "197197",
+      "title": "How does a sticky bar on the donation page, calling out the premium, impact donor conversion rate?",
+      "date": "2025-07-21T14:49:23",
+      "url": "https://www.nextafter.com/experiments/how-does-a-sticky-bar-on-the-donation-page-calling-out-the-premium-impact-donor-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 3.2,
+      "confidence": 20.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "16.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Premium Sticky Bar-Reinforce",
+            "metric": "16.7%",
+            "lift": "3.2%",
+            "confidence": "20.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a sticky bar on the donation page, calling out that donors will receive a gifted copy of the latest resources with their donation, for will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 05/13/2025 - 05/27/2025\nDuring Time of Grace’s May Challenge Grant, we hypothesized that a sticky bar calling out the book premium available to every donor would increase the conversion rate.",
+      "keyLearnings": "The key learnings from this experiment are that adding a sticky bar on the donation page emphasizing the book premium available to donors may have a positive impact on the conversion rate. However, the results of the experiment only showed a 3.2% increase in Transactions for All Traffic with a statistical level of confidence of 20.1%, which is below the 95% threshold necessary for validity.\n\nOriginally, the motivation behind this sticky bar was to call out the premium for the reader, in a way that didn't require them to fully read the donation page. However, it's likely that donors arriving on this page from Facebook ads or the Homepage banner may have already been aware of this thank-you gift—making it a non-unique piece of information to have pinned.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719714,
+      "experimentId": "198536",
+      "title": "How does a tabbed form on acquisition donation pages impact donor conversion rate and revenue?",
+      "date": "2025-07-21T14:32:22",
+      "url": "https://www.nextafter.com/experiments/how-does-a-tabbed-form-on-acquisition-donation-pages-impact-donor-conversion-rate-and-revenue/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "donor conversion",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 26,
+      "confidence": 68.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "5.6%",
+            "lift": "26.0%",
+            "confidence": "68.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a tabbed form for users on Time of Grace’s acquisition donation pages will achieve an increase in donor conversion rate and revenue because it helps remove unnecessary friction and choose how much they’d like to give after clarifying how often they’d like to give.",
+      "summary": "Timeframe: 07/10/2025 - 07/16/2025\nWe’ve seen a tabbed donation form perform well for Time of Grace on their main donation page. We hypothesized that applying the same experience to their acquisition donation pages, receiving Facebook traffic for book premiums, would result in a similar increase. We believe that a tabbed form removes unnecessary friction, making it clear the type of gift a donor is making, which by extension can better clarify how much they may like to give and how often.",
+      "keyLearnings": "The key learnings from this experiment are:The tabbed donation form on Time of Grace's acquisition donation pages resulted in a significant increase in transactions, with a 26.0% increase in Transactions for All Traffic. However, a larger takeaway is that revenue experienced a substantial 64.7% increase with a 100% level of confidence. This is a very promising result that shows the potential impact of the tabbed donation form on donor contributions.\n\nIn future experimentation, it is important to continue testing the tabbed donation form on acquisition donation pages to further validate the positive impact on donor conversion rates and revenue. It may be beneficial to run the experiment for a longer duration to ensure a higher level of statistical confidence in the results. Additionally, incorporating learnings from this experiment, such as the design elements and user experience of the tabbed form, into future tests can help optimize the donation process and improve overall performance.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 719388,
+      "experimentId": "198613",
+      "title": "How a plain text appeal email affects conversion rate",
+      "date": "2025-07-14T20:30:20",
+      "url": "https://www.nextafter.com/experiments/how-a-plain-text-appeal-email-affects-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Design"
+      ],
+      "tier": 3,
+      "lift": 33.8,
+      "confidence": 55.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.03%",
+            "lift": "33.8%",
+            "confidence": "55.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending out a plain text email that looks similar to emails in someone’s inbox for the housefile will achieve an increase in conversion rate because it would look more humanized as it would look like someone you know is sending you an email, encouraging the user to read through the email and donate.",
+      "summary": "Ended On: 07/14/2025\nTime of Grace sends out appeal emails every month for their new premium. They send out stylized emails with organization branding. For this test, we wanted to see how a plain text email that you see for normal emails in your inbox would affect donor conversion rate.",
+      "keyLearnings": "The key learning from this experiment is that sending out a plain text email for donation appeals resulted in a 33.8% increase in donations for all traffic. This indicates that the more personal and familiar format of the plain text email may have resonated better with recipients, potentially leading to higher engagement and conversion rates.\n\nHowever, it's important to note that the statistical level of confidence for this experiment was only 55.6%, below the generally accepted threshold of 95% for validity. This means that while the treatment showed a positive result, it cannot be considered conclusive or reliable for future decision-making.\n\nWe saw an 18% increase in clicks with a 67% level of confidence.\n\nIn future experimentation, it would be beneficial to further test the effectiveness of plain text emails for donation appeals with a larger sample size or different variations to see if the results can be replicated and validated with a higher level of confidence. Additionally, incorporating elements of personalization and humanization in email communications could continue to be explored as a strategy for increasing donor engagement and conversions.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 718768,
+      "experimentId": "197732",
+      "title": "How a 3 button gift array instead of a 4 button affects conversion rate",
+      "date": "2025-06-20T16:05:32",
+      "url": "https://www.nextafter.com/experiments/how-a-3-button-gift-array-instead-of-a-4-button-affects-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "gift array"
+      ],
+      "tier": 3,
+      "lift": 8.8,
+      "confidence": 46.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "4-button gift array",
+            "metric": "17.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "3-button gift array",
+            "metric": "18.9%",
+            "lift": "8.8%",
+            "confidence": "46.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a 3 button gift array for donation page visitors will achieve an increase in transactions and average gift because having a 3 button gift array with the weighted option in the middle would reduce friction and the donor would more likely make a gift.",
+      "summary": "Timeframe: 06/02/2025 - 06/16/2025\nTime of Grace usually has 4 gift array buttons on their donation page. For this test, we wanted to test reducing the gift array to 3 buttons and see how that would affect donor conversion rate.",
+      "keyLearnings": "The key learning from this experiment is that reducing the gift array to 3 buttons on the donation page led to an 8.8% increase in transactions for all traffic. This suggests that the hypothesis that a 3 button gift array would reduce friction and increase donor conversions may have some merit. However, it is important to note that the statistical level of confidence for this result was only 46.3%, which is below the generally accepted threshold of 95% for validity.\n\nTherefore, while the results of this experiment are promising, they should not be used for future decision making as they are not considered statistically significant. In future experimentation, it would be valuable to continue testing the impact of a 3 button gift array on donor conversion rates, but with a larger sample size or different experimental design to ensure more reliable and conclusive results. Additionally, it may be beneficial to consider other factors such as donor preferences, messaging, and timing when designing future experiments to further optimize donation page performance.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 56161,
+      "experimentId": "166295",
+      "title": "How increasing the perceived security on a campaign donation page impacts donation conversions",
+      "date": "2024-01-08T03:55:53",
+      "url": "https://www.nextafter.com/experiments/how-redirecting-traffic-from-the-main-donation-page-to-a-campaign-donation-page-impacts-conversion-rate/",
+      "organization": "Time of Grace",
+      "categoryNames": [
+        "Time of Grace"
+      ],
+      "tagNames": [
+        "donation pathway",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 11.7,
+      "confidence": 24.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "15.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increase Perceived Security",
+            "metric": "16.9%",
+            "lift": "11.7%",
+            "confidence": "24.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a statement of security for the year end campaign donation page will achieve an increase in donor conversion because it is providing clarity of what the donor’s information is being used for.",
+      "summary": "Timeframe: 12/19/2023 - 01/03/2024\nThe Ashbrook Center ran a fundraising campaign during Calendar Year End. For this campaign, we wanted to see how increasing the perceived security of the donation page through value proposition impacted overall donor conversions.\nFor this test, we added a line of copy near the “Donate” button on the form that said, “We take data and privacy seriously. Your payment information is secure and will be used only to process your gift.” We also made the background of this section gray and added a lock icon to drive the secure message home.",
+      "keyLearnings": "The key learning from this experiment is that adding a statement of security to the donation page had a positive impact on donor conversion rates. The treatment group, which saw the added line of copy, experienced an 11.7% increase in One-Time Donations compared to the control group. However, the statistical level of confidence remained below the accepted threshold of 85%, indicating that the results may not be valid and should not be used for future decision making.\nIn future experimentation, it is important to conduct longer tests or gather a larger sample size to increase the statistical power and achieve a higher level of confidence. This will ensure more reliable and valid results. Additionally, it would be helpful to consider testing different variations of the security statement or explore other aspects that could increase donor trust and conversion rates, such as emphasizing the organization's track record of data protection or providing testimonials from previous donors.",
+      "fluxMetrics": null
+    }
+  ]
+}

@@ -1,0 +1,1393 @@
+{
+  "name": "National Breast Cancer Foundation",
+  "total": 34,
+  "tierBreakdown": {
+    "valid": 26,
+    "directional": 2,
+    "inconclusive": 6
+  },
+  "experiments": [
+    {
+      "id": 20580,
+      "experimentId": "2771",
+      "title": "How the type of ask in an appeal affects click rate",
+      "date": "2021-09-02T21:21:06",
+      "url": "https://www.nextafter.com/experiments/how-the-type-of-ask-in-an-appeal-affects-click-rate-2/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "call to action",
+        "click through rate"
+      ],
+      "tier": 1,
+      "lift": 110.4,
+      "confidence": 98.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Direct Ask",
+            "metric": "0.78%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Soft Ask (learn more)",
+            "metric": "1.6%",
+            "lift": "110.4%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a softer ask increase click rate in an email appeal?",
+      "summary": "Timeframe: 10/20/2017 - 10/24/2017\nNational Breast Cancer Foundation sent an email appeal for BCAM and wanted to test the click-through rate on a direct ask call-to-action (give your gift here) vs. a soft ask (learn more about how you can help). The rest of the email remained the same on the control/treatment.",
+      "keyLearnings": "The softer ask increased the clickthrough rate by 78%. It’s likely that the “learn more” call to action encouraged more people who weren’t initially planning to give to the donation page, while people who were already motivated to give a gift were more likely to click a link from a direct ask. This leads to a higher click-through rate but does not necessarily translate to more gifts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n110.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17952,
+      "experimentId": "2775",
+      "title": "How increased specificity in a subject line affects open rate",
+      "date": "2021-06-09T16:46:28",
+      "url": "https://www.nextafter.com/experiments/how-increased-specificity-in-a-subject-line-affects-open-rate-2/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 15.8,
+      "confidence": 98.7,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Desired Effect",
+            "metric": "7.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Specificity",
+            "metric": "9.1%",
+            "lift": "15.8%",
+            "confidence": "98.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing specificity increase open rate?",
+      "summary": "Timeframe: 09/30/2016 - 10/03/2016\nThe National Breast Cancer Foundation sent an offer to a list of people who had signed up for their Early Detection Plan app. The offer was a free eBook called What Every Woman Needs To Know that included resources related to early detection of breast cancer.\nThey decided to test subject lines on this email. The control subject line teased the outcome of the eBook: “Stay informed about your breast health”. They hypothesized that being extremely clear about the offer, even in the subject line, might increase open rate since the list was so highly qualified. So they developed a treatment subject line: “A new early detection guide”.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "Though both emails had a relatively low open rate, the treatment subject line produced a 15.8% increase over the control. This shows that increased clarity can increased the perceived value of the email and incentivize readers to open.\n“Desired effect” language has proven powerful before, but in this case, clarity trumped persuasion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13193,
+      "experimentId": "2759",
+      "title": "How first-name personalization affects email engagement",
+      "date": "2019-11-12T16:25:05",
+      "url": "https://www.nextafter.com/experiments/how-first-name-personalization-affects-email-engagement/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 270.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Personalization",
+            "metric": "0.19%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Personalization",
+            "metric": "0.72%",
+            "lift": "270.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will personalization increase email engagement?",
+      "summary": "Timeframe: 10/01/2016 - 11/28/2016\nNational Breast Cancer Foundation had a recommendation that they start including first and last names on their email capture forms. Since this would take some development work to update all of their forms, they wanted to see if it made a difference in email engagement.\nThey had enough names on their list who had first names (from other sources) that they were able to run a test on a post-campaign email. This email had two calls to action—a donation ask and a Facebook share link. They split the file between the emails that had no personalization and the emails that had personalization and measured the results.",
+      "keyLearnings": "The segment of the file that had personalization had a 270.1% increase over the emails with no first names. This told NBCF that while overall engagement was still lower than they had liked, it was well worth it to update their email capture forms and start collecting first and last names along with the emails.\nBased on this data, they planned an additional test to see how asking for first and last name affected email signup rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n270.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15025,
+      "experimentId": "5839",
+      "title": "How a question in a headline affects conversion rate on an acquisition page",
+      "date": "2018-05-18T14:13:34",
+      "url": "https://www.nextafter.com/experiments/how-a-question-in-a-headline-affects-conversion-rate-on-an-acquisition-page/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -19.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "control",
+            "metric": "49.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "question headline",
+            "metric": "40.2%",
+            "lift": "-19.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does asking a question in a headline convert more people than an actionable value prop?",
+      "summary": "Timeframe: 03/20/2018 - 04/19/2018\nNBCF was offering free healthy living tips as an acquisition offer, and wanted to test whether adding a question in the headline would increase people’s motivation to download the offer.",
+      "keyLearnings": "The question headline decreased conversion by 19%. It's possible that because we were asking a question rather than giving them an actionable charge, \"Start living healthier this week,\" that people were less motivated by the headline to convert.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 19.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14830,
+      "experimentId": "3311",
+      "title": "How the delivery method of a content offer affects conversion rate",
+      "date": "2018-03-23T22:15:16",
+      "url": "https://www.nextafter.com/experiments/how-the-delivery-method-of-a-content-offer-affects-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -69.1,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Inline Form",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent",
+            "metric": "0.71%",
+            "lift": "-69.1%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does offering a content offer as an exit intent increase conversion more than an inline form?",
+      "summary": "Ended On: 03/08/2018\nNational Breast Cancer Foundation was trying to increase conversion on their 3 Steps to Early Detection offer by testing if the delivery method of an exit intent vs. an inline form on the page would convert more people. The inline form converts hundreds of people per week.",
+      "keyLearnings": "The inline form already had a very high conversion rate, so adding the exit intent decreased conversion by 69%. This is likely because the exit intent pops up as people have already read the page and got the information they needed, so they are in the process of leaving the site, instead of seeing the offer at the top of the page as soon as they get there.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 69.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14724,
+      "experimentId": "3258",
+      "title": "How adding a preview of the content in an offer affects name conversion rate",
+      "date": "2018-02-28T19:03:33",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-preview-of-the-content-in-an-offer-affects-name-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -21.8,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Without tip example",
+            "metric": "50.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With tip example",
+            "metric": "39.2%",
+            "lift": "-21.8%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding an example of content in an offer increase conversion rate?",
+      "summary": "Ended On: 02/23/2018\nNational Breast Cancer Foundation was offering free weekly healthy living tips as an acquisition offer. They wanted to test whether adding an example of the tips one might receive each week would increase conversion rate on the landing page. The rest of the page remained the same.",
+      "keyLearnings": "The addition of the tip decreased conversion by 22%. This could be due to added friction on an already high-converting page. The addition of more text did not add to the value of the landing page, so it distracted people from downloading.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 21.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14754,
+      "experimentId": "3213",
+      "title": "How the call to action on a popup affects clickthrough rate",
+      "date": "2018-02-27T15:11:58",
+      "url": "https://www.nextafter.com/experiments/how-the-call-to-action-on-a-popup-affects-clickthrough-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 223,
+      "confidence": 99.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Donate Now",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Learn More",
+            "metric": "4.0%",
+            "lift": "223.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a softer call to action increase clickthrough rate to the donation page?",
+      "summary": "Ended On: 02/16/2018\nNBCF was running a Hope Kit mini-bomb campaign where they were trying to raise money to provide Valentine’s Day kits to women in breast cancer treatment. To get more people to the donation page, they wanted to run an exit intent popup on the website. The control had “donate now” as the call to action, while the treatment directed people to “learn more.” The rest of the popup was the same.",
+      "keyLearnings": "The Learn More CTA increased clicks by 223%. People are more likely to click through with a softer CTA.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n223.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14702,
+      "experimentId": "3184",
+      "title": "How adding a third party image to an acquisition page affects name conversion",
+      "date": "2018-02-14T14:07:54",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-third-party-image-to-an-acquisition-page-affects-name-conversion/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 7.1,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Book as main image",
+            "metric": "40.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Lady holding Book",
+            "metric": "43.4%",
+            "lift": "7.1%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a photo of someone holding the book increase name acquisition?",
+      "summary": "Timeframe: 03/12/2017 - 05/12/2018\nNBCF was offering their Healthy Living Guide and wanted to increase conversion rate on the acquisition page. They wanted to test whether adding a photo of a woman holding the book would increase more people’s motivation to download the offer. The rest of the page was the same.",
+      "keyLearnings": "The photo of the woman holding the book increased name acquisition by 7%. It's likely that more people connected with the value when they saw a woman holding the book that they could relate to, rather than just the book itself.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 7.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14696,
+      "experimentId": "3180",
+      "title": "How adding value prop in the call-to-action affects name conversion rate",
+      "date": "2018-02-14T14:05:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-prop-in-the-call-to-action-affects-name-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -11.3,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Value Prop in CTA",
+            "metric": "49.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop in CTA",
+            "metric": "44.1%",
+            "lift": "-11.3%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding value proposition copy in the call to action increase name conversion rate?",
+      "summary": "Timeframe: 11/01/2017 - 01/12/2018\nNational Breast Cancer Foundation was trying to increase conversion rate on their Bra Fit Guide offer, and wanted to test if reiterating the value of the offer in the call to action increased conversion rate. The rest of the page remained the same.",
+      "keyLearnings": "The treatment copy decreased name conversion by 11%. Because the conversion rate was already so high on this page (50%), people who get here are already highly motivated and don't need additional convincing to download. Therefore, any additional friction is a deterrent.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14671,
+      "experimentId": "3069",
+      "title": "How the type of subject line affects open rate in an appeal",
+      "date": "2018-02-06T14:22:17",
+      "url": "https://www.nextafter.com/experiments/how-the-type-of-subject-line-affects-open-rate-in-an-appeal/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 19.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Will you help me share some love?",
+            "metric": "13.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "720 women",
+            "metric": "16.3%",
+            "lift": "19.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the type of subject in an email affect open rate?",
+      "summary": "Ended On: 01/24/2018\nNBCF was sending out an email appeal to their housefile for their Valentine’s Day Hope Kit campaign. Their goal for the experiment was to get more eyes on the email and more opens. The hypothesis was that the subject line “720 women” would be more compelling than asking the reader a question or to do something, for example, “Will you help me do this?”. The email itself remained the same.",
+      "keyLearnings": "The treatment headline produced a 19% increase in open rate of the email appeal. This is possibly due to the workload involved in the first subject line, which requires \"work\" on the reader's behalf and immediately adds friction to the opening process, and partially due to the compelling nature of the treatment, \"720 women\", which refers to the 720 women diagnosed with breast cancer every day.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n19.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13118,
+      "experimentId": "5481",
+      "title": "How a single click affects email acquisition rate",
+      "date": "2018-01-04T22:55:55",
+      "url": "https://www.nextafter.com/experiments/how-a-single-click-affects-email-acquisition-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 50.2,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Homepage",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "BCAM Page",
+            "metric": "2.2%",
+            "lift": "50.2%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing an extra click increase email acquisition rate?",
+      "summary": "Timeframe: 10/04/2016 - 10/09/2016\nThe National Breast Cancer Foundation had released a special eBook, What Every Woman Needs to Know, in honor of Breast Cancer Awareness Month. They had set a goal of getting as many downloads as possible of this eBook during the month of October.\nIn light of this goal, they had questioned whether they should make their Breast Cancer Awareness Month page the homepage for the month, since this page had a download form directly on the page. Their usual homepage featured the eBook in an image slider, but it required one more click to access the page to get the book.\nThey decided to put this to the test. They launched an A/B test to see which page acquired more emails—in essence, quantifying the effect of the extra click that the homepage required.",
+      "keyLearnings": "The Breast Cancer Awareness Month page, the treatment, produced a 50.2% lift in email acquisition. This showed that introducing one extra element of friction into the process—a single click—had a significant effect on how many emails were acquired from the eBook.\nOverall email acquisition was still 2.2%, so more testing was required to further optimize the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13104,
+      "experimentId": "11668",
+      "title": "How the impact of an ad’s image affects click through rate",
+      "date": "2018-01-04T22:55:51",
+      "url": "https://www.nextafter.com/experiments/how-increased-specificity-in-a-subject-line-affects-open-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 52.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "4.8%",
+            "lift": "52.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What drives more clicks — a picture of the offer, or a picture of the author?",
+      "summary": "Timeframe: 07/03/2014 - 08/09/2014\nAs part of the promotion of their free eBook, Teen Mania was running Facebook ads in order to acquire new prospect emails. We wanted to find out what factors of the book were most appealing to the audience so we ran an experiment on the imagery used in the ad. Since the author of the free book is well known, we tested to see if his image would drive more interest than highlighting the book itself.",
+      "keyLearnings": "The popularity of the author resulted in a 52.2% increase in the number of visitors to the page. In this situation, the book did not have the same value and appeal to the viewers as the author himself.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n52.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13721,
+      "experimentId": "6804",
+      "title": "How adding a specific donation ask in an email appeal affects click rate",
+      "date": "2018-01-04T22:53:46",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-specific-donation-ask-in-an-email-appeal-affects-click-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -72.8,
+      "confidence": 96.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Donation Ask- No Amount",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donation Ask- Specific Amount",
+            "metric": "0.03%",
+            "lift": "-72.8%",
+            "confidence": "96.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a specific donation amount in an email appeal increase click rate?",
+      "summary": "Timeframe: 05/18/2017 - 05/18/2017\nNational Breast Cancer Foundation was running a test on their May monthly appeal email to find out if asking for a specific donation amount rather than a generic donation ask would increase click rate. They also explained in the copy exactly what that donation amount would do- adding value proposition to the ask.",
+      "keyLearnings": "Adding a specific donation amount in the ask decreased traffic to the donation page by 78%. The asked donation amount was $120, which could have produced anxiety in some people or a wariness to donate less than that amount, which caused the decrease in click rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n72.8% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13252,
+      "experimentId": "5838",
+      "title": "How a soft ask in an email appeal can motivate more people to convert.",
+      "date": "2018-01-04T22:53:42",
+      "url": "https://www.nextafter.com/experiments/how-a-soft-ask-in-an-email-appeal-can-motivate-more-people-to-convert/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 99.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Hard Ask",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Soft Ask",
+            "metric": "0.21%",
+            "lift": "100.0%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a soft ask help increase click-rate?",
+      "summary": "Timeframe: 12/21/2016 - 12/23/2016\nFor National Breast Cancer Foundation’s year-end campaign they sent a series of appeals. One of their appeals was focused on providing mammograms to women in need. They have found that it is difficult to get their email file to convert through email appeals. In an effort to optimize this challenge, they hypothesized that it might be better to use a soft ask as the call-to-action rather than a direct one. The control email said, “Here’s a link where you can give.” They developed a treatment that said, “Here’s a link where you can learn more.”",
+      "keyLearnings": "The treatment email increased click-rate by 100%. What this tells us is that even if though the value proposition in the email was strong, people were not ready to give once they got to the CTA. That said, they were motivated enough to learn more about how they can get involved and help.\n\nEvery audience is different. It is important to test key elements like the CTA in an email appeal. Knowing that the NBCF audience already had a low conversion rate, the soft ask was a strategic way to motivate more people to engage and get them to the donation page to potentially give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n100.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14229,
+      "experimentId": "7667",
+      "title": "How the value proposition on a website pop-up can impact clicks to a donation page.",
+      "date": "2018-01-04T22:53:32",
+      "url": "https://www.nextafter.com/experiments/how-the-value-proposition-on-a-website-pop-up-can-impact-clicks-to-a-donation-page/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 14.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Provide More Screening Services",
+            "metric": "5.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Help Women Facing Breast Cancer",
+            "metric": "6.3%",
+            "lift": "14.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would get more people to the donation page?",
+      "summary": "Timeframe: 10/13/2017 - 10/23/2017\nThe month of October is Breast Cancer Awareness Month. This is a critical time of year for National Breast Cancer Foundation to raise money for their organization around awareness and education of breast cancer. They get a significant amount of traffic to their homepage during this month. They have a pop-up on the homepage that they display in an effort to convert the site traffic into donors. They tested the value proposition of this pop-up from something tangible (provide 1,000 more women with screen services) to a more general value proposition (help women facing breast cancer).",
+      "keyLearnings": "The more general value proposition increased clicks to the donation page by 14%! The general value proposition had a higher appeal. Providing help to women facing breast cancer is something that people can understand, there is no explanation needed and they want to give towards that. The more specific value proposition was a great approach, but it lacked clarity about what “screening services” were, creating friction in the mind of the end user.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n14.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14241,
+      "experimentId": "7689",
+      "title": "How the type of ask in an appeal affects click rate",
+      "date": "2018-01-04T22:53:27",
+      "url": "https://www.nextafter.com/experiments/how-the-type-of-ask-in-an-appeal-affects-click-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 110.4,
+      "confidence": 98.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Direct Ask",
+            "metric": "0.78%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Soft Ask (learn more)",
+            "metric": "1.6%",
+            "lift": "110.4%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a softer ask increase click rate in an email appeal?",
+      "summary": "Timeframe: 10/20/2017 - 10/24/2017\nNational Breast Cancer Foundation was sending an email appeal for BCAM, and wanted to test click-through rate on a direct ask call-to-action (give your gift here) vs. a soft ask (learn more about how you can help). The rest of the email remained the same on the control/treatment.",
+      "keyLearnings": "The softer ask increased clickthrough rate by 78%. It’s likely that the “learn more” call to action encouraged more people who weren’t initially planning to give to the donation page, while people who were already motivated to give a gift were more likely to click a link from a direct ask. This leads to a higher click-through rate, but does not necessarily translate to more gifts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n110.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14373,
+      "experimentId": "11705",
+      "title": "How highlighting exclusivity affects clickthrough rate",
+      "date": "2018-01-04T22:53:19",
+      "url": "https://www.nextafter.com/experiments/how-changing-a-headline-in-an-email-affects-click-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 134.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Breaking\"",
+            "metric": "6.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Exclusive\"",
+            "metric": "15.2%",
+            "lift": "134.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Is the exclusivity of the offer more appealing to prospects than the recency of the offer?",
+      "summary": "Timeframe: 12/01/2014 - 12/29/2014\nIn a series of Facebook ads, the Texas State Historical Association (TSHA) was promoting a free eBook version of their popular Texas Almanac. In exchange for their email address, the visitors would be able to download the 756 page book.  Our goal for this test was to drive as much traffic to the site as possible to take advantage of this free offer.\nIn our ads, we wanted to emphasize the how this was the first time TSHA was offering the Almanac for free and that they were the only organization that could do so. As a result, we wanted to see which of these attributes would drive the most interest.",
+      "keyLearnings": "Exclusivity proved to be the more motivating element of the offer given the 134% lift it provided to the click through rate of the ads. This tone will be used in future ads and will be incorporated throughout the landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n134.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14379,
+      "experimentId": "7972",
+      "title": "How a high urgency ask on a pop up affects click rate",
+      "date": "2018-01-04T22:53:10",
+      "url": "https://www.nextafter.com/experiments/how-a-high-urgency-ask-on-a-pop-up-affects-click-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -70.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Not high urgency",
+            "metric": "6.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "High urgency with countdown clock",
+            "metric": "1.8%",
+            "lift": "-70.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does increasing urgency in copy and with a countdown clock increase click rate to the donation page?",
+      "summary": "Timeframe: 10/26/2017 - 10/31/2017\nNational Breast Cancer Foundation was in the final days of their BCAM campaign, and wanted to run a test using high urgency copy and a countdown clock on the popup that was running on all pages.",
+      "keyLearnings": "The high urgency treatment with the countdown clock decreased clicks by 70%. Since the design on the high urgency ad was also different than the control, it’s hard to be sure which specific part of the ad deterred people from clicking, but it’s likely that the new design paired with the very direct ask led only the very most donor-motivated people to click through.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n70.8% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14376,
+      "experimentId": "7969",
+      "title": "How copy on a popup affects click rate",
+      "date": "2018-01-04T22:52:55",
+      "url": "https://www.nextafter.com/experiments/how-copy-on-a-popup-affects-click-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 14.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Specific value proposition",
+            "metric": "5.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "General value proposition",
+            "metric": "6.3%",
+            "lift": "14.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a general value proposition increase clicks on a popup more than a specific value proposition?",
+      "summary": "Timeframe: 10/08/2017 - 10/31/2017\nNational Breast Cancer Foundation was in the middle of their BCAM campaign and wanted to test the copy on their popup to make donation. The copy tested was originally focused on providing specific services to women in need, whereas the treatment had more general value proposition copy.",
+      "keyLearnings": null,
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n14.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14441,
+      "experimentId": "2766",
+      "title": "How adding text to an image in a Facebook ad affects name conversion rate",
+      "date": "2018-01-04T22:52:51",
+      "url": "https://www.nextafter.com/experiments/how-adding-text-to-an-image-in-a-facebook-ad-affects-name-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 102.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With text",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No text",
+            "metric": "2.5%",
+            "lift": "102.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does text in an image deter or increase name conversion rate in a Facebook ad?",
+      "summary": "Timeframe: 11/21/2017 - 12/12/2017\nNational Breast Cancer Foundation was promoting their new Bra Fit Guide, and they wanted to test whether adding or removing supporting text to the image in the ad would increase name conversion rate.",
+      "keyLearnings": "The image with no supporting text increased conversion rate by 102% over the control image with text. This could be due to lower distraction from the image that focused the reader’s attention on the copy instead.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 102.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13661,
+      "experimentId": "6670",
+      "title": "How clarity in the call-to-action increases conversion rate",
+      "date": "2018-01-04T22:52:01",
+      "url": "https://www.nextafter.com/experiments/how-clarity-in-the-call-to-action-increases-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 99.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Added CTA",
+            "metric": "0.52%",
+            "lift": "100.0%",
+            "confidence": "99.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding specific direction to the downloader in the call-to-action above a form increase conversion rate?",
+      "summary": "Timeframe: 05/16/2017 - 05/24/2017\nNational Breast Cancer Foundation was trying to increase conversions on the landing page of their 3 Steps to Early Detection guide. They ran a test to see if adding a specific call-to-action sentence (“Where can we send your guide?”) above the form would increase conversions more than a form without specific direction to the downloader in the body copy. The rest of the elements on the page remained constant.",
+      "keyLearnings": "The addition of a line of copy specifying the purpose of the form (“Where can we send your guide?”) increased conversions by .5%. While this doesn’t seem like a significant increase, the control had no conversions- which tells us that unless we tell people what we want them to do and relay the purpose of the form, they won’t download the offer at all. The more clarity we can bring to the copy surrounding a form, the higher the conversion rate will be.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13622,
+      "experimentId": "6602",
+      "title": "How value proposition focused copy in a Facebook ad can create fear and impact acquisition",
+      "date": "2018-01-04T22:51:37",
+      "url": "https://www.nextafter.com/experiments/how-value-proposition-focused-copy-in-a-facebook-ad-can-create-fear-and-impact-acquisition/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -38.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Get the Guide",
+            "metric": "0.68%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Find Out if You're at Risk",
+            "metric": "0.42%",
+            "lift": "-38.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does including a value proposition on image copy increase conversions more than a clear offer (“get the guide”)?",
+      "summary": "Timeframe: 03/27/2017 - 05/11/2017\nNational Breast Cancer Foundation was running Facebook ads to promote their eBook, Healthy Living Guide. They wanted to test whether including a value prop on the image copy (“Find out if you’re at risk for cancer”) would increase conversions more than asking people to “Get the Guide.” All other elements of the ad remained the same.",
+      "keyLearnings": "Including a value proposition on the copy of the image decreased conversions by 38%. This could be due to a less direct ask, or due to people’s fearfulness of discovering whether they’re at risk for cancer or not. In the end, direct and clear copy tends to be the most successful for ads like this one. We know that communicating the value of the offer in the ad is important and can increase acquisition, but because the value proposition copy in this case increased anxiety and fear for the end user, this resulted in their avoidance of the offer and a lower conversion rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 38.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13619,
+      "experimentId": "6593",
+      "title": "How clarity in the headline of a Facebook ad trumps a persuasive headline",
+      "date": "2018-01-04T22:51:34",
+      "url": "https://www.nextafter.com/experiments/how-headline-clarity-trumps-a-persuasive-headline-in-a-facebook-ad/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 44.7,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Detect Breast Cancer Earlier",
+            "metric": "0.26%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get the Guide",
+            "metric": "0.37%",
+            "lift": "44.7%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does increased clarity in a headline increase email conversion rate?",
+      "summary": "Timeframe: 05/02/2017 - 05/10/2017\nNational Breast Cancer Foundation was running Facebook ads to promote their new eBook, 3 Steps to Early Detection. They ran a test on the headline of the ad- The control ad included a value prop (“Detect Breast Cancer Earlier”), and the treatment simply asked people to “Get the Guide.” All other elements of the ad remained the same.",
+      "keyLearnings": "The treatment headline produced a 44% lift in conversion rate. In this case, as with many other cases, clarity trumps persuasion. The more clear we are in the headline about what people are going to get when they click the link, the more likely they are to click through the ad and complete the form on the landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 44.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13524,
+      "experimentId": "6399",
+      "title": "How appealing to the broader audience with ad copy impacts conversion",
+      "date": "2018-01-04T22:51:24",
+      "url": "https://www.nextafter.com/experiments/how-appealing-to-a-broader-audience-in-ad-copy-impacts-conversion/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 45.6,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "At Risk for Cancer?",
+            "metric": "0.38%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get this free resource",
+            "metric": "0.55%",
+            "lift": "45.6%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad would acquire more email addresses?",
+      "summary": "Timeframe: 03/23/2017 - 03/29/2017\nNational Breast Cancer Foundation developed an eBook that was designed to help people know if they were at risk for cancer and offered suggestions with how a person could even prevent cancer. They offered this resource to people through paid Facebook ads. They wanted to test the motivation of the end-user for getting the resource so they tested two different ads against each other. One ad said, “Ad Risk for Cancer? Find out.” with a picture of the resource next to it. They tested this against another ad that said, “Get this free resource.” with a picture of the resource next to it.",
+      "keyLearnings": "The treatment ad that said, “Get this free resource” acquired 45% more emails than the control that said “Ad Risk for Cancer? Find Out.” What we can learn from this is that the treatment ad probably appealed to the broader portion of the audience because it didn’t talk about a specific issue or problem. The control was specifically talking to people who might be at risk for cancer or have questioned if they were at risk for cancer. The control may have even caused some anxiety in people who have never thought about it.\nThe broader appeal led to the higher name conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 45.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13127,
+      "experimentId": "5510",
+      "title": "How increasing relevancy of the subject line affects open rate",
+      "date": "2018-01-04T22:48:00",
+      "url": "https://www.nextafter.com/experiments/how-increasing-relevancy-of-the-subject-line-affects-open-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 10.4,
+      "confidence": 95.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Subject Line",
+            "metric": "15.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased relevancy",
+            "metric": "17.1%",
+            "lift": "10.4%",
+            "confidence": "95.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How will increasing the context of the subject line affect open rate?",
+      "summary": "Timeframe: 10/01/2016 - 10/13/2016\nNational Breast Cancer Foundation send out a monthly newsletter to keep donors and supporters informed and engaged. They had traditionally used a functional subject line that clearly stated what the communication was—in this case, “October 2016 Newsletter | Helping Women Now”.\nBut they realized that the subject line is the initial point of interaction with their readers—and if they didn’t make it “open-worthy”, they might be causing some possible readers to delete it outright.\nSo they drafted a second subject line to give more insight into the communications and provide a greater incentive to open: “It’s A Special Month…”.\nThey split their email file to determine a winner.",
+      "keyLearnings": "The new subject line produced a 10.4% increase in opens, which meant that they were able to engage a larger segment of their email file. This experiment also gave insight to future subject line testing by showing that increasing the force of the incentive to open the email produced a tangible increase in engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n10.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13134,
+      "experimentId": "5521",
+      "title": "How a third-party personal recommendation affects email acquisition rate",
+      "date": "2018-01-04T22:47:37",
+      "url": "https://www.nextafter.com/experiments/how-a-third-party-personal-recommendation-affects-email-acquisition-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 14.6,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "eBook image",
+            "metric": "16.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dora image",
+            "metric": "18.8%",
+            "lift": "14.6%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a third-party personal recommendation increase email acquisition rate?",
+      "summary": "Timeframe: 10/01/2016 - 10/17/2016\nNational Breast Cancer Foundation created a free eBook called What Every Woman Needs to Know to give away during Breast Cancer Awareness Month. They created a landing page to advertise this offer, which showed the cover of the book and presented a value proposition to download it.\nHowever, they developed a hypothesis that a personal recommendation from a woman, delivered through an image and a quote, would have more impact on a visitor’s decision to download the eBook than the current image of the eBook.\nThey designed a treatment featuring an picture of a woman and a personal quote in place of the eBook image, then launched an A/B test to see if it increased landing page conversion.",
+      "keyLearnings": "The treatment, with the picture of Dora and her quote increased email acquisition rate by 14.6%. While this is more of an incremental lift, it had a substantial impact on the number of emails acquired and reduced the cost-per-acquisition.\nIt also reveals something about the market—people trust people, even if they don’t know them. While the image of the eBook was helpful to clarify the offer in the mind of the visitor, the picture and quote from Dora made them believe that the offer was of greater value, which led to more downloads.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 14.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14382,
+      "experimentId": "7975",
+      "title": "How a radically redesigned acquisition page affects conversion rate",
+      "date": "2018-01-04T22:53:01",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-acquisition-page-affects-conversion-rate/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -22.1,
+      "confidence": 90,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "2.5%",
+            "lift": "-22.1%",
+            "confidence": "90.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does simplifying the process of submitting a story increase conversion rate?",
+      "summary": "Timeframe: 10/01/2017 - 10/31/2017\nNational Breast Cancer Foundation was running their BCAM campaign and wanted to test a redesign of their Snapshots of Hope acquisition page, which asked for stories from survivors or family members of people with breast cancer.",
+      "keyLearnings": "The redesigned page produced a 22% decrease in conversion rate. It’s possible that the removal of the 3-step process produced anxiety in the mind of the submitter or confusion on the process and requirements.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13379,
+      "experimentId": "6122",
+      "title": "How adding images to a donation page can impact conversion",
+      "date": "2018-01-04T22:48:16",
+      "url": "https://www.nextafter.com/experiments/how-adding-images-to-a-donation-page-can-impact-conversion/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 30.5,
+      "confidence": 81.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No images",
+            "metric": "18.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Images",
+            "metric": "24.4%",
+            "lift": "30.5%",
+            "confidence": "81.1%"
+          }
+        ]
+      },
+      "researchQuestion": "How would adding images to the donation page impact donor conversion?",
+      "summary": "Timeframe: 12/21/2016 - 01/08/2017\nOn the primary donation page for NBCF’s year-end campaign, they wanted to see if they could increase donations by adding images to the page. The control donation page just had copy and the treatment they developed had three images added to the top page. They split the traffic coming to the page and tested.",
+      "keyLearnings": "The treatment with the images on the donation page had a 30% increase in donations. This test didn’t reach validation, but the initial data shows that the addition of images to a donation page motivates more people to give.\nFor an organization like NBCF, images can be very powerful. The added images helped to reinforce the value proposition message and visually showed people what and who their donation would be going towards.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 24387,
+      "experimentId": "2770",
+      "title": "How changing a headline in an email affects click rate",
+      "date": "2021-12-20T20:46:16",
+      "url": "https://www.nextafter.com/experiments/how-changing-a-headline-in-an-email-affects-click-rate-2/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -13.5,
+      "confidence": 49.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control (Question headline)",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Topical headline",
+            "metric": "0.43%",
+            "lift": "-13.5%",
+            "confidence": "49.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does changing the headline of an email appeal affect clickthrough rate?",
+      "summary": "Timeframe: 10/18/2017 - 10/18/2017\nNational Breast Cancer Foundation was running a high-urgency campaign for Breast Cancer Awareness Month. In email 5, they talked about their free mammography services. They wanted to test whether a more vague headline vs. a headline directly about that content would increase clickthrough rate.",
+      "keyLearnings": "This test did not validate, but the topical headline produced a 13% decrease in clicks.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15124,
+      "experimentId": "9145",
+      "title": "How an open gift field for a recurring donation impacts conversion.",
+      "date": "2018-06-29T13:53:13",
+      "url": "https://www.nextafter.com/experiments/how-an-open-gift-field-for-a-recurring-donation-impacts-conversion/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 60.5,
+      "confidence": 75.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Suggested Giving Array",
+            "metric": "5.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Open Gift Array",
+            "metric": "8.9%",
+            "lift": "60.5%",
+            "confidence": "75.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Would an open giving field increase donor motivation and conversion?",
+      "summary": "Timeframe: 06/01/2018 - 06/29/2018\nNational Breast Cancer Foundation launched a recurring gift campaign asking donors and nondonors to become an ongoing supporter or their organization. Specifically, the recurring gift ask was about providing a mammogram to a woman in need. It costs $13 a month to provide one woman her mammogram for the year. Traditionally, NBCF used suggested giving arrays on their donation form. They hypothesized that an open giving field might inspire more generosity and allow the donor to decide exactly how much they wanted to give. In the body copy before the giving array and open gift field they had strong value proposition for the recurring ask and specifically mentioned the $13/month figure. One additional element tested with the open gift field was they reminded donors what their gift would do after they plugged in their gift amount. The copy would dynamically change depending on the amount of the gift. For example, if a donor typed in $13 for their gift amount it would say, “Your $13 monthly donation provides 1 woman with her mammogram this year.” Or if a donor typed in $40, it would say, “Your $40 monthly donation provides 3 women with their mammograms this year.” They ran this experiment for the duration of the recurring gift campaign that last three weeks.",
+      "keyLearnings": "While we weren’t able to validate the experiment, we did see a directional lift of 60.5%. This approach didn’t have a significant impact on gift amount, but it did increase donor conversion. What we learned is that by allowing the donor to decide how much they wanted to give and then reinforcing the value proposition of their gift, we were able to motivate more people to become a recurring donor.\nTo have a more clear understanding of the specific variable that increased conversion, you could isolate each variable to see if the open giving field or the reinforced value proposition was the motivating factor for donor conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14687,
+      "experimentId": "8519",
+      "title": "How adding a premium to a donation page affects instant donor conversion",
+      "date": "2018-02-14T14:03:17",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-to-a-donation-page-affects-instant-donor-conversion/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 102,
+      "confidence": 69,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Premium",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Bundle Premium",
+            "metric": "0.33%",
+            "lift": "102.0%",
+            "confidence": "69.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a premium to a donation page affect instant donor conversion?",
+      "summary": "Timeframe: 09/20/2017 - 12/12/2017\nNBCF was applying learnings from their previous premium tests and wanted to test a more focused experiment on the premium’s perceived effect on instant donations.",
+      "keyLearnings": "Although this experiment did not validate, the 102% increase in donor conversion was high enough to implement this across all content offers.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14586,
+      "experimentId": "8358",
+      "title": "How a video screenshot versus a raw link affects click rate in an email",
+      "date": "2018-01-12T21:28:29",
+      "url": "https://www.nextafter.com/experiments/how-a-video-screenshot-versus-a-raw-link-affects-click-rate-in-an-email/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -7.7,
+      "confidence": 68.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Video Screenshot",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Raw Youtube Link",
+            "metric": "1.2%",
+            "lift": "-7.7%",
+            "confidence": "68.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a video screenshot or a raw link increase click rate in an email?",
+      "summary": "Ended On: 01/05/2018\nNational Breast Cancer Foundation was running their year-end campaign, and wanted to test whether more people would click a screenshot of a video or the raw Youtube link of the same video. The rest of the email was the same.",
+      "keyLearnings": "The raw link decreased clicks by 7%, but the test was not statistically valid. However, it’s likely that the image of the video supported the value proposition of the email more than the raw link with a line of copy before it. The image reinforced the emotional connection that people have with women in their lives.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13382,
+      "experimentId": "6126",
+      "title": "How a countdown clock added to an email appeal impacts click through",
+      "date": "2018-01-04T22:51:14",
+      "url": "https://www.nextafter.com/experiments/how-a-countdown-clock-added-to-an-email-appeal-impacts-click-through/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -38.7,
+      "confidence": 66.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Without a countdown clock",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With countdown clock",
+            "metric": "0.85%",
+            "lift": "-38.7%",
+            "confidence": "66.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the addition of a countdown clock in an email help get more people to click through to the donation page?",
+      "summary": "Timeframe: 12/30/2016 - 12/31/2016\nIn the final days of a year-end campaign, urgency plays a key role in people making gifts to an organization. On the second to last day of NBCF’s year-end campaign, they hypothesized that they could increase the urgency of the ask by adding a countdown clock to their emails. They developed a treatment that had a countdown clock added to the top of the email copy and test this against their control that didn’t have the countdown clock on it.",
+      "keyLearnings": "Because NBCF’s email file is still in it’s infancy, there was low engagement and we weren’t able to validate the results. From the data that we were able to collect, the addition of the countdown clock received less clicks than the control that didn’t have the countdown clock.\nWe recommend testing this approach again once the email file has been cultivated more and there is a large enough sample size.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13121,
+      "experimentId": "5484",
+      "title": "How donor-centric copy affects email acquisition",
+      "date": "2018-01-04T22:47:53",
+      "url": "https://www.nextafter.com/experiments/how-donor-centric-copy-affects-email-acquisition/",
+      "organization": "National Breast Cancer Foundation",
+      "categoryNames": [
+        "National Breast Cancer Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -5.4,
+      "confidence": 53.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "3.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personalized",
+            "metric": "2.9%",
+            "lift": "-5.4%",
+            "confidence": "53.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will donor-centric copy increase the number of emails acquired?",
+      "summary": "Timeframe: 10/05/2016 - 10/14/2016\nThe National Breast Cancer Foundation was giving away a free eBook, What Every Woman Needs To Know during Breast Cancer Awareness Month. They featured this eBook on their Breast Cancer Awareness Month page, with a form right on the page to download it.\nThe team at NBCF hypothesized that using copy that addressed the reader directly would increase email acquisition rate. They created a treatment that personalized each element: rather than “Get the free breast health guide”, the treatment offered the visitor the chance to “Get your free breast health guide”. Additionally, they revised the paragraph copy to show how the content of the eBook allows the visitor to be proactive about their own health. Finally, they added the value proposition element of “free” into the call-to-action.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "The treatment produced no statistical lift or decrease in email acquisition—in short, it made no difference. This revealed a few key insights:\nIt’s possible that visitors who were going to download this eBook were highly motivated and the slight changes in copy were not enough to affect that initial motivation.\nIt’s possible that the copy changes were too slight, and need a more radical treatment.\nThe copy may not be the primary factor affecting email acquisition—it may be location on the page.\nThis prompts future tests to see how the eBook can be better leveraged for name acquisition.",
+      "fluxMetrics": null
+    }
+  ]
+}

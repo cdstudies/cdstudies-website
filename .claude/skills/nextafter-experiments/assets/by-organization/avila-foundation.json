@@ -1,0 +1,1569 @@
+{
+  "name": "Avila Foundation",
+  "total": 37,
+  "tierBreakdown": {
+    "valid": 14,
+    "directional": 5,
+    "inconclusive": 18
+  },
+  "experiments": [
+    {
+      "id": 69890,
+      "experimentId": "194756",
+      "title": "How including how many people downloaded impacted email acquisition",
+      "date": "2025-02-06T15:22:39",
+      "url": "https://www.nextafter.com/experiments/how-including-how-many-people-downloaded-impacted-email-acquisition/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Acquisition | Design",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": -24.5,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "57.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "43.6%",
+            "lift": "-24.5%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a subheadline of how many have already downloaded the offer for Avila’s landing page visitors will achieve an increase in email acquisitions because people are influenced to download because they see others have done it too.",
+      "summary": "Timeframe: 01/17/2025 - 02/05/2025\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor this specific test, we tested whether adding the number of people who have downloaded this offer to the landing page headline would impact email acquisition and donations.\nWe wanted to see if including “Downloaded by 18,377 others!” in the subheadline would engage others. This is known as social proof marketing or the bandwagon effect, where people are influenced to take action because they see others doing it.",
+      "keyLearnings": "The key learning from this experiment is that adding the number of people who have downloaded the offer to the landing page headline had a negative impact on email acquisition for Avila Foundation. The treatment, which included the subheadline \"Downloaded by 18,377 others!\" resulted in a 24.5% decrease in email acquisition compared to the control group.\nIn future experimentation, it is important to carefully consider the effects of social proof marketing strategies such as the bandwagon effect. While showing the number of people who have engaged with a particular offer can sometimes increase engagement, in this case, it had the opposite effect. It is crucial to test different variations of social proof messaging and other marketing strategies to understand their impact fully.\nPeople may not have signed up for the offer if the \"Downloaded by 18,377 others\" didn’t feel relevant to them or it wasn’t clear why they should care. Additionally, if something appears too common or widely available, it can sometimes lose its appeal.\nIt's important to note that the average gift size in the treatment was $52.50\" whereas the control was $13.75. It would be interesting to dig in to see if this was based upon one large gift or if it was a trend.\nIt is essential to continue using A/B testing and data analysis to make informed decisions about website optimizations and marketing strategies. This experiment demonstrates the importance of testing hypotheses and not assuming that a particular approach will always yield positive results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 24.5% decrease in conversion rate\n\t\t\t\t× 100.0% decrease in average gift\n\t\t\t\t\t\t\t\t\t100.0% decrease in revenue"
+    },
+    {
+      "id": 67573,
+      "experimentId": "191653",
+      "title": "How removing imagery on a landing page impacted conversion rates",
+      "date": "2024-10-25T19:46:19",
+      "url": "https://www.nextafter.com/experiments/how-removing-imagery-on-a-landing-page-impacted-conversion-rates/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Acquisition | Design",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": -20.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "33.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "26.4%",
+            "lift": "-20.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing the images for Avila’s landing page viewer will achieve an increase in email acquisition because less images will reduce friction and draw attention to the sign-up.",
+      "summary": "Timeframe: 09/27/2024 - 10/25/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nThey are currently running an offer, Spiritual Direction and the Discernment of Spirits. We decided to test removing all the images from their landing page to see if this increases conversions.",
+      "keyLearnings": "The key learning from this experiment is that removing images from Avila's landing page led to a 20% decrease in email acquisition for all traffic, with a statistical confidence level of 100.0%. This means the control group, which had images on the landing page, performed better in terms of email sign-ups. This led to the treatment showing a 20% decrease in overall revenue. There was also a decrease in the number of transactions from 30 in the control group to 28 in the treatment group. However, this was not statistically valid, so this cannot be a learning but something to test further.\n\nIn future experimentation, it is essential to consider the impact of visual elements such as images on user engagement and conversion rates. While the hypothesis that removing images would reduce friction and draw attention to the sign-up form seemed plausible, the results indicate the opposite effect.\n\nMoving forward, it may be beneficial to test different types of images, their placement, or the overall design of the landing page to optimize for conversions. Additionally, conducting user surveys or gathering qualitative feedback can provide insights into the preferences and behaviors of the target audience when interacting with the website.\n\nOverall, this experiment highlights the importance of testing assumptions and being open to unexpected results in order to make informed decisions for optimizing conversion rates in the future.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 53442,
+      "experimentId": "152485",
+      "title": "How a video impacted email sign ups on a content offer landing page",
+      "date": "2023-07-03T14:20:37",
+      "url": "https://www.nextafter.com/experiments/how-a-video-impacted-email-sign-ups-on-a-content-offer-landing-page/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Acquisition | Design",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": -11.6,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "36.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video",
+            "metric": "32.2%",
+            "lift": "-11.6%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a video  for landing page visitors will achieve a higher email sign up rate because viewers receive a preview of the course.",
+      "summary": "Timeframe: 05/19/2023 - 07/03/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase email sign ups for the Into The Deep course, we tested adding a video the landing page",
+      "keyLearnings": "The key learning from this experiment is that adding a video to the landing page for the Into The Deep course resulted in a decrease in email sign-ups. This was observed across all traffic, as well as specific segments such as mobile and tablet visitors, new visitors, female visitors, and visitors in the age groups of 35-44 and 55-64. There was also a significant decrease in email sign-ups from paid search visitors.\nThese findings suggest that the video may not have resonated well with the target audience or may have led to a distraction or disinterest in signing up for the course. It is important to note that these results are statistically significant, indicating a high level of confidence in the findings.\nIn future experimentation, it is crucial to carefully consider the impact of any changes or additions to the landing page. A thorough analysis of the target audience's preferences, interests, and behavior should be conducted to ensure that any modifications align with their expectations and increase the likelihood of conversion.\nAdditionally, it may be beneficial to conduct qualitative research, such as interviews or surveys, to gather more insights into the audience's perception of the video and their decision-making process. This can help identify any specific issues or concerns that need to be addressed in order to optimize the landing page for maximum conversion.\nOverall, this experiment serves as a reminder that assumptions and hypotheses should always be tested before implementing changes. It is essential to constantly iterate and improve based on data and customer feedback to achieve the desired outcomes.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.6% decrease in conversion rate\n\t\t\t\t× 8.6% increase in average gift\n\t\t\t\t\t\t\t\t\t4.0% decrease in revenue"
+    },
+    {
+      "id": 52122,
+      "experimentId": "147596",
+      "title": "How does a video impact course sign ups?",
+      "date": "2023-05-10T21:46:43",
+      "url": "https://www.nextafter.com/experiments/how-does-a-video-impact-course-sign-ups-2/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "courses",
+        "Email Acquisition | Copy"
+      ],
+      "tier": 1,
+      "lift": -1,
+      "confidence": 96.2,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$6.39",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video",
+            "metric": "$6.32",
+            "lift": "-1.0%",
+            "confidence": "96.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a video for Into The Deep course viewers will achieve a higher conversion of email sign ups because there is more information provided about the course.",
+      "summary": "Timeframe: 05/01/2023 - 05/11/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nTo increase email acquisition on Avila’s new Into The Deep course, we decided to add the course’s trailer to the landing page to see if it would drive conversions.",
+      "keyLearnings": "The key learnings from this experiment are that the treatment of adding a video for the Into The Deep course did not lead to a higher conversion of email sign-ups. The control group had a higher email acquisition rate compared to all other visitors, including direct visitors, tablet visitors, male visitors, and visitors aged 55-64. This means that adding a video did not provide more information about the course and did not convince more visitors to sign up for the course.\nIn future experimentation, we should consider testing other factors that may lead to a higher email sign-up rate, such as changing the language or formatting of the landing page or offering a special promotion for signing up. It is also important to continue testing and experimenting to find the most effective strategies for increasing email acquisition and achieving the organization's goals.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.1% decrease in conversion rate\n\t\t\t\t× 23.9% increase in average gift\n\t\t\t\t\t\t\t\t\t1.0% decrease in revenue"
+    },
+    {
+      "id": 52168,
+      "experimentId": "146747",
+      "title": "Which Dear Reader converts more donors, a direct ask or course?",
+      "date": "2023-05-10T21:44:53",
+      "url": "https://www.nextafter.com/experiments/which-dear-reader-converts-more-donors-a-direct-ask-or-course/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "dear reader",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 51.5,
+      "confidence": 97.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Direct Ask",
+            "metric": "0.27%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Into The Deep course",
+            "metric": "0.41%",
+            "lift": "51.5%",
+            "confidence": "97.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Which will convert more web traffic to become a donor, a direct donation ask, or sign-ups for a course?",
+      "summary": "Timeframe: 04/26/2023 - 05/12/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donor conversion we decided to test a dear reader with a direct ask versus a dear reader with a sign up for the new Into the Deep course.",
+      "keyLearnings": "The A/B experiment conducted by Avila Foundation aimed to determine which would convert more website traffic to become a donor – a direct donation ask or sign-ups for a course. The experiment ran for 16 days, and the results showed that the treatment, i.e., sign-ups for a course, saw a 51.5% increase in donations for all traffic with a high level of confidence of 97.5%. This means that the treatment won and can be implemented in future fundraising efforts.\nAdditionally, the experiment showed that revenue experienced a huge increase at 1369% with a 99% level of confidence. The mobile visitors saw a 750% increase in donations with a 99% level of confidence, whereas others had a 2609% increase in donations with a 97% level of confidence. These are significant findings that can be used to inform future fundraising strategies.\nThe key learnings from this experiment are that offering a sign-up for a course can be a more effective strategy to convert website traffic into donors. This should be implemented in future fundraising efforts while keeping in mind the audience that responds best to this approach. The experiment also showed that mobile visitors can be an important target audience, and strategies should be tailored to them specifically. Finally, it is crucial to continue running experiments to improve fundraising strategies and optimize the conversion of website traffic into donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 51.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 52123,
+      "experimentId": "147596",
+      "title": "How does a video impact course sign ups?",
+      "date": "2023-05-10T21:03:47",
+      "url": "https://www.nextafter.com/experiments/how-does-a-video-impact-course-sign-ups/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "courses",
+        "Email Acquisition | Design"
+      ],
+      "tier": 1,
+      "lift": -1,
+      "confidence": 96.2,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$6.39",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video",
+            "metric": "$6.32",
+            "lift": "-1.0%",
+            "confidence": "96.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a video for Into The Deep course viewers will achieve a higher conversion of email sign ups because there is more information provided about the course.",
+      "summary": "Timeframe: 05/01/2023 - 05/11/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nTo increase email acquisition on Avila’s new Into The Deep course, we decided to add the course’s trailer to the landing page to see if it would drive conversions.",
+      "keyLearnings": "The key learnings from this experiment are that the treatment of adding a video for the Into The Deep course did not lead to a higher conversion of email sign-ups. The control group had a higher email acquisition rate compared to all other visitors, including direct visitors, tablet visitors, male visitors, and visitors aged 55-64. This means that adding a video did not provide more information about the course and did not convince more visitors to sign up for the course.\n\nIn future experimentation, we should consider testing other factors that may lead to a higher email sign-up rate, such as changing the language or formatting of the landing page or offering a special promotion for signing up. It is also important to continue testing and experimenting to find the most effective strategies for increasing email acquisition and achieving the organization's goals.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.1% decrease in conversion rate\n\t\t\t\t× 23.9% increase in average gift\n\t\t\t\t\t\t\t\t\t1.0% decrease in revenue"
+    },
+    {
+      "id": 52048,
+      "experimentId": "148828",
+      "title": "How removing images impacted donor conversion",
+      "date": "2023-05-08T14:50:53",
+      "url": "https://www.nextafter.com/experiments/how-removing-images-impacted-donor-conversion/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -60.4,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.92%",
+            "lift": "-60.4%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by removing images for main donation page visitors will achieve a higher donor conversion rate because the content of the page is easier to read and understand.",
+      "summary": "Ended On: 05/05/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donor conversions on the Spiritual Direction donation page, we decided to remove the additional images associated with each giving level.",
+      "keyLearnings": "The A/B experiment conducted by Avila Foundation aimed to increase donor conversions on the Spiritual Direction donation page by removing the additional images associated with each giving level. However, the treatment group witnessed a 60.4% decrease in donations, which indicates that the control group worked better. Therefore, the hypothesis failed, and the key learning from this experiment is that images play a crucial role in donor conversion.\nIn future experimentation, Avila Foundation should focus on finding better images and ensure that they complement the content of the page. They should conduct more surveys and collect feedback from donors to understand their preferences and expectations better. Also, they should focus on A/B testing with small changes and daily iterations instead of significant changes, which may lead to adverse outcomes. Additionally, they should consider the seasonality, demographics, and location of donors while designing experiments to make them more relevant and personalized. Overall, the experiment highlights the significance of testing and experimentation in driving data-driven decision-making and improving donor conversion rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 60.4% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 52033,
+      "experimentId": "147512",
+      "title": "How value prop on a donation page impacts donor conversions",
+      "date": "2023-05-04T20:52:45",
+      "url": "https://www.nextafter.com/experiments/how-value-prop-on-a-donation-page-impacts-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 81.3,
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "27.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "50.0%",
+            "lift": "81.3%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding value proposition  for Avila Army web visitors will achieve a higher conversion of monthly donors because there is added clarity to what it is and the benefits of joining. because  there is added clarity to what it is and the benefits of joining.",
+      "summary": "Ended On: 05/01/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donor conversions on the Avila Army donation page, a monthly donation ask, we decided to add additional value prop around what the Avila Army is and clarity around the benefits of various levels of gifts.",
+      "keyLearnings": "The A/B experiment conducted by the Avila Foundation showed that adding a clear value proposition around the Avila Army monthly donation ask resulted in a significant increase in donations. The treatment version, which clarified the benefits of joining the Avila Army, saw an 81.3% increase in donations for all traffic with a 96.5% statistical level of confidence.\nThe key learning from this experiment is that providing clarity and value proposition is essential for increasing donor conversions. In future experimentation, the Avila Foundation should consider testing different value propositions and messaging to determine what resonates best with potential donors. Additionally, they should continue to prioritize the reinforcement of the benefits of joining the Avila Army and emphasizing the impact of their mission.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 81.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 50611,
+      "experimentId": "128502",
+      "title": "How a second donate button impacted donor conversions",
+      "date": "2023-03-01T18:52:01",
+      "url": "https://www.nextafter.com/experiments/how-a-second-donate-button-impacted-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 86.9,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.39%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dual Button",
+            "metric": "0.72%",
+            "lift": "86.9%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a second donate button for web visitors will achieve higher donor conversion rate because there is clarity in the ask.",
+      "summary": "Timeframe: 02/14/2023 - 03/02/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donor conversion from web traffic, we decided to test adding a second donate button that directs to the Avila Army (monthly donation effort) in addition to the regular donate button.",
+      "keyLearnings": "The key learnings from this experiment are that adding a second button to the Avila Foundation website that directs viewers to the Avila Army (monthly donation effort) can be successful at increasing donor conversion rate. After running an A/B test, we saw dramatic increases in Donations for All Traffic, Revenue, Email Visitors, Desktop Visitors, Returning Visitors, and 55-64 Visitors as a result of using the revised language with two donate buttons. The success of this experiment can be attributed to using clear and direct language which more clearly outlines the ask.\nWhen creating future experiments, we should use this success as proof that implementing two donate buttons with clear and direct language can be effective in increasing donor conversions. Furthermore, we should pay special attention to the messaging associated with each donate button, as this can play a large role in converting visitors into donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 86.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48943,
+      "experimentId": "120483",
+      "title": "How using a humanized sticky bar during a high-urgency campaign impacts donation conversion rates.",
+      "date": "2023-01-04T16:12:10",
+      "url": "https://www.nextafter.com/experiments/how-using-a-humanized-sticky-bar-during-a-high-urgency-campaign-impacts-donation-conversion-rates/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "high urgency",
+        "Sticky Bar"
+      ],
+      "tier": 1,
+      "lift": [
+        20,
+        92.2
+      ],
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.30%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky Bar - General Sticky Bar",
+            "metric": "0.36%",
+            "lift": "20.0%",
+            "confidence": "50.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Sticky Bar - Humanized with Dan's Photo",
+            "metric": "0.58%",
+            "lift": "92.2%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a sticky bar for website visitors will achieve a change in donor conversion rates.",
+      "summary": "Timeframe: 12/20/2022 - 01/04/2023\nDuring Avila Institute’s year-end campaign, we wanted to capitalize on traffic to one of their most popular websites, SpiritualDirection.com, and run a 3-way experiment to see whether a sticky bar made an impact on donations.\nFor this experiment, our control was no sticky bar; variant one had a sticky bar with just copy; variant 2 had a sticky bar with a picture of Dan Burke, the founder of Avila. Both variant 1 and 2 had the exact same copy. We ran this sticky bar on all pages on the website.",
+      "keyLearnings": "While we expected a sticky bar to outperform no sticky bar, the results of adding in Dan's image were really interesting. The Dan image version of the stick bar had a 92% increase in conversion rates compared to both the control and variant 1. We believe that this is due to Dan's notoriety within the Avila community; everyone knows who he is, what he looks like, and by adding an image we humanized the message a little more, giving donors the perception that it was really Dan asking for urgent help during the campaign.\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 89.4% increase with a 94% level of confidence.\nObservations of the impact on other visitor segments in the experiment:\n(Other) visitors had a 129.3% increase in donations with an 90% level of confidence.Email visitors had a 57.2% increase in donations with an 86% level of confidence.Organic Search visitors had a 423.5% increase in donations with a 90% level of confidence.Male visitors had a 227.5% increase in donations with an 87% level of confidence.35-44 visitors had a 1.3% increase in donations with a 96% level of confidence.Desktop visitors had a 54.1% increase in donations with an 87% level of confidence.Mobile visitors had a 123.0% increase in donations with a 99% level of confidence.New  visitors had a 209.2% increase in donations with a 99% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 92.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 47616,
+      "experimentId": "100260",
+      "title": "How adding a book as a premium offer increases the average gift on an eBook instant donation page.",
+      "date": "2022-11-16T21:49:49",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-book-as-a-premium-offer-increases-the-average-gift-on-an-ebook-instant-donation-page/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 57.9,
+      "confidence": 95,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.67",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Premium",
+            "metric": "$1.06",
+            "lift": "57.9%",
+            "confidence": "95.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a premium for ebook donors will achieve a higher average gift.",
+      "summary": "Timeframe: 07/11/2022 - 10/12/2022\nThe Avila Foundation has created a website, SpiritualDirection.com, where anyone can go and find answers to questions they might have about their spiritual journey. As part of the efforts to educate the laity through authentic Catholic teachings, Avila has created a series of ebooklets.\nFor one of these ebooklets, Insights on the Contemplative Rosary, we wanted to test whether adding a premium offer, in this case a physical copy of the book upon which the ebooklet was based, would help increase the average gift. Our hypothesis was that the combination of the two–using the ebooklet as a study guide to the book–would entice donors to contribute more to Avila.",
+      "keyLearnings": "While there was a slight decline in the total number of donations while we ran this experiment (38 to 37), the average gift on the premium treatment page increased by 58%, which also resulted in a 58% increase in total revenue with a 94% level of confidence.\nWe believe that by positioning the ebooklet as a companion piece to the book, those donors who were brand new, or had not yet gotten a chance to get the book, were convinced to give a gift of a higher amount.\nWhile the average gift for the treatment version was below the $50 we were asking in order to receive a copy of the book, there was enough data to suggest that further refinement of this offer, as well as further testing with other premiums, is warranted.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 0.1% increase in conversion rate\n\t\t\t\t× 57.8% increase in average gift\n\t\t\t\t\t\t\t\t\t57.9% increase in revenue"
+    },
+    {
+      "id": 28264,
+      "experimentId": "81472",
+      "title": "How adding an offer and dear reader at the end of blogs impacts donations",
+      "date": "2022-04-29T01:06:13",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-offer-and-dear-reader-at-the-end-of-blogs-impacts-donations/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 449.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Dear Reader",
+            "metric": "0.05%",
+            "lift": "449.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an offer and dear reader for blog readers will achieve a higher donor conversion rate .",
+      "summary": "Timeframe: 01/03/2022 - 04/06/2022\nAvila has typically had a generic email subscription at the bottom of all their pages, including their blogs. We wanted to test and see if adding a an offer and dear reader at the end of the blogs would both generate more donations and increase email acquisition rate. Avila used an offer that was running in their Facebook ads for this experiment.\nTraffic to this page was organic.",
+      "keyLearnings": "This experiment resulted in a valid 449% lift in donations in addition to a valid 418% increase in email acquisition. These results indicate that Avila's audience and blog readers are more motivated to sign up for emails and give when presented clear value through an offer vs. a generic email subscription form. It is recommended that we next test into using the founder's (Dan Burke) image and signature to humanize the message in the dear reader to see if that provides an additional lift in conversions.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 449.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25879,
+      "experimentId": "85869",
+      "title": "How adding an instant donation page after a webinar registration process affects revenue",
+      "date": "2022-03-01T19:46:57",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-instant-donation-page-after-a-webinar-registration-process-affects-revenue/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -80.5,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.14",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.03",
+            "lift": "-80.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an instant donation page for webinar registrants will achieve more revenue .",
+      "summary": "Ended On: 02/21/2022\nThe Avila foundation has regularly scheduled webinars each month. Using ticket tailor, they have historically added a suggested donation of $15 upon registration. We wanted to test using an instant donation page at the end of the process instead of the ask during registration. The idea is that this could potentially produce more revenue and encourage a higher gift.",
+      "keyLearnings": "This experiment has validated and revealed that Avila's audience responds more to the $15 suggested donation at registration as opposed to the instant donation page. Average gift was comparable and when looking at donor acquisition rate, the control clearly outnumbered the treatment as well. This could be for varying reasons. The Avila audience might already be conditioned to give at the point of registration instead of the end. There also seems to be an anomaly in the data. While the sample size of emails opened was evenly split, the actual views of the registration page varied (even though the email was exactly the same). 1078 from the control actually saw the registration page whereas only 478 participants from the treatment saw the registration page.\nOur recommendation is to retest this in light of the anomaly in the data. Another test idea could be to keep the suggested donation amount at registration but test into: a higher gift amount or adding a line of value prop language to inspire a higher conversion rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 82.0% decrease in conversion rate\n\t\t\t\t× 8.4% increase in average gift\n\t\t\t\t\t\t\t\t\t80.5% decrease in revenue"
+    },
+    {
+      "id": 25116,
+      "experimentId": "72882",
+      "title": "How adding value proposition to benefits impacted donor conversion rate",
+      "date": "2022-01-14T22:59:37",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-benefits-impacted-donor-conversion-rate/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 811.8,
+      "confidence": 99.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Proposition Focused Variant",
+            "metric": "29.4%",
+            "lift": "811.8%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that communicating the value proposition for main donation page visitors will achieve increase donor conversion rates.",
+      "summary": "Timeframe: 10/07/2021 - 11/14/2021\nThe Avila Institute was looking to improve the donor conversion rates and revenue associated with their main donation pages across both their primary website and their spiritual direction websites.\nIn reviewing the main donation page, we noticed that most of the page is communicating the benefits of giving at a certain level, but there isn’t much reason communicated as to WHY you should give.\nTherefore, we theorized that clearly communicating the value proposition within the page copy itself on the primary donation pages for the websites in question would be the greatest place to start with experimentation.",
+      "keyLearnings": "When combining the data from both websites, we increased donor conversion rates by +811% (with a 99.8% level of confidence) and revenue by +857.4% (with a 99.9% level of confidence) within the treatment experience.\nThis is a critical reminder that the reason to give is NOT a benefit (or incentive), but rather a clear articulation as to the reason WHY a donor should give to your organization instead of some other organization (or not at all).\nBy communicating this value proposition in this way, the Availa and Spiritual Direction website visitors were more compelled to give a gift at all, but also appeared to be more generous when they decided to give, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 811.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 70620,
+      "experimentId": "195413",
+      "title": "How adding a monthly callout on the general donation page impacted transactions and recurring gifts",
+      "date": "2025-03-10T20:44:59",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-monthly-callout-on-the-general-donation-page-impacted-transactions-and-recurring-gifts/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Recurring Giving"
+      ],
+      "tier": 2,
+      "lift": -58.1,
+      "confidence": 88.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "2.4%",
+            "lift": "-58.1%",
+            "confidence": "88.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an Avila Army callout for Avila’s audience on the general donation page will achieve an increase in recurring gifts and increase transactions because highlighting the program’s mission and impact will inspire donors to see themselves as part of a dedicated community making a tangible difference.",
+      "summary": "Timeframe: 02/18/2025 - 03/04/2025\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor this specific test, we tested whether adding a banner about their recurring program, the Avila Army, impacted recurring donors and transactions. The Avila Foundation encourages people to join their recurring program to be apart of the battalion of friends and followers actively deployed in the war for souls through the monthly support of the mission of the Avila Foundation.\nWe wanted to see if putting information and a testimonial about this program would encourage others to sign up as well as donate.",
+      "keyLearnings": "Key Takeaways:\nRecurring Callout Reduced One-Time Gifts – The Avila Army banner led to a 58.1% decrease in one-time donations, likely by distracting or overwhelming donors.\n \tMinimal Impact on Recurring Giving – Only one new recurring donor was added, with low statistical confidence (68.4%), indicating the callout wasn’t compelling enough.\n \tUser Experience Issues – The callout might have disrupted the natural donation flow, making giving less intuitive.\nNext Steps & Ideas for Promoting Recurring Gifts:\nBalance One-Time & Recurring Giving – Test a softer recurring ask (e.g., an optional checkbox) rather than making it the focal point.\n \tRefine Messaging – Emphasize impact, ease, and community benefits rather than duty-driven language.\n \tSegment Audiences – Show recurring gift appeals only to engaged donors or past givers, rather than all visitors.\n \tTest Avila Army's multiple giving levels – Offer tiered giving levels with exclusive perks (e.g., special updates, donor recognition, or impact reports) for recurring donors.\n \tUse Social Proof – Feature multiple testimonials and highlight how recurring donors create lasting change.\n \tRetarget One-Time Donors – Send personalized follow-ups thanking them and inviting them to upgrade to recurring.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68747,
+      "experimentId": "194142",
+      "title": "How changing the FB creative for an eBook offer impacted click through rate",
+      "date": "2025-01-06T15:59:27",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-fb-creative-for-an-ebook-offer-impacted-click-through-rate/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 2,
+      "lift": 8.8,
+      "confidence": 89.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "8.0%",
+            "lift": "8.8%",
+            "confidence": "89.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the creative for avila’s audience will achieve an increase in CTR and engagement because it will increase intrigue .",
+      "summary": "Ended On: 12/19/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of Avila’s newest offers is “What is Purgatory?”. This is an eBook for the viewer to learn more about Purgatory. We wanted to test using creative that was not the ebook. The original ebook had a more traditional, artistic cover, we wanted to see if making the creative a bit more vague would increase intrigue and make people click on the ad. And even further if it would increase engagement and donations.",
+      "keyLearnings": "The key learnings from this experiment are that changing the creative for Avila's audience led to an increase in clicks for the \"What is Purgatory?\" eBook offer, indicating that the more vague creative increased intrigue and interest among viewers. While the results were not statistically significant at the 95% level, the 8.8% increase in clicks with an 89.5% statistical confidence suggests that the treatment was effective in capturing the audience's attention.\n\nIn future experimentation, it would be advisable to continue testing different creatives to further validate the initial findings and explore other creative approaches that may resonate with the audience. It is important to analyze the data from each test comprehensively to understand the impact of various creative elements on engagement and ultimately donations. Additionally, considering incorporating qualitative feedback from the audience to gain insights into their preferences and interests when developing future creatives.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53411,
+      "experimentId": "155981",
+      "title": "How a pulsing heart sticky donate button affected donations on homepage",
+      "date": "2023-07-03T14:26:17",
+      "url": "https://www.nextafter.com/experiments/how-a-pulsing-heart-sticky-donate-button-affected-donations-on-homepage/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "design",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": 193.6,
+      "confidence": 91.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky Donate",
+            "metric": "0.51%",
+            "lift": "193.6%",
+            "confidence": "91.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a side donate button for homepage visitors will achieve higher conversion in donors because the side button has a pulsing sacred heart and is eye catching.",
+      "summary": "Timeframe: 06/13/2023 - 07/03/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donations from the Spiritual Directions Homepage we decided to test adding a side sticky donate button with a pulsing heart.",
+      "keyLearnings": "The key learnings from this experiment are:\n1. The treatment version with the side donate button featuring a pulsing sacred heart significantly increased donations, with a 193.6% increase for all traffic.\n2. The treatment version had a higher level of confidence (91.2%) compared to the control version, indicating that the results are approaching validity.\n3. When looking at specific visitor segments, the treatment version showed a significant increase in donations for desktop visitors (5903% increase with 97% confidence level) and email visitors (9% increase with 96% confidence level).\n4. The changes made in the treatment version, including the addition of the side donate button with a pulsing sacred heart, seem to have a positive impact on donor conversion.\nTo use these learnings in future experimentation, it would be beneficial to conduct further tests to validate the findings and increase the level of confidence. This could involve testing different versions of the side donate button, such as variations in size, color, or animation. Additionally, exploring other elements on the homepage that could be modified, such as placement or wording of the donate button, could provide further insights into increasing donations. It's also important to consider the specific characteristics of different visitor segments and tailor the donation strategy accordingly, as seen with the significant increase in donations for desktop and email visitors in this experiment.\nWhen results of the blog page experiment is combined with the blog pages results of the same test (https://app.winstonknows.com/experiment/6142) we find a 66% increase in donations with a 94% level of confidence",
+      "fluxMetrics": null
+    },
+    {
+      "id": 50912,
+      "experimentId": "136917",
+      "title": "How updating the call-to-action button on a Facebook ad impacts click-throughs",
+      "date": "2023-03-10T16:50:45",
+      "url": "https://www.nextafter.com/experiments/how-updating-the-call-to-action-button-on-a-facebook-ad-impacts-click-throughs/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "call to action",
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 2,
+      "lift": -6.7,
+      "confidence": 94.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Learn More",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sign Up",
+            "metric": "1.3%",
+            "lift": "-6.7%",
+            "confidence": "94.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the call to action button for potential course takes will achieve a change in course sign up rates because the button relates to the action we are asking them to take. .",
+      "summary": "Timeframe: 02/01/2023 - 03/03/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor the launch of a new course led by Dan Burke, the founder of Avila, we wanted to test whether a change in the call-to-action on a Facebook ad would make an impact on click-throughs.\nOur standard control for most of Avila’s ads has been to use a ‘learn more’ call to action; in this experiment, since we were asking people to sign up to take the course, we tested learn more versus a ‘sign up’ call to action button.",
+      "keyLearnings": "The key learning from this experiment is that changing the call-to-action button from 'Learn More' to 'Sign Up' did not lead to an increase in click-throughs for Avila Foundation's new course. The treatment resulted in a 6.7% decrease in clicks, which was statistically significant with a 94.9% level of confidence.\nHowever, when viewing this experiment through the lens of how many people actually signed up for the course, the results are different. While there was a higher number of clicks on the 'learn more' control version, it actually had a 6.3% less sign-up rate once those people got to the landing page. Thus, we can see a correlation between asking people to sign up as the call-to-action, and them actually going through the process. While this only had a 61% level of confidence, it does show a directional lift in response.\nContinued testing for this kind of experiment is needed. Future variations could include making the copy of the ad itself correlate more to the call to action, and/or testing within the ad headlines as well so they correlate to the call-to-action button.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28292,
+      "experimentId": "81122",
+      "title": "How a yes/no pop up with value proposition language impacts donor conversion during a high urgency campaign",
+      "date": "2022-04-29T01:04:15",
+      "url": "https://www.nextafter.com/experiments/how-a-yes-no-pop-up-with-value-proposition-language-impacts-donor-conversion-during-a-high-urgency-campaign/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 124.6,
+      "confidence": 94.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control: Campaign driven language",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment: Value prop language",
+            "metric": "3.1%",
+            "lift": "124.6%",
+            "confidence": "94.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a value prop based pop up  for site visitors will achieve a higher donor conversion rate during calendar year end.",
+      "summary": "Timeframe: 12/27/2021 - 01/04/2022\nDuring calendar year end, Avila wanted to try an exit intent pop ups in lieu of a homepage takeover for the last few days of the campaign. There was concern that constituents who come to their site for content, may not want to contribute to a campaign. So we decided to test the language in the yes/no exit intent pop up. The control asked the site visitor if they wanted to donate to Avila to support their on-going efforts. While the treatment would have value proposition based language, asking the site visitor if they want to bring spiritual guidance to those looking for truth.\nSite to their page was organic and driven by the blog content and resources they continuously provide to their constituents.",
+      "keyLearnings": "The results indicate that Avila's site visitors were more likely to give to their calendar year end campaign when presented with a yes/no pop up that identified Avila's key value proposition. Without having any ask attached to the copy, that audience segment produced a 3.1% conversion rate resulting in a 125% increase in donor conversion rate with level of confidence of 94.8%. This tells us that Avila's audience responds to their core mission and cause over just being asked for a donation. It is recommended that this concept is retested outside of calendar year end in order to determine if this is also true in a different context.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 70859,
+      "experimentId": "195241",
+      "title": "How adding value proposition to a donation page impacted donor conversions",
+      "date": "2025-03-28T20:35:06",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-donation-page-impacted-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 16.6,
+      "confidence": 57.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "9.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Copy Treatment",
+            "metric": "10.9%",
+            "lift": "16.6%",
+            "confidence": "57.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding value proposition for Avila’s donation page viewers will achieve an increase in donor conversions because the audience will feel more aligned with the mission and goal of the Avila Foundation.",
+      "summary": "Timeframe: 02/11/2025 - 03/10/2025\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor this specific test, we tested whether enhancing the donation page copy on their Ecce Homo offer with value proposition would increase donor engagement.",
+      "keyLearnings": "Key Learnings:\nAdding a Value Proposition Increased Conversions – The treatment led to a 16.6% lift in conversions, suggesting that highlighting Avila’s mission resonated with donors.\n \tHigher Average Gift Amount – Donors in the treatment group gave more on average ($43.46 vs. $37.77), indicating that mission-driven messaging may encourage larger gifts.\n \tResults Show Potential, But Need More Testing – The 57.4% confidence level suggests further testing is needed to confirm the impact.\n \tMission-Driven Appeals Strengthen Donor Alignment – Emphasizing Avila’s role in addressing cultural and spiritual challenges may have helped donors feel more connected.\n \tFraming Matters – Positioning donor support as essential to the mission (rather than just covering costs) likely contributed to the increase in engagement.\nNext Steps:\nTest with a larger sample size to improve statistical confidence.\n \tExperiment with different messaging elements (e.g., urgency vs. donor impact).\n \tConsider adding donor stories or incentives to further boost conversions.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 70629,
+      "experimentId": "195104",
+      "title": "How adding more prayer centered language on a landing page impacted sign ups",
+      "date": "2025-03-11T14:38:33",
+      "url": "https://www.nextafter.com/experiments/how-adding-more-prayer-centered-language-on-a-landing-page-impacted-sign-ups/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "landing page"
+      ],
+      "tier": 3,
+      "lift": 3.3,
+      "confidence": 32.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "27.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "28.5%",
+            "lift": "3.3%",
+            "confidence": "32.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that emphasizing emotional appeal, personal transformation, and prayer for the landing page viewer will achieve will see an increase in email acquisition rates because it better resonates with the audience’s desires and challenges in developing a deeper prayer life..",
+      "summary": "Timeframe: 02/05/2025 - 03/04/2025\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor this specific test, we tested whether rewriting the copy on Avila’s offer, Into the Deep, to be more prayer-centered would impact email acquisition. Since this offer is about prayer, we wanted to try engaging the viewer with emotional appeal and frame prayer as a deep personal need and struggle, addressing common challenges like distractions, uncertainty, and the desire for true communion with God. Presenting more of a problem and solution.",
+      "keyLearnings": "Key Takeaways:\nThe Treatment Showed Promise – The increase in email acquisition (+3.3%) and donations (+12.7%) suggests that the emotionally driven copy may be more persuasive.\nLow Confidence Levels – The confidence levels (32.8% for email acquisition and 23.1% for donations) indicate high variability, meaning the test may need more traffic or a longer duration to reach statistical significance.\nNext Steps:\nIncrease sample size – Running the test with more visitors could help clarify whether these trends hold.\nRefine the treatment copy – Since the treatment showed promise, small tweaks (e.g., optimizing the CTA, adding social proof, or adjusting the donation appeal) could strengthen its impact.\nTest a stronger CTA or incentive – A/B test a variation that further emphasizes urgency or value to see if it boosts conversions more reliably.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 69822,
+      "experimentId": "195002",
+      "title": "How adding a CTA to a Facebook Ad impacted donations",
+      "date": "2025-02-03T14:54:13",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-cta-to-a-facebook-ad-impacted-donations/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "call to action",
+        "donor conversion",
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": 81.4,
+      "confidence": 79.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.10%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.19%",
+            "lift": "81.4%",
+            "confidence": "79.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a CTA to the ad creative for Avila’s audience will achieve an increase in donations and click through rate because the purpose of the ad is clearer and therefore more motivated to download.",
+      "summary": "Ended On: 01/31/2025\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of Avila’s offers is Rule of Life a special guide to use as you chart out your spiritual “growth plan.”\nWe wanted to test adding the CTA on the ad creative as well as adding a colored background to see if this impacted the donation rate, click through rate, and email acquisition. By encouraging people at the beginning of the funnel to download the ebook – our hypothesis was that more people would click on the ad and therefore donate.",
+      "keyLearnings": "The key learnings from this experiment are that adding a call-to-action (CTA) to the ad creative can significantly increase donations and click-through rates for Avila Foundation. The treatment group, which had the CTA added to the ad creative, saw an impressive 81.4% increase in donations compared to the control group.\nHowever, the statistical level of confidence was at 79.3%, which is below the commonly accepted threshold of 85%. This means that while the results show a positive impact from adding the CTA, they cannot be considered statistically valid and should not be used for making future decisions.\nIt also had an impact on how many downloaded the offer:\nThere was a 13.7% increase in signups on the treatment; with a 76.5% level of confidence.\nAdditionally, it could be beneficial to explore other elements such as different CTA language, colors, or placements to further optimize donation rates and click-through rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68897,
+      "experimentId": "194473",
+      "title": "How using a donor “statement” for lapsed donors impacted donor conversions rates during year-end",
+      "date": "2025-01-17T15:57:56",
+      "url": "https://www.nextafter.com/experiments/how-using-a-donor-statement-for-lapsed-donors-impacted-donor-conversions-rates-during-year-end/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Copy",
+        "lapsed donor"
+      ],
+      "tier": 3,
+      "lift": 16.8,
+      "confidence": 46.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.13%",
+            "lift": "16.8%",
+            "confidence": "46.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a donor statement for lapsed donors will achieve a change in email conversion rates.",
+      "summary": "Timeframe: 12/13/2024 - 12/31/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nThis year during their year-end campaign, Avila was promoting their largest-ever match, with a triple match as well. We wanted to see whether using a donor ‘statement’ at the top of emails to remind lapsed donors of their last gift date and amount would impact donor conversion rates. We ran this copy test on their active donor audience, through a total of 8 emails.",
+      "keyLearnings": "The key learnings from this experiment are as follows:\n\n1. The treatment, which involved using a donor statement for lapsed donors, resulted in a 16.8% increase in donations for all traffic.\n\n2. The statistical level of confidence for this result was 46.6%, meaning that the results are not statistically significant and should not be used for future decision-making.\n\n3. Despite the increase in donations, the lack of statistical significance indicates that the effect may not be reliably replicable.\n\nIn future experimentation, it is important to:\n\n1. Ensure that the sample size is sufficient to detect statistically significant differences.\n\n2. Consider running the experiment for a longer duration to capture more data and increase the confidence level of the results.\n\n3. Test the impact of donor statements on different donor segments to see if the effect varies among different groups.\n\n4. Analyze additional metrics such as open rates, click-through rates, and conversion rates to gain a deeper understanding of donor behavior and preferences.\n\n5. Consider testing other variables such as messaging, imagery, or incentives to identify factors that truly drive donor conversion rates.\n\nOverall, while the experiment showed a positive trend in donations with the use of donor statements for lapsed donors, it is essential to gather more robust data to make informed decisions for future campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68887,
+      "experimentId": "194472",
+      "title": "How using donor autonomy language during a year-end campaign impacts email revenue.",
+      "date": "2025-01-13T16:38:00",
+      "url": "https://www.nextafter.com/experiments/how-using-donor-autonomy-language-during-a-year-end-campaign-impacts-email-revenue/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 4.3,
+      "confidence": 21.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.47%",
+            "lift": "4.3%",
+            "confidence": "21.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using donor autonomy language for active donors will achieve a change in email donation conversions..",
+      "summary": "Timeframe: 12/13/2024 - 12/31/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nThis year during their year-end campaign, Avila was promoting their largest-ever match, with a triple match as well. We wanted to see whether using donor autonomy language–allowing the donor to make a choice to give–throughout the entire campaign would make a difference. We ran this copy test on their active donor audience, through a total of 8 emails.",
+      "keyLearnings": "The key learnings from this experiment are that using donor autonomy language for active donors may have a positive impact on donation conversions, as evidenced by the 4.3% increase in donations for all traffic. However, the statistical level of confidence was only 21.9%, which is below the threshold of 85% for results to be considered valid.\n\nIn future experimentation, it is essential to ensure a larger sample size to improve the statistical significance of the results. Additionally, it would be beneficial to explore other factors that may influence donation conversions among active donors, such as the timing of the campaign, the messaging used, or the specific calls to action.\n\nOverall, while the initial findings suggest a potential benefit of using donor autonomy language, further research is needed to confirm these results and make informed decisions for future campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68781,
+      "experimentId": "193653",
+      "title": "How adding a donor goal thermometer to a year-end donation form impacts donor conversions",
+      "date": "2025-01-06T15:35:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-donor-goal-thermometer-to-a-year-end-donation-form-impacts-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "donor conversion",
+        "thermometer",
+        "urgency"
+      ],
+      "tier": 3,
+      "lift": 19,
+      "confidence": 79,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "13.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "16.3%",
+            "lift": "19.0%",
+            "confidence": "79.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a donor thermometer for year-end donors will achieve a change in donor conversions.",
+      "summary": "Timeframe: 12/05/2024 - 12/30/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor their year-end campaign, we wanted to test whether using a donor goal thermometer on the year-end donation form will impact donor conversions. In order to hit the $320,000 goal, Avila needed 500 donors to step up and make a donation. In this experiment, the control had no thermometer; the treatment automatically updated based on gifts to that page.",
+      "keyLearnings": "The key learnings from this experiment are that adding a donor thermometer for year-end donors resulted in a 19.0% increase in Transactions for All Traffic. While the treatment group did outperform the control group, the statistical level of confidence was only 79.0%, falling below the typical threshold of 95% for valid results.\n\nMoving forward, it is important to note that these results should not be used for future decision-making as they do not meet the standard threshold for statistical significance. However, the experiment does provide some insights into the potential impact of using a donor thermometer on donor conversions.\n\nFor future experimentation, it may be beneficial to continue testing the use of a donor thermometer but with adjustments to the implementation or design in order to potentially achieve statistically significant results. Additionally, considering a longer duration for the experiment and a larger sample size may also help in obtaining more reliable and conclusive results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68586,
+      "experimentId": "192741",
+      "title": "How using a question for a landing page headline impacts email conversions",
+      "date": "2024-12-19T21:24:46",
+      "url": "https://www.nextafter.com/experiments/how-using-a-question-for-a-landing-page-headline-impacts-email-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Email Acquisition | Headline",
+        "landing page"
+      ],
+      "tier": 3,
+      "lift": -0.7,
+      "confidence": 12.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "34.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "34.3%",
+            "lift": "-0.7%",
+            "confidence": "12.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a question headline for potential course takers will achieve a change in email signups.",
+      "summary": "Timeframe: 11/06/2024 - 12/04/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nFor one of their most popular free courses, we wanted to test whether using a question as a headline made an impact on email sign ups.",
+      "keyLearnings": "The key learning from this experiment is that using a question as a headline for a course did not lead to an increase in email signups. In fact, the treatment group saw a slight decrease in email acquisition compared to the control group. However, the statistical level of confidence was only 16.7%, which is below the recommended threshold of 95%. This means that the results are not statistically significant and should not be used for future decision making.\n\nIn future experimentation, it is important to ensure that the sample size is sufficient to detect any meaningful effects and to have a higher level of statistical confidence. It may also be helpful to consider other factors such as the wording of the question, the target audience, and the overall messaging strategy when testing different approaches to increasing email signups. Additionally, it is important to continue conducting experiments and gathering data to inform decision making and to be open to testing different hypotheses in order to optimize the effectiveness of email acquisition strategies.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68629,
+      "experimentId": "193976",
+      "title": "How changing ad copy impacted CTR on Facebook ads",
+      "date": "2024-12-16T15:15:24",
+      "url": "https://www.nextafter.com/experiments/how-changing-ad-copy-impacted-click-through-rate-on-facebook-ads/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": 7.2,
+      "confidence": 66.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "5.4%",
+            "lift": "7.2%",
+            "confidence": "66.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that updating the copy to be shorter with called out value for Avila’s Facebook audience will achieve an increase in CTR because the engager understand the value better.",
+      "summary": "Ended On: 12/13/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of their most popular courses is a video series from Dan Burke, Into the Deep. For this Facebook ad test, we wanted to change the copy to be shorter and focused on their relationship with the Lord. Describing more of the positive impact that the engaged would have with the course.",
+      "keyLearnings": "The key learnings from this experiment are that updating the copy to be shorter with a focus on the value Avila Foundation provides for its Facebook audience resulted in a 7.2% increase in Clicks for All Traffic. This indicates that the audience may have responded positively to the more concise message highlighting the relationship with the Lord that the course offers. However, since the statistical confidence level is below 95%, these results should not be considered valid for future decision making.\nThe cost per registration/email acquisition had a 8.8% increase with a 46% loc.\nControl:\nsample size: 7271\nemails: 99\nTreatment:\nsample size: 6951\nemails: 103\nIn future experimentation, it is important to continue exploring the impact of messaging that emphasizes the value of the courses in drawing Christians into deeper union with Christ. It may be beneficial to test variations of the copy further to see if a more significant increase in engagement can be achieved. Additionally, increasing the sample size or running the experiment for a longer period of time may help to gather more reliable data for making informed decisions about messaging strategies.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 66950,
+      "experimentId": "189711",
+      "title": "How adding value proposition to a donation page impacted donations",
+      "date": "2024-09-30T15:13:33",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-donation-page-impacted-donations/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -36.2,
+      "confidence": 24.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "2.1%",
+            "lift": "-36.2%",
+            "confidence": "24.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding value proposition to the donation page copy for Avila’s audience will achieve an increase in overall donations because they will feel more knowledgable and aligned with Avila’s mission. because  they will feel more knowledgable and aligned with Avila’s mission. because  they will feel more knowledgable and aligned with Avila’s mission. because  they will feel more knowledgable and aligned with Avila’s mission.",
+      "summary": "Timeframe: 08/17/2024 - 09/02/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nThey are currently running an offer, Root Sin. We decided to run a test changing the copy on the donation page. Recently, we updated their main donation page with more value proposition; we decided to add that to the Root Sin page to see if this would have a positive effect on donations.",
+      "keyLearnings": "The key learnings from this experiment are that the treatment, which involved adding a value proposition to the donation page copy, led to a decrease in transactions for all traffic by 36.2%. However, the statistical level of confidence was only 24.3%, which means that these results are not valid and should not be used for future decision-making.\nIn future experimentation, it is important to ensure that the sample size is large enough to produce statistically significant results. It is also crucial to consider the timing and duration of the experiment to account for any external factors that could influence the outcomes. Additionally, further testing and iterations may be necessary to determine the impact of adding a value proposition to the donation page copy for Avila's audience accurately.\nOverall, while this particular experiment did not yield conclusive results, the learnings can be used to inform future experimentation strategies and help optimize the donation process for Avila Foundation.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 64827,
+      "experimentId": "179032",
+      "title": "How adding a slide-out donation ask at the 2nd lesson in a course impacted donor conversions",
+      "date": "2024-08-16T14:38:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-slide-out-donation-ask-at-the-2nd-lesson-in-a-course-impacted-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "banner",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -18.9,
+      "confidence": 56.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "16.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Slide Out on Lesson 2",
+            "metric": "13.0%",
+            "lift": "-18.9%",
+            "confidence": "56.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for a donation earlier in the process for course takers will achieve a change in donation conversions. .",
+      "summary": "Timeframe: 05/14/2024 - 06/22/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of their most popular courses is a video series from Dan Burke.\nTraditionally, courses do not have any ask on them; there is an email at the end of the course that asks for donations, as well as a thank you screen.\nWe wanted to see whether using a slide out donation ask DURING the 2nd lesson of the course would generated more donations. Our hypothesis was that people would have received some value from the course already, and instead of waiting a week or 2 for people to go through the entire course, we might be able to get donation conversions earlier.",
+      "keyLearnings": "The key learning from this experiment is that asking for a donation earlier in the course can potentially impact email acquisition negatively. Although the treatment group saw a decrease in email acquisition, the statistical level of confidence was only 56.6%, which is below the generally accepted threshold of 85% for significance.\n\nTherefore, the results of this experiment should not be considered valid, and the hypothesis that asking for donations earlier in the process will increase donation conversions cannot be confirmed based on this data.\n\nIn future experimentation, it is important to ensure that the sample size is sufficient to provide a higher level of statistical confidence. Additionally, it may be beneficial to further refine the timing and approach of donation asks within the course to test their impact on donation conversions effectively.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 64826,
+      "experimentId": "182105",
+      "title": "How using a static image compares to using a video for a course promotion on Facebook",
+      "date": "2024-08-16T14:37:34",
+      "url": "https://www.nextafter.com/experiments/how-using-a-static-image-compares-to-using-a-video-for-a-course-promotion-on-facebook/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": 76,
+      "confidence": 63.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Into the Deep video trailer",
+            "metric": "0.35%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Into the Deep static image",
+            "metric": "0.61%",
+            "lift": "76.0%",
+            "confidence": "63.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the creative for potential course takes will achieve a change in sign-up rates.",
+      "summary": "Timeframe: 06/13/2024 - 06/30/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of their most popular courses is a video series from Dan Burke. For this Facebook ad creative test, we wanted to see how the long-running control that featured a trailer from the course would perform against a static image with a ‘free course’ call out.",
+      "keyLearnings": "The key learnings from this experiment are as follows:\n1. The treatment, which featured a static image with a 'free course' call out, resulted in a 76.0% increase in Complete Registrations for All Traffic compared to the control.\n2. The Cost per Click experienced a 92% decrease with a 100% level of confidence, and the Cost per Registration experienced a 185% decrease with a 100% level of confidence for the treatment.\n3. Visitors in the 55-64 age group showed a 13% increase in complete registrations with a 96% level of confidence for the treatment.\nHowever, it is important to note that the statistical level of confidence for the increase in Complete Registrations is only 63.2%, which is below the threshold of 85% for validity. Therefore, these results should not be used for future decision making.\nIn future experimentation, it would be beneficial to further test the treatment with a larger sample size to determine if the increase in Complete Registrations is consistent and statistically significant. Additionally, exploring different creatives and messaging strategies could help identify the most effective approach for driving course sign-ups. As the Cost per Click and Cost per Registration decreased significantly for the treatment, it may be worth investigating why this occurred and if similar cost-saving measures can be implemented in future campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 64845,
+      "experimentId": "189535",
+      "title": "How adding a slide-out donation ask during a course impacted donor conversions",
+      "date": "2024-08-16T14:35:04",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-slide-out-donation-ask-during-a-course-impacted-donor-conversions/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "banner",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 43.8,
+      "confidence": 31.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.8%",
+            "lift": "43.8%",
+            "confidence": "31.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for a donation earlier in the process for course takers will achieve a change in donation conversions.",
+      "summary": "Timeframe: 05/14/2024 - 06/22/2024\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nOne of their most popular courses is a video series from Dan Burke.\nTraditionally, courses do not have any ask on them; there is an email at the end of the course that asks for donations, as well as a thank you screen.\nWe wanted to see whether using a slide out donation ask DURING the 2nd lesson of the course would generated more donations. Our hypothesis was that people would have received some value from the course already, and instead of waiting a week or 2 for people to go through the entire course, we might be able to get donation conversions earlier.",
+      "keyLearnings": "The key learning from this experiment is that asking for a donation earlier in a course can potentially lead to an increase in donations. While the treatment saw a 43.8% increase in donations, the statistical level of confidence was only 31.4%, which is below the generally accepted threshold of 85%. This means that the results cannot be considered valid and should not be used for future decision making.\nIn future experimentation, it would be important to ensure a higher level of statistical confidence before making any definitive conclusions. It may be beneficial to continue testing different strategies for donation asks at different points in the course to see if there is a consistent trend in donation conversions. Additionally, considering factors such as course content, audience demographics, and timing of donation asks could also help in designing more effective fundraising strategies.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53422,
+      "experimentId": "155947",
+      "title": "How a pulsing heart sticky donate button affected donations on blog pages",
+      "date": "2023-07-03T14:21:28",
+      "url": "https://www.nextafter.com/experiments/how-a-pulsing-heart-sticky-donate-button-affected-donations-on-blog-pages/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "blog",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 44,
+      "confidence": 76.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.08%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky Donate",
+            "metric": "0.12%",
+            "lift": "44.0%",
+            "confidence": "76.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a side sticky button for blog page viewers will achieve a higher donor conversion because the pulsing heart is eye catching.",
+      "summary": "Timeframe: 06/13/2023 - 07/03/2023\nAvila is an organization that aims to draw Christians worldwide into deeper union with Christ through mystagogically oriented spiritual education and formation.\nIn an effort to increase donations from the Spiritual Directions blog pages we decided to test adding a side sticky donate button with a pulsing heart.",
+      "keyLearnings": "The key learning from this experiment is that adding a side sticky button with a pulsing heart on the blog pages resulted in a 44.0% increase in donations for all traffic. This suggests that the pulsing heart caught the attention of viewers and encouraged them to donate.\nHowever, it is important to note that the statistical level of confidence is only 76.8%, which is below the standard threshold of 85% for validity. Therefore, these results should not be considered reliable and should not be used for future decision-making.\nIn future experimentation, it would be beneficial to conduct additional tests with a larger sample size and longer duration to ensure statistical validity. It would also be helpful to test different variations of the side sticky button design, such as different shapes or colors, to determine which design elements are most effective in increasing donations. Additionally, it may be worth exploring other factors that could influence donor conversion, such as the content of the blog posts or the placement of the donate button on the page.\nWhen results of the blog page experiment is combined with the homepage results of the same test (https://app.winstonknows.com/experiment/6140) we find a 66% increase in donations with a 94% level of confidence",
+      "fluxMetrics": null
+    },
+    {
+      "id": 49403,
+      "experimentId": "117207",
+      "title": "How personalizing a Dear Reader during a year-end campaign impacted conversion rates.",
+      "date": "2023-01-23T15:06:52",
+      "url": "https://www.nextafter.com/experiments/how-personalizing-a-dear-reader-during-a-year-end-campaign-impacted-conversion-rates/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "dear reader",
+        "donor conversion",
+        "high urgency"
+      ],
+      "tier": 3,
+      "lift": 18.8,
+      "confidence": 71.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "A Note to Readers",
+            "metric": "0.26%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "A Note from Dan",
+            "metric": "0.31%",
+            "lift": "18.8%",
+            "confidence": "71.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that humanizing a dear reader for potential donors will achieve a change in conversion rates.",
+      "summary": "Timeframe: 12/01/2022 - 01/04/2023\nDuring Avila Institute’s year-end campaign, we wanted to capitalize on traffic to one of their most popular websites, SpiritualDirection.com and their blog pages, which were being promoted through a 3-times-a-week enewsletter, and see whether adding a Dear Reader donation ask would help drive more converisons.\nFor this experiment, we ran a 50/50 test to see whether a ‘Note to Readers’ versus a more personalized ‘Note from Dan (Burke, the founder of Avila) made a difference in conversion rates. The only difference between the two was the change in headline and adding the image and signature of Dan Burke.",
+      "keyLearnings": "While we had previously tested whether adding a Dear Reader had an impact on donations, this test was to see whether a more personalized approach would increase conversion rates. And it did: the Note from Dan version, which read like a personal letter from Dan, had a 19% increase in donation conversions with a 72% level of confidence. While not reaching the level of validity to decisively call a winner in this test, the higher level of confidence does provide a directional result.\nOur hypothesis is that because Dan is so visible and tied into the founding of Avila, readers of the blog posts were more likely to recognize him and respond to a personal appeal from Dan to support Avila during their year-end campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 49431,
+      "experimentId": "119286",
+      "title": "How adding a humanized sticky bar to donation pages during a year-end campaign impacts conversion rates",
+      "date": "2023-01-23T15:06:25",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-humanized-sticky-bar-to-donation-pages-during-a-year-end-campaign-impacts-conversion-rates/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -16.8,
+      "confidence": 68.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "9.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky Bar Template",
+            "metric": "8.1%",
+            "lift": "-16.8%",
+            "confidence": "68.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a personalized sticky bar for potential donors will achieve a change in conversion rates because it gives the organization a “face” which makes it more relatable.",
+      "summary": "Timeframe: 12/13/2022 - 12/23/2022\nDuring Avila Institute’s year-end campaign, we wanted to capitalize on traffic to one of their most popular websites, SpiritualDirection.com, and see whether adding a humanized sticky bar to a donation page would impact conversion rates.\nThis sticky bar ran on all donation pages for 10 days; following this period we launched it across the entire site.\nOur hypothesis was that by adding the personalized note from Dan, we would see a change in conversion rates.",
+      "keyLearnings": "This experiment actually led to a decrease in conversion rates on the donation form, with 16.8% less donations and a 68% level of confidence. We believe that this was caused by a number of factors:\nThe placement of the sticky bar was not optimalThe copy on the sticky bar did not tie into the overall messaging during the year-end campaignIt potentially added a friction point for those donors who were ready to donate (since they already landed on the donation form)\nFuture iterations of this test will experiment with whether different variations of a sticky bar, placement, and styles, will have a more positive impact.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 48933,
+      "experimentId": "122358",
+      "title": "How using a micro goal impacts donations during a year-end campaign",
+      "date": "2023-01-04T16:13:41",
+      "url": "https://www.nextafter.com/experiments/how-using-a-micro-goal-impacts-donations-during-a-year-end-campaign/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "high urgency"
+      ],
+      "tier": 3,
+      "lift": 13,
+      "confidence": 66.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "$300,000 overall goal",
+            "metric": "0.18%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Micro Goal 50 donors today",
+            "metric": "0.20%",
+            "lift": "13.0%",
+            "confidence": "66.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a micro goal for donors will achieve a change in conversion rates..",
+      "summary": "Timeframe: 12/01/2022 - 12/31/2022\nDuring their calendar year-end campaign, the Avila Institute had an overarching goal of raising $300,000 in the month of December. In order to reach this goal, we wanted to implement a campaign-long test on the donor segments of their emails, where the experiment was to see whether asking for $300,000 or asking for 50 donors to step up today would have an impact on conversion rates.\nWe ran this test across multiple emails throughout the campaign (albeit, not every email sent has this test due to data issues).",
+      "keyLearnings": "Our hypothesis, which we've seen in testing a micro goal across other clients, is that by giving a more 'reasonable' number for donors to reach (in this case 50 donors) rather than a larger goal ($300,000), conversion rates would increase.\nIn the case of this experiment, the impact was not very large, with a 13% increase in conversion rates overall when looking at the control versus treatment list throughout the whole campaign, and a 66% level of confidence.\nIn the next iteration of this test, we'd run it across every single email on the campaign, including resends, so that we'd get more volume.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28276,
+      "experimentId": "80793",
+      "title": "How adding a humanized dear reader to blogs during a high urgency campaign affects donor conversion rate",
+      "date": "2022-04-29T01:05:20",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-humanized-dear-reader-to-blogs-during-a-high-urgency-campaign-affects-donor-conversion-rate/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 8,
+      "confidence": 45.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Dear Reader - Generic Writer",
+            "metric": "0.92%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dear Reader - From Dan Burke",
+            "metric": "0.99%",
+            "lift": "8.0%",
+            "confidence": "45.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a humanized dear reader during calendar year end for blog readers will achieve a higher donor conversion rate .",
+      "summary": "Timeframe: 12/22/2021 - 01/06/2022\nDuring calendar year end, Avila wanted to switch out their typical offer-driven dear reader with a direct appeal for the calendar year end campaign. However, we wanted to humanize this dear reader by adding the founder’s (Dan Burke) picture and signature so that the message and ask were much more humanized. The control of this experiment is written from the perspective of the organization, while the treatment is written from the prospective of the founder. These dear readers were placed at the bottom of the blogs and were live during the last couple weeks of the campaign.\nAll traffic to these pages were organic.",
+      "keyLearnings": "The results of this experiment did not validate and did not indicate any kind of directional lift. The run time of this experiment was fairly short and did not reach the necessary sample size. It's recommended that this concept is tested again while using an offer in the dear reader. This would allow for more time for the experiment to validate and would give us more data on how their audience responds to hearing a message from the founder himself.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28307,
+      "experimentId": "80781",
+      "title": "How a passive call to action on a sticky bar impacts donor conversion rate",
+      "date": "2022-04-29T01:03:09",
+      "url": "https://www.nextafter.com/experiments/how-a-passive-call-to-action-on-a-sticky-bar-impacts-donor-conversion-rate/",
+      "organization": "Avila Foundation",
+      "categoryNames": [
+        "Avila Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -10.9,
+      "confidence": 65.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Give Now",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Learn More",
+            "metric": "0.93%",
+            "lift": "-10.9%",
+            "confidence": "65.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a passive call to action in a sticky bar for site visitors will achieve a higher donor conversion rate.",
+      "summary": "Timeframe: 12/22/2021 - 01/04/2022\nDuring calendar year end, Avila added a site-wide sticky bar to bring attention to their high urgency campaign. We wanted to make it clear that there was an urgent need for the organization during this time but wanted to test how a more passive call to action in the button would impact donor conversion rate. Would audiences be more intrigued to “learn more” on how they can contribute or would the be more motivated to give by being given a clear call to action to “give now”?",
+      "keyLearnings": "Results did not validate for this experiment. We saw a 10% decrease in donor conversion with a level of confidence of 65%. This experiment did not have a long enough run time to gather the necessary sample size. It is recommended that this concept is retested during the next high urgency campaign and launched earlier in the campaign in order to garner a larger sample size.",
+      "fluxMetrics": null
+    }
+  ]
+}

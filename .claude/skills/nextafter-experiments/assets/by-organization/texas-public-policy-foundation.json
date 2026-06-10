@@ -1,0 +1,2112 @@
+{
+  "name": "Texas Public Policy Foundation",
+  "total": 50,
+  "tierBreakdown": {
+    "valid": 20,
+    "directional": 8,
+    "inconclusive": 22
+  },
+  "experiments": [
+    {
+      "id": 53322,
+      "experimentId": "157229",
+      "title": "How testing different Dear Reader survey topics impacted email acquisition",
+      "date": "2023-06-30T20:04:24",
+      "url": "https://www.nextafter.com/experiments/how-testing-different-dear-reader-survey-topics-impacted-email-acquisition-3/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "dear reader",
+        "Email Acquisition | Design"
+      ],
+      "tier": 1,
+      "lift": 80.2,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "School Choice",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Border Crisis",
+            "metric": "3.5%",
+            "lift": "80.2%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that implementing a dear reader asking for opinions on the polarizing topic of the border crisis in Texas for page visitors will achieve an increase in email acquisition because readers will be more drawn to that topic than of school choice.",
+      "summary": "Timeframe: 06/19/2023 - 07/03/2023\nTPPF has two active surveys: School Choice and Border Crisis. We want to see which survey topic is most appealing to our reader audience and can collect the most emails, so we’ve separated them via a 50/50 Dear Reader experiment.\nThese Dear Readers are implemented at the end of policy issue articles, so 50% of readers will be asked to complete the School Choice Survey and 50% will be asked to complete the Border Crisis Survey once they are done reading their respective article.\nLet’s see which survey is most appealing to our audience and acquires the most emails.",
+      "keyLearnings": "The implementation of a \"dear reader\" treatment asking for opinions on the polarizing topic of the border crisis in Texas resulted in a significant increase (99.4% level of confidence) in email acquisition. The treatment group experienced an 80.2% increase in email acquisition compared to the control group.\nThe treatment also resulted in one downstream donation compared to none to the control.\nBased on these findings, it is clear that the topic of the border crisis in Texas is highly relevant and engaging for page visitors, more so than the topic of School Choice. This suggests that future experimentation should continue to explore this topic and its potential impact on user engagement and email acquisition, and that this org should roll out the Border Crisis Dear Reader to 100% of traffic.\nIt is also worth noting that the experiment ran for 13 days, which may not capture all potential long-term effects. Future experiments could consider running for a longer duration to assess any sustained impact on email acquisition.\nIn summary, the key learnings from this experiment emphasize the importance of selecting relevant and engaging topics to drive user engagement and email acquisition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 80.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 52977,
+      "experimentId": "152744",
+      "title": "How testing different Dear Reader survey topics impacted email acquisition",
+      "date": "2023-06-19T14:59:44",
+      "url": "https://www.nextafter.com/experiments/how-testing-different-dear-reader-survey-topics-impacted-email-acquisition/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "dear reader",
+        "Email Acquisition | Copy"
+      ],
+      "tier": 1,
+      "lift": -41.3,
+      "confidence": 98.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "School Choice",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Top Issues",
+            "metric": "1.2%",
+            "lift": "-41.3%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that\nimplementing a dear reader asking for opinions on the active topic of the top issues in Texas for page visitors will achieve an increase in email acquisition because readers will be more drawn to that topic than of school choice.\nbecause  readers will be more drawn to that topic than of school choice.",
+      "summary": "Timeframe: 05/22/2023 - 06/09/2023\nTPPF has two active surveys: Top Issues in Texas and School Choice. We want to see which survey topic is most appealing to our reader audience and can collect the most emails, so we’ve separated them via a 50/50 Dear Reader experiment.\nThese Dear Readers are implemented at the end of policy issue articles, so 50% of readers will be asked to complete the Top Issues in Texas Survey and 50% will be asked to complete the School Choice Survey once they are done reading their respective article.\nLet’s see which version acquires the most emails.",
+      "keyLearnings": "The Dear Reader pointing readers to our Top Issues in Texas did not perform as well as its counterpart - the School Choice survey. In fact, the Top Issues in Texas variant produced a 41.3% decrease in email conversion rate with a valid 98.7% level of confidence.\nThe results give us valid proof that more page visitors were interested in offering their opinions on a specific topic rather than a more general topic. School choice is getting a lot of headlines in Texas right now so it could be that the timing was right for directing readers to a school choice survey. We'll have to monitor the news flow to see if the School Choice survey holds up as a Dear Reader or if we need to put a new survey up against it to see if a new topic resonates better with our readers.\nThe value proposition for each Dear Reader followed a similar template, so without a different approach in value proposition, the results really do boil down to the topic presented. We will roll out the School Choice Survey to 100% of our policy issues reader audience.\nIt's important to test different dear readers to see which resonates best with our readers and deserves the long standing spot for our standard policy research dear readers. We will continue to test to determine which one has the greatest potential to rack up emails and enhance engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 41.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 49869,
+      "experimentId": "124702",
+      "title": "How defaulting the monthly giving donation tab for a recurring giving ask impacted recurring giving",
+      "date": "2023-02-20T16:14:48",
+      "url": "https://www.nextafter.com/experiments/how-defaulting-the-monthly-giving-donation-tab-for-a-recurring-giving-ask-impacted-recurring-giving/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "monthly donor"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 95.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Tabbed Form",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Tabbed Form - Monthly default",
+            "metric": "1.8%",
+            "lift": "100.0%",
+            "confidence": "95.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that setting the monthly giving donation form tab as the default tab  for potential donors  will achieve an increase in recurring giving because the monthly giving tab will align with donation ask in the page copy, maintaining the monthly giving momentum and thought process, and reducing donor friction. because  the monthly giving tab will align with donation ask in the page copy, maintaining the monthly giving momentum and thought process, and reducing donor friction.",
+      "summary": "Timeframe: 01/30/2023 - 02/18/2023\nA public policy client asks users to make a monthly donation and join their monthly donor program after signing a petition. The ask details the monthly donor program, highlighting its purpose and the benefits of joining. But when the petition signers reach the donation form, the form defaults to a one-time gift ask. The form consists of two tabs, one for making a one-time gift and one for making a monthly gift to “Join the Come and Take It Society” – as the tab is labeled.\nWe wondered if the misalignment of making a recurring giving ask but defaulting the tabbed form to a one-time ask was causing friction, disrupting the user momentum, and possibly even causing confusion among potential donors. To test this line of thinking, we simply built a treatment that set the “Join the Come and Take It Society” tab as the default. Would this tweak result in an increase in monthly donors?\nIt’s also important to note that the monthly giving tab is supported by a monthly giving callout which reiterates some of the value proposition from the page copy and isolates several benefits of joining the Come and Take It Society.",
+      "keyLearnings": "The treatment resulted in a valid increase in recurring giving, producing four recurring gifts to the treatment and none to the control. This validates our hypothesis that potential donors benefit from congruency between the recurring donation ask and the recurring giving donation form tab. It makes sense for the recurring ask to be backed by a recurring giving opportunity through the donation form. It is also important for potential donors to see and read the recurring giving callout as it could very well add motivation for them to convert as a recurring donor. If the donation form defaults to one-time giving then there is a strong chance the user will not click to the recurring tab and they would therefore never have the chance to read the callout.\nThis test is worth testing on additional offers that include a recurring giving ask at the end of the funnel.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48458,
+      "experimentId": "113199",
+      "title": "How a radically redesigned donation page for monthly partnership impacted donations.",
+      "date": "2022-12-12T16:04:43",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-donation-page-for-monthly-partnership-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "monthly donor"
+      ],
+      "tier": 1,
+      "lift": -76.5,
+      "confidence": 95.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Redesign",
+            "metric": "0.46%",
+            "lift": "-76.5%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that conducting a radical redesign on a monthly donor membership donation page for potential donors will achieve an increase in instant donor conversion rate because potential donors will gain clarity on the benefits of joining the membership club and will have a cleaner, more user-friendly page engagement.",
+      "summary": "Timeframe: 11/03/2022 - 12/05/2022\nA public policy client has a special membership club for monthly donors. Someone can join this club when making a monthly donation of at least $10, and from there they’ll receive special perks and have an elevated impact on the organization and its cause. The donation page where someone can make a monthly gift to join the club is resulting in a low instant conversion rate. Considering the amount of traffic that reaches the page, and after brainstorming several potential ways to improve conversion, we’ve opted for a radical redesign test to determine its impact on the instant donor conversion rate.\nWe will test these elements:\nExpanding the value proposition of the headline\nMoving the inline quote outside of the main copy and into a quote box on the side\nCalling out the specific impact of making a monthly gift via bullet points\nMoving the (501(c)3) tax language to the bottom of the page below the giving button\nSetting the default gift array amount to $10\nChanging “Donor Information” to “Your Information” in the giving form\nRemoving an email subscription opportunity from above the giving button\nRemoving only on mobile the social proof slide in informing the page visitor that [someone] just joined the membership club\nWe want to determine if this combination of changes will improve the page/donation experience for the visitor, provide additional clarity on the benefits of joining the membership club, and ultimately increase donor conversions.",
+      "keyLearnings": "The results are in. The treatment (radical redesign) showed a valid 76.5% DECREASE in instant donor conversion rate. The control variant produced 8 conversions to the treatment's 2.\nOur swing for the fences resulted in a whiff. The results were negative across segments. Unfortunately, a radical redesign cannot tell us how each change influenced the user experience and donor conversion rate overall. To simplify this test and make more sense of the results, our next test should isolate one or two variants. We may want to go down the list of changes so we can truly determine which change(s) turned potential donors off.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 76.5% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 34652,
+      "experimentId": "36934",
+      "title": "How a radical redesign affected donor conversion",
+      "date": "2022-11-07T17:30:04",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-affected-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -31.6,
+      "confidence": 95.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - New Language/Photo",
+            "metric": "0.82%",
+            "lift": "-31.6%",
+            "confidence": "95.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radical redesign  for potential monthly donors will achieve an increased conversion rate and average gift.",
+      "summary": "Timeframe: 09/28/2020 - 11/08/2020\nIn an effort to increase the donor conversion rate for a monthly donation ask, we developed a treatment for the donation page with new copy, new graphics, and an increased monthly ask amount. We added exclusivity to the headline, increased clarity in the descriptions of the benefits for joining as a monthly donor, and relevance to the intro paragraphs. We also made the photo on the page more congruent with the ad they had seen before arriving on this page and increased the monthly gift ask from $10 to $15. We wanted to see how this would impact the overall conversion rate as well as average gift.",
+      "keyLearnings": "While we saw differing responses from individual segments, overall we saw a 31.6% decrease in conversion rate and turned the experiment off. What we would like to explore next is isolating the copy, image, and monthly gift ask to identify which stand-alone element, if any, was responsible for the decrease. Rather than taking these results at face value, we also need to evaluate if the increase in average gift potentially reflects a greater value than the decrease in conversions to see which is a more beneficial long-term approach. We did not reach statistical significance to have valid results for the increase in average gift to determine its effect on increasing revenue.\nObservations of the impact on other visitor segments in the experiment:\nMobile visitors had a 40.2% decrease in donations with a 97% level of confidence.New  visitors had a 44.8% decrease in donations with a 99% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 31.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 39905,
+      "experimentId": "75561",
+      "title": "How lower grade level body copy readability impacted donor conversion",
+      "date": "2022-11-04T21:08:02",
+      "url": "https://www.nextafter.com/experiments/how-lower-grade-level-body-copy-readability-impacted-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -60,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.92%",
+            "lift": "-60.0%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that reducing the work required to read through a donation page for acquisition offer visitors will achieve an increase in donor conversion.",
+      "summary": "Timeframe: 11/04/2021 - 01/16/2022\nOn a new acquisition offer, we wanted to test using more straight-foward copy that was brief and easy to read compared to traditionally policy-focused and academic copy on an instant donation page. The treatment copy read at a 7th grade level while the control was rated a 14th grade reading level.",
+      "keyLearnings": "What we found was the treatment page with the 7th-grade reading level copy decreased conversion by 60% with 98% confidence. The control copy was more convincing that there was a problem and that it could be solved through the donor's support. For future testing, we will need to reevaluate how to keep the strength of the messaging while also altering the copy to be easier to read.\n\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 48.6% decrease with a 87% level of confidence.\n(Other) visitors had a 53.2% decrease in donations with a 92% level of confidence.\n \tMobile visitors had a 78.0% decrease in donations with a 99% level of confidence.\n \tNew visitors had a 53.4% decrease in donations with an 89% level of confidence.\n \tReturning visitors had a 71.8% decrease in donations with a 96% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 60.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 40637,
+      "experimentId": "38585",
+      "title": "How humanizing a subject line impacted open rates on an email appeal",
+      "date": "2022-11-03T21:08:53",
+      "url": "https://www.nextafter.com/experiments/how-humanizing-a-subject-line-impacted-open-rates-on-an-email-appeal/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising | Subject Line",
+        "open rate"
+      ],
+      "tier": 1,
+      "lift": 10.6,
+      "confidence": 98.4,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "24.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "27.4%",
+            "lift": "10.6%",
+            "confidence": "98.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking a question in the subject line for email recipients will achieve an increased open rate.",
+      "summary": "Ended On: 11/19/2020\nTPPF was sending a monthly appeal reminder for a matching gift deadline. The initial appeal was sent a week prior and this message was from another team member following up. We wanted to test if including a question in the subject line calling attention to the previous email would increase the open rate by coming across as more human rather than indicating urgency.",
+      "keyLearnings": "Our treatment ended up increasing both open rate and clickthrough rate for the email. We saw a 10.6% lift in open rate with 98.3% confidence. Even though it is a limited tactic since we know this approach will not work for every email the organization sends, we can use this finding to be strategic about highlighting certain emails or appeals in the future that we need to draw extra attention to.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n10.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 34642,
+      "experimentId": "68473",
+      "title": "How a radical redesign impacted a housefile digital appeal",
+      "date": "2022-11-03T21:00:58",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-impacted-a-housefile-digital-appeal/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising | Design",
+        "open rate"
+      ],
+      "tier": 1,
+      "lift": -35.3,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "I have good news",
+            "metric": "36.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Texans are saying this is a major burden",
+            "metric": "23.4%",
+            "lift": "-35.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplifying the language for a housefile appeal email will achieve an increase in engagement.",
+      "summary": "Timeframe: 07/30/2021 - 08/11/2021\nAs a part of the special legislative session, Texas Public Policy Foundation made an appeal around their proposed plan to lower property taxes.\nThe digital appeals to the housefile had been losing steam to convert donors in recent months, so they decided to test the language of the appeal and see what they could learn about the audience response.\nThe original email reflected a lot of policy-specific language and when graded in a readability tool, it was projected to be at a 12th grade reading level. So they developed a treatment that dramatically simplified the language and presented at a 5th grade reading level.",
+      "keyLearnings": "The\n\nNotable changes to other metrics due to the experiment:\nClicks experienced a 44.2% decrease with a 99% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n35.3% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 41996,
+      "experimentId": "106771",
+      "title": "How adding urgency and clarity in the opening line of an ad and relatability through the ad image impacted clicks",
+      "date": "2022-11-03T19:30:37",
+      "url": "https://www.nextafter.com/experiments/how-adding-urgency-and-clarity-in-the-opening-line-of-an-ad-and-relatability-through-the-ad-image-impacted-clicks/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "facebook ad",
+        "urgency",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": [
+        38.9,
+        -100
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.94%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.3%",
+            "lift": "38.9%",
+            "confidence": "96.9%"
+          },
+          {
+            "code": "T2:",
+            "name": null,
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding urgency and clarity in the opening line of an ad and relatability through the ad image for ad visitors would increase click-through rate.",
+      "summary": "Ended On: 09/09/2022\nTPPF’s Keep Texas Texan petition was experiencing a low click-through rate, so we tested a few different ad angles to see if they would increase clicks. We wondered if grabbing the reader’s attention right off the bat with a statement that they could “get behind” and clearly understand what was at stake would increase click-through rate. We also wondered if the existing ad image was experiencing user fatigue, and therefore tested two new images to see how they impact click-through rate. We ran an a/b/c test. The copy for the “b” and “c” variants differs from the “a” variant only in the opening sentence of the copy.\nThe “b” variant has a different image than “a”, using an image with symbols that represent Texas and that almost any Texan would recognize. The “c” variant has a different image as well, showing a person riding a horse in open Texas land – an image that we hypothesized Texans would relate to and distinguish themselves through.",
+      "keyLearnings": "Both treatment 1 and 2 led to an increase in ad clicks. Treatment 1 saw a 38.9% lift in clicks with a 96.9% level of confidence and treatment 2 saw a 83.4% lift in clicks with 99.9% level of confidence. This tells us that users did appreciate the clarity in the opening line of the ad copy, as they learned immediately what the ad was asking of them (to sign a petition) and what the petition was for (to keep Texas Texan). Also, by pointing at this this petition was \"critical\", users likely felt more of a sense of urgency to click the ad to reach the critical petition. As these variables were not isolated, we don't know for sure whether the clarity or urgency factored more into their decision to click through to the landing page.\n\nUltimately, treatment 2 experienced the biggest life of the three variants. This tells us that the ad image in treatment 2 resonated the most with users. They're asked to complete a petition to \"keep Texas Texan\", and the image of a man riding a horse through an open field on a dirt path rightly represents Texas. Users were more likely to click an ad image that offered authenticity than an image that was more \"cartoony\". That's because users see Texas and Texans as \"authentic\".\n\nThis ad approach is worth testing with other ads and for other offers. The results and learning would be clearer, however, if the ad variants are isolated. We don't know for sure if users were more motivated to click because of the copy change or the image change.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n38.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 32224,
+      "experimentId": "106240",
+      "title": "How an “us vs. them” copy angle on a petition landing page impacted donor conversions",
+      "date": "2022-10-03T15:16:19",
+      "url": "https://www.nextafter.com/experiments/how-an-us-vs-them-copy-angle-on-a-petition-landing-page-impacted-donor-conversions/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Email Acquisition"
+      ],
+      "tier": 1,
+      "lift": -79.2,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.25%",
+            "lift": "-79.2%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an “us” vs. “them” copy angle in which we isolate the opposition and unite against the opposition for potential petition signers will achieve an increase in sign up rate and conversion rate.",
+      "summary": "Timeframe: 09/02/2022 - 10/01/2022\nTPPF’s Keep Texas Texan petition is designed to build momentum towards a free and independent Texas, calling out important fundamental beliefs among Texans and asking people to stand behind them by signing the petition. The petition landing page was experiencing a low sign up rate, and we wondered if the lead in copy to the petition was lacking motivation.\nWe tested an “us vs. them” copy angle against the control copy which was more organization-centric and focused on the importance of keeping Texas true to its values as more and more people migrate to the state. For the treatment, the “us” is loyal conservative Texans and the “them” is politicians, policymakers, and progressives working against “us”. We thought calling out the “bad guy” and stating how we’re united against the “bad guy” would enhance motivation and convince more people to sign the petition. We also thought the motivation would carry over to the instant donation page and have a positive impact on donations.",
+      "keyLearnings": "Sign ups (email acqusition) showed little difference between the control and treatment; the treatment saw a 2.3% decrease in sign ups with only a 50.7% level of confidence. However, the treatment saw a valid 74.4% decrease in donations. 11 donations were made to the control compared to only 3 to the treatment. This tells us that any motivation created from the \"us\" vs. \"them\" copy angle did not carry over to the donation page.\nInterestingly, mobile users made all 11 donations to the control and the treatment actually saw more donations among desktop users. Mobile also had far more samples than desktop. This indicates that mobile users may not have been turned off by the \"us\" vs. \"them\" copy angle, but that they preferred briefer copy as they were reaching the actual petition. This experiment may be worth testing again, but with a briefer version of the treatment. If we do retest and the control wins again, then it would be more clear that the control copy angle is more impactful than the treatment copy angle.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 79.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 30245,
+      "experimentId": "99014",
+      "title": "How a video affects click-through rates when compared to a survey preview for a Facebook ad",
+      "date": "2022-08-18T20:36:28",
+      "url": "https://www.nextafter.com/experiments/how-a-video-affects-click-through-rates-when-compared-to-a-survey-preview-for-a-facebook-ad/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": -77.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.4%",
+            "lift": "-77.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a video ad will increase click rates on a Facebook ad for a survey offer.",
+      "summary": "Timeframe: 01/27/2022 - 02/27/2022\nRecently we have seen success using video format ads and survey preview ads, so naturally, we wanted to test them against each other to see how they would perform head-to-head.\nFor this experiment, we pitted a new video treatment against our survey preview control, left all other ad elements unchanged, and ran the two ads for 30 days to compare results.",
+      "keyLearnings": "After 30 days, the results of our test were conclusive, with the video ad producing a 77.6% decline in click-through rates when compared with the survey preview, with a 100% level of confidence.\nThis further validates our past learnings that previewing a survey in the ad creative is likely to increase click rates by catching the user's attention and engaging them visually on an issue they care about, leading them forward into the offer where they want to share their thoughts.\nWe'll now look to globalize this across survey offers for our other public policy clients.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n77.6% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20469,
+      "experimentId": "48311",
+      "title": "How adding urgency and relevancy to a subject line on an appeal impacted open rates",
+      "date": "2021-08-23T14:57:48",
+      "url": "https://www.nextafter.com/experiments/how-adding-urgency-and-relevancy-to-a-subject-line-on-an-appeal-impacted-open-rates/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -36.3,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "This legislative session",
+            "metric": "36.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "A critical year for the future of freedom for Texans",
+            "metric": "23.4%",
+            "lift": "-36.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding relevancy and urgency for housefile recipients of a digital appeal will achieve an increase in open rate.",
+      "summary": "Timeframe: 02/08/2021 - 02/22/2021\nWhen sending a monthly appeal, we wanted to test if adding urgency and relevancy in the subject line would influence open rates. The control subject line “This legislative session” contained an element of mystery but we developed a treatment subject line “A critical year for the future of freedom for Texans” to draw attention to the timeliness and to make a personal connection to the reader, especially if they are a Texan concerned about freedom.",
+      "keyLearnings": "What we found was the subject line with additional detail reduced opens by 36.3% while the succinct, mysterious subject line outperformed the treatment with 100% level of confidence. One hypothesis is that \"A critical year\" indicates the recipient could take action at any time during the year versus \"This legislative session\" has a more finite timeframe thereby making it more relevant and timely. The element of mystery proved to drive open rates more than clarity in this specific instance. We'll use this finding to develop additional subject line tests in the future.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n36.3% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20339,
+      "experimentId": "69178",
+      "title": "How including the first survey question in an email impacted clickthrough rate",
+      "date": "2021-08-16T14:02:40",
+      "url": "https://www.nextafter.com/experiments/how-including-the-first-survey-question-in-an-email-impacted-clickthrough-rate/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "design",
+        "email",
+        "Friction",
+        "micro ask"
+      ],
+      "tier": 1,
+      "lift": 59.5,
+      "confidence": 99.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "12.1%",
+            "lift": "59.5%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that including the first question of a survey for a housefile email will achieve more clicks to the survey page.",
+      "summary": "Ended On: 08/11/2021\nWe hypothesized that adding the first question of a survey to give people a preview/example of the questions they would be answering and highlighting an easy entry point to begin their survey that we could increase momentum from the email and get more clicks to the survey page. By featuring one of the questions we provide clarity to the reader about what the survey process looks like and decrease anxiety and friction about the amount of time and work required to complete the survey. We also introduce an opportunity to exercise the concept of a “micro-yes” – once people are nodding their heads and saying yes to answering the first question, we can help them continue saying yes throughout the survey and eventually on the donation page.",
+      "keyLearnings": "What we found was the treatment with the first question included in the body copy of the email generated a 59.5% increase in traffic with 99.9% level of confidence. Looking further down the process, we also saw a 40% lift in the number of emails acquired through the treatment with a 97.1% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n59.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20353,
+      "experimentId": "69183",
+      "title": "How a radical redesign with simplified copy impacted a housefile digital appeal",
+      "date": "2021-08-16T13:58:05",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-with-simplified-copy-impacted-a-housefile-digital-appeal/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "body copy",
+        "Email Fundraising",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 54.5,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "23.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "36.2%",
+            "lift": "54.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplifying the language for a housefile appeal email will achieve an increase in engagement.",
+      "summary": "Ended On: 08/11/2021\nAs a part of the special legislative session, Texas Public Policy Foundation made an appeal around their proposed plan to lower property taxes.\nThe digital appeals to the housefile had been losing steam to convert donors in recent months, so they decided to test the language of the appeal and see what they could learn about the audience response.\nThe original email reflected a lot of policy-specific language and when graded in a readability tool, it was projected to be at a 12th grade reading level. So they developed a treatment that dramatically simplified the language and presented at a 5th grade reading level.",
+      "keyLearnings": "What we found was the simplified version of the email led to a 54.5% increase in the overall open rate on the email. Diving in deeper, we were not able to secure enough traffic to validate the clickthrough rate but the treatment had a 16% increase on clicks with a 52% level of confidence. This learning can certainly be replicated and applied for future digital appeals, but can also be tested in the acquisition space to see how prospective audiences respond to simplified language compared to the housefile. We can also identify a few donation pages where we may be able to test this simplified language concept.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n54.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 18746,
+      "experimentId": "58652",
+      "title": "How asking a specific question in an ad impacts clickthrough rate",
+      "date": "2021-06-09T15:53:48",
+      "url": "https://www.nextafter.com/experiments/how-asking-a-specific-question-in-an-ad-impacts-clickthrough-rate/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Advertising",
+        "call to action",
+        "Facebook",
+        "imagery"
+      ],
+      "tier": 1,
+      "lift": 1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "38.8%",
+            "lift": "1,223.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplified Facebook ads posing a relevant question for potential donors will achieve an increase in traffic to the donation page.",
+      "summary": "Ended On: 04/27/2021\nAs part of a direct ask campaign for monthly donations, the Texas Public Policy Foundation wanted to test if specific policy ads would outperform a general invitation to join a branded recurring donor program. They had seen how other organizations had seen increases in traffic conversion through simplifying ads and wanted to test the concept on their images for the policy-specific ads.",
+      "keyLearnings": "With a 100% level of confidence, we observed a 1,223.4% lift in click rate on these Facebook ads that included a banner with the option to select \"Yes\" or \"No\" to indicate if they align with the organization's stance on specific policy areas. Once the visitors clicked on the call to take action, we were able to present them with the recurring donation ask to support TPPF's efforts in that specific policy area they just told us they have a shared belief.\nWhat's interesting is that when we looked at our donor conversion rate on the donation page,  we actually saw an 80.5% decrease with 100% Level of Confidence—which means that now that we've determined how to increase the number of clicks in order to drive a substantial amount traffic to the page, we can now shift our focus to running experiments to improve conversion on the donation page.\nWhile the increase in traffic is not necessarily producing visits from highly motivated donors to the page, we still see this as a worthwhile effort because once they visit the donation page we have the ability to set up additional campaigns designed to retarget them and find other opportunities to reach them distinctly with content related to their policy interests.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n1,223.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17547,
+      "experimentId": "65614",
+      "title": "How using a question in a subject line impacted open rate for an email appeal",
+      "date": "2020-11-13T16:28:41",
+      "url": "https://www.nextafter.com/experiments/how-using-a-question-in-a-subject-line-impacted-open-rate-for-an-email-appeal/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 10.3,
+      "confidence": 97.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Deadline today",
+            "metric": "24.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Did you see Kevin's email?",
+            "metric": "26.7%",
+            "lift": "10.3%",
+            "confidence": "97.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will using a conversational question in a subject line impact the open rate of an email?",
+      "summary": "Ended On:\nTPPF was re-sending a matching gift appeal from a new sender and wanted to test whether using a question in the subject line would increase open rate on the email. The original appeal with the matching gift details had been sent from the organization’s executive director two weeks prior, so we decided to send a follow-up message from the development team calling attention to the previous email. The control subject line “Deadline today” contained a sense of urgency and mystery while the treatment “Did you see Kevin’s email?” utilized asking a direct, relevant question and also came across using a more humanized and personal approach.",
+      "keyLearnings": "The subject line with the question had an increase in open rate leading to a 10% lift in traffic when compared to the control. The treatment also saw an increase from 1.41% to 1.5% in the overall clickthrough rate. While we know this approach cannot be used for each email the organization sends, since the experiment results are valid, we can use these findings to strategically highlight especially significant emails to the housefile in the future to gain attention in the inbox and increase open and clickthrough rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n10.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15688,
+      "experimentId": "10327",
+      "title": "How increasing urgency and perceived need affects donor conversion",
+      "date": "2019-09-18T19:09:41",
+      "url": "https://www.nextafter.com/experiments/how-increasing-urgency-and-perceived-need-affects-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 236.1,
+      "confidence": 95,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.36%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "1.2%",
+            "lift": "236.1%",
+            "confidence": "95.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will increasing urgency and perceived need affect donor conversion?",
+      "summary": "Timeframe: 12/20/2018 - 01/13/2019\nTexas Public Policy Foundation was running a campaign to raise support for their Center for the American Future, which defended citizens against government overreach. They were running a petition of support for John Yearwood, a rancher who faced a threat from the government if he disturbed the habitat of a rare spider—one which he had never seen!\nThe petition was followed by a donation ask, which was not performing very well. They decided to create a treatment that redesigned the page and message to present the need and urgency in a more forceful manner, hypothesizing that it would increase donor conversion. The treatment page added a headline that thanked the signer. They then tried to heighten the stakes by telling the reader that the stakes of this case were high, and could possibly affect them. The next paragraph of copy focused on a single fact—Mr. Yearwood can’t fund this case by himself, and hundreds of Texans are stepping up to help him fund it. Then comes the “but” statement—they are currently short of goal. They put a thermometer on the page that showed how close they were, and provided some social proof.",
+      "keyLearnings": "The new donation page produced a 236.1% increase in donor conversion, which showed the importance of communicating not just the cause, but the need for funds. Additionally, social proof and urgency—in this instance, the case moving forward without the necessary funds had an effect.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 236.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16415,
+      "experimentId": "11394",
+      "title": "How speaking directly to the donor affects conversion",
+      "date": "2019-06-07T20:04:50",
+      "url": "https://www.nextafter.com/experiments/how-speaking-directly-to-the-donor-affects-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 85.3,
+      "confidence": 96.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.86%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Copy Treatment - \"You\" centered",
+            "metric": "1.6%",
+            "lift": "85.3%",
+            "confidence": "96.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How will speaking directly to the donor affect conversion?",
+      "summary": "Timeframe: 04/15/2019 - 06/10/2019\nTexas Public Policy Foundation was running a property tax survey for Texans, followed by a donation ask. The campaign was acquiring donors at a decent rate, but with the volume of people taking the survey, they thought they could convert more. When they looked at the donation page, they noticed that the first question was a “grand statement”, followed by a bulleted list of groups that are affected by property taxes. Also, the text asked them to be a part of a “growing movement”—and previous research had shown that when prospective TPPF donors were shown language about being a part of a larger group, it reduced results. The TPPF team thought that the readers might not empathize with every group listed here, and that a more direct, personal approach might convert more donors. They created a treatment that spoke directly to the reader, only addressing the needs that they knew a survey-taker would have: home ownership, personal tax burden, and cost of living.\nThey launched a test between the two pages to determine a winner.",
+      "keyLearnings": "With similar amounts of traffic, the treatment produced 85.3% more donations. This reinforced the fact that TPPF donors are more concerned with personal impact than the impact of groups, and showed the power of speaking in a \"one-to-one\" manner.\nOnce the winner is rolled out, the results on the campaign will drastically improve thanks to this experiment.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 85.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16201,
+      "experimentId": "11355",
+      "title": "How “shared responsibility” affects clickthrough rate on a Facebook ad",
+      "date": "2019-04-16T14:55:33",
+      "url": "https://www.nextafter.com/experiments/how-shared-responsibility-affects-clickthrough-rate-on-a-facebook-ad/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 25,
+      "confidence": 99.4,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Shared responsibility",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal responsibility",
+            "metric": "2.9%",
+            "lift": "25.0%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How will removing “shared responsibility” to highlight personal responsibility affect response rate?",
+      "summary": "Ended On: 04/12/2019\nTexas Public Policy Foundation was promoting a property tax survey, which was followed by a donation ask. The original version of the Facebook ad asked the reader to “join your fellow Texans” and take the survey. However, they wondered if this “shared responsibility” might actually be negatively affecting clickthrough rate. The reader might think that there are plenty of other people taking the survey, and not feel inclined to complete it personally. They removed that line and launched a test to see if they could improve response rate.",
+      "keyLearnings": "The second ad, which removed the \"shared responsibility\" sentence from the copy produced a 25% increase in clickthrough rate, which led to a large increase in both names acquired and donations. A single sentence might not presume to have so much impact, but considering the audience, personal responsibility is a big motivator. This learning can be used in future offers to optimize results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n25.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15691,
+      "experimentId": "10411",
+      "title": "How validating shared beliefs on a petition affects downstream donor conversion",
+      "date": "2019-01-11T04:18:36",
+      "url": "https://www.nextafter.com/experiments/how-validating-shared-beliefs-on-a-petition-affects-downstream-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -52.2,
+      "confidence": 96.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.79%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.38%",
+            "lift": "-52.2%",
+            "confidence": "96.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How will validating shared beliefs on a petition affects downstream donor conversion",
+      "summary": "Ended On: 01/10/2019\nTexas Public Policy Foundation was running a campaign to raise support for their Center for the American Future, which defended citizens against government overreach. They were running a petition of support for John Yearwood, a rancher who faced a threat from the government if he disturbed the habitat of a rare spider—one which he had never seen!\nThey ran an experiment on the petition page to see if adding a section that asked the reader to confirm their shared values—namely that Texas landowners should be able to use their land as they please, that the federal government should let property owners conserve their own land, and that the government should follow the 10th Amendment—would increase donor conversion. Previous testing had implied that these checkboxes could have an impact on email acquisition, but were more likely to have an impact on donations (more people would give after signing). They launched an A/B test to determine a winner.",
+      "keyLearnings": "While the checkboxes treatment had no effect on email acquisition, it cut downstream conversion by half. The hypothesis as to why is that \"zooming out\" to shared beliefs took the focus off of the story, which made the ask (which was hyper-relevant to Yearwood) less congruent with the landing page message.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 52.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 53336,
+      "experimentId": "153933",
+      "title": "How adding a premium to a content offer instant donation page impacted donations",
+      "date": "2023-07-03T14:44:53",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-to-a-content-offer-instant-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -100,
+      "confidence": 84.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "84.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a premium to an instant donation page for potential donors will achieve an increase in donations because it will provide extra incentive for people to make a gift.",
+      "summary": "Timeframe: 05/31/2023 - 07/03/2023\nTPPF’s School Choice survey is producing a low instant donor conversion rate once users complete the survey and are redirected to an instant donation page. In an effort to increase donation conversion rate, we’ve built a treatment that leverages a premium offer when someone makes a donation of at least $10.\nThe premium is TPPF’s Pocket Constitution. We’ve seen past success when offering the Pocket Constitution as a free offer, so we want to see if using the content offer as a premium in this instance proves to be successful through an increase in donations.\nThe only difference between the control and treatment donation page is the closing bold paragraph in the treatment that informs page visitors of the premium opportunity and incudes an image of the premium to the right of the paragraph for visual appeal.",
+      "keyLearnings": "After running for a month, the treatment produced a 100% decrease in donor conversion rate with an 84.5% level of confidence. The treatment produced zero donations compared to two to the control.\n\nDespite the nearly valid level of confidence, the outcome of this experiment should be considered lightly due to a total of only two transactions. The recommended number of transactions to confidently review outcomes is 50, so these results are well below that bar.\n\nThe traffic sources to this experiment was limited to only a Dear Reader, as we turned the School Choice offer off in paid social due to consistently low performance. Thus, this experiment did not benefit from the healthy amount of traffic it needed to generate more transactions.\n\nThe treatment would be worth testing again on another more popular/active offer to gain a better idea of the effectiveness of the premium concept and the specific premium offer.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 50953,
+      "experimentId": "124858",
+      "title": "How adding evidentials to an instant donation page impacted donations",
+      "date": "2023-03-13T14:11:14",
+      "url": "https://www.nextafter.com/experiments/how-adding-evidentials-to-an-instant-donation-page-impacted-donations-2/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -52.3,
+      "confidence": 83.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.91%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.43%",
+            "lift": "-52.3%",
+            "confidence": "83.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding evidentials to the instant donation page copy for potential donors will achieve an increase in donations because potential donors will gain clarity and motivation as to how serious the problem is that we’re asking them to help solve.",
+      "summary": "Timeframe: 01/31/2023 - 03/10/2023\nTPPF’s Border Crisis Survey instant donation page is getting an instant conversion rate below 1%. In brainstorming ways to potentially increase conversion rate, we wondered if the addition of evidentials would further clarify and intensify the problem that the donor’s gift would help solve. For a test treatment, we added three bullet points towards the beginning of the value proposition copy, each one stating a research fact that speaks to the problems at the border.\nWill statistics and facts lead to more clarity and motivation, and ultimately more donations?",
+      "keyLearnings": "The key learning from this experiment is that adding evidentials to the instant donation page copy may not necessarily increase donations. In fact, the treatment saw a significant decrease in donations compared to the control. The treatment resulted in a 52.3% decrease in conversions with a statistical level of confidence of 83.2%. These results suggest that potential donors may not be motivated by research facts and statistics. We can also surmise that donors already have a strong understanding of the problem and that they don't need evidentials to help with their understanding.\n\nAs the problem is clearly known and communicated throughout the offer funnel, future tests need to focus on other components of the instant donation page, such as the solutions or the ask. Potential donors see eye to eye with the organization on the problem, but maybe they are not on the same page with the solutions we are offering, or maybe the solutions are not clear enough.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 50954,
+      "experimentId": "124858",
+      "title": "How adding evidentials to an instant donation page impacted donations",
+      "date": "2023-03-10T16:22:29",
+      "url": "https://www.nextafter.com/experiments/how-adding-evidentials-to-an-instant-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy"
+      ],
+      "tier": 2,
+      "lift": -52.3,
+      "confidence": 83.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.91%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.43%",
+            "lift": "-52.3%",
+            "confidence": "83.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding evidentials to the instant donation page copy for potential donors will achieve an increase in donations because potential donors will gain clarity and motivation as to how serious the problem is that we’re asking them to help solve.",
+      "summary": "Timeframe: 01/31/2023 - 03/10/2023\nTPPF’s Border Crisis Survey instant donation page is getting an instant conversion rate below 1%. In brainstorming ways to potentially increase conversion rate, we wondered if the addition of evidentials would further clarify and intensify the problem that the donor’s gift would help solve. For a test treatment, we added three bullet points towards the beginning of the value proposition copy, each one stating a research fact that speaks to the problems at the border.\nWill statistics and facts lead to more clarity and motivation, and ultimately more donations?",
+      "keyLearnings": "The key learning from this experiment is that adding evidentials to the instant donation page copy may not necessarily increase donations. In fact, the treatment saw a significant decrease in donations compared to the control. The treatment resulted in a 52.3% decrease in conversions with a statistical level of confidence of 83.2%. These results suggest that potential donors may not be motivated by research facts and statistics. We can also surmise that donors already have a strong understanding of the problem and that they don't need evidentials to help with their understanding.\n\nAs the problem is clearly known and communicated, future tests need to focus on other components of the instant donation page, such as the solutions or the ask. Potential donors see eye to eye with the organization on the problem, but maybe they are not on the same page with the solutions we are offering.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 47325,
+      "experimentId": "110330",
+      "title": "How adding first name personalization to the headline of an instant donation page impacted donations",
+      "date": "2022-11-07T14:59:33",
+      "url": "https://www.nextafter.com/experiments/how-adding-first-name-personalization-to-the-headline-of-an-instant-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -100,
+      "confidence": 92.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "First name personalization",
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "92.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding first name personalization to the headline of an instant donation page for page visitors will build trust and relations between the potential donor and the organization, and will ultimately achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 10/12/2022 - 11/07/2022\nFor TPPF’s newest offer, the Top Issues in Texas survey, we were interested to see how users would take to first name personalization in the headline of the offer of instant donation page. Once a user submits the survey by providing their first name, last name, and email address, they would be redirected to the instant donation page where the headline would refer to them by their first name.\nWe wondered if this personalization method would make the user feel acknowledged, and build trust and relations with the visitor, leading them to make a donation.",
+      "keyLearnings": "The experiment validated with the treatment resulting in an 86.3% DECREASE in donor conversion rate (95.7% level of confidence). There was a significant decrease across all segments, revealing that users either lost motivation to give or did not gain motivation to give when they were acknowledged by their first name when reaching the instant donation page. This may be an audience that is suspicious of seeing their first name when they do not have a personal relationship with the organization. This experiment may be worth testing with another offer to determine if the TPPF audience overall is turned off by first name personalization, or if the response is specific to the audience for this offer.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30064,
+      "experimentId": "99017",
+      "title": "How previewing the survey affects click-through-rates on a Facebook ad",
+      "date": "2022-08-15T16:59:33",
+      "url": "https://www.nextafter.com/experiments/how-previewing-the-survey-affects-click-through-rates-on-a-facebook-ad/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 2,
+      "lift": 25.6,
+      "confidence": 82.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "2.1%",
+            "lift": "25.6%",
+            "confidence": "82.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that previewing a survey for FB users will achieve higher click-through rates.",
+      "summary": "Timeframe: 06/09/2020 - 07/09/2022\nIn an effort to improve click-through-rates for a FB ad pointing people to a survey on the Border Crisis, we wanted to test if a radical redesign centered on previewing the survey, rather than highlighting the problem, would inspire more viewers to click. For this experiment, we mocked up a survey question on the ad image so that the viewer would be prompted to click to select their answer",
+      "keyLearnings": "After running this experiment for 30 days, we observed a 25.6% lift in clicks with an 84% level of confidence. These results lead us to believe that by previewing the survey and thus focusing on the solution in the form of an action, rather than the problem, more viewers were inspired to act.\n\nWhile these results are promising, because this experiment altered several elements of the ad: previewing the survey in the ad image + shortening the body text to focus on the desired action, we can not say with certainty which change had more of an impact on this lift.\n\nOur hunch is that the image, being more visible when people scroll their feeds, played more of a role ... but to further validate these results, we will next want to test a new image using the same body copy as the winning ad above.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27354,
+      "experimentId": "90207",
+      "title": "How removing the organization from a sender name affected click rates",
+      "date": "2022-04-06T18:50:49",
+      "url": "https://www.nextafter.com/experiments/how-removing-the-organization-from-a-sender-name-affected-click-rates/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 101.5,
+      "confidence": 84.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.09%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.18%",
+            "lift": "101.5%",
+            "confidence": "84.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing the organization from the sender name for email recipients will achieve a higher click rate.",
+      "summary": "Ended On: 04/05/2022\nA new president was announced within the organization, meaning their email list would be receiving emails from a sender name they may not recognize. To mitigate confusion and prevent disengagement, unsubscribes, and SPAM complaints, the organization name was appended to the sender name on emails sent to their list. We wanted to know how this was affecting click rates and decided to test if we would see a lift in click rates by once again removing the organization from the sender name. For this experiment, we ran an A/B test with traffic split 50/50.",
+      "keyLearnings": "This experiment produced a 101.5% lift in click rates, with an 84.7% level of confidence. Despite being unable to validate this lift, the results provide a strong indication that there may be a link between sender name and click rates. This is especially interesting because the sender name is most often thought to affect open rates, but its impact on click rates is less commonly documented.\nThese results reinforce the knowledge that the more personal and human your outreach (especially via email), the better chance you have of connecting with donors and inspiring them to act. Whenever possible, organizations should seek to humanize their outreach and appeals—this includes ensuring that emails are sent from real people within an organization and should appear in an inbox as much like a personal email as possible. The results also show how even a small change made to one part of a campaign can have a significant affect on downstream performance.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17250,
+      "experimentId": "22104",
+      "title": "How a radically redesigned donation page impacted donor conversion",
+      "date": "2020-09-22T16:40:20",
+      "url": "https://www.nextafter.com/experiments/how-a-radically-redesigned-donation-page-impacted-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -50.7,
+      "confidence": 83,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.1%",
+            "lift": "-50.7%",
+            "confidence": "83.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a radically redesigned donation page post-survey increase donor conversion?",
+      "summary": "Timeframe: 06/19/2020 - 07/09/2020\nWe wanted to increase donor conversion and thought the current donation page copy was causing a disjointed experience for the donor. We changed several elements to create a radical redesign test. Instead of leading with a “Success!” confirmation message upon survey submission, we wanted to draw the reader in further through personal appeal and direct continuation of the conversation. We also updated the copy with enhanced urgency and added a direct ask with a clear outcome “for a tax-deductible gift of $50, we’ll be able to inform 200 people about what’s at stake” rather than a general ask.",
+      "keyLearnings": "While we hoped implementing a radical redesign would help us validate results, we did not reach a valid level of confidence and saw a directional decrease in donor conversion rate. Our hypothesis for the decrease is that the new copy did not draw as much attention to evidentials as the control. But for future tests, we will look into testing each variable—headline, evidential points, specific ask, and tone—individually so we can identify where the loss is incurred.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15852,
+      "experimentId": "11314",
+      "title": "How optimizing Facebook for purchases impacts donor acquisition",
+      "date": "2019-04-12T14:16:05",
+      "url": "https://www.nextafter.com/experiments/how-optimizing-facebook-for-purchases-impacts-donor-acquisition/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 100,
+      "confidence": 91.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Email Acq. Custom Conversion Event",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Purchase Event",
+            "metric": "0.02%",
+            "lift": "100.0%",
+            "confidence": "91.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will Facebook’s standard “Purchase” event yield better donor acquisition for a petition campaign?",
+      "summary": "Timeframe: 12/10/2018 - 12/14/2018\nTPPF had been running their Facebook petition campaign for several weeks with the goal of acquiring additional donors for the organization. After nearly a month of activity, email acquisition had been happening at an extremely low cost but we were seeing exceptionally low instant donor conversion. After a discussion with our Facebook rep, we decided to test out Facebook’s native “Purchase” event to optimize our ads. They recommend that we have at least 50 conversions to optimize off of but we wanted to see if it would still be impactful with our low donor acquisition numbers.",
+      "keyLearnings": "After running for 5 days, we saw the Purchase event optimization had yielded three donors compared to the Control’s zero donors. This was the result of a 1.0% instant donor conversion rate for petition signers. Knowing the historical donor conversion rate for this campaign (0.1% instant donor conversion rate) this was a clear winner.\nIn the ideal world, we would have run this experiment for well over a month in order to see at least one purchase come in for the Control to validate the results. However, when our primary metric is to acquire donors and we are seeing significant improvement with the new method of optimization, it did not make sense to continue wasting our advertising budget just to validate an experiment.\nIt is worth noting that while the instant donor conversion rate jumped to 1% for petition signers, we also saw the email acquisition rate drop by 62% and our cost per email went up 48%. Both of these were successful tradeoffs given that we were finally able to acquire donors.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53343,
+      "experimentId": "156615",
+      "title": "How adding evidentials in the donation page value proposition impacted donations",
+      "date": "2023-06-30T20:01:40",
+      "url": "https://www.nextafter.com/experiments/how-adding-evidentials-in-the-donation-page-value-proposition-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -45.2,
+      "confidence": 78.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.95%",
+            "lift": "-45.2%",
+            "confidence": "78.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding evidentials through the value proposition copy for donation page visitors will achieve an increase in donations because the issue will feel closer to home for donation page visitors and they’ll be more inspired to make a donation.",
+      "summary": "Timeframe: 06/15/2023 - 07/03/2023\nTPPF’s Border Crisis instant donation page is producing a a low conversion rate. We wondered if enhancing the value proposition messaging through evidentials would better engage donation page visitors, as the messaging would feel closer to home and they’d therefore want to make a donation to help improve the border crisis situation.\nThe control uses more general value proposition while the treatment highlights specific threats to Texas citizens and examples of the harm the border crisis is causing to these citizens.\nLet’s see which approach appeals more to our audience in terms of urging them to make a donation.",
+      "keyLearnings": "After running for 15 days, the treatment resulted in a 45.2% decrease in donations with a 78.6% level of confidence. Potential donors did not respond to the treatment evidential-infused value proposition copy like we expected them to. Perhaps they already feel they have a strong grasp of the problem and therefore were not moved by the evidentials. In this case, we would want to hone in on the solution side of the formula more so than the problem side.\nThe treatment also produced a 29.5% decrease in revenue with a 73.6% level of confidence.\nReturning visitors produced an 88% decrease in donations to the treatment with a valid 97.6% level of confidence - 1 donation to the treatment compared to 7 to the control. This provides further proof that our returning visitors already have a strong grasp of the problem.\nDonors may care more about how their donation would make a difference in resolving the issues caused by the border crisis. Especially on this donation page where they're being asked to make a monthly donation, it's likely even more important to stress the reasons to give.\nIt would be interesting to run a test where we isolate the reasons to give between the control variant and the treatment variant to see how that impacts giving. In this instance, the treatment reasons to give focus more on stopping the bad guys (cartels) while the control reasons to focus more on implementing better policy. It would be interesting to isolate these to see which motivates our audience more to make donations.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53331,
+      "experimentId": "156627",
+      "title": "How adding a humanized sticky bar to a donation page impacts donor conversion rate",
+      "date": "2023-06-30T19:59:14",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-humanized-sticky-bar-to-a-donation-page-impacts-donor-conversion-rate-2/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 164.8,
+      "confidence": 63.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.44%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.2%",
+            "lift": "164.8%",
+            "confidence": "63.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a humanized sticky bar for donation page visitors will achieve a higher donor conversion rate.",
+      "summary": "Timeframe: 06/15/2023 - 07/03/2023\nTPPF’s Keep Texas Texan petition is producing a low instant donor conversion rate after users sign the petition. In an effort to increase donor conversion rate on the donation page, we decided to run a test where we would would humanize the experience for the prospective donor. So, we added a humanized sticky bar with their CEO’s picture and a message directing the reader’s attention to the donation opportunity below and reminding them of the impact that they can make. We believe this message coming from a person and prominent figure in the organization will lead to more donations.",
+      "keyLearnings": "The key learning from this experiment is that adding a humanized sticky bar with the picture of a prominent member of the organization and a personal message from that person can significantly increase the donor conversion rate - the power of personal touch. The treatment version of the donation page, which included the humanized sticky bar, saw a 164.8% increase in donations compared to the control version.\n\nHowever, the statistical level of confidence is only 63.5% which is below the recommended threshold of 85%. This means that the results cannot be considered valid and should not be used for future decision making. This experiment had to end after 15 days, preventing the necessary data to reach validation. It also recorded only 4 total donations between the two variants, which is below the recommended 50 transactions to reach confident results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53091,
+      "experimentId": "150654",
+      "title": "How a donation exit intent popup on an instant donation page impacted donations",
+      "date": "2023-06-19T14:57:38",
+      "url": "https://www.nextafter.com/experiments/how-an-donation-exit-intent-popup-on-an-instant-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 1.9,
+      "confidence": 2.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.68%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent Pop up",
+            "metric": "0.69%",
+            "lift": "1.9%",
+            "confidence": "2.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an exit intent popup prompting a return to the donation page will increase donations because potential donors will be brought back in by the ask and simplified value prop, and ultimately convert.",
+      "summary": "Timeframe: 05/15/2023 - 06/17/2023\nTPPF’s monthly donor conversion funnel is producing a low instant conversion rate. In an effort to increase conversion, we’ve implemented an exit intent popup that appears when someone tries to exit the page.\nThe popup will hit donation page visitors with one more ask with condensed value proposition copy in hopes that it will convince them to return to the donation page and complete a donation.\nThis approach could be effective in a number of ways:\nIt’s unconventional and it literally “pops out” to users\nThe popup will catch all users that try to exit, but could be especially impactful to the users that would bounce from the page immediately without reading the value proposition copy and realizing the donation ask\nPerhaps the exit intent popup will help make the mind up of anyone that is on the fence about donating\nPrompting visitors to second guess their decision to leave the page could lead some to return and convert – but will it be enough to produce a valid lift in conversion?",
+      "keyLearnings": "The experiment did not produce the results we had hoped for. In fact, it only produced eight conversions in total and they were split between the control and the treatment (exit intent popup). Ultimately, the treatment had a 1.9% lift with only a 2.12% level of confidence.\nThis approach is worth testing again, but on donation funnel that has ample traffic and overall conversions. We simply don't have enough data from this experiment to prove any effectiveness or lack of effectiveness.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 52742,
+      "experimentId": "148712",
+      "title": "How shorter, more congruent donation page copy impacted donations for a direct ask funnel",
+      "date": "2023-06-05T15:10:38",
+      "url": "https://www.nextafter.com/experiments/how-shorter-more-congruent-donation-page-copy-impacted-donations-for-a-direct-ask-funnel/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 35.3,
+      "confidence": 26.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.37%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.50%",
+            "lift": "35.3%",
+            "confidence": "26.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that shorter, more congruent value prop copy will result in an increase in donations because the donor experience will be better-connected and remain on topic as they transition from the direct ask ad to the instant donation page.",
+      "summary": "Timeframe: 05/04/2023 - 06/03/2023\nTPPF’s CAF-Focused funnel is producing a low instant conversion rate. In our analysis, we see that roughly 75% of our traffic for this funnel is coming from mobile and the mobile bounce rate is 95%. In evaluating the user experience, we hypothesize that the donation page copy is too lengthy – especially for mobile users – and that there is a disconnect between the direct ask Facebook ad creative and the instant donation page value proposition copy.\nThe Facebook ads are generating high click-through rates we believe primarily from the issue-specific yes/no ad graphic in which we ask users if they agree or disagree with a question that is relevant to the opportunity we’re providing to them. The ad copy also speaks specifically about one issue but then speaks much more generally on the donation page.\nWe need to find a way to maintain the momentum from the ad level to get more people to convert at the donation level.\nShorter copy should better engage our mobile audience and more congruent copy between the ad and the landing page should hone the value proposition copy and better motivate page visitors to give.",
+      "keyLearnings": "Our treatment variant with the shorter copy and honed value proposition copy did produce more donations than the control, however, the difference was only one donation. The experiment produced only 5 conversions total: 2 to the control and 3 to the treatment. The 35.3% conversion lift from the treatment variant had only a 26.2% level of confidence.\n\nSimply put, the experiment did not reach the conversion sample to validate one way or the other after running for 30 days. Thus, we cannot make any valid conclusions. We'll keep a look out for other opportunities to launch this type of test.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 52606,
+      "experimentId": "146763",
+      "title": "How adding a premium to an instant donation page impacted donations",
+      "date": "2023-05-30T03:03:46",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-to-an-instant-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -17.1,
+      "confidence": 22.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.52%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "0.43%",
+            "lift": "-17.1%",
+            "confidence": "22.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a premium to an instant donation page for potential donors will achieve an increase in donations because it will provide extra incentive for people to make a gift.",
+      "summary": "Timeframe: 04/26/2023 - 05/29/2023\nTPPF’s Pocket Constitution Booklet was getting a ton of traction as an individual content offer. We want to find out if taking that momentum by applying it as a premium as part of a new content offer funnel would produce a lift in donations for the new content offer (School Choice Survey).\nWe added an image of the Pocket Constitution to the School Choice Survey instant donation page, along with the following language at the end of the value proposition copy to clarify the premium opportunity:\n“And if you make a donation of $10 or more today, we will send you a FREE Pocket Constitution for your home or classroom as a reminder of your commitment to better education in the Lone Star State.”\nLet’s find out if the added premium offer increases donations.",
+      "keyLearnings": "The experiment aimed to test the hypothesis that adding a premium to an instant donation page would increase donations. The treatment included an image of a Pocket Constitution Booklet and an offer to send the booklet to anyone who made a donation of $10 or more on the School Choice Survey instant donation page.\n\nThe experiment ran for 32 days, and the results showed that the treatment had a 17.1% decrease in donations for all traffic, with a 22.2% statistical level of confidence.\n\nWhile the treatment did not produce a bump in donations like we had hoped, it did produce a large bump in revenue through a 645.8% lift with a nearly valid 84.8% level of confidence.\n\nThe average gift among donors to the treatment was $90 compared to an average gift of just $10 among those who donated to the control variant.\n\nIt seems the extra incentive provided by the Pocket Constitution Booklet premium made people want to give more, even though the minimum donation to receive the premium was $10.\n\nThis speaks to the \"what do I get in return\" mindset many people have. By getting an actual item in return for making a gift, it seems donation page visitors were willing to give more.\n\nThe nearly valid increase in revenue gives us the confidence to roll out the treatment, connecting all funnel traffic to the premium opportunity.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51660,
+      "experimentId": "137890",
+      "title": "How adding statements of credibility to a donation page impacted donations",
+      "date": "2023-04-17T14:06:54",
+      "url": "https://www.nextafter.com/experiments/how-adding-statements-of-credibility-to-a-donation-page-impacted-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "credibility",
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 614.2,
+      "confidence": 0,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.03",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "$0.21",
+            "lift": "614.2%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding credibility language to the instant donation page for potential donors will achieve an increase in donations because potential donors will gain belief in our organization and trust us to make a true impact with their contribution.",
+      "summary": "Timeframe: 03/09/2023 - 04/13/2023\nTPPF’s Border Crisis survey offer funnel is producing a low instant donor conversion rate. We’ve run several tests on this page, including a recent test in which we added evidentials to the copy in order to make the problem more tangible and understandable. This test produced a drop in donor conversion rate. The result made us confident that our audience already has a strong understanding of the problem, and that the issue with conversion rate is elsewhere on the page.\nSo for this experiment, we’re testing adding credibility language with the hypothesis that it will convince our audience that we are capable of solving or improving the problems we face at the border. Perhaps the current donation page does not do a good enough job of separating TPPF from other organizations and selling us as the organization most capable of helping in this critical area.\nOur audience understands the problem we’re trying to help solve, but do they trust us and believe that we can solve it?",
+      "keyLearnings": "The key learning from this experiment is that adding credibility language to the instant donation page for potential donors has a significant impact on increasing donations. The treatment group saw a 162.6% increase in donor conversion rate with a 76.6% level of confidence. We saw even greater results in revenue with the treatment producing a 614.2% increase in revenue for all traffic with a valid 96.5% level of statistical confidence. The average gift to the treatment was $20.40 compared to just $7.50 to the control.\nReturning visitors converted four times through the treatment compared to zero through the control. This tells us that people who have experience with the organization and have engaged with it in the past appreciate the language separating us from other organizations.\nBased on these findings, it is recommended that future experiments focus on improving the credibility and trustworthiness of the organization in order to increase donor conversions. Some future tests could include adding social proof, testimonials, and other forms of credibility language to the donation page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 49829,
+      "experimentId": "123098",
+      "title": "How “rally together” messaging impacted donations for a recurring giving program",
+      "date": "2023-02-20T16:42:37",
+      "url": "https://www.nextafter.com/experiments/how-rally-together-messaging-impacted-donations-for-a-recurring-giving-program/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "monthly donor",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 17.1,
+      "confidence": 18.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.41%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.48%",
+            "lift": "17.1%",
+            "confidence": "18.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that “rally together” messaging for potential donors will achieve an increase in donor conversion rate because donors will want to unite against the threats to Texas independence and be a part of the efforts to combat those threats.",
+      "summary": "Timeframe: 01/11/2023 - 02/17/2023\nA public policy client has struggled to get traction on their recurring giving donation page. The page is producing a 0.29 instant donor conversion rate heading into this experiment. Assessing the current donation page copy, we wondered if it is too general and does not do a good enough job of inciting emotion among potential donors. We also wondered if page visitors would convert at a higher rate if we apply relevant language to the current public policy landscape in Texas and the threats to the people of the state.\nWe’ll develop a donation page treatment that uses “rally together” language, highlighting specific threats to Texas and its citizens and making it clear that these threats won’t seize unless we come together as one to fight for better policy and safeguard our personal liberties. The copy will reference current threats and conditions that are close to home and close to the heart of conservative Texans.\nWe expect this messaging to increase motivation and urgency to join the Come and Take It Society as a monthly donor and make a continuous effort to fight for independence in Texas.",
+      "keyLearnings": "Neither the control nor the treatment reached significance. The treatment led to 5 donations to 4 for the control. Revenue was a tick higher for the treatment compared to the control, but the increase in revenue only had a 67.1% level of confidence. It seems the \"rally together\" messaging did not motivate potential donors to convert to donors in the way that we hypothesized it would. The messaging could be worth testing through a regular offer in which someone can make either a one-time or monthly donation. However, for the recurring ask, the messaging did not do enough to make potential donors give recurring gifts at a rate in which we could trust rolling out the treatment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 48190,
+      "experimentId": "117308",
+      "title": "How adding an image of an incentivized item to an email impacted clicks",
+      "date": "2022-12-08T15:09:27",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-image-of-an-incentivized-item-to-an-email-impacted-clicks/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "Email Acquisition | Design",
+        "imagery"
+      ],
+      "tier": 3,
+      "lift": 89.9,
+      "confidence": 67.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "6.3%",
+            "lift": "89.9%",
+            "confidence": "67.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that providing an image of the special CATIS coin in the welcome series email for potential CATIS members will achieve an increase in clicks because they’ll be impressed with the coin and gain a true feeling of possessing the coin.",
+      "summary": "Timeframe: 11/03/2022 - 12/02/2022\nAs part of TPPF’s welcome series, new names are sent an invitation email to join the Come and Take It Society (CATIS) by making a monthly gift. When joining, members receive exclusive perks. One perk is receiving a special CATIS coin. This specific perk is mentioned in the email, however, the email does not include an image of the coin to give potential new members an accurate, tangible impression of the coin.\nWe hypothesized that adding an image of the coin would further pique the interest of email recipients, giving them a preview of the special coin they would receive, and therefore encouraging them to click through the email to the CATIS donation page.",
+      "keyLearnings": "The treatment resulted in an 89.9% lift in clicks - a 6.3% click rate compared to 3.3% for the control. Our hypothesis proved correct: Those who saw the coin were more likely to click within the email. The coin image gave these people a preview of the coin and provoked visions of what it would be like to possess the coin. The mere mention of it can only go so far. By just mentioning it, email recipients don't know what the coin looks like and if it'd be worth essentially paying for as part of a monthly donation commitment. They could envision the coin as appearing tacky and poorly made. Showing an image of the coin promotes something tangible and takes some of the guesswork out of the person's mind.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30338,
+      "experimentId": "33258",
+      "title": "How adding value prop before a petition impacted email conversion",
+      "date": "2022-08-22T17:09:43",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-prop-before-a-petition-impacted-email-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 1.4,
+      "confidence": 45.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Version 1",
+            "metric": "54.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "54.7%",
+            "lift": "1.4%",
+            "confidence": "45.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that creating cognitive momentum with additional value proposition for landing page visitors will achieve an increase in email signatures.",
+      "summary": "Timeframe: 11/16/2020 - 12/09/2020\nWe were running a petition and were looking for ways to improve email conversion rate on the landing page. Although the Facebook ad gave supporting reasons to sign the petition, we noticed the control landing page went straight into the petition statement without giving any additional context for why someone should add their name to the petition. We wondered if adding clarity and urgency for visitors would help continue the cognitive momentum from one step to the next and developed a treatment that carried over value proposition into a brief paragraph and an additional subheader before leading into the beginning of the petition statement. We split traffic to both versions and ran the test for 3 weeks.",
+      "keyLearnings": "After running the test for 3 weeks, we saw a 1.4% increase in conversion rate with 45.6% level of confidence so the experiment results are not valid. We needed a greater sample size for further indication of whether or not the treatment version was working. Upon review, the new intro paragraph in the treatment used organization-centric language that could have led to flat results. In future tests on this page, we will optimize the copy to be more donor-centric while testing the same concept. We could also implement some design features on the page that more clearly separate the petition language from the introductory value proposition to reduce confusion and friction in the mind of the page visitor.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30077,
+      "experimentId": "99015",
+      "title": "How using a video in a Facebook ad affects click through rates",
+      "date": "2022-08-15T17:51:33",
+      "url": "https://www.nextafter.com/experiments/how-using-a-video-in-a-facebook-ad-affects-click-through-rates/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": 49.2,
+      "confidence": 53.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.7%",
+            "lift": "49.2%",
+            "confidence": "53.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a video in an ad for Facebook users will achieve higher click rates.",
+      "summary": "Timeframe: 01/27/2022 - 02/27/2022\nIn an effort to increase click through rates on a FB ad promoting a survey, we wanted to know if presenting the issue through video format would provide a lift in click through rates. We hypothesized that by offering a different format that presented the narrative in video form, rather than text, more viewers would stop to interact with the ad and hopefully click through",
+      "keyLearnings": "After running this experiment for 30 days, we were able to see a 49% lift in click through rates. This indicates that the video format stood out in people's feeds and presented the issue in a way that inspired viewers to click through.\n\nHowever, due to the low number of impressions received by the two ads, we were unable to validate this experiment. The treatment received only $19.37. We also noted that the video format was not the only ad element that was changed. The body text was also shortened and revised to use more urgent language that compelled viewers to act.\n\nIn future experiments, we may want to distribute the spend between control and treatment more evenly and ensure enough spend is designated to provide sufficient traffic. If we can validate the lift provided by the video format, we can then test the copy variations against one another.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30361,
+      "experimentId": "101495",
+      "title": "How condensed copy affects conversion rates on an instant donation page",
+      "date": "2022-08-15T16:39:19",
+      "url": "https://www.nextafter.com/experiments/how-condensed-copy-affects-conversion-rates-on-an-instant-donation-page/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "body copy",
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 32.8,
+      "confidence": 58.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.67%",
+            "lift": "32.8%",
+            "confidence": "58.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that condensing copy on an instant donation page for a survey offer will increase conversion rates.",
+      "summary": "Timeframe: 06/17/2022 - 07/20/2022\nWe wanted to improve conversion rates on an instant donation page for a survey offer being run by Texas Public Policy Foundation. In order to do so, we decided to test condensed body copy that spends fewer words restating the problem, places a CTA in the headline, and calls attention to the benefits of joining the Come and Take It Society.",
+      "keyLearnings": "After running this experiment for 34 days, we observed a 32.8% lift in conversion rates, with a 58.3% level of confidence. An insufficient amount of transactions completed during the testing period prevented us from validating this experiment.\n\nWe believe that reducing the copy may have helped provide this lift by becoming more action-oriented, reducing the scroll required to reach the form and by focusing on the impact a donor will have, sooner, while making the CTA clear in the headline.\n\nWhile we were not able to validate this lift in conversion rates, the results are encouraging. Next, we will want to test different elements on the condensed copy version of this landing page to further this learning and continue to improve results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 29600,
+      "experimentId": "91832",
+      "title": "How a radical redesign impacted gifts on a survey confirmation page",
+      "date": "2022-08-15T16:25:40",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-impacted-gifts-on-a-survey-confirmation-page/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 9.8,
+      "confidence": 27.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.4%",
+            "lift": "9.8%",
+            "confidence": "27.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a radically redesigned donation page for survey takers will achieve a lift in donor conversion.",
+      "summary": "Timeframe: 04/09/2022 - 06/17/2022\nEmail conversion rates on a survey offer were performing exceptionally well but the instant donor conversion was sufferably low. We wanted to produce a radical redesign treatment to take advantage of the high traffic coming to the page and see if we could improve conversion. We added a personalized headline, and brought in recency and urgency to the timeline of the issue throughout the body copy. We also introduce the concept of donor autonomy by asking “Would you consider…” and saying “If you make a gift today…” and “Will you join?” Rather than using bullet points to highlight principles of belief like the control, we instead outline the ways their gift will be used in these bullet points demonstrating the impact.",
+      "keyLearnings": "After running the experiment we observed a 9.8% lift in donations with a 27.5% level of confidence so the test did not validate. When reviewing the results, we hypothesized that both the control and the treatment copy are long and required a lot of scrolling on the page to actually reach the donation form itself that could be causing unnecessary friction. For the next test on this page, we will develop a treatment that has shorter copy and leaves the donation form in view.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 26103,
+      "experimentId": "86571",
+      "title": "How a sticky bar with a donor countdown impacted donation page visits",
+      "date": "2022-02-28T15:10:05",
+      "url": "https://www.nextafter.com/experiments/how-a-sticky-bar-with-a-donor-countdown-impacted-donation-page-visits/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 5.2,
+      "confidence": 32.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.67%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.70%",
+            "lift": "5.2%",
+            "confidence": "32.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that including a micro-ask in a sticky bar for website visitors at calendar year-end will achieve an increase in donation page visits.",
+      "summary": "Timeframe: 12/01/2021 - 01/01/2022\nIn order to drive traffic from the website during a high urgency campaign, we launched two versions of a sticky bar to show site visitors. The control used donor alignment and a deadline to indicate urgency. The treatment version used a micro-ask: will you be one of the 10 donors we need today? We ran this as an A/B split test during the month of December to see if we could learn which message would most resonate with donors.",
+      "keyLearnings": "While we did not achieve a significant level of confidence, the experiment ended after 4 weeks with a 5% increase in traffic at a 32% level of confidence for version B. We will need to further test this concept for other campaigns to better understand which message and format will help website visitors take interest in clicking through to the donation page. We will also want to introduce a more specific call to action language on future iterations of this test such as \"Click here\" to make certain visitors are aware of the next step we would like them to take and how after reading the sticky bar copy.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18490,
+      "experimentId": "56619",
+      "title": "How a relevant subject line affected housefile engagement for a cultivation email",
+      "date": "2021-06-09T16:22:16",
+      "url": "https://www.nextafter.com/experiments/how-a-relevant-subject-line-affected-housefile-engagement-for-a-cultivation-email/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "subject line"
+      ],
+      "tier": 3,
+      "lift": -6.3,
+      "confidence": 61.6,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "An interesting interview",
+            "metric": "12.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Are you familiar with Mattress Mack?",
+            "metric": "12.1%",
+            "lift": "-6.3%",
+            "confidence": "61.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that introducing “you” to add relevance in a subject line for a cultivation series to the housefile will achieve an increase in open rate.",
+      "summary": "Ended On: 04/05/2021\nWe were noticing a recent decline in open rate for a weekly cultivation email series to the housefile so we wanted to test some subject line elements to see how we could improve how the audience was responding to different subject lines and increase engagement with the cultivation emails. We established a control—“An interesting interview”—using the element of mystery to invoke curiosity and a treatment—“Are you familiar with Mattress Mack?”—using the word you to create relevancy for the email recipients. We set up the A/B split test to see which of the two elements had better performance so we can continue to adjust subject lines for future emails in the series by using what works for this particular audience.",
+      "keyLearnings": "The experiment was set up in Hubspot to monitor results for the first 4 hours after the email test was sent to 50% of the total audience and then send the email with the most opens to the remainder of the file. Because of this, we did not have a large enough sample size to validate the experiment. The treatment saw a 6.3% decrease in traffic, but we did not reach a statistically significant level of confidence to draw any conclusions based on these results. Moving forward, we will want to run a similar test as a split to the full housefile rather than just half of it so we can validate results and find out how to best optimize the subject lines for this audience.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17982,
+      "experimentId": "53756",
+      "title": "How adding benefits of monthly giving affected clicks in an appeal",
+      "date": "2021-03-24T20:56:43",
+      "url": "https://www.nextafter.com/experiments/how-adding-benefits-of-monthly-giving-affected-clicks-in-an-appeal/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 24.1,
+      "confidence": 43.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Version A",
+            "metric": "0.44%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Version B",
+            "metric": "0.55%",
+            "lift": "24.1%",
+            "confidence": "43.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding benefits of monthly giving for a housefile appeal will achieve a higher click rate.",
+      "summary": "Timeframe: 03/03/2021 - 03/11/2021\nFor a high-urgency campaign, we wanted to test if including the benefits of becoming a monthly donor would increase clicks to the donation page. This was the last email in the campaign and it was set up a personal note forwarding the previous email from earlier in the day with one final request to give before the deadline. The treatment version listed the benefits of becoming a monthly donor and included an image of the premium for monthly donors.",
+      "keyLearnings": "Since this email was sent to an audience limited in size, we were unable to validate the results of the experiment. We saw a 24.1% increase in traffic on the treatment but with only a 43.8% level of confidence so we cannot claim statistical significance. Moving forward, we'll plan to retest this same concept in future emails—as well as launch the test in other channels that may reach a wider audience —to see if there are any learnings to be applied.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17156,
+      "experimentId": "21334",
+      "title": "How including a video thumbnail affects clicks in a cultivation email",
+      "date": "2020-06-22T18:38:34",
+      "url": "https://www.nextafter.com/experiments/how-including-a-video-thumbnail-affects-clicks-in-a-cultivation-email/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 11.5,
+      "confidence": 42.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Raw Link",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Video Thumbnail",
+            "metric": "1.3%",
+            "lift": "11.5%",
+            "confidence": "42.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a video thumbnail outperform a raw link in number of clicks?",
+      "summary": "Ended On: 06/04/2020\nTPPF wanted to test if including a video thumbnail would increase the number of clicks in a cultivation email.",
+      "keyLearnings": "Unfortunately, this experiment did not get enough traffic to reach the level of confidence needed to validate.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16616,
+      "experimentId": "18085",
+      "title": "How more direct copy affected donations on a landing page",
+      "date": "2019-09-22T20:44:10",
+      "url": "https://www.nextafter.com/experiments/how-more-direct-copy-affected-donations-on-a-landing-page/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -27.1,
+      "confidence": 32.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1 -- copy test, more direct copy",
+            "metric": "1.0%",
+            "lift": "-27.1%",
+            "confidence": "32.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct headline that tells people what they just did (and more direct body copy) increase the number of donations?",
+      "summary": "Timeframe: 07/16/2019 - 08/26/2019\nThe Texas Public Policy Foundation sent chase emails to their file for a direct mail letter about ending the Affordable Care Act (Obamacare). They then versioned those chase emails to send to the rest of their file. They wanted to test the donation page copy to see if a more direct headline and explanation of what TPPF is doing to combat Obamacare would increase donations.",
+      "keyLearnings": "This copy experiment led to a 27.1% decrease in donations. However, there are several factors in the data that make these experiment results inconclusive. The sample size is too small, there is only a one gift difference, and the level of confidence is too low to come close to validating. Given this information, the experiment results cannot be used for future communications to the TPPF donor file.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16448,
+      "experimentId": "16759",
+      "title": "How deploying a coaster premium affects donor conversion",
+      "date": "2019-06-27T20:28:34",
+      "url": "https://www.nextafter.com/experiments/how-deploying-a-coaster-premium-affects-donor-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -48.8,
+      "confidence": 79.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Coaster",
+            "metric": "0.73%",
+            "lift": "-48.8%",
+            "confidence": "79.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the presence of a premium incentivize more people to donate?",
+      "summary": "Timeframe: 05/08/2019 - 06/28/2019\nTexas Public Policy Foundation ran a campaign to fund a legal case to defend John Yearwood against the federal government. They had a coaster premium emblazoned with Texas’ famous motto “Come and Take It” that they had used in direct mail, and wanted to test it on the donation page to see if it would increase conversion. They created a simple treatment that added an image of the coaster to the page and split traffic to determine a winner.",
+      "keyLearnings": "After more than two months, the coaster premium showed a directional decline in donations, though it wasn’t statistically valid and did not reach a valid sample size. Since this wasn’t able to move the needle, TPPF decided to go back to the drawing board and find a new test to deliver a radical result.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16313,
+      "experimentId": "15554",
+      "title": "How a radical redesign of a main donation page affected conversion",
+      "date": "2019-05-14T21:22:46",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-of-a-main-donation-page-affected-conversion/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -38.4,
+      "confidence": 77.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical redesign",
+            "metric": "2.7%",
+            "lift": "-38.4%",
+            "confidence": "77.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding third-party validation and more context about the organization in the copy increase conversion rates on the donation page?",
+      "summary": "Timeframe: 03/12/2019 - 05/07/2019\nThe Texas Public Policy Foundation (TPPF) is testing their donation pages to increase conversion rates. They wondered if talking more about Texas and how TPPF can help Texans and the rest of America be more free would make a bigger impact on donations. They decided to take a radical redesign approach to their main donation page. They added a header with a call-to-action, more copy that explained what TPPF does and who they help, removed links that took people to a different page, and added an image and quote of a famous Texan for third-party validation.",
+      "keyLearnings": "The results from this experiment were surprising. The radical redesign caused a directional 38.4% decrease in revenue, but with no statistical validity. The original donation page had a better conversion rate, even with the less-inclusive copy and the links to another site. However, because the confidence level is not at or above 95%, this experiment is not statistically valid. TPPF should continue to run experiments on their main donation page, but overall conversions combined will make it difficult to validate a result.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16316,
+      "experimentId": "15581",
+      "title": "How adding third-party validation to a donation page affects conversions",
+      "date": "2019-05-14T21:22:21",
+      "url": "https://www.nextafter.com/experiments/how-adding-third-party-validation-to-a-donation-page-affects-conversions/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -7.4,
+      "confidence": 15.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Photo and quote",
+            "metric": "1.9%",
+            "lift": "-7.4%",
+            "confidence": "15.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding a quote and image of a famed Texan increase conversion rates on the donation page?",
+      "summary": "Timeframe: 04/05/2019 - 05/07/2019\nThe Texas Public Policy Foundation (TPPF) ran a petition in support of John Yearwood, a veteran who is working with TPPF to defend his land from the government. After the petition, petition signers have an opportunity to make a donation in support of TPPF and people like John Yearwood. TPPF wanted to run an experiment on the donation page where they tested the effect of third-party validation on conversion rates. They decided to use a quote and image of former Texas governor Rick Perry to see if it would lift conversion rates.",
+      "keyLearnings": "The conversion rates for each of the two donation page versions during the one month that this experiment ran were the virtually the same, which meant that the photo alone had no impact on conversion rate. This means that TPPF must make bigger changes to impact conversion in this funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15685,
+      "experimentId": "10410",
+      "title": "How validating shared beliefs affects email acquisition",
+      "date": "2019-01-11T04:18:08",
+      "url": "https://www.nextafter.com/experiments/how-validating-shared-beliefs-affects-email-acquisition/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 0.9,
+      "confidence": 42.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "57.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "57.8%",
+            "lift": "0.9%",
+            "confidence": "42.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How will adding a section to validate shared beliefs affect email acquisition rate?",
+      "summary": "Ended On: 01/10/2019\nTexas Public Policy Foundation was running a campaign to raise support for their Center for the American Future, which defended citizens against government overreach. They were running a petition of support for John Yearwood, a rancher who faced a threat from the government if he disturbed the habitat of a rare spider—one which he had never seen!\nThey ran an experiment on the petition page to see if adding a section that asked the reader to confirm their shared values—namely that Texas landowners should be able to use their land as they please, that the federal government should let property owners conserve their own land, and that the government should follow the 10th Amendment—would increase email acquisition. Previous testing had implied that these checkboxes could have an impact on email acquisition (more people would sign the petition) and donations (more people would give after signing). They launched an A/B test to determine a winner.",
+      "keyLearnings": "Ultimately, the shared values checkboxes had no effect on email acquisition. However, the downstream data must be examined further to understand how this is affecting follow-on conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15539,
+      "experimentId": "9946",
+      "title": "How adding background information in the copy affects donations",
+      "date": "2019-01-11T04:17:42",
+      "url": "https://www.nextafter.com/experiments/will-adding-a-storyline-increase-donations/",
+      "organization": "Texas Public Policy Foundation",
+      "categoryNames": [
+        "Texas Public Policy Foundation"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 13.8,
+      "confidence": 24.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.47%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.53%",
+            "lift": "13.8%",
+            "confidence": "24.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding a storyline and more information about what Mr. John Yearwood is up against increase giving?",
+      "summary": "Ended On: 12/18/2018\nThe Texas Public Policy Foundation was running a petition on behalf of a Texas citizen who was under threat of legal action from the federal government. After the petition, signers were given the opportunity to make a donation to this man’s legal fund. Donor conversion was below their benchmark, so they decided to run an experiment. The control copy assumes the reader knows the backstory of Mr. Yearwood. They hypothesized that because this case was not well known, that potential donors might need more  background information, including more on the challenges facing Mr. Yearwood. They created a treatment that ended up being quite long and included a thermometer to show progress and social proof. They launched an experiment to determine a winner.",
+      "keyLearnings": "With 11 donations to the control and 12 donations to the treatment, they found that there was no difference in conversion between the two pages. While the sample size is not large enough to validate this experiment, current results indicate that even with more traffic, it is likely that there still won't be significant difference in donations between the two experiments.\nThis prompted them to run another experiment that heightened urgency to see if they could move the needle on donor conversion.",
+      "fluxMetrics": null
+    }
+  ]
+}

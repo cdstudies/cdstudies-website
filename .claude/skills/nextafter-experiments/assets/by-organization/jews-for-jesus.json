@@ -1,0 +1,1193 @@
+{
+  "name": "Jews for Jesus",
+  "total": 28,
+  "tierBreakdown": {
+    "valid": 14,
+    "directional": 3,
+    "inconclusive": 11
+  },
+  "experiments": [
+    {
+      "id": 11847,
+      "experimentId": "11634",
+      "title": "How removing success indicators affects conversion",
+      "date": "2020-02-11T22:56:06",
+      "url": "https://www.nextafter.com/experiments/how-removing-success-indicators-affects-conversion/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 35.8,
+      "confidence": 95.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Thermometer",
+            "metric": "33.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Thermometer",
+            "metric": "44.9%",
+            "lift": "35.8%",
+            "confidence": "95.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a success indicator, such as a progress meter, improve conversion when the goal has already been met?",
+      "summary": "Timeframe: 06/29/2015 - 06/30/2015\nJews for Jesus conducted a campaign with a  goal of $300,000, encompassing both direct mail and online revenue. They had planned to include a progress meter on the page to serve as a visual indicator on the progress towards the goal.  However, when the $300,000 goal was met 24 hours earlier than expected, they wanted to assess whether the progress meter would still have the same impact.\nThey added language to the page letting supporters know that the goal had been met but that more was needed to make up for the larger financial shortfall.  Then, they created two treatments: one with the progress meter and one without, to see if the visual indicator (showing that the goal had been reached) would still have a positive impact.",
+      "keyLearnings": "The treatment without the progress meter increased donor conversion by 30.6%. This would suggest that the visual indication of the goal being met decreased the donors’ motivation to give. Many readers just scan the copy, so they might have missed the text update — but when they saw an animated reminder, they felt the larger need had been met so they were not as motivated to give a gift.\nThis experiment produced valuable data, proving that visually showing campaign success can actually be detrimental to a campaign.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 35.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12056,
+      "experimentId": "11629",
+      "title": "How qualifying questions affects conversion rate",
+      "date": "2020-02-01T21:02:59",
+      "url": "https://www.nextafter.com/experiments/how-qualifying-questions-affects-conversion-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 89.3,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Questions",
+            "metric": "0.77%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Religious Questions",
+            "metric": "1.5%",
+            "lift": "89.3%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the qualifying questions impact the email acquisition rate of the homepage?",
+      "summary": "Timeframe: 09/03/2015 - 09/17/2015\nJews for Jesus produces a variety of different publications that are tailored specifically for the different segments of their email file. Since their mission is to reach the unbelieving Jewish population, they want to make sure they do not inadvertently solicit money from nonbelievers. They also want to make sure the publications are relevant to the reader.\nThe email acquisition section of their homepage was traditionally just an email address and we made the assumption that those people were believers. Knowing that this isn’t always the case, we decided to add some qualifying questions to the acquisition form so that we could correctly segment the audience. However, we wanted to make sure this didn’t adversely impact the number of emails acquired on the page so we create an experiment to measure the results.",
+      "keyLearnings": "The results of the experiment were surprising; by asking the qualifying questions: “Do you believe in Jesus?” and “Are you Jewish?” we were able to increase the number of email addresses acquired by 89%.\nOften times, qualifying questions like this can add unnecessary friction to the process. However, in this situation, our hypothesis is that people interpreted these questions as the organization wanting to get to know them better.  As a result, they saw them as adding value to the publications they would receive which then increased their likelihood of signing up.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 89.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11816,
+      "experimentId": "11636",
+      "title": "How simplifying a donation form affects revenue",
+      "date": "2019-04-20T02:46:12",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-a-donation-form-affects-revenue/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 252.6,
+      "confidence": 99.7,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Donation Form",
+            "metric": "$1.46",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified Form",
+            "metric": "$5.15",
+            "lift": "252.6%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation form will have the biggest impact on revenue?",
+      "summary": "Timeframe: 06/17/2015 - 06/19/2015\nLike many organizations, Jews for Jesus uses a content management system to quickly produce donation form variations for each monthly appeal. The style and layout of the default form is something that is the result of multiple modifications and functionality improvements over the years. When this is the situation, sometimes it helps to take a step back and re-evaluate what has become the standard.\nJews for Jesus decided to do a radical redesign of the standard donation form.  We wanted to reduce the number of decisions in the giving process and make the interface easier to use for visitors. The radio buttons on the control were very tiny and difficult to use, especially on mobile devices. They were replaced in the treatment with large clickable buttons. The option to log in was also removed. While this is intended to provide ease of use for repeat donors, it also adds friction, anxiety, and another point to exit the giving process. Finally, we removed the option to leave a comment. While comments are certainly welcome in the donation process, they may increase friction if they come before the actual donation takes place. We then launched this new treatment as part of one of the appeals in a campaign.",
+      "keyLearnings": "The simplified form resulted in a 63.1% increase in conversion rate and a 116% increase in average gift.  When factored together, this equates to a 252.6% increase in overall revenue.\nThe simplified form does not contain all of the functionality of the previous form, such as the ability to retrieve a saved a credit card or to opt into the monthly newsletter.  However, by removing some of this functionality, we reduced the number of decisions donors had to make (lowering friction) and improved the overall results of the form.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 63.1% increase in conversion rate\n\t\t\t\t× 116.2% increase in average gift\n\t\t\t\t\t\t\t\t\t252.6% increase in revenue"
+    },
+    {
+      "id": 12059,
+      "experimentId": "2092",
+      "title": "How emphasizing a primary call to action in the navigation can affect donations",
+      "date": "2019-04-20T02:44:04",
+      "url": "https://www.nextafter.com/experiments/how-emphasizing-a-primary-call-to-action-in-the-navigation-can-affect-donations/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        74,
+        -6
+      ],
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Only link in navigation",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Make my Gift\" Button",
+            "metric": "3.5%",
+            "lift": "74.0%",
+            "confidence": "96.5%"
+          },
+          {
+            "code": "T2:",
+            "name": "\"Donate Today!\" Button",
+            "metric": "1.9%",
+            "lift": "-6.0%",
+            "confidence": "15.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which website header design will lead to the most donations?",
+      "summary": "Timeframe: 09/08/2015 - 09/17/2015\nPrevious experiments with Jews for Jesus had proven that the audience making it to their primary donation form were highly motivated. They were achieving a ~70% conversion rate for those making it to the page which led us to the conclusion that we were losing some low hanging fruit along the path to a donation.\nBased upon these conclusions, we decided to run some experiments to find ways to increase the amount of traffic making it to the donation page. Our first attempt was focused solely on the home page where we added some additional donation buttons but did not see any statistical change to the amount of traffic being directed.  From this, we learned we needed to broaden our focus beyond just the homepage.\nFor this experiment, we rearranged the header of the website to add an additional donate button with two different calls to action. We expanded the targeting of the test so that it included the newsletter and RealTime sections of their website which are frequented by the target audience for donor acquisition.",
+      "keyLearnings": "The “Make my Gift” button added to the header increased the traffic to the donation page by 39%. This increase in traffic resulted in a 74% increase in total donations since there was an increased number of visitors and they were more highly qualified based upon the button they had clicked.\nWhat is interesting is that the “Donate Today!” button ended up decreasing the amount of traffic being driven to the donation page by 9.6%. We learned that by putting the call to action in the context of the donor “Make my Gift” instead of a command “Donate Today!,” the donors were able to align better action and were more likely to click.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 74.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12538,
+      "experimentId": "11622",
+      "title": "How personalized copy and tone in an email appeal affects donations",
+      "date": "2019-04-20T02:43:32",
+      "url": "https://www.nextafter.com/experiments/how-personalized-copy-and-tone-affects-donations/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 304.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.12%",
+            "lift": "304.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a personal tone with personalized copy increase donation conversion rate?",
+      "summary": "Timeframe: 03/08/2016 - 03/14/2016\nJews for Jesus had a process in place to convert direct mail letters to eAppeals, which they sent on a monthly basis to their email file. While this raised money and kept digital donors engaged, they hypothesized that the tone of a direct mail piece wasn’t really aligning with the medium of email.\nSo while keeping the value proposition of the email intact, they completely rewrote it with a conversational tone. They also stripped all the elements of branding out of the email to make it seem like it came from a person, rather than email marketing software. Finally, they inserted personalization throughout the appeal.\nThen, they split-tested this with their email file, dividing it in half to make sure they could validate a result.",
+      "keyLearnings": "The new email produced a 304.8% increase in donation conversion rate. This provided insightful learnings about the Jews for Jesus digital donor:\nThey want to feel like they are being personally engaged.They want to feel like the appeal is only written to them.\nThis is difficult to do in direct mail, but the email provides many great ways to personalize communications. This points a way forward for all emails to be “high-touch”.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 304.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13107,
+      "experimentId": "11613",
+      "title": "How using a casual subject line affects open rate",
+      "date": "2019-04-20T02:42:32",
+      "url": "https://www.nextafter.com/experiments/how-using-a-casual-subject-line-affects-open-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 11.1,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Incredible milestones...",
+            "metric": "14.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Good morning",
+            "metric": "15.7%",
+            "lift": "11.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would motivate more people to open their email?",
+      "summary": "Timeframe: 09/15/2016 - 09/15/2016\nDuring the middle of a high-urgency campaign, Jews for Jesus wanted to see if they could get more people to open an email by testing the subject line. The email copy is written in a more personal and casual tone, so they took that same approach with the subject line and tested “Good morning” versus the control, “Incredible milestones…” Prior to this subject line test, Jews for Jesus had learned that the their audience responds best to more personal/casual subject lines, but they had never tried something so casual as this treatment. They tested only 40% of their email file so that they could then send the remaining 60% the winning version.",
+      "keyLearnings": "The treatment subject line, “Good morning” had a 11.1% lift in opens. People were much more motivated to open an email that sounded like someone was personally emailing them using a really casual phrase such as “Good morning” over something that sounded more organization-centric.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n11.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13110,
+      "experimentId": "11612",
+      "title": "How the kind of ask in an email affects click through and donations",
+      "date": "2019-04-20T02:42:21",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-ask-in-an-email-affects-click-through-and-donations/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 49.8,
+      "confidence": 99.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Hard Ask",
+            "metric": "0.85%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Soft Ask",
+            "metric": "1.3%",
+            "lift": "49.8%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which call-to-action would get more people to click-through to the landing page?",
+      "summary": "Timeframe: 09/26/2016 - 09/26/2016\nJews for Jesus had a high-urgency campaign during the month of September. They sent a series of seven different emails during a three week period. About halfway through the email series they wanted to see if they could get more people to click-through to the landing page and ultimately give more donations; so they set up a test for their email that tested the call-to-action. They tested a hard ask vs. a soft ask. All other copy, design, and layout remained the same. The only difference between the two emails was the CTA.",
+      "keyLearnings": "The soft ask had an increase in clicks by 49.8%. With out directly asking people for a gift, more people were motivated to click through to see how they could help.  While the soft ask was able to get more people to the landing page, these people didn’t convert to donors as well as people coming to the page from the hard ask. The people clicking through from the hard ask email were already highly motivated to give. We were not able to validate off of donations, but initial results were showing a 31% increase in donations for the hard ask.\nWhat we learned is that by having a soft ask in the email, we were able to increase the quantity of people to the landing page, but not the quality.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n49.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13158,
+      "experimentId": "11611",
+      "title": "How the kind of buttons used for gift amounts affects donor conversion",
+      "date": "2019-04-20T02:40:25",
+      "url": "https://www.nextafter.com/experiments/how-using-donation-amount-buttons-over-radio-buttons-affects-donor-conversion/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 22.9,
+      "confidence": 96,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "55.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donation amount buttons",
+            "metric": "68.6%",
+            "lift": "22.9%",
+            "confidence": "96.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What kind of donation amount buttons would increase donor conversion?",
+      "summary": "Timeframe: 10/27/2016 - 11/03/2016\nJews for Jesus has done a lot of testing on their primary donation page to see if they can increase their conversion rate. Because the conversion rate on this page is already so high, they have been testing radical treatments. In an effort to continue to optimize the page but better understand specifically what motivates their donors, Jews for Jesus decided to test only one variable on the page at a time. Their first test using this approach was the buttons used to select a donation amount. The control used radio buttons and the treatment used larger buttons with the giving amount on them. All other elements and copy remained the same. They split the traffic between the two versions and tested it.",
+      "keyLearnings": "The larger buttons with the donation amount on them had a 22.9% increase in donor conversion! While we have seen these buttons work well with donors on eAppeal landing pages, we weren’t sure how they would perform with Jews for Jesus’ highly motivated donors that come to their primary donation page. The radio buttons on the control creates friction to the giving process because of how small they are to select. By making the clickable buttons larger and putting the gift amount on them, we were able to reduce this friction on the page and convert more donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 22.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11986,
+      "experimentId": "11628",
+      "title": "How emphasizing a primary call to action in the navigation can affect donations",
+      "date": "2019-04-20T02:38:42",
+      "url": "https://www.nextafter.com/experiments/how-emphasizing-a-primary-call-to-action-in-the-navigation-can-affect-donations-2/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": [
+        74,
+        -6
+      ],
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Only link in navigation",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Make my Gift\" Button",
+            "metric": "3.5%",
+            "lift": "74.0%",
+            "confidence": "96.5%"
+          },
+          {
+            "code": "T2:",
+            "name": "\"Donate Today!\" Button",
+            "metric": "1.9%",
+            "lift": "-6.0%",
+            "confidence": "15.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which website header design will lead to the most donations?",
+      "summary": "Timeframe: 09/08/2015 - 09/17/2015\nPrevious experiments with Jews for Jesus had proven that the audience making it to their primary donation form were highly motivated. They were achieving a ~70% conversion rate for those making it to the page which led us to the conclusion that we were losing some low hanging fruit along the path to a donation.\nBased upon these conclusions, we decided to run some experiments to find ways to increase the amount of traffic making it to the donation page. Our first attempt was focused solely on the home page where we added some additional donation buttons but did not see any statistical change to the amount of traffic being directed.  From this, we learned we needed to broaden our focus beyond just the homepage.\nFor this experiment, we rearranged the header of the website to add an additional donate button with two different calls to action. We expanded the targeting of the test so that it included the newsletter and RealTime sections of their website which are frequented by the target audience for donor acquisition.",
+      "keyLearnings": "The “Make my Gift” button added to the header increased the traffic to the donation page by 39%. This increase in traffic resulted in a 74% increase in total donations since there was an increased number of visitors and they were more highly qualified based upon the button they had clicked.\nWhat is interesting is that the “Donate Today!” button ended up decreasing the amount of traffic being driven to the donation page by 9.6%. We learned that by putting the call to action in the context of the donor “Make my Gift” instead of a command “Donate Today!,” the donors were able to align better action and were more likely to click.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 74.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12196,
+      "experimentId": "2493",
+      "title": "How increasing relevancy in subject line copy affected open rate",
+      "date": "2019-04-20T02:37:40",
+      "url": "https://www.nextafter.com/experiments/how-increasing-relevancy-in-subject-line-copy-affected-open-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 21.9,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Personal Subject Line",
+            "metric": "12.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Topical Subject Line",
+            "metric": "15.6%",
+            "lift": "21.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a topical subject line featuring buzzwords around world issues get a higher open rate?",
+      "summary": "Timeframe: 11/05/2015 - 11/05/2015\nJews for Jesus was sending their monthly appeal. They had previous success with personal-style emails from the Executive Director, and wanted to test whether topical subject lines would achieve a higher open rate than their typical “personal update” style subject lines.",
+      "keyLearnings": "This proves the theory that relevance a key factor of every element of the email campaign. While marketing emails that are designed like regular emails still perform better, the subject line only has one goal — get the open. Using highly relevant copy has proven to drive a higher open rate, which achieves the first micro-yes: getting the attention of your donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n21.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12199,
+      "experimentId": "2498",
+      "title": "How increasing relevancy in the subject line affected clickthrough rate",
+      "date": "2019-04-20T02:37:34",
+      "url": "https://www.nextafter.com/experiments/how-increasing-relevancy-in-the-subject-line-affected-clickthrough/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 89.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Personal Subject Line",
+            "metric": "1.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Relevant Subject Line",
+            "metric": "3.4%",
+            "lift": "89.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a topical subject line featuring buzzwords around world issues get a higher clickthrough rate?",
+      "summary": "Timeframe: 11/05/2015 - 11/05/2015\nJews for Jesus was sending a monthly appeal to their house file. They had previous success with personal-style emails from the Executive Director, and wanted to test whether topical subject lines would achieve a higher clickthrough rate than their typical “personal update” style subject lines. Typically, subject line is just measured against its one job: getting the open. But they wanted to test the effect of a treatment subject line to see if it affected clickthrough rate as well. The two emails had different subject lines, but the same body copy and CTA.",
+      "keyLearnings": "Not only did the subject line test increase open rate, it also inspired more people to click through to the content. By increasing relevancy in one area, we can affect performance metrics in another. It’s important to note that the increase in clickthrough rate was not just a factor of increased open rate. The open rate increase was only 21% — but 88% more people clicked through. This proves that a subject line that increases motivation right from the start can increase every email performance metric.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n89.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12535,
+      "experimentId": "3423",
+      "title": "How personal email copy affects clickthrough rate",
+      "date": "2019-04-20T02:37:10",
+      "url": "https://www.nextafter.com/experiments/how-human-personalized-email-copy-affects-clickthrough-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 109.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.21%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.44%",
+            "lift": "109.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a personal tone with personalized copy increase clickthrough rate?",
+      "summary": "Timeframe: 03/08/2016 - 03/14/2016\nJews for Jesus had a process in place to convert direct mail letters to eAppeals, which they sent on a monthly basis to their email file. While this raised money and kept digital donors engaged, they hypothesized that the tone of a direct mail piece wasn’t really aligning with the medium of email.\nSo while keeping the value proposition of the email intact, they completely rewrote it with a conversational tone. They also stripped all the elements of branding out of the email to make it seem like it came from a person, rather than email marketing software. Finally, they inserted personalization throughout the appeal.\nThen, they split-tested this with their email file, dividing it in half to make sure they could validate a result.",
+      "keyLearnings": "The new email produced a 109.2% increase in clickthrough rate. This provided insightful learnings about the Jews for Jesus digital donor:\nThey respond when they feel personally engaged.\nThey respond to emails that feel like they come from people, rather than email marketing machines.\nThis is difficult to do in direct mail, but the email provides many great ways to personalize communications. This points a way forward for all emails to be “high-touch”.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n109.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12532,
+      "experimentId": "3421",
+      "title": "How personalizing a subject line affects open rate",
+      "date": "2019-04-20T02:37:05",
+      "url": "https://www.nextafter.com/experiments/how-personalizing-a-subject-line-affects-open-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 52.1,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "11.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "17.8%",
+            "lift": "52.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more personal subject line increase open rate?",
+      "summary": "Timeframe: 03/08/2016 - 03/14/2016\nJews for Jesus had a process in place to convert direct mail letters to eAppeals, which they sent on a monthly basis to their email file. While this raised money and kept digital donors engaged, they hypothesized that the tone of a direct mail piece wasn’t really aligning with the medium of email.\nSo while keeping the value proposition of the email intact, they completely rewrote it with a conversational tone.\nSince the first decision someone makes when receiving an email is whether or not to open it, this personal tone started with the subject line. The control email was very topical, and made a statement: “Jewish people really do need Jesus.” The JFJ team asked: would their executive director actually write an email like this? They decided to run a test against a personal subject line: I wanted to share something with you.\nThen, they split their email file and tested it to two groups.",
+      "keyLearnings": "This test showed the power of the subject line — that simple tweak incentivized more than 50% more people to open the email. Since people can’t respond to an email fundraising appeal without opening, this subject line significantly increased the potential for results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n52.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12727,
+      "experimentId": "4040",
+      "title": "How urgency and clarity affect open rate",
+      "date": "2019-04-20T02:36:33",
+      "url": "https://www.nextafter.com/experiments/how-urgency-and-clarity-affect-open-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 5.8,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "It's a challenge to be a Christ-follower",
+            "metric": "14.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Israeli outreach begins soon!",
+            "metric": "15.1%",
+            "lift": "5.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would increase open-rate?",
+      "summary": "Timeframe: 05/10/2016 - 05/11/2016\nEach month, Jews for Jesus sends out an eAppeal. The messaging for these eAppeals comes directly from their mail appeal for the month. When they converted the direct mail letter into an eAppeal this month, there seemed to be two different value propositions in the letter. One value proposition focused on how it is becoming more challenging to be a Christ-follower in America today, and the other focused on a specific outreach event happening in Israel.  With having two different value propositions and versions of emails, they tested two different subject lines to see which version would receive more opens.\nThen, they split-tested this with their email file, dividing it in half.",
+      "keyLearnings": "The treatment had an increase in open rate of 5.8%.  People responded more to the urgency and clarity of the treatment than the vagueness of the control.\nAdditional tests of this email continued to prove that the value proposition for the Israel outreach event was more motivating to the audience to click-through and ultimately give to. You can find those tests here:\nClick-through – What we learned about reinforcing the value proposition to help increase click-through.\nDonor conversion – How two different value propositions for an eAppeal affected donor conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n5.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11943,
+      "experimentId": "1787",
+      "title": "How reducing form functionality affects donor conversion rate",
+      "date": "2019-04-20T02:38:08",
+      "url": "https://www.nextafter.com/experiments/how-reducing-functionality-affects-donor-conversion-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": -13.8,
+      "confidence": 93.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Form",
+            "metric": "70.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Letter from David Brickner",
+            "metric": "60.4%",
+            "lift": "-13.8%",
+            "confidence": "93.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page treatment will lead to the highest number of gifts and revenue?",
+      "summary": "Timeframe: 07/23/2015 - 08/05/2015\nJews for Jesus had been running a series of optimization experiments on their primary donation form in an effort to improve the overall revenue generated by the page. Our first attempt resulted in no significant improvement when we removed elements of friction from the form and added language to the top of the page highlighting the organization’s unique value proposition.\nWe decided to attempt another treatment that would modify the value proposition of the page while leaving in place the changes to the form. With this new treatment, we wanted to utilize a personal letter from David Brickner, the organization’s CEO. Analysis of the email program had shown that he was popular with the constituency so we hypothesized the a shorter appeal, signed by him, could lift the average gift on the page enough to impact revenue.",
+      "keyLearnings": "After running the experiment for a month, we saw that the new treatment decreased the conversion rate on the page by 13.8%. The language that was used have already proven successful in a previous appeal so we analyzed what else could have been impacting conversion. Upon further reflection, we discovered that, in an effort to reduce the number of decisions made on the form, we may have inadvertently make it more difficult to complete.\nOne of the features of Jews for Jesus’s donation system is the ability for previous donors to log in to complete their gift without entering any additional information. We removed this feature to make room for quotes from credible sources and to remove the number of decisions a donor has to make. However, with this being the primary location existing donors come to make their gift, this caused additional friction for that key segment. This cause the number of gifts made to the form to decrease.\nFuture experiments will add this functionality back to the form and we will focus our efforts on purely refining the value proposition.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12712,
+      "experimentId": "3951",
+      "title": "How adding value proposition copy to a donation affects donor conversion",
+      "date": "2019-04-20T02:36:48",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-copy-to-a-donation-page-affects-donor-conversion/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": -38.5,
+      "confidence": 93.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Main Donation Page",
+            "metric": "50.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Custom Worded Donation Page",
+            "metric": "30.8%",
+            "lift": "-38.5%",
+            "confidence": "93.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the addition of value proposition copy on the donation page increase conversion?",
+      "summary": "Timeframe: 02/26/2016 - 05/05/2016\nJews for Jesus sends out a monthly newsletter via email. The newsletter has articles and videos people click-through to read and watch, and they recently added an appeal to the newsletter. In efforts to improve donor conversion, they developed a treatment of the donation page for the newsletter appeal. The donation page that was the control didn’t have any value proposition language on it. For the treatment they added value proposition copy to the page to reinforce the message in the newsletter appeal and used large buttons for the gift array instead of radial buttons. They split traffic and tested the donation pages against each other.",
+      "keyLearnings": "The treatment with the addition of value proposition copy on the donation page saw a decrease in donations by 38%. While value proposition usually helps improve conversion, these results suggest that the presence of the value proposition copy may have actually created friction for this highly motivated audience. This audience was already motivated to give once they arrived to the donation page and didn’t need or want additional reasons why they should make a donation.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12724,
+      "experimentId": "4025",
+      "title": "How two different value propositions for an eAppeal affected donor conversion.",
+      "date": "2019-04-20T02:36:43",
+      "url": "https://www.nextafter.com/experiments/how-two-different-value-propositions-for-an-eappeal-affected-donor-conversion/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 47.3,
+      "confidence": 83.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "It's a challenge to be a Christ-follower",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Israeli outreach begins soon!",
+            "metric": "0.05%",
+            "lift": "47.3%",
+            "confidence": "83.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would increase conversion rate?",
+      "summary": "Timeframe: 05/10/2016 - 05/11/2016\nEach month, Jews for Jesus sends out an eAppeal. The messaging for these eAppeals comes directly from their mail appeal for the month. When they converted the direct mail letter into an eAppeal this month, there seemed to be two different value propositions in the letter. One value proposition focused on how it is becoming more challenging to be a Christ-follower in America today, and the other focused on a specific outreach event happening in Israel. They decided to test these two different value propositions in the eAppeals and donation pages to see which their audience was most motivated to give to.\nThen, they split-tested this with their email file, dividing it in half.",
+      "keyLearnings": "While this test didn’t validate, initial data tells us that people were more motivated to give to a tangible need and event than the general value proposition of the ministry. In fact, the treatment that was focused on the Israel outreach event saw a 47.3% increase in donations. This was our hypothesis, but because of the relevancy of the control, it was important to test our hypothesis.\nWe championed the treatment and sent it as the resend to non-opens with a new subject line.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11690,
+      "experimentId": "1115",
+      "title": "How the inclusion of graphical data in an email affects revenue",
+      "date": "2019-04-20T02:39:24",
+      "url": "https://www.nextafter.com/experiments/graph-in-email/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 0.3,
+      "confidence": 5.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Graph",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Graph in Email",
+            "metric": "1.9%",
+            "lift": "0.3%",
+            "confidence": "5.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a statistical image that reinforces the message increase the number clicks generated for the landing page?",
+      "summary": "Timeframe: 04/16/2015 - 04/20/2015\nAs part of their monthly April appeal, Jews for Jesus wanted to validate the work being put into different aspects of the monthly fundraising campaigns.  One of these elements was a visual that was placed in the email to help drive interest in the topic and statistically reinforce the topic of the campaign. The goal of the experiment was to determine if the content needed the external reinforcement provided by the graph.",
+      "keyLearnings": "With no statistically significant lift to the number of visitors to the page, it becomes evident that the image of the video and content of the email is enough to pique the interest of the email file.  The additional image of the graph did not have any influence on the visitors’ choice with regards to the call to action.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11695,
+      "experimentId": "1137",
+      "title": "How the learnings from an invalid experiment affects both time and resources",
+      "date": "2019-04-20T02:39:19",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-a-video-produced-affects-donations/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -9.5,
+      "confidence": 25.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "60 Second Video",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "30 Second Video",
+            "metric": "2.9%",
+            "lift": "-9.5%",
+            "confidence": "25.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the length of the video and the amount of content shown in the video produce a significant lift in the overall donation conversion?",
+      "summary": "Timeframe: 04/16/2015 - 04/20/2015\nAs part of their monthly April appeal, Jews for Jesus wanted to validate the work being put into different aspects of the monthly fundraising campaigns. Many of these campaigns include a 60 second video with David Brickner, the president. Previously analysis has found that these videos are able to drive significantly higher amounts of traffic to the landing pages. What we wanted to determine is if we needed the full 60 seconds in the video or if a shorter version could be just as effective.",
+      "keyLearnings": "The 9.5% drop in conversions was not statistically valid which proves that the length of video does not have a significant impact on the success of the page. In future campaigns, we will be able to produce shorter videos (which take less time and money) and not adversely affect the results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11844,
+      "experimentId": "1526",
+      "title": "How quotes made along side the donation form affects revenue",
+      "date": "2019-04-20T02:39:08",
+      "url": "https://www.nextafter.com/experiments/how-quotes-made-along-side-the-donation-form-affects-revenue/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 8.9,
+      "confidence": 33.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Quotes",
+            "metric": "15.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "3rd Party Quotes",
+            "metric": "16.7%",
+            "lift": "8.9%",
+            "confidence": "33.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will 3rd party quotes lower anxiety enough to improve upon the donor conversion rate?",
+      "summary": "Timeframe: 06/23/2015 - 06/29/2015\nDuring their a campaign to help make up for their financial shortfall, Jews for Jesus wanted to find a way to increase the conversion rate for the campaign landing page. A previous experiment had yielded a 252.6% lift by simplifying the donation form. It had reduced friction by removing key elements of the donation form which provided the lift.\nFor this new experiment, we placed quotes in support of Jews for Jesus from well known figures in the Christian community next to the donation form. By adding the quotes, we hoped to add 3rd party credibility which would, in turn, lower the potential donors’ anxiety.",
+      "keyLearnings": "In this situation, the 3rd party quotes did not have any statistically significant impact on the conversion rate of the page. It would seem that by the time donors made it down to the donation form, they had been significantly convinced of the credibility of Jews for Jesus that they did not need any additional information.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11913,
+      "experimentId": "1706",
+      "title": "How high visitor motivation affects donation page experiments",
+      "date": "2019-04-20T02:38:54",
+      "url": "https://www.nextafter.com/experiments/how-high-visitor-motivation-affects-donation-page-experiments/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -0.7,
+      "confidence": 12.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Design",
+            "metric": "63.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "62.6%",
+            "lift": "-0.7%",
+            "confidence": "12.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page will produce the greatest conversion rate and average gift?",
+      "summary": "Timeframe: 06/02/2015 - 07/20/2015\nIn an effort to lift the conversion rate and average gift of their primary donation page, Jews for Jesus launched a radical redesign of their existing design. The goal was to boost the value communicated on the page with additional copy, lower anxiety with quotes from 3rd party sources, and modify the donation form to reduce friction.",
+      "keyLearnings": "After running this test for nearly two months, there was no statistically significant difference between the two treatments when analyzing both conversion rate and revenue.\nAfter examining the results in greater detail, we saw that both treatments had a conversion rate of ~65%; this was information not available before the launch of the experiment. A conversion rate that is this high is rare for an organization the size of Jews for Jesus. This would seem to indicate that only the most highly motivated donors are making it to the donation page.\nBased upon these observations, the next logical step in optimization is to look earlier in the donation funnel to find ways to drive more visitors to the page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11856,
+      "experimentId": "1547",
+      "title": "How a quick donate button at the top of a donation page affects donor conversion",
+      "date": "2019-04-20T02:38:48",
+      "url": "https://www.nextafter.com/experiments/how-a-quick-donate-button-at-the-top-of-a-donation-page-affects-donor-conversion/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 4.9,
+      "confidence": 35,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Button",
+            "metric": "46.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Button",
+            "metric": "49.2%",
+            "lift": "4.9%",
+            "confidence": "35.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the “Quick Donate” button increase the number of donor conversions to the page?",
+      "summary": "Timeframe: 06/30/2015 - 07/01/2015\nThrough prior testing, we had learned that the Jews for Jesus visitors were highly motivated donors. As their shortfall campaign was coming to the end, we wanted to lower the barriers to these donors making a gift.  We decided to create an experiment that would place a “Make My Gift Now” button at the top of the page to jump the visitor down to the donation form.",
+      "keyLearnings": "Despite 28% of visitors clicking on the “Make My Gift Now” button having it didn’t significantly improve the overall conversion rate of the page.  However, it did seem to lower the average gift which may be attributed to roughly 1 out of 4 visitors skipping over the value proposition copy when they jumped down to the donation form.\nBy skipping over this copy, they did not read the reasons why their gift was needed which may have impacted how much they gave.  Again, this was not statistically proved and would require further experiments to validate the hypothesis.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12171,
+      "experimentId": "2348",
+      "title": "How adding a login option back to the donation form affects conversion rates",
+      "date": "2019-04-20T02:37:47",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-login-option-back-to-donation-form-affects-conversion-rates/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -4.5,
+      "confidence": 61.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "63.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "NextAfter Version",
+            "metric": "60.7%",
+            "lift": "-4.5%",
+            "confidence": "61.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page will lead to the most revenue and donors?",
+      "summary": "Timeframe: 08/13/2015 - 10/26/2015\nAfter two previous unsuccessful attempts to lift the revenue coming into Jews for Jesus primary donation page, we decided to take a step back and try to get a better understanding of the donors. The page converts at a high rate (~60% to ~70%) which means we are dealing with a highly motivated audience. It also means these visitors are likely existing donors which means they may not need as much convincing and may find value in elements that would cause friction with new donors.\nAfter examining our previous treatment, we realized that by removing the login feature, we may have inadvertently made it harder for existing donors to give. On a donation page visited by primarily nondonors, this feature would have caused friction in the process but for existing donors, it would make it easier.  We decided to relaunch the previous value proposition test but add the Login feature back into the form.",
+      "keyLearnings": "Our previous tests had decreased the conversion rate of the page. With this latest test, we were not able to statistically increase or decrease the results. What this means is that the login feature was impacting the donors’ likelihood to give.  It also means we have not yet discovered a value proposition that would prompt existing donors to give more generously.\nIn addition to our efforts to drive more traffic to this page, our next experiment will test a new value proposition in order to find a message that resonates better with the Jews for Jesus audience.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12309,
+      "experimentId": "2780",
+      "title": "How a radical treatment to the primary donation page affects average gift size",
+      "date": "2019-04-20T02:37:27",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-treatment-to-primary-donation-page-affects-average-gift-size/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 7.2,
+      "confidence": 66.1,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$102.54",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "NextAfter Version",
+            "metric": "$109.96",
+            "lift": "7.2%",
+            "confidence": "66.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page treatment will produce the greatest lift to donor conversion rate or revenue?",
+      "summary": "Timeframe: 10/29/2015 - 12/04/2015\nOn the Jews for Jesus main donation page, the default language is a simple headline with a call to action. We had the hypothesis that if we reduced the friction associated with the form, added language that expanded upon the primary value proposition, and inserted quotes from well known figures in the Christian movement, we could improve the already high average gift value.",
+      "keyLearnings": "This experiment produced no significant lift to either conversion rate or revenue per visitor. It would seem that we have still not found a stronger way to communicate Jews for Jesus’s primary value proposition to their already highly motivated donors.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12363,
+      "experimentId": "2915",
+      "title": "How adding a homepage overlay affects donor conversion rate",
+      "date": "2019-04-20T02:37:21",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-homepage-overlay-affects-donor-conversion-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 1.7,
+      "confidence": 21,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Paragraph Overlay",
+            "metric": "7.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Headline / Button Overlay",
+            "metric": "7.9%",
+            "lift": "1.7%",
+            "confidence": "21.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which homepage overlay treatment will produce the greatest lift to donor conversion rate?",
+      "summary": "Timeframe: 12/07/2015 - 01/04/2016\nJews for Jesus added a homepage overlay to their website during a year-end giving campaign. The overlay would pop-up once you came to the site to help drive traffic to the donation page. The hypothesis was that by removing the value proposition copy and adding a button, we could increase the donor conversion rate with this highly motivated audience.",
+      "keyLearnings": "The treatment saw a slight increase in conversion rate, but the experiment didn’t validate so there was no real significance to that increase. However, it is worth pointing out that both treatments received a 7% conversion rate. This validates that the tactic (a homepage popup) is a good vehicle for driving donor motivated traffic to the right page. We just need to find if there are other options that would increase the perceived value of the gift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12550,
+      "experimentId": "3463",
+      "title": "How the addition of a button at the bottom of an email appeal affects clickthrough rate",
+      "date": "2019-04-20T02:37:00",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-a-button-at-the-bottom-of-an-email-appeal-affects-click-through-rate/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 13,
+      "confidence": 78.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Text",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Button",
+            "metric": "1.5%",
+            "lift": "13.0%",
+            "confidence": "78.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a button improve click-through-rate in a monthly email appeal?",
+      "summary": "Timeframe: 02/10/2016 - 03/12/2016\nJews for Jesus wanted to see if they could improve their click-through-rate on their monthly eAppeal by adding a button to the bottom of the email as the CTA. They traditionally used text links only in their eAppeals, but wanted to test that against the addition of a button.",
+      "keyLearnings": "The addition of the button increased the click-through-rate by 13%. This would suggest that the addition of a button in an email appeal brings clarity to the CTA. It visually drew a person’s attention and showed them where to click. Because this test didn’t validate, additional testing is recommended.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12553,
+      "experimentId": "3471",
+      "title": "How length of copy and a soft ask affects clickthrough",
+      "date": "2019-04-20T02:36:55",
+      "url": "https://www.nextafter.com/experiments/how-length-of-copy-and-a-soft-ask-affects-click-through/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -11.9,
+      "confidence": 73.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Short with Soft Ask",
+            "metric": "0.28%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Long with Hard Ask",
+            "metric": "0.25%",
+            "lift": "-11.9%",
+            "confidence": "73.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email appeal would improve conversion rate?",
+      "summary": "Timeframe: 08/11/2015 - 08/14/2015\nEach month Jews for Jesus sends an email appeal. They wanted to test the length of the copy and the call-to-action of their emails in an effort to increase the click-through-rate. Would a soft ask inviting people to “click here and find out more” motivate people to click-through to the landing page, or would a hard ask that was more direct improve click-through? They put it to the test.",
+      "keyLearnings": "The email that was shorter in length with the soft call-to-action had a 11.9% increase in conversion rate over the longer email with the hard ask. The short copy teased a story while the long copy told the entire story in the email with an ask for a gift.\nPeople were more motivated to read more of the story than to give a gift. Though the longer copy had value proposition language supporting the ask, people weren’t ready to give a gift yet. This test didn’t validate and additional testing will be done.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12730,
+      "experimentId": "4045",
+      "title": "How reinforcing the value proposition affects clickthrough",
+      "date": "2019-04-20T02:36:37",
+      "url": "https://www.nextafter.com/experiments/how-reinforcing-the-value-proposition-affects-clickthrough/",
+      "organization": "Jews for Jesus",
+      "categoryNames": [
+        "Jews for Jesus"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 5.9,
+      "confidence": 38.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "It's a challenge to be a christ-follower",
+            "metric": "0.23%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Israeli event begins soon!",
+            "metric": "0.25%",
+            "lift": "5.9%",
+            "confidence": "38.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would increase clicks?",
+      "summary": "Timeframe: 05/10/2016 - 05/11/2016\nEach month, Jews for Jesus sends out an eAppeal. The messaging for these eAppeals comes directly from their mail appeal for the month. When they converted the direct mail letter into an eAppeal this month, there seemed to be two different value propositions in the letter. One value proposition focused on how it is becoming more challenging to be a Christian in America today, and the other focused on a specific outreach event happening in Israel.  With having two different value propositions and versions of emails, they tested them to see which would get a higher click-through.\nThey split-tested their email file, dividing it in half.",
+      "keyLearnings": "We weren’t able to validate these results, but what the initial data told us is that more people clicked through from the Israel outreach CTA than the control. This could be attributed to people being more motivated to give to a tangible need than a general value proposition and how the value proposition for the treatment was reinforced in the CTA.  Example: “Your gift will go immediately to direct, effective and unapologetic evangelism that is designed to present the Gospel in a way that Jewish people can relate to.”\nIn another test we did for this email, we found that the Israel outreach event increased donations by 47.3%. This audience is more motivated to give to a tangible event than a relevant value proposition for the organization. You can see the full details of that test here.",
+      "fluxMetrics": null
+    }
+  ]
+}

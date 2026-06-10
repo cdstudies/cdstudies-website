@@ -1,0 +1,2890 @@
+{
+  "name": "Harvest Ministries",
+  "total": 68,
+  "tierBreakdown": {
+    "valid": 59,
+    "directional": 6,
+    "inconclusive": 3
+  },
+  "experiments": [
+    {
+      "id": 51901,
+      "experimentId": "2982",
+      "title": "How the addition of a reader’s review for a giving premium impacts donor conversion",
+      "date": "2023-04-28T15:02:33",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-a-readers-review-for-a-giving-premium-impacts-donor-conversion-3/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "credibility",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 26.6,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Review",
+            "metric": "9.9%",
+            "lift": "26.6%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a reader’s review of the giving premium help increase donations?",
+      "summary": "Timeframe: 02/14/2017 - 02/21/2017\nEvery month Harvest Ministries sends an appeal that offers a premium to people when they give a donation. The primary value proposition on the donation page is about the premium with the secondary message focused on how a person’s donation will help Harvest Ministries in their mission. They hypothesized if adding a reader’s review of the premium offer to the donation page would help strengthen the primary value proposition and increase donations. They developed a treatment that featured a reader’s review while all other elements on the page remained the same as the control. They A/B split their traffic to test it.",
+      "keyLearnings": "The addition of a reader’s review for the premium on the donation page helped increase donations for their monthly appeal by 26%! What we can learn from this is that the review:\nStrengthened the force of the value proposition on the page\n \tAdded credibility and relevance to the premium offer by giving a real-life testimony of the value it added to a person's life",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 51900,
+      "experimentId": "2982",
+      "title": "How the addition of a reader’s review for a giving premium impacts donor conversion",
+      "date": "2023-04-27T16:16:34",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-a-readers-review-for-a-giving-premium-impacts-donor-conversion-2/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 26.6,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Review",
+            "metric": "9.9%",
+            "lift": "26.6%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a reader’s review of the giving premium help increase donations?",
+      "summary": "Timeframe: 02/14/2017 - 02/21/2017\nEvery month Harvest Ministries sends an appeal that offers a premium to people when they give a donation. The primary value proposition on the donation page is about the premium with the secondary message focused on how a person’s donation will help Harvest Ministries in their mission. They hypothesized if adding a reader’s review of the premium offer to the donation page would help strengthen the primary value proposition and increase donations. They developed a treatment that featured a reader’s review while all other elements on the page remained the same as the control. They A/B split their traffic to test it.",
+      "keyLearnings": "The addition of a reader’s review for the premium on the donation page helped increase donations for their monthly appeal by 26%! What we can learn from this is that the review:\nStrengthened the force of the value proposition on the page\n \tAdded credibility and relevance to the premium offer by giving a real-life testimony of the value it added to a person's life",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19910,
+      "experimentId": "2956",
+      "title": "How a raw link in an email affects donor conversion.",
+      "date": "2021-08-09T15:06:18",
+      "url": "https://www.nextafter.com/experiments/how-a-raw-link-in-an-email-affects-donor-conversion-2/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "raw links"
+      ],
+      "tier": 1,
+      "lift": 77.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Link",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Raw Link",
+            "metric": "0.89%",
+            "lift": "77.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What kind of link would acquire more donations?",
+      "summary": "Timeframe: 09/14/2016 - 09/19/2016\nHarvest Ministries has been learning a lot about their donors through their monthly appeal testing. After a series of different tests they have learned that their donors respond best when the appeals have a personal and more casual tone to them. There are a lot of different variables that attribute to an email looking, feeling and sounding more personal and casual, so they wanted to test the specific variables within the email to gain an even deeper understanding of their donors. Keeping all other variables consistent between the control and the treatment email, they first tested the link in the email. The control had their standard link with a group of text hyperlinked and the treatment had a raw link that actually showed the URL a person would be sent to.",
+      "keyLearnings": "The raw link not only had a 12.4% increase in click-throughs, but a 77.6% increase in donations! The raw link helps the email to look and feel more personal by making it look as if the writer of the email had just pasted the link into an email. This method is much more believable and reinforces the personal approach. If this email was, in fact, an email sent from one person to another, a sender would most likely put a raw link in the copy rather than highlighting specific text and hyperlinking it – as validated in this test, we should take that same approach with these personalized appeal emails.\nThe raw link also brought clarity to where the link would take the end user. This reduces any anxiety a person might have in clicking the link because the URL specifically tells a person where they are being sent.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 77.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 18735,
+      "experimentId": "2935",
+      "title": "How ask amount affects donor conversion in an email fundraising appeal",
+      "date": "2021-06-10T18:50:51",
+      "url": "https://www.nextafter.com/experiments/how-ask-amount-affects-donor-conversion-in-an-email-fundraising-appeal-2/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": [
+        -52.3,
+        43.1
+      ],
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "$35 ask",
+            "metric": "0.10%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$50 ask",
+            "metric": "0.05%",
+            "lift": "-52.3%",
+            "confidence": "99.9%"
+          },
+          {
+            "code": "T2:",
+            "name": "Generous Gift ask",
+            "metric": "0.14%",
+            "lift": "43.1%",
+            "confidence": "97.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a higher ask amount or a less specific “generous gift” ask increase donor conversion?",
+      "summary": "Timeframe: 05/15/2016 - 05/24/2016\nHarvest Ministries sent their mid-month fundraising appeal and wanted to test the size of the gift ask in the copy. This appeal made the direct ask in the copy, and to mirror the direct mail, suggested a gift size of $35, $45, or more. They hypothesized that asking for a larger amount might increase average gift size.\nAs they were setting this test up, they came up with a new hypothesis — maybe the specific ask, though it worked in direct mail, was too specific. They developed a new hypothesis that asking for a “generous gift of any amount” would increase conversion and overall revenue.\nThey set up the A/B/C test to test the control against two treatments and closely monitored conversion to determine a winner.",
+      "keyLearnings": "The email with the less-specific ask produced a 43.1% increase in donor conversion, showing that allowing donors to choose their own gift size, in this case, meant that they were more likely to become donors. This ask amount had proven to generate a higher clickthrough rate as well, but clickthrough is not always an indication of intent to give.\n\nIt is worth noting, as well, that the less-specific ask amount generated a higher average gift than the control.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 52.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 18722,
+      "experimentId": "2936",
+      "title": "How the ask amount in an email fundraising appeal affects clickthrough rate",
+      "date": "2021-06-10T18:50:01",
+      "url": "https://www.nextafter.com/experiments/how-the-ask-amount-in-an-email-fundraising-appeal-affects-clickthrough-rate-2/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "gift array"
+      ],
+      "tier": 1,
+      "lift": [
+        -8.7,
+        34.2
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "$35 ask",
+            "metric": "0.61%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$50 ask",
+            "metric": "0.55%",
+            "lift": "-8.7%",
+            "confidence": "80.2%"
+          },
+          {
+            "code": "T2:",
+            "name": "Generous gift",
+            "metric": "0.81%",
+            "lift": "34.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a higher ask amount or a less specific ask for a “generous gift” increase clickthrough rate on an email fundraising appeal?",
+      "summary": "Timeframe: 05/15/2016 - 05/24/2016\nHarvest Ministries sent their mid-month fundraising appeal and wanted to test the size of the gift ask in the copy. This appeal made the direct ask in the copy, and to mirror the direct mail, suggested a gift size of $35, $45, or more. They hypothesized that asking for a larger amount might increase average gift size.\nAs they were setting this test up, they came up with a new hypothesis — maybe the specific ask, though it worked in direct mail, was too specific. They developed a new hypothesis that asking for a “generous gift of any amount” would increase conversion and overall revenue.\nBut first, they would measure clickthrough rate to see which variant, if any, drove more visitors to the landing page.\nThey set up the A/B/C test to test the control against two treatments.",
+      "keyLearnings": "The less specific ask generated a 34.2% increase in clickthrough rate. This showed that in terms of motivating a reader to click, less specific is better. However, a click doesn’t necessarily indicate a motivation to give. That’s why Harvest also closely monitored the entire funnel to see how the suggested gift array affected donor conversion and revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n34.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13033,
+      "experimentId": "2957",
+      "title": "How congruency between email and landing page value propositions affect donor conversion",
+      "date": "2020-02-21T04:33:22",
+      "url": "https://www.nextafter.com/experiments/how-congruency-between-email-and-landing-page-value-propositions-affect-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 85.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.14%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Clarity of VP",
+            "metric": "0.25%",
+            "lift": "85.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would increasing congruency of the value propositions increase donor conversion?",
+      "summary": "Timeframe: 09/05/2016 - 09/07/2016\nFor Harvest’s September monthly appeal, they hypothesized that there was a disconnect between the email and landing page value proposition. The email was focused on the value of the monthly resource and the landing page focused on the value of giving to Harvest Ministries.\nThey developed a treatment that made a tighter connection between the two value propositions and made the message from the email to the landing page more congruent.",
+      "keyLearnings": "By reinforcing and bringing clarity to the value proposition from the email to the landing page, we were able to create a stronger and more cohesive message – resulting in an increase in donations by 85.7%.\nIt is important that a consistent message is presented between an email and a coordinating landing page. When there is a more congruent message, the force of the value proposition will be greater and more people will donate because of it.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 85.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12661,
+      "experimentId": "2944",
+      "title": "How increasing clarity in email copy affects clickthrough rate",
+      "date": "2019-12-04T04:31:13",
+      "url": "https://www.nextafter.com/experiments/how-increasing-clarity-in-email-copy-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -58.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Find out why",
+            "metric": "2.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get your copy",
+            "metric": "0.89%",
+            "lift": "-58.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will copy with a clearer call-to-action increase clickthrough rate?",
+      "summary": "Timeframe: 04/01/2016 - 05/02/2016\nHarvest Ministries was sending a mid-month update on their fundraising appeal for the month. The offer was a book by Joni Earackson Tada. The control email highly incentivized the click by asking the reader to “find out why” the sender (Greg Laurie) admires Joni, the author of the book. While this might drive a lot of clicks, we’ve seen this approach drive much lower conversion rates, as those who click through are not as motivated to accept the offer.\nWe devised a treatment that moved some of that copy into the email, incentivizing the click by  giving them a timely call-to-action to find out how to get their own copy of the book before Mother’s Day.\nWe split the file and ran a test to see which email won.",
+      "keyLearnings": "The treatment produced a 58.7% decrease in clickthrough rate, which tells us that tipping our hand at the book offer reduced motivation to click through. However, the treatment produced a 55.1% lift in donor conversion on the following page, which tells us that those who did click through were more motivated to accept the offer.\nBecause of the disparity in clickthrough rate, the control conversion path produced more overall revenue, despite the lower conversion rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n58.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12630,
+      "experimentId": "3712",
+      "title": "How additional friction from a verification screen affects revenue",
+      "date": "2018-09-05T03:46:57",
+      "url": "https://www.nextafter.com/experiments/how-additional-friction-from-a-verification-screen-affects-revenue/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 175.6,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Verification Screen",
+            "metric": "$12.66",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Thank-You Page",
+            "metric": "$34.90",
+            "lift": "175.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removal of the verification screen decrease friction and result in more donation revenue?",
+      "summary": "Timeframe: 04/08/2016 - 04/18/2016\nHarvest Ministries’ online donation process had a verification screen before the donation was finalized. This sort of “last step” is common in the eCommerce world to reduce the number of accidental transactions. However, in Harvest’s donation process, the language on the page was unclear and the call-to-action was not clearly prioritized. This made us curious if there was a segment of people who thought the donation process was complete and whose gift was never processed.\nWe hypothesized that removing this step would reveal whether this was, in fact, true. The Harvest team set up an alternate donation process that omitted this step and we ran an A/B test to determine a result.",
+      "keyLearnings": "The treatment donation flow resulted in 175% more revenue than the control. Through a combination of increased conversion and slightly increased average gift (which was most likely due to a larger sample size of transactions), removing the verification screen resulted in nearly three times the revenue.\nWhile the experiment produced a 121% increase in conversion,  we must also use revenue as a metric to make sure that increased conversions don’t result in a reduced average gift, which could actually bring total revenue down.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 130.6% increase in conversion rate\n\t\t\t\t× 19.5% increase in average gift\n\t\t\t\t\t\t\t\t\t175.6% increase in revenue"
+    },
+    {
+      "id": 13155,
+      "experimentId": "5595",
+      "title": "How simplifying donation page copy affects conversion.",
+      "date": "2018-03-28T19:52:55",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-donation-page-copy-affects-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 82.2,
+      "confidence": 97.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified - 5 Important Things to Know",
+            "metric": "5.6%",
+            "lift": "82.2%",
+            "confidence": "97.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page would acquire more donations?",
+      "summary": "Timeframe: 10/24/2016 - 10/29/2016\nHarvest Ministries offers a free online course called, Tell Someone. After a person signs up for the free online course, they are taken to a confirmation/donation page. While the course has acquired instant donors and donations really well, they wanted to see if they could optimize the page. Their hypothesis was that the page had a lot of information on it creating friction for the end user. They developed a treatment that simplified the copy and broke the content down into 5 important things/steps. They set up the test and split the traffic coming to the donation page.",
+      "keyLearnings": "The treatment saw a 82.2% increase in donations! The control created too much mental friction because of the amount of content and copy. The donation ask ended up getting lost in all of it. By simplifying the content through a step by step process and order, we helped the end-user mentally walk through what we wanted them to do resulting in more people making a donation.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 82.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12721,
+      "experimentId": "3970",
+      "title": "How video on a donation page affects donor conversion",
+      "date": "2018-03-28T19:47:59",
+      "url": "https://www.nextafter.com/experiments/how-video-donation-page-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 203,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control: Video",
+            "metric": "0.08%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment: Book offer",
+            "metric": "0.24%",
+            "lift": "203.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How would removing the video from the landing page affect donor conversion?",
+      "summary": "Timeframe: 05/01/2016 - 05/08/2016\nHarvest Ministries was sending a mid-month update on their fundraising appeal for the month. The offer was the book Coming Home by James MacDonald. The offer book connected with the message of the email – prodigal children. The control email encouraged the click by asking the reader to watch the video about Greg’s son Jonathan who was a wayward child. While video can be very compelling and a great engagement piece, it also might impact the donor conversion rate because the video may be distracting from giving and we may lose the reader after they’ve watched the video.\nWe created a treated that was much more personal in nature and removed the video all together from the email and landing page. The treatment email had Greg personally sharing the story of his son Jonathan. We then had Greg make a personal recommendation of the offer book in the email and landing page and connected it back to his son Jonathan’s story.\nWe split the file and ran a test to see which version won.",
+      "keyLearnings": "Prior to this test, we ran a series of tests for the email that pushed people to this landing page. In those tests, we found that the treatment email (email without the video in it) produced a decrease in open rate and a lower clickthrough rate which attracted fewer visitors to this landing page. But, as you can see from this test, those visitors were much more motivated to make a donation. By removing the video on the landing page, we removed a significant element of friction and increased the force of the value proposition, increasing donor conversion by 203%.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 203.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14699,
+      "experimentId": "3138",
+      "title": "How applying research based principles to an acquisition page can impact conversion significantly.",
+      "date": "2018-02-14T14:06:08",
+      "url": "https://www.nextafter.com/experiments/how-applying-research-based-principles-to-an-acquisition-page-can-impact-conversion-significantly/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 448.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "3.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Ideal Acquisition Page",
+            "metric": "21.6%",
+            "lift": "448.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would applying the research-based principles impact conversion?",
+      "summary": "Ended On: 02/06/2018\nHarvest Ministries offers a free online course called, Tell Someone. Through this online course, they have been able to significantly grow their email file and acquire names well under the industry benchmark cost. Up until this point, most of the testing and optimization for the offer was focused on the Facebook campaign that pushed people to it and the instant donation page that came after the offer. Now they wanted to test the acquisition page. When looking at the acquisition page they noticed that it didn’t include elements of what an “ideal acquisition page” would look like or include based off of the research and analysis NextAfter had done with over 80 other acquisition pages. Through that research, NextAfter identified 13 elements that have been proven to help increase name conversion. Harvest hypothesized that by applying some of those elements to their own page they might be able to increase conversion, decrease acquisition cost, and grow their file even faster.",
+      "keyLearnings": "By applying the research based principles to the acquisition page, we were able to increase conversion by 448%! The elements that were included in the treatment for this experiment helped to increased the value proposition, decrease friction, and increase motivation for people coming to the acquisition page. \nBecause we were able to significantly increase the number of people signing up for the online course, we also acquired more instant donors and revenue for the organization through this offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 448.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13081,
+      "experimentId": "5009",
+      "title": "How the use of video in ad creative affects name conversion",
+      "date": "2018-01-12T20:55:06",
+      "url": "https://www.nextafter.com/experiments/how-the-use-of-video-in-ad-creative-affects-name-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -12,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Video",
+            "metric": "0.78%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Image",
+            "metric": "0.68%",
+            "lift": "-12.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad creative – a video or an image – would acquire more emails?",
+      "summary": "Timeframe: 08/23/2016 - 09/20/2016\nHarvest ran Facebook ads to promote their free online course, Tell Someone. They had been running an ad that featured a video of Pastor Greg talking about the course. In an effort to try and improve acquisition they tested the kind of creative that was used in the ad. They developed a treatment ad that had an image of Greg on it versus the video of Greg. They tested the two ads against each other to see which one would acquire more emails.",
+      "keyLearnings": "While we know video is a great engagement tool, we didn’t know how it would perform against an image in a Facebook ad. What we found was that the ad with the video had a 12% increase in name conversion. Not only was the video a great initial engagement piece and had an increase in click-throughs to the landing page, but it helped to reinforce the value proposition resulting in more people signing up to take the course once they got to the sign-up form.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 12.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13124,
+      "experimentId": "5499",
+      "title": "How image congruency in an ad affects conversion",
+      "date": "2018-01-12T20:55:02",
+      "url": "https://www.nextafter.com/experiments/how-image-congruency-in-an-ad-affects-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 54.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Couple",
+            "metric": "0.48%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pastor Greg and Cathe",
+            "metric": "0.75%",
+            "lift": "54.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which image would acquire more names?",
+      "summary": "Timeframe: 10/02/2016 - 10/10/2016\nHarvest Ministries promoted their marriage specific daily devotions on Facebook as a name acquisition opportunity. They wanted to see if the kind of image they used on the Facebook ad would make a difference with conversion. They tested an image of a couple holding hands against an image of Pastor Greg Laurie (Harvest’s lead pastor) and his wife.",
+      "keyLearnings": "The treatment (picture of Greg and Cathe) had a 54.7% increase in conversions. There are a couple of factors that attributed to this increase. First, the treatment image had Greg Laurie in it – a face that many people might recognize and trust. Second, a similar image from the treatment is also used on the sign-up page. This helps to bring congruence in the acquisition process.\nFurther testing could be done to see how the image of the couple (the control) would perform if the sign-up page had a similar image of it on it.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 54.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13325,
+      "experimentId": "6020",
+      "title": "How removing donation language from the CTA of an email appeal impacts click-through and donations.",
+      "date": "2018-01-12T20:54:56",
+      "url": "https://www.nextafter.com/experiments/how-removing-donation-language-from-the-cta-of-an-email-appeal-impacts-click-through-and-donations/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 62.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "CTRL - \"donation\" in CTA",
+            "metric": "6.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "TRT - No \"donation\" in CTA",
+            "metric": "10.9%",
+            "lift": "62.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which call-to-action would get more people to click through to the donation page?",
+      "summary": "Timeframe: 01/18/2017 - 01/23/2017\nHarvest Ministries monthly appeal message is always focused on the content of the premium they are giving that month. The premium is a gift to the subscriber if they give a donation. Because the message of the email is centered around the content of the premium, they wondered if they would be able to get more clicks and ultimately more donations if they made this the primary CTA as well. The control said, “Cold Case Christianity is our gift to you in thanks for a donation to Harvest Ministries today. You can get yours by going to this page” The treatment said, “You can get a copy of Cold Case Christianity by going to this page”. They A/B split their email file and ran the test.",
+      "keyLearnings": "The treatment CTA had a 62.6% increase in clicks compared to the control. It is really encouraging to see such a significant increase in clicks; however, the ultimate goal is to get more donations. While we weren’t able to validate the donations, the initial data tells us that even though we had  more people clicking through to the donation page, these people didn’t make a donation. The treatment had a decrease in donations by 9.3% (80% valid).  The treatment CTA did reinforce the value proposition (which is why we had an increase in clicks), but it didn’t present clarity. When people clicked through from the email, they were probably expecting to just get the book/premium for free because there was no mention that they would get the premium when they gave a donation to Harvest Ministries. This shows the importance of being very clear in our CTA so that we don’t mislead people and they know what to expect during the next step in the giving process.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n62.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13337,
+      "experimentId": "6045",
+      "title": "How the length of the value proposition copy on an ad impacts email acquisition",
+      "date": "2018-01-12T20:54:53",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-the-value-proposition-copy-on-an-ad-impacts-email-acquisition/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 316.4,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Short Value Prop",
+            "metric": "0.27%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Long Value Prop",
+            "metric": "1.1%",
+            "lift": "316.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad would acquire more names?",
+      "summary": "Timeframe: 01/09/2017 - 01/30/2017\nHarvest Ministries launched at two-week daily devotion campaign that was specifically focused on the topic of Heaven. They have run these kind of campaigns before, but they had never tested the amount of value proposition on the ad. While we know that a stronger value proposition can strengthen your message and ultimately lead to higher conversion, they wanted to see if this principle was true with a Facebook ad.\nThe only variable that was different on each ad was the copy above the ad image. All other variables remained consistent between the control and treatment",
+      "keyLearnings": "The treatment with the extended value proposition saw an increase in email acquisition by 316.4%! The extended value proposition helped to strengthen the message and get more people to click through and sign up for the heaven focused daily devotion. There is an assumption that people won’t read long Facebook posts/ads. This test proves that assumption wrong. Not only do people read the longer posts/ads, but they are much more motivated get the offer because the extended value proposition allows us to more clearly communicate to the person’s need.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 316.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13349,
+      "experimentId": "6064",
+      "title": "How candid tone in an email appeal impacts click-through and donations.",
+      "date": "2018-01-12T20:54:49",
+      "url": "https://www.nextafter.com/experiments/how-candid-tone-in-an-email-appeal-impacts-click-through-and-donations/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 34.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard",
+            "metric": "5.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Candid",
+            "metric": "7.8%",
+            "lift": "34.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email would get more clicks and ultimately more donations?",
+      "summary": "Timeframe: 02/01/2017 - 02/06/2017\nHarvest Ministries send a monthly appeal from Pastor Greg Laurie. Pastor Greg is the founder and lead pastor of this organization. Through a series of testing, they have learned that their audience responds best when the tone and copy of the appeals are more casual and personal. While they have found a way to write the copy to make it sound and connect with the reader as if Pastor Greg has written it himself, they felt like it was missing his candid personality. To test this, they developed a treatment for the appeal that included some phrasing that was more in-line to Pastor Greg’s personality and gave it more of a conversational tone.",
+      "keyLearnings": "The treatment email that included more candid/conversational phrasing from Pastor Greg had a 34.6% increase in clicks from the control. Not only did more people click through to the landing page, but more people gave – there was a 34% increase in donations! We’ve known that the Harvest Ministries audience responds well when the message is more casual, but the more we can add Greg’s true personality into it, the more engaged people will be. This reinforces the idea that people give to people. People want authentic, conversational communication and to feel as though Pastor Greg is communicating with them personally.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n34.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13399,
+      "experimentId": "6158",
+      "title": "How the kind of images used in a Facebook ad impacts conversion",
+      "date": "2018-01-12T20:54:46",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-images-used-in-a-facebook-ad-impacts-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        -35.1,
+        -19.7
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.38%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.25%",
+            "lift": "-35.1%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment 2",
+            "metric": "0.31%",
+            "lift": "-19.7%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which image would help acquire more email addresses?",
+      "summary": "Timeframe: 02/07/2017 - 02/13/2017\nHarvest Ministries was running a Facebook campaign for a daily devotional focused on the topic of family. They knew that images of Greg Laurie, the lead pastor and founder of Harvest, perform better in the ads than images of people less recognizable. For this campaign, the control was an image they had used before and had success with. It was a black and white image of Greg and his wife, Cathe. For the experiment they wondered if a colored version of that same image would perform better or if an image of the couple looking straight at the camera would have greater success.",
+      "keyLearnings": "To our surprise, the black and white image of Greg and Cathe performed best of the three images. In tests from other organizations, we have found that images with color perform better than black and white. What we can take away from this test is:\nThe black and white image may have stood out and was more aesthetically pleasing to people.\nThe image of Greg and Cathe looking at the camera straight on didn’t convey the warmth that the image of them holding hands did.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 35.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13411,
+      "experimentId": "6179",
+      "title": "How the addition of a reader’s review for a giving premium impacts donor conversion",
+      "date": "2018-01-12T20:54:43",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-a-readers-review-for-a-giving-premium-impacts-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 26.6,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Review",
+            "metric": "9.9%",
+            "lift": "26.6%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a reader’s review of the giving premium help increase donations?",
+      "summary": "Timeframe: 02/14/2017 - 02/21/2017\nEvery month Harvest Ministries sends an appeal that offers a premium to people when they give a donation. The primary value proposition on the donation page is about the premium with the secondary message focused on how a person’s donation will help Harvest Ministries in their mission. They hypothesized if adding a reader’s review of the premium offer to the donation page would help strengthen the primary value proposition and increase donations. They developed a treatment that featured a reader’s review while all other elements on the page remained the same as the control. They A/B split their traffic to test it.",
+      "keyLearnings": "The addition of a reader’s review for the premium on the donation page helped increase donations for their monthly appeal by 26%! What we can learn from this is that the review:\nStrengthened the force of the value proposition on the page\nAdded credibility and relevance to the premium offer by giving a real-life testimony of the value it added to a person’s life\nBecause the monthly appeals are heavily focused on the giving premium, we will continue to test and optimize ways to reinforce the premium’s value proposition in both the email and donation page copy.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13467,
+      "experimentId": "6285",
+      "title": "How an exit-intent popup impacts name conversion.",
+      "date": "2018-01-12T20:54:40",
+      "url": "https://www.nextafter.com/experiments/how-an-exit-intent-popup-impacts-name-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 94,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control (no EI modal)",
+            "metric": "0.49%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment (with EI modal)",
+            "metric": "0.95%",
+            "lift": "94.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the exit-intent popup help improve acquisition on Harvest’s homepage?",
+      "summary": "Timeframe: 03/08/2017 - 03/13/2017\nHarvest Ministries gets a high volume of traffic to it’s homepage. The volume of this traffic provides an excellent opportunity to acquire email addresses through value-add content offers. Currently on the page, there is a static form for their daily devotional offer that is below the fold of the page.\nWe hypothesized that a new delivery mechanism, higher on the page, could help improve acquisition. We tested using an exit-intent popup for the daily devotion offer that would appear when visitors moved their mouse outside of the browser window. This experiment was only targeted to desktop users since the exit-intent popup doesn’t work on mobile users.",
+      "keyLearnings": "By using an exit-intent offer, we were able to significantly increase email acquisition by 94%! Here are a few of our key learnings from this experiment:\nThe control that had the acquisition offer as a static element was farther down on the page. A significant amount of visitors to the website most likely would/will never see it.\nThe exit intent offer disrupted people’s attention at just the right time (when a person was about to exit the page) with the right kind of message and offer.\nThe exit-intent offer had a stronger value proposition. The force of this value proposition created strong messaging all the way through the acquisition process attributing to not only more emails acquired, but more overall revenue (71.7% increase) from the offer.\nSince this tactic is new, we will continue to monitor it and find other pages it strategically makes sense to present offers in this way.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 94.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13442,
+      "experimentId": "6247",
+      "title": "How creating a micro-yes in an ad impacts the macro-yes.",
+      "date": "2018-01-12T20:54:36",
+      "url": "https://www.nextafter.com/experiments/how-creating-a-micro-yes-in-an-ad-impacts-the-macro-yes/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 21.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Copy",
+            "metric": "0.38%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Extended Copy",
+            "metric": "0.46%",
+            "lift": "21.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad would acquire more course sign-ups?",
+      "summary": "Timeframe: 02/23/2017 - 03/06/2017\nHarvest Ministries has found great success with acquisition in pushing their online evangelism course, Tell Someone, through paid Facebook ads. As part of the optimization for the course, they have been testing the kind, tone and copy of their Facebook ads. Through this testing they know that a longer-form, conversational style text with a video ad works best. They wanted to test this version against an ad that had an even more conversational tone and made the text longer – requiring people to click “See more” in order to read the full text. The copy read much like a personal email might read.",
+      "keyLearnings": "The treatment with the long conversational copy had a 21% increase in course sign-ups (acquired emails). This tells us a couple of things:\nThe conversational tone of the copy engages people and motivates more people to want to read the copy.\n \tThe long copy requires people to click “See more” to read all of the ad text. This click is a micro-yes in the acquisition funnel causing people to be engaged at a higher level and resulting in more people making the macro-yes – signing up for the course.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 21.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13688,
+      "experimentId": "2979",
+      "title": "How adding a testimony to an email appeal can impact click-through.",
+      "date": "2018-01-12T20:54:34",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-testimony-to-an-email-appeal-can-impact-click-through/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 27.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "CTRL: No Testimony",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "TRT - With Testimony",
+            "metric": "2.2%",
+            "lift": "27.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would adding a testimony in the email copy increase click-through?",
+      "summary": "Timeframe: 06/01/2017 - 06/05/2017\nThe treatment with the testimony increased clicks by 27.6%. While these are great results and want to get more people to the donation pages, the increased clicks also resulted in an increase in overall revenue. What we can take away from this test is that by adding the testimonial to the email copy, we were able to strengthen the value proposition motivating more people to click through to the donation page and give more generously.",
+      "keyLearnings": "Leading up to Harvest Ministries large-scale evangelism outreach, they ran a high-urgency fundraising campaign. This fundraising campaign consists of multiple emails being sent over a short period of time to reach a specific financial goal. In an effort to optimize the emails as the campaign goes on, they ran a series of experiments within the emails and landing page. One of these tests was the use of a personal testimony from someone who had been to one of Harvest’s large-scale evangelism events. This personal testimony was added to the email copy for the treatment. They A/B split their file.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n27.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13744,
+      "experimentId": "6824",
+      "title": "How a relevant subject line not only impacts opens, but clicks and donations",
+      "date": "2018-01-12T20:54:30",
+      "url": "https://www.nextafter.com/experiments/how-a-relevant-subject-line-not-only-impacts-opens-but-clicks-and-donations/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 5.8,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "One Thing Remains",
+            "metric": "21.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "This Sunday...",
+            "metric": "22.6%",
+            "lift": "5.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would get more people to open the email?",
+      "summary": "Timeframe: 06/09/2017 - 06/20/2017\nHarvest Ministries had a high-urgency fundraising campaign leading up to a large-scale evangelism event, Harvest America. They sent a series of emails during this campaign to acquire donations and revenue. In an effort to increase the number of people who opened their emails and ultimately give, they tested a subject line of an email as they got closer to the campaign’s final day. The control used the subject line, “One Thing Remains” and the treatment tested something that was more timely, “This Sunday…”",
+      "keyLearnings": "While both subject lines were relatively vague, the treatment subject line increased opens by 5.8%. The treatment was more relevant to the campaign and created a sense of urgency. Because we were able to get almost 6% more people to open the email, the relevancy of the subject line with the email copy also lead to a 9% increase in clicks and ultimately 28% more donations!",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n5.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13749,
+      "experimentId": "6827",
+      "title": "How adding a personal testimony strengthens the value proposition and impacts clicks",
+      "date": "2018-01-12T20:54:27",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-personal-testimony-strengthens-the-value-proposition-and-impacts-clicks/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 22.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Without a testimony",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With a testimony",
+            "metric": "2.0%",
+            "lift": "22.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a personal testimony increase clicks?",
+      "summary": "Timeframe: 06/01/2017 - 06/20/2017\nHarvest Ministries ran a high-urgency fundraising campaign leading up to a large-scale evangelism event, Harvest America. They sent a series of emails for the campaign to acquire donations and revenue. One of the emails they sent had a strong message about the eternal impact Harvest America has. In an effort to increase clicks to the donation page from the email, they tested putting a person’s testimony in the email copy. They split their file and sent the control without the testimony and the treatment with it.",
+      "keyLearnings": "The treatment with the personal testimony increased clicks by 22%! The testimony added credibility to the ask and strengthened the value proposition of the email – motivating more people to click-through to the donation page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n22.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14066,
+      "experimentId": "7357",
+      "title": "How a call-to-action versus a personal signature in ad copy impacts conversion",
+      "date": "2018-01-12T20:54:17",
+      "url": "https://www.nextafter.com/experiments/how-a-call-to-action-versus-a-personal-signature-in-ad-copy-impacts-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -56.2,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Call-to-action",
+            "metric": "0.44%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal signature",
+            "metric": "0.19%",
+            "lift": "-56.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad would acquire more course sign-ups?",
+      "summary": "Timeframe: 08/30/2017 - 09/07/2017\nHarvest Ministries offers a free online course called, Tell Someone. The course is being pushed through paid Facebook ads. Through previous testing we have learned that longer, conversational copy written in Greg Laurie’s voice performs best. Once a person had gone through and read the ad copy, we wondered if they would be more motivated to sign up for the course if Greg signed the copy or if we put a call to action.",
+      "keyLearnings": "Without call-to-action oriented text, even at the end of the Facebook ad text, people are left to decide how they should proceed.\nIn a medium like Facebook where a person is being interrupted, not having call-to-action text to help transition someone from interest to action will often mean that they will return to what they were doing. People need a reason to move forward, and that even if they are given a reason at the beginning, they need to be reminded at the end.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 56.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12809,
+      "experimentId": "4239",
+      "title": "How increasing the page length and complicating the message affected donor conversion",
+      "date": "2018-01-12T20:54:14",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-page-length-and-complicating-the-message-affected-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -26.4,
+      "confidence": 98.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "5.7%",
+            "lift": "-26.4%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing the force of the value proposition increase donor conversion rate?",
+      "summary": "Timeframe: 06/01/2016 - 06/07/2016\nHarvest Ministries promoted their midmonth premium offer for the month which was, Thoughts to Make Your Heart Sing by Sally Lloyd-Jones. The email pushed people to the landing page to get the premium.\nWe hypothesized that if we added additional supportive organization-focused value proposition language we might be able to motivate more donors and increase conversion rate.\nWe created a treatment and ran an A/B test to determine which would perform better.",
+      "keyLearnings": "While we hypothesized that the treatment with the additional value proposition copy would help improve donor conversion, it actually had a 26.4% decrease in donations. The added copy for the treatment made the page longer and it also introduced an additional value proposition which may have complicated the message – in turn creating friction to the giving process. Additional testing could be done to try and increase the force of the value proposition by reinforcing the value proposition about the premium itself.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.4% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13176,
+      "experimentId": "5671",
+      "title": "How using a recognizable and trusted person as the image in a Facebook ad impacts conversion.",
+      "date": "2018-01-12T20:54:10",
+      "url": "https://www.nextafter.com/experiments/how-using-a-recognizable-and-trusted-person-as-the-image-in-a-facebook-ad-impacts-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 30.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Couple",
+            "metric": "0.23%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Greg",
+            "metric": "0.30%",
+            "lift": "30.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which Facebook ad would acquire more names and emails?",
+      "summary": "Timeframe: 11/07/2016 - 11/14/2016\nHarvest Ministries offers free daily devotions. They developed a content specific devotion focused on the topic of forgiveness that they promoted through Facebook ads. They wanted to test what kind of image on the Facebook ad would convert the most people. The control image had a picture of a couple holding hands. This same image was used on the daily devotion sign up page. For the treatment we used a picture of Greg Laurie teaching.",
+      "keyLearnings": "The picture of Greg had a 30% increase in conversions over the picture of the couple. This was a bit surprising to us since in previous tests we found that when your ad and landing page are congruent, there is usually an increase in conversion. But, people responded more favorably to the image of Greg. This continues to tell us that using Greg Laurie in Facebook ads, a person that is recognizable and trusted, is the image that is most motivating to the end-user and results in more people converting.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 30.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14499,
+      "experimentId": "8175",
+      "title": "How expanding the value proposition in a prospecting email can impact donor conversion",
+      "date": "2018-01-12T20:54:04",
+      "url": "https://www.nextafter.com/experiments/how-expanding-the-value-proposition-in-a-prospecting-email-can-impact-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 75,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.70%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "1.2%",
+            "lift": "75.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which version would acquire more donations?",
+      "summary": "Timeframe: 12/19/2017 - 12/26/2017\nHarvest Ministries had a DVD premium offer that performed really well on an email to their housefile. We hypothesized that it might do well as an offer for prospecting email lists as well. The offer was a DVD about Steve McQueen. We used the housefile email as the control. The primary message on the control was about the DVD. We wanted to test this against a version that explained more about who Steve McQueen was and why a person might want to get the DVD. We didn’t want to assume that people knew who Steve McQueen was and would want this DVD about him. We split our first prospecting email list and tested these two versions on it.",
+      "keyLearnings": "The treatment version, where we talked about and explained who Steve McQueen was, increased donations by 75%!\nWhen sending an email to a list of people that has minimal connection to your organization and have not been part of ongoing communications about the subject matter of the offer, it’s important to provide more context around the offer and expand your value proposition so that you can create the need in the mind of the end reader and ultimately convert more people to want and get the offer (and donate).\nBy testing the two different email versions with this one prospecting email list, we were able to send the most optimized version (the treatment) out to more prospecting email lists after this experiment and have an even greater return.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 75.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12850,
+      "experimentId": "4354",
+      "title": "How the presence of a privacy statement affects email acquisition",
+      "date": "2018-01-12T20:48:07",
+      "url": "https://www.nextafter.com/experiments/how-the-presence-of-a-privacy-statement-affects-email-acquisition/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -33.3,
+      "confidence": 99.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With privacy statement",
+            "metric": "27.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Without privacy statement",
+            "metric": "18.1%",
+            "lift": "-33.3%",
+            "confidence": "99.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the privacy statement cause friction in the sign-up process?",
+      "summary": "Timeframe: 06/02/2016 - 06/16/2016\nHarvest has a daily devotional from Greg Laurie. On the sign-up page for this devotional, there is a privacy statement under the form fields that reads “We take privacy seriously and hate spam, so we’ll carefully protect your e-mail address.” While this statement is meant to give a person peace of mind that their information is secure and safe, we questioned if this copy actually created anxiety in someone’s mind when they came to sign-up. Would this present an element of friction rather than eliminate it? We did a split test on this page of the control vs a treatment where we simply removed that privacy statement.",
+      "keyLearnings": "Our hypothesis that the privacy statement possibly created friction in the sign-up process was wrong. The control, with the privacy statement, had an increase in email sign-ups by 33.3%. Their is a mental cost (friction) associated with a person giving their personal information to an organization. The privacy statement in this sign-up process alleviated that cost. People want to know that their information is safe and secure when they give it to us.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 33.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12847,
+      "experimentId": "4348",
+      "title": "How the force of the value proposition affects donor conversion rate",
+      "date": "2018-01-12T20:48:03",
+      "url": "https://www.nextafter.com/experiments/how-the-force-of-the-value-proposition-affects-donor-conversion-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 163.7,
+      "confidence": 97.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control: Book offer",
+            "metric": "3.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment: So others can take the course",
+            "metric": "8.7%",
+            "lift": "163.7%",
+            "confidence": "97.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would increase donor conversion?",
+      "summary": "Timeframe: 06/03/2016 - 06/18/2016\nHarvest Ministries offered a free online course to people called, Tell Someone. Once a person registered for the course they were taken to a confirmation/ donation page. The donation page offered the course companion book to people if they gave a donation.  In an effort to increase donor conversion they ran a test on the donation page and created a treatment that had a different value proposition – give a gift to make it possible so others can take the course.  They split the traffic and tested the two different value propositions.",
+      "keyLearnings": "Donors were more highly motivated to give a donation to allow others to take the course than they were to receive a free book. In fact, the treatment saw a 163.7% increase in donations from the control. The treatment did offer the book as well, but the value proposition on that donation page wasn’t just about getting the book, it was about letting others take advantage of the free course. By reinforcing the value proposition on that page, we were able to increase donor conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 163.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12884,
+      "experimentId": "4467",
+      "title": "How a different value proposition affected donor conversion",
+      "date": "2018-01-12T20:48:00",
+      "url": "https://www.nextafter.com/experiments/how-a-different-value-proposition-affected-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -30.6,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Your gift helps",
+            "metric": "24.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tell others",
+            "metric": "17.1%",
+            "lift": "-30.6%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would",
+      "summary": "Timeframe: 06/28/2016 - 07/05/2016\nOn the Harvest Ministries primary donation page, they have a value proposition that highlights all of the aspects of their ministry. In an effort to increase donor conversion and learn more about what motivates their audience to give, they developed a treatment for this page with a different value proposition. The value proposition on the treatment focused on the evangelism aspect of their ministry work and tried to leverage the influence of Greg Laurie in the message. They ran an A/B test to see which page would acquire more donations.",
+      "keyLearnings": "The treatment had a decrease in donations by 30.6%. This can be attributed to the headline on the treatment not being very clear to the end user and tells us that people are more motivated to give to Harvest Ministries and the overall impact their gift can have than towards one specific aspect of their value proposition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 30.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12890,
+      "experimentId": "4490",
+      "title": "How the use of video in an ad can affect name conversion",
+      "date": "2018-01-12T20:47:56",
+      "url": "https://www.nextafter.com/experiments/how-the-use-of-video-in-an-ad-can-affect-name-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 16.4,
+      "confidence": 95.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Image",
+            "metric": "0.78%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video",
+            "metric": "0.91%",
+            "lift": "16.4%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Would an ad with an image or a video convert more people?",
+      "summary": "Timeframe: 07/11/2016 - 07/13/2016\nHarvest developed a free online course called Tell Someone. They pushed people to the registration page for the course through Facebook ads.\nHarvest had created a video to promote the course. While the Facebook campaign was performing really well with an image in the ad creative, they wanted to test the use of this promotional video in their Facebook ads to see if it would improve conversion.",
+      "keyLearnings": "While video is a great initial engagement piece, it can sometimes create friction to the end goal. With these Facebook ads, that was not the case. The video actually increased name conversion by 16.4%. This can be attributed to the video ad having a much higher click-through-rate than the image ad. The video was not only engaging, but also reinforced the value-proposition from the ad to the registration page of the course – resulting in more course sign-ups.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 16.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12902,
+      "experimentId": "4537",
+      "title": "How presenting a problem to the reader affects donor conversion.",
+      "date": "2018-01-12T20:47:54",
+      "url": "https://www.nextafter.com/experiments/how-presenting-a-problem-to-the-reader-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -18.8,
+      "confidence": 98,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Your impact",
+            "metric": "14.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Presenting a Problem First",
+            "metric": "12.1%",
+            "lift": "-18.8%",
+            "confidence": "98.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which copy approach would generate more donations?",
+      "summary": "Timeframe: 07/11/2016 - 07/21/2016\nHarvest wanted to test the motivation of their donors. To do this, they ran a test on their primary donation page. The control focused on the personal impact a donor can have. The headline of the control said, “Your gift helps reach the lost with the gospel of Jesus Christ.” The treatment didn’t initially focus on the impact a person could have, but rather presented a problem in the headline and then mentally walked a person through how Harvest Ministries could solve that problem with the donors help. The headline of the treatment said, “The World Needs the Gospel of Jesus Christ.”\nTraffic going to the primary donation page was then split between the two variants for the test.",
+      "keyLearnings": "Our hypothesis was that by mentally walking a person through how giving a gift to Harvest Ministries would solve the problem we presented them with, we would increase donations. Our hypothesis was wrong. We saw a 18.8% decrease in donations with the treatment. What this tells us is that donors are more motivated by initially knowing the personal impact they can have than by presenting them with a problem and showing them later in the mental process of giving a gift that they can have an impact.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 18.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12905,
+      "experimentId": "4557",
+      "title": "How using scripture and a premium to reinforce an ask affects clickthrough",
+      "date": "2018-01-12T20:47:49",
+      "url": "https://www.nextafter.com/experiments/how-using-scripture-and-a-premium-to-reinforce-an-ask-affects-click-through/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -25,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.61%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.46%",
+            "lift": "-25.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email would get more people to click through to the landing page?",
+      "summary": "Timeframe: 07/15/2016 - 07/26/2016\nHarvest sends out a mid-month appeal. For this month the message was focused on Crusade season and asked donors to support Harvest with a three month commitment. The control email started with an excerpt from scripture and used that to set up the ask. It also included an image of the premium they were offering that a person would receive if they gave a donation. We had a hypothesis that if we sent a more personal email that focused strictly on why we were asking for their support (Harvest Crusades) that we would be able to increase the number of clicks to the donation page.\nWe split the email file to run this test.",
+      "keyLearnings": "The control had an increase in clicks by 25%. This can be attributed to a couple of factors; People were more motivated by an ask reinforced by scripture than they were of a more direct ask from Greg. The control also mentioned and visually showed people the premium offer they would receive with a donation. The treatment made no mention of the premium. The presence of this premium offer on the control also motivated more people to click-through to the donation page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n25.0% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12938,
+      "experimentId": "4647",
+      "title": "How a personalized email affects donor conversion.",
+      "date": "2018-01-12T20:47:44",
+      "url": "https://www.nextafter.com/experiments/how-a-personalized-email-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": [
+        36.3,
+        116.3
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Urgency",
+            "metric": "0.10%",
+            "lift": "36.3%",
+            "confidence": "80.5%"
+          },
+          {
+            "code": "T2:",
+            "name": "Personal",
+            "metric": "0.16%",
+            "lift": "116.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What motivates donors to give a donation?",
+      "summary": "Timeframe: 08/03/2016 - 08/05/2016\nHarvest Ministries was sending their monthly fundraising email for the month of August and wanted to test the motivation behind people’s donations. All three email variations that were sent and tested offered a monthly premium, a book by Greg Laurie call, Tell Someone. Greg Laurie was the sender of all variations.\nThe control email was written and laid out how Harvest traditionally would send their monthly email. They developed two other treatments to test against the control. For the first treatment, they tested using urgency as a motivating factor to give a donation. The layout and design of the email was similar to the control, but the call-to-action had copy that created a sense of urgency and immediacy (“Time is running out, get this resource now before it’s too late.”).  For the second treatment, they tested a more personal approach to the email. They stripped down the traditional marketing email template to make it look like it was an Outlook email personally from Greg and changed the tone of the copy and email to be more casual and conversational as if Greg Laurie had sat down to personally write the donor this appeal.",
+      "keyLearnings": "While the urgency focused email didn’t quite validate, both treatments increased donations from the control. The urgency email had an increase in donations by 36.3% and the personalized email treatment had an increase in donations by 116%. The personalized email results are 100% valid. What this tells us is that people are more motivated to give if they know and feel that Greg is personally asking them. It wasn’t just the copy that contributed to this lift. Having the email not look like a traditional email, people didn’t feel like Greg was marketing to them. People want to feel like they are being personally engaged and that the appeal is only written to them from Greg. Moving forward it will be important to send emails that are more high-touch like this winning treatment and look and feel like a “normal” email a person would send.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 116.3% increase in conversion rate\n\t\t\t\t× 18.9% decrease in average gift\n\t\t\t\t\t\t\t\t\t75.4% increase in revenue"
+    },
+    {
+      "id": 12957,
+      "experimentId": "4715",
+      "title": "How sending a more personal sounding subject line affects open rate",
+      "date": "2018-01-12T20:47:40",
+      "url": "https://www.nextafter.com/experiments/how-sending-a-more-personal-sounding-subject-line-affects-open-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": [
+        7.4,
+        25.2
+      ],
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "22.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Urgency",
+            "metric": "24.3%",
+            "lift": "7.4%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Personal",
+            "metric": "28.3%",
+            "lift": "25.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would motivate the most people to open?",
+      "summary": "Timeframe: 08/02/2016 - 08/05/2016\nHarvest Ministries was sending their monthly fundraising email for August and wanted to test people’s motivation to open, click and donate. They developed two treatments to test against the control. Treatment one used urgency to try and motivate someone to open it. Treatment two used a more personal and casual approach.",
+      "keyLearnings": "Both treatments saw an increase in open rate compared to the control. The urgency treatment had an increase in opens by 7.2% and the personal treatment had a 25.2% increase in open rate. When we create a sense of urgency in our subject lines, people are more motivated to open them. More importantly, when a subject line becomes personal or sounds like the sender is personally emailing the recipient, people are even more motivated to open it. The email starts to feel less like a marketing appeal and more like an email you would receive from someone who knows you. It is important to talk to donors and prospective donors like they are people – even as early on in the communication process as the subject line.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12986,
+      "experimentId": "4773",
+      "title": "How a direct donation ask affected donor conversion after a name acquisition offer.",
+      "date": "2018-01-12T20:47:36",
+      "url": "https://www.nextafter.com/experiments/how-a-direct-donation-ask-affected-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 242.4,
+      "confidence": 98.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Online Course Offer Then Donation Ask",
+            "metric": "0.51%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Donation Ask",
+            "metric": "1.8%",
+            "lift": "242.4%",
+            "confidence": "98.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which variation would increase donations?",
+      "summary": "Timeframe: 08/11/2016 - 08/15/2016\nHarvest Ministries offers a free Daily Devotional for people. On the confirmation page of the Daily Devotional sign-up, they wanted to see if they could acquire donors. They tested two different methods. On the control confirmation page they offered a free online course called, Tell Someone, that asked for a donation after someone signed up for the course. The treatment confirmation page asked directly asked for a donation to Harvest Ministries.\nThey A/B tested this.",
+      "keyLearnings": "By asking for a direct donation after the Daily Devo sign-up rather than offering a person a free online course and then asking for a donation, they were able to increase donations by 242.4%.\nWhile the average gift for the online course donation process had a higher average gift ($20 compared to $12 for the direction donation process), the conversion rate was so much greater on the direct ask that initial data showed an increase in revenue by 112%. This revenue goal didn’t validate, but was important information to take into consideration when evaluating the overall impact of each variation.\nThe online course variation may have created friction in the donation process. People were motivated enough to immediately give a donation after the Daily Devo sign-up rather than needing to be offered another engagement piece (the online course) before giving.\nThe direct donation process was deployed to 100% of the Daily Devo confirmation page traffic after these results. Additional testing will now be done to the value proposition of this page in efforts to further optimize donor conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 242.4% increase in conversion rate\n\t\t\t\t× 38.0% decrease in average gift\n\t\t\t\t\t\t\t\t\t112.4% increase in revenue"
+    },
+    {
+      "id": 12989,
+      "experimentId": "4779",
+      "title": "How simplifying and reinforcing the value proposition affects donor conversion.",
+      "date": "2018-01-12T20:47:33",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-and-reinforcing-the-value-proposition-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 46.2,
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified and Reinforced Value Prop",
+            "metric": "6.8%",
+            "lift": "46.2%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page variation would increase donor conversion?",
+      "summary": "Timeframe: 08/09/2016 - 08/13/2016\nHarvest offers a free online course called, Tell Someone. On the confirmation page for the course sign-up, they ask for a donation. They wanted to try and increase donations on this page so they set up a test.  They kept the same value proposition on the control and the treatment, but the treatment had a more simplified value proposition that was reinforced through a headline and call-to-action.",
+      "keyLearnings": "We were able to increase donations with the treatment variation by 46.2%.\nThe amount of copy and information on the control may have created friction in the giving process. By simplifying and reinforcing the value proposition on the treatment we were able to strengthen and and bring clarity to the message. We also focused the reader’s attention on what was important for them to know; this helped motivate more donors to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 46.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13006,
+      "experimentId": "4835",
+      "title": "How different background images on a donation page affect donor coversion",
+      "date": "2018-01-12T20:47:24",
+      "url": "https://www.nextafter.com/experiments/how-different-background-images-on-a-donation-page-affect-donor-coversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -26.9,
+      "confidence": 98.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "People Praying Image",
+            "metric": "7.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pastor Greg Teaching Image",
+            "metric": "5.1%",
+            "lift": "-26.9%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How would testing a different background image affect donor conversion?",
+      "summary": "Timeframe: 08/15/2016 - 08/19/2016\nHarvest offers a free online course called, Tell Someone. After a person signs up for the course, they are brought to a donation page. Harvest has tested different value propositions on this donation page, but wondered if the background image on the page would affect donor conversion. The control had an image of people praying and featured the Tell Someone logo on it. They developed a treatment that had an image of Pastor Greg Laurie preaching. Pastor Greg is the well-known pastor of the ministry and the person who teaches the Tell Someone course. They thought that the image of Pastor Greg might better reinforce the messaging of the course and help improve donor conversion. They tested these two images against each other.",
+      "keyLearnings": "The treatment image (Pastor Greg preaching) saw a decrease in donations by 27%.\nRight away, my gut sees that we have a valid decrease in conversion, so we must have a valid learning. But taking a closer look, there is a noteworthy difference between the two background images outside of just the subject matter.\nThe control image had a logo of the Tell Someone course on it and the treatment version did not. It’s possible that the presence of this logo on the control may have reinforced the messaging, thus driving more donations. If this is the case, it’s possible that image of Pastor Greg could have performed very differently if it also had the Tell Someone logo on it.\nThe conclusion we can draw here is this: different imagery can have a significant affect on donation conversion.\nBut we are still left with the question of “Why did the control outperform the treatment?” To fully answer this question and determine exactly what is going on in the mind of the donor, we will have to conduct more tests.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13066,
+      "experimentId": "4980",
+      "title": "How a raw link in an email affects donor conversion.",
+      "date": "2018-01-12T20:47:16",
+      "url": "https://www.nextafter.com/experiments/how-a-raw-link-in-an-email-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": 77.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Link",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Raw Link",
+            "metric": "0.89%",
+            "lift": "77.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What kind of link would acquire more donations?",
+      "summary": "Timeframe: 09/14/2016 - 09/19/2016\nHarvest Ministries has been learning a lot about their donors through their monthly appeal testing. After a series of different tests they have learned that their donors respond best when the appeals have a personal and more casual tone to them. There are a lot of different variables that attribute to an email looking, feeling and sounding more personal and casual, so they wanted to test the specific variables within the email to gain an even deeper understanding of their donors. Keeping all other variables consistent between the control and the treatment email, they first tested the link in the email. The control had their standard link with a group of text hyperlinked and the treatment had a raw link that actually showed the URL a person would be sent to.",
+      "keyLearnings": "The raw link not only had a 12.4% increase in click-throughs, but a 77.6% increase in donations! The raw link helps the email to look and feel more personal by making it look as if the writer of the email had just pasted the link into an email. This method is much more believable and reinforces the personal approach. If this email was, in fact, an email sent from one person to another, a sender would most likely put a raw link in the copy rather than highlighting specific text and hyperlinking it – as validated in this test, we should take that same approach with these personalized appeal emails.\nThe raw link also brought clarity to where the link would take the end user. This reduces any anxiety a person might have in clicking the link because the URL specifically tells a person where they are being sent.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 77.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12575,
+      "experimentId": "3525",
+      "title": "How direct language affects donor conversion",
+      "date": "2018-01-12T20:45:08",
+      "url": "https://www.nextafter.com/experiments/how-direct-language-increased-donor-conversion-by-104-6/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 104.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.25%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.51%",
+            "lift": "104.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct call-to-action increase conversion rate?",
+      "summary": "Timeframe: 03/08/2016 - 03/21/2016\nHarvest Ministries was testing the button text on the premium block on their homepage. This block was used to ask for a donation in exchange for a premium offer, in this case, a DVD.\nSince the offer was centered around a premium, the button text had previously been “get your copy”. However, the copy was clear that the DVD was given in exchange for financial support, so the Harvest team decided to test “donate” on the button text. If the motivation of their site visitors was aligned with charitable giving, they hypothesized that more people would donate, as opposed to the more eCommerce-focused call-to-action of “get your copy”.",
+      "keyLearnings": "This experiment shows that clarity is king when it comes to conversion. The button text with “get your copy” might seem like a bait-and-switch on the second page, when the visitor finds out that a donation is necessary to get the DVD. “Donate” gives the visitor a much clearer understanding of what is expected, which results in more conversions on the following page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 104.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12603,
+      "experimentId": "3602",
+      "title": "How removing a single click affects email acquisition",
+      "date": "2018-01-12T20:45:02",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-single-click-affects-email-acquisition/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 113.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Modal Popup",
+            "metric": "0.20%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Inline Signup",
+            "metric": "0.42%",
+            "lift": "113.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing a single click reduce friction and increase email acquisition rate?",
+      "summary": "Timeframe: 03/24/2016 - 04/01/2016\nHarvest Ministries received a lot of traffic to their main homepage. In one of the boxes on the page, they offered a sample of one of Pastor Greg Laurie’s daily devotionals. After the sample, there was a button that triggered a modal window to receive the daily devotions by email.\nThey hypothesized that allowing the visitor to sign up for the devotionals directly in the daily devotion box would reduce friction and increase the amount of people who signed up.\nThey launched an A/B test to determine a result.",
+      "keyLearnings": "This shows the immense power of reducing very small amounts of friction. Asking the visitors to click to subscribe meant that a significant percentage of potential subscribers never even saw the form.\nBy removing that single action, Harvest was able to significantly increase the number of visitors who accepted the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 113.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12627,
+      "experimentId": "3711",
+      "title": "How an additional verification screen in the donation process affects donor conversion",
+      "date": "2018-01-12T20:44:59",
+      "url": "https://www.nextafter.com/experiments/how-an-additional-verification-screen-in-the-donation-process-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 121.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Verification Page",
+            "metric": "12.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Thank-you Page",
+            "metric": "27.4%",
+            "lift": "121.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removal of the verification screen decrease friction and result in more completed donations?",
+      "summary": "Timeframe: 04/01/2016 - 04/18/2016\nHarvest Ministries’ online donation process had a verification screen before the donation was finalized. This sort of “last step” is common in the eCommerce world to reduce the number of accidental transactions. However, in Harvest’s donation process, the language on the page was unclear and the call-to-action was not clearly prioritized. This made us curious if there was a segment of people who thought the donation process was complete and whose gift was never processed.\nWe hypothesized that removing this step would reveal whether this was, in fact, true. The Harvest team set up an alternate donation process that omitted this step and we ran an A/B test to determine a result.",
+      "keyLearnings": "Removing the extra verification screen increased donations by 121%! We hypothesized that the additional screen was doing one of two things:\nConvincing donors that the process was done, when their gift was, in fact, not confirmed\nAdding an extra layer of friction to the process that caused potential donors to bail out of the process.\nThe removal of this step showed that many more gifts were intended to be made than were actually captured. This is a fascinating learning as we examine the steps of donation processes from many organizations. Sometimes friction is helpful, but sometimes it can be turning donors away.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 121.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12633,
+      "experimentId": "3729",
+      "title": "How “human” fundraising subject lines affect clickthrough rate",
+      "date": "2018-01-12T20:44:53",
+      "url": "https://www.nextafter.com/experiments/how-human-fundraising-subject-lines-affect-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -58.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Order today",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Humanized Copy",
+            "metric": "0.87%",
+            "lift": "-58.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will “humanized copy” increase open rate and increase motivation to click?",
+      "summary": "Timeframe: 04/13/2016 - 04/19/2016\nHarvest Ministries was sending their mid-month email, which was a highly transactional, premium-focused offer. The offer featured a book that was relevant to Mother’s Day, which was coming up in just a few weeks. The treatment subject line was appropriately transactional: “Order Today to Receive for Mother’s Day”. We had been running some experiments with “humanized” copy — that is, copy that a normal person would write, rather than copy that is explicitly “marketing”. We hypothesized that a more “human” subject line would increase open rate, but we also wanted to measure the effect on clickthrough rate as well, since the two do not operate independently.\nAt the same time as the subject line test, we were running an email copy and design test as well. The control (which was matched to the control subject line) incentivized the click, a strategy that has shown to attract more clicks, but often less motivated traffic. The treatment made a more direct ask, which often results in fewer clicks but more gifts.",
+      "keyLearnings": "The treatment subject line actually delivered a statistically valid 7.5% increase in open rate. Which is good…if the experiment ended there. But the ultimate goal was gifts, which relies on a click. So we needed to measure the entire funnel.\nOnce we looked past the subject line, we saw that the treatment email (which made the direct ask) produced a 59% decrease in clickthrough rate, which resulted in a 43% drop in conversion. So, the increase in open rate didn’t really matter that much. It highlights an important learning: open rate is only the beginning of the relationship. Getting 7.5% more people to open the email is a win, but not if it doesn’t pay off when we look at our ultimate metric.\nThis shows us that “human” subject lines can work, but they may affect reader motivation differently. The control subject line, though it had fewer opens, resulted in many more people showing interest in the offer — most likely due to a combination of the urgency it produced and the design of the control email.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n58.1% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12657,
+      "experimentId": "3798",
+      "title": "How personal subject line tone affects fundraising email open rate",
+      "date": "2018-01-12T20:44:49",
+      "url": "https://www.nextafter.com/experiments/how-personal-subject-line-tone-affects-fundraising-email-open-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 7.9,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Sales Tone",
+            "metric": "22.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal Tone",
+            "metric": "24.0%",
+            "lift": "7.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more personal subject line increase open rate?",
+      "summary": "Timeframe: 04/01/2016 - 05/02/2016\nHarvest Ministries was sending a mid-month update on their fundraising appeal for the month. The offer was a book by Joni Earackson Tada, and the control subject line was all about the offer. We’ve seen that when an offer is obviously marketing, our prospects become resistant to it and don’t open the email. So we tested an alternate subject line that sounded like one a friend might actually write: “An idea for you”.",
+      "keyLearnings": "The treatment lifted open rate by 8%. There is a possibility that these openers might be less motivated, since the control subject line was clearly an offer, so we must make sure to measure all the follow-on metrics to ensure that we aren’t leaving conversions on the table.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12667,
+      "experimentId": "3814",
+      "title": "How increasing urgency in email copy affects clickthrough rate",
+      "date": "2018-01-12T20:44:39",
+      "url": "https://www.nextafter.com/experiments/how-increasing-urgency-in-email-copy-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -28.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Find out why",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "High Urgency",
+            "metric": "1.6%",
+            "lift": "-28.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increased urgency increase clickthrough rate?",
+      "summary": "Timeframe: 04/01/2016 - 05/02/2016\nHarvest Ministries was sending a mid-month update on their fundraising appeal for the month. The offer was a book by Joni Earackson Tada. The control email highly incentivized the click by asking the reader to “find out why” the sender (Greg Laurie) admires Joni, the author of the book. While this might drive a lot of clicks, we’ve seen this approach drive much lower conversion rates, as those who click through are not as motivated to accept the offer.\nOur first experiment showed that increased clarity, in this case, decreased clickthrough rate. We devised a new treatment that leaned into the transactional nature of this email and maximized urgency to get their own copy of the book before Mother’s Day.\nWe split the file and ran a test to see which email won.",
+      "keyLearnings": "The treatment produced a 28.8% decrease in clickthrough rate, which showed that the “tease” copy in the control still provided a greater incentive to click. However, the treatment email produced a 32.6% higher conversion rate on the page, which made revenue almost even between the two treatments. This prompts further testing to find an email that incentivizes the click while providing motivation to complete the donation.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n28.8% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12718,
+      "experimentId": "3969",
+      "title": "How the email call-to-action affects clickthrough rate",
+      "date": "2018-01-12T20:44:22",
+      "url": "https://www.nextafter.com/experiments/how-email-call-to-action-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -58.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control: Watch video",
+            "metric": "9.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment: Personal recommendation",
+            "metric": "4.2%",
+            "lift": "-58.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a CTA to watch a video vs a personal recommendation affect click-through?",
+      "summary": "Timeframe: 05/01/2016 - 05/08/2016\nHarvest Ministries was sending their fundraising appeal for the month. The offer was the book Coming Home by James MacDonald. The offer book connected with the message of the email – prodigal children. The control email encouraged the click by asking the reader to watch the video about Greg’s son Jonathan who was a wayward child. Video can be a great engagement piece, but it also might impact the donor conversion rate in the end because the video may be distracting from the ultimate goal of giving. We wanted to see if we could produce a better if not equally compelling call-to-action to the video in the email.\nThe treatment was much more personal in nature and we removed the call-to-action to watch the video all together. Instead, the treatment email had Greg personally sharing the story of his son Jonathan and making a personal recommendation of the offer book which connected back to his son Jonathan’s story. The call-to-action on the treatment was to get the book that Greg recommended.\nWe split the file and ran a test to see which email won.",
+      "keyLearnings": "While a personal recommendation in a personal toned email can be very compelling, the CTA to watch a video proved to be more compelling to readers. The treatment saw a 58.2% decrease in clicks. The control set up the story and video of Greg’s son nicely and readers wanted to hear more of it. Readers are more motivated to click and watch a video than to get a resource personal recommended by Greg.\nWhile this test proved that video improves click-through, another test for this same email proved that the video was a distracting element to the ultimate end goal of giving.\nBut clickthrough rate isn’t everything — if we stopped measuring our funnel here, we would be in trouble! Though many more people clicked through when asked to watch a video, they didn’t convert as donors. They simply went to the landing page to watch the video. On the treatment version of the email (which turned the video content into text), a smaller number of readers clicked through but were much more motivated to give. There wasn’t a video on the landing page that caused friction and donor conversion increased by 203%. See the landing page optimization experiment here.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n58.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12715,
+      "experimentId": "3968",
+      "title": "How personal tone in a subject line affects email open rate",
+      "date": "2018-01-12T20:44:20",
+      "url": "https://www.nextafter.com/experiments/how-personal-tone-subject-line-affects-open-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -22.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"My son Jonathan\"",
+            "metric": "33.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"I want to share a personal story...\"",
+            "metric": "25.7%",
+            "lift": "-22.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a personal tone subject line affect open rate?",
+      "summary": "Timeframe: 05/01/2016 - 05/08/2016\nHarvest Ministries was sending a monthly fundraising appeal. The offer was the book Coming Home by James MacDonald. The offer book connected with the message of the email – prodigal children. In the email, Pastor Greg told of his own prodigal son, Jonathan. The control email encouraged the reader to open the email with a subject line “My son Jonathan”. We wanted to see if we could increase opens by making the subject line even more personal. We know that readers want to feel personally engaged with organizations. If we could make the subject line feel and sound like Greg was personally emailing them to tell them something, we might be able to increase open rate.\nThe treatment subject line was “I want to share a personal story with you”.\nWe split the file and ran a test to see which email won.",
+      "keyLearnings": "While we hypothesized that the treatment was more personal than the control and might help increase opens, the treatment produced a 22.2% decrease in open rate. The treatment was personal, but in hindsight, the control may have been even more personal because Greg mentions his son’s name in the subject line. Readers were more interested in what Greg had to say or tell them about his son Jonathan than some self-proclaimed “…personal story” he had to share. The treatment didn’t provide enough clarity with what the personal story was about and fewer people opened as a result.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n22.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12770,
+      "experimentId": "899",
+      "title": "How a visitor-focused headline affects conversion",
+      "date": "2018-01-12T20:44:15",
+      "url": "https://www.nextafter.com/experiments/how-the-ask-amount-in-an-email-fundraising-appeal-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 31.5,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Enroll\" sub-headline",
+            "metric": "26.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Activate\" sub-headline",
+            "metric": "34.9%",
+            "lift": "31.5%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "What language inspires more people to sign up?",
+      "summary": "Timeframe: 03/03/2015 - 03/16/2015\nHeadlines are one of the most critical elements of landing pages.  They are the first thing most visitors see and their job is to put the entire offer into context for the reader.  Each word carries a measure of influence on the readers ultimate decision.\nHillsdale was launching a free online class to acquire more emails addresses for their file.  We wanted to test language that had historically been used internally at the college when talking about classes (“enroll”) versus one that, in our minds, carried less friction (“activate”).",
+      "keyLearnings": "Changing just one word in the sub-headline of the page led to a 31.5% increase in the number of emails acquired. The word \"enroll\" carried a high amount of cognitive friction since it is often associated with both the time and effort of enrolling in something.  Alternatively, \"activate\" is a quick action which carried far less friction.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 31.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12774,
+      "experimentId": "4139",
+      "title": "How ask amount affects donor conversion in an email fundraising appeal",
+      "date": "2018-01-12T20:44:12",
+      "url": "https://www.nextafter.com/experiments/how-ask-amount-affects-donor-conversion-in-an-email-fundraising-appeal/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": [
+        -52.3,
+        43.1
+      ],
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "$35 ask",
+            "metric": "0.10%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$50 ask",
+            "metric": "0.05%",
+            "lift": "-52.3%",
+            "confidence": "99.9%"
+          },
+          {
+            "code": "T2:",
+            "name": "Generous Gift ask",
+            "metric": "0.14%",
+            "lift": "43.1%",
+            "confidence": "97.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a higher ask amount or a less specific “generous gift” ask increase donor conversion?",
+      "summary": "Timeframe: 05/15/2016 - 05/24/2016\nHarvest Ministries sent their mid-month fundraising appeal and wanted to test the size of the gift ask in the copy. This appeal made the direct ask in the copy, and to mirror the direct mail, suggested a gift size of $35, $45, or more. They hypothesized that asking for a larger amount might increase average gift size.\nAs they were setting this test up, they came up with a new hypothesis — maybe the specific ask, though it worked in direct mail, was too specific. They developed a new hypothesis that asking for a “generous gift of any amount” would increase conversion and overall revenue.\nThey set up the A/B/C test to test the control against two treatments and closely monitored conversion to determine a winner.",
+      "keyLearnings": "The email with the less-specific ask produced a 43.1% increase in donor conversion, showing that allowing donors to choose their own gift size, in this case, meant that they were more likely to become donors. This ask amount had proven to generate a higher clickthrough rate as well, but clickthrough is not always an indication of intent to give.\nIt is worth noting, as well, that the less-specific ask amount generated a higher average gift than the control.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 52.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12782,
+      "experimentId": "4157",
+      "title": "How decreasing friction and increasing the force of the value proposition affects email acquisition",
+      "date": "2018-01-12T20:44:07",
+      "url": "https://www.nextafter.com/experiments/how-decreasing-friction-and-increasing-the-force-of-the-value-proposition-affects-email-acquisition/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 682.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Button + Popup",
+            "metric": "0.41%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Embedded Form",
+            "metric": "3.2%",
+            "lift": "682.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing friction and increasing the force of the value proposition increase email acquisition rate?",
+      "summary": "Timeframe: 05/18/2016 - 05/25/2016\nHarvest Ministries had a large email subscriber base for their daily devotionals from Pastor Greg Laurie. But the devotionals also generated a lot of direct traffic and social traffic, which could be coming from people who didn’t subscribe to the devotionals. They had a subscribe popup, which was triggered by a “subscribe” button at the bottom of the post.\nThey hypothesized that they would increase email signups if they moved the signup form into the bottom of the post, and added a value proposition above the form fields.\nThey created a treatment and launched an A/B test",
+      "keyLearnings": "The treatment produced a 682.3% lift in email conversion. This revealed that there were many more potential prospects for the daily devotions, but the lack of value proposition and extra click was keeping them from subscribing.\nThis learning prompted more tests to uncover additional opportunities to remove friction and “sell” free offers.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 682.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12803,
+      "experimentId": "4221",
+      "title": "How email preheaders affect open rate",
+      "date": "2018-01-12T20:44:04",
+      "url": "https://www.nextafter.com/experiments/how-email-preheaders-affect-open-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 2.2,
+      "confidence": 99.6,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Preheader",
+            "metric": "24.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Preheader",
+            "metric": "25.2%",
+            "lift": "2.2%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing the preheader increase open rate?",
+      "summary": "Timeframe: 05/30/2016 - 06/06/2016\nHarvest Ministries was scheduled to send their mid-month fundraising update email. As their team was setting up the email, they developed a hypothesis that the preheader copy (or preview copy designed to be seen before the email is opened) might be decreasing open rate. Though this copy is strongly encouraged by marketers and email service providers, it obscured the personalized greeting and didn’t make sense when read left to right.\nThey hypothesized that removing this could increase the appearance that this was a personal email, not a marketing email. They split their file and launched a test to find out how employing a preheader affects open rate.",
+      "keyLearnings": "The treatment, which did not use a preheader, increased open rate by 2.2%. While this may not seem like a significant amount, it certainly matters at scale. Harvest had around 220,000 people included in this send, so that’s an additional 4,400 recipients who would have opened the email — which means more clicks, donors, and donations.\nThis prompted another round of testing to understand whether the personalization elements were specifically responsible for increasing open rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n2.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12806,
+      "experimentId": "4233",
+      "title": "How using an email preheader affects clickthrough rate",
+      "date": "2018-01-12T20:43:59",
+      "url": "https://www.nextafter.com/experiments/how-using-an-email-preheader-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 8,
+      "confidence": 96.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Preheader",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Preheader",
+            "metric": "1.4%",
+            "lift": "8.0%",
+            "confidence": "96.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing the preheader in an email fundraising appeal increase clickthrough rate?",
+      "summary": "Timeframe: 05/30/2016 - 06/07/2016\nHarvest Ministries was scheduled to send their monthly fundraising email. As their team was setting up the email, they developed a hypothesis that the preheader copy (or preview copy designed to be seen before the email is opened) might be decreasing open rate. This hypothesis proved to be correct, as removing the preheader produced a 2.2% lift in open rate.\nBut this hypothesis also had a second layer. Previous experiments had shown that increasing the personal nature of an email had a positive effect on clickthrough rate. If removing the preheader made the email feel more personal (and less like a marketing email), then they hypothesized that clickthrough rate would also increase incrementally (on top of the increase in open rate).\nThey reviewed the clickthrough data to see if this was in fact the case.",
+      "keyLearnings": "While removing the preheader increased open rate by 2.2%, it also had a profound effect on the recipient’s interaction with the email, increasing clickthrough rate by 7.7%. This shows that using a preheader might increase perception that this is a marketing email — and removing it can not only make the email appear more “human-sent” (which leads to a higher open rate), but also exponentially increases the likelihood that the recipient will click.\nThis prompts further testing to better understand the relationship between the preheader and the intended actions.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n8.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12284,
+      "experimentId": "898",
+      "title": "How emphasizing the cost over the value of an offer affects conversion",
+      "date": "2018-01-12T20:42:39",
+      "url": "https://www.nextafter.com/experiments/how-a-more-relevant-subject-line-affects-open-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -9.6,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Know the Constitution like never before",
+            "metric": "41.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "FREE Constitution 101 Online Course",
+            "metric": "37.2%",
+            "lift": "-9.6%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Does aligning with outside marketing channels and modifying the message increase the overall email acquisition rate?",
+      "summary": "Timeframe: 03/04/2015 - 03/15/2015\nHillsdale College was promoting their Constitution 101 online course offering using a new medium (direct response television). It was our belief that if we modified the existing landing page to tie into both the DRTV message and design, we would see improved conversion results.  The resulting changes to the page were an emphasis on the lack of cost and promoting the value of Hillsdale College.  This was a subtle shift in the messaging of the control version with emphasized what the visitors would get when signing up and the value of the course itself, not Hillsdale.",
+      "keyLearnings": "The subtle changes seen when emphasizing the cost over value, both in the headline and button copy, reduced the conversion rate by 9.6%.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 9.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12287,
+      "experimentId": "2729",
+      "title": "How increasing the clarity of email copy affects clickthrough rate",
+      "date": "2018-01-12T20:42:36",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-clarity-of-email-copy-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 68.9,
+      "confidence": 99.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Persuasive Storytelling Approach",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Approach",
+            "metric": "2.5%",
+            "lift": "68.9%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct copy approach that increases clarity improve clickthrough rate?",
+      "summary": "Timeframe: 12/01/2015 - 12/02/2015\nHarvest Ministries was planning to send fundraising emails on Giving Tuesday. They had crafted an email to the housefile that utilized Greg Laurie’s traditional storytelling style, but wanted to see if a more direct approach that educated their donors about Giving Tuesday would increase results. They tested a new subject line, but also new email copy that took a more direct approach to see if increased clarity improved clickthrough rate.",
+      "keyLearnings": "This tells us that our email prospects respond to the value proposition with the most clarity, rather than the most persuasive value proposition. When we can be direct with our prospects, we have a better chance of them taking the intended action.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n68.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12327,
+      "experimentId": "2829",
+      "title": "How urgency and a repositioned call-to-action increased donations by 89.4%",
+      "date": "2018-01-12T20:42:30",
+      "url": "https://www.nextafter.com/experiments/how-urgency-repositioned-cta-increased-donations-89-4/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 89.4,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Low Urgency",
+            "metric": "0.73%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Emphasized Urgency",
+            "metric": "1.4%",
+            "lift": "89.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will highlighting the urgency of a deadline increase donor conversion?",
+      "summary": "Timeframe: 12/09/2015 - 12/10/2015\nHarvest Ministries prepared an appeal for their year end campaign that offered a book, “The Biggest Story”, as a premium. They had prepared an email that told a personal story, made a financial ask with a call-to-action button, and then followed up with some information about the premium. On the landing page, there was a callout box that indicated that time was running out to order the premium and receive it before Christmas.\nTheir team formed a hypothesis that if they moved this callout earlier in the donation funnel, that they would attract visitors with a higher motivation. They developed a treatment that added urgent copy that emphasized the impending deadline, and moved the call-to-action button after this copy.  They then ran an A/B split test to see the results.",
+      "keyLearnings": "This tells us that when we have a deadline, we must message it as early in the funnel as possible to make sure the incentive (why you should give now) reaches donors who might be a motivation to give. There are always people who intend to give, but think it can wait. By giving them clarity (and not false urgency) on when the incentive expires, we were able to convert more of these people.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 89.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12324,
+      "experimentId": "2822",
+      "title": "How adding urgency to a repositioned call to action affects clickthrough rate",
+      "date": "2018-01-12T20:42:26",
+      "url": "https://www.nextafter.com/experiments/how-adding-urgency-to-a-repositioned-call-to-action-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 87.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "6.6%",
+            "lift": "87.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will highlighting the urgency of a deadline increase clickthrough rate?",
+      "summary": "Timeframe: 12/08/2015 - 12/09/2015\nHarvest Ministries prepared an appeal for their year end campaign that offered a book, “The Biggest Story”, as a premium. They had prepared an email that told a personal story, made a financial ask with a call-to-action button, and then followed up with some information about the premium. On the landing page, there was a callout box that indicated that time was running out to order the premium and receive it before Christmas.\nTheir team formed a hypothesis that if they moved this callout earlier in the donation funnel, that they would incentivize more readers of the email to click through to the page. They developed a treatment that added urgent copy that emphasized the impending deadline, and moved the call-to-action button after this copy.  They then ran an A/B split test to see the results.",
+      "keyLearnings": "This tells us that highlighting urgency on the landing page isn’t enough — we must move it earlier in the decision process if we want to motivate and incentivize the maximum amount of prospects. Because email performance rates decline naturally at each step (from delivery to open rate to clickthrough rate), we can reach more prospects with this message as we move it further down the inverted funnel. However, that doesn’t mean that we should move it to the subject line — when improperly placed, urgency can deceive and disincentivize prospects.\n\nThis also gives a valuable lesson about call-to-action placement. In the first email, the button was placed before the premium, which meant that many prospects made the decision before they were fully informed and incentivized. By moving the button to the end of the email (and strengthening the incentive that comes before it), Harvest was able to nearly double clickthrough rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n87.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12333,
+      "experimentId": "2852",
+      "title": "How highlighting urgency on a donation page affects donor conversion",
+      "date": "2018-01-12T20:42:23",
+      "url": "https://www.nextafter.com/experiments/how-highlighting-urgency-on-a-donation-page-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 16.8,
+      "confidence": 95,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Page",
+            "metric": "10.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Urgency Callout",
+            "metric": "12.6%",
+            "lift": "16.8%",
+            "confidence": "95.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing urgency on the landing page improve conversion?",
+      "summary": "Timeframe: 12/08/2015 - 12/10/2015\nHarvest Ministries prepared an appeal for their year end campaign that offered a book, “The Biggest Story”, as a premium. They had prepared an email that told a personal story, made a financial ask with a call-to-action button, and then followed up with some information about the premium.\nThe premium was featured on the landing page, but with no information about the deadline to receive it by Christmas. They wanted to test the impact of adding in language with the deadline in a special callout box.",
+      "keyLearnings": "Though it was just a small change, this tells us that our donors must be reminded of any relevant urgency at each step of the donation funnel. Even though the email treatment highlighted the deadline to receive it by Christmas, an additional 16.7% of people gave when it was also called out on the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 16.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12572,
+      "experimentId": "3520",
+      "title": "How a direct call to action affects clickthrough rate",
+      "date": "2018-01-12T20:42:14",
+      "url": "https://www.nextafter.com/experiments/how-a-direct-call-to-action-affects-clickthrough-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 63.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.50%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.82%",
+            "lift": "63.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct call-to-action increase clickthrough rate?",
+      "summary": "Timeframe: 03/09/2016 - 03/21/2016\nHarvest Ministries was testing the button text on the premium block on their homepage.  This block was used to ask for a donation in exchange for a premium offer, in this case, a DVD.\nSince the offer was centered around a premium, the button text had been “get your copy”. However, the copy was clear that the DVD was given in exchange for financial support, so the Harvest team decided to test “donate” on the button text. If the motivation of their site visitors was aligned with charitable giving, they hypothesized that more people would click through, as opposed to the more eCommerce-focused call-to-action of “get your copy”.",
+      "keyLearnings": "This reveals an interesting and powerful learning about Harvest site visitors: they come to the site with some sort of motivation to give. If Harvest site visitors had a lower motivation to give, they would most likely respond to some other copy like “learn more”, since they wouldn’t be prepared to give. However, the response to the “donate” call-to-action reveals that they are not repelled by a direct ask — in fact, they are more likely to take action.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n63.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12595,
+      "experimentId": "7301",
+      "title": "How a radical donation page redesign affects donor conversion",
+      "date": "2016-06-03T18:51:13",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-donation-page-redesign-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 44.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "30.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "44.7%",
+            "lift": "44.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a radical redesign that removes friction and strengthens and emphasizes the value proposition increase donor conversion?",
+      "summary": "Timeframe: 08/22/2017 - 08/30/2017\nHarvest Ministries had a donation page that produced above-average conversion rates (at nearly 20%). However, they viewed this as an 80% failure rate, and wanted to run an experiment to optimize for donor conversion.\nTheir control donation page kept the same template as their website (which is common for ministries and nonprofits). This template included navigation that gave many opportunities to leave the page and take other actions. The page copy also started with a premium ask, with little value proposition language to hook the visitor.\nThe donation form started with radio buttons, which presented possible usability friction for the visitor. The prospective donor was then presented with the choice to make a single gift or a recurring gift, the details of which were located on another page. This introduced possible decision friction into the funnel. Next was a designation. Designations can be helpful for the organization, but research has showed that they present another decision for the user and can bring the donation process to a halt.\nNext, the visitor was asked to claim their premium, and fill out the typical information and payment fields, with a question about where they engage with Harvest in the middle.\nThe treatment removed all the excess navigation from the page and began with a simple, clear value proposition: “Your gift helps reach the lost with the gospel of Jesus Christ”. It then unpacked the value proposition, providing evidentials to each claim of value and connecting the gift to different forms of impact. Then, it repositioned the premium as a thank-you in response to the gift, rather than the reason for the gift.\nThe gift array was reworked into larger buttons that were easier to click and see which amount was selected. The information and payment fields were moved to the second step of a two-step screen.\nHarvest launched an A/B test to discover which donation page flow resulted in more donations and revenue.",
+      "keyLearnings": "The treatment page generated a 44.8% lift in donations — a big feat for a page that was already attracting highly motivated donors. This showed that some combination of all the elements of friction on the page were distracting would-be donors. It also proved that focusing on the clarity of the value proposition (rather than the incentive alone) can increase motivation to give.\nThis prompted a series of tests to remove more friction from the giving process and further clarify the value proposition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 44.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13760,
+      "experimentId": "2975",
+      "title": "How changing the value proposition on a donation page can impact overall revenue",
+      "date": "2018-01-12T20:54:20",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-value-proposition-on-a-donation-page-can-impact-overall-revenue/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 50.5,
+      "confidence": 89.7,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "CTRL - Soft Ask",
+            "metric": "$8.84",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "TRT - Hard Ask",
+            "metric": "$13.30",
+            "lift": "50.5%",
+            "confidence": "89.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would acquire more donations and revenue?",
+      "summary": "Timeframe: 06/05/2017 - 06/20/2017\nThe treatment value proposition that was focused on the spiritual impact of a person’s gift increased overall revenue by 50%! There were not only more people who were motivated to give, but these people were motivated to give more. People were willing to invest in a kingdom-focused mission more generously.\nWhile people cared about the event being successful and effective, they responded more when they knew their investment would have a larger impact – an eternal one.\nThis experiment didn’t validate, but it was leaning towards being valid and was rolled out for the rest of the campaign.",
+      "keyLearnings": "Harvest Ministries had a high-urgency campaign leading up to their large-scale evangelism event, Harvest America. On the donation page for the campaign, the value proposition and call-to-action was centered on making the event a success. It had more of a logistics angle to it. Because the event was an evangelism outreach, we hypothesized that people might be more motivated to give if the value proposition was focused on the spiritual impact. We developed a treatment and split the traffic coming to the donation page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12914,
+      "experimentId": "4582",
+      "title": "How reinforcing the value proposition in the body copy and CTA affects donor conversion.",
+      "date": "2018-01-12T20:47:46",
+      "url": "https://www.nextafter.com/experiments/how-reinforcing-the-value-proposition-in-the-body-copy-and-cta-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 22.8,
+      "confidence": 94.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "11.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Reinforced Value Prop",
+            "metric": "14.5%",
+            "lift": "22.8%",
+            "confidence": "94.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page would increase donor conversion?",
+      "summary": "Timeframe: 08/15/2016 - 08/26/2016\nFor Harvest Ministries mid-month appeal they wanted to see if they could improve donor conversion on the landing page. The control and the treatment had the same value proposition, but the treatment had subtle additions to the copy of the headline, body and CTA to stregthen the value proposition of the page. They ran a split test to see which landing page would increase donor conversion.",
+      "keyLearnings": "The treatment landing page had an increase in donations by 22.8%. The reinforcement of the value proposition throughout the treatment landing page strengthened the message and ask, resulting in more people giving a donation.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13005,
+      "experimentId": "4824",
+      "title": "How the kind of offer in an appeal affects donor conversion.",
+      "date": "2018-01-12T20:47:28",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-offer-in-an-appeal-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 25.6,
+      "confidence": 87.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Tell Someone Book Offer",
+            "metric": "0.19%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tell Someone Course Offer",
+            "metric": "0.24%",
+            "lift": "25.6%",
+            "confidence": "87.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the Tell Someone course offer receive more donations than the Tell Someone book offer?",
+      "summary": "Timeframe: 08/15/2016 - 08/22/2016\nNormally, for Harvest’s mid-month appeals, they offer a resource (normally a book or DVD) to people if they give a gift to the ministry.\nFor Harvest’s August mid-month appeal they ran a test to see if they could acquire more donations through offering a book (the Tell Someone book) or through a free online course (the Tell Someone course). For the book offer, people were taken directly to a donation page where they could get the book and give their donation. For the course offer, people had to first sign up for the course and then be asked for a donation. Using 40% of the email file, they A/B split tested this.",
+      "keyLearnings": "While the results didn’t validate, the initial data pointed to validity and the treatment (the Tell Someone course) had an increase in opens, clicks, donations (25%) and revenue. Using this data, they then sent the remaining 60% of the email file the Tell Someone course offer.\nEven though the test didn’t validate, deciding to send the remaining file the Tell Someone course offer was not only the best decision from what we were seeing with initial donations and revenue, but the long-term benefit and value of these donors is so much greater with the course than it would be with a more transactional offer like the book. The course gives people the opportunity to engage with Harvest on an ongoing basis at a deeper level. And at the same time, it allowed them to instantly support the ministry. By offering people something out of the ordinary that had a higher perceived value, people were much more motivated to give through the course offer than the book.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12664,
+      "experimentId": "3810",
+      "title": "How increasing clarity in email copy affects donor conversion rate",
+      "date": "2018-01-12T20:44:42",
+      "url": "https://www.nextafter.com/experiments/how-increasing-clarity-in-email-copy-affects-donor-conversion-rate/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 55.1,
+      "confidence": 93.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Find out why",
+            "metric": "5.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get your copy",
+            "metric": "8.9%",
+            "lift": "55.1%",
+            "confidence": "93.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will copy with a clearer call-to-action increase donor conversion rate?",
+      "summary": "Timeframe: 04/01/2016 - 05/02/2016\nHarvest Ministries was sending a mid-month update on their fundraising appeal for the month. The offer was a book by Joni Earackson Tada. The control email highly incentivized the click by asking the reader to “find out why” the sender (Greg Laurie) admires Joni, the author of the book. While this might drive a lot of clicks, we’ve seen this approach drive much lower conversion rates, as those who click through are not as motivated to accept the offer.\nWe devised a treatment that moved some of that copy into the email, incentivizing the click by giving them a timely call-to-action to find out how to get their own copy of the book before Mother’s Day.\nThis treatment produced a 58.7% decrease in clickthrough rate, but we wanted to measure conversion on the following donation page to see if those that clicked had a higher motivation to complete the intended transaction.",
+      "keyLearnings": "The clearer call-to-action in the email did produce a 55.1% lift in donor conversion. However, because the email drove much less traffic, the control won in terms of overall revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12670,
+      "experimentId": "900",
+      "title": "How the friction added with website navigation affects conversion rate",
+      "date": "2018-01-12T20:44:35",
+      "url": "https://www.nextafter.com/experiments/how-increasing-urgency-in-email-copy-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": -17.4,
+      "confidence": 91.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Navigation",
+            "metric": "5.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "4.4%",
+            "lift": "-17.4%",
+            "confidence": "91.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding the standard website header and navigation to the landing page ease the concerns of visitors about the cost of the course while not affecting or increasing conversion rate?",
+      "summary": "Timeframe: 03/02/2015 - 03/17/2015\nHillsdale College offers a free, online training series named Constitution 101.  After initially enrolling, participants are sent to a contextualized donation opportunity where we ask for a gift to help support the efforts of Hillsdale.\nThere had been complaints recently that the contextualized donation page gave the impression that the course was not free.  We wanted to alleviate those concerns while not reducing the revenue or conversion rate of the page.",
+      "keyLearnings": "The addition of navigation decreased conversion rate by 17%. Whenever we offer donors the opportunity to explore more areas of the website, we are increasing the likelihood that they will.  While we were trying to decrease anxiety, we inadvertently increased the friction associated with making the gift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12290,
+      "experimentId": "2734",
+      "title": "How increasing the clarity of the value proposition affects donor conversion",
+      "date": "2018-01-12T20:42:33",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-clarity-of-the-value-proposition-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 60.7,
+      "confidence": 93.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.75%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "1.2%",
+            "lift": "60.7%",
+            "confidence": "93.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct copy approach that increases clarity improve donor conversion rate?",
+      "summary": "Timeframe: 12/01/2015 - 12/02/2015\nHarvest Ministries was planning to send fundraising emails on Giving Tuesday. They had crafted an email to the housefile that utilized Greg Laurie’s traditional storytelling style, but wanted to see if a more direct approach that educated their donors about Giving Tuesday would increase results. They tested a new subject line, but also new email copy that took a more direct approach to see if increased clarity improved donor conversion rate.",
+      "keyLearnings": "This showed that our donors respond financially when we are straightforward and direct. This 60% lift in revenue was a product of a subject line test that slightly increased open rate and a copy test that increased both clickthrough rate and donor motivation, as evidenced by this experiment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13754,
+      "experimentId": "2976",
+      "title": "How using a countdown clock in an email appeal impacts donor conversion",
+      "date": "2018-01-12T20:54:23",
+      "url": "https://www.nextafter.com/experiments/how-using-a-countdown-clock-in-an-email-appeal-impact-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -13.7,
+      "confidence": 77.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "CTRL - No countdown clock",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "TRT - With countdown clock",
+            "metric": "0.39%",
+            "lift": "-13.7%",
+            "confidence": "77.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a countdown clock in an email appeal impact conversion?",
+      "summary": "Timeframe: 06/07/2017 - 06/20/2017\nWhile the experiment didn’t validate, the results were leaning towards being valid.\nThe treatment with the countdown clock decreased clicks by 5% and donations by 13%. What this initial data tells us is that the presence of the countdown clock didn’t motivate more people to convert, but possibly created friction in the giving process. There may have been a disconnect between the countdown clock counting down to Harvest America and the call-to-action of the email – which was to give to the fundraising campaign. The clock may also have taken away from the more casual, personal style and tone of the email that we know donors respond best to.",
+      "keyLearnings": "Harvest Ministries had a high-urgency fundraising campaign prior to their  large-scale evangelism event, Harvest America. They sent a series of emails to their house file to acquire donations and revenue. In an effort to increase clicks and donations from their email, they added a countdown clock in their email counting down to the end of the campaign. This element was added to create a greater sense of urgency and motivate more people to click-through and give. They split their email file and sent the control email without the countdown clock and the treatment email with the countdown clock.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12673,
+      "experimentId": "3833",
+      "title": "How contextualization of a premium offer affects conversion",
+      "date": "2018-01-12T20:44:30",
+      "url": "https://www.nextafter.com/experiments/how-contextualization-of-a-premium-offer-affects-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 10.2,
+      "confidence": 44.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "4.0%",
+            "lift": "10.2%",
+            "confidence": "44.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will contextualizing the premium offer increase donor conversion rate?",
+      "summary": "Timeframe: 04/01/2016 - 05/02/2016\nHarvest Ministries was promoting their midmonth premium offer, which was a book by Joni Earackson Tada. The landing page contained the heart of the value proposition and the call-to-action to get the book, which was divided from the rest of the copy by a horizontal line and a subheadline.\nWe hypothesized that the offer would be better contextualized if it was integrated into the copy to provide a seamless reading experience and decrease friction on the page. We created a treatment and ran an A/B test to determine a winner.",
+      "keyLearnings": "The contextualized ask appeared to produce a 10.2% lift, but the experiment was launched late in the appeal and did not receive enough traffic to generate a statistically valid result. We will re-test this in the next premium appeal.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12330,
+      "experimentId": "2845",
+      "title": "How adding a signer affects donor conversion rate",
+      "date": "2018-01-12T20:42:20",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-signer-affects-donor-conversion/",
+      "organization": "Harvest Ministries",
+      "categoryNames": [
+        "Harvest Ministries"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -13.5,
+      "confidence": 76.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "1.1%",
+            "lift": "-13.5%",
+            "confidence": "76.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing branding and adding a picture and signature increase conversion?",
+      "summary": "Timeframe: 12/08/2015 - 12/10/2015\nHarvest Ministries prepared an appeal for their year end campaign that offered a book, “The Biggest Story”, as a premium. They had prepared an email that told a personal story, made a financial ask with a call-to-action button, and then followed up with some information about the premium.\nThe control email was branded with a logo at the top and had no signature. They hypothesized that removing the logo to make the email more personal and adding a picture and signature would increase motivation and decrease anxiety, leading to an increase in conversion rate.",
+      "keyLearnings": "Even though the email was more personal, there was no valid difference in conversion rate for the two emails. However, a closer look shows that the placement of the signature might have affected the results. Since a signature generally indicates the end of a letter, this would necessitate a second test where the signature was placed after the call-to-action button. Additionally, it might increase conversion to add the signer’s printed name and title as well.",
+      "fluxMetrics": null
+    }
+  ]
+}

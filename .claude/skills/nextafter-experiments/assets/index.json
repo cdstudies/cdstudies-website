@@ -1,0 +1,613 @@
+{
+  "generatedAt": "2026-04-17T21:41:53.716Z",
+  "totalExperiments": 4450,
+  "tiers": {
+    "tier1": {
+      "name": "Valid (>=95% confidence)",
+      "filename": "tier-1-valid.json",
+      "total": 2465,
+      "valid": 2465,
+      "directional": 0,
+      "inconclusive": 0,
+      "path": "by-tier/tier-1-valid.json"
+    },
+    "tier2": {
+      "name": "Directional (80-95% confidence)",
+      "filename": "tier-2-directional.json",
+      "total": 613,
+      "valid": 0,
+      "directional": 613,
+      "inconclusive": 0,
+      "path": "by-tier/tier-2-directional.json"
+    },
+    "tier3": {
+      "name": "Inconclusive (<80% confidence)",
+      "filename": "tier-3-inconclusive.json",
+      "total": 1372,
+      "valid": 0,
+      "directional": 0,
+      "inconclusive": 1372,
+      "path": "by-tier/tier-3-inconclusive.json"
+    }
+  },
+  "topics": [
+    {
+      "name": "Donation Pages",
+      "filename": "donation-pages.json",
+      "total": 1391,
+      "valid": 648,
+      "directional": 232,
+      "inconclusive": 511,
+      "path": "by-topic/donation-pages.json"
+    },
+    {
+      "name": "Email Fundraising",
+      "filename": "email-fundraising.json",
+      "total": 513,
+      "valid": 297,
+      "directional": 64,
+      "inconclusive": 152,
+      "path": "by-topic/email-fundraising.json"
+    },
+    {
+      "name": "Email Acquisition",
+      "filename": "email-acquisition.json",
+      "total": 380,
+      "valid": 243,
+      "directional": 41,
+      "inconclusive": 96,
+      "path": "by-topic/email-acquisition.json"
+    },
+    {
+      "name": "Email Subject Lines",
+      "filename": "email-subject-lines.json",
+      "total": 196,
+      "valid": 163,
+      "directional": 9,
+      "inconclusive": 24,
+      "path": "by-topic/email-subject-lines.json"
+    },
+    {
+      "name": "Landing Pages",
+      "filename": "landing-pages.json",
+      "total": 294,
+      "valid": 146,
+      "directional": 44,
+      "inconclusive": 104,
+      "path": "by-topic/landing-pages.json"
+    },
+    {
+      "name": "Facebook & Social Ads",
+      "filename": "facebook-ads.json",
+      "total": 435,
+      "valid": 333,
+      "directional": 45,
+      "inconclusive": 57,
+      "path": "by-topic/facebook-ads.json"
+    },
+    {
+      "name": "Recurring & Monthly Giving",
+      "filename": "recurring-giving.json",
+      "total": 245,
+      "valid": 138,
+      "directional": 29,
+      "inconclusive": 78,
+      "path": "by-topic/recurring-giving.json"
+    },
+    {
+      "name": "Value Proposition & Copy",
+      "filename": "value-proposition.json",
+      "total": 490,
+      "valid": 261,
+      "directional": 77,
+      "inconclusive": 152,
+      "path": "by-topic/value-proposition.json"
+    },
+    {
+      "name": "Gift Arrays & Ask Amounts",
+      "filename": "gift-arrays.json",
+      "total": 172,
+      "valid": 77,
+      "directional": 23,
+      "inconclusive": 72,
+      "path": "by-topic/gift-arrays.json"
+    },
+    {
+      "name": "Calls to Action & Buttons",
+      "filename": "calls-to-action.json",
+      "total": 336,
+      "valid": 166,
+      "directional": 45,
+      "inconclusive": 125,
+      "path": "by-topic/calls-to-action.json"
+    },
+    {
+      "name": "Sticky Bars & Pop-ups",
+      "filename": "sticky-bars-popups.json",
+      "total": 280,
+      "valid": 110,
+      "directional": 37,
+      "inconclusive": 133,
+      "path": "by-topic/sticky-bars-popups.json"
+    },
+    {
+      "name": "Design & Layout",
+      "filename": "design-layout.json",
+      "total": 595,
+      "valid": 296,
+      "directional": 96,
+      "inconclusive": 203,
+      "path": "by-topic/design-layout.json"
+    },
+    {
+      "name": "Urgency & Scarcity",
+      "filename": "urgency-scarcity.json",
+      "total": 268,
+      "valid": 114,
+      "directional": 46,
+      "inconclusive": 108,
+      "path": "by-topic/urgency-scarcity.json"
+    },
+    {
+      "name": "Forms & Fields",
+      "filename": "forms-fields.json",
+      "total": 159,
+      "valid": 77,
+      "directional": 21,
+      "inconclusive": 61,
+      "path": "by-topic/forms-fields.json"
+    },
+    {
+      "name": "Social Proof & Trust",
+      "filename": "social-proof-trust.json",
+      "total": 69,
+      "valid": 30,
+      "directional": 13,
+      "inconclusive": 26,
+      "path": "by-topic/social-proof-trust.json"
+    },
+    {
+      "name": "Revenue Optimization",
+      "filename": "revenue-optimization.json",
+      "total": 455,
+      "valid": 250,
+      "directional": 78,
+      "inconclusive": 127,
+      "path": "by-topic/revenue-optimization.json"
+    },
+    {
+      "name": "Email Open Rates",
+      "filename": "open-rates.json",
+      "total": 202,
+      "valid": 170,
+      "directional": 6,
+      "inconclusive": 26,
+      "path": "by-topic/open-rates.json"
+    },
+    {
+      "name": "Click-Through Rates",
+      "filename": "click-rates.json",
+      "total": 808,
+      "valid": 562,
+      "directional": 74,
+      "inconclusive": 172,
+      "path": "by-topic/click-rates.json"
+    },
+    {
+      "name": "Other / Uncategorized",
+      "filename": "other.json",
+      "total": 580,
+      "valid": 332,
+      "directional": 72,
+      "inconclusive": 176,
+      "path": "by-topic/other.json"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "The Heritage Foundation",
+      "filename": "the-heritage-foundation.json",
+      "total": 424,
+      "valid": 233,
+      "directional": 58,
+      "inconclusive": 133,
+      "path": "by-organization/the-heritage-foundation.json"
+    },
+    {
+      "name": "NextAfter",
+      "filename": "nextafter.json",
+      "total": 328,
+      "valid": 198,
+      "directional": 48,
+      "inconclusive": 82,
+      "path": "by-organization/nextafter.json"
+    },
+    {
+      "name": "CaringBridge",
+      "filename": "caringbridge.json",
+      "total": 314,
+      "valid": 222,
+      "directional": 24,
+      "inconclusive": 68,
+      "path": "by-organization/caringbridge.json"
+    },
+    {
+      "name": "Hillsdale College",
+      "filename": "hillsdale-college.json",
+      "total": 229,
+      "valid": 151,
+      "directional": 26,
+      "inconclusive": 52,
+      "path": "by-organization/hillsdale-college.json"
+    },
+    {
+      "name": "Pathway to Victory",
+      "filename": "pathway-to-victory.json",
+      "total": 198,
+      "valid": 95,
+      "directional": 30,
+      "inconclusive": 73,
+      "path": "by-organization/pathway-to-victory.json"
+    },
+    {
+      "name": "Focus on the Family",
+      "filename": "focus-on-the-family.json",
+      "total": 192,
+      "valid": 104,
+      "directional": 22,
+      "inconclusive": 66,
+      "path": "by-organization/focus-on-the-family.json"
+    },
+    {
+      "name": "Dallas Theological Seminary",
+      "filename": "dallas-theological-seminary.json",
+      "total": 179,
+      "valid": 107,
+      "directional": 30,
+      "inconclusive": 42,
+      "path": "by-organization/dallas-theological-seminary.json"
+    },
+    {
+      "name": "Care Net",
+      "filename": "care-net.json",
+      "total": 166,
+      "valid": 108,
+      "directional": 20,
+      "inconclusive": 38,
+      "path": "by-organization/care-net.json"
+    },
+    {
+      "name": "Buckner International",
+      "filename": "buckner-international.json",
+      "total": 128,
+      "valid": 65,
+      "directional": 20,
+      "inconclusive": 43,
+      "path": "by-organization/buckner-international.json"
+    },
+    {
+      "name": "Hoover Institution",
+      "filename": "hoover-institution.json",
+      "total": 122,
+      "valid": 49,
+      "directional": 29,
+      "inconclusive": 44,
+      "path": "by-organization/hoover-institution.json"
+    },
+    {
+      "name": "The Navigators",
+      "filename": "the-navigators.json",
+      "total": 122,
+      "valid": 44,
+      "directional": 24,
+      "inconclusive": 54,
+      "path": "by-organization/the-navigators.json"
+    },
+    {
+      "name": "Alliance Defending Freedom",
+      "filename": "alliance-defending-freedom.json",
+      "total": 115,
+      "valid": 65,
+      "directional": 17,
+      "inconclusive": 33,
+      "path": "by-organization/alliance-defending-freedom.json"
+    },
+    {
+      "name": "Moody Radio",
+      "filename": "moody-radio.json",
+      "total": 109,
+      "valid": 30,
+      "directional": 18,
+      "inconclusive": 61,
+      "path": "by-organization/moody-radio.json"
+    },
+    {
+      "name": "The Missionary Oblates of Mary Immaculate",
+      "filename": "the-missionary-oblates-of-mary-immaculate.json",
+      "total": 105,
+      "valid": 62,
+      "directional": 11,
+      "inconclusive": 32,
+      "path": "by-organization/the-missionary-oblates-of-mary-immaculate.json"
+    },
+    {
+      "name": "American Cornerstone Institute",
+      "filename": "american-cornerstone-institute.json",
+      "total": 104,
+      "valid": 61,
+      "directional": 8,
+      "inconclusive": 35,
+      "path": "by-organization/american-cornerstone-institute.json"
+    },
+    {
+      "name": "Save the Children",
+      "filename": "save-the-children.json",
+      "total": 85,
+      "valid": 30,
+      "directional": 15,
+      "inconclusive": 40,
+      "path": "by-organization/save-the-children.json"
+    },
+    {
+      "name": "International Mission Board",
+      "filename": "international-mission-board.json",
+      "total": 78,
+      "valid": 23,
+      "directional": 12,
+      "inconclusive": 43,
+      "path": "by-organization/international-mission-board.json"
+    },
+    {
+      "name": "FamilyLife",
+      "filename": "familylife.json",
+      "total": 78,
+      "valid": 40,
+      "directional": 14,
+      "inconclusive": 24,
+      "path": "by-organization/familylife.json"
+    },
+    {
+      "name": "Luther Seminary",
+      "filename": "luther-seminary.json",
+      "total": 76,
+      "valid": 37,
+      "directional": 11,
+      "inconclusive": 28,
+      "path": "by-organization/luther-seminary.json"
+    },
+    {
+      "name": "Reasons to Believe",
+      "filename": "reasons-to-believe.json",
+      "total": 76,
+      "valid": 25,
+      "directional": 18,
+      "inconclusive": 33,
+      "path": "by-organization/reasons-to-believe.json"
+    },
+    {
+      "name": "Americans for Prosperity",
+      "filename": "americans-for-prosperity.json",
+      "total": 75,
+      "valid": 48,
+      "directional": 11,
+      "inconclusive": 16,
+      "path": "by-organization/americans-for-prosperity.json"
+    },
+    {
+      "name": "A Public Media Organization",
+      "filename": "a-public-media-organization.json",
+      "total": 68,
+      "valid": 26,
+      "directional": 13,
+      "inconclusive": 29,
+      "path": "by-organization/a-public-media-organization.json"
+    },
+    {
+      "name": "Harvest Ministries",
+      "filename": "harvest-ministries.json",
+      "total": 68,
+      "valid": 59,
+      "directional": 6,
+      "inconclusive": 3,
+      "path": "by-organization/harvest-ministries.json"
+    },
+    {
+      "name": "Canadian Taxpayers Federation",
+      "filename": "canadian-taxpayers-federation.json",
+      "total": 65,
+      "valid": 31,
+      "directional": 12,
+      "inconclusive": 22,
+      "path": "by-organization/canadian-taxpayers-federation.json"
+    },
+    {
+      "name": "KCBI",
+      "filename": "kcbi.json",
+      "total": 61,
+      "valid": 21,
+      "directional": 11,
+      "inconclusive": 29,
+      "path": "by-organization/kcbi.json"
+    },
+    {
+      "name": "Leadership Institute",
+      "filename": "leadership-institute.json",
+      "total": 61,
+      "valid": 38,
+      "directional": 8,
+      "inconclusive": 15,
+      "path": "by-organization/leadership-institute.json"
+    },
+    {
+      "name": "Live Action",
+      "filename": "live-action.json",
+      "total": 53,
+      "valid": 37,
+      "directional": 4,
+      "inconclusive": 12,
+      "path": "by-organization/live-action.json"
+    },
+    {
+      "name": "Texas Public Policy Foundation",
+      "filename": "texas-public-policy-foundation.json",
+      "total": 50,
+      "valid": 20,
+      "directional": 8,
+      "inconclusive": 22,
+      "path": "by-organization/texas-public-policy-foundation.json"
+    },
+    {
+      "name": "Compassion International",
+      "filename": "compassion-international.json",
+      "total": 47,
+      "valid": 38,
+      "directional": 3,
+      "inconclusive": 6,
+      "path": "by-organization/compassion-international.json"
+    },
+    {
+      "name": "Illinois Policy Institute",
+      "filename": "illinois-policy-institute.json",
+      "total": 44,
+      "valid": 28,
+      "directional": 7,
+      "inconclusive": 9,
+      "path": "by-organization/illinois-policy-institute.json"
+    },
+    {
+      "name": "Texas State Historical Association",
+      "filename": "texas-state-historical-association.json",
+      "total": 42,
+      "valid": 26,
+      "directional": 9,
+      "inconclusive": 7,
+      "path": "by-organization/texas-state-historical-association.json"
+    },
+    {
+      "name": "The Fund for American Studies",
+      "filename": "the-fund-for-american-studies.json",
+      "total": 41,
+      "valid": 23,
+      "directional": 5,
+      "inconclusive": 13,
+      "path": "by-organization/the-fund-for-american-studies.json"
+    },
+    {
+      "name": "The Gospel Coalition",
+      "filename": "the-gospel-coalition.json",
+      "total": 39,
+      "valid": 25,
+      "directional": 6,
+      "inconclusive": 8,
+      "path": "by-organization/the-gospel-coalition.json"
+    },
+    {
+      "name": "Avila Foundation",
+      "filename": "avila-foundation.json",
+      "total": 37,
+      "valid": 14,
+      "directional": 5,
+      "inconclusive": 18,
+      "path": "by-organization/avila-foundation.json"
+    },
+    {
+      "name": "Heritage Action for America",
+      "filename": "heritage-action-for-america.json",
+      "total": 35,
+      "valid": 23,
+      "directional": 2,
+      "inconclusive": 10,
+      "path": "by-organization/heritage-action-for-america.json"
+    },
+    {
+      "name": "Jewish Voice Ministries",
+      "filename": "jewish-voice-ministries.json",
+      "total": 35,
+      "valid": 17,
+      "directional": 4,
+      "inconclusive": 14,
+      "path": "by-organization/jewish-voice-ministries.json"
+    },
+    {
+      "name": "National Breast Cancer Foundation",
+      "filename": "national-breast-cancer-foundation.json",
+      "total": 34,
+      "valid": 26,
+      "directional": 2,
+      "inconclusive": 6,
+      "path": "by-organization/national-breast-cancer-foundation.json"
+    },
+    {
+      "name": "Prison Fellowship International",
+      "filename": "prison-fellowship-international.json",
+      "total": 33,
+      "valid": 9,
+      "directional": 4,
+      "inconclusive": 20,
+      "path": "by-organization/prison-fellowship-international.json"
+    },
+    {
+      "name": "Jews for Jesus",
+      "filename": "jews-for-jesus.json",
+      "total": 28,
+      "valid": 14,
+      "directional": 3,
+      "inconclusive": 11,
+      "path": "by-organization/jews-for-jesus.json"
+    },
+    {
+      "name": "Time of Grace",
+      "filename": "time-of-grace.json",
+      "total": 27,
+      "valid": 12,
+      "directional": 4,
+      "inconclusive": 11,
+      "path": "by-organization/time-of-grace.json"
+    },
+    {
+      "name": "Susan B. Anthony List",
+      "filename": "susan-b-anthony-list.json",
+      "total": 26,
+      "valid": 14,
+      "directional": 3,
+      "inconclusive": 9,
+      "path": "by-organization/susan-b-anthony-list.json"
+    },
+    {
+      "name": "Human Coalition",
+      "filename": "human-coalition.json",
+      "total": 24,
+      "valid": 12,
+      "directional": 6,
+      "inconclusive": 6,
+      "path": "by-organization/human-coalition.json"
+    },
+    {
+      "name": "Boys Town",
+      "filename": "boys-town.json",
+      "total": 23,
+      "valid": 15,
+      "directional": 3,
+      "inconclusive": 5,
+      "path": "by-organization/boys-town.json"
+    },
+    {
+      "name": "e3 Partners",
+      "filename": "e3-partners.json",
+      "total": 20,
+      "valid": 8,
+      "directional": 0,
+      "inconclusive": 12,
+      "path": "by-organization/e3-partners.json"
+    },
+    {
+      "name": "Other (46 organizations)",
+      "filename": "other-organizations.json",
+      "total": 186,
+      "valid": 132,
+      "directional": 19,
+      "inconclusive": 35,
+      "path": "by-organization/other-organizations.json"
+    }
+  ]
+}

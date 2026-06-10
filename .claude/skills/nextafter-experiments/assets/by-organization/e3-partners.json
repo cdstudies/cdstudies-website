@@ -1,0 +1,846 @@
+{
+  "name": "e3 Partners",
+  "total": 20,
+  "tierBreakdown": {
+    "valid": 8,
+    "directional": 0,
+    "inconclusive": 12
+  },
+  "experiments": [
+    {
+      "id": 29157,
+      "experimentId": "92266",
+      "title": "How adding more clarity in the body copy of a landing page affects conversion",
+      "date": "2022-08-15T15:09:51",
+      "url": "https://www.nextafter.com/experiments/how-adding-more-clarity-in-the-body-copy-of-a-landing-page-affects-conversion/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "body copy",
+        "Email Acquisition"
+      ],
+      "tier": 1,
+      "lift": -15.6,
+      "confidence": 98.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "27.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Call Outs",
+            "metric": "23.2%",
+            "lift": "-15.6%",
+            "confidence": "98.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding more clarity to the body copy of a landing page will result in greater conversions.",
+      "summary": "Timeframe: 04/21/2022 - 05/28/2022\nI Am Second is a ministry that uses film to capture the true and authentic story of individuals whose lives have been changed when they put Jesus first in their lives. For this experiment, they wanted to test if adding more clarity into the body copy of the landing page for a popular content offer would result in a greater number of email conversions.",
+      "keyLearnings": "This experiment was validated with a 98.8% Level of Confidence showing a decrease in conversion rate. The practice of adding more clarity into landing page copy has yielded positive results in previous experiments, but in this case we actually saw a decrease in conversion response. Several factors could be at play leading to this decrease...such as the overall layout of the image, form layout, and even too much body copy for this particular audience.\nTo continue to strive for improvement of conversions, we suggest trying a few tactical changes like moving first and last name form fields on the same line, and aligning the image of eBook with the body copy. In addition, we might try adding some social proof to the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 15.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29022,
+      "experimentId": "90357",
+      "title": "How a radical change to a main donation page affects donor conversion",
+      "date": "2022-05-20T18:15:53",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-change-to-a-main-donation-page-affects-donor-conversion/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 96.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "iDonate Treatment",
+            "metric": "8.7%",
+            "lift": "100.0%",
+            "confidence": "96.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing friction from the donation experience for potential donors will achieve a greater number of donor conversions.",
+      "summary": "Timeframe: 04/05/2022 - 05/23/2022\nI Am Second is a ministry that uses film to capture the true and authentic story of individuals whose lives have been changed when they put Jesus first in their lives. I Am Second has huge brand awareness due in large part to the celebrity nature of the film subjects, but they do not put a large focus on fundraising due to legacy donor support.\nUsually, NextAfter suggests making a singular change to a control in order to isolate lift and motivation. In this case, we decided to make a radical change to the main donation page to test the removal of a variety of items that we feel are causing friction. Here is a summary of what was changed:\nWe swapped out donation platforms (keeping the donation form fill on a singular page)\nChanged the headline to align with the organizational value proposition\nRemoved the navigational header\nChanged the body copy to be more donor-centric, vs org centric\nRemoved footer elements\nIt is important to note that the action being tested and tracked was the donate button. As these were two different donation platforms (due to challenges with making changes to the donation pathway testing), we wanted to isolate the actions to just button clicks.",
+      "keyLearnings": "While I am Second does have campaign-specific donor appeals that generate a decent amount of traffic to their campaign-specific donation pages, their main donation page has always been secondary to the overall goal. As such, it does not receive much traffic, and therefore sample sizes can be difficult to achieve validity. However, in this case, we were able to see an 8.7% increase in donor conversions (the donate button click) with a 96.3% level of confidence.\nKey takeaways: While sample sizes are low, we still reached validity in the experiment. However, since we are changing so many things radically, it would be best to work backwards, seeing what we could add back into the page w/out creating more friction. Also, since we used two different donation platforms, it would be interesting to see if we could rerun the experiment on one platform.\nAs I Am Second is undergoing an entire site redesign, they plan on using the learnings from this experiment to guide changes to the new main donation page.\nAdditional observations of the impact on other visitor segments in the experiment:\nReturning  visitors had a 14.3% increase in donations with a 94% level of confidence.Mobile visitors had a 9.7% increase in donations with a 93% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19927,
+      "experimentId": "66578",
+      "title": "How adding value proposition to a donation page can increase donor conversion rate",
+      "date": "2021-08-09T15:03:19",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-donation-page-can-increase-donor-conversion-rate-2/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": -58.3,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.43%",
+            "lift": "-58.3%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding more value proposition copy for those that sign the prayer pledge  will achieve an increase in donor conversion rate.",
+      "summary": "Ended On: 07/15/2021\nWe wanted to test adding value proposition copy that transitioned more from the prayer pledge that they just signed into the e3’s mission. This was tested on the prayer pledge that ran specifically on Facebook.",
+      "keyLearnings": "The biggest takeaway was we need to re-test new Value proposition copy. With the copy we tested, we did see a 58% decrease in conversion. This could be that the original copy header does reiterate that they just signed the pledge and is leading to a higher conversion rate. We are working on updating the new copy and will test this again.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 58.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19376,
+      "experimentId": "63517",
+      "title": "IAS – General Email – April 2021",
+      "date": "2021-06-21T16:00:20",
+      "url": "https://www.nextafter.com/experiments/ias-general-email-april-2021/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "body copy",
+        "email",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 80.7,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "19.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "35.3%",
+            "lift": "80.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that Changing the sender to a name and personalizing the email for our general list will achieve a higher open and click-through rate.",
+      "summary": "Timeframe: 04/28/2021 - 05/13/2021\nControl was a fully-designed, normally formatted Newsletter email coming from I Am Second.\nTreatment #1 was more text-based, with some images, and came from Doug Bender.",
+      "keyLearnings": "Open rate significantly increased. Click through rate was higher on the fully designed control email. So, we will attempt to test the sender name on fully designed emails in the next tests to see if we can improve open and click through rates in the same version.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n80.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19235,
+      "experimentId": "61736",
+      "title": "How having a text based donation page and email vs video affects donor conversion rate",
+      "date": "2021-06-14T18:29:21",
+      "url": "https://www.nextafter.com/experiments/how-having-a-text-based-donation-page-and-email-vs-video-affects-donor-conversion-rate/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "design",
+        "donation page",
+        "layout"
+      ],
+      "tier": 1,
+      "lift": 527.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Video based donation page",
+            "metric": "0.65%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Text based donation page",
+            "metric": "4.1%",
+            "lift": "527.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a text based donation page for those that visit the page will achieve a higher conversion rate and more revenue.",
+      "summary": "Ended On: 05/20/2021\nThis was a campaign geared around raising funds to provide relief efforts to those affected by Covid-19 in India. We wanted to test a video recording of e3’s CEO that showed the devastation happening over in India with an ask to help support the relief efforts vs transcribing the video and having just the copy on the donation page. The video was directly on the donation page with the donation form right below the video and the transcribed copy was in the same spot right above the form.\nThe goal was to test to see if we could get more eyes on what was actually be communicated on the donation page and increase motivation to make a gift by transcribing the video.",
+      "keyLearnings": "We saw a significant lift with the text-based copy with both conversion rate and revenue. The hypothesis is more people are apt to read the copy on a donation page rather than click to watch a 3 min. video. With the text copy, we learned that you don't need video to communicate the devastation/emotion of what was happening in India and move someone to donate.\nHere are the overall results including revenue:\nVideodonation page\nGifts: 11Revenue: $1,732Avg gift: $157.45\nText donation page\nGifts: 68Revenue: $12,259Avg gift: $180.27\nBecause of these great results, it helped motivate e3 (who is heavily video-based) to do a resend of the email with just the text-only version.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 527.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19381,
+      "experimentId": "63518",
+      "title": "IAS – General Email – March 2021",
+      "date": "2021-06-10T18:58:52",
+      "url": "https://www.nextafter.com/experiments/ias-general-email-march-2021-2/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "design",
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "sender"
+      ],
+      "tier": 1,
+      "lift": 48.9,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "17.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "25.7%",
+            "lift": "48.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the sender and using plain text for our general list will achieve a higher open rate.",
+      "summary": "Timeframe: 03/23/2021 - 04/06/2021\nControl was a fully designed, normal Newsletter format coming from I Am Second.\nTreatment #1 was a completely plain-text and personalized Newsletter coming from Doug Bender",
+      "keyLearnings": "Treatment #1 increased the open rate, as was hypothesized. Click-through rate was higher in the fully-designed email. We moved forward by testing a combination of a plain-text email with more visuals against the control in the next General newsletter.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n48.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19391,
+      "experimentId": "63519",
+      "title": "IAS – General Email – February 2021",
+      "date": "2021-06-10T18:58:22",
+      "url": "https://www.nextafter.com/experiments/ias-general-email-february-2021/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "design",
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "sender"
+      ],
+      "tier": 1,
+      "lift": 66.6,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "25.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "42.8%",
+            "lift": "66.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing sender and using plain-text for our general list will achieve a higher open rate.",
+      "summary": "Timeframe: 02/23/2021 - 03/09/2021\nControl was our normal, fully designed newsletter format from I Am Second.\nTreatment #1 was a fully plain-text email coming from Doug.",
+      "keyLearnings": "Open rate was higher on Treatment #1, but Click-through late was much higher on the control. We will continue testing this to see if it changes.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n66.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19382,
+      "experimentId": "63518",
+      "title": "IAS – General Email – March 2021",
+      "date": "2021-06-10T18:57:47",
+      "url": "https://www.nextafter.com/experiments/ias-general-email-march-2021/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "design",
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "sender"
+      ],
+      "tier": 1,
+      "lift": 48.9,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "17.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "25.7%",
+            "lift": "48.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the sender and using plain text for our general list will achieve a higher open rate.",
+      "summary": "Ended On: 06/09/2021\nControl was a fully designed, normal Newsletter format coming from I Am Second.\nTreatment #1 was a completely plain-text and personalized Newsletter coming from Doug Bender",
+      "keyLearnings": "Treatment #1 increased the open rate, as was hypothesized. Click-through rate was higher in the fully-designed email. We moved forward by testing a combination of a plain-text email with more visuals against the control in the next General newsletter.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n48.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 31605,
+      "experimentId": "97357",
+      "title": "How adding more clarity into a headline affects email conversions",
+      "date": "2022-08-24T21:35:42",
+      "url": "https://www.nextafter.com/experiments/how-adding-clarity-to-a-headline-and-connecting-it-to-scripture-affects-email-conversions/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "clarity",
+        "Email Acquisition | Headline",
+        "landing page"
+      ],
+      "tier": 3,
+      "lift": 9.5,
+      "confidence": 63.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "33.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New headline and scripture",
+            "metric": "36.2%",
+            "lift": "9.5%",
+            "confidence": "63.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding more clarity into the headline of a content offer will result in a higher number of email conversions",
+      "summary": "Timeframe: 06/15/2022 - 09/16/2022\nI Am Second is committed to helping people be authentic and genuine—both with God and with others. For this experiment, they wanted to see if they could increase the number of emails they collect on a content offer landing page. They hypothesized that a headline that gave more clarity into what the subscriber would receive would yield a higher number of emails than the control that was good, but lacked full clarity into what the reader would actually gain by downloading the resource.",
+      "keyLearnings": "As hypothesized, the headline clarity resulted in a 9.5% increase in email acquisitions. Although greater than the control, due to the experiment not getting at least a 95% LoC or greater, we cannot say with full certainty that the treatment had a true measurable effect. In addition, we normally only like to make one change to an experiment to isolate results...and this particular experiment changed both the headline and added an additional supporting sub-headine. While one could argue that the sub-headline further aligned with the headline, providing even more clarity...it cannot be proven as this test had too many variable changed. For future tests, it would be better only to change one element, or if time/urgency is a factor, do a three-way test that has a control, and two variants to see if both of these changes actually add to the increase. It is also important to note that this organization rarely gets enough traffic actually to validate tests with true statistical significance, but even still there are learnings to be had...as shown above.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 31615,
+      "experimentId": "96708",
+      "title": "How adding more clarity and recency copy to a headline on a landing page affects email conversions",
+      "date": "2022-08-24T21:34:23",
+      "url": "https://www.nextafter.com/experiments/how-adding-more-clarity-and-recency-copy-to-a-headline-on-a-landing-page-affects-email-conversions/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "clarity",
+        "Email Acquisition",
+        "Email Acquisition | Headline",
+        "landing page"
+      ],
+      "tier": 3,
+      "lift": 205.8,
+      "confidence": 69,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.21%",
+            "lift": "205.8%",
+            "confidence": "69.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding more clarity into a landing page headline, and aligning the message with recent events will result in higher email conversions.",
+      "summary": "Timeframe: 06/07/2022 - 08/27/2022\ne3 Partners equips believers to take ownership of the Great Commission. They send believers into local and global communities to evangelize the lost, and they partner with believers to establish new churches across the globe. For this experiment, e3 wanted to test adding clarity and recency copy to their headline on an email acquisition landing page. The control headline had been used for a while and had good results, but after seeing other experiments that tested tried and true content offer copy, they decided to try it on their previously good performing content offer – prayers for the overwhelmed. Since this test ran during a period of societal uncertainty with recent tragedies in the news, inflation fears, and world unrest, we felt it was a prime opportunity to adjust the headline copy to reflect these worldwide events, while still remaining generic enough to stay evergreen.",
+      "keyLearnings": "While we did not have enough traffic to validate the experiment, we did see a 206% increase in conversions for the treatment with a 69% level of confidence. This was a very small sample size, but we did not see a negative effect on any of the channels. Due to this, we decided to role this out oas the new control. The next steps in the experiment might be to test some tactical elements, like testimonials or social proof that aligns with the recency copy.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 31628,
+      "experimentId": "95491",
+      "title": "How adding more value proposition to the headline and body copy affect conversions for new users",
+      "date": "2022-08-24T21:32:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-more-value-proposition-to-the-headline-and-body-copy-affect-conversions-for-new-users/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "body copy",
+        "Email Acquisition | Headline",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 2.7,
+      "confidence": 40.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "37.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Headline + Body Copy",
+            "metric": "38.9%",
+            "lift": "2.7%",
+            "confidence": "40.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding more value proposition to the headline and body copy of a landing page will yield better conversion metrics.",
+      "summary": "Timeframe: 05/27/2022 - 08/27/2022\nI Am Second is a ministry that uses film to capture the true and authentic story of individuals whose lives have been changed when they put Jesus first in their lives. For this experiment, they wanted to test if adding more value proposition into the headline and body copy of the email acquisition landing page for a popular content offer would result in a greater number of email conversions. While the control was very clear, the treatment alluded that the resource would provide a “blueprint for success”…thus potentially eliminating complexity. This came from comments from new readers that prayer life can sometimes be complicated, so we wanted to see how the treatment affected new visitors.",
+      "keyLearnings": "This experiment had a very slight lift of just 3% with a 40% level of confidence. The results were inconclusive as the experiment did not have enough samples or LoC to validate. Since we did not see a directional lift, we cannot say if this experiment had any positive impact. As the experiment did have an adverse effect on returning visitors, future iterations of this experiment might be limited to just new visitors.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 31596,
+      "experimentId": "73863",
+      "title": "How adding more value proposition to a donation page affects donor conversions",
+      "date": "2022-08-24T19:19:02",
+      "url": "https://www.nextafter.com/experiments/how-adding-more-value-proposition-to-a-donation-page-affects-donor-conversions/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 8.2,
+      "confidence": 8.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Value Prop",
+            "metric": "1.2%",
+            "lift": "8.2%",
+            "confidence": "8.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding more value proposition statements into the body copy of a donation page will achieve a greater donor conversion.",
+      "summary": "Timeframe: 10/21/2021 - 01/22/2022\nI Am Second is a ministry that uses film to capture the true and authentic story of individuals whose lives have been changed when they put Jesus first in their lives. For this experiment, they wanted to test if changing the body copy of the donation page to infuse more value proposition statements that align with the beliefs and values of the org would result in a greater number of donor conversions.",
+      "keyLearnings": "This experiment had a very small lift of 8% with about a 9% LoC. The results from this experiment were inconclusive and not valid due to a low LoC and small sample size. While we have plenty of experiments that validate for increased value proposition where we connect the \"why\", this [particular experiment probably had too many variables within the copy to have a bigger impact. Future versions of this experiment might be to shorten the body copy and to limit the amount of value proposition statements to focus attention on one thing.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 31583,
+      "experimentId": "103613",
+      "title": "How personalizing the name in the headline of a donation page affects donor conversion",
+      "date": "2022-08-24T19:17:51",
+      "url": "https://www.nextafter.com/experiments/how-personalizing-the-name-in-the-headline-of-a-donation-page-affects-donor-conversion/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -54.2,
+      "confidence": 76.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donation Page Treatment",
+            "metric": "0.73%",
+            "lift": "-54.2%",
+            "confidence": "76.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding personalization to a donation page for potential donors will achieve a higher number of donations..",
+      "summary": "Timeframe: 08/10/2022 - 08/27/2022\nI Am Second is a ministry that uses film to capture the true and authentic story of individuals whose lives have been changed when they put Jesus first in their lives. They strive to make a personal connection to the donors that support them. For this experiment, they wanted to test if personalizing the name in the headline of an instant donation page would lead to a higher number of donations. I Am Second uses a CRM that allows variables like [first_name] to be passed from the CRM to the Donation page. For this experiment, the first name from the email landing page was passed to the donation page and added to the headline of the page upon a successful name and email acquisition.",
+      "keyLearnings": "This experiment ran for a 2 week period and did not validate based on a low level of confidence and small sample size. However, even with a decrease in lift of 54%, we learned that certain segments of the audience had vastly different results. In desktop, there were 0 donations with very little traffic. In fact, every donation during the test period happened via mobile, with the majority of traffic. While this did not have the desired effect we were looking for, we did find some interesting learnings.\nMobile had 794 samples, where desktop only had 16 samples\n \tMobile received 4800% more traffic\n \tQuestions:\n \tSince we are getting mostly mobile traffic, what can we do to convert more of it?\n \tWhat is the experience like on a mobile device?\n \tHow can we reduce friction in a mobile environment to increase our chances at converting more of that traffic into donors?",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28123,
+      "experimentId": "78969",
+      "title": "How donor-centric language on a survey confirmation page can lead to increased giving",
+      "date": "2022-04-21T21:34:01",
+      "url": "https://www.nextafter.com/experiments/how-donor-centric-language-on-a-survey-confirmation-page-can-lead-to-increased-giving/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 107.2,
+      "confidence": 77.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donor-Centric Copy Changes",
+            "metric": "2.9%",
+            "lift": "107.2%",
+            "confidence": "77.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that copy on a survey confirmation page that connects more deeply with the survey participants will lead to increased giving when presented the opportunity.",
+      "summary": "Timeframe: 12/08/2021 - 01/04/2022\nThe team at I Am Second ran a calendar year end survey to it’s email file. The survey is a common strategy used during high urgency campaigns, particularly during CYE, getting people to agree and affirm the mission of the organization. After successfully completing a survey, the survey recipient is taken to a confirmation landing page, where they are thanked for their responses, reminded of the mission of the org, and then presented with an opportunity to make a gift.\nThe team wanted to test language that was LESS about the organization, and MORE about a connection with the donor. The only changes to the treatment were the headline, body copy, and a more succinct CTA. The bullet points that detail how the gift will be used remained the same as the control.",
+      "keyLearnings": "While the experiment did not validate due to a smaller than required sample size, and the level of confidence was below 95%, we did have some pivotal learnings.\nWhile donations from all traffic saw around a ~37% lift with a 48.3% LoC, donations from NEW visitors saw ~ a 107% increase with a 78% level of confidence.\nKey Takeaways: By including language that more deeply connects with the potential donor, I Am Second was able to increase their gifts from people that connected with their mission, using momentum to confirm those affirmations, and motivate the donor to take action immediately after survey completion. Also, the doubling of donations on the treatment for the new visitor segment may be a result of all the value prop work the team has been integrating for the new name acquisition file, thus showing that continued cultivation and value re-enforcement can lead to greater financial impact for the org.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27997,
+      "experimentId": "89889",
+      "title": "How changing the layout of a campaign donation page affects donations",
+      "date": "2022-04-18T12:58:29",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-layout-of-a-campaign-donation-page-affects-donations/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 22.5,
+      "confidence": 47.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Two Column Layout",
+            "metric": "5.9%",
+            "lift": "22.5%",
+            "confidence": "47.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a 2 column layout on a campaign donation page for potential donors visiting the campaign donation page during a HUC will achieve a greater number of donations.",
+      "summary": "Timeframe: 03/22/2022 - 04/20/2022\nDuring a high urgency fiscal year end campaign, e3 Partners wanted to test a 2 column layout on a campaign donation page to see if there was an appreciable difference in total donations. The control would have a single column layout with a donation form at the bottom. The treatment would have a donation form on the right side of the copy. It is worth noting that the mobile version would default to a single column layout with a donation form at the bottom to provide a better user experience.",
+      "keyLearnings": "Key takeaways from this experiment were:\nThe timeframe was too short to get any statistical significance A small increase in conversions was not enough to make a judgement either wayIt is worth continuing to experiment with layouts\nObservations of the impact on other visitor segments in the experiment:\nTablet visitors had a 23.1% increase in donations with a 95% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28002,
+      "experimentId": "89668",
+      "title": "How adding urgency copy w/ a specific ask affects donations",
+      "date": "2022-04-18T12:57:06",
+      "url": "https://www.nextafter.com/experiments/how-adding-urgency-copy-w-a-specific-ask-affects-donations/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 106.7,
+      "confidence": 77.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "FYE22: IAS SB - Control",
+            "metric": "0.48%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "FYE22: IAS SB - Variant (Urgency)",
+            "metric": "1.00%",
+            "lift": "106.7%",
+            "confidence": "77.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for a specific $ amount and specific number of donors for People visiting the website will achieve A higher number of donations than a less specific ask..",
+      "summary": "Timeframe: 03/30/2022 - 04/04/2022\nI Am Second wanted to see if changing the copy to have a sense of urgency with a specific ask would increase donations when added to a pop up. For the high urgency fiscal year end (FYE) campaign, IAS ran an experiment with 2 versions of a sticky bar pop up that asked for support.\nIn the control version, the copy asked if the potential donor would make a donation by Midnight on March 31st (IAS FYE). In the treatment version, there was specific copy that asked for “10 people to give $50 by midnight”.\nThe goal was to see if using a smaller believable amount of people and $ amount needed by a specific time would lead to more donations.",
+      "keyLearnings": "While the experiment did not reach statistical validity due to not enough sample size, we did have some positive learnings. We saw a 106.7% increase in donations overall during this very short timeframe. While we saw a 77% Level of Confidence in these results, we did not have a large enough sample size to draw any concrete resolutions. However, we saw enough directional lift to say that this tactic would be worth experimenting with again on future campaigns.\nChanges to future experiments may include a phased approach to urgency, where we start with a more generic ask similar to the control, then switch to a version similar to the treatment version with more specificity closer to the close of a high urgency campaign…to have more credibility. After-all…urgency cannot be sped up, only highlighted.\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 275.3% increase with a 96% level of confidence.\nObservations of the impact on other visitor segments in the experiment:\nOrganic Search visitors had a 2.0% increase in donations with a 92% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28015,
+      "experimentId": "86203",
+      "title": "How changing the content offer affects email acquisition for new visitors",
+      "date": "2022-04-18T12:55:40",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-content-offer-affects-email-acquisition-for-new-visitors/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 11.2,
+      "confidence": 71.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Breaking off the Past",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "5 Steps to a Better Prayer Life",
+            "metric": "1.2%",
+            "lift": "11.2%",
+            "confidence": "71.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the content offer on a pop-up for new visitors will achieve a higher email conversion.",
+      "summary": "Timeframe: 02/23/2022 - 04/20/2022\nIn this experiment, I Am Second wanted to see if changing the content offer within a pop-up would result in a higher number of email conversions for the treatment, specifically with new visitors. In the control, the offer was for a free guide about “struggling with the past”. In the treatment, the offer was for a free guide about “improving your prayer life.”",
+      "keyLearnings": "In this experiment, the goal was to see if a different offer could yield greater email acquisition from new visitors. However, the results were inconclusive. The test did not reach statistical significance with too small of a sample size, even though it ran for 2 months. Also, the level of confidence was below 95%, so the test could not validate.\n\nFor future tests, we would recommend running a single offer targeted to new users, with a value prop that might resonate with a new visitor…something with more exclusivity and clarity.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27547,
+      "experimentId": "87643",
+      "title": "How improving clarity of message affects email acquisition for returning visitors",
+      "date": "2022-04-08T18:39:24",
+      "url": "https://www.nextafter.com/experiments/how-improving-clarity-of-message-affects-email-acquisition-for-returning-visitors/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 20.6,
+      "confidence": 73.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Shorter copy",
+            "metric": "3.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Longer copy w/ clear value articulation",
+            "metric": "4.6%",
+            "lift": "20.6%",
+            "confidence": "73.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding clear value articulation in the pop-up copy as to why you should join the community will achieve a greater number of sign-ups to the community (email acquisition) for returning visitors to the film pages.",
+      "summary": "Timeframe: 03/07/2022 - 04/10/2022\nI Am Second has a goal of getting visitors to join their free community portal to gain access to more content, film archives, and access to life coaching. The experiment was set up to show a pop-up to returning visitors of their popular film pages, with the goal of getting them to join the community for greater engagement.\nI Am Second wanted to know if adding clearer copy (w/ greater value articulation) to a pop-up shown to returning visitors would result in greater sign-ups to a community “portal”…even if it meant more text.\nThe experiment consisted of:\na control with a pop up with a shorter – to the point copy\na treatment with longer copy that articulated the “why’s” behind joining the community",
+      "keyLearnings": "This experiment ran for just over a month, and while the original goal was not statistically valid due to not enough returning visitors to see statistical significance and only a 73.8% Level of Confidence, there were some practical learnings we took away from this test. We did see over a 20% lift in emails acquired on the treatment, and week over week - we saw trends moving upwards to higher LoC's.\n\nWhile we cannot definitively say that the longer copy with greater value articulation was the only factor to increasing email signups to the community, we can say (based on numerous other similar experiments run for other NextAfter clients) that it would be worth continuing to test clear messaging strategies when trying to get a visitor to take a specific action.\n\nThe key to strengthening value proposition includes the elements of appeal, exclusivity, clarity, and credibility. This experiment really focused the value proposition around the first three factors, in an effort to increase the strength of the message and the likelihood that a returning visitor would respond and take action.\n\nAs the goal of the experiment was to see if we could increase email sign-ups to the community from returning visitors, a future test idea might be to acknowledge the returning visitor with language like \"Welcome back\" or \"Nice to see you again\", etc.\n\nObservations of the impact on other visitor segments in the experiment:\nMobile visitors had a 27.9% increase in email acquisition with a 93% level of confidence.\n \tEmail visitors had a 162.9% increase in email acquisition with a 99% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 25504,
+      "experimentId": "83525",
+      "title": "How Adding Additional Value Proposition on a Donation Page Can Increase Revenue",
+      "date": "2022-01-28T14:14:39",
+      "url": "https://www.nextafter.com/experiments/how-adding-additional-value-proposition-on-a-donation-page-can-increase-revenue/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 26.8,
+      "confidence": 51.4,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.09",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.11",
+            "lift": "26.8%",
+            "confidence": "51.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an additional value proposition for prayer pledge signers will achieve an increase in the revenue or the number of donors for this offer.",
+      "summary": "Ended On: 01/28/2022\ne3 Partners Ministry created a Prayer Pledge as a content offer and has seen significant positive results in terms of name acquisition ($0.17 gross cost per email). However, the instant donor conversion rate is incredibly low (0.2%).\nFor this test, e3 Partners implemented added value proposition to their donation page to see if it would increase donors acquired or overall revenue.",
+      "keyLearnings": "This test involved adding a single line of copy with an additional value proposition at the end of the copy, just above the donation form. Otherwise, the copy was the same. It would be worthwhile to do a more radical test on the donation page, further aligning with the sentiment of that last sentence, as well as incorporating ongoing initiatives to increase urgency.\n \tThis test was run prior to the optimization of their acquisition efforts within Facebook, including more effective targeting, resulting in an even lower cost per click and lower cost per name. It would be interesting to see how instant donor conversion would be impacted if more clear value propositions were incorporated with the influx of new people coming through the funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 20946,
+      "experimentId": "73688",
+      "title": "IAS – General Email (September 2021)",
+      "date": "2021-11-02T14:39:53",
+      "url": "https://www.nextafter.com/experiments/ias-general-email-september-2021/",
+      "organization": "e3 Partners",
+      "categoryNames": [
+        "e3 Partners"
+      ],
+      "tagNames": [
+        "email",
+        "email sender"
+      ],
+      "tier": 3,
+      "lift": -8.4,
+      "confidence": 62.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.65%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.59%",
+            "lift": "-8.4%",
+            "confidence": "62.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that having a personalized sender for our general file will achieve higher engagement.",
+      "summary": "Timeframe: 09/28/2021 - 10/05/2021\nIn this experiment, we wanted to see how the sender name would affect engagement.",
+      "keyLearnings": "We were not able to validate the experiment due to the small sample size. Next time, we will do a 50/50 split test",
+      "fluxMetrics": null
+    }
+  ]
+}

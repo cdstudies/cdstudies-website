@@ -1,0 +1,1394 @@
+{
+  "name": "Prison Fellowship International",
+  "total": 33,
+  "tierBreakdown": {
+    "valid": 9,
+    "directional": 4,
+    "inconclusive": 20
+  },
+  "experiments": [
+    {
+      "id": 52665,
+      "experimentId": "144770",
+      "title": "How asking for personal information before payment information on a donation page affects donor conversion",
+      "date": "2023-05-30T02:53:55",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-personal-information-before-payment-information-on-a-donation-page-affects-donor-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -64.3,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "53.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Complete 2",
+            "metric": "19.2%",
+            "lift": "-64.3%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for personal information first for potential donors will achieve a higher donor conversion rate because asking for personal information demonstrates a genuine interest in establishing a relationship beyond just receiving financial contributions, which can build trust and credibility with potential donors.",
+      "summary": "Timeframe: 04/12/2023 - 04/20/2023\nPrison Fellowship International wanted to test asking for the donor’s personal information first on the donation page rather than asking for the credit card information first.",
+      "keyLearnings": "The key learning from this experiment is that asking for personal information first on the donation page led to a significant decrease in donations for Prison Fellowship International. The control group, which had the credit card information form first, performed better than the treatment group by 64.3% with 99.5% statistical confidence. Furthermore, the treatment group had decreased revenue and donations across all types of visitors, such as returning, direct, and organic search visitors, as well as mobile and desktop visitors.\n\nWe believe the treatment page performed worse because it was easy for people to provide their personal information first, but by the time they got to the credit card information, they had too much time to think about the process which caused them to bounce from the page. By asking for the credit card information first, you're asking them to get the hard details out of the way and by the time they hit the donate button, it is less transactional.\n\nAlthough we can pull assumptions from this experiment, we recommend testing this concept again since it only received 19 gifts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 64.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 47778,
+      "experimentId": "111049",
+      "title": "How adding a $60 giving option to the Lamplighters monthly gift array impacted donations and revenue",
+      "date": "2022-11-16T21:36:26",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-60-giving-option-to-the-lamplighters-monthly-gift-array-impacted-donations-and-revenue/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "gift array"
+      ],
+      "tier": 1,
+      "lift": 114,
+      "confidence": 98.3,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.65",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$60 Option",
+            "metric": "$1.38",
+            "lift": "114.0%",
+            "confidence": "98.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a third monthly giving option as an “in-between” amount  for potential donors will achieve an increase in donations and revenue as it will reduce giving friction.",
+      "summary": "Timeframe: 10/19/2022 - 11/19/2022\nThe PFI Lamplighters program gives people the opportunity to support prisoners in ways that help them become closer to God. The current monthly giving options for Lamplighters are $15 to support one prisoner and $165 to support an entire class. We hypothesized that adding a middle amount as a giving option would reduce giving friction, giving donors an additional option that might nestle in nicely between an amount that is too low or not impactful enough and an amount that is too high.\nTo test this hypothesis, we added a $60 monthly giving option to support four prisoners.",
+      "keyLearnings": "Adding the $60 giving option to the monthly giving gift array resulted in a 79.3% lift in revenue with a 97.6% level of confidence. Donations saw an 11.8% decrease but only with a 54.4% level of confidence.\nThe impressive increase in revenue tells us that users responded very well to seeing a third giving option between $15 and $165. The $60 option reduced decision friction to where the donor did not have to think of an amount to settle in between the extremes of $15 and $165 - instead, the option was presented to them! Additionally, the $60 option will bring up our average monthly gift.\nIt's worth noting that new visitors produced a 114% lift in revenue with a 98.3% level of confidence. This tells us that people that are less familiar with the Lamplighters program appreciate the $60 giving option, as they're likely too new to the program to be willing to make a $165 monthly donation. But they are willing to commit $60/month to the program.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 17.6% increase in conversion rate\n\t\t\t\t× 82.1% increase in average gift\n\t\t\t\t\t\t\t\t\t114.0% increase in revenue"
+    },
+    {
+      "id": 34773,
+      "experimentId": "37846",
+      "title": "How adding value proposition and details of impact affect sponsorship conversion",
+      "date": "2022-11-07T15:53:28",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-and-details-of-impact-affect-sponsorship-conversion-2/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 68.7,
+      "confidence": 95.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personalized Donation Page",
+            "metric": "1.8%",
+            "lift": "68.7%",
+            "confidence": "95.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We hypothesize that adding more information about the personal and direct impact a sponsor has for that child will increase the likelihood for that donor to sponsor.",
+      "summary": "Timeframe: 10/22/2020 - 11/27/2020\nPFI launched a new digital campaign to acquire sponsorships. Our first hypothesis was that the value proposition on the page was brief and generic to sponsorship rather than specific to the child. So we updated the headline to include more value proposition and then laid out for the reader exactly how they would change that specific child’s life.",
+      "keyLearnings": "We had to do a few iterations of this test and it was touch and go for a bit. In the end, the iterations did increase sponsorships by 68%. We posit that showing the direct impact and the value of a monthly sponsorship gift does increase conversion. But we think we can do better and will continue to test.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 68.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 34785,
+      "experimentId": "40956",
+      "title": "How removing design elements from an email affects open rates",
+      "date": "2022-11-03T20:44:50",
+      "url": "https://www.nextafter.com/experiments/how-removing-design-elements-from-an-email-affects-open-rates/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Email Fundraising | Design",
+        "open rate"
+      ],
+      "tier": 1,
+      "lift": 23.5,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "37.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "46.2%",
+            "lift": "23.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We posited that removing the design elements from the email would increase the open rate.",
+      "summary": "Timeframe: 11/26/2020 - 11/26/2020\nPFI’s sent out a Thanksgiving message from their CEO talking about the importance of prison ministry and thanking their constituents for helping change lives. Their emails are typically highly graphically designed, but we wanted to test a plain text email against their usual design. Experience has shown that typically removing design elements increases open rates and click through rates, because those emails are easier to inbox as well as more personal.",
+      "keyLearnings": "This experiment was valid in determining that plain text emails have a higher open rate for PFI than highly designed email templates. We know that design elements typically decrease email making it into inboxes. This seems to have held true in this test. We also tested the click through rate for these emails and found an increase, however it did not validate at a 69% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n23.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 34774,
+      "experimentId": "37846",
+      "title": "How adding value proposition and details of impact affect sponsorship conversion",
+      "date": "2022-10-31T15:11:50",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-and-details-of-impact-affect-sponsorship-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 68.7,
+      "confidence": 95.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personalized Donation Page",
+            "metric": "1.8%",
+            "lift": "68.7%",
+            "confidence": "95.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We hypothesize that adding more information about the personal and direct impact a sponsor has for that child will increase the likelihood for that donor to sponsor.",
+      "summary": "Timeframe: 10/22/2020 - 11/27/2020\nPFI launched a new digital campaign to acquire sponsorships. Our first hypothesis was that the value proposition on the page was brief and generic to sponsorship rather than specific to the child. So we updated the headline to include more value proposition and then laid out for the reader exactly how they would change that specific child’s life.",
+      "keyLearnings": "We had to do a few iterations of this test and it was touch and go for a bit. In the end, the iterations did increase sponsorships by 68%. We posit that showing the direct impact and the value of a monthly sponsorship gift does increase conversion. But we think we can do better and will continue to test.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 68.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25897,
+      "experimentId": "79456",
+      "title": "How clarifying the intended action and donation amount affects sponsor conversion rate",
+      "date": "2022-02-25T17:00:35",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-the-intended-action-and-donation-amount-affects-sponsor-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 126.5,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.92%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tabbed forms",
+            "metric": "2.1%",
+            "lift": "126.5%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that reinforcing the ask amount and call to action for people who click the main CTA will achieve an increase in completed sponsorships.",
+      "summary": "Timeframe: 12/14/2021 - 01/11/2022\nPrison Fellowship International had been running heavy acquisition for online sponsorship acquisition for more than a year. At the top of the page, people were introduced to a child and given the chance to sponsor them. When they clicked the “sponsor now” button, they were taken to a re-skinned RaiseDonors form at the bottom.\nThe team noticed upon examination that once you reached the bottom of the page, the form didn’t look like a traditional donation form. First, there was no price or array. This was because sponsorship only has one price ($39/month). So the team set up a treatment that installed a single button, preselected, for $39/month to reinforce the ask amount.\nThere was one more missing link between the top and the bottom of the page: the intended action was not repeated. Even though they clicked “sponsor now” to get down there, it was disorienting to have no ask amount and no CTA. They added the language “Sponsor [ChildName] Now”. Once they did that, they added another tab to the form that gave the donor an out from the $39/monthly gift—”give a one-time gift”. This defaulted to an array which could possibly attract additional revenue from people who were not ready to commit to a sponsorship.",
+      "keyLearnings": "The changes to the donation form produced a 126.5% increase in conversion. This revealed that there was confusion and disorientation in the mind of the donor once they got to the bottom of the page. The added language and reinforced CTA and price point helped more people finish the process. In fact, some amount of this conversion increase was just because it was visually clear that it was a donation form.\nSurprisingly, during the test period, the extra tab did not generate any additional gifts, although since the treatment was rolled out, it has generated several hundred dollars in revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 126.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 23636,
+      "experimentId": "78943",
+      "title": "How reducing friction and bringing the problem to the headline affect conversion rate on desktop devices",
+      "date": "2021-12-16T15:26:11",
+      "url": "https://www.nextafter.com/experiments/how-reducing-friction-and-bringing-the-problem-to-the-headline-affect-conversion-rate-on-desktop-devices/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 199.1,
+      "confidence": 95.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.5%",
+            "lift": "199.1%",
+            "confidence": "95.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that bringing the problem into the headline and streamlining the donation experience  for child page visitors will achieve an increase in conversion rate.",
+      "summary": "Timeframe: 08/26/2021 - 10/14/2021\nPFI had been running ads promoting child sponsorship for many months, and had seen a predictably low conversion rate, as a monthly ask of $39 is a high bar for many donors.\nWanting to improve conversion on their sponsorship pages, they tested two changes at once. First they looked at the headline, which appeared somewhat vague. They wondered if presenting the problem in the headline—that the child was in prison—would increase motivation to step in and help through sponsorship.\nSecondly, when the sponsor was ready to commit, they had two options: they could either scroll all the way down the page past a large amount of copy and a “view more children” button, or hit a sponsor now button that, on desktop, was all the way to the right of the page and would scroll them to the bottom. Once arriving at the bottom of the page, there was a lack of orientation as to what to do.\nThey decided to test bringing the donation form all the way up to the top of the page, under the copy, so that it was right in front of the user as they made the decision to give. They also linked the copy to the form through a call-to-action headline.\nThey made both of these changes at once and launched an experiment to discover the impact on conversion.",
+      "keyLearnings": "At first the results of the test looked flat, or trending slightly downward...\nHowever, splitting the traffic into desktop and mobile revealed something fascinating. The treatment produced a 199% valid lift in conversion for desktop devices, which make up 39% of conversions....which is being offset by a 51% near-valid decrease in conversion for mobile devices, which make up 61% of conversions.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 199.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20665,
+      "experimentId": "71469",
+      "title": "How clarifying and reinforcing the monthly ask affected revenue per visitor",
+      "date": "2021-09-09T15:59:10",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-and-reinforcing-the-monthly-ask-affected-revenue-per-visitor/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "donation page",
+        "Friction",
+        "gift array",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 143,
+      "confidence": 99.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.87",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$2.11",
+            "lift": "143.0%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that clarifying and reinforcing the monthly ask for prospective donors will achieve an increase in monthly donor conversion.",
+      "summary": "Ended On: 09/07/2021\nPrison Fellowship International wanted to increase their monthly donor conversion rate for their Lamplighter prison ministry program. In reviewing the page, they found two key opportunities to optimize conversion. First, they hypothesized the design of the “one-time” or “monthly” selector might be making it unclear to the viewer which option was selected. To attempt to make this clearer, they changed the color and added a checkbox to increase visual certainty as to which option was selected.\nThen, in an attempt to increase the percentage of donors who selected a monthly gift, they added an image and a text callout that reinforced the benefits of giving a monthly gift for the organization and for the donor.",
+      "keyLearnings": "After running for several weeks, the treatment directionally increased recurring donor conversion, but the result was not significant or statistically valid.\nHowever, looking at overall donations, there was a 21.7% increase in all giving, and a noticeable lift in average gift, even after large outlier gifts were removed. When revenue per visitor was calculated, it emerged that the combination of increased conversion and increased average gift led to a 134.6% increase in revenue.\nThe big question is why did this happen?\nOur hypothesis is that clarifying whether \"one-time\" or \"monthly\" was selected increased conversion by giving more clarity to the visitor as to their gift type. This may also have had an impact on average gift as one-time donors (who typically give larger gifts) were more confident that their gift was, in fact, one-time.  Additionally we hypothesize that the \"impact language\" designed to increase recurring gift conversion increased overall average gift by inserting value proposition into transactional donation form, right at the moment before the donor selected how much they were going to give.\nThe next test will focus on providing separate gift arrays for \"one-time\" and \"monthly\" selections with the goal of increasing average gift for one-time gifts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 21.7% increase in conversion rate\n\t\t\t\t× 99.6% increase in average gift\n\t\t\t\t\t\t\t\t\t143.0% increase in revenue"
+    },
+    {
+      "id": 20481,
+      "experimentId": "70264",
+      "title": "How giving a user more choice through carousel sponsorship ads affects clickthrough rate",
+      "date": "2021-08-24T14:50:14",
+      "url": "https://www.nextafter.com/experiments/how-giving-a-user-more-choice-through-carousel-sponsorship-ads-affects-clickthrough-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Advertising",
+        "design"
+      ],
+      "tier": 1,
+      "lift": 27,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.4%",
+            "lift": "27.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that giving more choice through carousel ads for potential sponsors will achieve an increase in traffic.",
+      "summary": "Ended On: 08/24/2021\nPrison Fellowship International was continuing to promote child sponsorship through Facebook ads that pulled children dynamically from their website into the ad. They wondered if their single-child approach (one child per ad) put too much pressure on the visitor to sponsor that specific child, rather than giving them a choice. Since they had the choice to use Facebook’s carousel ad feature, they decided to test to see if showing multiple children would give the user more choice and increase the potential that they would sponsor a child.\nThey launched two campaigns in an A/B test to determine a winner.",
+      "keyLearnings": "The treatment carousel ads increased link clicks by 27%, which drove much more traffic to the site. However, conversion rate on the site was too low to determine if it drove a more motivated visitor, because the results are statistically significant, we can know that it does increase user engagement with the ad and does drive more clicks per dollar, resulting in a 36% decrease in cost per click.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n27.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 51271,
+      "experimentId": "40965",
+      "title": "Which value prop is more affective in a sponsorship ask for PFI–religion or justice?",
+      "date": "2023-04-03T14:23:23",
+      "url": "https://www.nextafter.com/experiments/which-value-prop-is-more-affective-in-a-sponsorship-ask-for-pfi-religion-or-justice/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": -100,
+      "confidence": 84.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Lost Lamb",
+            "metric": "0.90%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Injustice",
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "84.5%"
+          }
+        ]
+      },
+      "researchQuestion": "An appeal to someone’s sense of justice will work better at converting PFI’s audience into sponsors.",
+      "summary": "Timeframe: 12/01/2020 - 12/02/2020\nOn Giving Tuesday, PFI was going to send out a sponsorship ask to their general donors. Since they are a religious organization that also deals with the justice system, we wanted to test whether an appeal based on religious reasons or on the basis of justice was more motivating.",
+      "keyLearnings": "We did not have enough results to validate, and need to be careful in using such a small scaled response as proof that the religious element is more motivating. We will continue to test as their file grows.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30718,
+      "experimentId": "93620",
+      "title": "How an exit intent popup on a donation page affects donor conversion",
+      "date": "2022-08-19T15:31:34",
+      "url": "https://www.nextafter.com/experiments/how-an-exit-intent-popup-on-a-donation-page-affects-donor-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -24.7,
+      "confidence": 85.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Exit Intent",
+            "metric": "4.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent",
+            "metric": "3.6%",
+            "lift": "-24.7%",
+            "confidence": "85.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that employing an exit intent modal for Lamplighters page visitors will achieve an increase in emails without a decrease in conversion rate.",
+      "summary": "Timeframe: 05/06/2022 - 07/22/2022\nPrison Fellowship International was running a lot of paid traffic to generate donations for their Lamplighters offer to share the gospel with prisoners. They knew that conversion rates were about 4%—and though they wanted to increase the conversion rate, they also wanted to capture the emails of people who were coming to the site but not giving so they could “waste fewer marketing dollars”.\nHowever, they wanted to make sure that their exit intent popup didn’t reduce conversion, as it can sometimes be triggered when people are moving their cursor around without the intent to exit the page.\nThey built a popup in Unbounce and used Google Optimize to trigger it for half the visitors to determine the impact.\nNote: Because the Unbounce popup had to be triggered for all visitors, the “treatment” removed the popup.",
+      "keyLearnings": "On desktop devices (where the exit intent popup fired), there was a 24.7% decrease in conversion with the exit intent popup. This showed that giving people an option not to give (even if it was on their way out) reduced conversion by adding friction.\n\nIt also suggests that this popup being triggered by cursor movement might trigger for more people than those who are leaving the page, and get in the way of donations.\n\nThe popup has since been turned off, as it wasn't a good exchange for the ~60 emails that were acquired through the popup.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 20428,
+      "experimentId": "67003",
+      "title": "How specificity in the value proposition affects donor conversion rate",
+      "date": "2021-08-24T15:36:23",
+      "url": "https://www.nextafter.com/experiments/how-specificity-in-the-value-proposition-affects-donor-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": -29.4,
+      "confidence": 87.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "2.3%",
+            "lift": "-29.4%",
+            "confidence": "87.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding specificity to the value proposition for landing page visitors will achieve an increase in conversion.",
+      "summary": "Timeframe: 07/21/2021 - 08/06/2021\nPrison Fellowship International was running a campaign to acquire donors for their Lamplighter program, which told prisoners about Jesus through a Bible study. The page they had developed  had the headline “Bring Light Into the Darkness”. Since the audience they were targeting was primarily Christian, they wondered if they should be more specific and give the donor the opportunity to “Share Jesus with a Prisoner in Darkness”.\nThey developed this new headline and launched a test to determine a winner.",
+      "keyLearnings": "Though it did not validate, the new copy produced a 23% decrease in conversion rate. There are a few possible reasons for this:\nFirst, the new copy, while clearer, might be less engaging to the reader and not bring them into the body copy as much. Second, the new value proposition might not align with the rest of the page. Finally, it might come across to the reader as negative to cast the \"prisoner\" as someone \"in darkness\".\nUltimately, this experiment was directional and slow to validate, so more radical approaches must be tested to improve conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18161,
+      "experimentId": "55216",
+      "title": "How the use of the word “you” affects click through rate of an eBook offer on Facebook",
+      "date": "2021-06-07T22:11:45",
+      "url": "https://www.nextafter.com/experiments/how-the-use-of-the-word-you-affects-click-through-rate-of-an-ebook-offer-on-facebook/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Communal Language"
+      ],
+      "tier": 2,
+      "lift": -8.5,
+      "confidence": 82.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.1%",
+            "lift": "-8.5%",
+            "confidence": "82.5%"
+          }
+        ]
+      },
+      "researchQuestion": "The use of the word “you” will increase conversion because it is addressing and engaging the reader specifically.",
+      "summary": "Ended On: 03/23/2021\nAs we were launching a new eBook offer for Prison Fellowship International, the original language for the funnel copy included a lot of reader centered language focused on the outcome for the reader and the purpose for the reader, which often included the use of the word “you.” As that was not typically the communication style for PFI, they preferred to use more general language about how the eBook benefits people in general. To ensure that this did not affect the outcome, we wanted to test this in the Facebook marketplace.",
+      "keyLearnings": "What we found was that the click through rate was 8% lower on the reader centered language. And that was a key metric for this funnel, because the cost per click was high, making the funnel more difficult to scale. Also, the ultimate goal was to acquire new donors. And the donor conversion for the more general language brought in two times more donors. For these two key reasons, we discontinued the test before reaching validation to place spend on the more efficient funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 54064,
+      "experimentId": "157406",
+      "title": "How removing the main menu navigation bar from a donation page effected conversion rate",
+      "date": "2023-08-14T15:27:34",
+      "url": "https://www.nextafter.com/experiments/how-removing-the-main-menu-navigation-bar-from-a-donation-page-effected-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 5.5,
+      "confidence": 9.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Nav",
+            "metric": "2.5%",
+            "lift": "5.5%",
+            "confidence": "9.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing the main navigation menu from the page for potential donors will achieve a higher conversion rate because this would reduce decision friction so the donor motivation would not break by having too many decisions to make.",
+      "summary": "Timeframe: 06/20/2023 - 07/02/2023\nThis ministry client offers different ministries that a donor can choose to give towards. In this experiment, this donation page contributes to providing biblical resources to international prisoners. We were interested in testing decision friction on the donation page. We believed that removing the main navigation menu at the top of the page could reduce decision friction. Decision friction gives the donor too many options to consider which breaks the train of thought they had for giving. This is something we wanted to reduce and could potentially lead to a higher conversion rate.\nBetween the control and treatment donation page, the only difference was that the control page had the menu navigation whereas the treatment page did not. This test ran as a split traffic 50/50 A/B test.",
+      "keyLearnings": "The key learning from this experiment is that removing the main navigation menu from the donation page did not lead to an increase in conversions. In fact, the treatment page saw a decrease in donations compared to the control page. However, the statistical confidence level of 23.3% is below the acceptable threshold of 85%, so these results did not validate.\n\nBased on these findings, the presence of the menu may not have been a significant source of decision friction for donors, and removing it may have actually hindered their experience on the page.\n\nFor future experimentation, we could focus on other elements of the donation page that could be optimized to increase conversions. This could include testing different calls-to-action or simplicity the donation page copy to enhance the persuasiveness of the page. It is important to conduct further experiments with larger sample sizes and stricter statistical confidence thresholds to obtain valid and reliable results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 54065,
+      "experimentId": "154959",
+      "title": "How adding an urgent countdown clock pop-up to a page impacted conversion rate",
+      "date": "2023-08-07T14:01:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-urgent-countdown-clock-pop-up-to-a-page-impacted-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "countdown clock",
+        "donor conversion",
+        "pop-up",
+        "urgency"
+      ],
+      "tier": 3,
+      "lift": 73.3,
+      "confidence": 35.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.64%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Lamplighter pop-up",
+            "metric": "1.1%",
+            "lift": "73.3%",
+            "confidence": "35.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding an urgent countdown pop-up for potential donors will achieve an increase in conversion rate because the potential donor’s motivation would increase to want to give now rather than wait.",
+      "summary": "Timeframe: 06/06/2023 - 07/02/2023\nThis ministry client supports international prisoners by giving them biblical resources. The page we wanted to test is a secondary page to the main supporting prisoner page. We wanted to add an urgent countdown clock pop-up to this page to drive the conversion rate. This countdown clock included a message of how the potential donor could help be the one to complete the goal of the number of prisoners that are wanted to be supported by the end of the night. The pop-up includes urgency language by proving words like “Urgent”, “time is running out”, “by tonight” to make the potential donor have a higher motivation to give now. The control page was the original secondary page and the treatment page had the urgent pop-up.\nThis test was run as a 50/50 A/B test.",
+      "keyLearnings": "The key learnings from this experiment are that adding an urgent countdown pop-up can have a positive impact on donation conversion rates. The treatment group saw a significant increase in donations compared to the control group. However, it is important to note that the statistical level of confidence is below the recommended threshold of 95%. This means that the results of this experiment cannot be considered validated.\n\nIn future experimentation, it is recommended to run a larger sample size or run the experiment for a longer duration to increase the statistical power and achieve a higher level of confidence. Additionally, it may also be worth considering testing an urgent pop-up compared to a normal support pop-up to see if the urgent pop-up would still produce higher conversion rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 54066,
+      "experimentId": "153172",
+      "title": "How changing the donate button color on a homepage affected conversion rate",
+      "date": "2023-08-07T13:36:59",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-donate-button-color-on-a-homepage-affected-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 29.9,
+      "confidence": 61.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "3.1%",
+            "lift": "29.9%",
+            "confidence": "61.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by changing the donate button color in the menu for potential donors will achieve an increase in conversion rate because people will have less friction finding where to donate.",
+      "summary": "Timeframe: 05/25/2023 - 07/02/2023\nIn this experiment, we wanted to test changing the color of the donate button in the main navigation menu for this prison ministry client. The control color of the donate button is part of the color palette that this brand has. Our idea was to find a color that is different and would make the word “Donate” a lot more obvious to someone looking at the site. If the donate button stands out more, we believed that it would increase the conversion rate since the donor can see the button quicker and have less friction finding the donation button.\nFor this experiment, the only difference is that the control page has the original color donate button and the treatment has a new color. We split this test 50/50 as an A/B test.",
+      "keyLearnings": "The key learning from this experiment is that changing the color of the donate button in the main navigation menu resulted in a 29.9% increase in donations for all traffic. However, the statistical level of confidence was only 61.9%, which is not validated since it is below the 95% standard level of confidence.\n\nIn future experimentation, it may be beneficial to test a more radical design difference for the donate button to identify the most effective option. This could include shape, size, button animations, and font. By adding a more drastic design difference to the donate button, this could draw more donors which could increase the conversion rate. A/B testing should continue to be conducted, comparing different design elements or variations to optimize the website for increased donations.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51276,
+      "experimentId": "42766",
+      "title": "How communal language on a sticky bar affects child sponsor acquisition",
+      "date": "2023-04-17T14:40:37",
+      "url": "https://www.nextafter.com/experiments/how-communal-language-on-a-sticky-bar-affects-child-sponsor-acquisition-2/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -10,
+      "confidence": 10.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.00%",
+            "lift": "-10.0%",
+            "confidence": "10.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Communal language will increase sponsorships.",
+      "summary": "Timeframe: 12/14/2020 - 12/31/2020\nDuring their calendar year end campaign to acquire sponsors, we tested a sticky bar with a countdown to see if it would increase sponsorships. These sticky bars were placed on non-sponsorship pages, linking the child sponsorship page. Both sticky bars counted down the children left who needed sponsors. The control sticky bar had language focused on the urgency and the countdown of days. And the test had communal language around the reader being part of the mission.",
+      "keyLearnings": "The results of this test were entirely inconclusive due to small sample size and no difference in sponsorships. Further testing on different audiences, such as their Restorative Justice page, where there is higher traffic and a more community feel would be an interesting iteration.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51282,
+      "experimentId": "41452",
+      "title": "How does a stickybar with a countdown affect sponsorship acquisition during a campaign?",
+      "date": "2023-04-17T14:39:55",
+      "url": "https://www.nextafter.com/experiments/how-does-a-stickybar-with-a-countdown-affect-sponsorship-acquisition-during-a-campaign/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "countdown clock",
+        "Donation Pages | Design",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 33.9,
+      "confidence": 78.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "with Sticky Bar",
+            "metric": "2.3%",
+            "lift": "33.9%",
+            "confidence": "78.3%"
+          }
+        ]
+      },
+      "researchQuestion": "A countdown that increases urgency and expands on the value prop will increase sponsorships acquired.",
+      "summary": "Timeframe: 12/10/2020 - 12/31/2020\nDuring their calendar year end campaign to acquire sponsors, we tested a sticky bar with a countdown to see if it would increase sponsorships. The control had no sticky bar. The test counted down both days left to acquire sponsors and the children left who needed sponsors. It was placed on sponsorship pages to increase motivation and reinforce value proposition.",
+      "keyLearnings": "This experiment did not validate due to sample size that was too low and not enough of a disparity between control and treatment. Our hypothesis is that this did not validate for two reasons:\nThe countdown clock did not create enough urgency or movement.\n \tThe high motivation during calendar year end typically decreases the effectiveness of a test, because those receiving the control are typically more motivated to give.\nOrganic Search visitors had a 481.1% increase in child sponsored with a 93% level of confidence.\n \tEmail visitors had a 10.5% increase in child sponsored with an 87% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51277,
+      "experimentId": "42766",
+      "title": "How communal language on a sticky bar affects child sponsor acquisition",
+      "date": "2023-04-17T14:39:11",
+      "url": "https://www.nextafter.com/experiments/how-communal-language-on-a-sticky-bar-affects-child-sponsor-acquisition/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -10,
+      "confidence": 10.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.00%",
+            "lift": "-10.0%",
+            "confidence": "10.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Communal language will increase sponsorships.",
+      "summary": "Timeframe: 12/14/2020 - 12/31/2020\nDuring their calendar year end campaign to acquire sponsors, we tested a sticky bar with a countdown to see if it would increase sponsorships. These sticky bars were placed on non-sponsorship pages, linking the child sponsorship page. Both sticky bars counted down the children left who needed sponsors. The control sticky bar had language focused on the urgency and the countdown of days. And the test had communal language around the reader being part of the mission.",
+      "keyLearnings": "The results of this test were entirely inconclusive due to small sample size and no difference in sponsorships. Further testing on different audiences, such as their Restorative Justice page, where there is higher traffic and a more community feel would be an interesting iteration.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51072,
+      "experimentId": "128058",
+      "title": "How positive messaging and imagery on a donation page affects conversion rate",
+      "date": "2023-03-20T14:00:41",
+      "url": "https://www.nextafter.com/experiments/how-positive-messaging-and-imagery-on-a-donation-page-affects-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "imagery"
+      ],
+      "tier": 3,
+      "lift": -11,
+      "confidence": 16.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.79%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "0.70%",
+            "lift": "-11.0%",
+            "confidence": "16.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing the dark photo and showing direct photos of multiple children for potential donors will achieve a higher conversion rate because we are sharing more descriptive and specific information about the children who are being served.",
+      "summary": "Timeframe: 02/08/2023 - 03/06/2023\nPrison Fellowship International works to transform the lives of prisons, their families and victims through a global network of community partners. In recent months we have been showcasing the support a child program for the children of prisoners that is more general that 1:1 child sponsorship. Programmatically it costs less to maintain while allowing more children to participate. The ads were not converting as many donors as we wanted to see. In an effort to increase the donations and revenue, we redesigned the donation page to remove a darker image of a child alone in a house and replaced it with child photos of them looking at the camera and gave details about children in the program.",
+      "keyLearnings": "The key learning from this experiment is that removing a darker image of a child alone in a house and replacing it with more upbeat photos of children and sharing details about their lives did not result in a higher conversion rate. In fact, the treatment saw a decrease in donations for all traffic. We learned that a significantly large gift had been given in error to the treatment, which means that the conversion rate was actually .60% which is a decrease of 25.8% with a 40% LOC and not .70% as shown above. It is important to note that there was only a 2 gift difference between the control and treatment and when the large gift is removed the treatment received a $30.80 average gift compared to $12.14 shown in the control.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51064,
+      "experimentId": "128477",
+      "title": "How the Learn More vs. Donate Button on Facebook Led to a Higher Conversion Rate",
+      "date": "2023-03-16T15:44:47",
+      "url": "https://www.nextafter.com/experiments/how-the-learn-more-vs-donate-button-on-facebook-led-to-a-higher-conversion-rate/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": 14.5,
+      "confidence": 22.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.1%",
+            "lift": "14.5%",
+            "confidence": "22.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using the “Learn More” vs. the “Donate Now” button on Facebook for potential donors  will achieve a higher donor conversion rate because asking the potential donor to Learn More vs. immediately donate reduces friction..",
+      "summary": "Ended On: 02/14/2023\nPrison Fellowship International works to transform the lives of prisons, their families and victims through a global network of community partners. In recent months we have been showcasing the support a child program for the children of prisoners that is more general than 1:1 child sponsorship.  Programmatically it costs less to maintain while allowing more children to participate.  The ads were not converting as many donors as we wanted to see. The current ads running on Facebook were asking the potential donor to select the “Donate Now” button to move to the Donation Page sharing additional information.  We have used the “Learn More” button in Facebook and achieved higher results.  We conducted an A/B test using the Learn More Button vs. Donate.",
+      "keyLearnings": "The key learning from this experiment is that using the \"Learn More\" button instead of the \"Donate Now\" button on Facebook for potential donors may lead to a higher donor conversion rate due to reduced friction. The treatment resulted in a 14.5% increase in donations for all traffic, although the statistical level of confidence was 22% and below the 85% necessary to validate the experiment. Because the overall traffic is low, we recommend moving forward with the treatment as it did produce a higher conversion rate and we have used this as a control button on child sponsorship.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51074,
+      "experimentId": "125289",
+      "title": "How increasing the median amount of a one-time array affects revenue",
+      "date": "2023-03-14T16:24:13",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-median-amount-of-a-one-time-array-affects-revenue/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "gift array",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -19.1,
+      "confidence": 78.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$30/90 One time",
+            "metric": "3.5%",
+            "lift": "-19.1%",
+            "confidence": "78.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing the gift array amounts  for lamplighter donors will achieve an increase in overall giving without affecting recurring donors and overall donor conversions  because  the increased donation amount doesn’t affect their decision to give a recurring gift.",
+      "summary": "Timeframe: 01/31/2023 - 02/23/2023\nPotential donors for Prison Fellowship’s Lamplighters are presented with a tabbed donation form and given the option to give a one time gift or a recurring monthly gift.  The control donation form provides the gift arrays options of $15 (one prisoner)/$60 (4 prisoners)/$165 for an entire class.\nWe hypothesized that by increasing the median gift array option presented that there might be the potential to maintain the donor conversion rate and raise revenue without affecting recurring donors.   The tested gift array options for the treatment started at $30 to help 2 prisoners/$90 (6 prisoners)/$165 for an entire class.",
+      "keyLearnings": "The key learning from this experiment is that increasing the gift array options presented to potential donors of Prison Fellowship's Lamplighters program led to a decrease in overall number of donors; however there was essentially no effect on recurring donors in the control vs. the treatment.  As expected there was increased revenue for the treatment which presented the higher gift array including a large gift of $4,971.  When removing the large gift, the treatment received a 13% increase in revenue.\nWhen separating out the one time and recurring donors and eliminating the large gift, the test validated for all donors and one time donors, but did not validate for recurring donors.  There was essentially no effect on recurring donors.  There were 14 recurring donors in the control and 12 in the treatment; the average gift for the recurring donors in the treatment was slightly higher - $37 vs. $33 in the control.\nWhen focusing on one time donors we see that treatment resulted in 21% fewer donors with 20% more revenue.  Interestingly both the Control and the Treatment garnered 4 gifts of $165.  The Treatment did have 2 - $200 gifts which that plus 3 gifts in the $90 range resulted in the slight lift in revenue for the treatment's one time donors.\nThe higher conversion rate resulting in 25% more donors  indicates the control as the winner even considering the lower revenue that was generated.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 49455,
+      "experimentId": "114628",
+      "title": "How adding a middle giving option to the gift array impacted donation revenue",
+      "date": "2023-01-23T15:05:15",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-middle-giving-option-to-the-gift-array-impacted-donation-revenue/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "gift array",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -7,
+      "confidence": 59.5,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.92",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$60 Option",
+            "metric": "$0.86",
+            "lift": "-7.0%",
+            "confidence": "59.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a third giving option as an “in-between” amount for monthly and one-time giving will achieve an increase in donor revenue.",
+      "summary": "Timeframe: 11/16/2022 - 01/25/2023\nThe PFI Lamplighters program gives people the opportunity to support prisoners in ways that help them become closer to God. The current one-time and monthly giving options for Lamplighters are $15 to support one prisoner and $165 to support an entire class. We hypothesized that adding a middle amount as a giving option would reduce giving friction, giving donors an additional option that might nestle in nicely between an amount that is too low or not impactful enough and an amount that is too high.\nTo test this hypothesis, we added a $60 giving option to support four prisoners. We tested this concept already but only for monthly giving. The test resulted in a valid lift in revenue for the treatment with an average gift twice the amount of the control. The average gift for the treatment was $61.52, implying that the added $60 giving option was a common selection among donors.\nLet’s see how the concept performed when testing it for monthly AND one-time giving…",
+      "keyLearnings": "The impact on revenue was minimal this time, with the treatment experiencing a 0.71% decrease in revenue but with only a 51% level of confidence. The average gift for the treatment was $39.08 and $46.95 for the control. You'll recall that when we ran the experiment only for monthly giving, the average gift was just over $60.\nThis tells us that adding the $60 giving option to the one-time giving gift array did not influence as much giving at that giving level as when we added it as an option only for monthly giving.\nHowever, we saw a much greater impact in overall donations. The treatment experienced a 21% lift in total donations at an 89.3% level of confidence. Interestingly enough, the experiment specifically for monthly giving resulted in a slight decrease in donations but a significant increase in revenue.\nHaving three giving options \"low, \"middle\", and \"high\" amounts likely reduced donation friction as potential donors did not feel the pressure of giving too little in terms of impact and too much in terms of money. They had a middle option to provide comfort in choice (a happy medium), helping to reduce anxiety. This led to more donations.\nEven if a donor chose to give less than $60, we believe their desire to give period was still stronger because they didn't feel as if their gift was \"small\" when comparing it to the next level up, which was $60. The psychological effect may be the opposite for a gift array that had only $15 and $165 options. In this case, potential donors may choose not to give at all because a $15 gift in their minds would be too small or insignificant when compared to the other amount of $165. Ultimately, $60 provides a nice reference point for potential donors.\nObservations of the impact on other visitor segments in the experiment:\nMobile visitors had a 43.4% increase in revenue with a 95% level of confidence – which contributed the bulk of the experiment traffic.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 48491,
+      "experimentId": "115433",
+      "title": "How an urgent popup with a sponsorship goal and a 24-hour countdown impacted sponsorship conversion on children sponsorship pages.",
+      "date": "2022-12-12T16:03:48",
+      "url": "https://www.nextafter.com/experiments/how-an-urgent-popup-with-a-sponsorship-goal-and-a-daily-countdown-impacted-sponsorships-on-children-sponsorship-pages/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "countdown clock",
+        "Donation Pages | Design",
+        "pop-up"
+      ],
+      "tier": 3,
+      "lift": -16.8,
+      "confidence": 38,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.42%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Popup #1",
+            "metric": "0.35%",
+            "lift": "-16.8%",
+            "confidence": "38.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an urgent popup noting a daily sponsorship goal and a 24-hour countdown clock for people visiting child sponsorship pages will achieve an increase in sponsorship conversions because the popup will create urgency and motivation, and stand as a special nudge to get people interested in sponsoring to sponsor.",
+      "summary": "Timeframe: 11/23/2022 - 12/06/2022\nIn an effort to increase sponsorship conversions on children sponsorship pages for a child sponsorship organization, we’re testing a popup that sets a daily sponsorship goal counting down from three and includes a countdown (hours, minutes, seconds) for the day. It also includes value prop as part of an urgent message. This popup does not include a CTA and does not redirect to another page when clicked. It’s tested to add urgency and motivation while a potential sponsor is already scrolling the children sponsorship pages. We’re running the popup only on pages that catalog the children available for sponsorship.\nWe believe that the popup will act as a special nudge to get people who are already considering sponsoring a child to convert into sponsors.",
+      "keyLearnings": "After running for two weeks, the experiment did not gain much traction. The treatment resulted in a 16.8% decrease in child sponsorships with a 37.9% level of confidence. This tells us that the popup did not carry much weight in visitors' decisions to sponsor a child. The logic here is that they are already on the children page, so their intent is already established. Whether they saw the urgent popup or not, their mind was already made up when they reached the page.\nWe have another experiment running in which the popup appears on all website pages except for the children pages, and includes a call-to-action button that takes users to the child sponsorship page. In this case, we hypothesize that the popup will convince people who did not come to the website with the intent to sponsor a child to click the popup CTA, redirecting them to the child sponsorship page and converting them into a sponsor.\nWe will keep an eye on the experiment and see how it compares to this one in regards to motivation, urgency, and conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 31538,
+      "experimentId": "102440",
+      "title": "How would ordering the giving tabs with the monthly giving option showing first (the left tab) impact recurring giving?",
+      "date": "2022-08-24T14:00:49",
+      "url": "https://www.nextafter.com/experiments/how-would-ordering-the-giving-tabs-with-the-monthly-giving-option-showing-first-the-left-tab-impact-recurring-giving/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "monthly donor"
+      ],
+      "tier": 3,
+      "lift": 34.4,
+      "confidence": 64.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.69%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Swap monthly donations",
+            "metric": "0.93%",
+            "lift": "34.4%",
+            "confidence": "64.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that swapping the giving tabs to show monthly giving first for page visitors will achieve an increase in monthly giving.",
+      "summary": "Timeframe: 07/28/2022 - 08/26/2022\nWith the goal to increase recurring giving to PFI’s Lamplighters program, we conducted an experiment in which the monthly giving tab (“Monthly Gift”) would show as the left tab and the one-time giving tab (“Give Once”) would show as the right tab on the Lamplighters giving widget. This order is the reverse of the existing setup (control variant) in which monthly giving shows on the right and one-time giving shows on the left. We ran the experiment on the Lamplighters landing page giving widget.\nLamplighters historically receives a lot of one-time gifts, so we want to see if this change will result in an increase in monthly gifts, as monthly gifts are much more valuable over time. The idea is that page visitors would read and notice the “Monthly Gift” option first, indicating greater importance and making it resonate with them ahead of the one-time giving option – prompting them to make a monthly gift.",
+      "keyLearnings": "The treatment variant resulted in a 34.4% increase in recurring giving conversions for all traffic with a level of confidence of 64.8%. Strictly for desktop users, the treatment resulted in a 187.2% increase in recurring giving conversions with a level of confidence of 89.4%.\nOur hypothesis proved correct, that visitors noticing and reading the monthly giving option first instead of one-time giving would prioritize monthly giving in their minds and result in more monthly giving conversions.\nInterestingly enough, total donations (one-time and monthly) showed 21 donations through the treatment and 18 through the control. So, despite the treatment placing a greater focus on monthly giving, users still made more donations overall when seeing the monthly giving tab on the left and the one-time giving tab on the right.\nThis concept is certainly worth testing elsewhere given the results and the long-term impact that recurring giving has on revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30719,
+      "experimentId": "93620",
+      "title": "How an exit intent popup on a donation page affects donor conversion",
+      "date": "2022-08-22T17:06:41",
+      "url": "https://www.nextafter.com/experiments/how-an-exit-intent-popup-on-a-donation-page-affects-donor-conversion-2/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "pop-up"
+      ],
+      "tier": 3,
+      "lift": -3.4,
+      "confidence": 29.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Exit Intent",
+            "metric": "2.9%",
+            "lift": "-3.4%",
+            "confidence": "29.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that employing an exit intent modal for Lamplighters page visitors will achieve an increase in emails without a decrease in conversion rate.",
+      "summary": "Timeframe: 05/06/2022 - 07/22/2022\nPrison Fellowship International was running a lot of paid traffic to generate donations for their Lamplighters offer to share the gospel with prisoners. They knew that conversion rates were about 4%—and though they wanted to increase the conversion rate, they also wanted to capture the emails of people who were coming to the site but not giving so they could “waste fewer marketing dollars”.\nHowever, they wanted to make sure that their exit intent popup didn’t reduce conversion, as it can sometimes be triggered when people are moving their cursor around without the intent to exit the page.\nThey built a popup in Unbounce and used Google Optimize to trigger it for half the visitors to determine the impact.",
+      "keyLearnings": "Observations of the impact on other visitor segments in the experiment:\nDesktop visitors had a 32.9% increase in donations with an 86% level of confidence.\n \tMobile visitors had a 14.3% decrease in donations with an 85% level of confidence.\n \tMale visitors had a 42.4% decrease in donations with a 98% level of confidence.\n \t45-54 visitors had a 52.0% decrease in donations with a 92% level of confidence.\n \tEmail visitors had a 145.5% increase in donations with a 97% level of confidence.\n \t65+ visitors had a 46.5% decrease in donations with an 86% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28247,
+      "experimentId": "92820",
+      "title": "How optimizing for a specific purchase event affects donor conversion",
+      "date": "2022-04-29T01:07:49",
+      "url": "https://www.nextafter.com/experiments/how-optimizing-for-a-specific-purchase-event-affects-donor-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -3.4,
+      "confidence": 12.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.01%",
+            "lift": "-3.4%",
+            "confidence": "12.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that optimizing for a specific non-sponsorship action for Lamplighters prospects will achieve an increase in conversion rate.",
+      "summary": "Timeframe: 07/03/2021 - 07/14/2021\nPrison Fellowship International was promoting their Lamplighters donation opportunity and had their Facebook ads optimizing for the typical “purchase” conversion, which had proven to work better than an “email acquisition conversion” or Facebook’s default “donation” conversion.\nSince they had sponsorships ($39/month gift) and purchases (one-time gift or recurring gift of any size) both reporting as purchases, they were curious to learn if optimizing for a more specific, non-sponsorship purchase would improve conversion.\nThey set up an ad set optimizing for non-sponsorship purchases and ran it against one optimizing for all purchases using Facebook’s experiment function.",
+      "keyLearnings": "There was no difference in conversion rate between the two optimizations. However, Facebook revealed that it was more efficient to optimize for non-sponsor gifts.\nSee the Facebook results here: https://capture.dropbox.com/y02dzi7qbfEGhhGE",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28026,
+      "experimentId": "86236",
+      "title": "How removing a step from the donation process affects conversions",
+      "date": "2022-04-19T13:43:36",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-step-from-the-donation-process-affects-conversions/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -2.8,
+      "confidence": 17.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Full Page Donation Form",
+            "metric": "2.6%",
+            "lift": "-2.8%",
+            "confidence": "17.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that removing a step (a user-initiated click and a secondary form page load) from donation flow for potential Lamplighter donors will improve conversion rate.",
+      "summary": "Timeframe: 02/23/2022 - 04/19/2022\nWe tested simplifying the donation flow on the main Lamplighters donation page. By including A) the full donation form on the test variant, B) removing a user-initiated click on donation call to action button and C)  removing  a second page load displaying the full form would reduce friction and improve donor conversion rate. Content flow was streamlined from two-columns to a single column, increasing user focus and reinforcing natural vertical page flow for users. Gift arrays within test variants more clearly defined to make it easy for donors to choose between 4 predefined options to support 1, 2, 3 or 4 prisoners. Despite this litany of changes, we did not experience a significant change in donor conversion rate.",
+      "keyLearnings": "Results for this experiment are inconclusive, with no meaningful change in overall conversion rate. We did see some interesting data across demos and device types, which are detailed below:\nTablet visitors had a 100.0% decrease in donations with a 92% level of confidence.Direct visitors had a 334.8% increase in donations with an 89% level of confidence.35-44 visitors had a 64.8% decrease in donations with a 91% level of confidence.18-24 visitors had a 149.9% increase in donations with an 85% level of confidence.\nOne interesting takeaway here is that the 18-24 audience (a group we currently exclude from our Facebook acquisition marketing efforts) was our best-converting audience with a 4.4% CVR. The second best-converting audience was from the 25-34 age group with a 3% CVR, another audience we are not targeting with our FB ads. We are currently targeting ages 30+ across current Facebook paid social campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27871,
+      "experimentId": "90970",
+      "title": "How using a flat donation page affects conversion for potential sponsors",
+      "date": "2022-04-14T12:13:12",
+      "url": "https://www.nextafter.com/experiments/how-using-a-flat-donation-page-affects-conversion-for-potential-sponsors/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -5.6,
+      "confidence": 6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.2%",
+            "lift": "-5.6%",
+            "confidence": "6.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We hypothesized that RaiseDonors’ child sponsorship landing pages for potential donors would convert better than PFI’s own child sponsorship pages.",
+      "summary": "Ended On: 04/12/2022\nPrison Fellowship International hosts its child sponsorship catalog pages with both RaiseDonors and on its own site at pfi.org. We tested to see if RaiseDonors child sponsorship pages could potentially convert better than existing sponsorship pages on the PFI domain.\nTraffic to these pages is driven primarily by Facebook Ads and focused on new direct donor acquisition. To facilitate this test, we duplicated our existing Facebook PFI child sponsorship carousel ads campaign and created a manual carousel ad set to land potential donors on RaiseDonors child pages versus the existing catalog-driven set that lands potential donors on PFI child pages. To summarize, we tested landing users on RaiseDonor’s URL’s versus PFI URL’s with traffic run to experiment as a 50/50 split. All other campaign elements remained the same.",
+      "keyLearnings": "This experiment showed us that, in this case, RaiseDonors child sponsorship pages do not convert better than existing PFI child sponsorship pages. This result helps to confirm that there is not an obvious technical site issue on pfi.org that is currently negatively impacting child sponsorship conversion rates coming from Facebook advertising efforts.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18545,
+      "experimentId": "54082",
+      "title": "How showing the effect of a gift on a child’s future and emotional health will impact sponsorship conversion",
+      "date": "2021-06-14T18:54:33",
+      "url": "https://www.nextafter.com/experiments/how-showing-the-effect-of-a-gift-on-a-childs-future-and-emotional-health-will-impact-sponsorship-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "body copy",
+        "call to action",
+        "Donation Pages",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -18.3,
+      "confidence": 72.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Child Specific Sponsorship",
+            "metric": "4.1%",
+            "lift": "-18.3%",
+            "confidence": "72.1%"
+          }
+        ]
+      },
+      "researchQuestion": "That showing what the child’s life is and what life will be after the donors gifts, with all the emotions and impact of that gift, will increase child sponsorships.",
+      "summary": "Timeframe: 03/08/2021 - 04/09/2021\nPFI updated their website and the full layout of their sponsorship pages. While driving higher traffic to these pages, we wanted to take advantage of that traffic to test the sliding doors theory—showing what is reality now versus what reality could be with the sponsors gift. Another key component to this theory is ensuring that the donor feels the impact of the loss on the child’s life and similarly feels the transformation emotionally that their gift will create for this child. We tested this for over a month on their child specific page, the decision point where the audience decides if they will sponsor this particular child or not.",
+      "keyLearnings": "Despite the increased traffic to these pages, there was no discernible difference in sponsorship. A 52% level of confidence is a veritable coin flip either way.\nOur hypothesis is that copy alone is not enough to impact conversion one way or the other. Our next step is to test tactical page design test to keep folks on the child sponsorship page and make this the complete decision point. With the current design, users are presented the option to leave the page at several different points. In fact, twenty percent of the gifts that were made on the control were people who left this page to give a donation to the main PFI donation page.\nRevenue did experience a 27.9% decrease with a 93% level of confidence. This is because more people were likely to give a one-time gift on the control.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18560,
+      "experimentId": "54097",
+      "title": "How showing the effect of a gift through feelings and outcomes impact conversion on a sponsorship page",
+      "date": "2021-06-14T18:52:53",
+      "url": "https://www.nextafter.com/experiments/how-showing-the-effect-of-a-gift-through-feelings-and-outcomes-impact-conversion-on-a-sponsorship-page/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "landing page",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 25.4,
+      "confidence": 51.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Main Child Sponsorship",
+            "metric": "2.1%",
+            "lift": "25.4%",
+            "confidence": "51.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Focusing on the feeling and affects of the problem and showing the change that a donor’s gift will make will increase donor conversion",
+      "summary": "Timeframe: 03/08/2021 - 04/09/2021\nPFI updated their website and the full layout of their sponsorship pages. While driving higher traffic to these pages, we wanted to take advantage of that traffic to test the sliding doors theory—showing what is reality now versus what reality could be with the sponsors gift. Another key component to this theory is ensuring that the donor feels the impact of the loss on the child’s life and similarly feels the transformation emotionally that their gift will create for this child. We tested this for over a month on their main sponsorship page, where the audience has the opportunity to see the different children who need a sponsor. It is important to note that this is not the decision point where the audience decides if they will sponsor a particular child or not.",
+      "keyLearnings": "The outcome of this test showed that this communication tactic does not affect sponsorship conversion by itself. Our hypothesis is this is not a page where people make the decision to sponsor, but to see the different children that they could sponsor. Since this page is not a decision point, a treatment on this page will not have enough conversion to validate with this level of traffic. The next step is to focus on the child specific pages.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18158,
+      "experimentId": "55216",
+      "title": "How the use of the word “you” affects email acquisition via an eBook offer on Facebook",
+      "date": "2021-06-14T14:09:27",
+      "url": "https://www.nextafter.com/experiments/how-the-use-of-the-word-you-affects-email-acquisition-via-an-ebook-offer-on-facebook/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "Communal Language",
+        "Facebook"
+      ],
+      "tier": 3,
+      "lift": -11.6,
+      "confidence": 73.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.43%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.38%",
+            "lift": "-11.6%",
+            "confidence": "73.7%"
+          }
+        ]
+      },
+      "researchQuestion": "The use of the word “you” will increase conversion because it is addressing and engaging the reader specifically.",
+      "summary": "Ended On: 03/23/2021\nAs we were launching a new eBook offer for Prison Fellowship International, the original language for the funnel copy included a lot of reader centered language focused on the outcome for the reader and the purpose for the reader, which often included the use of the word “you.” As that was not typically the communication style for PFI, they preferred to use more general language about how the eBook benefits people in general. To ensure that this did not affect the outcome, we wanted to test this in the Facebook marketplace.",
+      "keyLearnings": "What we found was that the funnel copy focused more on the outcome for the reader did not affect the email conversion rate dramatically enough to continue using it or continue testing. However, there were two other key metrics that we needed to examine as well. First, the click through rate was 8% lower on the reader centered language. And that was a key metric for this funnel, because the cost per click was high, making the funnel more difficult to scale. Second, the ultimate goal was to acquire new donors. And the donor conversion for the more general language brought in two times more donors. For these two key reasons, we discontinued the test before reaching validation to place spend on the more efficient funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18206,
+      "experimentId": "55985",
+      "title": "How does focusing on a specific ministry over the full suite of programs affect donor conversion",
+      "date": "2021-06-07T19:43:06",
+      "url": "https://www.nextafter.com/experiments/how-does-focusing-on-a-specific-ministry-over-the-full-suite-of-programs-affect-donor-conversion/",
+      "organization": "Prison Fellowship International",
+      "categoryNames": [
+        "Prison Fellowship International"
+      ],
+      "tagNames": [
+        "donation page",
+        "Donation Pages",
+        "Recurring Giving",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 33.1,
+      "confidence": 73.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "All Ministries Donation Page",
+            "metric": "4.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "The Prisoner's Journey Donation Page",
+            "metric": "6.5%",
+            "lift": "33.1%",
+            "confidence": "73.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Focusing in on one ministry that the donor will be supporting rather than all of the organizations outreach will allow for a deeper explanation of value prop as well as a simpler ask, and that will increase donor conversion.",
+      "summary": "Timeframe: 02/24/2021 - 03/29/2021\nPrison Fellowship International launched its first content offer, Where Love & Justice Meet. Since this was a new initiative for them and they didn’t have many learnings from the market yet, we wanted to test which of their ministries were more likely to convert a donor. They have a mix of programs—prison bible studies, sponsorships for children of prisoners, and restorative justice projects. So to find out what converts a donor better, we did a 50/50 redirect split toward two different donation pages—The control, a donation page that showed how the reader’s donation would support their many prison ministries and 2. The Treatment, a page solely focused on the ministry and impact of a their prison bible study called The Prisoners Journey. The goal was to see which inspired more gifts. Because the copy on the donation page for The Prisoner’s Journey bible study was geared toward a monthly recurring donation ask, we made that form a tabbed donation form to highlight the recurring giving option, which was another variation in the test.",
+      "keyLearnings": "After a full month of testing, the results are inconclusive. Neither donation page outperformed the other in donor conversion at any level that was valid. Our hypothesis is that both pages had equally strong value prop and simply delving into one ministry is not enough to move a needle on an acquisition offer.\nAnother key metric we were aiming for was acquiring recurring donors. The TPJ page acquired three monthly donors in that time span and the general ministries donation page acquired 2, so no meaningful findings there either.\nOur next step is to focus on the page specific to the Prisoners Journey and learn how we can use their Lamplighter's program for monthly donors to TPJ as a greater incentive to give a recurring gift.",
+      "fluxMetrics": null
+    }
+  ]
+}

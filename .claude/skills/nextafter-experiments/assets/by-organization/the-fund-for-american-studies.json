@@ -1,0 +1,1717 @@
+{
+  "name": "The Fund for American Studies",
+  "total": 41,
+  "tierBreakdown": {
+    "valid": 23,
+    "directional": 5,
+    "inconclusive": 13
+  },
+  "experiments": [
+    {
+      "id": 43228,
+      "experimentId": "40852",
+      "title": "How focusing on what the donor wants to accomplish impacted donor conversion rate",
+      "date": "2022-11-04T19:21:25",
+      "url": "https://www.nextafter.com/experiments/how-focusing-on-what-the-donor-wants-to-accomplish-impacted-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 113.6,
+      "confidence": 99.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "organizationally-centered page",
+            "metric": "12.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "donor-centered page",
+            "metric": "27.2%",
+            "lift": "113.6%",
+            "confidence": "99.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that focusing the message on what the donor wants to accomplish with their year-end gift for TFAS Supporters will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 11/25/2020 - 12/13/2020\nThe Fund for American Studies (TFAS) was readying themselves to launch their year-end campaign—and did the logical thing first: To grab last year’s page and use that as a starting point for this year’s campaign (because last year was rather successful).\nIn reviewing last year’s campaign page—they noticed just how “organizationally-centered” that language really rang. The page from last year really focused on what TFAS (the organization) intended to accomplish—not what the donor believed, or was attempting to solve (with their year-end gift).\nTherefore, they wanted to experiment with a more donor-focused message that was relevant for the current mindset that their audience is feeling.",
+      "keyLearnings": "With a 99.4% level of confidence, we observed an increase of +119.4% in donor conversion rate for the \"donor-centered\" treatment against the \"organizationally-centered\" language of the control experience.\n\nObservations of the impact on other visitor segments in the experiment include:\nDesktop visitors had a 225.0% increase in donations with a 100% level of confidence.\n \tEmail visitors had a 58.8% increase in donations with an 86% level of confidence.\n \tNew visitors had a 134.1% increase in donations with a 95% level of confidence.\n \tReturning visitors had a 114.3% increase in donations with a 96% level of confidence.\nExecutive Summary:\nMany donation pages focus largely on the needs of the organization. It's just human nature ... we sit close to what we (as an organization) are doing, and where the funding priorities of our critical work must be at to maintain or expand the good work that we're able to do.\nHowever, too often the donor is uninspired (unless thoroughly cultivated throughout the year) by this type of message. When possible, experimenting with what the DONOR believes and wants to accomplish with their philanthropic gifts can have a profound impact on getting more donors to say \"YES\" to your appeals.\nWhere you're able to—consider experimenting with channeling the donor's mindset and focus on writing a message in your donation page(s) that speaks directly to their beliefs, goals, and aspirations.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 113.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 43221,
+      "experimentId": "46683",
+      "title": "How a text link instead of a button impacted email clickthrough rate",
+      "date": "2022-10-31T15:36:23",
+      "url": "https://www.nextafter.com/experiments/how-a-text-link-instead-of-a-button-impacted-email-clickthrough-rate-2/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "click through rate",
+        "email design"
+      ],
+      "tier": 1,
+      "lift": 17.5,
+      "confidence": 98.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Button",
+            "metric": "15.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Button",
+            "metric": "18.3%",
+            "lift": "17.5%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a hyperlinked page URL for prospects will achieve an increase in email clickthrough rate.",
+      "summary": "Timeframe: 01/23/2021 - 02/04/2021\nIn testing what generated the most clicks when rolling out a new eBook offer to their housefile list, The Fund for American Studies wanted to know whether the approach of using the landing page URL with a hyperlink would definitively be better than using a button in the email promotion.",
+      "keyLearnings": "With a confidence level of 98.5%, we observed a +17.5% increase in email clickthrough rate.\n\nThe reality is that when you write an email from an individual, the reader expects the person that wrote them to not use \"marketing techniques\" (like in this case, a button).\n\nTherefore, the believability that an actual person on the other side of the email actually wrote them goes up when you treat the clickable link in emails like how a real person would send them — in this case, not as a button, but rather as a page URL that is hyperlinked.\n\nWhen possible, continue to use clickable URL's instead of fancy marketing elements within emails — like a button.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n17.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 43239,
+      "experimentId": "39294",
+      "title": "How an offer-focused welcome series impacts donor conversion rate",
+      "date": "2022-10-31T15:31:16",
+      "url": "https://www.nextafter.com/experiments/how-an-offer-focused-welcome-series-impacts-donor-conversion-rate-3/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising"
+      ],
+      "tier": 1,
+      "lift": 920,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Org-focused welcome series",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Offer-focused welcome series",
+            "metric": "0.19%",
+            "lift": "920.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that focusing on promoting similar content offers for newly acquired emails in a welcome series will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 10/01/2020 - 11/24/2020\nWhen The Fund for American Studies was just beginning to focus on building their online program, they began promoting a downloadable PDF resource for prospecting targets to request. They would market this offer with digital ads, which directed people to click to a landing page with an email signup form to have the resource sent to them. Finally, when they completed the registration form on the landing page, they would be directed to an instant donation page.\nInitially, they did not have many content offers to provide to prospects, which forced them to initially launch with a welcome series that was focused on telling the story of the organization, or “proving the concept” of their impact by sharing story-based appeals that focused on high-profile alumni. This series also ended with a direct appeal, which was trying to get them to become a first-time donor.\nOver time, the program began to build very quickly, and the organization expanded the number of available “content offers” to the market.\nThey wondered if moving them from the org-centered welcome series to a series that was focused on promoting more content offers like the one they had downloaded would improve their ability to produce first-time donors that had just been acquired.",
+      "keyLearnings": "With a confidence level of 99.8%, we observed that the new offer-focused welcome series improved the donor conversion rate by +920%.\nBeyond that, here are some additional metrics that were achieved along with this new approach during the study period:\nEmail Click Rate: +2.8% (LoC: 79.5%)Email Open Rate: +86.1% (LoC: 100%)Unsubscribe Rate: -42.0% (LoC: 100%)Revenue: +1,091.4% (LoC: 99.9%)\nIt's important to note the time frames these two experiences ran and the audience makeup for this study, as well. Those notes are outlined below:\nThe \"control\" welcome series ran for a substantially longer period of time (a year) vs. the new \"treatment\" (offer-focused) welcome series only ran for around 45-days. The \"treatment\" experience overlapped the \"control\" experience for the time that the \"treatment\" experience was running.We split the contacts by adding a pre-checked checkbox on the signup forms. If the box remained checked, they would go to the \"control\" experience, whereas if it were unchecked, those emails would go into the \"treatment\" experience.During this time of overlapping experiences that were running, roughly 89% of the people that signed up went into the \"control\" experience, and only 11% went to the \"treatment\" experience.It can also be assumed that the people that unchecked the box were presumably a less motivated audience than those that left the box checked upon signing up—why? Because they intentionally took a step to say \"I don't want anything else from you\" when they signed up. Even so, this much smaller and assumed to be less motivated audience outperformed the \"control\" experience not only for the 45-day period of time when they were running simultaneously, but also when the performance data for the \"control\" experience was expanded to include a year's worth of results, which is what is included in the study data above.\nWhy would this new welcome series be so much more effective than the control?\nOur hypothesis is that because we focused on what THEY (our audience—to get more resources/guides they were interested in reading about) wanted, instead of what WE (the organization wanted—to tell them about ourselves, and acquire a new donor) wanted, then the results improved so dramatically.\nThis is a tried and true principle in business: If you take care of your customer, and give them value, they will reward you with what you want (by becoming a loyal customer). Therefore, it's no wonder that when applied that principle to how we welcomed new names on to our file, they rewarded us with dramatically improved results that we were ultimately looking for.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 920.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 43240,
+      "experimentId": "39294",
+      "title": "How an offer-focused welcome series impacts donor conversion rate",
+      "date": "2022-10-31T15:12:28",
+      "url": "https://www.nextafter.com/experiments/how-an-offer-focused-welcome-series-impacts-donor-conversion-rate-2/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "email copy"
+      ],
+      "tier": 1,
+      "lift": 920,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Org-focused welcome series",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Offer-focused welcome series",
+            "metric": "0.19%",
+            "lift": "920.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that focusing on promoting similar content offers for newly acquired emails in a welcome series will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 10/01/2020 - 11/24/2020\nWhen The Fund for American Studies was just beginning to focus on building their online program, they began promoting a downloadable PDF resource for prospecting targets to request. They would market this offer with digital ads, which directed people to click to a landing page with an email signup form to have the resource sent to them. Finally, when they completed the registration form on the landing page, they would be directed to an instant donation page.\nInitially, they did not have many content offers to provide to prospects, which forced them to initially launch with a welcome series that was focused on telling the story of the organization, or “proving the concept” of their impact by sharing story-based appeals that focused on high-profile alumni. This series also ended with a direct appeal, which was trying to get them to become a first-time donor.\nOver time, the program began to build very quickly, and the organization expanded the number of available “content offers” to the market.\nThey wondered if moving them from the org-centered welcome series to a series that was focused on promoting more content offers like the one they had downloaded would improve their ability to produce first-time donors that had just been acquired.",
+      "keyLearnings": "With a confidence level of 99.8%, we observed that the new offer-focused welcome series improved the donor conversion rate by +920%.\n\nBeyond that, here are some additional metrics that were achieved along with this new approach during the study period:\nEmail Click Rate: +2.8% (LoC: 79.5%)\n \tEmail Open Rate: +86.1% (LoC: 100%)\n \tUnsubscribe Rate: -42.0% (LoC: 100%)\n \tRevenue: +1,091.4% (LoC: 99.9%)\nThe \"control\" welcome series ran for a substantially longer period of time (a year) vs. the new \"treatment\" (offer-focused) welcome series only ran for around 45-days.\n \tThe \"treatment\" experience overlapped the \"control\" experience for the time that the \"treatment\" experience was running.\n \tWe split the contacts by adding a pre-checked checkbox on the signup forms. If the box remained checked, they would go to the \"control\" experience, whereas if it were unchecked, those emails would go into the \"treatment\" experience.\n \tDuring this time of overlapping experiences that were running, roughly 89% of the people that signed up went into the \"control\" experience, and only 11% went to the \"treatment\" experience.\n \tIt can also be assumed that the people that unchecked the box were presumably a less motivated audience than those that left the box checked upon signing up—why? Because they intentionally took a step to say \"I don't want anything else from you\" when they signed up. Even so, this much smaller and assumed to be less motivated audience outperformed the \"control\" experience not only for the 45-day period of time when they were running simultaneously, but also when the performance data for the \"control\" experience was expanded to include a year's worth of results, which is what is included in the study data above.\nWhy would this new welcome series be so much more effective than the control?",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 920.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 30091,
+      "experimentId": "100678",
+      "title": "How leveraging a well-known eBook author affects click-through rates",
+      "date": "2022-08-15T16:32:04",
+      "url": "https://www.nextafter.com/experiments/how-leveraging-a-well-known-ebook-author-affects-click-through-rates/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "body copy",
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": 58.9,
+      "confidence": 99.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.1%",
+            "lift": "58.9%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that leveraging a well-known ebook author will achieve higher click-through rates on a Facebook ad for a content offer.",
+      "summary": "Timeframe: 03/04/2022 - 07/12/2022\nIn an effort to improve click-through rates for a Fund for American Studies content offer, we wanted to test how adding a callout and image of a well-known author (in this case, Rand Paul) would impact click-through rates.\nWe hypothesized that featuring a U.S. Senator would add authority to the ebook, catch people’s eye, and inspire more people to click.",
+      "keyLearnings": "After 30 days of running this experiment, we were able to confirm our hypothesis by producing a 58.9% lift in click-through rates with a 99.6% level of confidence.\nThis experiment shows that \"name recognition\" can be a powerful motivator for content offers. This may be especially true in this instance because the well-known name in this offer is associated as an ally and \"force for good\" by the target audience.\nWhen prospects recognize the name and face of someone they respect, they may be more likely to accept a content offer as credible + valuable.\nWe can now test different treatments against this concept to continue to improve performance.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n58.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27417,
+      "experimentId": "89976",
+      "title": "How writing a direct subject line increased click rates",
+      "date": "2022-05-09T22:39:54",
+      "url": "https://www.nextafter.com/experiments/how-writing-a-direct-subject-line-increased-click-rates/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -6.2,
+      "confidence": 99.7,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "An Email From a Ukrainian Bomb Shelter",
+            "metric": "8.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Ukrainian students need your help today",
+            "metric": "8.3%",
+            "lift": "-6.2%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that writing a direct subject line for email recipients will achieve higher click rates.",
+      "summary": "Timeframe: 04/02/2022 - 04/06/2022\nCuriosity is often used in subject lines to improve open rates. Prevailing wisdom states that when an email recipient’s interest is piqued by an unexpected subject line, they almost can’t help but open.\nBut we wanted to take a closer look at how such an approach would affect click rates—which is, after all, the ultimate goal of email marketing. Specifically, we wanted to know if using curiosity in the subject line might set a false expectation for the reader and thus have a negative impact on click rates. For this experiment, we ran an A/B test with traffic split 50/50.",
+      "keyLearnings": "After running this test, the treatment that used a more direct subject line resulted in a 5.9% lift in click rate with a 23.1% level of confidence. And while the low level of confidence prevents us from validating the results, we can still draw helpful conclusions from this experiment.\nIt is interesting to note that  the direct subject line treatment lifted click rates while producing a 6.2% decrease in open rates. This can likely be attributed to two factors:\nThe subject line, \"An email from a Ukrainian Bomb shelter\" opens a loop in the recipient's mind, prompting them to open the email to learn more, HOWEVER ...While curiosity improved open rates, it may also have set a false expectation (or failed to set any expectation) in the minds of recipients about the content of the email itself ... whereas the more direct subject line, \"Ukrainian students need your help today,\" while less enticing, sets a much clearer expectation as to what the recipient can expect to find when they open—an appeal to help Ukrainian students.\nIt is helpful to remember that while open rates are nice (and curiosity subject lines are admittedly fun to write), the ultimate goal of any email that contains a call to action / link is to get the recipient to click through.\nWhen asking email recipients to take a specific action in the body of the email, organizations may be able to improve their click rates by setting a clear expectation in the subject line and thus creating a more consistent experience (and less friction) for potential donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n6.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 28529,
+      "experimentId": "91474",
+      "title": "How a tabbed donation form impacted donor conversion on acquisition pages",
+      "date": "2022-05-04T23:59:19",
+      "url": "https://www.nextafter.com/experiments/how-a-tabbed-donation-form-impacted-donor-conversion-on-acquisition-pages/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 508.8,
+      "confidence": 98.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tabbed Donation Form",
+            "metric": "10.6%",
+            "lift": "508.8%",
+            "confidence": "98.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a tabbed form  for acquisition pages will achieve an increase in overall giving.",
+      "summary": "Timeframe: 04/14/2022 - 04/25/2022\nWhen reviewing the layout of the donation form, we wanted to know if having a visual representation of a tabbed form. The idea was to find out before moving to a new donation platform if presenting the different gift frequency choices, one-time or monthly, as their own separate experiences would increase donor conversion. We are getting ready to move to a new donation platform that would allow us to use this feature across all donation forms, so we wanted to find out how it impacted overall giving before making the change. The second version of this test will be to see how this tabbed approach impacts recurring donors by featuring specific messaging highlighting the need and benefits of monthly giving.",
+      "keyLearnings": "While our sample size of transactions was small, we did see a 508% increase in overall donor conversion with a 98.7% level of confidence after running for two weeks. We also saw a 437.0% increase in revenue on the treatment with a 95% level of confidence. These lifts were consistent across email visitors, desktop visitors, and returning visitors. By adding clarity to the process surrounding the giving frequency selection on the pages, were able to increase both transactions and revenue. We will be moving forward with the tabbed version of the form as the default format on acquisition offers in the new donation platform based on these results as we have no reason to believe this will decrease overall conversion if we do.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 508.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27486,
+      "experimentId": "71248",
+      "title": "How adding an average gift amount and minimum amount to the gift array impacts donor conversion rate",
+      "date": "2022-04-07T19:55:15",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-average-gift-amount-and-minimum-amount-to-the-gift-array-impacts-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 29.7,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Default Gift Array",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Minimum amount & Average amount in Gift Array",
+            "metric": "2.5%",
+            "lift": "29.7%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a minimum amount and average amount to the gift array for survey takers will achieve an increase in donor conversion .",
+      "summary": "Timeframe: 09/02/2021 - 11/14/2021\nThe Fund for American Studies wanted to execute a test previously inspired by a wikipedia tests that states the average donation amount (which is often a number that is not a standard, round number), and a minimum donation. The minimum donation is determined by the number of visitors to the site and the goal revenue amount for the organization. It is expected that average gift would be lower in this experiment, but it was hypothesized that the increase in donor conversion would make up for the potential loss in revenue.\nThis specific experiment was targeted to traffic from a specific offer that generated the most traffic (Marx Survey). Most traffic to this page is from paid social.",
+      "keyLearnings": "The final results of the experiment did provide a valid 29.7% lift in donor conversion. As expected, the average gift for the treatment was lower than that of the control. Our conclusion is that given amounts that make it relative to others' giving habits, make prospective donors more likely to take action. However, it took several months for this experiment to validate. Should we roll this out as the control, we would need more data to ensure this is a viable strategy. It is recommended to test this on multiple instant donation pages as well as the main donation page.\nObservations of the impact on other visitor segments in the experiment:\nMobile visitors had a 31.1% increase in donations with a 94% level of confidence.Returning  visitors had a 33.9% increase in donations with an 90% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 29.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17658,
+      "experimentId": null,
+      "title": "How a text link instead of a button impacted email clickthrough rate",
+      "date": "2021-06-22T14:05:14",
+      "url": "https://www.nextafter.com/experiments/how-a-text-link-instead-of-a-button-impacted-email-clickthrough-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "call to action",
+        "email",
+        "hyperlink"
+      ],
+      "tier": 1,
+      "lift": 17.6,
+      "confidence": 98.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Button",
+            "metric": "15.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Button",
+            "metric": "18.3%",
+            "lift": "17.6%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a hyperlinked page URL for prospects will achieve an increase in email clickthrough rate.",
+      "summary": "Timeframe: 01/23/2021 - 02/04/2021\nIn testing what generated the most clicks when rolling out a new eBook offer to their housefile list, The Fund for American Studies wanted to know whether the approach of using the landing page URL with a hyperlink would definitively be better than using a button in the email promotion.",
+      "keyLearnings": "With a confidence level of 98.5%, we observed a +17.5% increase in email clickthrough rate.\n\nThe reality is that when you write an email from an individual, the reader expects the person that wrote them to not use \"marketing techniques\" (like in this case, a button).\n\nTherefore, the believability that an actual person on the other side of the email actually wrote them goes up when you treat the clickable link in emails like how a real person would send them — in this case, not as a button, but rather as a page URL that is hyperlinked.\n\nWhen possible, continue to use clickable URL's instead of fancy marketing elements within emails — like a button.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n17.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17623,
+      "experimentId": "39294",
+      "title": "How an offer-focused welcome series impacts donor conversion rate",
+      "date": "2021-06-21T21:33:54",
+      "url": "https://www.nextafter.com/experiments/how-an-offer-focused-welcome-series-impacts-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 920,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Org-focused welcome series",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Offer-focused welcome series",
+            "metric": "0.19%",
+            "lift": "920.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that focusing on promoting similar content offers for newly acquired emails in a welcome series will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 10/01/2020 - 11/24/2020\nWhen The Fund for American Studies was just beginning to focus on building their online program, they began promoting a downloadable PDF resource for prospecting targets to request. They would market this offer with digital ads, which directed people to click to a landing page with an email signup form to have the resource sent to them. Finally, when they completed the registration form on the landing page, they would be directed to an instant donation page.\nInitially, they did not have many content offers to provide to prospects, which forced them to initially launch with a welcome series that was focused on telling the story of the organization, or “proving the concept” of their impact by sharing story-based appeals that focused on high-profile alumni. This series also ended with a direct appeal, which was trying to get them to become a first-time donor.\nOver time, the program began to build very quickly, and the organization expanded the number of available “content offers” to the market.\nThey wondered if moving them from the org-centered welcome series to a series that was focused on promoting more content offers like the one they had downloaded would improve their ability to produce first-time donors that had just been acquired.",
+      "keyLearnings": "With a confidence level of 99.8%, we observed that the new offer-focused welcome series improved the donor conversion rate by +920%.\n\nBeyond that, here are some additional metrics that were achieved along with this new approach during the study period:\nEmail Click Rate: +2.8% (LoC: 79.5%)\n \tEmail Open Rate: +86.1% (LoC: 100%)\n \tUnsubscribe Rate: -42.0% (LoC: 100%)\n \tRevenue: +1,091.4% (LoC: 99.9%)\nThe \"control\" welcome series ran for a substantially longer period of time (a year) vs. the new \"treatment\" (offer-focused) welcome series only ran for around 45-days.\n \tThe \"treatment\" experience overlapped the \"control\" experience for the time that the \"treatment\" experience was running.\n \tWe split the contacts by adding a pre-checked checkbox on the signup forms. If the box remained checked, they would go to the \"control\" experience, whereas if it were unchecked, those emails would go into the \"treatment\" experience.\n \tDuring this time of overlapping experiences that were running, roughly 89% of the people that signed up went into the \"control\" experience, and only 11% went to the \"treatment\" experience.\n \tIt can also be assumed that the people that unchecked the box were presumably a less motivated audience than those that left the box checked upon signing up—why? Because they intentionally took a step to say \"I don't want anything else from you\" when they signed up. Even so, this much smaller and assumed to be less motivated audience outperformed the \"control\" experience not only for the 45-day period of time when they were running simultaneously, but also when the performance data for the \"control\" experience was expanded to include a year's worth of results, which is what is included in the study data above.\nWhy would this new welcome series be so much more effective than the control?",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 920.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17241,
+      "experimentId": "33651",
+      "title": "How changing the sender of the newsletter impacted email engagement rates",
+      "date": "2020-11-17T17:50:52",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-sender-of-the-newsletter-impacted-email-engagement-rates/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": 19.1,
+      "confidence": 96.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Reply To: rogerream@TFAS.org - From: Roger Ream",
+            "metric": "0.82%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Reply To: kristin@TFAS.org - From: Kristin, TFAS Communications",
+            "metric": "0.98%",
+            "lift": "19.1%",
+            "confidence": "96.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Would changing the newsletter sender increase email engagement rates?",
+      "summary": "Timeframe: 07/17/2020 - 07/24/2020\nAs a part of optimizing their program, TFAS wondered if switching who sent their weekly newsletter email to subscribers could improve their email engagement rates. To test this experiment, we decided to send three straight weekly newsletters and combine the results so as to mitigate false readings from a single email send.",
+      "keyLearnings": "With a 96.7% level of confidence across a combined three newsletters, we achieved a combined +19.1% increase in newsletter email clickthrough rates when using Kristin as the sender (instead of Roger).\nIronically, this is a directly proportionate increase relative to the percentage of increase we also observed in open rates (which was also +19.1% increase in open rate, with an LoC of 100%, as well).\nThis will increase the number of senders and immediately increase results. Moving forward, this could improve email engagement rates for key solicitation emails within the program sent by Roger, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n19.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17126,
+      "experimentId": "31021",
+      "title": "How less teaser information in the weekly newsletter impacted clickthrough rates",
+      "date": "2020-11-17T17:50:34",
+      "url": "https://www.nextafter.com/experiments/how-less-teaser-information-in-the-weekly-newsletter-impacted-clickthrough-rates/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 39.1,
+      "confidence": 99.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "More Information",
+            "metric": "4.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Less Information",
+            "metric": "5.9%",
+            "lift": "39.1%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing the teaser copy in the newsletter increase newsletter clickthrough rates?",
+      "summary": "Ended On: 05/21/2020\nAs a part of continued learning and testing, The Fund for American Studies was looking to further experiment with increasing the engagement (opens and clicks) from the weekly email newsletter.\nAfter recently successfully testing their way into a simplified newsletter template (that removed all traces of marketing veneer), they decided to experiment with decreasing the amount of “teaser” copy that corresponded with each article.",
+      "keyLearnings": "With 99.9% level of confidence, we observed an increase in newsletter ad clickthrough rates of 39.1%!\nThis experiment was run successively over a three-weekly newsletter send schedule, where we allowed the email system to randomize who received the simplified version from week to week.\nThe hypothesis is that there was an increase in article clicks because the corresponding \"teaser text\" that existed on the control allowed the email recipient to simply \"skim\" the article and determine either (a) whether or not the story interested them, or (b) whether or not they felt the teaser gave them enough information and there was no longer a need to click.\nWhere possible, consider removing any teaser text that corresponds to emails looking to generate click activity in newsletter format especially. The hyperlinked article headline should be enough to generate the intrigue you need to create the momentum needed to produce a higher volume of clicks.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n39.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17094,
+      "experimentId": "20949",
+      "title": "How removing a newsletter’s marketing template impacted clickthrough rate",
+      "date": "2020-11-17T17:50:11",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-newsletters-marketing-template-impacted-clickthrough-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": 68.5,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Newsletter w/Marketing Template",
+            "metric": "0.44%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Newsletter w/out Marketing Template",
+            "metric": "0.75%",
+            "lift": "68.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "By removing the stylized marketing template for the newsletter, can we improve newsletter open or clickthrough rates?",
+      "summary": "Ended On: 04/30/2020\nThe Fund for American Studies (TFAS) was looking to increase email engagement (open and clickthrough rates) for newsletter recipients, and in doing so, decided to turn towards experimentation to iteratively increase results.\nThe first test was to see whether removing the email marketing template for the newsletter would increase open or clickthrough rates.",
+      "keyLearnings": "With 99.9% level of confidence, we observed a 68.5% increase in newsletter article clickthrough rates.\n\nWe also observed with a 100% level of confidence an increase in open rates by +35.1%.\n\nThis was experimented across two successive newsletters to verify that there wasn’t a one-off result. Both tests were consistent in their lift across both metrics, and the numbers shown are aggregated totals across both email tests.\n\nKey Takeaway:\n\nThis further proves that by stripping out the newsletter template to appear more “plain text” in nature, that we can inbox at a better rate. By inboxing more newsletters, we can reach more people (which creates more opens) and because of more openers/readers of the email, we can generate a higher volume of clicks.\n\nNext Steps: Further experimentation on increasing engagement and article consumption or responses to the sender are advised.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n68.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17582,
+      "experimentId": null,
+      "title": "How increasing the clarity about the author impacted email signup rates for an eBook offer",
+      "date": "2020-09-22T19:46:00",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-clarity-about-the-author-impacted-email-signup-rates-for-an-ebook-offer-2/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -13.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Author Clarity",
+            "metric": "61.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "w/Author Clarity",
+            "metric": "53.0%",
+            "lift": "-13.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does increasing the author clarity of a new eBook offer impact email signup and donor conversion rates?",
+      "summary": "Timeframe: 08/25/2020 - 09/03/2020\nAs a part of the launch of a new eBook, The Fund for American Studies decided to experiment with increasing author clarity for the new resource they were promoting. Could this increase email signup rates, and subsequent donor conversion rates?",
+      "keyLearnings": "With a 100% level of confidence, we observed a decrease in email signup rate of -13.7% with the increased clarity for who the author is.\n\nSubsequently, we not only observed fewer downloaders going through the treatment page, but with an 80% level of confidence (thereby making the observation not valid—yet, directionally accurate) we also observed a decrease in subsequent donor conversion by 29.9%, as well.\n\nThis is a baffling study. Typically, increasing the clarity of some component of the offer (in this case—who wrote it) will increase the strength of the value proposition, and subsequently increase results.\n\nFor that reason, we recommend further experimentation with this concept in terms of layout/design to continue testing this hypothesis to see if we can separate the author clarity from the presentation of the information itself.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 13.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17335,
+      "experimentId": "35438",
+      "title": "How increasing the clarity about the author impacted email signup rates for an eBook offer",
+      "date": "2020-09-22T15:00:50",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-clarity-about-the-author-impacted-email-signup-rates-for-an-ebook-offer/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -13.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Author Clarity",
+            "metric": "61.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "w/Author Clarity",
+            "metric": "53.0%",
+            "lift": "-13.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does increasing the author clarity of a new eBook offer impact email signup and donor conversion rates?",
+      "summary": "Timeframe: 08/25/2020 - 09/03/2020\nAs a part of the launch of a new eBook, The Fund for American Studies decided to experiment with increasing author clarity for the new resource they were promoting. Could this increase email signup rates, and subsequent donor conversion rates?",
+      "keyLearnings": "With a 100% level of confidence, we observed a decrease in email signup rate of -13.7% with the increased clarity for who the author is.\nSubsequently, we not only observed fewer downloaders going through the treatment page, but with an 80% level of confidence (thereby making the observation not valid—yet, directionally accurate) we also observed a decrease in subsequent donor conversion by 29.9%, as well.\nThis is a baffling study. Typically, increasing the clarity of some component of the offer (in this case—who wrote it) will increase the strength of the value proposition, and subsequently increase results.\nFor that reason, we recommend further experimentation with this concept in terms of layout/design to continue testing this hypothesis to see if we can separate the author clarity from the presentation of the information itself.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 13.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17202,
+      "experimentId": "33224",
+      "title": "How using an animated video for an ad image impacted donor conversion rate",
+      "date": "2020-07-31T14:34:22",
+      "url": "https://www.nextafter.com/experiments/how-using-an-animated-video-for-an-ad-image-impacted-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 187.6,
+      "confidence": 98.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Static Image",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Animated Video",
+            "metric": "0.09%",
+            "lift": "187.6%",
+            "confidence": "98.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an animation-based ad image (or rather, a video ad) increase donor conversion rate or revenue?",
+      "summary": "Ended On: 07/01/2020\nAs a part of launching a new eBook offer, The Fund for American Studies (TFAS) was looking for a way to increase ad clickthrough and subsequently donor conversion and revenue from the launch campaign. They wondered if using the pre-fabricated image-based animations to create a video ad would increase results.",
+      "keyLearnings": "With a 98.3% level of confidence, we observed a +187.6% increase in donor conversion rate when using a video ad when compared to the static image ad type.\nSubsequently, this increase in donor conversion also increased revenue by +151.6% (LoC: 98.3%).\nIronically, we did not see a valid increase in ad clickthrough rate from this approach (only achieving a +7.1%, with a 73% level of confidence).\nOur hypothesis is that the video ad holds people for a moment longer, catching their attention, which then engages them in the ad copy. With greater ad copy consumption, they arrive at the landing page better motivated to get the eBook, at which point they're arriving at the donation page with a higher motivation to convert into a donor, as well.\nFurther testing may be required, but if you're looking to increase your down-funnel conversion metrics, simply experimenting with a video-based ad from the wizard within Facebook's Ad Manager platform could yield a more motivated audience, which could increase your results, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 187.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16975,
+      "experimentId": "20212",
+      "title": "How breaking your goal down into a smaller ask impacts revenue",
+      "date": "2020-04-20T13:12:05",
+      "url": "https://www.nextafter.com/experiments/how-breaking-your-goal-down-into-a-smaller-ask-impacts-revenue-2/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 347.9,
+      "confidence": 99.9,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"A gift of any amount\"",
+            "metric": "$0.04",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Will you be one of X donors to give $Y?\"",
+            "metric": "$0.17",
+            "lift": "347.9%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will making a smaller, more tangible and relevant ask during a campaign increase donor conversion or revenue.",
+      "summary": "Ended On: 03/06/2020\nDuring the Founders’ Day Campaign for The Fund for American Studies, we wanted to test whether presenting a smaller ask (or “micro ask”) instead of a larger, nebulous amount (of their “most generous gift” amount) and what affect it would have on donor conversion rate or revenue collected in the context of this campaign.",
+      "keyLearnings": "With a 99% level of confidence, we observed an increase of 348% in revenue, and a 45% increase in donor conversion rate (although the donor conversion rate did not validate, achieving only a 66% LoC).\n\nThe results shown were actually significantly better than reported, as we removed an outlier major gift from the report. That major donor was asked to be “one of five” donors to give a $1,000 gift to make the campaign successful and they generously chose to give a gift that would cover the entire need for the segment they were in.\n\nWhen it comes to what you should ask for, perhaps using a data-driven approach to create a relevant ask and putting the goal within reason and reach for each individual donor to allow them to “be the hero” at whatever their means allows is the better approach to high urgency campaign fundraising.\n\nNormally, we would like to receive 4x the number of gifts in a revenue lift experiment like this, but the results are still relative for the size of this organization. Therefore, further experimentation is recommended on a go-forward basis for testing and consideration for how this will improve revenue for other programs at scale.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 45.5% increase in conversion rate\n\t\t\t\t× 207.9% increase in average gift\n\t\t\t\t\t\t\t\t\t347.9% increase in revenue"
+    },
+    {
+      "id": 16972,
+      "experimentId": "28832",
+      "title": "How breaking your fundraising goal down into a smaller ask impacts revenue",
+      "date": "2020-04-14T22:13:29",
+      "url": "https://www.nextafter.com/experiments/how-breaking-your-goal-down-into-a-smaller-ask-impacts-revenue/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 347.9,
+      "confidence": 99.9,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"A gift of any amount\"",
+            "metric": "$0.04",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Will you be one of X donors to give $Y?\"",
+            "metric": "$0.17",
+            "lift": "347.9%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will making a smaller, more tangible and relevant ask during a campaign increase donor conversion or revenue.",
+      "summary": "Ended On: 03/06/2020\nDuring the Founders’ Day Campaign for The Fund for American Studies, we wanted to test whether presenting a smaller ask (or “micro ask”) instead of a larger, nebulous amount (of their “most generous gift” amount) and what affect it would have on donor conversion rate or revenue collected in the context of this campaign.",
+      "keyLearnings": "With a 99% level of confidence, we observed an increase of 348% in revenue, and a 45% increase in donor conversion rate (although the donor conversion rate did not validate, achieving only a 66% LoC).\nThe results shown were actually significantly better than reported, as we removed an outlier major gift from the report. That major donor was asked to be \"one of five\" donors to give a $1,000 gift to make the campaign successful and they generously chose to give a gift that would cover the entire need for the segment they were in.\nWhen it comes to what you should ask for, perhaps using a data-driven approach to create a relevant ask and putting the goal within reason and reach for each individual donor to allow them to \"be the hero\" at whatever their means allows is the better approach to high urgency campaign fundraising.\nNormally, we would like to receive 4x the number of gifts in a revenue lift experiment like this, but the results are still relative for the size of this organization. Therefore, further experimentation is recommended on a go-forward basis for testing and consideration for how this will improve revenue for other programs at scale.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 45.5% increase in conversion rate\n\t\t\t\t× 207.9% increase in average gift\n\t\t\t\t\t\t\t\t\t347.9% increase in revenue"
+    },
+    {
+      "id": 16831,
+      "experimentId": "19183",
+      "title": "How a higher preselected value on a gift array impacted revenue",
+      "date": "2020-01-07T20:44:10",
+      "url": "https://www.nextafter.com/experiments/how-a-higher-preselected-value-on-a-gift-array-impacted-revenue/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -67.9,
+      "confidence": 97.1,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$1.95",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$50 minimum",
+            "metric": "$0.62",
+            "lift": "-67.9%",
+            "confidence": "97.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Would increasing the minimum gift and changing to a higher preselected gift array amount increase donor conversion or revenue?",
+      "summary": "Timeframe: 11/14/2019 - 11/26/2019\nIn a continued effort to improve average gift in their acquisition efforts, TFAS looked to create a new experience that increased the minimum gift array value from $25 to $50, then chose to apply their “Most Popular” gift array treatment that was tested into that improved donor conversion and revenue previously and move it from the $50 value to the $75 amount.",
+      "keyLearnings": "With a 97% level of confidence, we validated a decrease of 67.9% in revenue from this gift array treatment.\nThis decrease in revenue was really driven by a combination of decreasing donor conversion (which was -55.3%, LoC: 92%) along with a smaller average gift.\nAn additional interesting observation is that between the two preselected values across the treatments shown the following was true:\nFor the control experience, 50% of the gifts we received in the experiment were at or above the “Most Popular” gift level of $50. Whereas,\nThe treatment experience produced just 16% of the gifts at or above the “Most Popular” gift amount of $75.\nWith such a small sample, it’s hard to conclusively confirm this, but this leads to suspicion that at least in acquisition, when we ask for a smaller amount up front, that people are inclined to be more generous, whereas if we ask for too much on the first gift, they say “no” altogether.\nConclusion:\nFor this reason, we have concluded that at least with acquisition, that the combination of starting the gift array at $50 and preselecting $75 as the “Most Popular” gift amount appears to be “too high of a floor” for this audience. Further experimentation should be made with other donation forms, but this combination certainly appears to not be the best approach for acquisition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 52.7% decrease in conversion rate\n\t\t\t\t× 32.2% decrease in average gift\n\t\t\t\t\t\t\t\t\t67.9% decrease in revenue"
+    },
+    {
+      "id": 16733,
+      "experimentId": "21133",
+      "title": "How form formatting improved donor conversion rate",
+      "date": "2019-11-01T14:56:32",
+      "url": "https://www.nextafter.com/experiments/off-how-form-formatting-improved-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "donor conversion",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Simplified Form",
+            "metric": "4.1%",
+            "lift": "100.0%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will separating the form fields into sections make the form look less daunting to fill out?",
+      "summary": "Timeframe: 09/05/2019 - 09/14/2019\nWhen The Fund for American Studies (TFAS) launched their new ebook offer, we used the typical form format for the instant donation page. When reviewing the field structuring and format, we theorized that two things may create friction in the donation process.\nFirst, we believed that putting the donation amount above the contact or payment information would improve results.\nSecondly, we believed that by increasing the size of the donation amount buttons (to make them both stand out and be more easily “clickable”) would improve results.\nAnd finally, we believed that separating the form fields into “sections” that it would break up the first glance reaction to seeing the form fields as “a lot of work.”",
+      "keyLearnings": "In an attempt to improve results for the campaign, we decided to roll this treatment version live even though we only secured 5 total transactions.\nAlthough the experiment is statistically validated to lift donor conversion rate by +4% (97.7% LoC), we would normally prefer to have no less than a total of 50 transactions before declaring a victory.\nFurther experimentation may be advise, but we will look to see if by only using this variation, that we do indeed see an increase in donations for the new offer, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29764,
+      "experimentId": "18702",
+      "title": "How form formatting improved donor conversion rate",
+      "date": "2019-11-01T14:56:00",
+      "url": "https://www.nextafter.com/experiments/how-form-formatting-improved-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Simplified Form",
+            "metric": "4.1%",
+            "lift": "100.0%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will separating the form fields into sections make the form look less daunting to fill out?",
+      "summary": "Timeframe: 09/05/2019 - 09/14/2019\nWhen The Fund for American Studies (TFAS) launched their new ebook offer, we used the typical form format for the instant donation page. When reviewing the field structuring and format, we theorized that two things may create friction in the donation process.\nFirst, we believed that putting the donation amount above the contact or payment information would improve results.\nSecondly, we believed that by increasing the size of the donation amount buttons (to make them both stand out and be more easily “clickable”) would improve results.\nAnd finally, we believed that separating the form fields into “sections” that it would break up the first glance reaction to seeing the form fields as “a lot of work.”",
+      "keyLearnings": "In an attempt to improve results for the campaign, we decided to roll this treatment version live even though we only secured 5 total transactions.\n\nAlthough the experiment is statistically validated to lift donor conversion rate by +4% (97.7% LoC), we would normally prefer to have no less than a total of 50 transactions before declaring a victory.\n\nFurther experimentation may be advise, but we will look to see if by only using this variation, that we do indeed see an increase in donations for the new offer, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16736,
+      "experimentId": "18705",
+      "title": "How clearly articulating the value proposition on the primary donation page increased giving",
+      "date": "2019-11-01T14:54:11",
+      "url": "https://www.nextafter.com/experiments/how-clearly-articulating-the-value-proposition-on-the-primary-donation-page-increased-giving/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 293.2,
+      "confidence": 95,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$4.64",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased Value Proposition",
+            "metric": "$18.26",
+            "lift": "293.2%",
+            "confidence": "95.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would emphasizing the value proposition increase giving on the primary donation page?",
+      "summary": "Timeframe: 08/16/2019 - 10/14/2019\nBecause The Fund for American Studies (TFAS) had a number of different audiences arriving at their website, their primary donation page was written in a way to be applicable to as many as possible.\nWe theorized that a clear articulation of the value proposition would improve donor response rate and/or revenue on the main donation page.",
+      "keyLearnings": "With a 95% level of confidence, we achieved a +293% increase in revenue by clearly articulating the value proposition on the primary donation page.\nThe donor conversion rate did increase, as well, but was not validated.\nBecause the experiment showed no decrease to giving, but only increases in donor conversion rate and revenue, we felt that it was appropriate to roll out the treatment to all audiences. However, because donor motivation is typically so high on this page, it’s probably not likely that a 293% increase in revenue can be expected over a longer period of time in rollout.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 13.5% increase in conversion rate\n\t\t\t\t× 246.4% increase in average gift\n\t\t\t\t\t\t\t\t\t293.2% increase in revenue"
+    },
+    {
+      "id": 16730,
+      "experimentId": "23941",
+      "title": "How the cover image of an ebook increased results",
+      "date": "2019-11-01T14:51:50",
+      "url": "https://www.nextafter.com/experiments/how-the-cover-image-of-an-ebook-increased-results/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 65.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "LFS - Cover Test (Control)",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "LFS - Cover Test (Treatment)",
+            "metric": "3.1%",
+            "lift": "65.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would changing the ebook cover design image used in ads and on the landing page improve results?",
+      "summary": "Timeframe: 10/23/2019 - 11/08/2019\nThe Fund for American Studies launched a new acquisition offer and after running it for a month and a half, the team needed to improve ad clickthrough rate and email signup rates to boost performance for the offer.",
+      "keyLearnings": "With a level of confidence of 99.9%, we validated an increase of 65.1% in email signup rate for this treatment.\nThis was partially driven by an increase of +25.9% in ad clickthrough rate (LoC: 99.2%). We also saw a directional lift in donor conversion rate by +6.4% (LoC: 9.8%).\nThe landing page results increased because the motivation of those arriving at the page, combined with the higher number of people (because more ads were clicked) increased results substantially.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 65.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 30493,
+      "experimentId": "98333",
+      "title": "How will adding a value proposition to an email sign-up form affect acquisition rates?",
+      "date": "2022-08-15T16:29:44",
+      "url": "https://www.nextafter.com/experiments/how-will-adding-a-value-proposition-to-an-email-sign-up-form-affect-acquisition-rates/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Email Acquisition",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 60.8,
+      "confidence": 81.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Get Updates\" form",
+            "metric": "2.2%",
+            "lift": "60.8%",
+            "confidence": "81.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a value proposition to an email sign-up form will increase email acquisition rates.",
+      "summary": "Timeframe: 06/22/2022 - 07/28/2022\nIn an effort to increase email acquisition rates for a public policy client, we wanted to test the impact of adding language that illustrates the value of signing up to receive email communications on email acquisition rates.\nWe tested this concept on a pop-up form that appears after website visitors click a “get updates’ button on the header of their site. The “control” version is a plain form with no headline or body copy above the form fields.\nThe treatment adds a headline and body copy to reinforce the value subscribers receive by signing up for email communications. We set this experiment up as an A/B test, splitting traffic evenly between the control and the treatment.",
+      "keyLearnings": "After running this experiment for 34 days, we observed a 60.8% lift in email acquisition rates, with an 81.7% level of confidence. And encouragingly, new site visitors experienced a 284% lift in form submission, with a 94% level of confidence.\n\nAnd while we were unable to collect enough samples to validate our hypothesis, the results of this experiment suggest that conveying the value of signing up for email communications may provide prospects with more motivation to share their email address. As data privacy becomes increasingly important to internet users ... and as inboxes become stuffed with more and more junk and graymail, it becomes increasingly important for organizations to place the value of signing up for your email communications front and center.\n\nWhile reviewing the data we did realize that more than one concept was tested in the treatment version of the form. Not only was value proposition language added, but the form fields were also reduced in an effort to reduce friction. And while it always feels great to improve performance, testing these two concepts concurrently makes it impossible to know with certainty which of these changes produced the observed lift, and which to what degree. However, due to the encouraging results of this experiment, we decided to roll the treatment version out to 100% of traffic going forward.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17734,
+      "experimentId": null,
+      "title": "How prequalifying stickybar audiences to a campaign impacts donor conversion rate",
+      "date": "2021-06-14T14:23:23",
+      "url": "https://www.nextafter.com/experiments/how-prequalifying-stickybar-audiences-to-a-campaign-impacts-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "cultivation",
+        "Donation Pages",
+        "pop-up",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 141.7,
+      "confidence": 81.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Shopper Language",
+            "metric": "0.16%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Buyer Language",
+            "metric": "0.39%",
+            "lift": "141.7%",
+            "confidence": "81.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that buyer language used on-site to promote a campaign for web visitors will achieve increase donor conversion rate.",
+      "summary": "Ended On: 02/25/2021\nThe Fund for American Studies was running on-site stickybar and home page popup promotions for their Founders’ Day Campaign and wanted to experiment with whether “selling the click” or “selling the donation” would be most effective for their audience visiting the website.\nWe decided to call these treatments “shopper” language (to sell the click) and “buyer” language (to sell the post-click donation).",
+      "keyLearnings": "With the deadline approaching for the campaign, we decided to take the version of the stickybar/popups that was showing a lead for the remaining few days.\n\nWe did observe some other statistics that are worth noting:\nAd clickthrough rate on the \"buyer\" version of the ad copy did see valid decrease during the valuation period — showing 39.1% less clicks (LoC: 99%).\n \tHowever, because the fewer people clicking on the \"buyer\" version of the ad did convert (as shown above) at a higher rate, we observed an increase in donor conversion rate after they clicked the on-site ads.\n \tCombining more donors (as noted previously), the \"buyer\" version of the ad produced a more generous donor to the campaign — showing an increase of +18.4% increase in the size of the average gift.\n \tBecause of that higher donor total and a higher average gift, the revenue for the \"buyer\" ads actually was a lift of +183% (LoC: 93.6%).",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17332,
+      "experimentId": "31543",
+      "title": "How the sender’s title impacted open and clickthrough rates on a weekly newsletter",
+      "date": "2020-09-22T15:01:29",
+      "url": "https://www.nextafter.com/experiments/how-the-senders-title-impacted-open-and-clickthrough-rates-on-a-weekly-newsletter/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 2,
+      "lift": -2.1,
+      "confidence": 83.5,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "From: Kristin Underwood",
+            "metric": "15.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "From: Kristin, TFAS Communications",
+            "metric": "15.4%",
+            "lift": "-2.1%",
+            "confidence": "83.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will including the sender’s org/title in the sender name field impact email open, click and unsubscribe rates?",
+      "summary": "Ended On:\nAs a part of continuous experimentation with increasing engagement from their weekly newsletter, The Fund for American Studies had recently tested into switching senders, but wanted to experiment with whether or not it was important to keep the sender’s title/department as a part of their name in following emails.",
+      "keyLearnings": "After 4 weekly sends were combined together, we could not validate a lift (or decrease) in any of the metrics we were tracking (open rate, clickthrough rate, or unsubscribe rate).\nWe did see a slight (albeit not valid) lift in the open rate (and each subsequent metric) when we did not use the sender’s org/title within the “sender name” field, but even so, the difference between the control/treatment was so negligible (at/below 3% across all three metrics), it’s safe to assume that it’s of no great consequence (or threat) to use either variation.\nOur recommendation is to always err on the side of being a real person speaking to one individual recipient, and therefore would default to not including the org name/title as a part of the sender name (because most people don’t send emails with that included), however, there is no data in this particular study that would substantiate a significant gain in going that route.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16912,
+      "experimentId": "19728",
+      "title": "How a book premium impacted acquisition offer revenue",
+      "date": "2020-03-26T20:52:28",
+      "url": "https://www.nextafter.com/experiments/how-a-book-premium-impacted-acquisition-offer-revenue/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 2,
+      "lift": 20.6,
+      "confidence": 89.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Book Premium",
+            "metric": "$1.14",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Book Premium",
+            "metric": "$1.37",
+            "lift": "20.6%",
+            "confidence": "89.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a book (gift premium) work to increase either donor conversion rate or revenue (and subsequently ROI) for our acquisition offers?",
+      "summary": "Timeframe: 12/04/2019 - 01/31/2020\nIn an attempt to boost ROI from their acquisition efforts in expanding their digital program, The Fund for American Studies (TFAS) was looking for ways to increase their average gift, while ideally not impacting their donor conversion rate. They decided to test a gift premium tied to the $100 gift amount to see if they could improve results substantially and drive ROI to a higher level.",
+      "keyLearnings": "With a 89.7% level of confidence, we were able to achieve a +20.6% increase in revenue by using the book as a gift premium (tied to the $100 gift level) on our acquisition offers.\nAlthough this experiment did not fully validate (at the 95% LoC that we would typically require to declare a winner), because of the preference to increase ROI, TFAS decided to rollout the treatment and take the increased revenue (and ROI).\nThere are a few more observations made throughout this experiment, notably the following:\nWe did also observe a -10% donor conversion rate (although that only achieved a 55% LoC, which means it was not validated).\nThe increase in revenue, albeit with fewer donors for the treatment was driven by the dramatic increase in average gift (+36%).\nSpecifically, the treatment experience produced nearly 25% of the overall gifts received at the $100+ gift level (to receive the premium), whereas the control experience only achieved 6.4% of the overall gifts received at that same gift level ($100+).\nOverall, the overall net incremental cost the organization was an additional $3 to acquire these book premium donors at the $100+ gift level.\nFor all of these reasons, TFAS decided to take the much higher volume of $100+ donors through their acquisition efforts for the additional $3 net cost to acquire them.\nIt should be noted that if you are considering using a book premium, that the placement of the book (after the core value proposition) as well as the relevancy of the book to the core value proposition that is chosen is highly recommended.\nin this case, a high-profile alumnus wrote the book used in this experiment. We believe that these two factors are critical for acquiring long-term supporters for the organization (as the offer is not the book, but the core value proposition, and that the book sits behind that core offer as an incentive to “give more” to receive it for the donor).\nBecause of this, future testing with this book serving as the control will be considered, whereas new and more relevant books will be considered as treatments to future acquisition offers.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16739,
+      "experimentId": "18708",
+      "title": "How an animated video ad image increased ad clickthrough rate",
+      "date": "2019-11-01T14:55:12",
+      "url": "https://www.nextafter.com/experiments/how-an-animated-video-ad-image-increased-ad-clickthrough-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 7.7,
+      "confidence": 81.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Static Ad",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video Ad",
+            "metric": "1.9%",
+            "lift": "7.7%",
+            "confidence": "81.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will using an animated video ad from Facebook increase ad clickthrough rate?",
+      "summary": "Timeframe: 09/30/2019 - 10/14/2019\nAs a part of optimizing The Fund for American Studies’ eBook offer, we wanted to increase ad clickthrough rate to improve traffic through the funnel. To experiment with boosting ad clickthrough, we decided to",
+      "keyLearnings": "Directionally, we observed an increase of ad clickthrough rate by +7.7%, however we did not validate the experiment (achieving only an 81% level of confidence).\nWe turned off this experiment because after running for two weeks, we achieved the (directional) lift in ad clickthrough rate and traffic, however the email registration rate decreased (-28.5%, LoC: 100%), as did the donor conversion rate (-41.6%, LoC: 65.7%).\nOur hypothesis is that although the video ad produced more traffic, with the decrease in email signups and donations, it was likely erroneous click activity after watching (or attempting to rewatch) the ad.\nThis approach has worked well for some offers and causes, and we should consider retesting this tactic at some point down the road.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30484,
+      "experimentId": "96779",
+      "title": "How will injecting urgency into a sticky bar affect donation rates during a high urgency campaign",
+      "date": "2022-08-15T16:28:46",
+      "url": "https://www.nextafter.com/experiments/how-will-injecting-urgency-into-a-sticky-bar-affect-donation-rates-during-a-high-urgency-campaign/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 41.5,
+      "confidence": 46,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Thermometer + Sticky Bar A",
+            "metric": "6.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Thermometer + Sticky Bar B",
+            "metric": "9.2%",
+            "lift": "41.5%",
+            "confidence": "46.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that injecting urgency into a sticky bar for prospective donors will achieve higher conversion rates.",
+      "summary": "Timeframe: 06/08/2022 - 07/03/2022\nDuring a recent high-urgency campaign, we wanted to test two versions of a sticky bar to see which performed better in increasing donation rates on a campaign donation page.\nFor this experiment, we created two different sticky bar treatments and ran the experiment for the length of the campaign, 22 days",
+      "keyLearnings": "After running this experiment for 22 days, we observed a 41.5% lift in conversion rates produced by the sticky bar with urgency, however, we were unable to validate these results with a level of confidence of just 46%.\n\nWhen reviewing the results, we also realized that the traffic who experienced each version was not evenly split ... with 58.6% of visitors experiencing version A and only 41.4% of visitors experiencing version B. Both versions earned 6 conversions, but it is not possible for us to know with certainty how this would have changed if a more even split of traffic had occurred.\n\nWe will need to test this hypothesis again in the future to find out if adding urgency in sticky bar language will improve donor conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27964,
+      "experimentId": "88886",
+      "title": "How a text message impacts campaign giving in a high urgency campaign",
+      "date": "2022-04-14T20:49:08",
+      "url": "https://www.nextafter.com/experiments/how-a-text-message-impacts-campaign-giving-in-a-high-urgency-campaign/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 26,
+      "confidence": 31.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.86%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.1%",
+            "lift": "26.0%",
+            "confidence": "31.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending a text message during a high urgency campaign will increase downstream donations among their housefile.",
+      "summary": "Ended On: 03/18/2022\nDuring a high urgency campaign TFAS wanted to test using text messaging for the end of their high urgency campaign, Founders Day. Typically, TFAS uses slybroadcast in the final days of their campaign to remind their constituents to give during the campaign. We wanted to determine how effective testing would be by splitting the mobile users list in half. Half would receive the text and half would not. We then looked at downstream conversions during the campaign to see if there was an increase in giving among those who received the text",
+      "keyLearnings": "The results of this experiment did not validate. There is no statistical difference between those who did or did not receive the text message in the campaign. This means that this text was most likely not a motivator for those to take action during the campaign. Another potential test is to use text messaging as a way to engage users (not just an ask) and see if this type of engagement produces more donations during the campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27966,
+      "experimentId": "75006",
+      "title": "How reiterating the value proposition by the “submit” button affects donor conversion rate",
+      "date": "2022-04-14T20:47:08",
+      "url": "https://www.nextafter.com/experiments/how-reiterating-the-value-proposition-by-the-submit-button-affects-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 9.5,
+      "confidence": 47.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1 - Value prop language",
+            "metric": "3.1%",
+            "lift": "9.5%",
+            "confidence": "47.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding value proposition language by the submit button for prospective donors will achieve a higher donor conversion rate.",
+      "summary": "Timeframe: 10/29/2021 - 01/30/2022\nTFAS was running an offer (Democratic Socialism eBook) that had a high sign-up rate and a high gross cost per donor. In an effort to inspire more donations on the instant donation page we added a sentence directly underneath the “submit” button on the donation form. This sentence was value proposition-focused and would serve as a reminder of what their gift is going towards.",
+      "keyLearnings": "The results of this experiment did not validate. There was no statistical difference between those who saw the value prop language underneath the button vs those who did not. Our hypothesis is that this may have been too small of a difference with the given traffic to produce a valid result. The next step is to test this among multiple instant donation pages in order to produce valid learning.\n\nObservations of the impact on other visitor segments in the experiment:\nDesktop visitors had a 75.1% increase in donations with a 97% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27469,
+      "experimentId": "85736",
+      "title": "How adding communal language to a sticky bar during a high urgency campaign affects donor conversion rate",
+      "date": "2022-04-07T19:56:45",
+      "url": "https://www.nextafter.com/experiments/how-adding-communal-language-to-a-sticky-bar-during-a-high-urgency-campaign-affects-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 21.5,
+      "confidence": 33.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Stickbar control",
+            "metric": "0.60%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stickbar treatment - communal language",
+            "metric": "0.73%",
+            "lift": "21.5%",
+            "confidence": "33.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding communal language to a sticky bar for web visitors will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 02/18/2022 - 03/04/2022\nThe Fund for American Studies was running a high urgency campaign in February called Founders Day. They ran site-wide sticky bars in order to drive more donations for their campaign. We wanted to test using communal language to inspire more people to give to this campaign. We used the phrase “Because you’re a friend to TFAS” in order to communicate that to the web visitor that they are part of the organization’s work.\nAll traffic for this campaign was organic web traffic.",
+      "keyLearnings": "The results of this experiment did not validate most likely due to the fact that this experiment needed more time to run. It is recommended that this test is ran again. One thing to note is that we did see a directional lift in donor conversion among email visitors. This is most likely due to the fact that people on their file would resonate with being referred to as a \"friend of TFAS.\"\n\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 88.3% decrease with a 86% level of confidence.\nEmail visitors had a 353.8% increase in donations with an 89% level of confidence.\n \tDesktop visitors had a 196.3% increase in donations with a 92% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27359,
+      "experimentId": "88022",
+      "title": "How pre-populating form fields and re-ordering steps impacted donor conversion",
+      "date": "2022-04-06T18:55:46",
+      "url": "https://www.nextafter.com/experiments/how-pre-populating-form-fields-and-re-ordering-steps-impacted-donor-conversion/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 30.1,
+      "confidence": 65,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Prefilled Form Fields and Reordered Steps",
+            "metric": "2.2%",
+            "lift": "30.1%",
+            "confidence": "65.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that rearranging the order of selections and completing known form fields for instant donation page visitors will achieve a lift in donor conversion.",
+      "summary": "Timeframe: 03/10/2022 - 04/09/2022\nWhen evaluating how to increase donor conversion on instant donation pages for acquisition offers, we noticed that the control donation page asked first for the gift amount and then for the frequency of the gift. We wondered if placing the frequency before the gift amount would make more sense in beginning the conversation with the donors visiting the page. We also thought we could reduce the work involved in submitting the form by pulling in First Name, Last Name and Email Address from the previous landing page to help the donor continue filling out the rest of the fields. We launched the treatment with the pre-populated form fields and re-ordered steps across all acquisition offers and ran the test for a month.",
+      "keyLearnings": "After running the experiment for one month, we observed a 30% increase in donor conversion with 65% level of confidence, so the test results are statistically invalid. However, we did see a directional lift for mobile visitors, which had a 97.8% increase in donations with a 93% level of confidence. Based on this learning, we can deduce that mobile visitors were more likely to complete the form when they had fewer fields to complete. Because the re-ordering of the gift options—putting frequency before the amount—decision making process did not appear to have a negative impact on transactions, we can continue to optimize the page with the frequency being the first choice for the donor to make by testing a tabbed form next. We can also use what we learned from this experiment in paid media efforts to also try this method on email appeals in the future since we can pre-populate personal information from the database in our email system and see if we get similar results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27034,
+      "experimentId": "80931",
+      "title": "How adding a donor countdown to a CYE sticky bar affects donor conversion rate",
+      "date": "2022-03-24T13:42:53",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-donor-countdown-to-a-cye-sticky-bar-affects-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 32.1,
+      "confidence": 67.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Stickbar copy - Without countdown",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Stickbar copy - With countdown",
+            "metric": "2.5%",
+            "lift": "32.1%",
+            "confidence": "67.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a daily donor countdown on a stickybar for website visitors during the calendar year-end will achieve an increase in donor conversion rate.",
+      "summary": "Timeframe: 12/23/2021 - 01/04/2022\nDuring the last leg of the CYE campaign, TFAS wanted to drive more donations from the homepage. We wanted to see if seeing a smaller goal with a donor countdown on the sticky bar would drive a higher donor conversion rate. The control would have the standard language used while the treatment would have a daily donor countdown in the button. Amounts for the daily goal count were based on the previous year’s daily gift numbers.",
+      "keyLearnings": "In this experiment, we achieved a 30% lift with a 67% level of confidence. Given that this experiment ran for only over a week this should be retested during a longer time frame to allow for validation. While it appears there is a higher lift in revenue in the control, there is an outlier gift of $10k in the control. There are several gifts between $1k-$5k but the client assured us that most of these gifts were new donors and we could keep these in the data set without counting them as outliers. With only removing the $10k gift, revenue is flat between the control and treatment.\n\nThere is data to imply that this could be a good experiment to retest later especially as we see a 169% increase in donations through mobile with a level of confidence of 93%.\n\nObservations of the impact on other visitor segments in the experiment:\nEmail visitors had a 100.0% decrease in donations with a 98% level of confidence.\n \tPaid Social visitors had a 299.2% increase in donations with a 96% level of confidence.\n \tMobile visitors had a 169.4% increase in donations with a 93% level of confidence.\n \tFemale visitors had a 207.9% increase in donations with an 86% level of confidence.\n \tMale visitors had a 142.8% increase in donations with a 90% level of confidence.\n \t65+ visitors had a 6.7% increase in donations with a 96% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 26984,
+      "experimentId": "88885",
+      "title": "How asking for less than their historically largest gift impacted donor conversion rate",
+      "date": "2022-03-18T22:40:46",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-less-than-their-historically-largest-gift-impacted-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -10.8,
+      "confidence": 36.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.88%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Downgraded Ask",
+            "metric": "0.78%",
+            "lift": "-10.8%",
+            "confidence": "36.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for a gift less than their historically largest gift for existing donors will achieve increase donor conversion.",
+      "summary": "Timeframe: 01/26/2022 - 02/28/2022\nAs part of their Founders Day campaign, The Fund for American Studies wanted to test a relatively new concept known as the downgraded ask. For this experiment, they created a chart of standards based upon the donors’ previous highest contribution where they would ask for a certain number of donors to give a specific amount. For the treatment version of this ask, they asked for a level below what the donor had previously given and added language acknowledging that they were being asked for less.\nThis was then tested across all 10 emails that were sent out as part of the campaign and results were determined based upon all online giving (excluding recurring gifts) during the month of the campaign.",
+      "keyLearnings": "After running the split with the same audiences for the entirety of the campaign, we found that there was no statistically significant difference between the control and treatment. Additionally, we found that the overall average gift wasn't impacted by the treatment either.\nUpon further investigation, we did find at least one email that used the same exact language across the control and treatment. This may have skewed the results. In addition this, the list was split and stratified manually before adding it to Hubspot. This was to make sure we had an even distribution of donors and engaged users. However after the split, additional suppressions were added to the the send list. This affected two things: the contact distribution may have been skewed and the sample size for the experiment was reduced. It is recommended that this is tested again perhaps in the context of a reactivation campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 24712,
+      "experimentId": "79124",
+      "title": "How a visual match reinforcement affects year-end giving",
+      "date": "2022-01-05T20:30:51",
+      "url": "https://www.nextafter.com/experiments/how-a-visual-match-reinforcement-affects-year-end-giving/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "match"
+      ],
+      "tier": 3,
+      "lift": 11.6,
+      "confidence": 22.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Match Counter",
+            "metric": "4.9%",
+            "lift": "11.6%",
+            "confidence": "22.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that providing a visual representation for a matching gift for prospective donors will achieve a higher donor conversion rate and revenue.",
+      "summary": "Timeframe: 12/10/2021 - 01/01/2022\nFor TFAS’ calendar-year-end campaign, we wanted to create a visual reinforcement for the matching gift. The goal is to have a visual representation of how a donor’s impact is doubled by the matching gift when they give during the year-end campaign. In this particular case we used a numerical visual representation that would instantly change as the prospective donor selected a different amount in the gift array. When someone selected $50, the counter would show a $100 impact. If $100 was selected, the counter would display a $200 impact, etc. We hypothesized that this visual representation would increase both donor conversion rate and revenue.",
+      "keyLearnings": "Though this experiment did not fully validate, there was a directional decrease and enough evidence to indicate that this visual representation did not result in a higher donor conversion rate, nor did it inspire a higher average gift. There was a 62% directional decrease in revenue through this experiment. The speculation is that the visual number doubling, may have been confusing for some prospective donors and perhaps felt like they were donating $100 instead of $50. Another way we can test this concept in the future is to test the doubling of the gift through a visual representation on a thermometer instead.\nNotable changes to other metrics due to the experiment:\nRevenue experienced a 62.8% decrease with a 92% level of confidence.\nObservations of the impact on other visitor segments in the experiment:\nEmail visitors had a 53.5% decrease in donations with a 98% level of confidence.New  visitors had a 54.9% decrease in donations with a 93% level of confidence.Mobile visitors had an 84.4% decrease in donations with a 100% level of confidence.Referral visitors had a 100.0% increase in donations with a 100% level of confidence.Male visitors had an 87.5% decrease in donations with a 100% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 20600,
+      "experimentId": "69032",
+      "title": "How sliding door language affects the conversion rate on an instant donation page",
+      "date": "2021-09-02T21:00:46",
+      "url": "https://www.nextafter.com/experiments/how-sliding-door-language-affects-the-conversion-rate-on-an-instant-donation-page/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "donation page"
+      ],
+      "tier": 3,
+      "lift": -15.8,
+      "confidence": 65.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sliding Door Variant",
+            "metric": "2.0%",
+            "lift": "-15.8%",
+            "confidence": "65.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding sliding door language on an instant donation page for page visitors will increase donor conversions.",
+      "summary": "Timeframe: 08/09/2021 - 09/05/2021\nWhile the Marx survey offer had a healthy email acquisition rate, the instant donor conversion rate needed improvement. To motivate people to donate, we added sliding door language before the final CTA. We wanted to test and see if adding language that expresses the negative effects of not supporting TFAS would lift conversions.",
+      "keyLearnings": "Results inform us that the TFAS audience is not motivated by sliding door language.\n\nObservations of the impact on other visitor segments in the experiment:\nDesktop visitors had an 85.4% decrease in donations with a 98% level of confidence.\n \tMale visitors had a 48.5% decrease in donations with an 86% level of confidence.\n \t45-54 visitors had a 100.0% decrease in donations with a 92% level of confidence.\n \t25-34 visitors had a 100.0% decrease in donations with a 98% level of confidence.\n \t35-44 visitors had a 69.7% decrease in donations with a 92% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17634,
+      "experimentId": "49898",
+      "title": "How positioning what happens if a donor doesn’t give rather than what happens if they do impact donor conversion rate",
+      "date": "2021-06-21T21:36:13",
+      "url": "https://www.nextafter.com/experiments/how-positioning-what-happens-if-a-donor-doesnt-give-rather-than-what-happens-if-they-do-impact-donor-conversion-rate-2/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 47.5,
+      "confidence": 36.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Hope of Gain",
+            "metric": "2.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Fear of Loss",
+            "metric": "4.0%",
+            "lift": "47.5%",
+            "confidence": "36.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that positioning the “fear of loss” (eg what won’t happen if the donor doesn’t give right now) will impact donor conversion rate when soliciting donors within the context of a campaign.",
+      "summary": "Timeframe: 02/04/2021 - 02/10/2021\nAs a part of The Fund for American Studies’ recent Founder’s Day campaign, they were asking high capacity donors to contribute to building a matching gift fund that would be used to challenge other donors to join the movement to rally right now and do more to help more students and teachers in 2021.\nWe wanted to experiment with what would motivate donors to take action now: either (a) the hope of what could be achieved through their gift right now, or (b) what won’t happen without their gift right now.",
+      "keyLearnings": "We achieved neither the minimum number of samples we needed nor did we observe a wide enough variance between the two treatments to reliably validate that one variant over the other.\n\nWe knew that validating this experiment might be too difficult, considering we were running it against such a small universe of names (of very few high capacity donors on the email file).\n\nFor the sake of thoroughness, we decided to check the statistics related to a revenue lift study based upon these results — and we only observed a +6.5% increase in revenue for the treatment, but with only a level of confidence (LoC) of only 56%. Finally, the number of samples achieved on a revenue lift study was nowhere near where we'd need it to be, and it only achieved a \"coin flip\" likelihood to improve results by only a few percentage points.\n\nAll of this is to say: Further experimentation should be considered moving forward but on a much wider universe of available prospects by which we can potentially validate a lift for one variant over another.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 19690,
+      "experimentId": "49898",
+      "title": "How positioning what happens if a donor doesn’t give rather than what happens if they do impact donor conversion rate",
+      "date": "2021-06-21T19:02:29",
+      "url": "https://www.nextafter.com/experiments/how-positioning-what-happens-if-a-donor-doesnt-give-rather-than-what-happens-if-they-do-impact-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "emotional language",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 47.5,
+      "confidence": 36.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Hope of Gain",
+            "metric": "2.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Fear of Loss",
+            "metric": "4.0%",
+            "lift": "47.5%",
+            "confidence": "36.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that positioning the “fear of loss” (eg what won’t happen if the donor doesn’t give right now) will impact donor conversion rate when soliciting donors within the context of a campaign.",
+      "summary": "Timeframe: 02/04/2021 - 02/10/2021\nAs a part of The Fund for American Studies’ recent Founder’s Day campaign, they were asking high capacity donors to contribute to building a matching gift fund that would be used to challenge other donors to join the movement to rally right now and do more to help more students and teachers in 2021.\nWe wanted to experiment with what would motivate donors to take action now: either (a) the hope of what could be achieved through their gift right now, or (b) what won’t happen without their gift right now.",
+      "keyLearnings": "We achieved neither the minimum number of samples we needed nor did we observe a wide enough variance between the two treatments to reliably validate that one variant over the other.\nWe knew that validating this experiment might be too difficult, considering we were running it against such a small universe of names (of very few high capacity donors on the email file).\nFor the sake of thoroughness, we decided to check the statistics related to a revenue lift study based upon these results — and we only observed a +6.5% increase in revenue for the treatment, but with only a level of confidence (LoC) of only 56%. Finally, the number of samples achieved on a revenue lift study was nowhere near where we'd need it to be, and it only achieved a \"coin flip\" likelihood to improve results by only a few percentage points.\nAll of this is to say: Further experimentation should be considered moving forward but on a much wider universe of available prospects by which we can potentially validate a lift for one variant over another.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17402,
+      "experimentId": "48884",
+      "title": "How adding an “About Us” section to the landing page impacted donor conversion rate",
+      "date": "2020-10-23T14:41:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-about-us-section-to-the-landing-page-impacted-donor-conversion-rate/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -23.7,
+      "confidence": 61.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "w/About TFAS",
+            "metric": "2.3%",
+            "lift": "-23.7%",
+            "confidence": "61.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the addition of an “about us” section to tell the organization’s history and beliefs to the landing page impact donor conversion rate?",
+      "summary": "Timeframe: 09/17/2020 - 10/03/2020\nAs a part of promoting a new content offer, The Fund for American Studies wondered whether telling more about their organization’s history would help boost email signups, but most importantly, whether or not it would increase the donor conversion rate after someone had signed up to request the resource they were offering.",
+      "keyLearnings": "With only a 61% level of confidence, we observed a -23.7% decrease in donor conversion rate. This was subsequently driving a similar decrease in revenue, as well.\nWe did observe roughly a directional increase of +8.5% in email signup rates, but we decided to turn this off and focus experimentation elsewhere.\nFurther experimentation may be required, as we did notice an uptick in revenue from returning visitors with the treatment, but decreases in new visitors. This may be driven by new visitors largely being motivated by the offer, instead of the organization. Perhaps adding this description to the donation page may be a better place within the funnel for experimentation next.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16749,
+      "experimentId": "18716",
+      "title": "How a “most popular” pre-selected value in the gift array did not hurt conversion or revenue",
+      "date": "2019-11-08T14:03:57",
+      "url": "https://www.nextafter.com/experiments/how-a-most-popular-pre-selected-value-in-the-gift-array-did-not-hurt-conversion-or-revenue/",
+      "organization": "The Fund for American Studies",
+      "categoryNames": [
+        "The Fund for American Studies"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": 10.9,
+      "confidence": 39.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Most Popular Treatment",
+            "metric": "5.0%",
+            "lift": "10.9%",
+            "confidence": "39.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a visual treatment using that increases the visibility of the pre-selected value increase the average gift from instant donors?",
+      "summary": "Timeframe: 10/04/2019 - 11/04/2019\nIn an attempt to increase the average gift for The Fund for American Studies’ acquisition campaign, we decided to experiment with a “most popular” treatment on the $50 amount in the gift array to see if it would increase the average gift amount from instant donors.",
+      "keyLearnings": "Although we did not see a validated increase in either donor conversion rate or revenue, we observed a directional lift in both metrics.\nThe key learning with this experiment was that after running for a month, this treatment DID NOT show, at any point, a decrease in either one of these metrics, which was enough for us to consider that the lifts we achieved were directional, and that there would not be risk in rolling this treatment out as the “new control” version of the donation page.",
+      "fluxMetrics": null
+    }
+  ]
+}

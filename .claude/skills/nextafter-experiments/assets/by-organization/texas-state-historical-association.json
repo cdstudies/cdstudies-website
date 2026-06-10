@@ -1,0 +1,1729 @@
+{
+  "name": "Texas State Historical Association",
+  "total": 42,
+  "tierBreakdown": {
+    "valid": 26,
+    "directional": 9,
+    "inconclusive": 7
+  },
+  "experiments": [
+    {
+      "id": 17684,
+      "experimentId": "11690",
+      "title": "How adding one required field affects donor conversion",
+      "date": "2021-06-10T18:10:28",
+      "url": "https://www.nextafter.com/experiments/how-adding-one-required-field-affects-donor-conversion-2/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -42.6,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Phone Number Field",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Required Cell Phone",
+            "metric": "1.2%",
+            "lift": "-42.6%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "What impact will requiring a cell phone have on the acquisition of donors?",
+      "summary": "Timeframe: 09/09/2015 - 09/18/2015\nAs part of their latest name acquisition campaign, the Texas State Historical Association had an instant donor conversion page once someone submitted their email address. Historically, we had trouble matching up donations to existing donors which had created troubles in the organization’s CRM system. We wanted to see if it was possible to acquire more information about their donors to make this process easier.\nThe ultimate goal was to simplify the gift entry process by acquiring the donor’s cell phone number. Having this piece of information would allow for duplicate donor records to be more easily identified.  Our concern was on whether this one field would help or hinder the ultimate conversion into a donor so we created two donation forms that would allow us to test the concept.",
+      "keyLearnings": "The donation form that required a cell phone decreased the number of members acquired by 42.6%. Any form field added to a page will create a certain amount of friction in the visitor’s mind, even if it was option.  In this case, the visitors’ sensitivity to giving out their cell phone number is high. By requiring that piece of information, we added a certain amount of “cost” to the offer (in this case, membership) that was higher than the perceived value in many visitors’ minds.  This led to a reduction in the conversion on the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 42.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12090,
+      "experimentId": "11692",
+      "title": "How “benefits” language affects the open rate",
+      "date": "2019-05-06T01:39:21",
+      "url": "https://www.nextafter.com/experiments/how-benefits-language-affects-the-open-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 12.8,
+      "confidence": 99.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Sneak Preview for Members Only",
+            "metric": "40.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "A Perk of Membership",
+            "metric": "45.9%",
+            "lift": "12.8%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will the “exclusivity” or the “benefit of membership” increase the likelihood of donors to open an email?",
+      "summary": "Timeframe: 09/12/2015 - 09/20/2015\nEach month, the Texas State Historical Association gives a new resource to their members. These resources can range from interactive quizzes to downloadable eBooks.  We wanted to make sure members took advantage of these benefits.\nHistorically, we had touted these premiums based upon their exclusivity to members. We had the hypothesis that by framing the offer as a benefit to membership would improve the open rate.",
+      "keyLearnings": "The subject line that that talked about the benefits of membership increased the open rate by 12.8% compared to talking about the exclusivity of the offer.\nThese two factors, exclusivity and benefits, are both elements that can lead to the ultimate conversion of a visitor. When dealing with areas with limited size, such as the subject line, we often cannot utilize both so it is important to know which is most effective at increasing conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n12.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12654,
+      "experimentId": "11710",
+      "title": "How a radical redesign affects the force of the value proposition",
+      "date": "2019-04-20T03:14:30",
+      "url": "https://www.nextafter.com/experiments/how-radical-redesign-affects-the-force-of-the-value-proposition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 146.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Old Membership Experience",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Membership Page",
+            "metric": "2.6%",
+            "lift": "146.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a radical redesign that reduces friction and dramatically increases the force of the value proposition increase donor conversion?",
+      "summary": "Timeframe: 09/01/2013 - 09/30/2013\nThe Texas State Historical Association had several initiatives designed to grow their membership base. However, the membership page presented tremendous friction. The experience used a shopping cart, though it was asking for donations. It also presented four different membership options, but did not give distinction between them. And the copy on the page was not very specific, and made unclear and unsubstantiated claims.\nThe team created a radical redesign with longform copy to appropriately convey the value proposition. They added supporting copy that highlighted exclusivity and credibility, and gave a full explanation of why the visitor should join the TSHA as a member. This page also included evidentials to back up each claim. Finally, the membership levels were quantified and given distinct benefits, with one preferred level preselected.\nAn A/B test was then launched to determine a winner.",
+      "keyLearnings": "This experiment showed how affecting the force of the value proposition can radically affect donor conversion. Though the underlying value proposition of the TSHA remained the same, the information was presented in a way that caused many more visitors to understand it, believe it, and want to join.\nThis experiment also revealed that TSHA members are readers, which makes complete sense given their affinity for history. Long form copy gives them more information, refuting the commonly held conventional wisdom that “people don’t read on the internet”.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 146.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11787,
+      "experimentId": "11709",
+      "title": "How finding the right incentive affects the email capture rate",
+      "date": "2019-04-20T03:14:14",
+      "url": "https://www.nextafter.com/experiments/how-finding-the-right-incentive-affects-the-email-capture-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        50.2,
+        11.5
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Texas Almanac",
+            "metric": "13.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Alamo eBook",
+            "metric": "19.5%",
+            "lift": "50.2%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Southwestern Historical Quarterly",
+            "metric": "14.5%",
+            "lift": "11.5%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Which incentive is the most effective in capturing an email address?",
+      "summary": "Timeframe: 03/24/2014 - 07/04/2014\nThe Texas State Historical Association (TSHA) has a large volume of traffic to their websites each month. In order to capitalize on this traffic, they have set up several email capture offers to use at different times of the year.  One of those offers was a 10 question quiz named Are You Smarter Than a Texas 7th Grader. At the end of the quiz, the visitors are offered a digital resource in exchange for their email address.\nWe wanted to find the digital resource that would be most appealing to the TSHA audience so we created an experiment that would allow us to test out several offers.  We offered visitors either a section of the TSHA’s Texas Almanac, a free eBook entitled the Battle of the Alamo, or a collection of popular articles from their publication Southwestern Historical Quarterly.",
+      "keyLearnings": "The Battle of the Alamo eBook proved to be the most popular offer when it lifted email capture rate by 50%. This same fact held true a year later when we tested this same eBook against the full eBook of the Texas Almanac. However, a year later the impact was not as significant when the full Texas Almanac was offered.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11393,
+      "experimentId": "11706",
+      "title": "How minimizing the content on the initial offer affects conversion rate on the sequential offer",
+      "date": "2019-04-20T03:13:54",
+      "url": "https://www.nextafter.com/experiments/maximizing-imagery-language-follow-ask/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 86,
+      "confidence": 95.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Copy with Multiple Images",
+            "metric": "0.25%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Single Image with Short Copy",
+            "metric": "0.47%",
+            "lift": "86.0%",
+            "confidence": "95.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a simpler page with more emphasis placed on the image of the book be better at acquiring names and donors than the existing long copy and busy imagery version?",
+      "summary": "Timeframe: 11/13/2014 - 12/01/2014\nTexas State Historical Association had been offering their Texas Almanac publication as a free download in exchange for the visitor’s email address. This offer had been running over the past month and had resulting is several thousand new email addresses for the TSHA house file.  We had performed multiple tests in that time period but had been unable to beat the conversion rate of the original control.\nUsing the learning from the previous test, we created a radical redesign of the initial landing page. We simplified the design and maximized the imagery of the book over the copy on the page. Part of the process involved not only the name acquisition but also the conversion of these names into donors on the subsequent page.",
+      "keyLearnings": "The new treatment of the name acquisition page actually decreased the number of email addresses acquired by 6.3%.  At first glance, this appeared to be a failed experiment until we looked further down the conversion funnel.\nWhen looking at the conversion rate of the subsequent donation page, the audience coming from the simpler acquisition page had an 86% increase to donor acquisition.  It would seem that by not overwhelming visitors with content on the initial landing page, they were more inclined to read the content on the follow on page which resulted in an increased number of donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 86.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11793,
+      "experimentId": "11702",
+      "title": "How testing into a new offer affects name acquisition",
+      "date": "2019-04-20T03:13:22",
+      "url": "https://www.nextafter.com/experiments/how-testing-into-a-new-offer-affects-name-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        23.6,
+        -21.1
+      ],
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "2014-15 Texas Almanac eBook",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "The Battle of the Alamo eBook",
+            "metric": "1.6%",
+            "lift": "23.6%",
+            "confidence": "99.7%"
+          },
+          {
+            "code": "T2:",
+            "name": "Remember Goliad! eBook",
+            "metric": "0.99%",
+            "lift": "-21.1%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which name acquisition offer produces the most new email addresses for the file?",
+      "summary": "Timeframe: 06/01/2015 - 06/05/2015\nTo take advantage of their high website traffic, the Texas State Historical Association has been offering a free eBook version of their popular 2014-2015 Texas Almanac in exchange for visitor email addresses. This name acquisition offer has been running for the past 6 months and continues to be a high performer. However, with the release of a recent History Channel show, the motivation of website visitors had shifted and we wanted to see if a different offer could further improve the acquisition efforts.\nAs a result, the TSHA ran a three way split on the traffic offering three different eBook options, the Texas Almanac, The Battle of the Alamo, and Remember Goliad! We wanted to see which of these offers could collect the most new email addresses for the organization.",
+      "keyLearnings": "The Alamo eBook improved email acquisition by 23.6% while maintaining the immediate donor conversion on the follow up screen. This increased volume of email addresses will allow for additional conversion opportunities down the line.\nAs a result, the TSHA will be changing offers to just focus on the Alamo eBook for the next several weeks. Once the show is over, we will want to re-validate these results to ensure the motivation (and corresponding conversion) does not change.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 23.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12020,
+      "experimentId": "11696",
+      "title": "How adding video to an donation page affects revenue",
+      "date": "2019-04-20T03:13:07",
+      "url": "https://www.nextafter.com/experiments/how-adding-video-to-donation-page-affects-revenue/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -81,
+      "confidence": 99.9,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Video",
+            "metric": "$0.12",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Video",
+            "metric": "$0.02",
+            "lift": "-81.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the usage of a video in an appeal increase donor conversion or revenue?",
+      "summary": "Timeframe: 08/26/2015 - 09/01/2015\nAs part of their fiscal year end campaign, the Texas State Historical Association (TSHA) wanted to showcase the educational content that they produce for use in Texas classrooms. The vast majority of the emails used in the campaign were relatively long stories that linked to a landing page with images to reinforce the copy.\nWe had a hypothesis that a video could tell the story better than simply text alone. We also know from previous experiments that a video is able to drive significantly more traffic to a landing page. Based upon this hypothesis, we created a treatment that began at the email and linked to a landing page with a video that then transitioned into the donation form.  We also linked to the non-video landing page in both emails for those links that made direct asks for a donation.",
+      "keyLearnings": "By adding an image of the video in the email, we were able to increase the unique visits to the donation page by 71.4% for the video treatment.  However, these visitors were motivated to watch the video instead of giving a gift. As a result, the increased traffic had a significantly lower response rate.\nDue to the significantly lower response rate, the email with video links resulted in an 81% decrease in overall revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 77.4% decrease in conversion rate\n\t\t\t\t× 16.0% decrease in average gift\n\t\t\t\t\t\t\t\t\t81.0% decrease in revenue"
+    },
+    {
+      "id": 12063,
+      "experimentId": "11693",
+      "title": "How the name acquisition design and layout can affect email acquisition",
+      "date": "2019-04-20T03:12:50",
+      "url": "https://www.nextafter.com/experiments/how-the-name-acquisition-design-and-layout-can-affect-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -18.8,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Simple Design",
+            "metric": "54.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Banner Design",
+            "metric": "44.3%",
+            "lift": "-18.8%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page design and layout will lead to the most emails acquired?",
+      "summary": "Timeframe: 09/10/2015 - 09/17/2015\nFor their latest eBook offer, the Texas State Historical Association wanted to find a way to increase the number of email addresses they were acquiring.\nThe current design was the result of a series of tests that optimized the process of email and donor acquisition for a similar eBook offer.  The design was very simplistic and focused on selling the value proposition primarily through text.\nWe had the hypothesis that a more modernly designed page may capture visitors’ attention better which would lead to an increased number of conversions. We decided to launch an experiment to find out.",
+      "keyLearnings": "The new landing page ended up decreasing the number of emails acquired by 18.8%. After further review of the new treatment, we would hypothesize this decrease is caused by the combination of several factors:\nThe headline of the page is about what the visitor has to do (“Download”) instead of what they will receive (“Get”)The form and subsequent call-to-action is placed above the copy that describes why they should download. This can work with when the visitors are already highly motivation but in many situations, the visitors will need a reason to convert prior to being asked.The form is placed out of the eye path of the visitor",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 18.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12071,
+      "experimentId": "2112",
+      "title": "How adding one required field affects donor conversion",
+      "date": "2019-04-20T03:12:28",
+      "url": "https://www.nextafter.com/experiments/how-adding-one-required-field-affects-donor-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -42.6,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Phone Number Field",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Required Cell Phone",
+            "metric": "1.2%",
+            "lift": "-42.6%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "What impact will requiring a cell phone have on the acquisition of donors?",
+      "summary": "Timeframe: 09/09/2015 - 09/18/2015\nAs part of their latest name acquisition campaign, the Texas State Historical Association had an instant donor conversion page once someone submitted their email address. Historically, we had trouble matching up donations to existing donors which had created troubles in the organization’s CRM system. We wanted to see if it was possible to acquire more information about their donors to make this process easier.\nThe ultimate goal was to simplify the gift entry process by acquiring the donor’s cell phone number. Having this piece of information would allow for duplicate donor records to be more easily identified.  Our concern was on whether this one field would help or hinder the ultimate conversion into a donor so we created two donation forms that would allow us to test the concept.",
+      "keyLearnings": "The donation form that required a cell phone decreased the number of members acquired by 42.6%. Any form field added to a page will create a certain amount of friction in the visitor’s mind, even if it was option.  In this case, the visitors’ sensitivity to giving out their cell phone number is high. By requiring that piece of information, we added a certain amount of “cost” to the offer (in this case, membership) that was higher than the perceived value in many visitors’ minds.  This led to a reduction in the conversion on the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 42.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12153,
+      "experimentId": "11687",
+      "title": "How an alternate offer, given at the right time, affected emails acquired",
+      "date": "2019-04-20T03:12:09",
+      "url": "https://www.nextafter.com/experiments/how-an-alternate-offer-given-at-the-right-time-affected-emails-acquired/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 36.9,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "eBook Only",
+            "metric": "7.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent Offer",
+            "metric": "10.2%",
+            "lift": "36.9%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an alternate offer, shown when the visitors are leaving the name acquisition page, increase the number of emails acquired?",
+      "summary": "Timeframe: 10/12/2015 - 10/19/2015\nThe Texas State Historical Association had been running an email acquisition campaign around their latest eBook, The Civil War in the Lone Star State. Visitors would be given the eBook in exchange for their email address. This tactic had proven successful with previous eBooks and had historically received a 7% to 10% email acquisition rate. While this is a decent conversion rate, we wanted to find a way to improve this.\nWe had the hypothesis that we may be able to acquire additional email addresses if we could give the visitors an alternative offer. We didn’t want to compete with the primary offer of the eBook so we decided to only show the alternative offer if the visitors showed signs that they were leaving the page.  We created a treatment that would show a popup offering a free subscription to their Texas Day-by-Day emails when visitors displayed an “exit intent” by moving their mouse toward the back button.",
+      "keyLearnings": "This alternative offer, shown when a visitor was leaving the page, ended up increasing the number of emails acquired by 36.9%.  What is interesting about these results is that this lift was not achieved just by the offer on the popup. It would seem that, when the popup was shown to people, many visitors would go to close the window and then ended up downloading the ebook after all.  This popup served to arrest the attention of the visitor right before they committed to the decision to leave the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 36.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12162,
+      "experimentId": "2325",
+      "title": "How changing the website navigation to address multiple segments affects traffic",
+      "date": "2019-04-20T03:11:36",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-website-navigation-to-address-multiple-segments-affects-traffic/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 15.6,
+      "confidence": 95.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Membership",
+            "metric": "0.19%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Join TSHA / Renew Membership",
+            "metric": "0.22%",
+            "lift": "15.6%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Which website navigation will drive more traffic to the giving pages?",
+      "summary": "Timeframe: 09/29/2015 - 10/22/2015\nOn the Texas State Historical Association’s website, they had a navigation option dedicated to member acquisition. The link was found toward the end of the navigation and directed traffic to a page with more information on the benefits of membership.\nWe had a hypothesis that this one button and subsequent page did not sufficiently address the needs of the various segments. In this situation, we had both potential members and existing members visiting the website. We decided to test out a new navigation with two options that would address their distinct needs.",
+      "keyLearnings": "By splitting the Membership navigation into two options, we were able to directly address the two distinct segments (existing and potential members).  This change led to a 15.6% increase in the number of visitors to the giving pages.\nThere was also a secondary benefit of the two navigation options. We were able to create two distinct pages that were better able to address the needs of the two different segments with targeted value propositions and calls to action.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12190,
+      "experimentId": "11683",
+      "title": "How creating a linear path down the page impacted email acquisition",
+      "date": "2019-04-20T03:10:57",
+      "url": "https://www.nextafter.com/experiments/how-a-change-to-the-layout-of-a-landing-page-affects-emails-acquired/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 7.7,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pre-MECLABS Conference",
+            "metric": "29.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Post-MECLABS Conference",
+            "metric": "31.6%",
+            "lift": "7.7%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page format will acquire the greatest number of email addresses?",
+      "summary": "Timeframe: 10/28/2015 - 11/02/2015\nIt is said that the key to a successful landing page is a good design. However, the definition of “good” is where designers will often disagree with marketers (and fundraisers). We would posit that the definition of a “good design” one that is able to best convert, not the page the looks the best.\nWe were able to put this theory to a test with a recent landing experiment launched by the Texas State Historical Association. At a recent MECLABS optimization conference, Phillip Farr, a designer and developer for the TSHA, was in the process of creating a landing page for an upcoming eBook to be promoted on the TSHA website. This conference focused on the concept of optimizing landing pages by increasing value to the visitor while reducing the associated cost.\nAfter one of these sessions, Phillip took another pass at the design he had previously created. Using the principles promoted at the conference, he re-designed the page using similar style as the original page but in a format he felt would better communicate value and that would reduce friction.",
+      "keyLearnings": "The new landing page treatment resulted in a 7.7% increase in the number of email addresses acquired. This new treatment achieved this lift by making several modifications to the original design:\nThe headline was moved out of the background and placed inline with the rest of the page copy. This made it easier to catch the visitors’ attention as many people have “banner blindness” when they first visit the page.The name acquisition form was moved below the text so it be within the visitors’ eye path as they moved down the page.He removed some of the opacity around the form to make the section easier to readHe changed the sub-headline to communicate the reason for the form.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 7.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12193,
+      "experimentId": "11682",
+      "title": "How an animated banner affected email acquisition",
+      "date": "2019-04-20T03:10:34",
+      "url": "https://www.nextafter.com/experiments/how-an-animated-banner-affected-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 18.4,
+      "confidence": 97.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Static Banner",
+            "metric": "0.46%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Animated Banner",
+            "metric": "0.55%",
+            "lift": "18.4%",
+            "confidence": "97.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which banner will lead to the greatest amount of clicks and emails acquired?",
+      "summary": "Timeframe: 10/28/2015 - 11/02/2015\nThe Texas State Historical Association gets a significant amount of organic traffic to their website each month. Our primary means to monetize this traffic is through email acquisition campaigns that we then use to convert subscribers into members.  The difficult part of the process is capturing the attention of the visitors once they get to the site.\nWe have historically used banner ads placed in a strategic locations throughout the website. These have always been a static image that promotes whatever the current free offer is. We had the hypothesis that an animated banner would be able to better capture the visitors’ attention which would subsequently lead to an increase in the number of emails acquired.",
+      "keyLearnings": "The animated banner was able to increase the number of emails acquired by 18.6%. This tactic was able to increase the click through rate of the banners enough that we could statistically lift the number of people that converted.\nIn the future, we will want to monitor the impact animated banners to ensure they maintain their increased performance.  Often times these gimmicky tactics tend to slowly lose their effectiveness as time progresses.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 18.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12451,
+      "experimentId": "11673",
+      "title": "How creating a distraction affects email acquisition",
+      "date": "2019-04-20T03:10:06",
+      "url": "https://www.nextafter.com/experiments/how-creating-a-distraction-affects-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -23.8,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Copy focused on \"why\" behind the book",
+            "metric": "22.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Content and Source Focus",
+            "metric": "17.4%",
+            "lift": "-23.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page will result in the greatest number of email addresses collected?",
+      "summary": "Timeframe: 02/01/2016 - 02/08/2016\nFor the promotion of their latest eBook, created in celebration of Black History Month, the Texas State Historical Associated created a landing page where visitors could download the book. Our control landing page took the approach of communicating the “why” behind the book to explain why the book was so important and why the story needed to be told.  This was a concept we had tested into previously.\nWe had a hypothesis that visitors would be more likely to download the book if they could see the contents and understand the source of the information. As a result, we created a treatment page with a new design and different copy from the control.",
+      "keyLearnings": "The treatment landing page resulted in a 23.8% decrease in the number of email addresses acquired. The goal of the treatment was to add value to the eBook by citing the source information and giving visitors a look into the premium. However, based upon these results, it would appear the animation and copy may have been more of a distraction than a value add.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 23.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11368,
+      "experimentId": "142",
+      "title": "How simplicity affects name acquisition",
+      "date": "2019-04-20T03:07:02",
+      "url": "https://www.nextafter.com/experiments/how-simplicity-affects-name-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -20.4,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Longer Copy with Evidentials",
+            "metric": "24.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shorter Copy with Simpler Design",
+            "metric": "19.1%",
+            "lift": "-20.4%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We hypothesized that the simpler page would increase conversion rate by decreasing friction.",
+      "summary": "Timeframe: 11/11/2014 - 11/13/2014\nThe Texas State Historical Association released its popular Texas Almanac as a free digital download. The campaign drove a huge amount of traffic to the download page, which contained a lot of information about the almanac and a name acquisition form to receive a free digital copy. We thought that if the traffic coming to the page had a high motivation to get the almanac, then we might be actually adding friction with so much descriptive copy. We designed a treatment that was much simpler, to quickly give them exactly what they are coming to get.",
+      "keyLearnings": "The treatment page resulted in a 20.5% decrease in name conversion, showing that visitors didn’t have the high motivation that we thought — they still needed to be sold. Less information and a smoother path to conversion is not always better, especially when it reduces the amount of value placed on the premium.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 20.4% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11598,
+      "experimentId": "842",
+      "title": "How highlighting exclusivity affects clickthrough rate",
+      "date": "2019-04-20T03:06:42",
+      "url": "https://www.nextafter.com/experiments/how-suggesting-exclusivity-affects-clickthrough/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 134.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Breaking\"",
+            "metric": "6.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Exclusive\"",
+            "metric": "15.2%",
+            "lift": "134.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Is the exclusivity of the offer more appealing to prospects than the recency of the offer?",
+      "summary": "Timeframe: 12/01/2014 - 12/29/2014\nIn a series of Facebook ads, the Texas State Historical Association (TSHA) was promoting a free eBook version of their popular Texas Almanac. In exchange for their email address, the visitors would be able to download the 756 page book.  Our goal for this test was to drive as much traffic to the site as possible to take advantage of this free offer.\nIn our ads, we wanted to emphasize the how this was the first time TSHA was offering the Alamanc for free and that they were the only organization that could do so. As a result, we wanted to see which of these attributes would drive the most interest.",
+      "keyLearnings": "Exclusivity proved to be the more motivating element of the offer given the 134% lift it provided to the click through rate of the ads. This tone will be used in future ads and will be incorporated throughout the landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n134.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11566,
+      "experimentId": "11691",
+      "title": "How a simple design affects clarity and name acquisition",
+      "date": "2019-04-20T03:06:36",
+      "url": "https://www.nextafter.com/experiments/how-the-time-of-the-send-can-affect-open-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 34.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Designed Banner",
+            "metric": "0.43%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simple Banner",
+            "metric": "0.58%",
+            "lift": "34.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which banner will drive the most traffic and allow for the acquisition of the most email addresses?",
+      "summary": "Timeframe: 09/19/2015 - 09/28/2015\nWhen launching their latest eBook offer, the Texas State Historical Association wanted to find the best way to drive the organic traffic that visits their site. Historically they had used banners with a simple headline, a design that matched the landing page, and a button with a clear call to action. On Facebook, however, the banners were a bit different due to the limitations on text amount imposed by the social network.  These banners had been highly effective at driving traffic so we decided to test if this same simple style would have a similar impact on organic traffic.",
+      "keyLearnings": "By simplifying the message and design of the banner, we were able to increase the number of emails acquired by 34%. The banner itself was able to drive 20% more traffic to the landing page and those visitors then converted at a much higher rate.\nThe more highly-designed banner had all of the elements that we normally look for in ads with a clear headline, simple description, and a button with a clear call to action.  All of these same elements were then repeated on the homepage to reinforce the message.  However, the simple banner was able to communicate this same value proposition much more clearly and concisely.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 34.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11827,
+      "experimentId": "1461",
+      "title": "How perceived exclusivity affects conversion rate",
+      "date": "2019-04-20T03:06:17",
+      "url": "https://www.nextafter.com/experiments/how-perceived-exclusivity-affects-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 35.3,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Love Texas history",
+            "metric": "28.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get the free eBook",
+            "metric": "38.7%",
+            "lift": "35.3%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Does perceived urgency increase conversion?",
+      "summary": "Timeframe: 06/02/2015 - 06/22/2015\nThe TSHA launched a name and donor acquisition campaign, offering their Battle of the Alamo eBook free for a limited time. They wanted to test the impact of urgency — even though no end date was clearly defined. Two ads were created: one positioned itself to appeal to Texas history lovers, and the other used “while it lasts” language.",
+      "keyLearnings": "The power of perceived urgency is impactful — not only did it attract many more clicks, the visitors who clicked through were much more likely to convert. This suggests that future campaigns might deliver better results with some sort of suggested deadline.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 35.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12101,
+      "experimentId": "2165",
+      "title": "How a simple design affects clarity and name acquisition",
+      "date": "2019-04-20T03:05:14",
+      "url": "https://www.nextafter.com/experiments/how-a-simple-design-affects-clarity-and-name-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 34.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Designed Banner",
+            "metric": "0.43%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simple Banner",
+            "metric": "0.58%",
+            "lift": "34.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which banner will drive the most traffic and allow for the acquisition of the most email addresses?",
+      "summary": "Timeframe: 09/19/2015 - 09/28/2015\nWhen launching their latest eBook offer, the Texas State Historical Association wanted to find the best way to drive the organic traffic that visits their site. Historically they had used banners with a simple headline, a design that matched the landing page, and a button with a clear call to action. On Facebook, however, the banners were a bit different due to the limitations on text amount imposed by the social network.  These banners had been highly effective at driving traffic so we decided to test if this same simple style would have a similar impact on organic traffic.",
+      "keyLearnings": "By simplifying the message and design of the banner, we were able to increase the number of emails acquired by 34%. The banner itself was able to drive 20% more traffic to the landing page and those visitors then converted at a much higher rate.\nThe more highly-designed banner had all of the elements that we normally look for in ads with a clear headline, simple description, and a button with a clear call to action.  All of these same elements were then repeated on the homepage to reinforce the message.  However, the simple banner was able to communicate this same value proposition much more clearly and concisely.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 34.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12109,
+      "experimentId": "2180",
+      "title": "How selling the final call-to-action too early affects names acquired",
+      "date": "2019-04-20T03:04:01",
+      "url": "https://www.nextafter.com/experiments/how-selling-the-final-call-to-action-too-early-affects-names-acquired/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -15.8,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Texas History Enthusiasts",
+            "metric": "10.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Benefit of Membership",
+            "metric": "9.0%",
+            "lift": "-15.8%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does promoting member benefits on the initial email acquisition page increase the number of names and donors acquired?",
+      "summary": "Timeframe: 09/26/2015 - 10/01/2015\nFor the Texas State Historical Association, the primary source of new members is through a subsequent membership offer once a visitor downloads one of their free eBooks. This two step process consists of two landing pages; the first uses language that sells the value of the eBook with the subsequent page promoting the benefits of membership.\nWe had a hypothesis that the visitors to the eBook landing page might be motivated enough that they didn’t need as much language to “sell” of the eBook (it is given free in exchange for their email address). Instead, we could use the headline and subsequent paragraph to begin talking about the benefits of membership which would then make the subsequent offer on the second page more attractive.",
+      "keyLearnings": "By promoting a TSHA membership before first “selling” the initial name acquisition offer (the eBook), we ended up decreasing the number of email addresses acquired by 15.8%. Additionally, it led to a drop in the number of members acquired by 37% since we were driving less traffic to the membership page and they were not as interested to learn more about the associated benefits.\nAfter further analysis, we realized that we skipped several steps in the donor funnel by promoting the membership before the initial offer. The visitors need to be taken through a mental conversation that ultimately leads to member conversion but each step along the way is important. We must first address their reason for visiting before we sell them on any other offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 15.8% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12121,
+      "experimentId": "2220",
+      "title": "How “personalized” ad copy affects clickthrough rate",
+      "date": "2019-04-20T03:03:55",
+      "url": "https://www.nextafter.com/experiments/how-personalized-ad-copy-affects-clickthrough/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -24.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personalized copy",
+            "metric": "3.9%",
+            "lift": "-24.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will personalized ad copy increase clickthrough rate?",
+      "summary": "Timeframe: 09/17/2015 - 10/06/2015\nThe Texas State Historical Association launched a free eBook offer about Texas’ involvement in the Civil War. They wanted to test whether personalizing ad copy would increase clickthrough rate, so they made two variations of the same ad, with a slight but significant word change. The first set gave viewers the offer to get “the” free eBook, while the second personalized the offer with get “your” free eBook. We hypothesized that personalizing the offer would increase clickthrough rate and result in more email addresses acquired.",
+      "keyLearnings": "The treatment ad copy decreased conversion by nearly 25% — which showed us that viewers of the ads didn’t respond nearly as well to a personalized offer. This indicated that viewers of these ads didn’t feel that the book was already “theirs”, and that creating distance between the user and the offer enticed more of them to claim it. There are plenty of tests that show the opposite result, which means that it is always beneficial to test against “best practices”.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n24.6% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12156,
+      "experimentId": "2302",
+      "title": "How a change to the donation page headline affects conversion",
+      "date": "2019-04-20T03:03:45",
+      "url": "https://www.nextafter.com/experiments/how-a-change-to-the-donation-page-headline-affects-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -65,
+      "confidence": 96.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Join the TSHA\" Headline",
+            "metric": "2.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Get Insider Access\" Headline",
+            "metric": "0.89%",
+            "lift": "-65.0%",
+            "confidence": "96.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Which headline treatment will result in the greatest number of donors and revenue?",
+      "summary": "Timeframe: 10/12/2015 - 10/19/2015\nAs part of their latest email acquisition campaign, the Texas State Historical Association created an instant donor conversion page after a visitor’s email address had been acquired. This page began by thanking the visitor for giving their email address and then launched into a pitch for the visitor to become a member.\nSometimes the smallest changes to a page can have the biggest impact. The first element on the conversion page is the headline. If this headline does not arrest the visitor’s attention or does not address why they are there, many visitors will not make it past this element on the screen. In an attempt to increase the number of donors acquired, we decided to create a new treatment that would more closely align the headline with what we believed to be the ideal value proposition for the page.",
+      "keyLearnings": "The resulting treatment resulted in a 62% decrease in the number of donors acquired. The new headline, “Get insider access to the most exclusive Texas History Club in the Nation,”  was framed around what the visitor would get when they join. However, what we added in value, we lost in clarity.\nThe original headline “Do you love Texas history? Join the Texas State Historical Association today!” more clearly stated the purpose of the page. The initial statement also allowed the visitors the self-select whether the page was right for them based upon their love for Texas history.  These factors created an experience that proved to be more successful at converting visitors to members.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 65.0% decrease in conversion rate\n\t\t\t\t× 20.0% increase in average gift\n\t\t\t\t\t\t\t\t\t58.0% decrease in revenue"
+    },
+    {
+      "id": 12278,
+      "experimentId": "2707",
+      "title": "How removing copy and emphasizing the offer affects traffic",
+      "date": "2019-04-20T03:03:11",
+      "url": "https://www.nextafter.com/experiments/how-removing-copy-and-emphasizing-the-offer-affects-traffic/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 12.4,
+      "confidence": 97.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Email w/ Small Image",
+            "metric": "16.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Email w/ Large Image",
+            "metric": "17.9%",
+            "lift": "12.4%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email format will generate the most traffic for the free eBook downloads?",
+      "summary": "Ended On: 11/24/2015\nAs part of the monthly cultivation for their email file, the Texas State Historical Association was giving away one of their new eBooks. We had previously utilized long-form emails to describe the eBooks in-depth in order to better explain why the reader would want the book. We had the hypothesis that by emphasizing the visual of the book and keeping the email relatively vague, we would be able to drive more traffic and eBook downloads.",
+      "keyLearnings": "The email that emphasized the visual of the eBook and reduced the copy in the email ended up lifting the click through rate by 12.4%. This proved that the visual of the eBook was enough to sell the offer and that the increased copy added more friction than value to the process.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n12.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12305,
+      "experimentId": "2767",
+      "title": "How reducing an ad’s clarity affects email acquisition",
+      "date": "2019-04-20T03:03:06",
+      "url": "https://www.nextafter.com/experiments/how-reducing-an-ads-clarity-affects-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        -56.2,
+        -47.8
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Free eBook",
+            "metric": "0.36%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Before They Were Stars",
+            "metric": "0.16%",
+            "lift": "-56.2%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Discover the Texans",
+            "metric": "0.19%",
+            "lift": "-47.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which website banner will result in the greatest email acquisition rate?",
+      "summary": "Timeframe: 11/09/2015 - 11/29/2015\nTo attract their organic website visitors to their latest email acquisition offer, the Texas State Historical Association created a series of banners to be used throughout their website. The standard approach to these ads was a simple design with a clear call-to-action of getting the free eBook.\nWe had two hypotheses on ways we could improve these results. The first concept was to make the banner’s message intentionally vague. We felt that if we could drive more traffic, this would result in an increase in the overall number of emails required. Alternatively, we felt that a more designed banner would stand out better on the site which would, in turn, increase the appeal of the offer.  We decided to run a three-way split to find out the answer.",
+      "keyLearnings": "Both of the new treatments were not able to outperform the original concept employed by the control. The simple and direct banner ad was able to increase both the clarity and appeal of the offer more than the two alternatives.\nAs an interesting side note, the “Before They Were Stars” banner was actually able to drive 300% more traffic than both the control and the second treatment. However, the audience was not motivated to download the eBook like the other banners which resulted in the lowest overall email acquisition rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 56.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12461,
+      "experimentId": "3202",
+      "title": "How an ad’s relevancy affects conversion rate",
+      "date": "2019-04-20T03:02:26",
+      "url": "https://www.nextafter.com/experiments/how-an-ads-relevancy-affects-conversion-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 50.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Ebook Banner",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Imagery Banner",
+            "metric": "0.26%",
+            "lift": "50.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which banner will drive the most traffic and acquire the most email addresses?",
+      "summary": "Timeframe: 02/02/2016 - 02/10/2016\nTo advertise the launch of their latest eBook that honored the contributions of African Americans in Texas, the Texas State Historical Association launched a series of banner ads across their web properties. This eBook was being given away for free in exchange for the visitors’ email addresses.\nWith previous eBook offers, we found that a simple banner that displayed the cover of the eBook and a short call to action were the best performing. With this offer, we had the opportunity to also incorporate external relevance by utilizing language that linked it to Black History Month. We created a new treatment that featured a well-known image and text that mentioned the Black History Month.",
+      "keyLearnings": "The banner ad that incorporated the external relevance of Black History Month was able to increase email acquisition rate by over 50%. This banner add drove 18.5% more traffic which then converted at a higher rate due to the increased motivation. The text of the ad was able to maintain the clarity established with the control add and the relevance added additional value in the visitors’ minds.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12472,
+      "experimentId": "3224",
+      "title": "How a 3rd party endorsement affects email acquisition",
+      "date": "2019-04-20T03:02:20",
+      "url": "https://www.nextafter.com/experiments/how-a-3rd-party-endorsement-affects-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -28,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Quote",
+            "metric": "7.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Mayor Quote",
+            "metric": "5.5%",
+            "lift": "-28.0%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Does adding a 3rd party endorsement improve the email acquisition rate on the page?",
+      "summary": "Timeframe: 02/09/2016 - 02/15/2016\nAfter the initial launch of the Texas State Historical Association’s eBook celebrating Black History Month, they received an endorsement for the work from a well known public figure, the mayor of Houston. The quote promoted both TSHA and the eBook itself. We had the hypothesis that if we added the quote to the page, it would decrease the anxiety which would, in turn, increase the conversion rate. We decided to test this out against the existing control page.",
+      "keyLearnings": "The 3rd party quote ended up decreasing the email acquisition rate on the page by 28%. We have two hypotheses for the cause of this decrease:\nThe audience has come to expect that the products released by TSHA are of high quality. As a result, they didn’t need the added 3rd party credibility. Instead, this quote added length to the page which added friction to the conversion process.\nIt is possible that the endorser, the Houston mayor, is unpopular with the audience demographics. Regardless of their reasonings, if the visitors did not like the Houston mayor they would be less likely to convert.\nIn either situation, it made sense to remove the quote and continue with the original page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 28.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12299,
+      "experimentId": "11681",
+      "title": "How reducing the required steps affects perceived value and  donor conversion",
+      "date": "2020-05-03T21:32:58",
+      "url": "https://www.nextafter.com/experiments/how-reducing-required-steps-affects-perceived-value-and-donor-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": -41.2,
+      "confidence": 91.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Email Form First",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Email Form",
+            "metric": "0.88%",
+            "lift": "-41.2%",
+            "confidence": "91.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing the required email acquisition form from the process reduce friction enough to improve the number of new donors acquired?",
+      "summary": "Timeframe: 11/24/2015 - 12/02/2015\nOn Giving Tuesday, the Texas State Historical Association was offering their visitors a free eBook as a way for TSHA to give back to them. Immediately after requesting their free eBook, they were given the opportunity to make a gift. Historically, we had required visitors to fill out an email acquisition form before they would be sent the eBook even if we already had their email address.\nWe had the hypothesis that if we could remove this step, we would get more visitors to the donation page which would lead to an increased number of donors. So we created a treatment that would send an email with a link to the eBook when the visitor first got to the page and then immediately lead into the opportunity for membership.",
+      "keyLearnings": "We learned from this experiment that while the email acquisition form did add friction to the process, it also increased the perceived value of the eBook which made the donor conversion easier on the second page.  The treatment that just gave them the eBook resulted in a 41% decreased the number of donors acquired.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11372,
+      "experimentId": "153",
+      "title": "How increasing the copy on the page affects acquisition rate",
+      "date": "2019-04-20T03:06:56",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-copy-on-the-page-affects-acquisition-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -6.3,
+      "confidence": 90.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Highlights the Content of the eBook",
+            "metric": "21.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Included Full Table of Contents",
+            "metric": "19.9%",
+            "lift": "-6.3%",
+            "confidence": "90.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Adding an in-depth explanation the contents of the eBook will allow the offer to appeal to more visitors and will, in turn, increase the conversion rate of the page.",
+      "summary": "Timeframe: 11/13/2014 - 11/20/2014\nTexas State Historical Association was offering one of their more highly valued publications, the Texas Almanac, as a free digital download. All visitors had to do to was enter their email address to receive the eBook.  With the level of traffic their website receives on a daily basis, we were acquiring large volumes of visitors to the page.\nPrevious tests had proven that a landing page with less copy did not convert as well as the current control.  We theorized that if we could add additional content to the page to further sell the contents and the value of the eBook, we could increase the number of sign ups.",
+      "keyLearnings": "We knew that adding the additional content to the page would increase the friction of the page by forcing visitors to scroll further down to find the form.  Our hypothesis was that the additional content would increase the value in the visitors mind which would overcome the additional friction.  This proved to be incorrect.\nThe additional content actually decreased conversion rate by 6.3%.  While this is not a large drop, it did prove that we needed to find a different method for communicating the value of the Almanac in order to increase the conversion rate of the page.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11580,
+      "experimentId": "785",
+      "title": "How a single word can affect click through rate",
+      "date": "2019-04-20T03:06:30",
+      "url": "https://www.nextafter.com/experiments/how-a-single-word-can-affect-click-through-rate/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 29.4,
+      "confidence": 93.6,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Get Instant Access",
+            "metric": "7.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Get Instant Access FREE",
+            "metric": "10.1%",
+            "lift": "29.4%",
+            "confidence": "93.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How does the word “Free” affect clickthrough?",
+      "summary": "Timeframe: 10/21/2013 - 10/28/2013\nThe TSHA created a new online resource center as a way to acquire email addresses. In order to attract visitors to the page, they placed banners throughout their site. The goal of this test was to identify which message produced the most traffic to the resource center landing page.",
+      "keyLearnings": "With a 29% lift in the number of clicks, it appears that the word “free” is indeed a powerful word. The cost in the mind of the visitor that is associated with clicking on the banner is diminished when the perceived value outweighs the cost. By communicating in the ad that access to the resource center is free we were able to reduce the cost burden and thereby increase the number of visitors to the resource center landing page.  While one test is not enough to speak definitively about the subject, the concept of “free” on influencing visitor behavior should not be underestimated.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11960,
+      "experimentId": "1823",
+      "title": "How adding visual clarity affects conversion",
+      "date": "2019-04-20T03:06:04",
+      "url": "https://www.nextafter.com/experiments/how-adding-visual-clarity-affects-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 3.5,
+      "confidence": 92.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "3D Book Image",
+            "metric": "44.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "iPad Image",
+            "metric": "46.4%",
+            "lift": "3.5%",
+            "confidence": "92.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Which image produces the most emails acquired?",
+      "summary": "Timeframe: 07/07/2015 - 08/13/2015\nPrevious experiments had proven that one of the best methods of email acquisition for the Texas State Historical Associate was through free content offers. Utilizing their vast library of Texas history information, they started creating eBooks by bundling popular content. Their first eBook, The Battle of the Alamo was getting a great email acquisition rate but we wanted to see if there was still room to improve.\nOne of the recurring themes in emails to the organization was that they were confused about the offer they were receiving. They believed they were getting a hardbound version of the book instead of the digital format. We hypothesized that by changing out the visual from an actual book to the book on an iPad, we would be able to increase the clarity of the offer. This would, in turn, lead to increased conversion and decreased complaints.",
+      "keyLearnings": "The iPad image of the book statistically increased the number of emails acquired by 3.5%. While not a large increase, this bump in conversion showed that the clarity of the offer does impact the results. In this case, however, the image itself was not as critical to the conversion process as other elements of the page which is why the increase was so minimal.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12168,
+      "experimentId": "2347",
+      "title": "How the right premium affects conversion",
+      "date": "2019-04-20T03:03:34",
+      "url": "https://www.nextafter.com/experiments/how-the-right-premium-affects-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 135.4,
+      "confidence": 92,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Almanac",
+            "metric": "2.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Almanac",
+            "metric": "5.1%",
+            "lift": "135.4%",
+            "confidence": "92.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What will be the impact of offering the Texas Almanac as a premium?",
+      "summary": "Timeframe: 10/15/2015 - 10/26/2015\nAt the Texas State Historical Association, our previous tests had proven how popular the Texas Almanac was for their audience. In many campaigns, we had started using it as a premium for members who joined at the $50 or more level.\nWhile looking through their website for optimization opportunities, we found that the primary donation page had not been modified for a while. We decided to use this page to create a test that would allow us to isolate the impact the Almanac has on overall donor conversion.",
+      "keyLearnings": "By offering the Texas Almanac as the primary incentive on the page, we were able to increase the member acquisition by 135%.\nEvery premium has an associated cost that needs to be accounted for when determining its overall effectiveness.  In this situation, a 135% increase to the number of members acquired with an 11% increase to average gift is more than worth the cost associated with sending out the Almanac to each new member.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12258,
+      "experimentId": "2665",
+      "title": "How promoting impact over facts affects email acquisition",
+      "date": "2019-04-20T03:02:59",
+      "url": "https://www.nextafter.com/experiments/how-promoting-impact-over-facts-affects-email-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 8.6,
+      "confidence": 90,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Facts about the eBook\" messaging",
+            "metric": "6.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "\"Impact of Texas music\" messaging",
+            "metric": "6.8%",
+            "lift": "8.6%",
+            "confidence": "90.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will explaining why the offer is important (impact) versus describing what the offer is (facts) increase the email acquisition rate?",
+      "summary": "Timeframe: 11/06/2015 - 11/19/2015\nThe Texas State Historical Association was promoting their latest email acquisition offer which was an eBook featuring an overview of the history of Texas music. The typical approach to promoting these eBooks had been to highlight the details of the offer including the type of content, the media used, and other selling features of the offer.\nWe had a hypothesis that if we focused less on the facts of the eBook and more on the reason why the content was so important, we could improve the overall email acquisition rate.  We created a new treatment to test this hypothesis.",
+      "keyLearnings": "The landing page that focused less on the facts of the book and more on why the book content was so important was able to lift the email acquisition rate by 8.6%. This reiteratives that the “what” behind the offer is less important than the “why.”",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12375,
+      "experimentId": "2939",
+      "title": "How removing an ad’s premium offer affects donations",
+      "date": "2019-04-20T03:02:48",
+      "url": "https://www.nextafter.com/experiments/how-removing-an-ads-premium-offer-affects-donations/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -52.6,
+      "confidence": 94.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Premium Offer",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Philanthropic Offer",
+            "metric": "0.02%",
+            "lift": "-52.6%",
+            "confidence": "94.1%"
+          }
+        ]
+      },
+      "researchQuestion": "What banner will motivate website visitors to become a member during a calendar year end campaign?",
+      "summary": "Timeframe: 12/27/2015 - 01/04/2016\nThe Texas State Historical Association, like many other nonprofits, utilized a banner across their site during their year end campaign to promote an opportunity to give. Historically, all of the banners on TSHA’s sites had been utilized to promote premiums such as eBooks so it made logical sense to promote the premium associated with becoming a member (the Texas Almanac).\nHowever, we realized this premium may not appeal to everyone so we decided to create a treatment that would test out a purely philanthropic ask on the banners.",
+      "keyLearnings": "We discovered that the Almanac premium proved to be a significant motivator for donors.  There was no statistically significant difference in the amount of traffic driven by the ad but those that were driven by the premium offer were 52.6% more likely to become a member.\nAnother interesting aspect of this experiment revolves around the average gift amount of the two audiences. While not statistically significant, the average gift of the philanthropically driven donors was over double that of the premium driven donors. It is worth revisiting this experiment in future campaigns to see if this trend holds.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12381,
+      "experimentId": "2951",
+      "title": "How reducing the number of membership levels affects conversion",
+      "date": "2019-04-20T03:02:41",
+      "url": "https://www.nextafter.com/experiments/our-reducing-the-number-of-membership-levels-affects-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -17.1,
+      "confidence": 90,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "6 Options",
+            "metric": "5.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "4 Options",
+            "metric": "4.6%",
+            "lift": "-17.1%",
+            "confidence": "90.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which gift array will result in the greatest number of new members?",
+      "summary": "Timeframe: 12/18/2015 - 01/04/2016\nDuring their calendar year end campaign, the Texas State Historical Association created a landing page dedicated to acquiring new members. Their membership program consists of 6 different levels ranging from $25 up to $1,000.  After analyzing previous year end campaigns, we realized that the number of new members that select gifts above $250 are few and far between.\nSince few people select them, we had the hypothesis that these upper membership levels may actually be decreasing conversion due to the amount of mental friction that they cause.  We decided to test a form that only had four membership levels to see if we could improve the overall conversion of the page.",
+      "keyLearnings": "The experiment revealed that the donation form with four levels of membership actually decreased conversion by 17.1%. Our hypothesis is that these additional membership levels actually provided clarity around the benefits of each level which were mentioned in the text above the form. Knowing which levels offered which benefits allowed the new members to feel safer in their selection of membership.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12544,
+      "experimentId": "3448",
+      "title": "How increasing the explanation of benefits on a membership form affects donor conversion",
+      "date": "2019-04-20T03:02:14",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-explanation-of-benefits-on-a-membership-form-affects-donor-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 124.1,
+      "confidence": 81.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Deferred Benefits",
+            "metric": "0.31%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Added Options & Deferred Benefits",
+            "metric": "0.69%",
+            "lift": "124.1%",
+            "confidence": "81.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How does clarifying the member benefits and adding the option to defer tangible benefits impact the conversion rate of a donation form?",
+      "summary": "Timeframe: 02/01/2016 - 03/16/2016\nThe Texas State Historical Association was in the process of updating their membership levels to reflect new benefits. We also wanted to add an option to opt out of receiving the tangible benefits of membership for those members that did not want them. This was something that could help save costs but did add additional decision friction to the process.\nBefore this was fully rolled out, we wanted to get an understanding of how this would impact donor conversion. We decided to test the new language and form on a donor acquisition campaign to gauge its impact.",
+      "keyLearnings": "While it did not reach statistical validity, this test indicated that adding more description of the benefits near the benefit selection increased conversion rate. We would need to validate these learnings with a larger sample size but it does seem to indicate that this additional language added perceived value to the donors’ minds.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11902,
+      "experimentId": "929",
+      "title": "How the imagery of a page affected the campaign performance",
+      "date": "2019-04-20T03:06:10",
+      "url": "https://www.nextafter.com/experiments/how-the-right-product-level-value-proposition-affects-ad-traffic/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -2,
+      "confidence": 15.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Simple Design",
+            "metric": "5.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Designed",
+            "metric": "5.2%",
+            "lift": "-2.0%",
+            "confidence": "15.3%"
+          }
+        ]
+      },
+      "researchQuestion": "What impact does adding imagery to the page have on donations and revenue?",
+      "summary": "Timeframe: 09/17/2015 - 09/28/2015\nFor the September money bomb for Hillsdale College, we wanted to find a way to increase the overall performance of the landing page. We had the hypothesis that by adding supporting imagery that reinforced the messages being communicated on the page, we could make the content more engaging and easier to understand. In this situation, we were using references to the Constitution and quoting notable historical figures such as Thomas Jefferson.  We decided to set up a new treatment that would include images of those elements along with the text.",
+      "keyLearnings": "Adding the imagery to the page had no significant impact on the overall performance of the page. We will often debate the amount of influence design has on the overall conversion of the page. In this situation, the design elements did not increase value proposition, lower friction, or reduce anxiety; as a result, that made no significant impact on the likelihood of a donor to convert.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12008,
+      "experimentId": "1951",
+      "title": "How communicating value with the gift array affects revenue and member acquisition",
+      "date": "2019-04-20T03:05:57",
+      "url": "https://www.nextafter.com/experiments/how-communicating-value-with-the-gift-array-affects-revenue-and-member-acquisition/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -5.9,
+      "confidence": 49.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Membership Language",
+            "metric": "1.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Designed Buttons",
+            "metric": "0.94%",
+            "lift": "-5.9%",
+            "confidence": "49.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation form will produce the most revenue and new members for the organization?",
+      "summary": "Timeframe: 05/29/2015 - 08/27/2015\nThe Texas State Historical Association is a membership-based organization with varying levels of benefits at each member level. The idea is to incentivize members to increase their giving in order to raise the average gift.\nThe most common donation form listed out each membership level and the associated benefits. This design led to a long donation form that was heavy on the copy. Our concern was that this structure produced additional friction to the giving process which would, in turn, lower conversion.  We wanted to find a way to decrease the size of the form while still communicating the value of each membership level. We decided to test a new form that utilized stylized buttons and a single, dynamic paragraph to describe the associated benefits of their selected level.",
+      "keyLearnings": "The new treatment with stylized buttons produced no significant lift to either average gift or conversion. We were able to reduce friction on the form but, by hiding the benefits of each membership level, we equally reduced the incentive. These two factors offset each other which resulted a no significant change.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12011,
+      "experimentId": "1956",
+      "title": "How the length of page copy affects donor conversion",
+      "date": "2019-04-20T03:05:51",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-copy-affects-donor-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 0.5,
+      "confidence": 1.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Copy",
+            "metric": "5.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Form",
+            "metric": "5.2%",
+            "lift": "0.5%",
+            "confidence": "1.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a shorter version of copy reduce page friction enough to increase donor conversion?",
+      "summary": "Timeframe: 07/15/2015 - 08/30/2015\nTSHA’s standard membership form utilized a long version of copy in order to fully explain the mission of the organization, the history, and the associated benefits of becoming a member. There was a hypothesis that this long copy may actually be turned off potential members due to the amount of friction it introduced into the process.\nWe decided to create a new version of the page that would dramatically reduce the copy in order to validate this hypothesis.",
+      "keyLearnings": "The two landing pages had nearly identical conversion rates and there was no statistically significant difference between the average gift amounts. This result supports the conclusion that the length of copy on the page is not a significant factor in the overall conversion of the page.\nIn the future, it would be recommended that we need to find ways to add value for the potential member through different value propositions, incentives, and other page elements.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12025,
+      "experimentId": "1994",
+      "title": "How the donation premium can affect both conversion rate and average gift",
+      "date": "2019-04-20T03:05:38",
+      "url": "https://www.nextafter.com/experiments/how-the-donation-premium-can-affect-both-conversion-rate-and-average-gift/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -0.1,
+      "confidence": 65,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "2016-17 Texas Almanac Premium",
+            "metric": "$9.25",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Along Forgotten River Premium",
+            "metric": "$9.24",
+            "lift": "-0.1%",
+            "confidence": "65.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which premium will increase the overall revenue from existing members?",
+      "summary": "Timeframe: 08/13/2015 - 09/30/2015\nAs part of Texas State Historical Association’s fiscal year end campaign, we wanted to find a way to improve the average gift of existing members in order to boost revenue. The majority of existing members were acquired using the premium of the 2014-15 Texas Almanac. The update to this book was going to be released in the coming months so we had a feeling it would be a popular premium offer to use with the donor base.\nHowever, this book is normally offered for a gift of $50 which meant it wouldn’t do much to raise the average gift. We decided to test another popular book as a premium and increase the minimum gift to $100 or more.",
+      "keyLearnings": "The Along Forgotten River premium offer reduced the donor conversion rate of the page by 50%. However, it was also able to increase the average gift by 64%. These two factors cancelled out the combined impact on revenue and produced no statistically significant change in either direction.  This does prove to us that if we can find the right premium offer, we should be able to increase the average gift enough to boost revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12030,
+      "experimentId": "2005",
+      "title": "How membership benefits affect conversion during a year end campaign",
+      "date": "2019-04-20T03:05:32",
+      "url": "https://www.nextafter.com/experiments/how-membership-benefits-affect-conversion-during-a-year-end-campaign/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -8.1,
+      "confidence": 42.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Benefits",
+            "metric": "12.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Benefits",
+            "metric": "11.4%",
+            "lift": "-8.1%",
+            "confidence": "42.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Does talking about member benefits on the year end landing page increase donor conversion?",
+      "summary": "Timeframe: 09/14/2015 - 09/30/2015\nDuring the fiscal year end campaign, the Texas State Historical Association had a landing page targeting non-members. It focused on the legacy of the organization and the work being done day-in and day-out. There was a premium for a gift of $50 or more but there were no other mentions of associated member benefits. These benefits had proven to be successful in other experiments so we decided to test them out in the year end campaign as well.",
+      "keyLearnings": "The member benefits produced no statistically significant change in donor conversion. This would suggest that either they are not necessary during an urgency-based appeal like the fiscal year end or that the benefits did not add significant value for the potential donors. We will need to isolate these factors on a general donation form to determine which of these hypothesis are true.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12372,
+      "experimentId": "1365",
+      "title": "How the landing page design can affect conversion",
+      "date": "2019-04-20T03:02:53",
+      "url": "https://www.nextafter.com/experiments/how-the-landing-page-design-can-affect-conversion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 3,
+      "lift": -16.7,
+      "confidence": 76.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Secured Template",
+            "metric": "38.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Join Heritage Template",
+            "metric": "31.9%",
+            "lift": "-16.7%",
+            "confidence": "76.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which design will allow for the greatest number of gifts and revenue?",
+      "summary": "Timeframe: 06/24/2015 - 09/25/2015\nA recent experiment was done to bring older landing pages up to the latest levels of optimization. However, what this experiment proved is that a design that works for one page may have the adverse reaction on another. Based upon these results, we decided to revalidate the main Heritage donation page to ensure that we were using a design that was achieving the best possible results for us.",
+      "keyLearnings": "After 90 days, this test had not yet reached statistical significance so we decided to turn it off in order to move to the next experiment. However, based upon a level of confidence above 85%, we can classify this as \"approaching validity.\" This result reinforces that the current simple design of the main donation page is effective with the current amount of copy.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12387,
+      "experimentId": "2971",
+      "title": "How the premium’s minimum gift amount affects revenue and member acquisition",
+      "date": "2019-04-20T03:02:36",
+      "url": "https://www.nextafter.com/experiments/how-premiums-minimum-gift-amount-affects-revenue-and-member-acquistion/",
+      "organization": "Texas State Historical Association",
+      "categoryNames": [
+        "Texas State Historical Association"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -7.7,
+      "confidence": 37.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Almanac",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Handbook of Music",
+            "metric": "2.1%",
+            "lift": "-7.7%",
+            "confidence": "37.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer will acquire the greatest amount of revenue?",
+      "summary": "Timeframe: 11/06/2015 - 01/11/2016\nPrior to the move to the $100 minimum gift amount for the Texas Almanac, we wanted to get an idea of how a $100 minimum gift premium would impact the revenue and number of new members acquired. With the Handbook of Texas Music eBook offer, we had the opportunity to test this out by offering the Almanac for $50 and the Handbook of Texas Music for $100.  While not a true test of the impact of moving the impact to $100, the idea was that we could get an idea of the potential ramifications.",
+      "keyLearnings": "With this experiment, we did not see any significant change in either conversion rate or average gift. Based upon these results, it would seem the premium was not the primary motivation for members to join.",
+      "fluxMetrics": null
+    }
+  ]
+}

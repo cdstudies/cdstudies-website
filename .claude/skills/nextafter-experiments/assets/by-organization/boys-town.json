@@ -1,0 +1,957 @@
+{
+  "name": "Boys Town",
+  "total": 23,
+  "tierBreakdown": {
+    "valid": 15,
+    "directional": 3,
+    "inconclusive": 5
+  },
+  "experiments": [
+    {
+      "id": 15183,
+      "experimentId": "6392",
+      "title": "How presenting a donation page instantly after an acquisition offer impacts donor conversion",
+      "date": "2020-03-16T19:37:27",
+      "url": "https://www.nextafter.com/experiments/how-presenting-a-donation-page-instantly-after-an-acquisition-offer-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 349.4,
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Donate button",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donation page",
+            "metric": "0.13%",
+            "lift": "349.4%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would having a donation form on the confirmation page increase donor conversion?",
+      "summary": "Ended On: 07/12/2018\nBoys Town offers a resource for parents on tween discipline. After a person signs up for the offer they get a confirmation page that tells them they have successfully signed up for the resource and it’s on it’s way to their email inbox. On that confirmation page, we also ask people if they’d considering supporting Boys Town and have a button that goes to a donation page that says, “Support Boys Town”. In an effort to potentially convert more of these highly engaged names into donors, we proposed having a donation form on the confirmation page. We also added value proposition for why a person should support Boys Town. We split the traffic going to both versions of the confirmation page.",
+      "keyLearnings": "Having the donation form on the confirmation page increased donor conversion by 349%! While the donor numbers were low to create such a significant lift, we can learn a lot from this experiment, apply the results to other acquisition efforts for the organization, and build on the learnings from the test. By presenting the donation form instantly after a person gets an offer, we:\n1. Removed a step out of the donation process - eliminating an element of friction in the giving process\n2. Gave them an opportunity to give when they are most engaged\n3. Communicated with people the \"why\" for their gift These elements helped increase motivation and ultimately conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 349.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15031,
+      "experimentId": "6100",
+      "title": "How the right kind of image can strengthen and reinforce the value proposition of a Facebook ad",
+      "date": "2019-09-23T20:28:38",
+      "url": "https://www.nextafter.com/experiments/how-the-right-kind-of-image-can-strengthen-and-reinforce-the-value-proposition-of-a-facebook-ad/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 259.2,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Full image of boy",
+            "metric": "0.10%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Image of boy's face",
+            "metric": "0.35%",
+            "lift": "259.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a new image increase conversion?",
+      "summary": "Ended On: 05/17/2018\nBoys Town offers a free email series for parents on bullying. Through previous testing, they had found that long, story-based copy works best in their Facebook ads to acquire more names through the series. To build up on that learning, they hypothesized that a different photo might also impact conversion. They developed a treatment ad that showed the face of a child who looked sad – as if he had been bullied and tested this against the original image that showed a child who was sad, but you couldn’t see their face. They didn’t change any other element of the ad.",
+      "keyLearnings": "By simply changing out just the image of the Facebook ad, they were able to increase name acquisition by 259%! In addition to that, this also decreased the cost per name acquired by 64%. The treatment image, in this case, reinforced the hurt that comes from bullying as described in the copy. This experiment really shows the significant impact that the right kind of images can have on conversion rate and cost and how images can be used to strengthen and reinforce the value proposition to increase the appeal of the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 259.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15943,
+      "experimentId": "10658",
+      "title": "How the kind of offer on the homepage impacts name conversion",
+      "date": "2019-05-07T04:24:25",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-offer-on-the-homepage-impacts-name-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 171.6,
+      "confidence": 95.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.40%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tantrums offer",
+            "metric": "1.1%",
+            "lift": "171.6%",
+            "confidence": "95.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer will convert website traffic into names for the organization more effectively?",
+      "summary": "Timeframe: 02/07/2019 - 02/22/2019\nOn Boys Town’s homepage, they offer people the opportunity to sign-up for their eNewsletter. With the significant volume of traffic on their home page, we hypothesized a different kind of offer might increase name conversion. To test this hypothesis, we proposed testing a content specific offer instead of the eNewsletter.",
+      "keyLearnings": "The content specific offer increased name acquisition by 171%. While the treatment may only be something a smaller segment of the homepage traffic might be interested in based on the content being offered, the value of this offer out-weighed that of the control.  The treatment also communicated value to the end reader in the call-to-action. The call-to-action for the treatment was \"Get this free eBook\" where the control was \"Sign up Now\". The control communicates that there is work required to get the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 171.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15896,
+      "experimentId": "10464",
+      "title": "How adding stronger value proposition to the primary donation page impacts donor conversion",
+      "date": "2019-04-09T19:37:58",
+      "url": "https://www.nextafter.com/experiments/how-adding-stronger-value-proposition-to-the-primary-donation-page-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": -17.6,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "53.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value prop banner copy",
+            "metric": "44.1%",
+            "lift": "-17.6%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a stronger value proposition increase donor conversion?",
+      "summary": "Timeframe: 01/18/2019 - 02/04/2019\nBoys Town had done a series of tests on their primary donation page around value proposition. Most of the experiments tested the control that had a single image at the top of it against removing the image and communicating a longer value proposition through paragraphs of copy. In all of these tests, they found that the single image at the top of their page with the message, “Thank you, you’re not just saving one child” consistently performed best. Taking these learnings, we hypothesized that we might be able to increase donor acquisition if we tested the value proposition within the image itself. The treatment version clearly communicated a case for support and the impact a donor would have with their gift.",
+      "keyLearnings": "The treatment decreased overall donor conversion. Since this experiment ran on the primary donation page where a variety of visitors come with varying motivations, we dug into the audience break down a bit to try and get a better understanding of the results. What is interesting is that not all audience segments had a decrease in conversion. In fact, when we looked at new visitors on mobile devices we found that we could increase donor conversion by 12%.\nMoving forward, there are two approaches we propose testing. First, there is a hypothesis that the majority of people giving on this page are from Direct Mail. Having a specific value proposition that is tied to Direct Mail may reinforce that hypothesis and result in higher donor conversion. Second, there has been significant testing around value proposition on this page, all resulting in not being able to lift conversion. We propose testing another element that could impact overall revenue from the page like testing the suggested giving amounts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 17.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14932,
+      "experimentId": "5281",
+      "title": "How adding value proposition to a donation ask can impact conversion",
+      "date": "2019-03-22T15:01:44",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-donation-ask-can-impact-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 148.4,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.41%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Add Value Proposition",
+            "metric": "1.0%",
+            "lift": "148.4%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Would adding value proposition copy to the thank you page increase conversion?",
+      "summary": "Timeframe: 04/01/2018 - 04/18/2018\nBoys Town offers a free email series to parents with Tweens. After a person signs up for the Tween parenting email series, they get a thank you/confirmation page. We hypothesized that adding value proposition to the thank you page telling people why they should donate, might increase conversion of people getting to the donation page.",
+      "keyLearnings": "By adding value proposition copy to the thank you page, we were able to increase conversion substantially by 148%! These results point to significant learnings - when we clearly communicate to people why they should donate to Boys Town and give a call-to-action telling them to make a gift, we are able to increase their motivation to give increasing their likelihood to complete their donation. This approach could have a large impact on overall revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 148.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15937,
+      "experimentId": "10760",
+      "title": "How the kind of offer presented on a homepage pop-up impacts donor conversion",
+      "date": "2019-02-18T15:59:05",
+      "url": "https://www.nextafter.com/experiments/how-the-kind-of-offer-presented-on-a-homepage-pop-up-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Grandparent Content Offer with Donation Ask",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Ask",
+            "metric": "1.2%",
+            "lift": "100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer would result in a higher donor conversion.",
+      "summary": "Timeframe: 11/01/2018 - 11/18/2018\nBoys Town offers parents and grandparents content to help them in their parenting journey. This content is offered to people on their website and through paid media. They have offered this content on the homepage of their website as well. While this method has been great to acquire new email addresses for the organization, it hasn’t been great to acquire new donors. In an effort to increase this metric, they hypothesized testing a direct donation ask as a pop-up on their homepage against one of their better performing offers, a grandparent email series.",
+      "keyLearnings": "While we were able to acquire email addresses with the grandparent offer, we weren't able to convert any of those names into donors instantly. In fact, the grandparent offer received zero donations while the direct ask received 18 in a two week time period. The traffic coming to the homepage of the Boys Town site is relatively motivated to give and help families in need. This is a bit surprising knowing that the majority of the traffic coming to the site are new and not necessarily returning visitors. The direct ask concept is something we will want to continue to test by adding value proposition, having a donation page that matches the ask of the pop-up, segmenting the homepage traffic with specific content based on their engagement, etc.\nIn the month's time that the direct ask pop-up was up, it brought in 110 donations and over $6,200 in revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15358,
+      "experimentId": "7193",
+      "title": "How adding a premium to the instant donation page impacts donor conversion",
+      "date": "2018-10-09T14:25:05",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-to-the-instant-donation-page-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 169.3,
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No premium",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Premium",
+            "metric": "0.45%",
+            "lift": "169.3%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a premium impact donor conversion on the instant donation page?",
+      "summary": "Ended On: 10/08/2018\nBoys Town offers an email series target at grandparents. They promote this offer through paid Facebook ads. The offer was acquiring new names at a great cost, but it wasn’t converting donors very well on the instant donation page. In an effort to increase donor conversion on this page, they proposed adding a premium offer to the page for any donation $25 or more. The premium was a child’s book that a grandparent could give to their grandchild. They tested this addition of a premium offer on the instant donation page against the donation page that didn’t offer one.",
+      "keyLearnings": "The addition of the premium offer on the donation page increased donor conversion by 169%. We had tested this same approach with another eBook offer, but didn't see the same results. The key differentiating factor is the audience. The audience for this eBook is older and more likely to give. The age of the audience is more in line with who a Boys Town donor is. The premium offer really resonated with this audience. Grandparents love to give their grandkids gifts so the appeal was high causing donor motivation to increase and result in more donations for the treatment.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 169.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15115,
+      "experimentId": "6242",
+      "title": "How a value-focused call-to-action impacts email conversion on a landing page",
+      "date": "2018-06-29T13:50:54",
+      "url": "https://www.nextafter.com/experiments/how-a-value-focused-call-to-action-impacts-email-conversion-on-a-landing-page/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 4.7,
+      "confidence": 95.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Not value-focused",
+            "metric": "36.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value-focused call-to-action",
+            "metric": "38.3%",
+            "lift": "4.7%",
+            "confidence": "95.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Which call-to-action would increase name conversion?",
+      "summary": "Ended On: 06/28/2018\nBoys Town offers free parenting email series for people. One of these series is about teen discipline. The series have a high appeal and perform really well, but we hypothesized that we might be able to increase name conversion by using a value-focused call-to-action before a person filled out the form to get the offer. The control call-to-action said, “Get your first lesson today by telling us where we can send it.” The treatment said, “Learn how to understand your teen better and discipline more effectively. Get started by telling us where to send your free Teen Discipline series.”",
+      "keyLearnings": "The value-focused headline increased name conversion by 4.7%! What this tells us is that by adding a value-focused CTA, we are able to increase motivation of the end-reader by reinforcing the value proposition. This subtle reinforcement in the copy and CTA can have a significant impact if applied across other acquisition offers.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 4.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15076,
+      "experimentId": "6185",
+      "title": "How adding evidentials to an acquisition page impacts conversion",
+      "date": "2018-06-15T13:22:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-evidentials-to-an-acquisition-page-impacts-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -6.3,
+      "confidence": 98.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "30.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Evidentials",
+            "metric": "28.3%",
+            "lift": "-6.3%",
+            "confidence": "98.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Would adding evidentials to the page increase email acquisition?",
+      "summary": "Timeframe: 05/22/2018 - 06/14/2018\nBoys Town offers a free email series about how to discipline tweens. This email series has been an offer they have used for a while and have very positive feedback from people who have received the series. In an effort to increase conversion, they hypothesized that adding some of the testimonials they have received from people to the body of the acquisition page might give it more credibility and provide evidentials to why a person should get the offer.",
+      "keyLearnings": "When we added evidentials to the acquisition page, it actually decreased name conversion by 6%. Instead of reinforcing the value proposition, the additional copy on the page created friction to the acquisition process. This is especially true on mobile. A large percentage of users on this page are on their mobile. The evidentials made the page even longer and a poor user experience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 6.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14962,
+      "experimentId": "5916",
+      "title": "How removing friction and putting a donate button inline of site on a homepage can impact conversion",
+      "date": "2018-04-26T15:58:27",
+      "url": "https://www.nextafter.com/experiments/how-removing-friction-and-putting-a-donate-button-inline-of-site-on-a-homepage-can-impact-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 36.6,
+      "confidence": 99.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "4.4%",
+            "lift": "36.6%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would moving the donate button increase conversion?",
+      "summary": "Timeframe: 03/21/2018 - 04/26/2018\nOn the Boys Town homepage, we hypothesized we might be able to increase the number of people getting to the donation page by increasing the visibility of the donate button, removing other links that potentially created friction. We developed a treatment that moved the donate button from the very top of the page to close to the primary navigation, removed social sharing links, and added an additional opportunity for people to support Boys Town through their Family Home program.",
+      "keyLearnings": "We were able to increase the number of people getting to the donation page by 36%. This increase in conversion didn't have a direct impact on donor conversion or revenue yet. But now that we know we can increase conversion to the donation page by reducing friction on the homepage and putting the donate button more inline with a person's sight, we will do testing on the donation page to help increase conversion of the additional people who are on that page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n36.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14959,
+      "experimentId": "4147",
+      "title": "How creating a radical redesign of an acquisition page can impact conversion",
+      "date": "2018-04-26T15:55:38",
+      "url": "https://www.nextafter.com/experiments/how-creating-a-radical-redesign-of-an-acquisition-page-can-impact-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 11.2,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "24.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Unbounce Treatment",
+            "metric": "27.4%",
+            "lift": "11.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a simplified acquisition page increase email conversion?",
+      "summary": "Timeframe: 04/09/2018 - 04/29/2018\nBoys Town offers a free email series for parents with Tweens. We hypothesized that there were significant points of friction on the page and that by developing a page that was more simplified we might be able to increase email acquisition on the page. We developed a treatment that removed all navigation, the made the hero image smaller and inline with the copy and stripped out all other design on the page.",
+      "keyLearnings": "The treatment acquisition page increased email conversion by 11%! We simplified the page by removing elements of friction that were preventing people from signing up for the offer. This radical change in layout and design increased conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14920,
+      "experimentId": "4148",
+      "title": "How a direct call-to-action in a Facebook ad impacts conversion",
+      "date": "2018-04-12T15:08:42",
+      "url": "https://www.nextafter.com/experiments/how-a-direct-call-to-action-in-a-facebook-ad-impacts-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 311.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Learn More",
+            "metric": "0.16%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Start Your Survey",
+            "metric": "0.64%",
+            "lift": "311.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a hard call-to-action in a Facebook ad increase conversion?",
+      "summary": "Timeframe: 03/29/2018 - 04/12/2018\nBoys Town was running Facebook ads that targeted their direct mail file with an opportunity to take a survey. We hypothesized that a more direct call-to-action might increase conversion for this ad. To find out, we tested two different headlines – a soft one, “Learn More>>” and a hard one, “Start Your Survey>>”. All of the other copy in the ad remained the same.",
+      "keyLearnings": "The treatment with the hard call-to-action, \"Start Your Survey\" dramatically increased names acquired by 311%! In previous experiments with other organizations, we have seen that a soft call-to-action like \"Learn More\" resonates well with people in Facebook ads, but because the audience we were targeting with this ad was already connected to Boys Town and have a strong affinity towards the organization, they were ready to take an action directly from the ad versus learning more about what we were asking them to do. This is why we saw a significant increase in motivation and conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 311.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14806,
+      "experimentId": "3348",
+      "title": "How communicating the benefit and the offer in a Facebook ad can impact conversion",
+      "date": "2018-03-22T15:39:12",
+      "url": "https://www.nextafter.com/experiments/how-communicating-the-benefit-and-the-offer-in-a-facebook-ad-headline-can-impact-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 55.6,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Headline focused on the offer",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Headline with benefit and offer",
+            "metric": "1.8%",
+            "lift": "55.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which headline would increase conversion?",
+      "summary": "Timeframe: 03/08/2018 - 03/22/2018\nBoys Town offers a free email series on how to discipline Tweens. They offer this resource through paid Facebook ads. In a previous experiment, they tested the headline of the Facebook ad and learned that people are more motivated by what they get than the benefit of the offer. We wanted to build upon those learnings and hypothesized that a hybrid headline that incorporated the benefit AND the offer might increase conversion. The control headline said, “Free Email Series on Tween Discipline” and the treatment said, “Effectively Discipline Your Tween – Get the Free Email Series”.",
+      "keyLearnings": "The treatment headline, that communicated the benefit of the offer and what the offer was, increased conversion by 55.6! What we can learn from this is that people are more motivated by what they can get than the benefit of the offer, but when we combine the two together we can increase the appeal of the offer motivating even more people to want the resource.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n55.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14763,
+      "experimentId": "3284",
+      "title": "How using reader-centric value proposition impacts conversion on Facebook ads",
+      "date": "2018-03-06T22:58:46",
+      "url": "https://www.nextafter.com/experiments/how-using-reader-centric-value-proposition-impacts-conversion-on-facebook-ads/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "landing page",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 27.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Reader-centric value proposition",
+            "metric": "2.1%",
+            "lift": "27.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would organization-centric or reader-centric copy increase conversion?",
+      "summary": "Timeframe: 02/14/2018 - 02/28/2018\nBoys Town has an email series they offer parents on how to handle tantrums with their toddler. They use paid media (Facebook) ads to offer this to people. The current Facebook ads uses organization-centric value proposition in the Facebook ad text. We hypothesized that a value proposition focused on the reader and the needs of the reader might increase conversion from the Facebook ad to the acquisition page. We tested this version against the control.",
+      "keyLearnings": "By using copy that was reader-centric rather than organization-centric, we were able to increase conversion by 28%. People are more likely to click-through from an ad to a landing page when we can connect with their needs. This approach increases the appeal of the offer resulting in higher motivation and more people wanting and potentially getting the offer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n27.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14727,
+      "experimentId": "3234",
+      "title": "How a value focused headline on a Facebook ad impacts conversion",
+      "date": "2018-02-27T15:00:56",
+      "url": "https://www.nextafter.com/experiments/how-a-value-focused-headline-on-a-facebook-ad-impacts-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -14.6,
+      "confidence": 99.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.64%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Focused Headline",
+            "metric": "0.54%",
+            "lift": "-14.6%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a value focused headline increase email conversion?",
+      "summary": "Timeframe: 02/07/2018 - 02/21/2018\nBoys Town runs Facebook ads promoting a free parenting series for Tweens. We hypothesized that a headline more focused on the value of the offer might help increase conversion. The control headline was specific to what the content offer was “Free Email Series on Tween Discipline”. The treatment we developed communicated the benefit of the offer, “Learn How to Effectively Discipline Your Tween”. We tested the two against each other to see which would increase conversion.",
+      "keyLearnings": "After running the experiment for two weeks, we were able to validate the experiment and found that the treatment actually decreased email conversion by 14.6%. What we can learn from this is that people are more motivated by what they can get rather than the benefit of the offer. We will do additional testing on the headline for this offer to incorporate both approaches of these learnings.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 14.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15848,
+      "experimentId": "11268",
+      "title": "How the delivery method for a content offer impacts name conversion",
+      "date": "2019-02-18T15:28:45",
+      "url": "https://www.nextafter.com/experiments/how-the-delivery-method-for-a-content-offer-impacts-name-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": [
+        -22.1,
+        -29.5
+      ],
+      "confidence": 81.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.76%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Slide Up - Original Copy",
+            "metric": "0.59%",
+            "lift": "-22.1%",
+            "confidence": "67.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Slide Up - Value Prop",
+            "metric": "0.53%",
+            "lift": "-29.5%",
+            "confidence": "81.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Can we increase name conversion by changing the delivery method to be more mobile friendly?",
+      "summary": "Timeframe: 10/29/2018 - 01/03/2019\nBoys Town offers an eNewsletter on their homepage and with the significant mobile traffic on their homepage we hypothesized that we might be able to increase name conversion/sign-ups by changing the delivery method of the offer to be more mobile friendly and also test adding stronger value proposition copy for the offer.",
+      "keyLearnings": "While we weren’t able to validate the experiment, we did see directional results with a decrease in names acquired from both treatments. This was a bit surprising to us. With the large mobile audience on Boys Town’s website, a slide up offer is one of the best mechanisms to deliver content to people. Our hypothesis in the results of this experiment is that while the delivery mechanism may have been the most effective one, the offer itself wasn’t compelling or appealing enough for people to actually want it when they saw it.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15370,
+      "experimentId": "9502",
+      "title": "How communicating a smaller amount to goal impacts click rate in an email",
+      "date": "2018-10-09T14:31:03",
+      "url": "https://www.nextafter.com/experiments/how-communicating-a-smaller-amount-to-goal-impacts-click-rate-in-an-email/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -18.3,
+      "confidence": 86,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Larger amount to goal",
+            "metric": "1.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Smaller amount to goal",
+            "metric": "1.6%",
+            "lift": "-18.3%",
+            "confidence": "86.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which amount would increase conversion?",
+      "summary": "Timeframe: 09/29/2018 - 10/03/2018\nDuring Boys Town September High Urgency campaign focused on kindness/bullying, we communicated to people that we had a goal to distribute 400 Praise Boxes by the end of the campaign. In one of the final emails to people, we gave them an update on the progress of the campaign and how many Praise Boxes we still needed to reach our goal. We hypothesized that a smaller number might increase motivation and get more people to click on the link to help us reach our goal. We tested this against a larger number to the 400 goal.",
+      "keyLearnings": "The smaller goal amount increase conversion by 18%. This experiment didn’t validate, but it was directional at 85.9%. The larger amount to goal communicated to people that we really did need their help in these final days. More people were interested in seeing how they could help. Scarcity isn’t always a more motivating factor as we saw with this experiment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15348,
+      "experimentId": "9477",
+      "title": "How adding additional giving options copy to the primary donation page impacts conversion",
+      "date": "2018-10-09T14:14:19",
+      "url": "https://www.nextafter.com/experiments/how-adding-additional-giving-options-copy-to-the-primary-donation-page-impacts-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": 10.1,
+      "confidence": 83.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Image Only",
+            "metric": "35.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Image with Additional Giving Options Copy",
+            "metric": "39.3%",
+            "lift": "10.1%",
+            "confidence": "83.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How would adding the additional giving options on the donation page impact donor conversion.",
+      "summary": "Ended On: 10/04/2018\nBoys Town deployed a new primary donation page that when tested against their original donation page, increased donor conversion by 20%. At the initial launch of the new donation page, they had removed the additional giving options. This feature was not part of the new donation page, but was an important element to the Boys Town donor experience. After finding that the new donation page increased donor conversion, they wanted to see what the impact would be if they added the additional giving options back into the donation page. To do this, a line of copy was added just below the hero image. We tested this against the current winning version that only had the hero image.",
+      "keyLearnings": "While the experiment didn’t quite validate, we did find that the addition of the copy for other giving options didn’t negatively impact donor conversion. Even better, the additional copy actually increased donor conversion. Knowing this, Boys Town can now keep the additional giving options on the primary donation page without decreasing donor conversion, and at the same time give people who are looking for other ways to give to Boys Town the opportunity to do so.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15682,
+      "experimentId": "10667",
+      "title": "How expanding the value proposition on the donation page can impact donor conversion",
+      "date": "2019-01-10T17:29:25",
+      "url": "https://www.nextafter.com/experiments/how-expanding-the-value-proposition-on-the-donation-page-can-impact-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 0.6,
+      "confidence": 2.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Year End Banner",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Year End Thank You Cards",
+            "metric": "4.5%",
+            "lift": "0.6%",
+            "confidence": "2.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Could we increase donor conversion by expanding the value proposition and telling them the premium they would get with their gift?",
+      "summary": "Timeframe: 12/13/2018 - 12/31/2018\nOn the Boys Town website, they have a “You can help” page that get significant traffic and tells people the different ways they can help the organization. One of the primary ways is to make a gift. During their year-end campaign, they wanted to test this donation feature by linking people to two different pages. The control page was a donation page that didn’t have a lot of value proposition copy on it and featured a banner with the primary message. This approach is more traditional to what Boys Town has done on their primary donation page. The treatment page did have extensive value proposition copy on it and featured the premium gift as well. Traffic was split 50/50.",
+      "keyLearnings": "We weren’t able to impact donor conversion with this experiment. We hypothesize that because of the time of year that this experiment ran – year-end – motivation of donors was already high. It is difficult to impact donor conversion (positively or negatively) when motivation to give to an organization is already high. We propose testing this again when motivation is more neutral.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15367,
+      "experimentId": "9499",
+      "title": "How the donation page a pop-up links to impacts donor conversion",
+      "date": "2018-10-09T14:30:14",
+      "url": "https://www.nextafter.com/experiments/how-the-donation-page-a-pop-up-links-to-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -4.4,
+      "confidence": 28.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original Donation Page",
+            "metric": "53.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donation Microsite",
+            "metric": "50.8%",
+            "lift": "-4.4%",
+            "confidence": "28.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the donation microsite impact donor conversion for the homepage pop-up?",
+      "summary": "Timeframe: 07/30/2018 - 08/23/2018\nOn the Boys Town homepage, they had a pop-up appear once you had been on the site for five seconds. This pop-up links to a specific donation page for the value proposition of the pop-up. After just launching a new donation microsite and seeing that the donation microsite increased donor conversion by 21% on the primary donation page, we wanted to test the donation microsite against the original donation page for this homepage pop-up. Each donation page had identical copy on it, it was strictly just testing the donation experience.",
+      "keyLearnings": "The kind of donation page we sent people to from the pop-up had little to no impact on donor conversion. People coming from the pop-up were motivated enough to not be impacted by the donation experience. We would like to test this again with using just the banner image at the top of the page since we now know that that version of the donation microsite increases donor conversion most.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15364,
+      "experimentId": "9496",
+      "title": "How communicating the impact of the suggested gift amount impacts donor conversion",
+      "date": "2018-10-09T14:29:39",
+      "url": "https://www.nextafter.com/experiments/how-communicating-the-impact-of-the-suggested-gift-amount-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -4.9,
+      "confidence": 4.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Suggested Giving Amount",
+            "metric": "0.17%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Suggested Giving Amount and Impact",
+            "metric": "0.17%",
+            "lift": "-4.9%",
+            "confidence": "4.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation page would increase donor conversion?",
+      "summary": "Timeframe: 07/26/2018 - 08/16/2018\nBoys Town offers parents an eBook on how to teach your child to have integrity. This was a brand new offer and they wanted to use a suggested giving amount on the instant donation page for the ask. They hypothesized that by telling people the impact of the suggested gift amount, they’d might be able to increase donor conversion. The control only had a suggested gift amount and the treatment had a suggested gift amount and the specific impact it would have, “Your $50 gift will help us reach 2,000 more people with parenting resources.”",
+      "keyLearnings": "This experiment ran for over three weeks and we weren’t able to reach validity. This is due to the really low donor conversion on the page. More radical experiments will need to be done to impact donor motivation and conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15361,
+      "experimentId": "9492",
+      "title": "How shortening the value proposition on the primary donation page impacts donor conversion",
+      "date": "2018-10-09T14:28:33",
+      "url": "https://www.nextafter.com/experiments/how-shortening-the-value-proposition-on-the-primary-donation-page-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -8,
+      "confidence": 75.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Banner Image",
+            "metric": "37.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shortened Value Prop",
+            "metric": "34.5%",
+            "lift": "-8.0%",
+            "confidence": "75.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a shortened value proposition impact donor conversion?",
+      "summary": "Timeframe: 08/21/2018 - 09/13/2018\nIn a previous test for the primary donation page, we found that an expanded value proposition didn’t convert as many people into donors as a version of the page that had an banner image at the top with no additional value proposition. Since we have seen in hundreds of other experiments that value proposition can increase donor conversion and average gift, we wanted to continue to test this approach. We hypothesized that by shortening the value proposition we might be able to increase donor conversion since a large majority of the traffic coming to this page is mobile.",
+      "keyLearnings": "After running the experiment for three weeks, we weren’t able to validate the experiment. That said, we did see a directional decrease with the treatment. This tells us that the banner image is still the best performing version of the primary donation page. The additional value proposition copy might actually be creating friction in the donation process because the people coming to the page are on mobile and are already highly motivated to give. Additional testing around the value proposition should be done to gain a better understanding of the donor’s motivation.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15355,
+      "experimentId": "9485",
+      "title": "How a more organizational-centric value proposition impacts donor conversion",
+      "date": "2018-10-09T14:17:16",
+      "url": "https://www.nextafter.com/experiments/how-a-more-organizational-centric-value-proposition-impacts-donor-conversion/",
+      "organization": "Boys Town",
+      "categoryNames": [
+        "Boys Town"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -26.7,
+      "confidence": 40.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Equip more parents like you with this resource",
+            "metric": "0.19%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Invest in the lives of forgotten kids",
+            "metric": "0.14%",
+            "lift": "-26.7%",
+            "confidence": "40.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a different value proposition impact donor conversion?",
+      "summary": "Timeframe: 08/23/2018 - 10/08/2018\nBoys Town offers an eBook on integrity. They promote the eBook through paid Facebook ads. It has a high appeal and they have been able to acquire new names really well with it. With the significant amount of people getting this eBook, that also means that they get a lot of traffic to the instant donation page that follow the eBook offer. The instant donor conversion on this page was low and they hypothesized that testing a different value proposition might increase donor conversion. They developed a treatment that focused more on the mission of Boys Town. It validated the parent reading the copy that they are a good parent for wanting to walk alongside their child and help them with their character. But then it talked about the kids at Boys Town who have been forgotten and aren’t as fortunate to have parents or loved ones who care about them. We tested this more organization-centric value proposition against the control that asked for people to make a gift so that other parents could be equipped with the resource that they just downloaded.",
+      "keyLearnings": "After running this experiment for over a month, we weren’t able to validate the experiment. The motivation of donors on this page is extremely low and the kind of value proposition didn’t impact donor conversion. We will need to do a very radical redesign of this page to impact donor conversion.",
+      "fluxMetrics": null
+    }
+  ]
+}

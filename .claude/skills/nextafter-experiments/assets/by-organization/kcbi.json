@@ -1,0 +1,2561 @@
+{
+  "name": "KCBI",
+  "total": 61,
+  "tierBreakdown": {
+    "valid": 21,
+    "directional": 11,
+    "inconclusive": 29
+  },
+  "experiments": [
+    {
+      "id": 69383,
+      "experimentId": "194639",
+      "title": "Does adding animation to a sticky bar increase donor conversion?",
+      "date": "2025-01-17T19:37:07",
+      "url": "https://www.nextafter.com/experiments/does-adding-animation-to-a-sticky-bar-increase-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 1,
+      "lift": 96,
+      "confidence": 96.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "4.1%",
+            "lift": "96.0%",
+            "confidence": "96.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that animating the sticky bar for Giving Tuesday will achieve a higher donor conversion rate because having the animation will draw eyes to the sticky bar and having the message rotate leans into having more value proposition of why a donor should donate on the element itself.",
+      "summary": "Ended On: 01/14/2025\nEach year KCBI utilizes sticky bars for a Giving Tuesday direct ask. In the past we’ve tested into different elements to add to it and what copy should be used to make it most effective. Last year we learned that having a specific goal for Giving Tuesday to set it apart from CYE was helpful in getting people to convert. This year we wanted to see if animating the copy text to show different value propositions instead of just one could potentially increase the donor conversion rate.",
+      "keyLearnings": "The key learning from this experiment is that animating the sticky bar for Giving Tuesday resulted in a significant increase in donor conversion rate compared to a static sticky bar. The treatment showed a 64.9% increase in donations for all traffic, indicating that the animation drew more attention and potentially communicated more value propositions to donors.\n\nIt's not recommended to use this tactic as the 'normal' moving forward, but it is something to consider using for a short period of time as the novelty effect will wear off.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 96.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 69002,
+      "experimentId": "194507",
+      "title": "Will adding a testiony on the doantion page influence people to give?",
+      "date": "2025-01-17T17:29:55",
+      "url": "https://www.nextafter.com/experiments/will-adding-a-testiony-on-the-doantion-page-influence-people-to-give/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 615.6,
+      "confidence": 96.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.36%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "2.6%",
+            "lift": "615.6%",
+            "confidence": "96.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a donor testimony for the campaign donation pages will achieve a higher number of transactions because the testimony will show social proof, that other people donate, and share the reasons for it.",
+      "summary": "Ended On: 01/08/2025\nFor CYE this year we wanted to see if we could increase the number of transactions on the campaign giving page by adding in a donor testimonial. The goal of this test is to if a donor testimony is more distracting to viewers, or sparks the reason to give even more.",
+      "keyLearnings": "The key learning from this experiment is that adding a donor testimonial to the campaign donation pages significantly increased the number of transactions. The treatment group, which included the donor testimonial, saw a 615.6% increase in donations compared to the control group, with a statistical confidence level of 96.9%.\n\nIn future experimentation, it is important to continue testing the effectiveness of donor testimonials in increasing donations. This outcome suggests that donor testimonials can be a powerful tool in encouraging others to give, as they reinforce the reasons why someone should donate. It would be beneficial to further explore different types of testimonials, placement on the page, and messaging to optimize the impact on donation numbers.\n\nAdditionally, these findings highlight the importance of incorporating donor perspectives and stories into fundraising efforts. By showcasing the impact of donations through testimonials, nonprofits like KCBI can create a more compelling case for support and connect donors to the mission on a more personal level. This can ultimately lead to increased engagement, loyalty, and support for the organization's work.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 615.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 65041,
+      "experimentId": "179077",
+      "title": "How adding an additional acquisition form field adds friction",
+      "date": "2024-08-22T15:52:35",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-additional-acquisition-form-field-adds-friction/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Acquisition | Form",
+        "Friction"
+      ],
+      "tier": 1,
+      "lift": -43.2,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "33.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "19.0%",
+            "lift": "-43.2%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding an additional form field for acquistion offers will achieve a lower conversion rate and a higher cost per email because adding an additional field presents another opportunity to add friction to the page, which is another place for users to abandon the page.",
+      "summary": "Timeframe: 05/17/2024 - 05/24/2024\nKCBI just launched a new radio station in Waco. Which lead to several brainstorming sessions trying to figure out how we can separate a DFW or general states listener from a Waco listener from the point of acquisition.\nFor this test, we wanted to see if adding a zip code form field on an acquisition offer could gain more information about our users, while not sacrificing too much cost on the front end.",
+      "keyLearnings": "The key learning from this experiment is that adding an additional form field for acquisition offers led to a significant decrease in email acquisition, with a 43.5% decrease in conversion rate for all traffic. This confirms the hypothesis that adding an extra field can increase friction on the page, causing more users to abandon the process.\n\nNot only did it decrease conversion rate on the page, it increased the cost to acquire a new name by 57%.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 43.2% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 59402,
+      "experimentId": "171825",
+      "title": "Will Adding a Reader’s Favorite Message to a Content Offer Landing Page Help with Sign Up Conversion?",
+      "date": "2024-04-22T14:00:18",
+      "url": "https://www.nextafter.com/experiments/will-adding-a-readers-favorite-message-to-a-content-offer-landing-page-help-with-sign-up-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": -21.3,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "44.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "35.3%",
+            "lift": "-21.3%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding a “Reader’s Favorite flag for visitors on the Romans in Action landing page will achieve higher sign up conversion rates because visitors will see that this is a popular eBook through a visual queue. .",
+      "summary": "Timeframe: 03/11/2024 - 03/28/2024\nWe saw that the sign-up rates on the KCBI content offer sign-up pages could be higher so we could ultimately present more opportunities for visitors to share their email addresses and become donors. We were interested in trying a couple of visual queues based on the content offer performance to let our landing page visitors know, this is a a “fan favorite” of the KCBI audience.",
+      "keyLearnings": "The key learning from this experiment is that the addition of a \"Reader's Favorite\" flag on the landing page for the Romans in Action content offer did not result in higher sign-up conversion rates. In fact, the treatment actually saw a decrease of 21.3% in email acquisition compared to the control group. This indicates that the visual queue did not have the intended effect on visitors.\n\nIn future experimentation, it is important to carefully consider the impact of visual cues and ensure that they align with the preferences and behaviors of the target audience. It may be beneficial to conduct surveys or gather feedback from visitors to understand what factors would make them more likely to sign up for content offers.\n\nAdditionally, it is essential to continue testing different strategies and elements on landing pages to identify what resonates best with visitors. By continuously experimenting and analyzing the results, KCBI can optimize their campaigns and improve sign-up conversion rates in the future.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 21.3% decrease in conversion rate\n\t\t\t\t× 18.7% decrease in average gift\n\t\t\t\t\t\t\t\t\t36.0% decrease in revenue"
+    },
+    {
+      "id": 54022,
+      "experimentId": null,
+      "title": "How stating a specific goal in the headline of a pop-up for CYE fundraising affects donor conversion rate",
+      "date": "2023-07-24T15:25:43",
+      "url": "https://www.nextafter.com/experiments/how-stating-a-specific-goal-in-the-headline-of-a-pop-up-for-cye-fundraising-affects-donor-conversion-rate/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Headline",
+        "donor conversion",
+        "pop-up"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 98.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Pop-up Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pop-up Treatment",
+            "metric": "4.4%",
+            "lift": "100.0%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that including the goal in the pop-up headline for website visitors will achieve a greater conversion rate of visitors to donors.",
+      "summary": "Timeframe: 12/15/2022 - 12/23/2022\nOur CYE fundraising strategy included a pop-up on the Libertas homepage with the goal of delivering the Tuttle Twins series to 200 public schools by raising $50,000. Most visitors to the site want to ensure that we are teaching children the value of liberty so we appealed to this desire with the headline “Help teach Kids the Value of Liberty by Making a Year-End Donation” which is clear and direct. However, we also know that a tangible goal appeals to donors, so we wanted to see if we stated the goal in the headline if it would lift response.",
+      "keyLearnings": "The treatment pop-up saw a 4.3% lift in donor conversion rate with a 98.7% level of confidence. This experiment is only based on 6 total gifts, but due to this campaign being very time sensitive and the control pop-up receiving 0 gifts, we decided to roll out the treatment headline to 100% of traffic.\n\nWe believe the treatment headline won in this experiment because the goal gave donors something tangible to give to instead of a more broad topic like \"teaching kids about liberty\".",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 53367,
+      "experimentId": "158656",
+      "title": "How an organic looking Facebook Ad impacts ad engagement and email acquisition in a content offer funnel",
+      "date": "2023-06-30T19:56:21",
+      "url": "https://www.nextafter.com/experiments/how-an-organic-looking-facebook-ad-impacts-ad-engagement-and-email-acquisition-in-a-content-offer-funnel/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Acquisition",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": -90.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.04%",
+            "lift": "-90.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that an organic looking ad design will increase the number of emails acquired by increasing engagement with the ad.",
+      "summary": "Timeframe: 05/20/2023 - 05/30/2023\nKCBI is a Christian broadcast ministry in Dallas Texas. For their latest devotional eBook content offer, they wanted to test a more “authentic” and “organic” looking design to their ads. They hypothesized that a plain image with text against a solid colored background, mimicking Facebook’s status update template, would increase engagement on the ad because it wouldn’t look like an “ad” compared to their standard design that featured the eBook cover in the image and ad copy describing the resource. The only copy in the treatment would be the copy in the organic looking image.\nThey set it up as a AB test in Facebook and ran it for 10 days with equal budget behind each variation",
+      "keyLearnings": "The organic design had had a significantly lower CPM of just $7.55 vs $20.75 on the control. However, the Link Click Through Rate on the treatment was significantly lower than the CTR on the control. Just 45% on the treatment vs 78% on the control. This meant that the treatment had a smaller lead in cost per link click.  $0.96 on the treatment vs $1.38 on the control.\nUltimately, we were trying to get more subscribers, not just clicks. The treatment had a 90% lower subscriber rate which led to a $10.23 gross cost per name for the organic design vs a $2.37 gross cost per name for the control.\nWhat this shows is that we don't just need more clicks, we need the right clicks on our ads and the lack of additional value propositional copy in the ad led to a significantly higher proportion of unmotivated traffic to the landing page. Additional testing is needed to see if an \"organic\" ad design with ad copy would perform better than our standard ad creative.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 90.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 49889,
+      "experimentId": "128722",
+      "title": "How adding a privacy statement below the submit button on content offer landing page affects email acquisition",
+      "date": "2023-02-20T16:30:01",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-privacy-statement-below-the-submit-button-on-content-offer-landing-page-affects-email-acquisition/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": 93.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "21.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "41.5%",
+            "lift": "93.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a privacy statement below the submit button for landing page visitors will achieve greater email conversion because it will decrease anxiety about data security and increase the appeal of the offer.",
+      "summary": "Timeframe: 09/01/2022 - 09/30/2022\nFor a faith-based media organization, we wanted to know how including a privacy statement below the form submission button would affect email acquisition rates. We know that privacy continues to be a growing priority for users online and we wanted to test whether or not anticipating any reluctance to submit payment information online at the point of requesting a devotional eBook would reduce anxiety and encourage more people to complete the form.\nThe privacy statement below the button on the treatment reads: “*We take data and privacy seriously. Your information will be kept safe and will be used to send you your eBook. “\n~50% of traffic received the control and ~50% of traffic received the treatment.  We set this up in Unbounce and, unfortunately, didn’t reset the conversions report so the samples look skewed in the report below as “control” reflects all samples since the launch of the content offer not just the ones during the test.",
+      "keyLearnings": "Based on the results from this Unbounce experiment, it's clear that including a privacy statement below the form submission button had a major impact on email acquisition rates.\nThis shows that anticipating privacy concerns in our customers and adapting our strategies to address those concerns can have a substantive impact on our overall marketing efforts. In the future, it will be valuable to continue testing our privacy statements to determine what language is most effective in communicating security, understanding that our customers expect transparency and taking responsible steps to secure their personal data. We will be testing this approach on donation pages as well.\nUnfortunately, we were not able to validate a similar increase in downstream donor conversion from this test.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 93.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 37292,
+      "experimentId": "47283",
+      "title": "How mystery in the subject line affects open rates of inactive email sends",
+      "date": "2022-12-12T16:43:21",
+      "url": "https://www.nextafter.com/experiments/how-mystery-in-the-subject-line-affects-open-rates-of-inactive-email-sends/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "open rate",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 41.2,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Seeing God's hand in your hardest moments",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "When horrible things happen",
+            "metric": "3.2%",
+            "lift": "41.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that creating mystery in a subject line for inactive emails will achieve a higher open rate.",
+      "summary": "Timeframe: 02/04/2021 - 02/09/2021\nKCBI was sending a cultivation email around finding God’s hand in the horrible things that happen to us. Typically their subject lines use a call to action around the content of the email for example “Will you pray with me” or “You need to read this”. So we wanted to test that call to action against more of a mystery subject line to see if that increases open rates. The control subject line was “Seeing God’s hand in your hardest moments.” And the test subject line was “When horrible things happen.”",
+      "keyLearnings": "They mystery subject line increased the open rate for inactive emails by 41%. This held true but to a lesser extent with the active email segment. The mystery subject line increased opens by 5% at a 94% level of confidence, so just shy of validation. The mystery technique if used consistently will lose its effectiveness, so we will continue to test different strategies for open rates with their audience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n41.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48111,
+      "experimentId": "115208",
+      "title": "How making the organization the actor of a Giving Tuesday donation page value proposition impacts donor conversion",
+      "date": "2022-12-07T17:03:21",
+      "url": "https://www.nextafter.com/experiments/how-making-the-organization-the-actor-of-a-giving-tuesday-donation-page-value-proposition-impacts-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": 31.3,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "25.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "KBCI Hero",
+            "metric": "33.2%",
+            "lift": "31.3%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that making KCBI the hero of the value proposition on the Giving Tuesday donation page will decrease donor conversion",
+      "summary": "Timeframe: 11/18/2022 - 11/29/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. They wanted to see if donors were more motivated to give  TO KCBI because of what KCBI would do with their gift or if they would be motivated to give because of what their GIFT would do THROUGH KCBI. So, which “hero” motivated more visitors to the donation page on Giving Tuesday to become donors.\nHistorically, they’ve tried to always emphasize the donor as the hero in their donation pages.\nFor the control, they emphasized in the headline and body copy the impact the donor would have by giving. In the treatment, they tweaked it slightly to emphasize how the impact is through KCBI. Examples include….\n“You can give practical help and biblical truth this Giving Tuesday” vs “Give Practical Help and Biblical Truth this Giving Tuesday Through KCBI“\n“By making a gift right now, you will be broadcasting the sounds of hope and the Good News of Jesus, as well as ensuring that practical help and biblical truth is carried out through our community…”\nvs\n“By making a gift to KCBI right now, you will help us broadcast the sounds of hope and the Good News of Jesus, as well as ensure that we provide practical help and biblical truth to our community…”\n“Will you give right now?” vs “Will you give to KCBI right now?”\n“Please step forward and make your special Giving Tuesday gift using the secure form below. You will have an eternal impact on the lives of others.”\nvs\n“Please step forward and make your special Giving Tuesday gift to KCBI using the secure form below. Your gift will enable us to have an eternal impact on the lives of others.”\nWe split the traffic 50/50 and ran it during their Giving Tuesday campaign that began a week early online. We hypothesized that the control page with the donor as the hero of the value proposition would have the greater conversion rate.",
+      "keyLearnings": "To our surprise, the control donation page that made the donor the hero (actor) in the value proposition had a decreased donor conversion rate and our treatment making KCBI the hero of the page increased conversion by 31%. When looking at the traffic by segment, all segments favored the treatment over the control.  In our analysis of the results, we looked to see if there were any large donations that may be skewing revenue and average gift results and found only a total of five gifts. Removing these gave us the following results:\nControl (donor as hero):\n98 donations, 24.7% conversion rate, $8,089 revenue, and $82.54 average gift\nTreatment (KCBI as hero)\n126 donations, $9,003.85 revenue, and $71.45 average gift.\nThis analysis did not change the level of confidence or the overall result. We still brought in approximately $1,000 in revenue on the treatment despite the lower average gift thanks to the higher donor conversion rate.\nWhile our thinking has been that donors want to be the actor/hero, it is possible that the way KCBI emphasized this in their control body copy made it sound like the donor was doing \"work.\" The donor could have anxiety about \"saving lives\" \"sharing the Gospel\" etc. The treatment page made it clear that KCBI did these things through the donor's gift.\nMore testing is needed to see the influence of a value proposition with KCBI as the hero outside of a unique campaign like Giving Tuesday. It is possible that the unique motivations of this day of giving influenced the results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 31.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 33769,
+      "experimentId": "110006",
+      "title": "How asking for $10 instead of $50 on a content offer donation page impacts donor conversion",
+      "date": "2022-11-03T20:23:06",
+      "url": "https://www.nextafter.com/experiments/the-impact-on-donor-conversion-of-asking-for-10-instead-of-50-on-a-content-offer-donation-page/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "gift array"
+      ],
+      "tier": 1,
+      "lift": 145.1,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.84%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$10 Appeal",
+            "metric": "2.1%",
+            "lift": "145.1%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for $10 instead of $50 on a content offer donation page will reduce mental friction and increase donor conversion.",
+      "summary": "Ended On: 10/11/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. They use free content offers to acquire donors online. They wanted to see if they could improve donor response by asking for less on their instant-donation page that loads after someone completes the form to claim a free eBook. Their offer donation pages all had giving arrays that started at $50. They hypothesized that $50 could seem like a lot of money to give after getting a free eBook, especially during a period of high inflation like what the US was experiencing. They wanted to see if asking for $10 would reduce mental friction and increase donor conversion.\nThey created a new version of the donation page for their Praying Scriptures for Your Child devotional eBook and split the traffic 50/50. They ran the experiment for one month and saw the following results.",
+      "keyLearnings": "After 4 weeks, we did not have greater than 50 gifts in the sample size, but we did validate a significant lift on donor conversion. We believe that, during periods of high inflation like we are experiencing right now, asking for less, especially in acquisition offers, reduces mental friction and makes it easier for someone to give their first gift. We will continue to test this in their future offers when inflation cools down to see if we can ask for a higher gift amount without harming our donor acquisition rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 145.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 30474,
+      "experimentId": "101284",
+      "title": "The Impact on Email Clicks of Asking For Less Money in an Appeal",
+      "date": "2022-08-24T15:53:58",
+      "url": "https://www.nextafter.com/experiments/will-asking-for-less-money-in-an-appeal-impact-email-clicks/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "click through rate",
+        "donor conversion",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 40,
+      "confidence": 99.4,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control $30 Ask",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment $10 Ask",
+            "metric": "1.9%",
+            "lift": "40.0%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for $10 instead of $30 will increase the click through rate of an appeal",
+      "summary": "Timeframe: 07/20/2022 - 07/25/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. For their July Appeal email, they wanted to see if they could increase donor conversion and email clicks by asking for less. Instead of asking for $30 in the copy, they decided to test asking for $10.\nThey believed that, with the inflation and financial difficulties families are facing right now, a lower appeal amount will decrease donor friction and increase the click through rate of the appeal.",
+      "keyLearnings": "We had a 40% increase in clicks to the donation page by asking recipients for less. Unfortunately, once on the page, we weren't able to validate an increase in donor conversion for the treatment. We received 22 donations from the email asking for $30 and 25 donations from the email asking for $10. A 13% increase in donations, however only a 32% LOC, so the results were invalid.\nWe did however show that donors are much more likely to click through on an appeal if asked for less. Further testing is needed to see if we can also improve donor conversion with this approach.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n40.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29340,
+      "experimentId": "91050",
+      "title": "How communicating the impact of paying for credit card fees on a donation page influenced donor conversion",
+      "date": "2022-08-15T17:54:50",
+      "url": "https://www.nextafter.com/experiments/how-communicating-the-impact-of-paying-for-credit-card-fees-on-a-donation-page-influenced-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "credit card",
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 1,
+      "lift": -11.6,
+      "confidence": 97.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "17.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Credit Card language treatment",
+            "metric": "15.4%",
+            "lift": "-11.6%",
+            "confidence": "97.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that communicating trust and goodwill towards the donor and clarifying the impact of covering credit card fees on the donation page will increase donor conversion.",
+      "summary": "Timeframe: 04/12/2022 - 06/10/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. For their main donation page, they wanted to test the impact of asking donors to cover the credit card fees associated with their online gift.\nThe first test they performed was a test of removing the option to pay for fees altogether. That test resulted in 20% decrease in donor conversion with a 82% level of confidence. Our hypothesis was that having an option to cover fees on their donation page may have been giving donors more clarity about what their gift was going towards and thus removing it altogether reduced donor conversion. As a result of this test, they decided they wanted to test the language used on the page to explain the value impact of covering credit card fees. Our hypothesis was that by communicating trust and appreciation of the donor’s desire to have a greater impact with their gift, we could cause more to choose to cover the fee and increase donor conversion. Their current fees option had a vague promise that covering fees would, “maximize your donation.” Our variation instead clarified the impact of covering fees on the outreaches donor’s cared about (giving bibles, providing ultrasounds, biblical resources, etc) and recognized the donors for their desire to do those very things.",
+      "keyLearnings": "The experiment ran during and after a major high urgency campaign which muddied the results of the test. On no traffic segment did the new fee language improve conversion. We may test this again in the future to be sure, but for now we will continue with offering the option to cover credit card fees so that donors can \"maximize their donation.\" It is possible that the greater length of the treatment distracted donors by adding friction.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29356,
+      "experimentId": "94883",
+      "title": "How adding a monthly donate button to the main navigation menu impacted donor conversion",
+      "date": "2022-08-15T16:44:43",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-monthly-donate-button-to-the-main-navigation-menu-impacted-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "monthly donor"
+      ],
+      "tier": 1,
+      "lift": 137,
+      "confidence": 98.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.98%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dual Donation Buttons",
+            "metric": "2.3%",
+            "lift": "137.0%",
+            "confidence": "98.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a monthly donate button to the main navigation menu will increase donor conversion",
+      "summary": "Timeframe: 05/23/2022 - 06/10/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. They wanted to see if they could improve donor conversion on their website by adding a monthly donation button to their main navigation next to their one-time donate button. Monthly donors are an important part of their program and they hoped that this additional callout would increase monthly donor conversion.",
+      "keyLearnings": "Not only did the addition of a monthly donate button increase donor conversion, but it increased revenue as well by 138.3% with a 94% level of confidence. Our hypothesis is that donors appreciated the clarity of knowing the two types of donations they could make at the start of the process while also just simply giving them another visual reminder of how easy it is to donate. While we originally hoped to also validate an increase in monthly donor conversion, the small sample size of monthly donations was not sufficient for a reliable level of confidence.\nCaveats. The language in the onetime donation option changed from the control to the treatment. This muddied the results of the test. Also by adding an additional button, we had to take the onetime gift button out of the nav menu with the other menu items and present it on its own.\nFuture Testing:\nWe need to ensure that the changes to the nav menu are rolled out to the entire KCBI site to increase sample size and gain more accurate data. With that in place, we can test the following elements from this test to learn what had the greatest  impact:\nTest position of the onetime gift buttonTest the copy on the onetime gift button (give vs donate)test adding a monthly donate button again once we have the data from the prior two tests.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 137.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29169,
+      "experimentId": "95070",
+      "title": "How giving subscribers part of a content offer in the promotional email impacted clicks to the offer signup page",
+      "date": "2022-08-15T15:37:19",
+      "url": "https://www.nextafter.com/experiments/how-giving-subscribers-part-of-a-content-offer-in-the-promotional-email-impacted-clicks-to-the-offer-signup-page/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Acquisition",
+        "email copy"
+      ],
+      "tier": 1,
+      "lift": 19.2,
+      "confidence": 96.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "5.0%",
+            "lift": "19.2%",
+            "confidence": "96.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that providing subscribers with a sample of a content offer in the promo email will increase clicks to the offer signup page.",
+      "summary": "Ended On: 05/25/2022\nKCBI is a leading Christian radio station and ministry in Dallas, Texas.  About a year ago, they created a “verse a day” subscription offer for their subscribers. People who enrolled received a verse or two in their inboxes each morning. They wanted to promote the offer to their file again but wanted to see if this time they could get more clicks to the landing page by providing subscribers with a sample verse like the ones they would get. We hypothesized that this would increase the appeal and clarity of the subscription offer and cause more people to visit the signup page. Simply saying, “we will give you a verse or two each morning” is far more vague than showing them the types of verses and content they will get each day.",
+      "keyLearnings": "While both emails featured conversational and personal copy, the treatment email allowed subscribers to experience the content they'd be receiving if they signed up. This increased the appeal and clarity of the offer and led to more visits to the signup page. We will continue to test into ways of allowing people to \"try before they buy\" so we can reduce the mental friction that comes from not knowing what an offer will be like.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n19.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 26181,
+      "experimentId": "86590",
+      "title": "God’s Unfailing Love updated ebook cover",
+      "date": "2022-03-01T15:31:52",
+      "url": "https://www.nextafter.com/experiments/gods-unfailing-love-updated-ebook-cover/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -18.1,
+      "confidence": 99.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.32%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.26%",
+            "lift": "-18.1%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that creating a modern ebook cover will achieve more email sign ups through paid social.",
+      "summary": "Ended On: 02/28/2022\nKCBI has historically had an ebook cover template of a large cover image, with the title at the top.\nWe decided to see if by changing the cover template to a more modern and simple, with a larger title and less emphasis on the cover image.",
+      "keyLearnings": "We ran this experiment for 3 weeks and saw the following result. For KCBI's specific audience, on this offer, they prefer the existing template rather than a more modern approach.\nWe will continue testing on ebook covers to see out potential opportunities to optimize email sign ups.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 18.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 23686,
+      "experimentId": "79215",
+      "title": "How asking for less impacted year end giving",
+      "date": "2021-12-16T15:24:25",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-less-impacted-year-end-giving/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "downgrade"
+      ],
+      "tier": 1,
+      "lift": 193.9,
+      "confidence": 99.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.65",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$1.91",
+            "lift": "193.9%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for less than their previous highest amount during a year end fundraising campaign will increase overall revenue and response.",
+      "summary": "Timeframe: 12/01/2021 - 12/07/2021\nDuring the beginning of their year end campaign, KCBI decided to see if they could statistically validate a concept they had stumbled upon during a previous high urgency campaign. The idea was that if we asked existing donors for less than their previous highest gift amount and gave them a reason for doing so, we could inspire more people to give overall.\nOriginally, our belief was that it may lower average gift but would increase response rate enough to improve overall revenue. However, we found that it was able to increase both average gift and response rate for the segment but did not reach the 95% level of statistical validity we look for when determining a winner. With this in mind, we tested the same concept again at the start of their year end campaign.\nFor this test, we divided the file between control and treatment. For the control, we used email personalization to ask them for a specific amount (based upon a previous highest gift amount) and identified that we’re looking for a specific number of donors. For example, if a donor had given $20 in the past, we would ask: “Would you consider being one of 50 donors to make a gift of $25 right now.”\nFor the treatment, we used the same logic but asked them for a level down compared to the control. For example, if a donor had given $20, we would ask them to be one of 50 donors to make a $10 gift right now.”",
+      "keyLearnings": "After sending three separate emails to the distinct segments using similar language in each language and maintaining the same control / treatment split through the entire series, we discovered that the treatment group saw a 193.9% increase to overall revenue. This came from increasing conversion rate by 49% and average gift by 97%.\nWhen digging into the results, we found that the biggest revenue increase came from donors giving between $250 and $500. The treatment group had eight donors giving in that range while the control had none.\nIt should also be noted that we removed a $2,600 gift from the results since it was such a large outlier when compared to the other gifts. When it is included, we observed a 39% increase with the treatment with a 73% level of confidence.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 48.9% increase in conversion rate\n\t\t\t\t× 97.4% increase in average gift\n\t\t\t\t\t\t\t\t\t193.9% increase in revenue"
+    },
+    {
+      "id": 17626,
+      "experimentId": "51274",
+      "title": "How including a first name personalization in the subject line of a recurring donor cultivation email affects open rates",
+      "date": "2021-06-22T13:19:35",
+      "url": "https://www.nextafter.com/experiments/how-including-a-first-name-personalization-in-the-subject-line-of-a-recurring-donor-cultivation-email-affects-open-rates-2/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "personalization",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 54.8,
+      "confidence": 97.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "8.0%",
+            "lift": "54.8%",
+            "confidence": "97.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Personalizing the subject line for a more one-to-one communication will increase open rates.",
+      "summary": "Timeframe: 02/11/2021 - 02/11/2021\nKCBI was sending out a cultivation emails to their recurring donors, letting them know all of the ways their recurring gifts were going to change lives this year. We wanted to test a personalized subject line that included the donor name to see how that affected the open rate, because one of our goals is to increase cultivation for their monthly donors to continue to increase their already excellent recurring donor retention rate. We split the email by active and inactive emails (hadn’t opened the last five emails), so that we could see the affects on engaged audience versus unengaged.",
+      "keyLearnings": "In the inactive segment, the personalization made a big impact in opens, increasing the number of folks opening by 54%. Our hypothesis that personalization would increase email reactivation through a more one-to-one communication proved to be true.\n\nThe active segment only saw a small increase in open rate, not enough to be statistically valid. We believe this is because this is an already very engaged audience, as recurring donors who regularly open emails.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n54.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19242,
+      "experimentId": "51274",
+      "title": "How including a first name personalization in the subject line of a recurring donor cultivation email affects open rates",
+      "date": "2021-06-07T21:59:43",
+      "url": "https://www.nextafter.com/experiments/how-including-a-first-name-personalization-in-the-subject-line-of-a-recurring-donor-cultivation-email-affects-open-rates/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line",
+        "personalization",
+        "subject line"
+      ],
+      "tier": 1,
+      "lift": 54.8,
+      "confidence": 97.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "8.0%",
+            "lift": "54.8%",
+            "confidence": "97.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Personalizing the subject line for a more one-to-one communication will increase open rates.",
+      "summary": "Timeframe: 02/11/2021 - 02/11/2021\nKCBI was sending out a cultivation emails to their recurring donors, letting them know all of the ways their recurring gifts were going to change lives this year. We wanted to test a personalized subject line that included the donor name to see how that affected the open rate, because one of our goals is to increase cultivation for their monthly donors to continue to increase their already excellent recurring donor retention rate. We split the email by active and inactive emails (hadn’t opened the last five emails), so that we could see the affects on engaged audience versus unengaged.",
+      "keyLearnings": "In the inactive segment, the personalization made a big impact in opens, increasing the number of folks opening by 54%. Our hypothesis that personalization would increase email reactivation through a more one-to-one communication proved to be true.\nThe active segment only saw a small increase in open rate, not enough to be statistically valid. We believe this is because this is an already very engaged audience, as recurring donors who regularly open emails.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n54.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17347,
+      "experimentId": "33587",
+      "title": "How the length of a pledge impacts email conversion rate",
+      "date": "2020-09-29T15:19:37",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-a-pledge-impacts-email-conversion-rate/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 9.3,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Pledge",
+            "metric": "70.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Pledge",
+            "metric": "77.2%",
+            "lift": "9.3%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the length of a pledge/petition have a difference on the conversion rate?",
+      "summary": "Ended On: 09/15/2020\nIn an effort to acquire email addresses, KCBI created a pledge/petition for people to sign that aligned people’s beliefs with a core value of theirs. The original pledge had ten statements of belief within it and we wondered if the number of beliefs statements would impact conversion.\nUltimately what we were trying to figure out is this, can a pledge have too many belief statements resulting in friction and therefore drop-offs?\nWe cut the number of belief statements from 10 to 5 for the treatment. We chose the 5 for the treatment based on what we thought were the most “consumable” for people – they weren’t lengthy, weighted, and seemed easiest to understand, read, and align with.",
+      "keyLearnings": "What we ended up seeing was a 9.3% increase in conversion for the shorter pledge! Our biggest takeaway here was that less is sometimes more. The pledge with 5 belief statements converted at a higher rate than the one with 10. This could be based on a couple of things…1. The length of the pledge2. Simplicity of the statements of beliefThe next step would be to look at the language and wording of each statement and begin to test there.\nNow that we have seen that less is more we can begin iterating on what words or phrasing should be used.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 9.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17557,
+      "experimentId": "35845",
+      "title": "How the length of a pledge impacts email conversion rate",
+      "date": "2020-09-22T05:34:00",
+      "url": "https://www.nextafter.com/experiments/how-the-length-of-a-pledge-impacts-email-conversion-rate-2/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 9.3,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Pledge",
+            "metric": "70.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Pledge",
+            "metric": "77.2%",
+            "lift": "9.3%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the length of a pledge/petition have a difference on the conversion rate?",
+      "summary": "Ended On: 09/15/2020\nIn an effort to acquire email addresses, KCBI created a pledge/petition for people to sign that aligned people’s beliefs with a core value of theirs. The original pledge had ten statements of belief within it and we wondered if the number of beliefs statements would impact conversion.\nUltimately what we were trying to figure out is this, can a pledge have too many belief statements resulting in friction and therefore drop-offs?\nWe cut the number of belief statements from 10 to 5 for the treatment. We chose the 5 for the treatment based on what we thought were the most “consumable” for people – they weren’t lengthy, weighted, and seemed easiest to understand, read, and align with.",
+      "keyLearnings": "What we ended up seeing was a 9.3% increase in conversion for the shorter pledge! Our biggest takeaway here was that less is sometimes more. The pledge with 5 belief statements converted at a higher rate than the one with 10. This could be based on a couple of things...1. The length of the pledge2. Simplicity of the statements of belief\nNow that we have seen that less is more we can begin iterating on what words or phrasing should be used.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 9.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16890,
+      "experimentId": "27143",
+      "title": "iPad image vs Physical book image",
+      "date": "2020-03-20T14:38:47",
+      "url": "https://www.nextafter.com/experiments/ipad-image-vs-physical-book-image/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -26.5,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Book image",
+            "metric": "3.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "iPad image",
+            "metric": "2.3%",
+            "lift": "-26.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will making the image of an eBook an iPad increase email signups?",
+      "summary": "Ended On: 01/10/2020",
+      "keyLearnings": "It does seem like Facebook may have favored one ad over the other. In the future I would like to run this same test from the beginning and potentially create a treatment landing page which also includes the iPad image in order to increase consistency for the user.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.5% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 70874,
+      "experimentId": "196179",
+      "title": "Will adding a donor testimonal to a donation page help conversions?",
+      "date": "2025-03-28T16:46:42",
+      "url": "https://www.nextafter.com/experiments/will-adding-a-donor-testimonal-to-a-donation-page-help-conversions/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -35,
+      "confidence": 94.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "19.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "12.4%",
+            "lift": "-35.0%",
+            "confidence": "94.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a donor testimonial to the donation pages for the spring fundraiser campaign will achieve more conversions on the page because the added donor testimonial will include social proof on the page.",
+      "summary": "Ended On: 03/27/2025\nRight now, KCBI is in the middle of its annual Spring Fundraiser. This campaign drives traffic to the campaign donation pages more than the donation pages would receive outside of an on-air campaign.\nFor this test, we wanted to see if we could increase conversions on the donation page by adding a testimonial to the page.",
+      "keyLearnings": "The key learning from this experiment is that adding a donor testimonial to the donation pages for the spring fundraiser campaign resulted in a 35.0% decrease in donations for all traffic. Although the results were not statistically significant at a 95% confidence level, the 94.5% confidence level suggests that the trend towards decreased conversions is strong.\n\nIn future experimentation, it is important to further test the impact of adding donor testimonials to donation pages before fully implementing this change. It might be beneficial to explore different types of testimonials, placement on the page, or the content of the testimonial itself to see if there is a way to present social proof more effectively to increase conversions. Additionally, considering other factors that could have influenced the results, such as the timing of the campaign or the overall messaging, could provide more insights into how to optimize donation pages for better results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 67721,
+      "experimentId": "192539",
+      "title": "Does a content offer work better as a first text?",
+      "date": "2024-11-04T15:20:44",
+      "url": "https://www.nextafter.com/experiments/does-a-content-offer-work-better-as-a-first-text/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "text message"
+      ],
+      "tier": 2,
+      "lift": -17.4,
+      "confidence": 91.4,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "10.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "9.0%",
+            "lift": "-17.4%",
+            "confidence": "91.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending a content offer for poeple to opt into text will achieve a higher engagement rate and a lower unsubscribe because offering something of value is an easier sell to get people involved .",
+      "summary": "Ended On: 10/30/2024\nKCBI recently incorporated texting into their program and we wondered what the best route to activate people in this channel would be.\nSo, we ran a test. Would offering a content offer, or something of value, be a better route to get somebody to opt in to text vs. a generic welcome message.",
+      "keyLearnings": "While the offer did receive overall less clicks.. the most important part of the test is knowing how many people actually stayed on the file instead of unsubscribing.\n\nBy offering something of value in the first text we actually saw a decrease in unsubscribed contacts.\n\n \n\nTest: United We Kneel eBook\n\n1,461 sent messages, 42 unsubscribes: 2.87%\n\n \n\nControl: General Message\n\n1,463 sent messages, 88 unsubscribes: 6.02%\n\nThe test underscores the importance of offering valuable, targeted content to retain subscribers. While the eBook offer may not have driven as many clicks initially, its value proposition likely made recipients more inclined to stay subscribed, rather than seeing the email as just another message in their inbox. This outcome suggests that even with fewer clicks, offering relevant, engaging content can effectively reduce unsubscribe rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 67738,
+      "experimentId": "192565",
+      "title": "Does a missional or initiative ask convert donors?",
+      "date": "2024-11-01T19:46:24",
+      "url": "https://www.nextafter.com/experiments/does-a-missional-or-initiative-ask-convert-donors/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": 70.5,
+      "confidence": 92.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "control",
+            "metric": "0.92%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "1.6%",
+            "lift": "70.5%",
+            "confidence": "92.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that having a inititive ask for a high urgency campagin will achieve a higher donor conversion rate because having a tangible ask for a short period of time can be easier for a potential donor to convert on.",
+      "summary": "Ended On: 10/31/2024\nKCBI runs a Fall Fundraiser each year that brings in traffic to their website.\nFor this campaign, we wanted to see what type of messessaging converts donors during a high urgency campaign better.. Missional or Initiative.",
+      "keyLearnings": "The key learnings from this experiment are that having an initiative ask for a high urgency campaign may potentially lead to a higher donor conversion rate compared to a missional ask. While the treatment did show a 52.6% increase in donations for all traffic, the statistical level of confidence was only at 84.9%, which is below the standard threshold of 95% for results to be considered valid.\n\nIt's also important to note that donors gave more generously when they saw the treatment of \"share 25,000 Bibles\". The average gift for the treatment was $205 and the average gift for the control was $123.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 65043,
+      "experimentId": "179800",
+      "title": "Will asking a question in the header of a landing page create a better hook?",
+      "date": "2024-08-19T14:37:24",
+      "url": "https://www.nextafter.com/experiments/will-asking-a-question-in-the-header-of-a-landing-page-create-a-better-hook/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "header",
+        "landing page"
+      ],
+      "tier": 2,
+      "lift": -42.1,
+      "confidence": 87.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.40%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "0.23%",
+            "lift": "-42.1%",
+            "confidence": "87.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that starting a landing page off with a question for an acquistion offer will achieve a higher conversion rate because the question on the page will lead the user to stay on the page longer and continue to read.",
+      "summary": "Timeframe: 05/24/2024 - 07/09/2024\nFor this test we wanted to see if by changing the headline of a landing page to be a question if we could increase conversion rate on the page.\nWe decided to test this approach on an older offer that gets a lot of traffic to the page.",
+      "keyLearnings": "The key learnings from this experiment are that starting a landing page with a question for an acquisition offer may not always lead to a higher conversion rate. In this particular case, the treatment with the question actually resulted in a decrease in transactions for all traffic.\nIt is important to note that the results of this experiment are not statistically significant at the 95% confidence level. This means that further testing is needed to determine if starting a landing page with a question is truly effective in increasing conversion rates.\nIn future experimentation, it would be beneficial to continue testing different approaches to see what resonates best with the target audience. Additionally, it is important to consider factors such as messaging, design, and user experience when creating and testing landing pages to maximize conversion rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 64596,
+      "experimentId": "185297",
+      "title": "Does Adding Leading Copy on the Donation Page Affect Generosity?",
+      "date": "2024-08-16T14:53:31",
+      "url": "https://www.nextafter.com/experiments/does-adding-leading-copy-on-the-donation-page-affect-generosity/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy"
+      ],
+      "tier": 2,
+      "lift": 690.9,
+      "confidence": 93.9,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.16",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "$1.24",
+            "lift": "690.9%",
+            "confidence": "93.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the body copy for the acquistion donation page will achieve a higher average gift because the copy tell people exactly what their money is going to and how they (the donor) is making a difference.",
+      "summary": "Timeframe: 07/09/2024 - 08/12/2024\nFor this experiment, we wanted to see if changing the copy on the donation page would affect how generous donors give.\nBelow is what we found.",
+      "keyLearnings": "The key learnings from this experiment are that changing the body copy on the donation page led to a significant increase in revenue for all traffic by 690.9% and a 362% increase in Email Acquisition. The treatment group that received the new copy that clearly explained how the donation would make a difference saw higher average gifts from donors.\n\nThese results suggest that providing specific and impactful information about where the donor's money is going and how it will make a difference can significantly influence their decision to give more generously. Utilizing this approach in future experimentation could result in higher donation amounts and increased revenue for KCBI.\n\nIt is important to note that while the results were promising, further testing is recommended to ensure the validity of the findings. By continuing to iterate and test different messaging strategies, KCBI can continue to optimize its donation pages and ultimately drive more impactful giving from donors.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 56343,
+      "experimentId": "167763",
+      "title": "Dear Reader You vs. Organization Copy",
+      "date": "2024-01-22T15:10:59",
+      "url": "https://www.nextafter.com/experiments/how-donor-centric-language-performed-in-a-dear-reader/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "dear reader",
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": -51.8,
+      "confidence": 83.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.54%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.26%",
+            "lift": "-51.8%",
+            "confidence": "83.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that making the value proposition more you focused for people who land on the dear readers will achieve a higher donor conversion rate because we will have created appeal in saying you can help people instead of KCBI can help people.",
+      "summary": "Ended On: 01/08/2024\nFor this experiment we wanted to see if changing the copy of a dear reader to be more “you” focused instead of organizational focused if we could convert more donors.",
+      "keyLearnings": "For the KCBI audience, it seems that they would like to give to a ministry that is making a difference. This experiment caused a 51% decrease in donor conversion by changing the copy to be 'you' focused.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30400,
+      "experimentId": "99645",
+      "title": "How Moving the Global Navigation Donate Button Onto Its Own Menu Line impacts donor conversion",
+      "date": "2022-08-16T21:30:10",
+      "url": "https://www.nextafter.com/experiments/how-moving-the-global-navigation-donate-button-on-to-its-own-menu-line-impact-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "Friction"
+      ],
+      "tier": 2,
+      "lift": -37.8,
+      "confidence": 91.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Moved to super nav",
+            "metric": "1.8%",
+            "lift": "-37.8%",
+            "confidence": "91.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that moving the “give now” button onto its own global navigation menu line will increase donor conversion",
+      "summary": "Timeframe: 07/05/2022 - 07/24/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. In a prior test, they’d found that the addition of a “monthly” donate button to their global site navigation menu increased donor conversion. However, there were some issues with that test that made the results unclear. We had several factors that changed in the experiment (the placement of the “give now button,” the wording on the buttons, and the addition of a monthly donate button) that clouded the results. In order to understand WHICH factor led to the increase in donor conversion, we decided to test simply moving the “give now” button out of the menu line with the other options and onto its own line. We believed this would give it prominence as it would stand on its own in the navigation bar.\nSince this would only impact Desktop traffic, that is the only source of donors we examined.",
+      "keyLearnings": "While we didn't wait to reach a 95% or greater level of confidence, there was no period during the test or segment of donors where we were seeing a positive impact and it was clear that moving the button was having a directional decrease on conversion, so we ended the test.\nThis showed us that donors were not more likely to click the \"give now\" button when it was in its own menu. Next, we will test the language of the donate button, \"give now\" vs \"donate now\" to see which is the most converting.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28643,
+      "experimentId": "93698",
+      "title": "How a Personal Introduction at the Beginning of an Appeal to Donors Impacts Donor Conversion During a High Urgency Campaign",
+      "date": "2022-05-09T22:37:03",
+      "url": "https://www.nextafter.com/experiments/how-a-personal-introduction-at-the-beginning-of-an-appeal-to-donors-impacts-donor-conversion-during-a-high-urgency-campaign/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 100,
+      "confidence": 84.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.78%",
+            "lift": "100.0%",
+            "confidence": "84.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a personal introduction at the beginning of an appeal will increase donor conversion.",
+      "summary": "Timeframe: 04/26/2022 - 04/26/2022\nKCBI is a leading Christian radio station and ministry in Dallas, Texas. For their spring fundraising campaign, they wanted to see if beginning an appeal with a personal story and introduction by the sender would increase donor conversion. When testing with another organization, we found that beginning an appeal like this increased engagement by humanizing the copy and building rapport. We know from research that donors give to people, not organizations, so we wanted to see if this would increase conversion during an urgent campaign.",
+      "keyLearnings": "Unfortunately, we had a small group of people open the email, so we could not achieve statistical reliability. We will keep testing into more conversational and personalized intro copy to see if we can validate this approach with their audience.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 27779,
+      "experimentId": "83178",
+      "title": "How the addition of a callout clarifying the impact of a specific donation amount impacted donor conversion on a campaign donation page.",
+      "date": "2022-04-13T12:50:00",
+      "url": "https://www.nextafter.com/experiments/the-impact-of-a-callout-on-a-giving-array-that-clarifies-what-a-specific-giving-amount-will-accomplish-during-a-campaign/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 57.6,
+      "confidence": 91.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "32.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Most popular option",
+            "metric": "51.2%",
+            "lift": "57.6%",
+            "confidence": "91.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that the addition of a callout clarifying the impact of a specific donation amount will increase donor conversion on the campaign donation page.",
+      "summary": "Timeframe: 01/24/2022 - 04/15/2022\nFor KCBI’s January Day of Bibles campaign, they were wanting donors to sponsor putting 5,000 Bibles into the hands of people in need. We hypothesized that adding a callout to the donation form on the campaign donation page that clarified the impact of a specific donation amount would increase donor conversion and reduce friction because visitors would have greater clarity about the impact of their gift.",
+      "keyLearnings": "During the three days of the campaign, we did not observe any noticeable impact from the new callout. However, during the subsequent 10 weeks, as more visitors came to the page, we were able to validate the test for multiple visitor segments and achieve a directional lift for all traffic.\nWe believe that this greater lift was the result of the improved clarity of WHAT a donor's gift would do, in this case, provide a \"bible a day\" to those in need. Clarity is one of the key factors determining the strength of an appeal's value proposition.  The greater our clarity in describing the need for and impact from a donor's gift, the greater our conversion rate should be.\nSince we did not achieve validity during the short duration of the campaign, we want to test this approach again on a donation page that will get more consistent traffic and have a larger sample size.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 20810,
+      "experimentId": "72772",
+      "title": "How asking for less impacted overall revenue",
+      "date": "2021-10-08T16:43:27",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-less-impacted-overall-revenue/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "email",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 31.3,
+      "confidence": 87.6,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Language",
+            "metric": "$2.76",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Downgrade Language",
+            "metric": "$3.63",
+            "lift": "31.3%",
+            "confidence": "87.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for less than their previous highest gift for recent donors will achieve an increase in overall appeal revenue.",
+      "summary": "Timeframe: 09/15/2021 - 09/30/2021\nFor KCBI’s fall fundraising campaign, we gained access to a new tool (Pursuant’s GivingDNA) with the ability to predict donors who were likely to upgrade. To validate this modeled data, we decided to launch a two-prong experiment. We wanted to see if we could accelerate the upgrade process by asking for a gift above their highest previous gift. We also decided to see if we could increase conversion by asking for a donation less than their highest previous gift for the segment that was not identified as likely to upgrade.\nWe split the donor file in four ways to create control and treatment groups of the upgrade and non-upgrade identified segments for this experiment. We then created four distinct emails in an eight email campaign that would either include the standard ask or would ask them for the upgraded/downgraded amount. The upgrade/downgrade language would consist of logic that explained why we were asking for more or less. This same language was used in all four experiment emails.\nThe experiment information below is specific to the segment that was identified as not likely to upgrade.\nIn this campaign, we utilize a tactic known as the chart of standards. We segmented each segment by their highest previous contribution and then selected a limited number of donors for a specific ask amount we wanted for this campaign. You can see this breakdown here. This concept is based upon research done on a theory in social psychology known as construal level theory. Our previous research has found this to lift giving in high urgency campaign–this experiment was a continuation of this research effort.\nAt the end of the campaign, we analyzed the behavior of these distinct donors to understand how it both impacted their likelihood to upgrade and their likelihood to give.",
+      "keyLearnings": "With a directional lift of 31% in revenue, we found that asking for a donation that was less than their highest previous gift amount increased the total revenue raised from the appeal. This came from a 24% increase in response rate combined with a higher average gift in the treatment group.\n\nThe concern with this approach was that we would suppress giving from donors that would have upgraded their gift amount. However, we found that the same number of people increased their giving despite the treatment group seeing a downgraded ask. This means the tactic didn't negatively impact the likelihood of a donor upgrading their highest previous gift.\n\nThis tactic needs to be further validated with additional experimentation but is exciting in its potential.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 19111,
+      "experimentId": "61358",
+      "title": "How a question versus a problem at the beginning of an email affects click rates",
+      "date": "2021-06-15T16:36:56",
+      "url": "https://www.nextafter.com/experiments/how-a-question-versus-a-problem-at-the-beginning-of-an-email-affects-click-rates/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "body copy",
+        "email",
+        "fear of loss"
+      ],
+      "tier": 2,
+      "lift": -11.8,
+      "confidence": 91.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Question",
+            "metric": "10.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Problem",
+            "metric": "9.4%",
+            "lift": "-11.8%",
+            "confidence": "91.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Introducing a problem at the beginning of the email will increase the readers interest in the solution",
+      "summary": "Ended On: 05/18/2021\nKCBI was launching a new offering of a Verse of the Day email. This is an important offering and very inline with the organizations mission. In order to discern what motivates their readers to read on and to engage with the email we tested a beginning to the email that was a questions “What do you seriously need each morning?” against starting the email with the problem of mornings and finding time to spend with God, then offering the solution to making their mornings better. This was a 50/50 split test with the same subject line “What you need every day.”",
+      "keyLearnings": "The question at the beginning of an email increased the click rate by almost 12%. Our hypothesis is that the question started people on the path of thinking what is it that they need in the morning and then the solution was offered. Beginning with the problem, told them that they struggled to get what they need, rather than asking what they needed and engaging them in the options. The question also matched the subject line of \"What you need every day\" and so there was a smooth transition from the envelop of the email to the beginning of the conversation. The reader was more prepared for what came next. We also think there's something to an upbeat tone when talking to KCBI's audience.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 70873,
+      "experimentId": "196178",
+      "title": "Will having headers on the campaign donation page help increase transactions?",
+      "date": "2025-03-31T14:06:50",
+      "url": "https://www.nextafter.com/experiments/will-having-headers-on-the-campaign-donation-page-help-increase-transactions/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -61.8,
+      "confidence": 77.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.0%",
+            "lift": "-61.8%",
+            "confidence": "77.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding headers to the doantion pages for the spring campaign will achieve more transactions because the headers will make the checkout process easier to follow.",
+      "summary": "Ended On: 03/27/2025\nKCBI runs a Spring fundraiser each year where the on air hosts are fundraising and leading traffic to their page to give a gift or to call in.\nFor this campaign, we wanted to see how we could help increase conversions by adding headers or steps to the donation form. We tested this during CYE, but the results were not concrete. We wanted to see how this could perform during a different season.",
+      "keyLearnings": "The key learning from this experiment is that adding headers to the donation pages for the Spring campaign actually led to a decrease in donations, instead of the expected increase. However, the results were not statistically significant with only a 77.9% level of confidence, meaning that the results cannot be considered valid for future decision making.\n\nWith the steep decrease in transactions, we turned this test after just a couple of days. This test inadvertently could have caused more donor friction and anxiety by adding the headers. In future experimentation, it would be worth testing the language used.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 70888,
+      "experimentId": "196188",
+      "title": "Can we increase donations from traffic on the homepage?",
+      "date": "2025-03-28T16:43:08",
+      "url": "https://www.nextafter.com/experiments/can-we-increase-donations-from-traffic-on-the-homepage/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donation pathway",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -5.8,
+      "confidence": 37.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "7.3%",
+            "lift": "-5.8%",
+            "confidence": "37.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a donation module to the her image for the spring fundraiser will achieve more transactions because the user will be able to start their gift on the homepage, taking a step out of the process and reducing friction.",
+      "summary": "Ended On: 03/28/2025\nKCBI is in the middle of their on-air spring fundraiser, which drives a ton of traffic to their website.\nFor this campaign, and other previous catalytic campaigns, we’ve found that adding a sticky bar to the top of the homepage works well in converting users to donors.\nFor this test, we wanted to see if we could present the donation ask in a different way on the homepage and still convert donors as well as the sticky bar.",
+      "keyLearnings": "The key learning from this experiment is that adding a donation module to the hero image for the spring fundraiser did not result in an increase in donations compared to the sticky bar. In fact, the treatment saw a 5.8% decrease in donations for all traffic. However, the statistical level of confidence was only 37.5%, which is below the recommended threshold of 95%. This means that the results are not considered valid and should not be used for future decision making.\n\nIt's also important to note that the treatment version saw an increase in revenue by having an average gift of $177 vs the control $155. While overall transactions were down, the majority of these were due to recurring, when looking at one time gifts the donation module on the homepage had a slight lift in transactions.\n\nIn future experimentation, it's important to ensure that the sample size is large enough to provide meaningful results with a high level of confidence. This will help avoid drawing conclusions based on potentially unreliable data. Additionally, it's crucial to continue testing different strategies and elements on the website to optimize donation conversions. This experiment provides valuable insights that can be used to inform future tests and ultimately improve the effectiveness of donation asks on the KCBI website.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 69384,
+      "experimentId": "194649",
+      "title": "How a homepage banner performed against a sticky bar",
+      "date": "2025-02-03T15:38:42",
+      "url": "https://www.nextafter.com/experiments/how-a-homepage-banner-performed-against-a-sticky-bar/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "banner",
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -6.4,
+      "confidence": 19.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "1.7%",
+            "lift": "-6.4%",
+            "confidence": "19.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a lower third ad for the homepage will achieve higher donor conversion because the lower third ad will be something new on the site for users to see, where the sticky bar could have banner blindness. It also gives the donor three specific gift amounts to choose from whereas the sticky bar is an open ended ask.",
+      "summary": "Ended On: 01/14/2025\nFor this test we wanted to see if we could potentially test into a different element on the homepage besides a sticky bar. For this we created a bottom banner that slides up on the page that contains three different options to give.\nWe ran this test during a high urgency campaign where traffic to the homepage is higher than normal.",
+      "keyLearnings": "The key learning from this experiment is that adding a lower third ad for donations on the homepage did not result in higher donor conversions compared to the sticky bar. In fact, the treatment actually saw a decrease in donations. However, since the statistical level of confidence is below 95%, these results are not valid and should not be used for future decision making.\n\nIn future experimentation, it may be beneficial to continue testing different elements on the homepage to find what resonates best with donors. It is important to consider the placement, design, and messaging of donation prompts to optimize conversion rates. Additionally, it would be helpful to conduct further experiments with a larger sample size and longer testing period to ensure more reliable results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 69041,
+      "experimentId": "194509",
+      "title": "How will adding a visual cue to a donation page effect conversions?",
+      "date": "2025-01-17T19:26:36",
+      "url": "https://www.nextafter.com/experiments/how-will-adding-a-visual-cue-to-a-donation-page-effect-conversions/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 29.5,
+      "confidence": 47.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "5.1%",
+            "lift": "29.5%",
+            "confidence": "47.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding in a visual thermomether for the capaign donation page will achieve a higher donor conversion rate because the thermometer would add urgency to the page.",
+      "summary": "Ended On: 01/09/2025\nDuring CYE we know that there is a ton of traffic that make their way to the KCBI donation page on the last 4-5 days of the year. Due to this high volume of motivated donors to give to KCBI, but also to give before the tax deadline of December 31st.\nFor this test we wanted to see if we could add a visual cue that would show the amount of time left to make a gift.",
+      "keyLearnings": "The key learnings from this experiment are that adding a visual thermometer to the campaign donation page resulted in a 29.5% increase in donations for all traffic. While this is a positive outcome, the statistical level of confidence was only 47.2%, which is below the recommended threshold of 95%.\nTherefore, these results should not be considered valid or used for future decision making. In future experimentation, it is important to ensure that the sample size is large enough to provide statistically significant results. Additionally, it may be beneficial to conduct further experiments or iterate on the design of the visual thermometer to determine its true impact on donor conversion rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 69020,
+      "experimentId": "194508",
+      "title": "Will a guided reading experience on the donation page convert donors better?",
+      "date": "2025-01-17T19:14:37",
+      "url": "https://www.nextafter.com/experiments/will-a-guided-reading-experience-on-the-donation-page-convert-donors-better/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -23.6,
+      "confidence": 46,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "4.7%",
+            "lift": "-23.6%",
+            "confidence": "46.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that addinga. guided reading experience for the campaign donation page will achieve a higher donor conversion because the copy makes it easier to understand what problem the organization is solving .",
+      "summary": "Ended On: 01/08/2025\nFor the CYE campaign this year, we wanted to test into having a guided reading experience on the main campaign donation page. We’ve seen this work well in acquisition where it lays out the problem, the solution, and how the donor can help.\nWe wondered if running this during a high urgency campaign would work as well as it did during non campaign months.",
+      "keyLearnings": "The key learnings from this experiment are that the guided reading experience on the campaign donation page resulted in a 23.6% decrease in donations for all traffic. However, the statistical level of confidence was only 46.0%, which is below the threshold of 95% needed to consider the results valid. Therefore, these results should not be used for future decision-making.\n\nWhile this test is more of a coin toss on whether it will help transactions, it did increase the average gift from $84 to $106 by adding in the subheaders to the copy.\n\nIn future experimentation, it is important to ensure that the sample size is sufficient to produce statistically significant results. Additionally, it may be beneficial to further test the guided reading experience and iterate on the copy to better communicate the problem the organization is solving and the impact of donor contributions. Conducting more experiments with different variations and analyzing the results with a larger sample size will provide more reliable insights for decision-making in future campaigns.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 68957,
+      "experimentId": "194502",
+      "title": "How Positioning a Monthly Ask Effects Conversion",
+      "date": "2025-01-17T16:07:38",
+      "url": "https://www.nextafter.com/experiments/how-positioning-a-monthly-ask-effects-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Recurring Giving"
+      ],
+      "tier": 3,
+      "lift": -1.3,
+      "confidence": 3.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Donate Monthly",
+            "metric": "10.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Become a Monthly Donor",
+            "metric": "10.4%",
+            "lift": "-1.3%",
+            "confidence": "3.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that positioning a monthly ask to be more about the donor for the giving tuesday ask will achieve a higher donor conversion rate because positioning the ask to be more donor focused instead of transactional will create a sense of community.",
+      "summary": "Ended On: 01/08/2025\nFor our CYE campaign this year we decided to have Giving Tuesday be it’s own micro goal.\nTo make Giving Tuesday stand out we created a micro goal to get 50 monthly donors in one day. Since this was strickly a monthly ask, we wondered what the best way to position the ask would be. Will having the ask be more inclusive or transactional make a difference?",
+      "keyLearnings": "The key learning from this experiment is that positioning a monthly donation ask to be more about the donor for Giving Tuesday can potentially lead to a lower donor conversion rate. While the treatment did see a 1.3% decrease in donations for all traffic, the statistical level of confidence was only 3.9%, which is below the generally accepted threshold of 95% for valid results.\n\nIn future experimentation, it is important to continue testing with different messaging and positioning strategies to see what resonates best with donors. It would be beneficial to conduct further experiments with larger sample sizes to increase the statistical power and confidence level of the results. Additionally, considering factors such as the timing of the ask, the target audience, and the overall campaign messaging can also impact the effectiveness of the donation appeal.\n\nOverall, the learnings from this experiment should be used as a starting point for further testing and optimization of donation asks to maximize donor conversions and support for the organization's mission.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 67739,
+      "experimentId": "192566",
+      "title": "Would a virtual chat bot convert donors better than a dear reader?",
+      "date": "2024-11-07T16:18:37",
+      "url": "https://www.nextafter.com/experiments/would-a-virtual-chat-bot-convert-donors-better-than-a-dear-reader/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "dear reader",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -30.1,
+      "confidence": 50.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.57%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.40%",
+            "lift": "-30.1%",
+            "confidence": "50.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that replacing the dear reader with a chat bot for the stories pages during the on-air fundriaser will achieve a higher donor conversion rate because the chat bot is a flashier tactic that would draw your eyes towards it and it’s a personal ask.",
+      "summary": "Ended On: 10/31/2024\nFor this test we wanted to see if we could try a different tactic on the story pages to convert donors. During KBCI Fall Fundraiser there is quite a bit of traffic pushed to the website from multiple channels.\nIn previous campaigns we have tested into having a traditional dear reader style ask on the story pages, however we wondered it it could be causing some “banner blindness” because it is used for every campaign. We decided to see if adding a chat bot message from a well known on-air host could draw more attention to the ask and then convert donors better.",
+      "keyLearnings": "The key learning from this experiment is that replacing the traditional dear reader ask with a chat bot message from a well-known on-air host on story pages during the on-air fundraiser led to a decrease in donations by 42.8% for all traffic. However, the statistical level of confidence was only 74.0%, meaning that these results cannot be considered valid.\n\nIn future experimentation, it is important to ensure that the sample size is large enough to provide reliable results with a higher level of confidence. Additionally, it may be beneficial to test different variations of the chat bot message or explore other creative tactics to make the ask more engaging and personalized for donors. It is also important to consider the overall user experience and ensure that any changes made do not negatively impact donation conversion rates. Continuing to test and iterate on different tactics will help determine the most effective approach for driving donations during fundraisers.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 67765,
+      "experimentId": "192587",
+      "title": "Does a dynamic sticky bar convert donors better than a static sticky bar?",
+      "date": "2024-11-01T20:10:25",
+      "url": "https://www.nextafter.com/experiments/does-a-dynamic-sticky-bar-convert-donors-better-than-a-static-sticky-bar/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 10.4,
+      "confidence": 59.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "8.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "8.9%",
+            "lift": "10.4%",
+            "confidence": "59.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that having a donor countdown for the sticky bar CTA button will achieve a higher donor conversion because the donor countdown shows social proof that others are donating and can create a fear of missing out experience.",
+      "summary": "Ended On: 11/01/2024\nEarlier in KCBI’s Fall Fundraiser we tested a static sticky bar vs. a rating sticky bar that showed 3 different value propositions to give. From that test we learned that their audience prefers the static sticky bar, however we wondered if we could improve on that version to maximise donations.\nFor this test we added in a donor countdown in the cta that added an element of social proof of fear of missing out.",
+      "keyLearnings": "The key learning from this experiment is that adding a donor countdown to the sticky bar CTA button led to a 10.4% increase in donations for all traffic. Despite the positive outcome, the statistical level of confidence was only 59.5%, falling below the threshold of 95% needed to consider the results valid.\n\nIn future experimentation, it is important to ensure that the results have a higher level of statistical confidence before making any decisions based on them. While the donor countdown showed promise in increasing donations, further testing with a larger sample size or different variations may be needed to confirm its effectiveness. Additionally, it is important to continue testing and iterating on different strategies to optimize donation conversions while ensuring the results are statistically significant.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 62035,
+      "experimentId": "167740",
+      "title": "How adding sticky donate button impacts donor conversion",
+      "date": "2024-08-07T21:33:50",
+      "url": "https://www.nextafter.com/experiments/how-adding-sticky-donate-button-impacts-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -33.6,
+      "confidence": 72.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.4%",
+            "lift": "-33.6%",
+            "confidence": "72.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a step between clicking a button and giving for the sticky donate button will achieve a higher average gift or conversions because the prospective donor would be primed more to make a donation.",
+      "summary": "Ended On: 01/05/2024\nFor this experiment, we wanted to see if adding a step between clicking the sticky donate button and going to the donation page could increase the number of transactions or the amount of revenue that a donor would give.",
+      "keyLearnings": "The key learning from this experiment is that adding a step between clicking the sticky donate button and going to the donation page actually resulted in a decrease in donations as well as revenue. The yes/no question could have caused more friction in the process instead of being a micro yes.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 62034,
+      "experimentId": "167740",
+      "title": "How adding a slide out impacts donor conversion",
+      "date": "2024-08-07T16:51:27",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-slide-out-impacts-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -33.6,
+      "confidence": 72.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.4%",
+            "lift": "-33.6%",
+            "confidence": "72.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a step between clicking a button and giving for the sticky donate button will achieve a higher average gift or conversions because the prospective donor would be primed more to make a donation.",
+      "summary": "Ended On: 01/05/2024\nFor this experiment, we wanted to see if adding a step between clicking the sticky donate button and going to the donation page could increase the number of transactions or the amount of revenue that a donor would give.",
+      "keyLearnings": "The key learning from this experiment is that adding a step between clicking the sticky donate button and going to the donation page actually resulted in a decrease in donations as well as revenue. The yes/no question could have caused more friction in the process instead of being a micro yes.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 62045,
+      "experimentId": "167739",
+      "title": "Will a sticky bar with a micro goal increase monthly giving",
+      "date": "2024-08-07T16:40:10",
+      "url": "https://www.nextafter.com/experiments/will-a-sticky-bar-with-a-micro-goal-increase-monthly-giving/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Recurring Giving",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": -6.7,
+      "confidence": 18.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "5.9%",
+            "lift": "-6.7%",
+            "confidence": "18.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that creating a microgoal of monthly donors for giving tusday will achieve a higher donor conversion rate because there will be a specific deadline involved.",
+      "summary": "Ended On: 01/05/2024\nFor Giving Tuesday this year we wanted to see if we could achieve a higher number of monthly donors by creating a micro goal for the day. On Giving Tuesday we asked people to be one of seventy five monthly donors needed.\nFor this experiment we wanted to see if changing the copy to say “Today is the day” would be more compelling to convert a monthly donor.",
+      "keyLearnings": "The key learning from this experiment is that changing the copy to say \"Today is the day\" did not result in a higher conversion rate for monthly donors on Giving Tuesday. The treatment group actually had a 6.7% decrease in donations compared to the control.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59404,
+      "experimentId": "164732",
+      "title": "Will Adding a Give Monthly Option to the Site Navigation Help with Monthly Donor Conversion During Calendar Year End?",
+      "date": "2024-04-22T14:24:00",
+      "url": "https://www.nextafter.com/experiments/will-adding-a-give-monthly-option-to-the-site-navigation-help-with-monthly-donor-conversion-during-calendar-year-end/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency",
+        "Navigation",
+        "Recurring Giving"
+      ],
+      "tier": 3,
+      "lift": -34.9,
+      "confidence": 78.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.64%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Monthly Nav",
+            "metric": "0.42%",
+            "lift": "-34.9%",
+            "confidence": "78.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a give monthly button to the main navigation on the website for people who land on the homepage will achieve a higher donor conversion rate because there will be less friction in the process.",
+      "summary": "Timeframe: 11/21/2023 - 12/06/2023\nFor Giving Tuesday we wanted to test having monthly ask set up as a mini campaign within CYE.\nTo make it easier to make a monthly gift we wanted to test adding a monthly giving button in the main navigation next to the original give button.",
+      "keyLearnings": "In conclusion for this experiment, adding a give monthly button decreased donor conversion by 34% with a 78% LOC. This could be due to several reasons. The button copy itself could use further testing between give and donate. Another possibility is people saw the monthly and that was too big of a commitment so instead of giving monthly, they gave a one-time gift.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59403,
+      "experimentId": "171823",
+      "title": "Will Adding Personalization to a Donation Page Headline Increase Donor Conversion?",
+      "date": "2024-04-22T14:07:09",
+      "url": "https://www.nextafter.com/experiments/will-adding-personalization-to-a-donation-page-headline-increase-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "Donation Pages | Headline",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 100,
+      "confidence": 0,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.00",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "$2.45",
+            "lift": "100.0%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by adding someone’s first name on the instant donate redirect for those that signed up for Romans in Action will achieve an increase in donor conversion because people will receive a personalized giving page upon submitting their first name for the resource.",
+      "summary": "Timeframe: 03/11/2024 - 04/18/2024\nThe Next After Team was looking to find opportunities that helped donor conversion on KCBI’s acquisition offers — particularly on our higher-performing offers at the time of the design of experiments we produced. We decided to run this test on an eBook Bible study called Romans in Action. The sign-up rate for the resource was healthy but we saw there was an opportunity to grow donor conversion on the instant donate landing page.",
+      "keyLearnings": "The key learning from this experiment is that adding someone's first name on the instant donate redirect for those that signed up for Romans in Action had a positive impact on donor conversion, resulting in a 11.8% increase in completed transactions for all traffic. However, due to the statistical level of confidence being 86.7%, these results cannot be considered valid.\n\nWe are going to take this test and try it on newer KCBI content offer that has more traffic and will most likely see a valid result. We're viewing this test as a clue to continue testing on an additional test idea that may result in a \"new normal\" for KCBI's acquisition offers.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59405,
+      "experimentId": "171842",
+      "title": "Will Adding 5 Things You Should Know to the 6 Steps to Share Your Faith Giving Page Increase Donor Conversion Because the Case for Support is Easier to Understand?",
+      "date": "2024-04-19T20:23:36",
+      "url": "https://www.nextafter.com/experiments/will-adding-5-things-you-should-know-to-the-6-steps-to-share-your-faith-giving-page-increase-donor-conversion-because-the-case-for-support-is-easier-to-understand/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 33.3,
+      "confidence": 57.6,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.22",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation 1",
+            "metric": "$0.29",
+            "lift": "33.3%",
+            "confidence": "57.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that arranging the case for support language in 5 easy points for people who signed up to receive 6 Steps to Share Your Faith will achieve increased completed transactions because the copy on the page is arranged in an easy to follow list and conveys 5 important points about the eBook they are about to enjoy and receive value from.",
+      "summary": "Timeframe: 03/11/2024 - 04/03/2024\nKCBI’s donor conversion on it’s acquisition pages could see some improvement across all it’s offers. The team wanted to know — as seen with other clients — will arranging the case for support language on the giving page in 5 easy points to understand help convert more eBook sign-ups to become donors?",
+      "keyLearnings": "The key learnings from this experiment are that arranging the case for support language in 5 easy points on the giving page for 6 Steps to Share Your Faith led to a 33.3% increase in transactions for all traffic. However, the statistical level of confidence was only 57.6%, which is below the accepted threshold of 85%.\n\nWhile the results suggest that the treatment had a positive impact on donor conversion, it is not statistically significant. We're going to retest this treatment on an offer that has higher traffic to see if we can get a valide result.\n\nAdditionally, it may be beneficial to explore other methods of arranging the case for support language or testing different variations to see which one resonates best with potential donors. Regular experimentation and testing can help KCBI identify effective strategies for improving donor conversion on its acquisition pages.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 56295,
+      "experimentId": "167741",
+      "title": "How Adding a Humanized Sticky Bar Affects Giving",
+      "date": "2024-01-08T03:51:07",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-humanized-sticky-bar-affects-giving/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Sticky Bar"
+      ],
+      "tier": 3,
+      "lift": 4.8,
+      "confidence": 14.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.5%",
+            "lift": "4.8%",
+            "confidence": "14.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a humanized touch for the cye sticky bar will achieve a higher donor conversion rate because it can make the donation process feel more personalized, a donor could see somebody that they regularly communicate with via email on the web.",
+      "summary": "Ended On: 01/05/2024\nFor this experiment, we wanted to see if we could increase donor conversion on a sticky bar by adding a picture of a popular email sender.",
+      "keyLearnings": "By adding a picture to the sticky bar we were able to create a 4.8% lift in conversion. However, it was only at a 14.2% LOC",
+      "fluxMetrics": null
+    },
+    {
+      "id": 49793,
+      "experimentId": "123638",
+      "title": "How adding a privacy statement below the donate button on an instant donation page affects donation rates",
+      "date": "2023-02-13T16:37:11",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-privacy-statement-below-the-donate-button-on-an-instant-donation-page-affects-donation-rates/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -5.3,
+      "confidence": 9.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - copy under button",
+            "metric": "0.98%",
+            "lift": "-5.3%",
+            "confidence": "9.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a privacy statement below the donation button for instant donation page visitors will increase donations by reducing anxiety around sharing sensitive data online.",
+      "summary": "Timeframe: 01/20/2023 - 02/10/2023\nFor a faith-based media organization, we wanted to know how including a privacy statement below the donation button would affect donation rates. We know that privacy continues to be a growing priority for users online and we wanted to test whether or not anticipating any reluctance to submit payment information online at the point of giving would reduce anxiety and encourage more people to give.\nThe privacy statement below the button on the treatment reads: “We take data and privacy seriously. Your information will be kept safe and will be used to process your gift.”\n~50% of traffic received the control and ~50% of traffic received the treatment.",
+      "keyLearnings": "After running this experiment for just over two weeks, we observed that the inclusion of a privacy statement had very little impact on potential donors' motivation to give. Furthermore, the low sample size of donations prevented us from achieving an adequate level of statistical confidence in the experiment's results.\nWhile the treatment produced a 5.3% decrease in donations (10% level of confidence), this amounted to just one less donation than the control. Because of the flat and inconclusive results of this experiment, we can determine that the statement's inclusion was not a significant enough motivating factor to move the needle, perhaps because the security of the transaction is already adequately conveyed with a visual indication shown around the payment fields.\nBased on these results, we will look for other test ideas that may have a larger impact on potential donors' motivation to give.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 47440,
+      "experimentId": "107122",
+      "title": "How a give now button at the top of the donation page anchored to the form impacts donor conversion",
+      "date": "2022-11-07T18:50:07",
+      "url": "https://www.nextafter.com/experiments/how-a-give-now-button-at-the-top-of-the-donation-page-anchored-to-the-form-impacts-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -11.7,
+      "confidence": 67.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Give Now anchor button",
+            "metric": "34.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Control",
+            "metric": "30.2%",
+            "lift": "-11.7%",
+            "confidence": "67.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a give now button at the top of the donation page anchored to the form will increase donor conversion",
+      "summary": "Timeframe: 09/14/2022 - 10/07/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. They wanted to see if the length of their donation page was causing friction for donors already motivated to give and simply looking for the donation form on the page. During their Fall Campaign, they decided to test the impact of a “give now” button at the top of the page that was anchored to the form. Those coming to the page motivated by the email they read or the on-air appeal they heard, could click that button and drop straight to the form. They hypothesized that this could increase donor conversion.",
+      "keyLearnings": "We ran this experiment for three weeks and were unable to validate the impact of the anchor button. When digging into the results by channel (note: the T1 space in the results window above is actually the control without the anchor button), we found that there was a 17% or so decrease in conversion on direct traffic, but an 11.7% increase on email traffic conversion. While neither of these segments were statistically valid, we hypothesized that there is a possibility that email was showing a positive result because the email traffic was primed to give by the appeal they'd just read and thus wanted the button and the decreased friction it provided. We saw that returning traffic was also showing a higher conversion rate (though not valid) and we believe it would be for the same reason.\nWe will not roll out a give now button but may test a similar approach on a future offer.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 47394,
+      "experimentId": "103663",
+      "title": "How adding a monthly donation button to the website’s main navigation menu impacts onsite donor conversion",
+      "date": "2022-11-07T16:56:56",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-monthly-donation-button-to-the-websites-main-navigation-menu-impacts-onsite-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "monthly donor"
+      ],
+      "tier": 3,
+      "lift": -7.4,
+      "confidence": 69.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dual Donation Buttons",
+            "metric": "5.4%",
+            "lift": "-7.4%",
+            "confidence": "69.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a monthly donate button to the website’s main navigation menu will increase donor conversion",
+      "summary": "Timeframe: 08/10/2022 - 10/24/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. They wanted to see if they could improve donor conversion on their website by adding a monthly donation button to their main navigation next to their one-time donate button. Monthly donors are an important part of their program and they hoped that this additional callout would increase monthly donor conversion.\nWhen they first tested this approach (see prior experiment here), they found a significant increase in donor conversion. However, upon further analysis, that experiment changed multiple variables, so its results were not reliable. They then tested each of the individual variables:\nTest the position of the one-time gift button (see experiment writeup here)\nTest the copy on the one-time gift button (give vs donate) – see experiment writeup here\nAnd finally, they tested the addition of a monthly donation button in the main navigation menu. This test ran more than two months.",
+      "keyLearnings": "At no point did the additional button increase donor conversion. For several weeks, it appeared that there would be a valid decrease in donor conversion measured, but that too never reached a point of statistical validity. Ultimately, we were unable to measure a positive impact from adding the button so we will not be changing the navigation menu.\nFor future tests, we will not let an experiment run as long as this did because we will begin experiencing data pollution past 4-weeks of testing. This experience also showed the importance of not just taking an initial win in an experiment at face value, but ensuring that we are measuring each variable correctly and, if not, intentionally testing each and every variable so we know what is in fact impacting conversion rates.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30401,
+      "experimentId": "99645",
+      "title": "How Moving the Global Navigation Donate Button Onto Its Own Menu Line Impact Donor Conversion",
+      "date": "2022-08-22T15:51:20",
+      "url": "https://www.nextafter.com/experiments/how-moving-the-global-navigation-donate-button-onto-its-own-menu-line-impact-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "donation page",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 2.9,
+      "confidence": 11.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate Now",
+            "metric": "1.2%",
+            "lift": "2.9%",
+            "confidence": "11.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using “Donate Now” on the global navigation donation button will increase donor conversion.",
+      "summary": "Timeframe: 07/05/2022 - 07/24/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. In a prior test, they’d found that the addition of a “monthly” donate button to their global site navigation menu increased donor conversion. However, there were some issues with that test that made the results unclear. We had several factors that changed in the experiment (the placement of the buttons, the wording on the buttons, and the addition of a monthly donate button) that clouded the results. In order to understand WHICH factor led to the increase in donor conversion, we decided to test simply moving the “give now” button out of the menu line with the other options and onto its own line. Since this would only impact Desktop traffic, that is the only source of donors we examined.",
+      "keyLearnings": "Notable changes to other metrics due to the experiment:\nRevenue experienced a 50.9% decrease with a 94% level of confidence.\nDirect visitors had a 56.2% decrease in donations with an 86% level of confidence.\n \tAll Traffic visitors had a 37.6% decrease in donations with a 91% level of confidence.\n \t55-64 visitors had a 6.7% increase in donations with a 96% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 29944,
+      "experimentId": "97732",
+      "title": "How inviting donors to stand in the gap for those struggling with inflation impacts donor conversion",
+      "date": "2022-08-18T19:44:33",
+      "url": "https://www.nextafter.com/experiments/how-inviting-donors-on-the-main-donation-page-to-stand-in-the-gap-for-those-struggling-with-inflation-impacted-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": -17.3,
+      "confidence": 60.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "32.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Urgent language",
+            "metric": "26.9%",
+            "lift": "-17.3%",
+            "confidence": "60.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that we can increase donor conversion on the main donation page by inviting donors to stand in the gap for those struggling with inflation and needing the inspirational content of KCBI.",
+      "summary": "Timeframe: 06/17/2022 - 07/04/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. Due to skyrocketing inflation, they were receiving word from a number of dedicated supporters that they would no longer be able to support the ministry. As donor response slowed, KCBI decided to air an appeal for donors to “stand in the gap” during this time to ensure that KCBI could remain on the air to provide the inspirational content families desperately need.\nWe wanted to test this approach on the donation page as well, so we created a radically different version of the donation page that discussed the difficulties communities are struggling with and invited the donor to “put your arm around a friend who cannot give” and ensure that “ KCBI can remain on air to provide inspiration and Bible-centered music, conversation, prayer and teaching during a time when we all so desperately need it.\nWe also acknowledged in the copy the struggles the reader may have been having with inflation and invited them to give if, “you’ve been blessed by KCBI and God has made it possible for you to give.”\nWe split the traffic to the donation page 50/50 and ran the test for 14 days.",
+      "keyLearnings": "We only ran the experiment for two weeks because we were not seeing any positive impact of the treatment copy. We may have been able to validate the experiment with a longer test, but the client did not want to lose more donations to achieve a valid decrease in conversion.\nIt is possible that talking about those who've had to stop giving due to inflation had the opposite impact of what we intended and caused visitors to reconsider their intention to give. They may have asked themselves, \"Maybe I should save my money too!\"\nIn retrospect, it would have likely been better to have included a microgoal and/or a smaller appeal amount like we've tested recently with other organizations that have discussed the impact of inflation on their donors. This may have overcome any friction added by discussing donors withdrawing their support due to inflation and given the visitor a clear way of getting involved while respecting their budget.\nObservations of the impact on other visitor segments in the experiment:\nReturning  visitors had a 51.1% decrease in donations with a 91% level of confidence.Direct visitors had a 42.6% decrease in donations with an 86% level of confidence.Tablet visitors had a 100.0% decrease in donations with a 100% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 30833,
+      "experimentId": "101662",
+      "title": "The impact on donor conversion of saying “Donate” vs “Give” on the global navigation menu donation button",
+      "date": "2022-08-16T20:25:27",
+      "url": "https://www.nextafter.com/experiments/how-saying-donate-vs-give-on-the-global-navigation-menu-donation-button-impact-donor-conversion/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 2.9,
+      "confidence": 11.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate Now",
+            "metric": "1.2%",
+            "lift": "2.9%",
+            "confidence": "11.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using “Donate Now” on the global navigation donation button will increase donor conversion",
+      "summary": "Timeframe: 07/21/2022 - 08/12/2022\nKCBI is a large Christian radio station in the DFW area with a worldwide listening audience. In a recent test, we added a monthly donation button to the global navigation menu and recorded a lift in onetime donor conversion. However, in examining the results of that test, we found that we had several changes between the control and the treatment, muddying the results. This prompted us to launch a series of new tests to determine what influence each of those changes had on donor conversion.\nThe last of these clarifying tests was to determine the impact of saying, “donate” instead of “give” on the button. In that original test, the control had “give now” and no monthly donation button while the treatment had “donate now” and “give monthly.”",
+      "keyLearnings": "After running the experiment for approximately three weeks, we found no statistically significant impact on \"donate now\" vs the control, \"give now\" button. This showed us that the change from \"give now\" to \"donate now\" in the original test did not impact the donor conversion of visitors to the site. Now, we can retest the addition of a monthly donation button to see if it has a positive impact on donor conversion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28602,
+      "experimentId": "93600",
+      "title": "How a “Learn More” CTA on a Facebook Ad Impacted Donor Conversion When Compared with “Donate Now.”",
+      "date": "2022-05-06T23:02:19",
+      "url": "https://www.nextafter.com/experiments/how-a-learn-more-cta-on-a-facebook-ad-impacted-donor-conversion-when-compared-with-donate-now/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -67.6,
+      "confidence": 69.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.00%",
+            "lift": "-67.6%",
+            "confidence": "69.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a “Donate Now” CTA on a Facebook Ad will increase donor conversion",
+      "summary": "Timeframe: 04/20/2022 - 04/29/2022\nKCBI is a leading Christian radio station and ministry in Dallas, Texas. For their spring fundraising campaign, they wanted to see if changing the text on the call to action button on an ad would increase donor conversion. Specifically, if saying “donate now” instead of “learn more” would increase donor conversion on the ad. When we tested “Donate Now” with another organization, it increased donor conversion, so KCBI hoped this would work with their audience as well.",
+      "keyLearnings": "Unfortunately, due to a low donor response, we really didn't have any statistical level of significance for donations or cost per click. We will keep this in mind and see if we can find further opportunities for testing this approach with their followers on Facebook.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 28625,
+      "experimentId": "93602",
+      "title": "How a Personal Introduction at the Beginning of an Appeal to Non-Doners Impacts Donor Conversion During a High Urgency Campaign",
+      "date": "2022-05-06T22:59:27",
+      "url": "https://www.nextafter.com/experiments/how-a-personal-introduction-at-the-beginning-of-an-appeal-to-non-doners-impacts-donor-conversion-during-a-high-urgency-campaign/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 98.3,
+      "confidence": 43.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.04%",
+            "lift": "98.3%",
+            "confidence": "43.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a personal introduction at the beginning of an appeal will increase donor conversion",
+      "summary": "Timeframe: 04/26/2022 - 04/26/2022\nKCBI is a leading Christian radio station and ministry in Dallas, Texas. For their spring fundraising campaign, they wanted to see if beginning an appeal with a personal story and introduction by the sender would increase donor conversion. When testing with another organization, we found that beginning an appeal like this increased engagement by humanizing the copy and building rapport. We know from research that donors give to people, not organizations, so we wanted to see if this would increase conversion during an urgent campaign.",
+      "keyLearnings": "Unfortunately, while we had a great number recipients open both versions, our donations were too few to achieve statistical reliability. We will keep testing into more conversational and personalized intro copy to see if we can validate this approach with their audience.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 20819,
+      "experimentId": "72775",
+      "title": "How asking for an upgraded donation from a modeled audience impacted revenue",
+      "date": "2021-10-08T16:49:30",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-an-upgraded-donation-from-a-modeled-audience-impacted-revenue/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -8.3,
+      "confidence": 60,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$15.21",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$13.94",
+            "lift": "-8.3%",
+            "confidence": "60.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for more than their highest previous gift for donors likely to upgrade will increase revenue to the appeal.",
+      "summary": "Timeframe: 09/15/2021 - 09/30/2021\nFor KCBI’s fall fundraising campaign, we gained access to a new tool (Pursuant’s GivingDNA) with the ability to predict donors who were likely to upgrade. To validate this modeled data, we decided to launch a two-prong experiment. We wanted to see if we could accelerate the upgrade process by asking for a gift above their highest previous gift. We also decided to see if we could increase conversion by asking for a donation less than their highest previous gift for the segment that was not identified as likely to upgrade.\nFor this experiment, we split the donor file in four ways to create control and treatment groups of the upgrade and non-upgrade identified segments. We then created four distinct emails in an eight email campaign that would either include the standard ask or would ask them for the upgraded/downgraded amount. The upgrade/downgrade language would include logic that explained why we were asking for more or less. This same language was used in all four experiment emails.\nIn this campaign, we utilize a tactic known as the chart of standards. We segmented each segment by their highest previous contribution and then selected a limited number of donors for a specific ask amount we wanted for this campaign. You can see this breakdown here. This concept is based upon research done on a theory in social psychology known as construal level theory. Our previous study has found this to lift giving in high urgency campaign–this experiment was a continuation of this research effort.\nThe information below is specific to the segment that was identified as likely to upgrade. It is significantly smaller, which will make it difficult to validate the learnings. However, at the end of the campaign, we analyzed the behavior of these distinct donors to understand how it both impacted their likelihood to upgrade and their likelihood to give.",
+      "keyLearnings": "After four different emails across a two-week period, we found that soliciting donors identified as likely to upgrade for a gift above their highest previous gift had no statistically significant impact on the overall revenue.\n\nWe analyzed both the overall revenue impact as well as the conversion rate. Neither saw a statistically significant change due to the messaging change. We also analyzed those who upgraded, downgraded, or stayed consistent with their historical giving trends and found no change between the control and treatment.\n\nHowever, we did find a directional increase in revenue for the segment that was not identified as likely to upgrade when we used language that solicited for a downgraded amount. The details on this side of the experiment can be found here.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18963,
+      "experimentId": "59242",
+      "title": "How do campaign emails focused on specific outreaches compare to general campaign emails",
+      "date": "2021-06-21T15:59:22",
+      "url": "https://www.nextafter.com/experiments/how-do-campaign-emails-focused-on-specific-outreaches-compare-to-general-campaign-emails-2/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "body copy",
+        "email",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -16.5,
+      "confidence": 54.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.49%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.41%",
+            "lift": "-16.5%",
+            "confidence": "54.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Focusing on specific outreaches individually will increase the donor conversion.",
+      "summary": "Timeframe: 04/21/2021 - 04/29/2021\nIn preparation for KCBI’s Spring Campaign, we were curious if listing all of the outreaches the an organization is fundraising for clouds the impact and value proposition for each individual outreach. In other words, does talking about keeping radio on the air, saving lives with ultrasounds, and bringing Bibles to prisoners all in one email lessen the value prop and so the donor response? Would it be better to talk about each individual outreach in an email bring more depth the the value of the individual outreaches and so improve donor response. So we tested this theory by splitting their housefile into two groups. One group got 4 emails that talked through all of the outreaches in all four emails. The other group got 4 emails that focused on each outreach individually (i.e. one email was focused on ultrasounds, one email was focused on prison ministries).",
+      "keyLearnings": "The outcome of this test was inconclusive, but we have a few hypotheses as to why.\n\nFirst, it is important to note that there was no significant increase in the click rate on the different emails. There was a 13% increase at a 66% Level of Confidence, so nothing concrete or indicative of higher motivation either way.\n\nOur hypothesis is that there was not enough distinction in the messages. Many of the test emails replace a paragraph with outreach specific message. If we were to retest this, we would make the emails more focused on the outreaches and make them more central to the message.\n\nHowever, as we looked in Google Analytics, we found the level of traffic to the donation page was the same for the test and the control. Meaning the same number of unique people went to the donation page from both segments of the test. But, the conversion rate for the people who came from the control is higher. The donation page mentioned all of the outreaches, similar to the control emails. So people coming from the control would experience continuity of message. Whereas people coming from the test emails would then be presented with a donation page that lists all of the outreaches. Our hypothesis is that this created cognitive dissonance in the people in the test segment.\n\nSo if we test further, we would make donation pages specific to the outreach itself to take the test through the entire funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18964,
+      "experimentId": "59242",
+      "title": "How do campaign emails focused on specific outreaches compare to general campaign emails",
+      "date": "2021-06-14T18:47:57",
+      "url": "https://www.nextafter.com/experiments/how-do-campaign-emails-focused-on-specific-outreaches-compare-to-general-campaign-emails/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "body copy",
+        "email",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -16.5,
+      "confidence": 54.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.49%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.41%",
+            "lift": "-16.5%",
+            "confidence": "54.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Focusing on specific outreaches individually will increase the donor conversion.",
+      "summary": "Timeframe: 04/21/2021 - 04/29/2021\nIn preparation for KCBI’s Spring Campaign, we were curious if listing all of the outreaches the an organization is fundraising for clouds the impact and value proposition for each individual outreach. In other words, does talking about keeping radio on the air, saving lives with ultrasounds, and bringing Bibles to prisoners all in one email lessen the value prop and so the donor response? Would it be better to talk about each individual outreach in an email bring more depth the the value of the individual outreaches and so improve donor response. So we tested this theory by splitting their housefile into two groups. One group got 4 emails that talked through all of the outreaches in all four emails. The other group got 4 emails that focused on each outreach individually (i.e. one email was focused on ultrasounds, one email was focused on prison ministries).",
+      "keyLearnings": "The outcome of this test was inconclusive, but we have a few hypotheses as to why.\n\nFirst, it is important to note that there was no significant increase in the click rate on the different emails. There was a 13% increase at a 66% Level of Confidence, so nothing concrete or indicative of higher motivation either way.\n\nOur hypothesis is that there was not enough distinction in the messages. Many of the test emails replace a paragraph with outreach specific message. If we were to retest this, we would make the emails more focused on the outreaches and make them more central to the message.\n\nHowever, as we looked in Google Analytics, we found the level of traffic to the donation page was the same for the test and the control. Meaning the same number of unique people went to the donation page from both segments of the test. But, the conversion rate for the people who came from the control is higher. The donation page mentioned all of the outreaches, similar to the control emails. So people coming from the control would experience continuity of message. Whereas people coming from the test emails would then be presented with a donation page that lists all of the outreaches. Our hypothesis is that this created cognitive dissonance in the people in the test segment.\n\nSo if we test further, we would make donation pages specific to the outreach itself to take the test through the entire funnel.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18811,
+      "experimentId": "57444",
+      "title": "How communal language on a campaign sticky bar affects donations",
+      "date": "2021-06-07T22:20:28",
+      "url": "https://www.nextafter.com/experiments/how-communal-language-on-a-campaign-sticky-bar-affects-donations/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "body copy",
+        "Copywriting",
+        "Sticky Bar",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": -10.5,
+      "confidence": 36.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "20.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Communal Language",
+            "metric": "18.4%",
+            "lift": "-10.5%",
+            "confidence": "36.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Communal language on a sticky bar will lead to stronger donor conversion",
+      "summary": "Timeframe: 04/21/2021 - 04/27/2021\nDuring KCBI’s spring campaign, we wanted to test communal language on their campaign sticky bar. Their typical sticky bar language focused on the urgency of the need and the end of the campaign with a countdown sticky bar. We paired that urgency and countdown with language that focused on the common value proposition that brings the reader into the community of KCBI. This language matches much of the way they talk on air during their fundraisers and they talk to their constituents like family. So it was a natural fit for their audience.",
+      "keyLearnings": "The communal language increased donations by 16% and revenue by 29%. And there were no demographics that experienced a valid decrease in conversion. Our hypothesis was correct that using communal language coupled with urgency would resonate with their audience. That is because the copy started by connecting the most important points of value for their readers, connecting those to the mission and the outcome of the campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17653,
+      "experimentId": null,
+      "title": "Does the signer on a Dear Reader impact donation rate?",
+      "date": "2021-01-04T14:20:00",
+      "url": "https://www.nextafter.com/experiments/does-the-signer-on-a-dear-reader-impact-donation-rate/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -49.1,
+      "confidence": 67.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "KCBI Team Signature",
+            "metric": "0.39%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Rebecca Signature",
+            "metric": "0.20%",
+            "lift": "-49.1%",
+            "confidence": "67.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that having a specific signer on a dear reader for blog pages will achieve higher donation rates.",
+      "summary": "Timeframe: 12/21/2020 - 12/31/2020\nDuring KCBI’s calendar year end campaign, we added Dear Reader notes at the end of their blog posts asking for a year end donation. Originally the design was to have the note signed from “The KCBI Team”. But since the majority of their blogs are by one radio personality, we wondered if having her be the signer instead would increase donations. So we tested it.",
+      "keyLearnings": "There was not a large enough sample size to validate this experiment or even show a directional lift. However, we did find that Dear Readers are a valuable source of revenue and that further experimentation is needed.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16837,
+      "experimentId": "26099",
+      "title": "Statement vs Question on a pop-up offer",
+      "date": "2020-01-07T20:45:32",
+      "url": "https://www.nextafter.com/experiments/statement-vs-question-on-a-pop-up-offer/",
+      "organization": "KCBI",
+      "categoryNames": [
+        "KCBI"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -9.6,
+      "confidence": 44.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Statement Headline",
+            "metric": "8.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Question Headline",
+            "metric": "7.5%",
+            "lift": "-9.6%",
+            "confidence": "44.2%"
+          }
+        ]
+      },
+      "researchQuestion": null,
+      "summary": "Ended On: 12/03/2019\nUpon launching a new acquisition offer (in this case an eBook) we wanted to see what kind of language on a pop-up could generate more leads. Would a question to the reader pique more interest and lead to more conversions?\nThe test only ran for a week and therefore did not validate. However within the time frame we saw the treatment (question language) had a slight drop with a conversion rate of -9.6%.",
+      "keyLearnings": "We learned that asking a question in a pop-up offer lead to a -9.6% drop in conversion rate. Because the experiment only ran for a week and had a small sample size, this experiment is worth testing again in a situation where we know we can have it validate.",
+      "fluxMetrics": null
+    }
+  ]
+}

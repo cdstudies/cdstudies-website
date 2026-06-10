@@ -1,0 +1,1073 @@
+{
+  "name": "Susan B. Anthony List",
+  "total": 26,
+  "tierBreakdown": {
+    "valid": 14,
+    "directional": 3,
+    "inconclusive": 9
+  },
+  "experiments": [
+    {
+      "id": 12586,
+      "experimentId": "11654",
+      "title": "How limiting sharing options affects the call to action",
+      "date": "2019-04-20T02:59:39",
+      "url": "https://www.nextafter.com/experiments/how-limiting-sharing-options-affects-the-call-to-action/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -32.2,
+      "confidence": 98.9,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "33.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Single CTA",
+            "metric": "22.8%",
+            "lift": "-32.2%",
+            "confidence": "98.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will limiting sharing options and acknowledging their past action increase the likelihood of someone sharing?",
+      "summary": "Timeframe: 03/22/2016 - 03/24/2016\nOn the thank you page for a petition, we were making the primary call to action by a social share. We decided to test whether acknowledging their previous action and limiting the number of social networks would help increase the likelihood to share.",
+      "keyLearnings": "In this instance, limiting their sharing options actually decreased their likelihood to share by 32%. While it is statistically valid, we would want to provide a larger audience and a longer period of time for the test to run before pulling any significant learnings from this test. Unfortunately, the promotion of this campaign ended and we were not able to do that.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n32.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12797,
+      "experimentId": "11650",
+      "title": "How giving instant gratification affects name acquisition",
+      "date": "2019-04-20T02:59:00",
+      "url": "https://www.nextafter.com/experiments/how-instant-gratification-affects-name-acquisition/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 96.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Results",
+            "metric": "10.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Pledge",
+            "metric": "21.2%",
+            "lift": "96.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which method would acquire more names?",
+      "summary": "Timeframe: 05/27/2016 - 06/01/2016\nSusan B. Anthony List developed an online quiz called the “Truth About Abortion”. This was a five question quiz that tested and educated people on facts about abortion. At the end of the quiz, a person would get their results. In efforts to optimize name acquisition, they tested this part of the funnel by creating two different ways to acquire a persons name:\nIf a person wanted to see how well they did on the quiz, they had to give their name and email and SBA List would email them their results\nA person would receive their quiz results immediately after they took the quiz without having to give their name and email address to see it, but then be asked to add their name (give their name and email) to a pledge to “Vote Pro-life”.",
+      "keyLearnings": "The pledge acquired 96.7% more names than the acquisition method to ask for a person’s name in order to see their quiz results. Asking for someone’s name in order to see their quiz results may have come across as gimmicky and caused anxiety. By giving them their quiz results without having them provide anything to the organization, a person received instant gratification and value and were then more motivated to engage with the organization.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 96.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12872,
+      "experimentId": "11649",
+      "title": "How the presence of a thermometer during a moneybomb affects conversion rate.",
+      "date": "2019-04-20T02:58:15",
+      "url": "https://www.nextafter.com/experiments/how-the-presence-of-a-thermometer-during-a-moneybomb-affects-conversion-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -21.3,
+      "confidence": 96.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Thermometer",
+            "metric": "62.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Thermometer",
+            "metric": "49.3%",
+            "lift": "-21.3%",
+            "confidence": "96.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a thermometer on the landing page affect conversion?",
+      "summary": "Timeframe: 06/30/2016 - 07/01/2016\nDuring a moneybomb, SBA List wanted to increase donor conversion on the last day of the campaign. They were farther behind from their goal going into the last day than they had anticipated and questioned if the presence of a thermometer (progress bar) on the landing page would help or hinder conversion. Would the thermometer cause friction because people were too intimidated by the amount of ground they needed to make up? Or would the thermometer motivate people to give and create a greater sense of urgency? They did a split test on the landing pages to find out.",
+      "keyLearnings": "The treatment landing page without the thermometer had a decrease in conversions by 33%. The presence of the thermometer, despite having a decent amount of money left to raise on the last day of the moneybomb, actually motivated donors to give. The thermometer created a greater sense of urgency causing more people to give and to give at a higher amount – the average gift increased as well. For future campaigns, regardless of where we are at in the progress towards the goal, we will put a thermometer on the page to increase donor conversion and revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 21.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12911,
+      "experimentId": "11646",
+      "title": "How the addition of a premium affects donor conversion.",
+      "date": "2019-04-20T02:57:47",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-a-premium-affects-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 224.4,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.36%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Pin",
+            "metric": "1.2%",
+            "lift": "224.4%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the addition of a premium on a donation page increase donor conversion?",
+      "summary": "Timeframe: 07/27/2016 - 07/28/2016\nSusan B. Anthony List has a name acquisition offer called “I Will Vote Pro-life” pledge. They pushed traffic to this pledge through Facebook ads and prospecting email lists. While this pledge was doing really well acquiring new names and emails, the donation page that people were presented with after they had signed the pledge needed to be optimized. In efforts to improve instant donor conversion on this donation page, they developed a metal lapel pin that was offered as a premium for a donation. A treatment donation page was made with the addition of this premium to it.\nTraffic to the donation page was split 50/50 between the control and treatment.",
+      "keyLearnings": "The treatment page with the addition of the “I Vote Pro-life” lapel pin premium had an increase in donations by 224%. The premium not only incentivized more people to give, but it also reinforced the value proposition of the pledge they just made and donors gave more generously (17% increase in average gift).\nAll traffic for the “I Will Vote Pro-life” pledge donation page will now be offered the lapel pin premium.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 224.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12481,
+      "experimentId": "11664",
+      "title": "How an evening send time affects open rate",
+      "date": "2019-04-20T02:56:57",
+      "url": "https://www.nextafter.com/experiments/how-an-evening-send-time-affects-open-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -17.8,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "6:30 p.m. ET send",
+            "metric": "21.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "10:00 p.m. ET send",
+            "metric": "17.4%",
+            "lift": "-17.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How would different evening send times affect open rate?",
+      "summary": "Timeframe: 02/23/2016 - 02/23/2016\nBreaking news came to Susan B. Anthony List late in the day about an issue they had been actively fighting Congress on. They knew this breaking news would resonate with their audience and could also be an opportunity for them to take advantage of it as an appeal. Since the news came that afternoon, they needed to get the email out that night. They had never done an evening email send and wanted to split test the send time to see which time would get a better open rate.",
+      "keyLearnings": "The earlier 6:30 p.m. ET send time had a 17.8% higher open rate than the 10 p.m. ET send. However, they both had the same click-through-rate. While an earlier send time will get more people to open an email they don’t actually click-through from the email at a higher rate. Additional send time tests will be done with more drastic time differences in the future.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n17.8% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12442,
+      "experimentId": "3120",
+      "title": "How ad creative affects  conversion rate",
+      "date": "2019-04-20T02:55:14",
+      "url": "https://www.nextafter.com/experiments/how-ad-creative-affects-conversion-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 129.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Baby Focused",
+            "metric": "30.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Hillary Clinton/Political Focused",
+            "metric": "69.6%",
+            "lift": "129.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad motivates more people to sign the petition?",
+      "summary": "Timeframe: 01/20/2016 - 02/03/2016\nSusan B Anthony List was promoting a petition in support of the Hyde Amendment. This petition was created in response to an announcement Hillary Clinton made wanting to repeal the Amendment. They launched an ad campaign on Facebook to attract people to sign the petition. Because the petition was created in response to Hillary Clinton, they created an ad more politically focused. But, since the Hyde Amendment is about saving the lives of unborn babies, they also wanted to create an ad using imagery and language to support that message. They did an A/B test to see which would convert more petition signers.",
+      "keyLearnings": "The Hillary Clinton ad was able to increase the number of emails acquired by 129%. This was partially due to the 10% increase the ad was able to make to the click through rate. By driving more visitors and higher motivated visitors, we saw the significant lift in emails acquired.\nSBA List is the political arm for the pro-life movement. While people are motivated to save a baby’s life, for this petition, people were more motivated by the political message of the ad. The political ad had a more direct connection with what the petition was about. The political nature of the ad and petition were timely too with the political climate of the country.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 129.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12496,
+      "experimentId": "3305",
+      "title": "How personal tone and messaging affects name acquisition",
+      "date": "2019-04-20T02:54:52",
+      "url": "https://www.nextafter.com/experiments/how-personal-tone-and-messaging-affects-name-acquisition/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 2.4,
+      "confidence": 99.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Take Action",
+            "metric": "88.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "You Can Prevent",
+            "metric": "90.3%",
+            "lift": "2.4%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would help acquire more petition signatures?",
+      "summary": "Timeframe: 02/17/2016 - 03/04/2016\nSBA List created a petition in response to the vacancy of Supreme Court Justice Scalia’s position. They encouraged their audience to sign the petition to send a message to Congress not to approve a President Obama appointed Justice.\nA previous test told SBA List that their audience was more motivated by a direct call-to-action in an email than a soft. They wanted to test those learnings in the messaging for this petition and did an A/B split test. The control had a direct message and value proposition and the treatment had a more personal tone and message.",
+      "keyLearnings": "The personal value proposition increased name acquisition by 2.4%. This suggests that the audience was more motivated by being empowered and having an invitation to sign the petition than being told what to do.\nThe donation and revenue test didn’t validate, but the data shows a 21.5% decrease in revenue with the personal value proposition. This decrease in revenue is largely due to the decrease in average gift. While the direct value proposition didn’t acquire as many names, they were much more motivated to give and give generously. More testing will be done to further validate and understand the effect this value proposition has on donations and revenue.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 2.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12508,
+      "experimentId": "3354",
+      "title": "How the absence of radio buttons on a Straw Poll affects name acquisition",
+      "date": "2019-04-20T02:54:46",
+      "url": "https://www.nextafter.com/experiments/how-the-absence-of-radio-buttons-on-a-straw-poll-affects-name-acquisition/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -5,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Radio Buttons",
+            "metric": "77.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No Radio Buttons",
+            "metric": "74.0%",
+            "lift": "-5.0%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Would the absence of radio buttons improve conversion rate?",
+      "summary": "Timeframe: 03/04/2016 - 03/08/2016\nWith the 2016 Presidential Election heating up, SBA List wanted to better understand where their audience stood with the Republican candidates. They put together a Straw Poll and invited their audience to cast their vote for who they wanted as the Republican nominee. Traffic was pushed to the Straw Poll by an email. After someone took the Straw Poll, there was a confirmation page with a donation ask.\nThe Straw Poll featured the candidates pictures with radio buttons next to them.  They tested this against a treatment with no radio buttons and just the candidates pictures. They A/B split the audience to determine which would perform better.",
+      "keyLearnings": "While research has shown that radio buttons can create friction, they actually improved name acquisition for the Straw Poll. This suggests that the radio buttons presented a clear way for someone to vote. The Straw Poll had a very high conversion rate, but the absence of the radio buttons on the treatment may have created friction by confusing someone with how they were supposed to make their selection and vote.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 5.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12556,
+      "experimentId": "928",
+      "title": "How following “best practices” affects clickthrough rate",
+      "date": "2019-04-20T02:54:13",
+      "url": "https://www.nextafter.com/experiments/how-ad-creative-and-messaging-affects-conversion-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -15.2,
+      "confidence": 99,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Text-only treatment",
+            "metric": "0.43%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Graphical treatment",
+            "metric": "0.37%",
+            "lift": "-15.2%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will including an image in the email increase clickthrough rate?",
+      "summary": "Timeframe: 09/21/2015 - 09/23/2015\nHillsdale College was in the middle of a fundraising campaign and had an email that quoted Ronald Reagan. They had heard over and over again that using images in email was a “best practice”, and in this case, might offer extra credibility that would strengthen the incentive to click through. So they devised two emails — one that used text to convey the quote and one that used a more graphical treatment.",
+      "keyLearnings": "This tells us that what is commonly accepted as \"best practice\" might not, in fact, be the best email to send. Hillsdale was able to attract many more people to the landing page by keeping the \"personal\" nature of the email consistent.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12607,
+      "experimentId": "3619",
+      "title": "How a personalized email appeal affects clickthrough rate",
+      "date": "2019-04-20T02:54:07",
+      "url": "https://www.nextafter.com/experiments/how-a-personalized-email-appeal-affects-click-through-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 313.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Non Personal",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal",
+            "metric": "0.30%",
+            "lift": "313.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a personal tone email increase click-through-rate?",
+      "summary": "Timeframe: 03/31/2016 - 04/04/2016\nIn the beginning days of the SBA List’s  moneybomb, we wanted to test the tone and approach to messaging so that we could then implement the learnings to the remainder of the campaign.\nSBA List’s regular appeals are more rhetoric in nature. Using this as the control, a treatment was made that took a more personal approach. While keeping the value proposition of the email intact, we completely rewrote it with a conversational tone. We also stripped all the elements of branding out of the email and removed the donate button at the bottom of the email to make it seem like it came from a person, rather than email marketing platform. Finally, we inserted personalization throughout the appeal and removed the President’s picture that is normally in their appeal emails.\nThen, it was split-tested with the email file, dividing it in half to make sure we could validate a result.",
+      "keyLearnings": "The new email produced a 313.2% increase in click-through-rate. This provided insightful learnings about the SBA List audience. They want to feel like they are being personally engaged and valued enough that they would get a personal email from the president. They want to feel like the appeal is only written to them. That they are personally being asked in a 1-1 relationship to support the organization.\nThis is difficult to do in direct mail, but email provides many great ways to personalize communications. Moving forward we will find additional ways to be even more “high-touch” with the audience, including on the donation form.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n313.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12621,
+      "experimentId": "3684",
+      "title": "How the intensity of the call-to-action affects email clickthrough rate",
+      "date": "2019-04-20T02:53:56",
+      "url": "https://www.nextafter.com/experiments/how-a-hard-ask-got-a-150-5-increase-in-click-through-rate-in-a-non-donor-email-appeal/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 150.5,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Soft Ask",
+            "metric": "0.13%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Hard Ask",
+            "metric": "0.32%",
+            "lift": "150.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "What kind of CTA will get more non-donors to click?",
+      "summary": "Timeframe: 04/07/2016 - 04/10/2016\nIn efforts to learn more about what motivates non-donors to click-through in an email, SBA List did a test of the CTA in one of their email appeals during a money bomb. The soft ask made no mention of giving a gift and the hard ask had a direct ask for a gift. Would a soft CTA get a higher click-through-rate than a hard CTA with non-donors since it didn’t directly ask them for a giftt? They did an A/B split of the non-donor segment of their list.",
+      "keyLearnings": "The hard ask had a 150.5% increase in click through from the soft ask. Non-donors were more motivated to click-through when told directly what to do. Clarity of the hard CTA trumped persuasion in the soft CTA. While the test was not validated on this, the hard ask also received a 24% increase in revenue. These learnings will be used moving forward when sending appeals to non-donors.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n150.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12648,
+      "experimentId": "3773",
+      "title": "How length of copy and lack of supporting value proposition evidence affects donor conversion.",
+      "date": "2019-04-20T02:53:51",
+      "url": "https://www.nextafter.com/experiments/how-length-of-copy-and-lack-of-supporting-value-proposition-evidence-affects-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -38.3,
+      "confidence": 96.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long version",
+            "metric": "0.05%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shortened Version",
+            "metric": "0.03%",
+            "lift": "-38.3%",
+            "confidence": "96.1%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a shorter version of the email appeal impact conversion rate?",
+      "summary": "Timeframe: 04/11/2016 - 04/14/2016\nDuring SBA List’s moneybomb, they tested the length of copy in an email appeal to see if it influenced conversion rate. While keeping the value proposition in tact, they took the control and edited it down to a much shorter version. They A/B split test the email to see the impact.",
+      "keyLearnings": "The longer email was able to convert donors at a higher rate than the shortened version. While both emails carried the same value proposition, the short email lacked reinforcement of the value proposition and resulted in a 38.3% decrease in donations. People need to not only be told why they should give as presented in the value proposition, but also given evidence to support why their gift is important.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 38.3% decrease in conversion rate\n\t\t\t\t× 94.8% increase in average gift\n\t\t\t\t\t\t\t\t\t20.1% increase in revenue"
+    },
+    {
+      "id": 12878,
+      "experimentId": "4431",
+      "title": "How relevancy and urgency affect open-rate",
+      "date": "2019-04-20T02:53:00",
+      "url": "https://www.nextafter.com/experiments/how-relevancy-and-urgency-affect-open-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -7.5,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "The upcoming Supreme Court decision",
+            "metric": "28.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "The pro-life impact of the SC decision",
+            "metric": "26.6%",
+            "lift": "-7.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line would motivate more people to open the email?",
+      "summary": "Timeframe: 06/23/2016 - 06/23/2016\nDuring the series of SBA List moneybomb emails, they wanted to see which subject lines would motivate more people to open their emails and in turn click-through to the donation page. In the first email send, they tested the subject line: “The upcoming Supreme Court decision” vs “The pro-life impact of the Supreme Court decision.”",
+      "keyLearnings": "The control subject line “The upcoming Supreme Court decision” had a 7.5% increase in opens. This subject line may have created a bigger sense of relevancy and urgency than the subject line “The pro-life impact of the upcoming Supreme Court decision”. While people were initially more motivated to open the control resulting in a better open rate, the treatment had a better click-through. This can be attributed to the subject line of the treatment being more reinforced by the overall message of the email copy. For the resend of this email, they sent the treatment because of the higher click-through rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.5% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12881,
+      "experimentId": "4446",
+      "title": "How creative for a Facebook ad affects conversion.",
+      "date": "2019-04-20T02:52:55",
+      "url": "https://www.nextafter.com/experiments/how-creative-for-a-facebook-ad-affects-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 93.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Voter ballot",
+            "metric": "0.91%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "American flag",
+            "metric": "1.8%",
+            "lift": "93.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which ad creative will acquire more signatures for the pledge?",
+      "summary": "Timeframe: 06/13/2016 - 07/05/2016\nSusan B. Anthony List developed a pledge called “I Vote Pro-life”. They pushed this pledge on Facebook to acquire signatures for it. In efforts to increase conversion, they developed two different ads to test for the Facebook campaign. The text and description all remained consistent between the two ads. The only difference was the creative that was used for the image and the headline. One had imagery of a voter’s ballot to reinforce the message of the pledge with a headline of “Add Your Name Now”. The other was a bit more creative and clean and had the text laid out as part of the American flag with a headline “Sign the Pledge Now”. They tested the two ads against each other to see which would convert more signatures.",
+      "keyLearnings": "The more creative ad had a 93.7% increase in conversion rate. While the control had imagery that reinforced the message of the pledge, it may not have been as visually appealing and the headline may have created some uncertainty to what a person would be adding their name to.\nPeople were more engaged by the simple and visually aesthetic ad, resulting in a higher click-through rate and in turn a higher conversion rate of names acquired.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 93.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12645,
+      "experimentId": "3757",
+      "title": "The importance of reinforcing the value proposition for sake of giving, even if we lose more emails.",
+      "date": "2019-04-20T02:53:45",
+      "url": "https://www.nextafter.com/experiments/the-importance-of-reinforcing-the-value-proposition-for-sake-of-giving-even-if-we-lose-more-emails/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": -25.1,
+      "confidence": 80,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "SCOTUS Petition",
+            "metric": "2.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "SCOTUS Petition Letter",
+            "metric": "2.0%",
+            "lift": "-25.1%",
+            "confidence": "80.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which petition landing page would acquire more donations?",
+      "summary": "Timeframe: 04/15/2016 - 04/20/2016\nAs part of their moneybomb, SBA List created a petition to help drive more traffic to their donation page. Traditionally, the petition landing page has value proposition copy and the CTA to sign it. They wanted to test a treatment of the petition landing page that didn’t have the additional value proposition language and looked more like a letter to the people they created the petition for. Traffic for both of the petition landing pages was pushed through an email that had value proposition copy and a call to “sign the petition”. They A/B split test the petition landing page.",
+      "keyLearnings": "The treatment ended up getting twice as many emails to it than the control. But once people got to the donation page, they weren’t motivated enough to make a donation. We want more donations, not more emails for this campaign.  Since this test is approaching validity, we can learn from this that the presence of the value proposition  on the control motivated people to not only sign the petition but to give a donation as well and increased donor conversion by 25.1%. We need to reinforce value proposition for the sake of giving, even if we lose more emails.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12961,
+      "experimentId": "4725",
+      "title": "How the email acquisition value proposition impacts conversion rate",
+      "date": "2019-04-20T02:52:44",
+      "url": "https://www.nextafter.com/experiments/how-the-email-acquisition-value-proposition-impacts-conversion-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 14.7,
+      "confidence": 82.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "\"Most Powerful\" Value Prop",
+            "metric": "2.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Casual & Specific Value Prop",
+            "metric": "2.7%",
+            "lift": "14.7%",
+            "confidence": "82.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition will lead to the greatest number of emails acquired?",
+      "summary": "Timeframe: 05/19/2016 - 08/12/2016\nFor Susan B. Anthony List, we wanted to see if the existing value proposition around the home page email acquisition form was the most appealing to its audience. From previous experiments with the email file, we had found that the more casual tone was more appealing to their audience and they also like specificity. They wanted more details about the offer before they would take action. We decided to craft a value proposition statement that emphasize these two traits and test it against the existing value proposition.",
+      "keyLearnings": "After running for over two months, we did not reach a statistically significant level of confidence with the test. The change to the design increased the number of factors that we were testing so it is difficult to say that it is the result of the value proposition alone. It is worth noting that with a control conversion rate of 2.4%, this is an already high email acquisition rate for a homepage audience. It may just be that the motivation of the audience was high enough that the value proposition did not have much impact.\nIn future testing, with a conversion rate this high, it may be worth focusing the tests on lower converting sections of the website so that we can observe a more significant impact.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12578,
+      "experimentId": "3535",
+      "title": "How the designation of the donation impacts conversion",
+      "date": "2019-04-20T02:52:24",
+      "url": "https://www.nextafter.com/experiments/how-the-designation-of-the-donation-impacts-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": 27.5,
+      "confidence": 85.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Work with Congress",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Spread the Petition",
+            "metric": "2.1%",
+            "lift": "27.5%",
+            "confidence": "85.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition (get more petition signatures vs. work with legislators) will have the greatest impact on donor converison?",
+      "summary": "Timeframe: 02/17/2016 - 03/22/2016\nSusan B. Anthony List was running a petition against the nomination of a Supreme Court justice. The goal of this petition for the organization was to find email subscribers that aligned around their mission of pro-life legislation. After they signed the petition, new subscribers were shown an instant donation offer. We wanted to test whether people would be more motivated to give to get more signatures for the petition or to advance the core mission of the organization which was to work with legislators on the issue.",
+      "keyLearnings": "We were not able to reach statistical validity on the test before the offer was shut off. Spreading the petition seemed to be the more attractive value proposition which is backed up by other experiments but at 85% LoC, we need further testing to definitively be able to state that.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12433,
+      "experimentId": "3097",
+      "title": "How a high conversion rate affects visitor motivation",
+      "date": "2019-04-20T02:55:08",
+      "url": "https://www.nextafter.com/experiments/how-a-high-conversion-rate-affects-visitor-motivation/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 0,
+      "confidence": 4.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Don't Let Hillary",
+            "metric": "85.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Take a Stand",
+            "metric": "85.0%",
+            "lift": "0.0%",
+            "confidence": "4.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Which petition copy will acquire the most “signatures?”",
+      "summary": "Timeframe: 01/21/2016 - 02/01/2016\nIn response to statements made by Hillary Clinton about repealing the Hyde Amendment, a law that protects tax payer money from being put towards abortion, Susan B. Anthony List launched a petition. The goal was to collect enough signatures to send to the conservative candidates running for president so that they would understand the importance of this law to the American public.\nTo learn more about the motivations of the SBA List constituency, we developed two landing page treatments. The first positioned Hillary Clinton as the villain and urged the reader to sign the petition to help SBA list combat the attack. The second took a more educational approach in explaining the Hyde amendment but ended with how SBA List was going to fight back and why their signature was necessary.  We then split traffic between the two pages and drove traffic via email and Facebook.",
+      "keyLearnings": "Neither treatment produced a significant lift in visitor conversion or subsequent donor conversion on the next page. Both treatments received an 85% conversion rate which would indicate that the motivation of the visitors was high enough that the copy was not a major influence in the decision to sign. Given the exceptionally high conversion rate on this page, we decided to shift the testing efforts to the Facebook ads and donor conversion on the next step.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12484,
+      "experimentId": "11595",
+      "title": "How member benefits affected donor conversion during a moneybomb",
+      "date": "2019-04-20T02:55:02",
+      "url": "https://www.nextafter.com/experiments/how-being-more-direct-in-the-call-to-action-affects-click-through-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 0.4,
+      "confidence": 1.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Benefits",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Benefits List with Premium",
+            "metric": "1.7%",
+            "lift": "0.4%",
+            "confidence": "1.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will member benefits increase the donor conversion or average gift?",
+      "summary": "Timeframe: 09/14/2015 - 09/24/2015\nAs part of their campaign to kick off the election season, the Media Research Center wanted to find a way to incentivize subscribers to become a new member at higher levels. Their standard campaigns have historically not focused on the membership aspect of their gift and instead tried to sell solely the philanthropic aspect of the donation.\nWe decided to test out language around the benefits associated with membership and include a premium offer of a book that reinforced the messaging of the campaign.",
+      "keyLearnings": "There was no statistically significant lift for either treatment. Since the campaign was for a limited period of time, we decided to end the test in order to try a different treatment that might achieve a greater lift. It would seem these benefits do not carry the added incentive in the donors’ minds when we have a money bomb campaign such as this.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12511,
+      "experimentId": "3363",
+      "title": "How clarifying the value proposition affects revenue on a donation page.",
+      "date": "2019-04-20T02:54:22",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-the-value-proposition-affects-revenue-on-a-donation-page/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 150.4,
+      "confidence": 50,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Two Columns w/ Submit",
+            "metric": "$0.19",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Single Column w/ Value Prop",
+            "metric": "$0.47",
+            "lift": "150.4%",
+            "confidence": "50.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which landing page will increase revenue?",
+      "summary": "Timeframe: 02/01/2016 - 03/08/2016\nIn response to Hillary Clinton’s plans to repeal the Hyde Amendment, SBA List created a petition in support of the Hyde Amendment. Traffic was pushed to the petition page through email and Facebook advertising. Once someone signed the petition they were taken to a thank you page with a donation ask.\nSBA List wanted to do a radical redesign of the donation page to try and increase revenue. The control was a page layout they had been using previously. For the treatment, they tested a one column approach with a new headline and body copy that reinforced and clarified the value proposition. They also presented fewer giving arrays and a new call-to-action on the button. They did an A/B split test to determine which page would perform better.",
+      "keyLearnings": "They were not able to get a large enough sample size to validate the test. Though the initial data they were able to get did show the one column treatment performing better because of a higher average gift, it is not enough data to come to a conclusion with those results. A similar test will be done for a future campaign with a larger sample size to validate the results.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12618,
+      "experimentId": "3675",
+      "title": "How creating unique landing pages for every email in a campaign affects donations",
+      "date": "2019-04-20T02:54:03",
+      "url": "https://www.nextafter.com/experiments/how-creating-unique-landing-pages-for-every-email-in-a-campaign-affects-donations/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -11,
+      "confidence": 69.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "General Value Prop",
+            "metric": "40.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Email Specific Value Prop",
+            "metric": "36.1%",
+            "lift": "-11.0%",
+            "confidence": "69.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will creating unique landing pages to tie to each email theme increase the donors to a money bomb campaign?",
+      "summary": "Timeframe: 04/04/2016 - 04/12/2016\nDuring a SBA List money bomb, we wanted to see if they could increase the number of donations by creating unique landing pages for each email theme. Each email focused on a specific theme taken from their all-encompassing general value proposition. Besides wanting to increase the number of donors through reinforcing the message and theme from email to landing page, SBA List also wanted to see which theme of their value proposition, donors would respond to most. We tested these unique landing pages against a general, all-encompassing value proposition landing page.",
+      "keyLearnings": "While we weren’t able to validate the test, initial results showed that unique landing pages for each email theme did not help increase donations. The general value proposition landing page was able to convert donors at a higher rate. These initial findings tell us that SBA List donors aren’t more motivated by one theme over another and instead are motivated by all that SBA List does. These learnings were implemented for the remainder of the campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12636,
+      "experimentId": "3736",
+      "title": "How a text link vs a button link affects donor conversion",
+      "date": "2019-04-20T02:53:29",
+      "url": "https://www.nextafter.com/experiments/how-a-text-link-vs-a-button-link-affects-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 3,
+      "lift": -17.8,
+      "confidence": 62.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Text Link",
+            "metric": "0.05%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Button Link",
+            "metric": "0.04%",
+            "lift": "-17.8%",
+            "confidence": "62.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Do people donate through a text link or a button link in an email?",
+      "summary": "Timeframe: 04/14/2016 - 04/19/2016\nTraditionally in SBA List appeal emails, a “donate” button is be placed at the bottom of the email. In one of the emails during a SBA List moneybomb they wanted to see the effect that a text link vs a button link has on donor conversion.  The email to the entire file had the same copy and featured both a text link and a button link. Are people clicking on the donate button more than the text link in the email and giving? They tested this to find out.",
+      "keyLearnings": "Though the test did not validate, in the initial findings more people gave through the text link than the button link. This could be attributed to a couple of things. First, the copy on the text link and button were different. The text link said, “Make a gift today” and the button said, “Donate”. The text link gave a more clear call-to-action. Second, the placement of the button was at the very bottom of the email after the senders signature. People may have already been motivated to give before they got to the button. Additional testing will be done to learn if continued use of button links is needed in appeal emails.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12745,
+      "experimentId": "4098",
+      "title": "How the addition of value proposition copy affected donor conversion.",
+      "date": "2019-04-20T02:53:23",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-value-proposition-copy-affected-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -12.2,
+      "confidence": 75.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "29.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Added",
+            "metric": "25.9%",
+            "lift": "-12.2%",
+            "confidence": "75.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding value proposition copy increase donations?",
+      "summary": "Timeframe: 02/24/2016 - 05/19/2016\nSusan B. Anthony list wanted to try and increase donations on their main donation page. In efforts to do this, they developed a treatment of the existing page. The existing page had minimal value proposition copy on it. For the treatment, they rewrote the existing copy, added value proposition language and a new headline and call-to-action that reinforced that value proposition. They split the traffic coming to the page.",
+      "keyLearnings": "While we weren’t able to validate the results for this test, the initial results tell us that the addition of the value proposition copy to the donation page actually caused a decrease in donations by 12.2%. The value proposition copy may have caused friction for those people who were already motivated enough to give once they came to the donation page.\nThe addition of the value proposition copy caused a decrease in donations for this test, but actually improved the second gift ask test we did on this same donation page. You can see that test here.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12748,
+      "experimentId": "4108",
+      "title": "How two different value propositions on a donation page affected donor conversion",
+      "date": "2019-04-20T02:53:18",
+      "url": "https://www.nextafter.com/experiments/how-two-different-value-propositions-on-a-donation-page-affected-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -46.9,
+      "confidence": 69.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Resources VP",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shut Down PP VP",
+            "metric": "0.77%",
+            "lift": "-46.9%",
+            "confidence": "69.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which value proposition would motivate more donors to instantly convert?",
+      "summary": "Timeframe: 04/14/2016 - 05/19/2016\nIn efforts to acquire names and email addresses, Susan B. Anthony List offered a free eBook called “Shutting Down Planned Parenthood”. After someone would request their free eBook they were taken to a confirmation page that had an immediate donation ask on it. SBA List wanted to test if they could improve instant donor conversion by testing two different value propositions. The value proposition for the control focused on getting the eBook in to the hands of more people and the treatment focused on advancing the pro-life movement and shutting down Planned Parenthood",
+      "keyLearnings": "While we weren’t able to validate this test, the initial results told us that more people were motivated to donate to help put this resource into the hands of more people than they were to help advance the pro-life movement and shut down Planned Parenthood. The treatments value proposition may have seemed too big of a task for one person to do and accomplish through their donation. This could be why more people were motivated to convert with the control because it was more of a tangible thing that they could help do.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12971,
+      "experimentId": "4737",
+      "title": "How 3rd-party endorsements impact donor conversion",
+      "date": "2019-04-20T02:52:39",
+      "url": "https://www.nextafter.com/experiments/how-3rd-party-endorsements-impact-donor-conversion/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 1.1,
+      "confidence": 12.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - NO endorsements",
+            "metric": "34.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Endorsements",
+            "metric": "35.2%",
+            "lift": "1.1%",
+            "confidence": "12.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will 3rd party endorsements improve the donor conversion rate?",
+      "summary": "Timeframe: 05/26/2016 - 08/12/2016\nOn the main donation page for Susan B. Anthony List, we wanted to see if we could lift the donor conversion rate on the page. We decided to use some of the 3rd party endorsements that had been given to the organization by well known political figures.",
+      "keyLearnings": "After running for two months, we did not see any level of statistically significant difference between the two treatments. After further analysis, we realized that the treatment did not zero in on the 3rd party endorsements like we had intended. The headline modified the value proposition slightly, there were minor design tweaks, and the button copy was changed. Due to all of these factors, we are not able to say exactly what led to the insignificant result.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12974,
+      "experimentId": "4740",
+      "title": "How the donation button design impacts conversion rate",
+      "date": "2019-04-20T02:52:31",
+      "url": "https://www.nextafter.com/experiments/how-the-donation-button-design-impacts-conversion-rate/",
+      "organization": "Susan B. Anthony List",
+      "categoryNames": [
+        "Susan B. Anthony List"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -0.7,
+      "confidence": 4.7,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Outline donate button",
+            "metric": "0.39%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Solid donate button",
+            "metric": "0.39%",
+            "lift": "-0.7%",
+            "confidence": "4.7%"
+          }
+        ]
+      },
+      "researchQuestion": "Which donation button will drive the most traffic to the donation page?",
+      "summary": "Timeframe: 05/19/2016 - 08/12/2016\nTo optimize the donation funnel for the Susan B. Anthony List organization, we did an analysis to discover the biggest opportunities. What we found was that there were not enough organic visitors getting to the donation page to do any testing in that area. We decided to move our efforts forward in the funnel to try to drive more people to the page.\nWe had the hypothesis that if we made the donation page easier to find and put it into “first person” language, we could drive more visitors to the donation page. We decided to create an experiment to test the idea.",
+      "keyLearnings": "The treatment had a nearly identical click through rate and donor conversion rate when compared to the control. The big take away from this experiment is that the button was not hard to find in the first place and that we did not add any significant value with the change in copy. Without those two factors influencing traffic, the treatment did nothing that would impact visitors making it to the donation page.",
+      "fluxMetrics": null
+    }
+  ]
+}

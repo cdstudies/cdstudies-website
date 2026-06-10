@@ -1,0 +1,1891 @@
+{
+  "name": "Illinois Policy Institute",
+  "total": 44,
+  "tierBreakdown": {
+    "valid": 28,
+    "directional": 7,
+    "inconclusive": 9
+  },
+  "experiments": [
+    {
+      "id": 52964,
+      "experimentId": "152110",
+      "title": "How testing different Dear Reader survey topics impacted email acquisition",
+      "date": "2023-06-30T19:33:55",
+      "url": "https://www.nextafter.com/experiments/how-testing-different-dear-reader-survey-topics-impacted-email-acquisition-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "dear reader",
+        "Email Acquisition | Design"
+      ],
+      "tier": 1,
+      "lift": 98.8,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "School Choice",
+            "metric": "1.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Border Crisis",
+            "metric": "3.6%",
+            "lift": "98.8%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that implementing a dear reader asking for opinions on the active topic of school choice in Illinois for page visitors will achieve an increase in email acquisition because readers will be more drawn to the topic of school choice.",
+      "summary": "Timeframe: 05/17/2023 - 06/10/2023\nIPI has two active surveys: State of Our State and School Choice. We want to see which survey topic is most appealing to our reader audience and can collect the most emails, so we’ve separated them via a 50/50 Dear Reader experiment.\nThese Dear Readers are implemented at the end of policy research articles, so 50% of readers will be asked to complete the State of Our State Survey and 50% will be asked to complete the School Choice Survey once they are done reading their respective article.\nLet’s see which version acquires the most emails.",
+      "keyLearnings": "The Dear Reader pointing readers to our School Choice survey did not perform as well as its counterpart - the State of Our State survey. In fact, the School Choice variant produced a 42.3% decrease in email conversion rate with a valid 99.9% level of confidence.\n\nThe results give us valid proof that more page visitors were interested in offering their opinions on the general well being of our state covering a number of topics compared to those who wanted to offer their opinions on a specific topic. Is this evidence that we should boast more general surveys over single-issue surveys moving forward? Not necessarily, as it's possible that school choice simply wasn't a topic that is affecting that many people right now, or that people care deeply about.\n\nThe value proposition for each Dear Reader followed a similar template, so without a different approach in value proposition, the results really do boil down to the topic presented.\n\nFor our next test, we will swap the School Choice survey for the Illinois Forward survey, which is about the state's fiscal standing and overall responsibility. We'll found out if that topic outduels the State of Our State survey.\n\nIt's important to test different dear readers to see which resonates best with our readers and deserves the long standing spot for our standard policy research dear readers. We will continue to test to determine which one has the greatest potential to rack up emails and enhance engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 98.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 53201,
+      "experimentId": "156584",
+      "title": "How reformatting a landing page survey impacts email sign ups",
+      "date": "2023-06-26T13:16:34",
+      "url": "https://www.nextafter.com/experiments/how-reformatting-a-landing-page-survey-impacts-email-sign-ups/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Acquisition | Design",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": 14.1,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "29.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Question Formatting",
+            "metric": "34.0%",
+            "lift": "14.1%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplified formatting through a survey for survey participants will achieve an increase in email sign ups because participants will have an improved experience by being able to more easily read the survey questions and follow along with the survey.",
+      "summary": "Timeframe: 06/15/2023 - 06/24/2023\nIPI’s Illinois Forward survey is producing a low 27.8% sign up rate. When reviewing the page and taking into account consumer feedback, we attributed the struggling metric to heavy friction through the survey formatting. The existing page includes yellow, all caps survey text that may be difficult for users to read, plus the survey questions are not numbered as surveys customarily are.\nWe wonder if reformatting the survey to use standard font color and style will make it easier to read, and numbering each survey question will make it easier to follow. You can see the noticeable differences in formatting via the screenshots below.\nLet’s see how these simple, user-friendly adjustments impacted survey sign ups…",
+      "keyLearnings": "This test validated in favor of the treatment after running for just 6 days! The treatment produced a 14.1% lift in email conversion rate with a 99.6% level of confidence.\nThis is a prime example of reducing friction for the user by making their experience more user-friendly and through simplified styling/formatting. Just by making the survey questions more legible and easy to digest, we saw an immediate lift in email sign ups.\nWe have rolled the treatment out to 100% of traffic. We'll want to apply these changes to future surveys as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 14.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 51157,
+      "experimentId": "124980",
+      "title": "How reducing the number of calls to action impacted clicks in a cultivation message",
+      "date": "2023-03-16T14:46:53",
+      "url": "https://www.nextafter.com/experiments/how-reducing-the-number-of-calls-to-action-impacted-clicks-in-a-cultivation-message/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "call to action",
+        "click rate",
+        "cultivation"
+      ],
+      "tier": 1,
+      "lift": 95.8,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.21%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.41%",
+            "lift": "95.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that presenting a single call to action for cultivation message readers will achieve an increase in engagement because the isolated option will reduce potential friction caused by decision fatigue.",
+      "summary": "Ended On: 02/01/2023\nWhen preparing a cultivation message around a specific topic of interest, we found the organization offered a lot of relevant resources. The control copy gave the reader a full menu to select from. They could listen to a podcast, read a post, or explore stories from people personally impacted by the program. We wondered if having this many choices could result in decision fatigue and cause the reader to not engage with ANY of the options. We developed a treatment to test this theory and isolated the choice to read a single article. We believed the treatment would help the reader have clarity by establishing a clear call to action. We split the audience 50/50 and measured the impact on clicks.",
+      "keyLearnings": "What we discovered through this experiment was the treatment resulted in a 95.8% increase in clicks with a 100% statistical level of confidence. The key learning from this experiment is that presenting a single call to action for cultivation message readers can significantly increase engagement by reducing decision fatigue. This means that the control copy that offered a full menu of options may have overwhelmed readers and resulted in lost engagement opportunities. In future experimentation, it is recommended to simplify the call to action and reduce options to reduce the risk of decision fatigue and improve engagement rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n95.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 49887,
+      "experimentId": "122310",
+      "title": "How adding value proposition language to a direct appeal email impacted donations.",
+      "date": "2023-03-13T14:44:10",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-language-to-a-direct-appeal-email-impacted-donations/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Design",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 98.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.3%",
+            "lift": "100.0%",
+            "confidence": "98.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a value proposition-enhanced email for email recipients will achieve an increase in donations.",
+      "summary": "Timeframe: 12/28/2022 - 12/30/2022\nAs part of a high-urgency campaign for a public policy client, we emailed subscribers to their weekly newsletter, The Policy Shop, asking if they would make a donation in support of The Policy Shop. The email was short and sweet, including a cartoon, a thanks for being a part of The Policy Shop, and an ask for support.\nWe wondered how a more in-depth, value proposition-focused email would impact donations. The treatment version highlights the problem(s) that The Policy Shop helps solve, provides background on The Policy Shop, provides evidentials on the impact of The Policy Shop, and tells the recipients how their gift in support of The Policy Shop will be used. The treatment also takes a more personal approach by greeting the recipient by name and including a raw donation link instead of a button and graphic.",
+      "keyLearnings": "The treatment resulted in a valid 1.3% increase in donations, with six coming from the treatment and none coming from the control. Although the treatment produced fewer clicks, it did produce a far better donor conversion rate, which is more valuable. This proves that the value proposition-heavy email was more valuable. Those who clicked the treatment email were more aware of the impact The Policy Shop has and why it needs support to continue to have such an impact. They had greater clarity on why The Policy Shop is so important. This clarity and motivation gained from the value proposition in the treatment could not be gained from the control. The experiment stresses the importance of value proposition copy and proves that value proposition should be a strong focus in emails going forward.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 100.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 50933,
+      "experimentId": "132257",
+      "title": "How adding a supporting clickable image to a cultivation email impacted email clicks",
+      "date": "2023-03-10T16:42:57",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-supporting-clickable-image-to-a-cultivation-email-impacted-email-clicks/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "click rate",
+        "cultivation"
+      ],
+      "tier": 1,
+      "lift": 21.1,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "February cultivation email #2 - version a",
+            "metric": "0.69%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "February cultivation email #2 - version b",
+            "metric": "0.84%",
+            "lift": "21.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding a clickable image in support of the email content will increase the number of email clicks because humans can process images faster than text and the image adds a visual representation of the topic at hand.",
+      "summary": "Timeframe: 03/01/2023 - 03/07/2023\nFor a monthly cultivation email, The Illinois Policy Institute wants to determine whether including a related image within the email would be beneficial to increasing the number of email clicks. The control email consists of standard copy with no images or graphics, and the treatment version is the same copy but with the addition of a clickable image halfway through the copy. The image highlights a statistic that is pertinent to the email topic. The treatment copy includes the image in hopes of capturing the viewer’s attention for longer and more effectively. It also gives them an additional opportunity to click.",
+      "keyLearnings": "The treatment which included a clickable and related image within the cultivation email produced a 21.1% increase in the number of clicks. The increase was statistically significant with a 99.9% level of confidence. The results tell us that the inclusion of the image led to a more comprehensive experience for the user as it provided a visual representation of the topic being discussed throughout the email. This improved the clarity of the email topic as it added evidential support that was easy for the reader to digest. In turn, the email approach reduced potential cognitive friction for the user which resulted in an increase in clicks. The increase in clicks can also be attributed to the fact that the image provided an extra opportunity for users to click.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n21.1% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 49321,
+      "experimentId": "122976",
+      "title": "How sending a daily newsletter earlier in the day impacted clicks",
+      "date": "2023-01-30T23:05:34",
+      "url": "https://www.nextafter.com/experiments/how-sending-a-daily-newsletter-earlier-in-the-day-impacted-clicks/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "click rate",
+        "email",
+        "Newsletter"
+      ],
+      "tier": 1,
+      "lift": 6.9,
+      "confidence": 97.2,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Time sent: 10AM",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Time Sent: 7:45 AM",
+            "metric": "1.4%",
+            "lift": "6.9%",
+            "confidence": "97.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending newsletters earlier in the day for daily briefing emails will achieve an increase in clickthrough rate.",
+      "summary": "Timeframe: 01/11/2023 - 01/17/2023\nWe wanted to test sending a daily newsletter earlier in the day and measure how the audience responded. Typically, this newsletter goes out around 10am but we wondered if giving the content extra hours to live in the inbox would increase clickthrough rates.",
+      "keyLearnings": "What we found was the 7:45am send improved clickthrough rate by 6.9% for the newsletter audience. This learning matched a test we ran during the previous month, so going forward we recommend adjusting the send time to earlier in the day to take advantage of audience engagement.\n\nWe do want to note that sending at 10am increased open rates with 100% level of confidence. However, we consider clicks to be a more meaningful measurement of engagement due to Apple Mail policies that interfere with our ability to record true open rates.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n6.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45107,
+      "experimentId": "2716",
+      "title": "How Facebook ad imagery impacts clickthrough rate",
+      "date": "2023-01-04T16:38:02",
+      "url": "https://www.nextafter.com/experiments/how-facebook-ad-imagery-impacts-clickthrough-rate-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": [
+        70.4,
+        -100
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "11.9%",
+            "lift": "70.4%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": null,
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which type of Facebook ad image will have the highest clickthrough rate?",
+      "summary": "Timeframe: 10/23/2017 - 12/15/2017\nIllinois Policy Institute recently discovered that showing a cartoon image in a Facebook ad decreased clickthrough rate. They decided to create two new treatments based to test against the control. The first treatment included an image of Michael Madigan–the state legislator pushing for an increase in taxes. The second treatment included an image of a house, to align with the subject of property taxes. They wondered: Which Facebook ad approach will have the highest clickthrough rate? They launched a 3-part test to find out.",
+      "keyLearnings": "Illinois Policy Institute found that the first treatment using Madigan’s image increased clickthrough rate by 70%, while the second treatment using the house image actually decreased ad clickthrough rate by 23%. This experiment is a good example of how an active A/B testing approach can lead to incremental performance when done consistently. Despite experiencing a drop in the second treatment, the learning in the first treatment outweighed the impact and will now be implemented as the winner.\n\nIt’s apparent that the use of Madigan’s image increased audience motivation. Many Illinoisans are familiar with this particular legislator. When connected with the topic of a potential property tax hike and their ability to take action to stop it, response rate went up significantly.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n70.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45117,
+      "experimentId": "2722",
+      "title": "How site flow interruptor offers affect conversion on mobile devices",
+      "date": "2023-01-04T16:36:46",
+      "url": "https://www.nextafter.com/experiments/how-site-flow-interruptor-offers-affect-conversion-on-mobile-devices-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "mobile"
+      ],
+      "tier": 1,
+      "lift": 91.6,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Exit Intent",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Slide Out",
+            "metric": "0.21%",
+            "lift": "91.6%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Which site flow interruptor will maximize conversion on mobile devices?",
+      "summary": "Timeframe: 06/06/2017 - 06/16/2017\nOn the mobile experience, the slide-out offer produced a 91.6% lift in conversion over the exit intent popup. This is primarily caused by the way the two site flow interruptors display on mobile devices—the slideout actually functions more like an exit intent, taking up the entire screen. Since exit intent popups require a cursor, that experience is replaced with a very small offer bar at the bottom of the screen which is easier to ignore. While the exit intent popup produced a lift on desktop, this test result shows us that we cannot assume that the same tactic will work for different experiences.",
+      "keyLearnings": "Illinois Policy Institute wanted to promote their new eBook, Madigan’s Rules to their website visitors. However, they wanted to match the right promotional tactic to the correct audience segment. They had previously tested slide-out offers and exit intent popups, but knew that the two tactics presented differently on mobile and desktop.\n\nThey did a split test between the two offers and closely monitored traffic and conversion from desktop visitors in contrast to traffic and conversion from mobile visitors to match the ideal “site flow interruptor” to to the optimal experience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 91.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 48888,
+      "experimentId": "122308",
+      "title": "How adding value proposition language to a direct appeal email impacted click through rate.",
+      "date": "2023-01-04T15:00:47",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-language-to-a-direct-appeal-email-impacted-click-through-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": -20.5,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.3%",
+            "lift": "-20.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a value proposition-enhanced email for email recipients will achieve an increase in email clicks.",
+      "summary": "Timeframe: 12/28/2022 - 12/30/2022\nAs part of a high-urgency campaign for a public policy client, we emailed subscribers to their weekly newsletter, The Policy Shop, asking if they would make a donation in support of The Policy Shop. The email was short and sweet, including a cartoon, a thanks for being a part of The Policy Shop, and an ask for support.\nWe wondered how a more in-depth, value proposition-focused email would impact clicks (and donations). The treatment version highlights the problem(s) that The Policy Shop helps solve, provides background on The Policy Shop, provides evidentials on the impact of The Policy Shop, and tells the recipients how their gift in support of The Policy Shop will be used. The treatment also takes a more personal approach by greeting the recipient by name and including a raw donation link instead of a button and graphic.",
+      "keyLearnings": "The treatment resulted in a valid 20.5% decrease in click rate. The brief email with a cartoon proved to be more click-friendly than the longer email with no graphic. Some users may have even clicked the cartoon to see what it led to before even reading the email and noticing that its purpose was to ask for support. What is far more telling with this experiment, however, is that the treatment produced 6 donations compared to none from the control. So although the treatment produced fewer clicks, it did produce a far better donor conversion rate, which is more valuable. This proves that the value proposition-heavy email was more valuable. Those who clicked the treatment email were more aware of the impact The Policy Shop has and why it needs support to continue to have such an impact. They had greater clarity on why The Policy Shop is so important. This clarity and motivation gained from the value proposition in the treatment could not be gained from the control. The experiment stresses the importance of value proposition copy and proves that value proposition should be a strong focus in emails going forward.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n20.5% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45142,
+      "experimentId": "2727",
+      "title": "How increasing the relevancy of the cause to the reader affected donor conversion",
+      "date": "2022-11-04T18:40:51",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-relevancy-of-the-cause-to-the-reader-affected-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 328,
+      "confidence": 99,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.08%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased Connection",
+            "metric": "0.33%",
+            "lift": "328.0%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will decreasing the reader’s perceived distance to a cause increase donor conversion?",
+      "summary": "Timeframe: 04/07/2017 - 04/13/2017\nIllinois Policy Institute sent an appeal asking their email file to support a long-awaited budget fight. They crafted an email that was very informative, and used facts and figures to show that most Illinoisans support it. However, they wondered if this sort of language created distance between the reader and the intended action of supporting the cause with a donation.\nThey crafted an email that sought to strategically close the distance between the reader and the intended donation in two ways. First, this new email was more open about the funding that it would take to win this battle, which provided a bigger perceived need that the reader could imagine themselves helping solve.\nSecond, the treatment made a very direct ask (“Would you be able to help us push this important new budget forward?”), and related it personally to the reader (“This bill could have an incredible impact on your taxes”). Finally, the treatment allowed the reader to fulfill a wish of the writer, John Tillman, who they ostensibly recognize and respect: “I’d be honored if you joined us at this critical inflection point”.\nThey split their email file and sent one appeal to each half to determine a winner.",
+      "keyLearnings": "The treatment email produced an incredible 328% lift in donor conversion, with a significant directional increase in average gift as well. This shows the power of bringing the reader closer to the cause by being more upfront with the need (which increases their perception that they can help) and connecting the donor to the cause personally (by showing them how it will impact them).\n\nThis presents a new framework for crafting email appeals to ensure that the ask is clearly made (even in the form of a question) and that the impact of the donor’s gift will have a noticeable impact on their own life.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 328.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45147,
+      "experimentId": "2729",
+      "title": "How we evaluated the potential for email versus donor acquisition",
+      "date": "2022-11-04T18:39:27",
+      "url": "https://www.nextafter.com/experiments/how-we-evaluated-the-potential-for-email-versus-donor-acquisition-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 695.4,
+      "confidence": 98,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Email Slide Out",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dear Reader",
+            "metric": "0.03%",
+            "lift": "695.4%",
+            "confidence": "98.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer (email vs. donor acquisition) will be more successful for the organization?",
+      "summary": "Timeframe: 03/17/2017 - 03/31/2017\nWe discovered that the “Dear Reader” inline donation ask was able to boost the website’s donor conversion rate by 695%. There was always the ability to give a gift on the site but without the specific call out, visitors were not likely to take that action.\nHowever, in prioritizing the donor acquisition over email acquisition, we discovered that IPI was giving up roughly 18 new email addresses for every donor that was acquired. When we compared this to the percentage of these new emails that eventually convert to a donor, we were then able to determine which offer would provide the most long-term value for the organization.",
+      "keyLearnings": "In a previous experiment for Illinois Policy Institute, we had discovered the optimal tactic for email acquisition on their news website. By using a slide out newsletter offer, we were able to increase email acquisition by 470%.\n\nHowever, email acquisition was one of several key performance indicators that the organization was looking to improve. Illinois Policy was also focused on finding ways to acquire donors from this same audience. With these two differing priorities, we decided to a launch a treatment that would focus on donor acquisition. The goal was to see how many email addresses would be given up by focusing on the donor acquisition element.\n\nWith this in mind, we launched an inline donation ask in the middle of various news articles. We called this the “Dear Reader” treatment and it talked about the nonprofit status of the organization and the other policy work that is being done in the state.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 695.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45177,
+      "experimentId": "11755",
+      "title": "How subject line urgency impacted email performance",
+      "date": "2022-11-04T18:38:22",
+      "url": "https://www.nextafter.com/experiments/how-subject-line-urgency-impacted-email-performance-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising | Subject Line",
+        "open rate",
+        "urgency"
+      ],
+      "tier": 1,
+      "lift": -7.7,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "tick tock",
+            "metric": "18.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "time is running out",
+            "metric": "17.1%",
+            "lift": "-7.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line will have the biggest impact on subscriber engagement (opens and clicks)?",
+      "summary": "Timeframe: 12/30/2016 - 01/13/2017\nAs the year end deadline approached for Illinois Policy Institute’s year end fundraising campaign, they wanted to find ways to communicate that urgency to the subscribers. For the second-to-last email send, sent out on December 30th, they decided to run a subject line test to determine which would have the biggest impact on subscriber engagement.\nBoth of the subject lines communicated urgency. The primary difference between the two was that one, time is running out, is more direct in its approach and is a more common approach taken by many organizations in their fundraising and marketing-style emails. The alternative, tick tock, was a bit less common and did not give away the purpose of the email.",
+      "keyLearnings": "We found that the more direct and “sale-y” subject line of time is running out decreased the open rate by 8%. Additionally, this lower open rate led to an incrementally lower click through rate with a 33% decrease (with 94.6% statistical validity). Our hypothesis is that with the time is running out subject line, the subscribers immediately felt marketed to since it is not a subject line most people would use in their day to day communications. As a result, they were less likely to engage.\n\nThis is a great example of the concept that people give to people. As fundraisers, we want to communicate urgency but we need to do it in such a way that it still feels genuine.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 45184,
+      "experimentId": "2726",
+      "title": "How the subject line capitalization impacts open rate",
+      "date": "2022-11-04T18:37:19",
+      "url": "https://www.nextafter.com/experiments/how-the-subject-line-capitalization-impacts-open-rate-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising | Subject Line",
+        "open rate"
+      ],
+      "tier": 1,
+      "lift": -15.1,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "happy birthday",
+            "metric": "23.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Happy Birthday!",
+            "metric": "19.7%",
+            "lift": "-15.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does using proper case increase the open rate of an email?",
+      "summary": "Timeframe: 04/19/2017 - 04/28/2017\nIt turns out that the lowercase subject line continue to provide the greatest open rate for the file. In this situation, the proper case subject line lowered open rate by 15%. It is recommended to continue to utilize the lowercase subject lines moving forward.",
+      "keyLearnings": "The Illinois Policy Institute has historically used all lower case subject lines when sending emails. This is the result of past experiments where this tactic proved to increase open rates. However, over time, an audience’s behaviors can shift as they grow accustomed to a certain tactic or the audience changes. To ensure that this is still the best tactic, it was decided to test it again to validate its continued effectiveness.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.1% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20593,
+      "experimentId": "2732",
+      "title": "How direct donation asks in an email impact performance",
+      "date": "2021-09-02T21:19:09",
+      "url": "https://www.nextafter.com/experiments/how-direct-donation-asks-in-an-email-impact-performance-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising"
+      ],
+      "tier": 1,
+      "lift": 246.1,
+      "confidence": 99.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Soft Call to Action",
+            "metric": "0.06%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Asks",
+            "metric": "0.20%",
+            "lift": "246.1%",
+            "confidence": "99.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a direct ask in an email impact overall donor conversion?",
+      "summary": "Timeframe: 02/16/2017 - 02/21/2017\nAs part of their February appeal, the Illinois Policy Institute was going to be sending a solicitation to their house file. Historically, the appeals had often used a softer call-to-action with the goal of getting more subscribers to the landing page for potential donor conversion. However, we had the hypothesis that by using the softer call-to-action of “learn more,” we may be losing the interest of people that would be more inclined to make a donation. We decided to split the file in half and test a direct ask in the email vs. the standard “Learn more” approach. The learnings from this test could then inform future appeals.",
+      "keyLearnings": "The direct ask in the email resulted in a 246.1% lift to donor conversion rate. What is interesting is that the direct ask also resulted in a statistically significant 67% decrease in the number of visitors to the donation page. What this shows is that the direct ask for a donation is not as widely appealing as the “learn more” approach but it drove the right kind of visitors to the page; those subscribers that were more likely to make a gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 246.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13630,
+      "experimentId": "2724",
+      "title": "How the addition of value proposition impacts donor conversion",
+      "date": "2020-04-21T04:37:09",
+      "url": "https://www.nextafter.com/experiments/how-the-addition-of-value-proposition-impacts-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 150.2,
+      "confidence": 95.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Just a Headline",
+            "metric": "2.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Prop Copy",
+            "metric": "6.3%",
+            "lift": "150.2%",
+            "confidence": "95.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will incorporating an expanded value proposition on the main donation page increase donor conversion?",
+      "summary": "Timeframe: 03/31/2017 - 05/19/2017\nIllinois Policy Institute had created a test on their website that was able to drive a significant increase in traffic to their donation page. However, the page was not getting the level of conversion that we would expect for a site’s primary donation page. After examining the page, we realized that we may not be adequately explaining why the visitor should give a gift. The only value proposition on the page was a single headline that did not provide clarity on what the organization does.\nWe decided to create a treatment that would lay out an argument for what was unique and appealing about the organization and why the visitor should give a gift.",
+      "keyLearnings": "The additional value proposition increased the donor conversion rate on the page by 150%. We often assume that by the time a visitor makes it to the donation page, they have mentally committed to making a gift. This experiment proved that is not the case. When we were able to lay out a compelling value proposition, we were able to motivate a far greater proportion of visitors to give.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 150.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13370,
+      "experimentId": "6095",
+      "title": "How the level of detail in the messaging impacts the email response rate",
+      "date": "2019-04-20T03:59:27",
+      "url": "https://www.nextafter.com/experiments/how-the-level-of-detail-in-the-messaging-impacts-the-email-response-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": -84.8,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "C3 Appeal",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "C4 Appeal",
+            "metric": "0.01%",
+            "lift": "-84.8%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an appeal from the C3 arm be more effective than an appeal from the C4 arm?",
+      "summary": "Timeframe: 01/13/2017 - 01/27/2017\nAt the start of the Illinois legislative session, Illinois Policy wanted to test an appeal from the two parts of their organization, their 501c3 and their 501c4. Both of the appeals would center around the upcoming session and the need to apply pressure to legislators like Michael Madigan. The primary difference would be in the approach that the different arms would take in applying the pressure. The C3 would be about the general mission to create greater prosperity in Illinois and the C4 would explain the specific marketing campaign they were taking on to educate the public.",
+      "keyLearnings": "When the email was first sent to the initial 50% of the subscriber base, we saw a 20% increase in the percentage of clicks coming from the C4 appeal but it was not a statistically significant amount. What this means is that given the low level of confidence (77%), we cannot make many assumptions based upon this lift. Unfortunately, given the current Mailchimp setup, we were not able to actively monitor the gifts that were coming from the individual emails. As a result, the C4 appeal was select since it had the highest click through rate (even if it wasn’t statistically significant.)\nSince these two emails went to different landing pages, we were able to analyze the donation results once the campaign had finished, even though the C4 appeal maintained a slightly higher clickthrough rate than the control, the response rate (or percentage of subscribers that made a gift) was significantly higher for the C3 appeal. There could be several factors that led to this result:\nThe C3 arm of the organization is a tax-deductible contribution. This might have factored into a subscribers willingness to give.\nThe C3 appeal focused more on the primary value proposition of the organization (meaning the big picture) while the C4 focused on a product-level value proposition (meaning a specific thing they were going to do). This may imply that donors are not as likely to respond when the messaging dives into the tactical approach instead of the high level reasoning for the work.\nThese hypotheses would need be isolated and tested in future appeals to determine which led to the overall results of the campaign.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 84.8% decrease in conversion rate\n\t\t\t\t× 25.3% decrease in average gift\n\t\t\t\t\t\t\t\t\t88.7% decrease in revenue"
+    },
+    {
+      "id": 13373,
+      "experimentId": "6102",
+      "title": "How subject line urgency impacted email performance",
+      "date": "2019-04-20T03:59:18",
+      "url": "https://www.nextafter.com/experiments/how-subject-line-urgency-impacted-email-performance/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -7.7,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "tick tock",
+            "metric": "18.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "time is running out",
+            "metric": "17.1%",
+            "lift": "-7.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line will have the biggest impact on subscriber engagement (opens and clicks)?",
+      "summary": "Timeframe: 12/30/2016 - 01/13/2017\nAs the year end deadline approached for Illinois Policy Institute’s year end fundraising campaign, they wanted to find ways to communicate that urgency to the subscribers. For the second-to-last email send, sent out on December 30th, they decided to run a subject line test to determine which would have the biggest impact on subscriber engagement.\nBoth of the subject lines communicated urgency. The primary difference between the two was that one, time is running out, is more direct in its approach and is a more common approach taken by many organizations in their fundraising and marketing-style emails. The alternative, tick tock, was a bit less common and did not give away the purpose of the email.",
+      "keyLearnings": "We found that the more direct and “sale-y” subject line of time is running out decreased the open rate by 8%. Additionally, this lower open rate led to an incrementally lower click through rate with a 33% decrease (with 94.6% statistical validity). Our hypothesis is that with the time is running out subject line, the subscribers immediately felt marketed to since it is not a subject line most people would use in their day to day communications. As a result, they were less likely to engage.\nThis is a great example of the concept that people give to people. As fundraisers, we want to communicate urgency but we need to do it in such a way that it still feels genuine.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13419,
+      "experimentId": "6186",
+      "title": "How direct donation asks in an email impact performance",
+      "date": "2018-01-04T00:28:13",
+      "url": "https://www.nextafter.com/experiments/how-direct-donation-asks-in-an-email-impact-performance/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 246.1,
+      "confidence": 99.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Soft Call to Action",
+            "metric": "0.06%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Asks",
+            "metric": "0.20%",
+            "lift": "246.1%",
+            "confidence": "99.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a direct ask in an email impact overall donor conversion?",
+      "summary": "Timeframe: 02/16/2017 - 02/21/2017\nAs part of their February appeal, the Illinois Policy Institute was going to be sending a solicitation to their house file. Historically, the appeals had often used a softer call-to-action with the goal of getting more subscribers to the landing page for potential donor conversion. However, we had the hypothesis that by using the softer call-to-action of “learn more,” we may be losing the interest of people that would be more inclined to make a donation. We decided to split the file in half and test a direct ask in the email vs. the standard “Learn more” approach. The learnings from this test could then inform future appeals.",
+      "keyLearnings": "The direct ask in the email resulted in a 246.1% lift to donor conversion rate. What is interesting is that the direct ask also resulted in a statistically significant 67% decrease in the number of visitors to the donation page. What this shows is that the direct ask for a donation is not as widely appealing as the “learn more” approach but it drove the right kind of visitors to the page; those subscribers that were more likely to make a gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 246.1% increase in conversion rate\n\t\t\t\t× 10.7% decrease in average gift\n\t\t\t\t\t\t\t\t\t209.0% increase in revenue"
+    },
+    {
+      "id": 13455,
+      "experimentId": "6266",
+      "title": "How the delivery of the offer can impact email acquisition",
+      "date": "2018-01-04T00:27:57",
+      "url": "https://www.nextafter.com/experiments/how-the-delivery-of-the-offer-can-impact-email-acquisition/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        350.1,
+        470.2
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No Direct Offer",
+            "metric": "0.14%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Inline Newsletter Offer",
+            "metric": "0.61%",
+            "lift": "350.1%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Slideout Newsletter Offer",
+            "metric": "0.78%",
+            "lift": "470.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which email offer would produce the highest email acquisition rate?",
+      "summary": "Timeframe: 02/15/2017 - 03/08/2017\nIllinois Policy Institute’s website sees significant volumes of daily traffic. They also have a weekly newsletter that contains investigative reporting and other top headlines from around the state of Illinois. Historically, this newsletter could be subscribed to by clicking on a link found in the footer of every page.\nWe had the hypothesis that we could increase email acquisition by making the offer easier to find by brining it up higher in the page. We decided to test two new methods to see which would have the greatest impact, an inline email acquisition offer or a slide out that appeared as a visitor scrolled down the page.",
+      "keyLearnings": "Both the inline email acquisition and slide out were able to lift the email acquisition of the site. The slide out offer proved to be the most effective with a 470% lift. Our hypothesis is that this was due to the offer being more disruptive to the reading process which arrested the visitors’ attention.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 350.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13482,
+      "experimentId": "6326",
+      "title": "How a subject line’s perceived impact on the subscriber influences click through rate",
+      "date": "2018-01-04T00:27:42",
+      "url": "https://www.nextafter.com/experiments/how-a-subject-lines-perceived-impact-on-the-subscriber-influences-click-through-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -23.1,
+      "confidence": 99.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "tax hikes",
+            "metric": "0.81%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "overspending",
+            "metric": "0.62%",
+            "lift": "-23.1%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which subject line will produce the greatest email engagement (opens and clicks)?",
+      "summary": "Timeframe: 03/07/2017 - 03/17/2017\nIn an effort to educate their subscriber base on the public’s sentiment toward the state’s current budget crisis, the Illinois Policy Institute sent an email with the results of an independent 3rd party poll. The results of the poll aligned with the message IPI had been promoting since the current session began. It also supported the budget plan the the organization had developed and was working with state legislators to pass.\nThe goal of the email was to educate and engage the subscriber file so we decided to test out two subject lines that highlighted the contents of the message: “tax hikes” and “overspending.”",
+      "keyLearnings": "After sending to half of the email file, we found that “overspending” decreased the overall click through rate by 23%. It also negatively impacted the open rate by 5%. It is our hypothesis that this behavior is due to how the words are perceived by the subscriber. A “tax hike” is something that would impact them directly while “overspending” is something that they may not be in favor of but does not appear have any direct impact on them.\nThis serves as an important reminder that all aspects of the messaging should focus on how the topic will impact the recipient (when possible). We need to address not only why a message is important but why it is important to the reader.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n23.1% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13533,
+      "experimentId": "6406",
+      "title": "How we evaluated the potential for email versus donor acquisition",
+      "date": "2018-01-04T00:27:26",
+      "url": "https://www.nextafter.com/experiments/how-we-evaluated-the-potential-for-email-versus-donor-acquisition/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 695.4,
+      "confidence": 98,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Email Slide Out",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Dear Reader",
+            "metric": "0.03%",
+            "lift": "695.4%",
+            "confidence": "98.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which offer (email vs. donor acquisition) will be more successful for the organization?",
+      "summary": "Timeframe: 03/17/2017 - 03/31/2017\nIn a previous experiment for Illinois Policy Institute, we had discovered the optimal tactic for email acquisition on their news website. By using a slide out newsletter offer, we were able to increase email acquisition by 470%.\nHowever, email acquisition was one of several key performance indicators that the organization was looking to improve. Illinois Policy was also focused on finding ways to acquire donors from this same audience. With these two differing priorities, we decided to a launch a treatment that would focus on donor acquisition. The goal was to see how many email addresses would be given up by focusing on the donor acquisition element.\nWith this in mind, we launched an inline donation ask in the middle of various news articles. We called this the “Dear Reader” treatment and it talked about the nonprofit status of the organization and the other policy work that is being done in the state.",
+      "keyLearnings": "We discovered that the “Dear Reader” inline donation ask was able to boost the website’s donor conversion rate by 695%. There was always the ability to give a gift on the site but without the specific call out, visitors were not likely to take that action.\nHowever, in prioritizing the donor acquisition over email acquisition, we discovered that IPI was giving up roughly 18 new email addresses for every donor that was acquired. When we compared this to the percentage of these new emails that eventually convert to a donor, we were then able to determine which offer would provide the most long-term value for the organization.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 695.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13568,
+      "experimentId": "6487",
+      "title": "How increasing the relevancy of the cause to the reader affected donor conversion",
+      "date": "2018-01-04T00:26:36",
+      "url": "https://www.nextafter.com/experiments/how-decreasing-the-readers-distance-connection-to-a-cause-in-an-email-appeal-affected-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 328,
+      "confidence": 99,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.08%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased Connection",
+            "metric": "0.33%",
+            "lift": "328.0%",
+            "confidence": "99.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will decreasing the reader’s perceived distance to a cause increase donor conversion?",
+      "summary": "Timeframe: 04/07/2017 - 04/13/2017\nIllinois Policy Institute sent an appeal asking their email file to support a long-awaited budget fight. They crafted an email that was very informative, and used facts and figures to show that most Illinoisans support it. However, they wondered if this sort of language created distance between the reader and the intended action of supporting the cause with a donation.\nThey crafted an email that sought to strategically close the distance between the reader and the intended donation in two ways. First, this new email was more open about the funding that it would take to win this battle, which provided a bigger perceived need that the reader could imagine themselves helping solve.\nSecond, the treatment made a very direct ask (“Would you be able to help us push this important new budget forward?”), and related it personally to the reader (“This bill could have an incredible impact on your taxes”). Finally, the treatment allowed the reader to fulfill a wish of the writer, John Tillman, who they ostensibly recognize and respect: “I’d be honored if you joined us at this critical inflection point”.\nThey split their email file and sent one appeal to each half to determine a winner.",
+      "keyLearnings": "The treatment email produced an incredible 328% lift in donor conversion, with a significant directional increase in average gift as well. This shows the power of bringing the reader closer to the cause by being more upfront with the need (which increases their perception that they can help) and connecting the donor to the cause personally (by showing them how it will impact them).\nThis presents a new framework for crafting email appeals to ensure that the ask is clearly made (even in the form of a question) and that the impact of the donor’s gift will have a noticeable impact on their own life.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 328.0% increase in conversion rate\n\t\t\t\t× 90.7% increase in average gift\n\t\t\t\t\t\t\t\t\t716.3% increase in revenue"
+    },
+    {
+      "id": 13592,
+      "experimentId": "6540",
+      "title": "How the subject line capitalization impacts open rate",
+      "date": "2018-01-04T00:26:12",
+      "url": "https://www.nextafter.com/experiments/how-the-subject-line-capitalization-impacts-open-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -15.1,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "happy birthday",
+            "metric": "23.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Happy Birthday!",
+            "metric": "19.7%",
+            "lift": "-15.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does using proper case increase the open rate of an email?",
+      "summary": "Timeframe: 04/19/2017 - 04/28/2017\nThe Illinois Policy Institute has historically used all lower case subject lines when sending emails. This is the result of past experiments where this tactic proved to increase open rates. However, over time, an audience’s behaviors can shift as they grow accustomed to a certain tactic or the audience changes. To ensure that this is still the best tactic, it was decided to test it again to validate its continued effectiveness.",
+      "keyLearnings": "It turns out that the lowercase subject line continue to provide the greatest open rate for the file. In this situation, the proper case subject line lowered open rate by 15%. It is recommended to continue to utilize the lowercase subject lines moving forward.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n15.1% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13734,
+      "experimentId": "6814",
+      "title": "How site flow interruptor offers affect conversion on desktop devices",
+      "date": "2018-01-04T00:25:05",
+      "url": "https://www.nextafter.com/experiments/how-site-flow-interruptor-offers-affect-conversion-on-desktop-devices/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 49.9,
+      "confidence": 96.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Slide-Out",
+            "metric": "0.36%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Exit Intent",
+            "metric": "0.54%",
+            "lift": "49.9%",
+            "confidence": "96.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Which site flow interruptor will maximize conversion on mobile devices?",
+      "summary": "Timeframe: 06/06/2017 - 06/16/2017\nIllinois Policy Institute wanted to promote their new eBook, Madigan’s Rules to their website visitors. However, they wanted to match the right promotional tactic to the correct audience segment. They had previously tested slide-out offers and exit intent popups, but knew that the two tactics presented differently on mobile and desktop.\nThey did a split test between the two offers and closely monitored traffic and conversion from desktop visitors in contrast to traffic and conversion from mobile visitors to match the ideal “site flow interruptor” to to the optimal experience.",
+      "keyLearnings": "The exit intent popup produced nearly 50% more emails than the slide-out offer on desktop devices. While the result was very different on mobile devices, the exit intent popup works for desktop because it depends on a cursor to activate and displays well on larger screens. This shows us that we can’t assume that a tactic will work the same on different website experiences.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 49.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 13739,
+      "experimentId": "6815",
+      "title": "How site flow interruptor offers affect conversion on mobile devices",
+      "date": "2018-01-04T00:24:51",
+      "url": "https://www.nextafter.com/experiments/how-site-flow-interruptor-offers-affect-conversion-on-mobile-devices/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 91.6,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Exit Intent",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Slide Out",
+            "metric": "0.21%",
+            "lift": "91.6%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Which site flow interruptor will maximize conversion on mobile devices?",
+      "summary": "Timeframe: 06/06/2017 - 06/16/2017\nIllinois Policy Institute wanted to promote their new eBook, Madigan’s Rules to their website visitors. However, they wanted to match the right promotional tactic to the correct audience segment. They had previously tested slide-out offers and exit intent popups, but knew that the two tactics presented differently on mobile and desktop.\nThey did a split test between the two offers and closely monitored traffic and conversion from desktop visitors in contrast to traffic and conversion from mobile visitors to match the ideal “site flow interruptor” to to the optimal experience.",
+      "keyLearnings": "On the mobile experience, the slide-out offer produced a 91.6% lift in conversion over the exit intent popup. This is primarily caused by the way the two site flow interruptors display on mobile devices—the slideout actually functions more like an exit intent, taking up the entire screen. Since exit intent popups require a cursor, that experience is replaced with a very small offer bar at the bottom of the screen which is easier to ignore. While the exit intent popup produced a lift on desktop, this test result shows us that we cannot assume that the same tactic will work for different experiences.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 91.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14195,
+      "experimentId": "2719",
+      "title": "How specificity and tone affect donor acquisition",
+      "date": "2018-01-04T00:23:58",
+      "url": "https://www.nextafter.com/experiments/how-specificity-and-tone-affect-donor-acquisition/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 354,
+      "confidence": 96.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Support IPI",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Copy",
+            "metric": "0.01%",
+            "lift": "354.0%",
+            "confidence": "96.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing the specificity and conversational tone of the ask increase donations and revenue?",
+      "summary": "Timeframe: 08/30/2017 - 10/17/2017\nIllinois Policy Institute had a ton of daily traffic to their articles, but didn’t have a lot of revenue to show for it. They decided to test a “site-flow interruptor” that made an appeal to their readers in mid-article. This began to produce more donors, and the IPI team wanted to test the value proposition to determine what was copy was most effective. The control copy addressed the reader directly, and talked a lot about IPI. To attempt to improve response, they developed a treatment that started by thanking the reader and used a conversational tone. The treatment copy made it clear that they do not accept any money from the government. In addition, they added highlighted sections to increase visual identification and attract more attention to the box itself. Finally, they changed the call to action at the end to ask the donor to make a gift rather than telling them what their gift does.",
+      "keyLearnings": "The treatment copy produced a noticeable lift in donations, though the overall amount of donations were quite low. This shows that there is potential in this copy, but it must either run longer or be more prominently placed to attract enough attention to generate significant results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 354.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14462,
+      "experimentId": "894",
+      "title": "How subject line testing affects clickthrough",
+      "date": "2018-01-04T00:23:10",
+      "url": "https://www.nextafter.com/experiments/how-cartoon-imagery-affects-clickthrough-rate-on-a-facebook-ad/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -35.5,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Hillsdale's plan to reverse damage",
+            "metric": "4.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "A message of hope",
+            "metric": "2.9%",
+            "lift": "-35.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does a subject line that is more aspirational and positive affect opens and clicks to an email?.",
+      "summary": "Timeframe: 01/24/2015 - 01/26/2015\nAs part of their monthly appeal strategy, Hillsdale College ran an experiment to a segment of their house email list to determine the best messaging approach for the appeal.  A clear winner was identified and the resulting email was scheduled to be sent out to the remainder of the email list with a subject line A/B split test.",
+      "keyLearnings": "The \"Message of hope\" ended up with 10.1% less opens and 35.5% less clicks. The specificity of the control subject line, \"Hillsdale's plan to reverse damage,\" proved to be more effective in inspiring recipients to open the email and then click through to the landing page.   It is important to remember that specificity yields clarity, and that clarity trumps persuasion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n35.5% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14465,
+      "experimentId": "8118",
+      "title": "How Facebook ad imagery impacts clickthrough rate",
+      "date": "2018-01-04T00:22:52",
+      "url": "https://www.nextafter.com/experiments/how-facebook-ad-imagery-impacts-clickthrough-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        70.4,
+        -23.9
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "11.9%",
+            "lift": "70.4%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment 2",
+            "metric": "5.3%",
+            "lift": "-23.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which type of Facebook ad image will have the highest clickthrough rate?",
+      "summary": "Timeframe: 10/23/2017 - 12/15/2017\nIllinois Policy Institute recently discovered that showing a cartoon image in a Facebook ad decreased clickthrough rate. They decided to create two new treatments based to test against the control. The first treatment included an image of Michael Madigan–the state legislator pushing for an increase in taxes. The second treatment included an image of a house, to align with the subject of property taxes. They wondered: Which Facebook ad approach will have the highest clickthrough rate? They launched a 3-part test to find out.",
+      "keyLearnings": "Illinois Policy Institute found that the first treatment using Madigan’s image increased clickthrough rate by 70%, while the second treatment using the house image actually decreased ad clickthrough rate by 23%. This experiment is a good example of how an active A/B testing approach can lead to incremental performance when done consistently. Despite experiencing a drop in the second treatment, the learning in the first treatment outweighed the impact and will now be implemented as the winner.\nIt’s apparent that the use of Madigan’s image increased audience motivation. Many Illinoisans are familiar with this particular legislator. When connected with the topic of a potential property tax hike and their ability to take action to stop it, response rate went up significantly.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n70.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 53080,
+      "experimentId": "153944",
+      "title": "How a mysterious subject line + conversational email copy impacted email clicks",
+      "date": "2023-06-30T20:23:47",
+      "url": "https://www.nextafter.com/experiments/how-a-mysterious-subject-line-conversational-email-copy-impacted-email-clicks/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "click rate",
+        "Email Acquisition | Copy",
+        "subject line"
+      ],
+      "tier": 2,
+      "lift": [
+        -6.5,
+        12.2,
+        -4.1
+      ],
+      "confidence": 90.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Version A - Subject Line: The taxes you pay",
+            "metric": "0.48%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Version B.",
+            "metric": "0.45%",
+            "lift": "-6.5%",
+            "confidence": "64.9%"
+          },
+          {
+            "code": "T2:",
+            "name": "Second-highest but not second-best",
+            "metric": "0.54%",
+            "lift": "12.2%",
+            "confidence": "90.7%"
+          },
+          {
+            "code": "T3:",
+            "name": "Second-highest but not second-best",
+            "metric": "0.46%",
+            "lift": "-4.1%",
+            "confidence": "43.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a mysterious subject line coupled with conversational email copy for email recipients will achieve an increase in email clicks because more people will open the email to find out the meaning of the mysterious subject line and the conversational appeal of the email will lead more people to click to find out more about the focus article of the email.",
+      "summary": "Timeframe: 05/31/2023 - 06/09/2023\nIPI is sending a monthly cultivation email to their housefile email list. In order to learn about our audience and what motivates them to open emails and click within emails, we’ve set up a subject line + body copy experiment.\n1/4 of our list will receive\ncontrol subject line and control body copy\ntreatment subject line with control body copy\ncontrol subject line with treatment body copy\ntreatment subject line with treatment body copy\nThe treatment subject line plays into curiosity and intrigue, while the treatment body copy takes an especially conversational approach, sharing the perspective of the sender while also asking for the thoughts and feedback of the reader.\nWe want to see which combination generates the most clicks within the email.",
+      "keyLearnings": "Treatment #2 (treatment subject line + control email copy) produced a nearly valid (89.9% level of confidence) 11.9% increase in email clicks. Treatments #1 (control SL and treatment email copy) and #3 (treatment SL and control email copy) produced negative results with invalid level of confidences.\n\nThus, treatment #2 was the big winner here. Our audience has responded well to mystery subject lines in the past, and we now have more evidence that this approach to subject line framing is effective. These type of subject lines creative intrigue and curiosity, prompting recipients to open the email to find out what's inside. The control subject line did not have the same curiosity, as it exposed the topic up front.\n\nWhen we look specifically at open rates, treatment #2 produced a 49.3% increase in open rate with a 100% level of confidence; treatment #3 produced a 24.5% increase in open rate with a 100% level of confidence.\n\nUltimately, we should lead many more cultivation emails using mysterious subject lines.\n\nAs for the body copy element, perhaps the conversational approach consisted of too much fluff, as the control – less conversational – variant was a bit more to the point and brief, and resulted in higher click rates. We may want to be more considerate of our recipients' time and focus more on clarity and being direct when sending future cultivation emails.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 52963,
+      "experimentId": "151865",
+      "title": "How donation page value proposition led by evidentials impacted donations",
+      "date": "2023-06-30T19:45:12",
+      "url": "https://www.nextafter.com/experiments/how-donation-page-value-proposition-led-by-evidentials-impacted-donations/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages | Copy",
+        "donor conversion",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": -68,
+      "confidence": 93,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "4.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "1.3%",
+            "lift": "-68.0%",
+            "confidence": "93.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that angling donation page value proposition based on evidentials for potential donors will achieve an increase in donations because potential donors will gain a better grasp of the problem and become more motivated to contribute to the solution.",
+      "summary": "Timeframe: 05/09/2023 - 06/09/2023\nIPI has launched a state fiscal responsibility survey that culminates with a donation opportunity once someone completes the survey. We want to test two donation pages each with a different approach.\nThe control will test into clarity: Painting a picture for potential donors of why we put together this survey for them, what the plan is behind it, and why their help is needed.\nThe treatment will test into evidentials, alerting potential donors to the extent of the problem by pointing to multiple facts and research. We want to see which approach resonates best with them and leads to more donations.",
+      "keyLearnings": "The key learning from this experiment is that the control approach of painting a clear picture and explaining the \"why\" for potential donors is more effective in achieving donations compared to the treatment approach led by evidentials.\n\nThe treatment resulted in a 68.0% decrease in donations for All Traffic with a nearly valid 93.0% statistical level of confidence. Revenue also saw a 29% decrease through the treatment with a 66% level of confidence.\n\nDonors appreciated the clarity of the control which gave them a clear understanding of why we're offering this survey, how it will help improve Illinois fiscal responsibility, and why we need their help. One possible reason that donors did not respond as well to the treatment is because they already have a firm understanding of the problem at hand and did not need the additional background or context.\n\nWe should keep these experiment results in mind as we build value proposition for future offer donation pages. It may be wise to test into these approaches again to gain more data. But in this instance, clarity seems to be the key!",
+      "fluxMetrics": null
+    },
+    {
+      "id": 53105,
+      "experimentId": "152462",
+      "title": "How adding value proposition leading into a survey impacted email acquisition",
+      "date": "2023-06-19T14:56:30",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-leading-into-a-survey-impacted-email-acquisition/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 24.7,
+      "confidence": 82.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "45.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "57.1%",
+            "lift": "24.7%",
+            "confidence": "82.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that enhancing the value proposition communicated on the School Choice landing page will increase email acquisition rates because it will provide visitors with more clarity and appeal on the impact of their survey.",
+      "summary": "Timeframe: 05/19/2023 - 06/18/2023\nIPI’s School Choice Survey is producing a low 14.4% sign up rate. In an effort to acquire more emails and increase this metric, we’ve built a treatment that adds value proposition copy leading into the survey.\nThe current survey page includes just two short sentences leading into the survey. Our analysis dictates that these sentences feel transactional, lack personability, and due not do a good job of expressing the value to someone for taking and completing the survey.\nThat’s why we’ve built a treatment that we believe does those things. We added a call-to-action headline, focused the copy on the reader, and communicated the value and purpose of the survey.",
+      "keyLearnings": "The key learning from this experiment is that enhancing the value proposition communicated on the School Choice landing page has a significant impact on email acquisition rates. The treatment with a call-to-action headline, personalized copy, and clear communication of the value and purpose of the survey led to a 24.7% increase in Email Acquisition for All Traffic with a 82.5% statistical level of confidence.\nPeople are much more likely to complete the action you want them to complete when you express value and the \"why\" behind the request. If they don't have good reasons to take that action, then they're less likely to take it. By expressing value and focusing on the reader through \"you\" language, we got more people to complete the survey!\nIt's also worth noting the the treatment variant led to two donations through the subsequent instant donation page compared to none from the control variant.\nWe will roll out the treatment variant to the page given the direction lift in email acquisition.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51961,
+      "experimentId": "145579",
+      "title": "How implementing a goal thermometer on a high urgency campaign donation page impacted donations- attempt #2",
+      "date": "2023-05-01T13:50:08",
+      "url": "https://www.nextafter.com/experiments/how-implementing-a-goal-thermometer-on-a-high-urgency-campaign-donation-page-impacted-donations-attempt-2/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "high urgency"
+      ],
+      "tier": 2,
+      "lift": -46.6,
+      "confidence": 83.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "11.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "6.3%",
+            "lift": "-46.6%",
+            "confidence": "83.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that implementing a goal thermometer for donation page visitors amidst a high urgency campaign will achieve an increase in donations because page visitors will be motivated to help contribute to and reach the end goal of the campaign.",
+      "summary": "Timeframe: 04/17/2023 - 05/01/2023\nAs part of a March high urgency campaign for the Illinois Policy Institute, we want to test the impact of adding a goal thermometer on the campaign donation page. The goal is to reach a $50,000 matching gift. The thermometer syncs with GA to track up-to-date campaign revenue, so donation page visitors will see how much money has been raised towards the campaign goal at the time they’re visiting the page.\nWe’re curious to see what kind of impact the visible progress and end goal seen through the thermometer will impacted donations.\nThis is our second try at this test. We extended the deadline of the campaign and will re-run this test.\nThe initial test resulted in a 7.8% increase with a 34.8% level of confidence to the treatment and 9% increase in revenue with a 65.4% level of confidence.\nLet’s see how our second test performs.",
+      "keyLearnings": "The key learning from this experiment is that the implementation of a goal thermometer for donation page visitors did not result in an increase in donations. In fact, the treatment group saw a significant 46.6% decrease in donations compared to the control group with a nearly valid 83.5% level of confidence.\nThe treatment went in the wrong direction compared to going in the right direction the first time we ran this experiment. That said, each experiment did produce an increase in revenue through the treatment.\n1st test: 9% increase in revenue with a 65.4% level of confidence.\n2nd  test: 16.7% increase in revenue with a 56.4% level of confidence.\nOddly, mobile donations through the treatment increased by 58.7% in the first test but saw a 77.5% decrease the second test. The second test did have a significantly smaller sample size, however.\nIt would be wise to test this again for a future high urgency campaign. An additional hypothesis would be that a more attainable goal would help produce an increase in donations. The goal was not even halfway reached for this campaign, which may have spoiled donor motivation because they felt their gift would not make a big enough dent towards accomplishing the giving goal. Revenue went up in both experiments, so it'd be interesting to see if it would go up the next time this experiment is run as well.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51535,
+      "experimentId": "142764",
+      "title": "How adding value proposition to a high urgency campaign website sticky bar impacted donations",
+      "date": "2023-04-03T14:07:00",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-high-urgency-campaign-website-sticky-bar-impacted-donations/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency",
+        "Sticky Bar",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 304.6,
+      "confidence": 94.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Sticky bar",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Sticky bar 2",
+            "metric": "0.27%",
+            "lift": "304.6%",
+            "confidence": "94.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding value proposition to sticky bar copy promoting a key fundraising opportunity for website visitors will achieve an increase in donations because the value proposition will appeal more to potential donors and motivate them to learn more and make a gift through the donation page.",
+      "summary": "Timeframe: 03/27/2023 - 03/31/2023\nThe Illinois Policy Institute was running a high urgency campaign through the end of March. To alert website visitors and get more people to the campaign donation page, we’re testing two sticky bars: One that is very brief and simply alerts users of an urgent matching gift and campaign deadline, and the other includes more value proposition copy, appealing to issues that the user likely cares about and telling them how they can learn more about a way to help – while also pointing out the urgency of a deadline.\nWhich angle will produce more donations?",
+      "keyLearnings": "The key learning from this experiment is that adding value proposition to the sticky bar copy can lead to a significant increase in donations. The treatment version that included more value proposition copy saw a 304.6% increase in donations, with a statistical level of confidence of 94.4%.\n\nAll donations completed in this experiment were completed by desktop visitors and returning visitors. It is clear that the treatment sticky bar (with value prop) spoke more effectively to visitors through appeal and motivation. A \"matching gift\" does not mean as much to our audience as improving certain issues that they are passionate about.\n\nFuture sticky bars run for high urgency campaigns should include value proposition language, as that's what our audience wants to hear. It may also be worth testing variations of the treatment version to further optimize the messaging and achieve an even greater increase in donations.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 50923,
+      "experimentId": "119939",
+      "title": "How a direct ask tied to a wider impact affected clickthrough rates",
+      "date": "2023-03-13T14:36:48",
+      "url": "https://www.nextafter.com/experiments/how-a-direct-ask-tied-to-a-wider-impact-affected-clickthrough-rates/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "click through rate",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 2,
+      "lift": 6,
+      "confidence": 85.4,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Narrow ask",
+            "metric": "0.56%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Wide Ask",
+            "metric": "0.59%",
+            "lift": "6.0%",
+            "confidence": "85.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for a gift with far-reaching impact for a prospecting audience will achieve an increase in clicks.",
+      "summary": "Timeframe: 12/09/2022 - 12/20/2022\nAs part of a calendar year-end high-urgency campaign, Illinois Policy Institute focused on raising funds for a new documentary film they are producing and releasing in 2023. Since this is a new project, we were curious to learn what would motivate donors to give their support. We wanted to test a narrow, specific ask – making a gift of $25 to cover the cost of tickets for people to view the documentary versus making a gift of $25 to help fund the cost of promoting the documentary on social media platforms. We split the audience 50/50 between the control and treatment emails.",
+      "keyLearnings": "What we found after sending the email was a 5.9% increase in click-through rates on the treatment email with 84.8% level of confidence so the results of the test are not valid. We believe the lift in click-through rate could be due to the fact that the control language suggests their gift will make an impact locally in their own state, but the treatment language expands the scope of the project to reach a national audience. This could be appealing to potential donors and could have motivated additional clicks. But since the confidence level is only 84.8%, we will have to continue testing the narrow ask vs. the wide ask to understand how the prospecting audience will respond to a tangible ask like a ticket for an audience member to view the documentary compared to a less tangible ask such as general promotion of the documentary.\n\nWhen reviewing donor conversion rate results among the two variants, the treatment produced 14 donations to the control's 16 donations. The treatment saw a 12.9% decrease in donations at just a 29.4% level of confidence. Again, we will have to continue testing this approach (narrow ask vs. wide ask) to pick up on clicks and donations trends, and to reach a valid conclusion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14430,
+      "experimentId": "8057",
+      "title": "How the total number of questions in a quiz affects email acquisition",
+      "date": "2018-01-04T00:23:35",
+      "url": "https://www.nextafter.com/experiments/how-the-total-number-of-questions-in-a-quiz-affects-email-acquisition/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": 3.7,
+      "confidence": 84.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "31.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "32.8%",
+            "lift": "3.7%",
+            "confidence": "84.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a shorter quiz increase email acquisition rate?",
+      "summary": "Timeframe: 11/13/2017 - 12/08/2017\nThis year, Illinois Policy Institute has exposed a serious problem in the state of Illinois. It’s been more than 15 years since the Illinois General Assembly has passed a balanced budget, and lawmakers have turned to tax hikes in order to ease the deficit. However, this is not a long-term solution and it’s caused illinoisans to pay some of the highest taxes in the nation. Illinois Policy developed a plan to balance the budget and ease taxes, all at once. In order to get the word out, they developed a 9-question quiz followed by a tax petition that would build awareness among Illinoisans and encourage them to take action to advance this plan. Before launching, Illinois Policy Institute wondered: Will a shorter, 6-question quiz increase petition signatures?\nThey created a treatment version and launched an A/B test to find out.",
+      "keyLearnings": "Illinois Policy Institute found that the shorter quiz did not produce a valid increase or decrease in email acquisition. While these results aren’t statistically significant, there is an important takeaway. We’ve seen a correlation in other testing that shows the longer time commitment an individual makes in consuming an offer, the higher their instant and long-term donor conversion rate is. Since their is no significant difference between email acquisition rate in this test, it’s possible that we can increase donor conversion by continuing to offer the longer quiz (i.e. the one that requires more of a time commitment). The next step for this test sequence is to test an even longer version of the quiz to see if we can impact donor conversion without hurting email acquisition.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 52375,
+      "experimentId": "144220",
+      "title": "How adding value proposition to a newsletter subscription opportunity impacted email opt-ins",
+      "date": "2023-05-22T15:19:20",
+      "url": "https://www.nextafter.com/experiments/how-adding-value-proposition-to-a-newsletter-subscription-opportunity-impacted-email-opt-ins/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Acquisition | Copy",
+        "Newsletter",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 2.3,
+      "confidence": 1.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.13%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "0.14%",
+            "lift": "2.3%",
+            "confidence": "1.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding value proposition to a newsletter subscription for page visitors will achieve an increase in emails acquired because page visitors will gain clarity in what they’ll get from signing up.",
+      "summary": "Timeframe: 04/05/2023 - 05/21/2023\nIn an effort to get more people to sign up for IPI’s newsletter, we built a treatment that added value proposition copy above the newsletter sign up form. We highlighted what type of news coverage subscribers could expect, added more call-to-action language, and expresses the importance of being an engaged citizen.\nThe control version lacks each of these elements, so we’re interested to see if the treatment will result in an increase in emails acquired.",
+      "keyLearnings": "After running for over a month, the experiment resulted in only one email opt-in per variant. Thus, the experiment had no winner and the lack of email conversions prevented any valid result. Value proposition does not see to be the issue. We should test different elements of the page to isolate the problem. Perhaps there was too much friction for visitors given the various check boxes they're asked to consider. A new test could be around simplifying the page to reduce decision friction.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51733,
+      "experimentId": "143127",
+      "title": "How stating the “deadline” in a subject line for a high urgency campaign impacted open rate",
+      "date": "2023-04-17T13:53:10",
+      "url": "https://www.nextafter.com/experiments/how-stating-the-deadline-in-a-subject-line-for-a-high-urgency-campaign-impacted-open-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising | Subject Line",
+        "high urgency",
+        "open rate"
+      ],
+      "tier": 3,
+      "lift": -4.8,
+      "confidence": 70.5,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Urgent Reminder",
+            "metric": "39.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Deadline Tomorrow",
+            "metric": "37.7%",
+            "lift": "-4.8%",
+            "confidence": "70.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that giving clarity to an email subject line amid a high urgency campaign for email recipients will achieve an increase in email open rate because recipients will know their exact window to take action.",
+      "summary": "Timeframe: 03/30/2023 - 04/13/2023\nThe Illinois Policy Institute is amid a high urgency fundraising campaign. The campaign deadline is tomorrow, and we want to test how making that clear in the subject line of today’s email impacts open rate.\nThe control variant (subject line A) is “Urgent reminder” while the treatment variant (subject line B) is “Deadline tomorrow”. We’ve split these variants to where 50% of our recipients will experience one subject line and 50% will experience the other.\nWe want to find out how our recipients respond to each subject line in terms of choosing to open the email. We expect “Deadline tomorrow” to produce the most opens because it clearly communicates the deadline to recipients and the fact that the current opportunity will expire after tomorrow.",
+      "keyLearnings": "The key learning from this experiment is that the treatment variant, which had the subject line \"Deadline tomorrow\", did not perform better than the control variant, which had the subject line \"Urgent reminder\". The treatment variant saw a 4.8% decrease in Opens for All Traffic with a 70.5% statistical level of confidence, indicating that these results cannot be considered valid. Therefore, we cannot conclude that giving clarity to the subject line in a high urgency fundraising campaign leads to an increase in email open rate.\nIt's also worth noting that the treatment subject line produced a 32.3% drop in click rate with an 82.2% level of confidence.\nThe \"Deadline tomorrow\" subject line may have been less effective because recipients didn't know what the deadline was for. Instead of opening the email to find out, they may have decided it wasn't worth their time to find out. The \"Urgent reminder\" SL on the other hand, tells the recipient that they've been told about the opportunity before and they may then feel more inclined to open the email see what they need to be \"reminded\" about.\nFrom a psychological standpoint, there is also the possibility that the word \"deadline\" is a turn off to recipients. Humans often view deadlines in a negative context because they're used to hitting deadlines at work or with tasks in life. They may not take kindly to the mention of another deadline.\nThis angle is worth testing again for a future high urgency email to get more data behind it.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 51529,
+      "experimentId": "141705",
+      "title": "How implementing a goal thermometer on a high urgency campaign donation page impacted donations",
+      "date": "2023-04-03T14:08:27",
+      "url": "https://www.nextafter.com/experiments/how-implementing-a-goal-thermometer-on-a-high-urgency-campaign-donation-page-impacted-donations/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "high urgency"
+      ],
+      "tier": 3,
+      "lift": 7.8,
+      "confidence": 34.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "18.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "20.0%",
+            "lift": "7.8%",
+            "confidence": "34.9%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that implementing a goal thermometer for donation page visitors amidst a high urgency campaign will achieve an increase in donations because page visitors will be motivated to help contribute to and reach the end goal of the campaign.",
+      "summary": "Timeframe: 03/22/2023 - 03/31/2023\nAs part of a March high urgency campaign for the Illinois Policy Institute, we want to test the impact of adding a goal thermometer on the campaign donation page. The goal is to reach a $50,000 matching gift. The thermometer syncs with GA to track up-to-date campaign revenue, so donation page visitors will see how much money has been raised towards the campaign goal at the time they’re visiting the page.\nWe’re curious to see what kind of impact the visible progress and end goal seen through the thermometer will impacted donations.",
+      "keyLearnings": "The treatment (showing the thermometer) resulted in a 7.8% increase in donations but with a level of confidence of only 34.8%. The treatment produced 64 donations to the control's 54. Revenue saw a 9% increase through the treatment with a level of confidence of 65.4%. The increases cannot confidently be rolled out for future high urgency campaigns, but it's definitely worth testing again to see if the experiment can reach a confident result.\nIt'd be interesting to see how the campaign goal factors into results. Would a campaign that nearly reaches the campaign goal be more motivating for users to give? In this case, the total revenue of the campaign was less than half the matching gift goal. So perhaps users weren't as motivated to give because they felt the goal was out of reach. The goal for the next campaign could be adjusted based on historical results to be more achievable.\nInterestingly, the experiment produced contrasting results through desktop and mobile. Desktop saw a 24.3% decrease in donations from the treatment (86% loc) compared to a 58.7% increase in donation on mobile (91% loc). We should test this concept again, hopefully during a campaign that lasts longer than 11 days.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14893,
+      "experimentId": "8805",
+      "title": "How membership language affects donor conversion",
+      "date": "2018-04-06T20:21:34",
+      "url": "https://www.nextafter.com/experiments/how-membership-language-affects-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": -7.8,
+      "confidence": 10.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.57%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "0.53%",
+            "lift": "-7.8%",
+            "confidence": "10.1%"
+          }
+        ]
+      },
+      "researchQuestion": "How will membership language affect donor conversion?",
+      "summary": "Timeframe: 03/02/2018 - 04/09/2018\nIllinois Policy Institute wanted to launch a membership program to better sell the benefits of a donating and increase retention. They were curious whether this membership language would present a stronger value proposition than the straightforward donation ask. They split traffic at the “donate” button and sent half the traffic to the donation page and half to the membership page.",
+      "keyLearnings": "After running this experiment for a month, there was no statistical difference on",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13376,
+      "experimentId": "6105",
+      "title": "How evidentials of success impacted subscriber click through rate",
+      "date": "2018-01-04T00:28:30",
+      "url": "https://www.nextafter.com/experiments/how-evidentials-of-success-impacted-subscriber-click-through-rate/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 23,
+      "confidence": 77.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Long Version",
+            "metric": "0.20%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Short Version",
+            "metric": "0.24%",
+            "lift": "23.0%",
+            "confidence": "77.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will shorter copy increase the subscriber click through rate to the donation page?",
+      "summary": "Timeframe: 12/27/2016 - 01/12/2017\nFor the first email in their year end campaign, the Illinois Policy Institute wanted to determine what depth of explanation yielded the highest level of engagement from their subscribers. They set up two different emails, a short and a long version. The long version was nearly identical to the short with the exception of including bullet points in the copy with evidentials of their accomplishments in 2016.",
+      "keyLearnings": "While the shorter version did see a 23% increase in the number of clicked, it was not a statistically significant lift. With such a low level of confidence (77%) it would be dangerous to try to make too many assumptions about the impact and results of this experiment.\nThis test does go a long way to proving that we need to create a more holistic reporting loop so that we can tie donation results back to an individual email. It would be a pretty safe assumption that a shorter email will increase the number of people clicking through to the web page but the behavior on that page is what is important to monitor. If the longer email sends less subscribers with a higher motivation, that may have a better impact on donation results.\nFor future appeals, it is recommended to utilize UTM tracking to allow attribution back to the individual email.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13576,
+      "experimentId": "6500",
+      "title": "How the call-to-action of the button impacted donor conversion",
+      "date": "2018-01-04T00:26:53",
+      "url": "https://www.nextafter.com/experiments/how-the-call-to-action-of-the-button-impacted-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 95.9,
+      "confidence": 57.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Support Illinois Policy Institute",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Donate Today",
+            "metric": "0.03%",
+            "lift": "95.9%",
+            "confidence": "57.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more direct call to action increase the motivation and subsequent donor conversion of website visitors?",
+      "summary": "Timeframe: 03/31/2017 - 04/14/2017\nA previous analysis of the Dear Reader experiment found that we were able to drive a significant volume of donor traffic to the donation page but were seeing an 8% conversion of those visitors. Given the low conversion of the traffic, we developed a hypothesis that the call-to-action “Support Illinois Policy Institute” may not be clear enough. We decided to test the language on the button using a more direct “Donate Today” call-to-action. Our hypothesis is that this direct statement would receive less overall traffic but more donor motivated traffic.",
+      "keyLearnings": "After running for 2 weeks, we had not yet reach statistical validity. Based upon the progress of the test, we expected it would take another full month before we would know with certainty the impact of the experiment. We decided to move on to another experiment that we felt could have a higher potential impact and roll out the “Donate Today” language for future iterations.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13611,
+      "experimentId": "6585",
+      "title": "How an ad’s targeted value proposition impacted donor conversion",
+      "date": "2018-01-04T00:25:54",
+      "url": "https://www.nextafter.com/experiments/how-an-ads-targeted-value-proposition-impacted-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -25.2,
+      "confidence": 38.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Support IPI",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Support independent journalism",
+            "metric": "0.02%",
+            "lift": "-25.2%",
+            "confidence": "38.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a journalism focused value proposition increase donor conversion rate?",
+      "summary": "Timeframe: 04/18/2017 - 05/08/2017\nIn an effort to boost the performance of the existing Dear Reader treatment, we wanted to try a modification of the existing value proposition. The current Control focused on the independent journalism aspect of the organization but also brought in some of the other work being done politically. Our hypothesis was that by focusing solely on the journalism aspect of the work and making the call-to-action softer, we could make the ask more relevant given the delivery mechanism of the test (the news site.)",
+      "keyLearnings": "After running for over a month, we did not see any statistically significant increase in clicks or donor conversion of either treatment. As a result, we decided to move on from this test.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 13812,
+      "experimentId": "2721",
+      "title": "How a campaign-focused ad impacted donor conversion during a money bomb",
+      "date": "2018-01-04T00:24:34",
+      "url": "https://www.nextafter.com/experiments/how-a-campaign-focused-ad-impacted-donor-conversion-during-a-money-bomb/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 11.6,
+      "confidence": 22,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "General Value Proposition",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Moneybomb Copy",
+            "metric": "0.02%",
+            "lift": "11.6%",
+            "confidence": "22.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will using a specific campaign with highlighted deadline increase conversion rate over the general value proposition offer?",
+      "summary": "Timeframe: 06/28/2017 - 07/03/2017\nThe short time frame of the experiment with minimal difference in conversion rate did not allow us to reach statistical validity for the experiment. When analyzing the data, we did discover a spike in giving on June 30th for both the control and treatment. It would seem that the campaign had an impact on giving even if visitors didn’t see the campaign-specific treatment. These visitors were likely exposed to the messaging through email which increased their motivation when they came to the site.",
+      "keyLearnings": "For the June money bomb campaign, we wanted to see if we could utilize the Dear Reader treatment that is shown on all article pages to drive additional donations for the organization. The hypothesis was that the additional urgency associated with the campaign would increase the likely conversion of the visitors.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14028,
+      "experimentId": "3576",
+      "title": "How a radical donation page redesign can affect donor conversion",
+      "date": "2018-01-04T00:24:15",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-donation-page-redesign-can-affect-donor-conversion/",
+      "organization": "Illinois Policy Institute",
+      "categoryNames": [
+        "Illinois Policy Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 3,
+      "lift": 0,
+      "confidence": 0,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variant 1",
+            "metric": "0.00%",
+            "lift": "0.0%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a mission-focused page improve donor conversion against a premium-focused page?",
+      "summary": "Timeframe: 03/17/2016 - 03/28/2016\nIllinois policy Institute was promoting their free e-book about Mike Madigan to several Facebook audiences, and then asking for a donation on the following page. They had a premium-focused page that was not producing donors, and wanted to test a more mission-focused page. They create a treatment that removed the premium (in case that was “getting in the way of the donation”) and focused on the value and the efforts that they are undertaking to remove Mike Madigan from office.\nThey set up an A/B test to determine a winner.",
+      "keyLearnings": "The mission focused page failed to produce a donor as well, which fosters a few possible conclusions:\nThe offer might not create enough perceived value to solicit a donation.\n \tThe audience might not have enough time to digest the offer before making the decision to make a gift.\n \tThe offer might be targeted at a less philanthropic audience.",
+      "fluxMetrics": null
+    }
+  ]
+}

@@ -1,0 +1,2623 @@
+{
+  "name": "Leadership Institute",
+  "total": 61,
+  "tierBreakdown": {
+    "valid": 38,
+    "directional": 8,
+    "inconclusive": 15
+  },
+  "experiments": [
+    {
+      "id": 56594,
+      "experimentId": "168310",
+      "title": "How an organic style ad impacted conversions on a pledge",
+      "date": "2024-01-22T14:14:10",
+      "url": "https://www.nextafter.com/experiments/how-an-organic-style-ad-impacted-conversions-on-a-pledge/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Acquisition",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": 43.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "43.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "61.8%",
+            "lift": "43.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using a Facebook ad that looks like an organic Facebook post for potential pledge signers will result in an increase in email conversion because the ad comes across more like a message from a human and less like marketing.",
+      "summary": "Ended On: 01/19/2024\nWhen promoting a pledge asking people to add their signature of support, we wondered if we could increase click through rate by developing a treatment ad that looked more like a personal request and less like an organization-centric marketing ad. Historically, we’ve seen a higher response rate this style of ad improve CPC and CTR in previous tests.",
+      "keyLearnings": "The key learning from this experiment is that using a Facebook ad that resembles an organic Facebook post, rather than a traditional marketing ad, can significantly increase email conversions. The treatment ad, which looked more like a personal message, resulted in a 43.6% increase in emails acquired compared to the control ad. This improvement was statistically significant with a 100.0% level of confidence.\n\nBased on this finding, it is recommended to continue using the treatment ad format in future experiments and campaigns. By creating ads that mimic the style of a personal message, the organization can enhance its engagement with potential pledge signers and increase the likelihood of conversion. It is important to prioritize a human-centered approach in ad design and make the content feel more relatable and less promotional.\n\nWith almost identical spend on each version, clickthrough rate on the treatment version improved by 43%. Cost per click decreased 28%. Sign up rate improved by 45%. Instant donor conversion rate improved by 14%. Gross Cost per Name decreased by 50%, Gross Cost Per Donor decreased by 56% and Net Cost Per Donor decreased by 76% - leading to an improved ROI by 231% on the treatment. We believe one reason we saw these results is due to the clarity of the call to action by putting the desired action front and center in easy to read large text directly on the image so it is more clear to the ad viewer what the next step to take is. in future tests, we can test new messaging on the same style of graphic to see if we can continue to improve response by finding the right CTA.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 43.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 54747,
+      "experimentId": "160594",
+      "title": "How reducing decision friction in the gift array impacted donor conversion",
+      "date": "2023-10-05T14:56:37",
+      "url": "https://www.nextafter.com/experiments/how-reducing-decision-friction-in-the-gift-array-impacted-donor-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages | Form",
+        "donor conversion",
+        "Friction"
+      ],
+      "tier": 1,
+      "lift": 26.1,
+      "confidence": 96.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Most Popular",
+            "metric": "8.1%",
+            "lift": "26.1%",
+            "confidence": "96.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that reducing decision friction in the gift array for prospective donors coming from paid traffic will achieve an increase in donor conversion because the cognitive momentum will be improved with fewer choices and more social proof as guidance when choosing an amount from the array.",
+      "summary": "Timeframe: 09/11/2023 - 09/29/2023\nWhen converting a housefile offer to acquisition traffic, we reviewed the donation page and wondered if the gift array for the housefile was too complex for traffic that did not have as close of an affinity for the organization or have a previous history of giving. We wanted to test tailoring the gift array to the type of visitors we would be sending to the page and we wondered if a 6 option gift array with the majority of options over $100 would cause friction in the process for these prospective donors. We split traffic between the existing control gift array ranging from $25 to $25,000 and lowered the barrier for entry by making all gift options amounts under $100 as well as giving guidance/social proof pointing to the most popular selection to guide people seamlessly through the selection process and give more context for their choice.",
+      "keyLearnings": "The key learning from this experiment is that reducing decision friction in the gift array for prospective donors coming from paid traffic significantly increased donor conversion. By providing fewer choices and more social proof as guidance, the cognitive momentum of these visitors improved, leading to a higher likelihood of making a donation.\nThe treatment version, which included a simplified gift array with amounts under $100 and highlighted the most popular selection, resulted in a 26.1% increase in donations for all traffic, with a 96.2% level of confidence. Moreover, new visitors experienced a significant 261% increase in donations, and email visitors saw a remarkable 615% increase in donations, both with a 96% level of confidence.\nTo further leverage these learnings in future experimentation, it would be beneficial to continue testing and optimizing the gift array for different traffic sources. By tailoring the gift options based on the visitors' affinity and previous giving history, we can further reduce decision friction and increase donor conversion.\nAdditionally, it would be valuable to explore other forms of social proof beyond highlighting the most popular selection. Testing different types of social proof, such as testimonials or impact statements, may provide further guidance to prospective donors and enhance their decision-making process.\nOverall, this experiment highlights the importance of optimizing the gift array to align with the preferences and needs of different traffic sources. By minimizing decision friction and providing guidance through social proof, we can maximize conversion rates and ultimately increase the number of donations for the Leadership Institute.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.1% increase in conversion rate\n\t\t\t\t× 97.6% increase in average gift\n\t\t\t\t\t\t\t\t\t149.1% increase in revenue"
+    },
+    {
+      "id": 46246,
+      "experimentId": "2734",
+      "title": "How acerbic Facebook ad copy affects clickthrough rate",
+      "date": "2022-11-03T16:51:35",
+      "url": "https://www.nextafter.com/experiments/how-acerbic-facebook-ad-copy-affects-clickthrough-rate-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "body copy",
+        "click through rate",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": -61.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.48%",
+            "lift": "-61.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will more forthright ad copy increase email acquisition in a facebook ad?",
+      "summary": "Timeframe: 11/14/2017 - 11/28/2017\nThe Leadership Institute has found that using Mark Levin’s authority in both copy and imagery has increased course signups for their online course ‘Conservatism 101.’ They wondered: Will more forthright, biting ad copy impact clickthrough rate on a Facebook ad? They launched an A/B test to find out.",
+      "keyLearnings": "The Leadership Institute found that the treatment version of their Conservatism 101 Facebook ad actually caused a 61% decrease in clickthrough rate. It's apparent that the treatment version decreased the motivation of the ad viewer. The Leadership Institute is conducting further messaging tests to discover the best approach in writing Facebook ad copy for Conservatism 101.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n61.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 46269,
+      "experimentId": "2736",
+      "title": "How authority, active language, and clarity affect email acquisition rate",
+      "date": "2022-11-03T16:50:53",
+      "url": "https://www.nextafter.com/experiments/how-authority-active-language-and-clarity-affect-email-acquisition-rate-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "clarity",
+        "Email Acquisition | Copy",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 63.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Ad3",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Ad4",
+            "metric": "0.73%",
+            "lift": "63.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does increased authority, active language, and clarity affect email acquisition rate?",
+      "summary": "Timeframe: 10/02/2017 - 11/09/2017\nLeadership Institute recently re-launched a course about the history and principles of conservatism, called Conservatism 101. As they prepared to market this course through Facebook, they developed four different treatments for the advertisements. Testing proved that the third and fourth treatment produced a significant lift to clickthrough rate, but they wanted to gather more data to validate if one of these resulted in more downstream conversions—in this case, more sign-ups for the course.\nThe primary difference in the two treatments was the image and the copy within. The first treatment had a patriotic background that described what the course was: “Conservatism 101: An Introduction to the American Conservative Tradition”. The second, however, featured a picture of Mark Levin, a popular radio host and lecturer in the course. This image contained call-to-action copy as well: “Join Mark Levin in this new free course, Conservatism 101.”\nThe team isolated these two ads to determine which ad was more effective at driving downstream conversions.",
+      "keyLearnings": "The second treatment, with Mark Levin and the call-to-action copy in the image produced a 63.7% increase in downstream conversions. This showed that the increased authority and active call to action was able to shape motivation to affect downstream actions. Ultimately, Leadership Institute didn’t just want more clicks—they wanted more clicks with a higher motivation.\n\nThis test prompted a new round of testing that used the winner as the control to continue to increase results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n63.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 46277,
+      "experimentId": "2737",
+      "title": "How emotional language, clarity and authority affect ad clickthrough rate",
+      "date": "2022-11-03T16:50:04",
+      "url": "https://www.nextafter.com/experiments/how-emotional-language-clarity-and-authority-affect-ad-clickthrough-rate-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "clarity",
+        "click through rate",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": [
+        9.6,
+        56.7,
+        -100
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Question-focused ad",
+            "metric": "0.82%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Challenger copy",
+            "metric": "0.89%",
+            "lift": "9.6%",
+            "confidence": "61.3%"
+          },
+          {
+            "code": "T2:",
+            "name": "Separate interruptor line",
+            "metric": "1.3%",
+            "lift": "56.7%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T3:",
+            "name": null,
+            "metric": "0.00%",
+            "lift": "-100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does emotional language, clarity and authority affect clickthrough rate?",
+      "summary": "Timeframe: 10/02/2017 - 11/09/2017\nLeadership Institute recently re-launched a course about the history and principles of conservatism, called Conservatism 101. As they prepared to market this course through Facebook, they developed several different treatments for the advertisements. The first treatment posed a question: “What are conservatives actually trying to conserve?”, which implied that the course would answer that question. The second treatment introduced emotional language that outlined the threat to conservatism and made a call for conservatives to rediscover their principles. This treatment also included a call to action (CTA) in the top copy: “Start today by enrolling in Conservatism 101 now.” The third treatment took a similar tack with emotional language, but sought to align with the mindset of the reader by declaring the threat to be invalid. This treatment heightened the clarity and authority around the course offer, introducing a list of featured speakers, and introduced line breaks to better isolate the CTA: “Activate your free course today and discover—or rediscover—the principles and beauty of conservatism.” The final treatment used the same copy as the third treatment, but introduced a picture of Mark Levin with the CTA “Join Mark Levin in this new free course: Conservatism 101.”\nSince Facebook is able to serve multiple ads simultaneously and gather data on each, they launched this A/B/C/D test to determine which ad produced the most clicks.",
+      "keyLearnings": "After a few days, LI had enough data to determine a winner. Both the third and fourth treatment produced a clear, statistically significant increase in clickthrough rate over the other treatments. Treatment 3 produced a 56.7% increase over the baseline due to a combination of increased clarity and authority as well as visual clarity around the call-to-action. Treatment 4 produced the largest increase of all—a 108.7% increase over the baseline due to the copy adjustments from treatment three and the new image and embedded CTA, which reinforced the authority of the top copy.\n\nIn their next experiment, Leadership Institute isolated the top two performing ads to determine which one produced the most conversions on the following landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n56.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 46325,
+      "experimentId": "4108",
+      "title": "How a plain text email performed against an email with a logo banner",
+      "date": "2022-11-03T16:49:03",
+      "url": "https://www.nextafter.com/experiments/how-a-plain-text-email-performed-against-an-email-with-a-logo-banner-3/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "banner",
+        "click through rate",
+        "email copy"
+      ],
+      "tier": 1,
+      "lift": 12.6,
+      "confidence": 97.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "with LI banner",
+            "metric": "14.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "no LI banner",
+            "metric": "16.3%",
+            "lift": "12.6%",
+            "confidence": "97.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Does an LI banner generate more clicks than an email without an LI banner in it?",
+      "summary": "Timeframe: 01/07/2016 - 01/21/2016\nThe Leadership Institute wanted to know if including an LI logo banner in an email would make a better impact than a plain text email. They decided to test it.",
+      "keyLearnings": "The plain text email saw a 12.6% lift in traffic when tested against the banner email. Moving forward, the Leadership Institute should use plain text emails in all of their sends.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n12.6% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 27201,
+      "experimentId": "77752",
+      "title": "How the placement of your end of article ad impacts donor conversion rate",
+      "date": "2022-04-04T00:47:22",
+      "url": "https://www.nextafter.com/experiments/how-the-placement-of-your-end-of-article-ad-impacts-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 511,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Before Related Articles",
+            "metric": "0.01%",
+            "lift": "511.0%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that moving the dear reader ad up ahead of the related articles for CampusReform.org readers will achieve an increase in donor conversion rate and revenue.",
+      "summary": "Timeframe: 11/24/2021 - 02/25/2022\nWhen the Campus Reform website was redesigned to better manage articles and update the front-end design, the web development team that rebuilt the news website hard-coded the ad that was placed at the end of the article (which we call a “Dear Reader” ad) in the wrong location — moving it below the “related articles” and social share links.\nWe wanted to run an experiment to determine whether the placement actually mattered at generating email signups on the pledge and subsequently donations/revenue on the subsequent instant donation page.",
+      "keyLearnings": "With a confidence level of 99.2%, we observed an increase in donor conversion rate of +511%!\nWe also observed an increase of emails acquired by +171.6% (LoC: 99%) and drove significantly more dollars through this treatment experience.\nWhen it comes to where to place your end of article ad (or \"Dear Reader\" ad) — the placement absolutely matters. In this case, it just makes sense when you take a moment to think about it.\nWhen a reader clicks a link to read an article, they came there to read the article. Previous experimentation with ad placements on long-form article content within news websites shows us that the placement at the end of the article is the most productive location in which to place your ads. Why? Because the reader came to read the ad — so, it's only after the value exchange has been completed (that you've allowed them to read the entire article they came to read) that they'll consider another action.\nTherefore, what comes next matters the most.\nIf the goal is to promote additional articles, then showing the \"related articles\" next would make sense.\nIn this case, we're optimizing to increase the number of emails, donations, and revenue we're producing from readers of our articles. Therefore, promoting our donor engagement pathway (or \"Dear Reader\" ad) right after the article ends makes the most sense to drive the largest response rates through that pathway.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 511.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25825,
+      "experimentId": "85594",
+      "title": "How asking for less than a donor’s highest gift impacted donor conversion rate",
+      "date": "2022-02-22T01:40:13",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-less-than-a-donors-highest-gift-impacted-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 367.6,
+      "confidence": 99.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.10%",
+            "lift": "367.6%",
+            "confidence": "99.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that asking for less than a donor’s highest gift for donors will achieve actually increase donor conversion rate.",
+      "summary": "Timeframe: 02/11/2022 - 02/18/2022\nAs a part of a February matching gift campaign, the Leadership Institute wanted to experiment with whether asking a donor for less than their highest gift would impact overall donor conversion rate and revenue.",
+      "keyLearnings": "When personalizing the ask amount, and setting it at a lower value than the donor's highest gift amount, we observed that the donor conversion rate increased by +367.6% (with a confidence level of 99.2%).\nOverall, we also observed a +640.5% increase in revenue (with a level of confidence of 97.7%), although we did not validate that study due to only having achieved about half of the samples we would normally need on a revenue lift study.\nOne final question we wanted to answer was: How did the actual gift the donor make compare to the amount they were asked for?\nIn reviewing the treatment segment, we observed the following outcomes:\n43% of the gifts and 60% of the revenue came from people who gave more than the amount we asked for in the treatment segment.50% of the gifts and 36% of the revenue came from people who gave exactly what we asked for.7% of the gifts and 4% of the revenue came from people who gave less than the amount we asked for in the treatment segment.\nMeanwhile, all of the gifts secured in the \"control\" segment actually gave less than what was asked for.\nThis incredibly effective, yet simple approach undoubtedly increases donor responses rates — and drives greater revenue from those who respond, as well. It would be good to retest this across a longer span of emails within a campaign to see if it holds up, or if it can be overused, but it certainly appears that this approach can drive both a higher response rate and raise more money overall.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 367.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 25150,
+      "experimentId": "81770",
+      "title": "How breaking your year-end fundraising goal down into a smaller ask impacts revenue",
+      "date": "2022-01-08T23:15:13",
+      "url": "https://www.nextafter.com/experiments/how-breaking-your-year-end-fundraising-goal-down-into-a-smaller-ask-impacts-revenue/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "micro ask"
+      ],
+      "tier": 1,
+      "lift": 252.7,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.54",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$1.91",
+            "lift": "252.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that breaking your large year-end fundraising campaign goal down into a smaller, relevant ask for the reader based upon their giving history will increase revenue.",
+      "summary": "Timeframe: 12/01/2021 - 12/27/2021\nDuring the Leadership Institute’s “2021 Year-End” campaign, we wanted to experiment with asking donors to be one of a few donors to give a specific gift amount to see if it would increase the donor’s likelihood to give, or their generosity altogether.",
+      "keyLearnings": "With a 99.9% level of confidence, we observed a +252.7% increase in revenue for the treatment. Additionally, we observed a 24.5% increase in donor conversion rate, but that did not validate—only achieving a 64.8% level of confidence.\nThe results included 4 typical \"outlier\" gifts that would usually be removed from other study types, but we decided to leave them in because this treatment is specifically designed to drive an increase in revenue per donor (or average gift amount).\nOf these 4 outlier gifts, here's what we observed:\nOne donor gave a large gift, but it was less than their highest previous contribution (HPC).One donor tied his highest previous contribution (HPC).Two of the donors gave their new highest gift to the organization through this campaign (one of these donors increased from $500 to $5,000).\nIt would appear that asking a donor to be one of the X donors to make a target gift amount (that is at or slightly higher than their highest previous gift amount) drives donors to be more generous.\nThe real question is: Why?\nOur hypothesis is that setting this \"micro goal\" for the reader (e.g. \"10 donors to give $25 or more\") is far more motivating for donors than communicating the overall fundraising goal (\"our goal is to raise $500,000 this month\").\nWhen someone sees a request to be \"one of the X donors\" that gives a gift of \"$Y or more\" — and that $Y amount is around what I've given to the organization before — then I'm more likely to say \"YES\" to this request.\nAlternatively, when the organization communicates their large campaign goal (in this example: $500,000) and a request to make a \"special gift of any amount\"—it makes me feel like my much smaller gift is not significant enough to make a difference, and therefore it's up to the major (or mega) donors to make the donations necessary to accomplish the campaign goal.\nOur recommendation is to use this approach during large fundraising campaigns moving forward.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 24.5% increase in conversion rate\n\t\t\t\t× 183.2% increase in average gift\n\t\t\t\t\t\t\t\t\t252.7% increase in revenue"
+    },
+    {
+      "id": 15586,
+      "experimentId": "3996",
+      "title": "How charged language performs in a subject line",
+      "date": "2020-10-31T12:50:21",
+      "url": "https://www.nextafter.com/experiments/how-charged-language-performs-in-a-subject-line/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": -39.5,
+      "confidence": 96.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Students won't attend school because of racist professor",
+            "metric": "6.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Do you remember what happened at Trinity College?",
+            "metric": "3.8%",
+            "lift": "-39.5%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a subject line that includes the name of a specific school generate more clicks than subject line with charged language?",
+      "summary": "Timeframe: 08/07/2017 - 08/21/2017\nThe Leadership Institute works with colleges to combat leftis bias on campus. They wanted to know if giving a sneak peak to the email by naming the college in the subject line would generate more clicks than a subject line that included charged language that riles up their donor base.",
+      "keyLearnings": "The subject line that included charged language reached a 6.2% click rate, in comparison to the 3.8% click rate achieved by the subject line that included a specific name of a college. We can deduct that the subject line with charged language is the winner. Both of the subject lines received the same amount of opens, so to conclude this experiment in full, a future experiment should be ran with the same type of versions, optimized for opens.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n39.5% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17306,
+      "experimentId": "34972",
+      "title": "How a pledge at the end of an article impacts email signup rate",
+      "date": "2020-09-22T15:04:52",
+      "url": "https://www.nextafter.com/experiments/how-a-pledge-at-the-end-of-an-article-impacts-email-signup-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 396.2,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Stickybar",
+            "metric": "0.12%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "End of Article Pledge",
+            "metric": "0.61%",
+            "lift": "396.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Would adding a pledge email signup offer at the end of the article on the Campus Reform website increase email registration rate?",
+      "summary": "Ended On: 08/21/2020\nThe Leadership Institute runs a daily news website called Campus Reform, where leaders can read articles that covers what is happening on college campuses related to free speech and education.\nWith two subscription types (daily and weekly), there are a substantial number of visitors to this website each year.\nReaders are presented with opportunities to become a subscriber through a sticky bar at the foot of each article page that pops up when a visitor arrives on the website.\nBut could we increase email subscribers by trying a different location?",
+      "keyLearnings": "With 100% level of confidence, we observed a +396.2% increase in email registration rate with the pledge.\nThis end of article pledge was designed to create donor momentum towards the subsequent recurring donor appeal, however, we observed a massive increase in motivating people to sign the pledge, subsequently opting them in to receive the daily news email, as well.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 396.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17309,
+      "experimentId": "34973",
+      "title": "How a pledge at the end of an article impacts recurring donor conversion rate",
+      "date": "2020-09-22T15:03:36",
+      "url": "https://www.nextafter.com/experiments/how-a-pledge-at-the-end-of-an-article-impacts-recurring-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 8,
+      "confidence": 98.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "End of Article - Direct Ask",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "End of Article - Pledge",
+            "metric": "0.00%",
+            "lift": "8,687.3%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Would a pledge at the end of an article designed to increase donor motivation increase recurring donor conversion rate?",
+      "summary": "Ended On: 08/21/2020\nThe Leadership Institute runs a daily news website called Campus Reform, where leaders can read articles that covers what is happening on college campuses related to free speech and education.\nWith two subscription types (daily and weekly), there are a substantial number of visitors to this website each year.\nReaders have long been presented with an “end of article” ad that asks them to become a supporter of the free journalism that they have just received. The donation page after the ad click is asking supporters to activate a monthly gift.\nCould we increase the number of monthly donors we secured by putting an intermediary step in the process, while also building motivation through a pledge to propel them towards a higher donor conversion rate.",
+      "keyLearnings": "This treatment experience ran for just 10 days and increased the recurring donor conversion rate by +8,687.3% with a 98.4% level of confidence.\nThe data table above actually shows the control's performance between 1/1/2020 through 8/11/2020 (when the experiment was launched). Subsequently, during the experiment, we did not receive a recurring gift through the control experience. Therefore, we decided to open up the data collected in this study to review the performance for the control variant year-to-date.\nSo, simply put:\nThe control experience (which has been running all year) produced one recurring gift for all of this year to the point that we launched the treatment experience.And after launching the treatment to just half of the web visitors, we were able to achieve 6 recurring donors in just 10 days.\nThis is a massive lift in results achieved in a very short period of time, in spite of the fact that only half of the website's visitors are allowed to experience the treatment ad type.\nOur recommendation is to roll this out to the full audience and continue iteratively testing to increase the number of people that decide to sign the pledge (starting the recurring donor acquisition funnel) and replace the control experience with this approach right away.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 8,687.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14300,
+      "experimentId": "2735",
+      "title": "How extended value proposition email copy affects donor conversion",
+      "date": "2019-12-04T04:01:44",
+      "url": "https://www.nextafter.com/experiments/how-extended-value-proposition-email-copy-affects-donor-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 106.3,
+      "confidence": 99.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "18.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "37.5%",
+            "lift": "106.3%",
+            "confidence": "99.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will extended value proposition language increase donor conversion in an appeal email?",
+      "summary": "Timeframe: 11/04/2017 - 11/06/2017\nThe Leadership Institute recently sent a letter to their subscribers about the ‘Normandy Coalition’ –a new group of conservative and liberty-minded student organizations, policy groups, and legal defense foundations. As they developed this email copy, they wondered: Will a substantially longer email that includes more stories, examples, and value proposition language, increase motivation and donor conversion? They created a treatment version of the email and launched an A/B test to find out.",
+      "keyLearnings": "The Leadership Institute found that the longer treatment version did, in fact, increase donor conversion rate by 106%. It’s clear that adding more language supporting the value proposition of this campaign increased motivation and clarity. This is a substantial increase in email copy–from 550 words to 2,200 words–and provides a valuable learning for us when thinking through how long an appeal email should be. This test clearly shows that offering the email recipient a larger selection of evidence (i.e. stories and examples) only helped build the momentum the reader was experiencing as they clicked through to the donation page.\nThis is a test that the Leadership Institute is using and applying to upcoming campaigns, and it is one that will continue to help them develop a better understanding of who their donors are. It is also a test that is prompting further experiments by isolating the variety of variables in this test to see which one has the biggest impact (including story type, regional vs. national examples, and more).",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 106.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16777,
+      "experimentId": "22294",
+      "title": "How more donation options with a lower initial ask affects recurring donations",
+      "date": "2019-11-08T14:17:38",
+      "url": "https://www.nextafter.com/experiments/how-more-donation-options-with-a-lower-initial-ask-affects-recurring-donations/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 125.5,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "5-option test",
+            "metric": "14.3%",
+            "lift": "125.5%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a lower entry point and expanded gift array affect recurring donor conversion?",
+      "summary": "Timeframe: 09/20/2019 - 11/10/2019\nLeadership Institute had successfully run an experiment on their main donation page that did not affect conversion, but increased the number of recurring gifts that the organization received through a tabbed “onetime/monthly” donation form. However, they wanted to see if they could make a change to encourage more recurring gifts. Their current “monthly” tab had a gift array of “$15/$20/$25”, which did not give much room for variation. If the donor did not want to give something within that $10 range, then they had to come up with their own amount. They created a 5-option variant that had a lower initial amount ($10) and a much higher $50 option. They split traffic evenly to monitor conversion rate and the distribution of one-time and recurring gifts.",
+      "keyLearnings": "The new 5-option array increased recurring donations by 125.5%. This was such a big swing that overall conversion was increased by 44%—which meant that more donors gave as a whole. In examining the average gift, it appeared that the expanded options didn't affect average recurring gift size at all, which meant that the $10 entry point had a significant psychological effect that made more people say yes, but not necessarily to the lower price point. One-time gifts were not affected at all.\nThis is an interesting experiment, as it shows how suggested amounts help donors make decisions—especially long-term ones like recurring giving.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 125.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16770,
+      "experimentId": "18771",
+      "title": "How explaining the content inside an email newsletter affects email acquisition rate",
+      "date": "2019-11-08T14:14:54",
+      "url": "https://www.nextafter.com/experiments/how-explaining-the-content-inside-an-email-newsletter-affects-email-acquisition-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        0.4,
+        14
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "5.1%",
+            "lift": "0.4%",
+            "confidence": "17.1%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment #2",
+            "metric": "5.8%",
+            "lift": "14.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will branded or unbranded specificity affect email acquisition rate?",
+      "summary": "Ended On: 10/23/2019\nLeadership Institute’s website CampusReform.org had a sticky bar that showed for mobile devices and gave them the opportunity to sign up for their email list. The team wanted to test different options to see if one copy variant could increase conversion rate. The control had the headline “Don’t miss a story”, and offered CampusWire, the weekly newsletter. They decided to test two different angles. First, they moved the CampusWire name to the headline to see if introducing that earlier could pique curiosity about the newsletter and inspire people to sign up. In doing this, they realized that repeating the name in the short paragraph below the headline would be redundant, so they inserted new copy about leftist bias, in order to fill the space and continue to motivate the reader. Then, they created an unbranded, yet more specific headline in the style of the control: “Don’t miss a campus report”. They altered the paragraph beneath the headline to further explain the concept of a “campus report”, showing that it comes straight from student reporters and includes stories of leftist bias. They launched an A/B/C test to find a winner.",
+      "keyLearnings": "The first (branded) treatment showed no increase in conversion. However, the second treatment, which led with the “campus report” language and then included a deeper description of the content, did increase conversion by 14%.\nThis test is a good reminder that email newsletters are a commodity—and that naming a relatively unknown brand doesn’t necessarily strengthen the value proposition.\nIt is also worth noting that the other major difference between the winning ad and the control was with regards to the frequency of the newsletter. The winner promoted a daily newsletter and the control was weekly. We’ll need to isolate this variable to know if this was the determining factor in the winning treatment.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 14.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15782,
+      "experimentId": "4069",
+      "title": "How a more shocking subject line impacts clicks",
+      "date": "2019-09-18T15:26:58",
+      "url": "https://www.nextafter.com/experiments/how-a-more-shocking-subject-line-impacts-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 112.5,
+      "confidence": 99.1,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Timely BBC interview about President Reagan",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Reagan's bombing joke",
+            "metric": "4.9%",
+            "lift": "112.5%",
+            "confidence": "99.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a less politically correct and “shocking” subject line get more opens than a Morton-esque subject line?",
+      "summary": "Timeframe: 08/15/2017 - 08/29/2017\nThe Leadership Institute sent an email out about president Morton Blackwell’s interview with the BBC. During the interview, Morton reminisced on President Ronald Reagan’s anti-communism jokes. The Leadership Institute decided to test a subject line to see if whether mentioning a more shocking line (“Reagan’s bombing joke”) would generate more clicks than a more politically correct, “safe” subject line (Timely BBC interview about President Reagan).",
+      "keyLearnings": "The more shocking subject line generated 34 clicks, rather than the 16 clicks of the more politically correct subject line. This 112.5% increase in traffic shows that the Leadership Institute can excite and engage their readers with a more shocking subject line.The open rates for each of the subject lines are as follows: 866 opens at an 18.2% rate for the control and 1,133 opens at a 23.8% rate for the treatment. This is a 30.8% lift in opens.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n112.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15830,
+      "experimentId": "4120",
+      "title": "How a more personal subject line impacts clicks",
+      "date": "2019-09-18T15:24:19",
+      "url": "https://www.nextafter.com/experiments/how-a-more-personal-subject-line-impacts-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 107.7,
+      "confidence": 97.5,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "One of 16",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Isaac has a message for you",
+            "metric": "2.9%",
+            "lift": "107.7%",
+            "confidence": "97.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a more personal subject line increase interest/conversions?",
+      "summary": "Timeframe: 07/25/2017 - 08/08/2017\nThe Leadership Institute hosted a team of prospective field representatives at their headquarters. They filmed one of the candidates talking about the training they were receiving and how they could use it on college campuses. LI wanted to know if saying “Isaac has a message for you” would increase conversions rather than a vague subject line of “One of 16”. They hypothesized that the personal language would cause an increase in conversions.",
+      "keyLearnings": "The personal subject line doubled the number of clicks - a total of 27 in comparison to the 13 clicks of the vague subject line. Further testing may be necessary in order to determine whether or not more personal subject lines have a significant effect, or if it was the combination of saying \"you\" plus a specific name.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n107.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15628,
+      "experimentId": "6482",
+      "title": "How a celebrity signer affects open and click rates",
+      "date": "2019-07-25T14:39:51",
+      "url": "https://www.nextafter.com/experiments/how-a-celebrity-signer-affects-open-and-click-rates/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 121.3,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Mike Huckabee hosts LI's own",
+            "metric": "1.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Students freeze up when they hear this",
+            "metric": "3.9%",
+            "lift": "121.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a subject line that mentions a conservative celebrity increase open rates?",
+      "summary": "Ended On: 07/12/2018\nThe Leadership Institute has access to many high profile people in the conservative movement. They wanted to see if mentioning these people would impact their online presence. They decided to test a subject line that states Mike Huckabee has involvement with LI vs a vague subject line about something that makes students freeze when they hear it.",
+      "keyLearnings": "The subject line that included Mike Huckabee garnered an 18.3% open rate, while the vague subject line about students earned a 20% open rate. This is a lift of 9.5%. There was a 121.3% lift in clicks for the email that had a student focus in the subject line.\nThis experiment tells us that LI email recipients care more about what is being discussed on campus than about a conservative celebrity hosting an LI employee on their show. However, these results could change depending on the celebrity signer. In the future, the Leadership Institute should look into how the subject line and the copy work together to generate opens and clicks.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n121.3% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14289,
+      "experimentId": "2738",
+      "title": "How aligning a Facebook ad image with the interests of the target audience affects email acquisition rate",
+      "date": "2019-07-23T18:42:29",
+      "url": "https://www.nextafter.com/experiments/how-aligning-a-facebook-ad-image-with-the-interests-of-the-target-audience-affects-email-acquisition-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 132.1,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "1.0%",
+            "lift": "132.1%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a Facebook ad image that is aligned with the interests of the targeted Facebook group increase email acquisition rate?",
+      "summary": "Timeframe: 10/18/2017 - 11/02/2017\nThe Leadership Institute recently re-launched their online course “Conservatism 101,” and began promoting to targeted audiences on Facebook. This course features a number of notable conservative leaders, including Mark Levin. They wondered: If we align the Facebook ad image with the audience interest target (i.e. fans of Mark Levin), can we increase our email acquisition rate?",
+      "keyLearnings": "The Leadership Institute found that this approach did, in fact, increase email acquisition by 132%. This test shows that ad congruency is an important factor, not only in increases Facebook ad clicks, but also in the motivation of the targeted viewer. We often think of developing congruency between the ad, the acquisition page, and the donation page–and this is important to do because it also decreases anxiety! But this test shows that there are other elements that we need to keep in mind as well–namely here, audience targeting. This test has prompted further testing across the organization, and among other organizations who are seeking a high level of congruency in their Facebook acquisition strategy.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 132.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16497,
+      "experimentId": "17709",
+      "title": "How a monthly first ask affects one-time and recurring donations",
+      "date": "2019-07-22T20:12:47",
+      "url": "https://www.nextafter.com/experiments/how-a-monthly-first-ask-affects-one-time-and-recurring-donations/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 137.9,
+      "confidence": 96.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "5.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Tabbed view",
+            "metric": "12.0%",
+            "lift": "137.9%",
+            "confidence": "96.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will presenting a monthly-first donation form with a one-time fallback option increase recurring donations or affect one-time revenue?",
+      "summary": "Timeframe: 05/21/2019 - 07/06/2019\nLeadership Institute had begun to ramp up their recurring donation program. They were curious to see if featuring the monthly giving option through a tabbed donation widget on their main donation page would increase recurring donations without affecting one-time donations and revenue. They wanted to monitor two metrics: overall donor conversion (with revenue) and monthly recurring donations generated.",
+      "keyLearnings": "The tabbed, monthly-first donation form produced more than twice as many recurring donations as the one-time form with the option to make the gift monthly. Most importantly, the new form had no discernible effect on conversion, which meant that they did not dissuade donors who wanted to make a one-time gift from giving that gift. This appears to have created a user interface that prioritizes recurring giving while avoiding donor confusion, which is a big win in terms of long term revenue for LI.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 137.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16395,
+      "experimentId": "13991",
+      "title": "How framing the opposition in familiar terms affects donor conversion",
+      "date": "2019-06-07T20:12:06",
+      "url": "https://www.nextafter.com/experiments/how-framing-the-opposition-in-familiar-terms-affects-donor-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 119.3,
+      "confidence": 97.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Leftist",
+            "metric": "0.06%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.13%",
+            "lift": "119.3%",
+            "confidence": "97.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How will changing the terminology that frames the opposition affect donor conversion?",
+      "summary": "Ended On: 05/29/2019\nThe Leadership Institute has long raised money to train conservatives to beat “leftists.” This term was chosen over the more common “liberal” since “leftist” was believed to be more specific, more powerful, and convey more emotion. Moreover, “liberal” could be imprecise, referring in some contexts to “classical liberals” who often align with conservatives.\nThey wondered, though, whether these assumptions were correct. Is “liberal” in fact a better understood term than “leftist,” and might it convey more emotion?\nThey decided to run a test to see if the more commonly used “liberal” would increase response. Given relatively small sample sizes, they knew it would take several email appeals to determine a winner, and they also knew they didn’t want to validate it on a single email. They set up three email appeals, with “liberal” and “leftist” being the only words they interchanged.",
+      "keyLearnings": "The appeals that used the term \"liberal\" produced 119.3% more donors than the \"leftist\" appeals. This is fascinating, because the change was so small, yet generated such a different response in the mind of the donor. This suggests that \"liberal\" is closer to how the donor natively frames the opposition—or, it suggests that the donor believes that the \"liberal\" is of some greater threat than the \"leftist\". Either way, this shows that a small change in terminology and framing of the opponent can have a big impact to the bottom line.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 119.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14896,
+      "experimentId": "8808",
+      "title": "How the design of a donation page and value proposition affect donor conversion",
+      "date": "2019-04-30T11:52:04",
+      "url": "https://www.nextafter.com/experiments/how-the-design-of-a-donation-page-and-value-proposition-affect-donor-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 134.7,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "New Page",
+            "metric": "7.1%",
+            "lift": "134.7%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a radical redesign of the donation template affect donations?",
+      "summary": "Timeframe: 03/26/2018 - 04/09/2018\nLeadership Institute saw less than optimal conversion on their donation pages. A review of their main donation page, as well as the donation page for one of their program websites showed that they had minimal value proposition copy, a wide layout, and a two-column form that required a CAPTCHA to complete. They built a new donation microsite that radically streamlined and reordered the donation process, added value proposition copy, removed the required CAPTCHA.\nThey split traffic between their two main donation pages to determine the impact of this new donation microsite on giving.",
+      "keyLearnings": "The new donation microsite resulted in more than twice as many donations across the two primary pages. Since this was a radical redesign, it’s not clear how each individual element contributed to the lift. But the lift is statistically valid and the opportunity cost is clear.\nThe new donation microsite also enables future optimization testing, which should begin immediately across multiple donation pages.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 134.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16225,
+      "experimentId": "11402",
+      "title": "How focusing on a movement instead of the opposition affects donor conversion",
+      "date": "2019-04-25T20:48:54",
+      "url": "https://www.nextafter.com/experiments/how-focusing-on-a-movement-instead-of-the-opposition-affects-donor-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 298.1,
+      "confidence": 98.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Opposition focused",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Movement focused",
+            "metric": "0.08%",
+            "lift": "298.1%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a positive, movement-focused ad perform against an opposition focused ad?",
+      "summary": "Ended On: 04/16/2019\nLeadership Institute was running a campaign to start a conservative group on every college campus. They had an ad that focused on the opposition that young conservatives face on campus. However, they wondered if their audience was weary of seeing the opposition, and instead might be motivated by seeing students who were trying to make a difference. They created an ad that didn’t start with a the opposition, but started with a problem that the donor could actually hope to solve. They used specific numbers to help quantify the goal, and then they used a picture of conservative students rather than opposition protest groups. They launched an A/B test to determine a winner.",
+      "keyLearnings": "The positive, movement-focused ad produced a 298.1% increase in conversion rate—which seemed to indicate that donors are more motivated as to what they can do, as opposed to what they are up against. This might help green-light solutions-focused offers instead of trying to activate protest gifts.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 298.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14676,
+      "experimentId": "8489",
+      "title": "How increasing the force of the value proposition affects email acquisition",
+      "date": "2019-04-20T04:04:13",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-force-of-the-value-proposition-affects-email-acquisition/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 27.9,
+      "confidence": 99.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.06%",
+            "lift": "27.9%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing the force of the value proposition increase email acquisition rate?",
+      "summary": "Timeframe: 11/14/2017 - 02/06/2018\nCampusReform, an initiative of the Leadership Institute, garnered significant traffic to their content based on the timeliness and relevancy of their content. However, the majority of the traffic did not convert into email addresses for ongoing cultivation.\nTheir team looked at the email subscription form and noticed several elements that could be optimized. The headline said exactly what the offer was: “Newsletter”, rather than a compelling value proposition. The supporting copy told them nothing about what they were going to get. There were social share icons in between the supporting copy and the form itself. And finally, the button copy was placed on a red background—which connotes fear or “stop”.\nThey created a treatment with a new headline which reflected a possible motivation of the reader (“Stay Informed”), copy that told them what they would receive when signing up, removed the social share icons, and turned the button from red to green, a color commonly connoted with “acceptance” and “go”.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "The treatment, with the four significant changes designed to intensify the force of the value proposition and reduce friction, increased email acquisition by 28%.\nBecause of the traffic to CampusReform.com, this has a significant opportunity to increase the number of emails acquired. However, the placement of the email acquisition offer might be affecting how many people even see the offer. Future testing should place this email acquisition form inline into the copy, especially for mobile users who don’t see the sidebar.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 27.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15909,
+      "experimentId": "10649",
+      "title": "How adding detail of an adversity in a landing page affects conversion",
+      "date": "2019-02-12T21:07:49",
+      "url": "https://www.nextafter.com/experiments/how-adding-detail-of-an-adversity-in-a-landing-page-affects-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 51.9,
+      "confidence": 99.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "3.5%",
+            "lift": "51.9%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Do people need more detail on how to fix a problem before they feel confident enough to give?",
+      "summary": "Ended On: 02/07/2019\nThe Leadership Institute ran a campaign around stopping the left’s push for Trump’s impeachment. They wanted to know if having shorter copy that briefly stated how to confront and fix the adversity (radical leftist professors teaching students how to get Trump impeached) would result in more conversions in comparison to longer copy that includes more detail about how to confront and fix adversity.",
+      "keyLearnings": "The short copy resulted in fewer donations than the longer copy. With a 51.9% increase in average gift, the Leadership Institute can include that long copy is okay to use as long as it gives more detail on how the potential donor's donation can stop the problem being faced.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 51.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15765,
+      "experimentId": "3525",
+      "title": "How a subject line with enticing language affected clicks",
+      "date": "2019-01-16T17:57:56",
+      "url": "https://www.nextafter.com/experiments/how-a-subject-line-with-enticing-language-affected-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 100,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "New member of Leadership Institute family",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "He used to be a liberal",
+            "metric": "0.44%",
+            "lift": "100.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an enticing subject line generate more clicks than a subject line with language about being part of the LI family?",
+      "summary": "Timeframe: 03/27/2018 - 04/10/2018\nThe Leadership Institute wanted to know if talking to their donors in a way that makes them feel like family would affect click rate differently than talking to them with language that posed questions about the content. They decided to test this with the introduction of their new staff members, Lawrence B. Jones III. They tested clicks in regards to a subject line test.",
+      "keyLearnings": "The treatment subject line with enticing language saw 45 clicks, in comparison to 0 clicks on the subject line about being part of the LI family. This experiment is concluded with 99% confidence. The Leadership Institute should not talk about being part of the LI family in future subject lines, and should instead use subject lines that make their readers wonder about who they are about to read about.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n100.0% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15768,
+      "experimentId": "4020",
+      "title": "How a detailed subject line performs against a less detailed subject line",
+      "date": "2019-01-16T17:57:49",
+      "url": "https://www.nextafter.com/experiments/how-a-detailed-subject-line-performs-against-a-less-detailed-subject-line/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": [
+        26.2,
+        17.4
+      ],
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Remembering on this Memorial Day",
+            "metric": "14.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "One moment",
+            "metric": "18.1%",
+            "lift": "26.2%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Training and sacrifice",
+            "metric": "16.9%",
+            "lift": "17.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Do people want to know what’s in the email before they open?",
+      "summary": "Timeframe: 05/30/2016 - 06/13/2016\nThe Leadership Institute sent out a Memorial Day email, and wanted to know if using subject lines that talked about or alluded to Memorial Day would perform better than a brief subject line that doesn’t let the reader know what the content is about.",
+      "keyLearnings": "While both treatments improved the open rate, the first treatment did much better, with an 18.1% open rate compared to the 16.9% open rate in the second treatment subject line of \"Training and sacrifice\" and a 14.4% open rate with the control of \"Remembering on this Memorial Day\". This resulted in a 26.2% increase in traffic. The \"One moment\" subject line may resonate with the readers because it indicates that it should not take long to read the email. In the future, indicating that reading the email will not take too much time should be further tested against other successful subject lines to determine its efficacy in relation to those subject lines. Control had 27 clicks and a .25% click rate; Treatment 1 had 16 clicks and a .15% click rate; Treatment 2 had 9 clicks and a .08% click rate.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n26.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15785,
+      "experimentId": "10862",
+      "title": "How a plain text email performed against an email with a logo banner",
+      "date": "2019-01-16T14:05:47",
+      "url": "https://www.nextafter.com/experiments/how-a-plain-text-email-performed-against-an-email-with-a-logo-banner/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 21.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Branded",
+            "metric": "0.04%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Plain text",
+            "metric": "0.05%",
+            "lift": "21.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a plain text email receive more conversions than an email with all the bells and whistles?",
+      "summary": "Ended On: 02/28/2019\nFocus on the Family ran a year end campaign in 2018. They hypothesized that stripping down the “Last chance” emails to look more like Outlook or plain text emails would perform better than the control email which used large banner logos and video screenshots. They tested the outlook styles between two different signers.",
+      "keyLearnings": "The combined total of the plain text emails resulted in a 21.4% increase in engagement and donor conversion. This tells us that people give to people, not email marketing machines. Focus on the Family should continue to use plain text emails in future fundraising emails.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n21.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15791,
+      "experimentId": "4114",
+      "title": "How adding a p.s. in the copy affects clicks",
+      "date": "2019-01-16T14:05:06",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-p-s-in-the-copy-affects-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -75.1,
+      "confidence": 98.8,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "P.S.",
+            "metric": "9.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "No P.S.",
+            "metric": "2.3%",
+            "lift": "-75.1%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding a p.s. at the end of the email generate more clicks?",
+      "summary": "Timeframe: 09/22/2017 - 10/06/2017\nThe Leadership Institute started a new coalition, the Normandy Coalition, to combat liberal indoctrination on college campuses. They wanted to know if including a p.s. at the end of the copy would generate more clicks. They decided to test it.",
+      "keyLearnings": "Version A did not have a p.s. at the end of the copy, yet received 10 more clicks than Version B, which did have the p.s. Another experiment should be ran to see if the p.s. makes a difference before the Leadership Institute concludes the test.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n75.1% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15776,
+      "experimentId": "4044",
+      "title": "How adding an image in the email copy impacted clicks",
+      "date": "2019-01-15T22:38:58",
+      "url": "https://www.nextafter.com/experiments/how-adding-an-image-in-the-email-copy-impacted-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 31.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Video version",
+            "metric": "12.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Non-video version",
+            "metric": "16.6%",
+            "lift": "31.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding a screenshot image of a video into the email copy impact clicks?",
+      "summary": "Timeframe: 09/08/2015 - 09/22/2015\nThe Leadership Institute wanted to see if including an image screenshot would impact clicks against an email with similar copy but no image. The image was a screenshot of an appearance of an LI employee on Fox News.",
+      "keyLearnings": "The results of this experiment showed a 31.2% increase in traffic with the email that did not include a screenshot image of the video. The Leadership Institute can continue to test this idea by positioning the video before the link in the copy as well as using copy that informs the reader the video is of a media hit.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n31.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15772,
+      "experimentId": "4033",
+      "title": "How sending from a person at an organization rather than just a person makes a difference in open rates",
+      "date": "2019-01-14T21:48:21",
+      "url": "https://www.nextafter.com/experiments/how-sending-from-a-person-at-an-organization-rather-than-just-a-person-makes-a-difference-in-open-rates/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender"
+      ],
+      "tier": 1,
+      "lift": [
+        0.2,
+        7.4
+      ],
+      "confidence": 99.5,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "From: Morton Blackwell",
+            "metric": "19.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "From: Morton Blackwell, Leadership Institute",
+            "metric": "19.9%",
+            "lift": "0.2%",
+            "confidence": "5.2%"
+          },
+          {
+            "code": "T2:",
+            "name": "From: Morton Blackwell, LI",
+            "metric": "21.3%",
+            "lift": "7.4%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Whether adding “Leadership Institute” or “LI” after the senders name would affect the open rate of the email.",
+      "summary": "Timeframe: 09/11/2015 - 09/25/2015\nThe Leadership Institute wanted to know if sending from president Morton Blackwell rather than Morton Blackwell, Leadership Institute or Morton Blackwell, LI would make an impact on opens.",
+      "keyLearnings": "There was no valuable difference between the treatments. The Leadership Institute can move forward with whichever signature combination they prefer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n7.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15622,
+      "experimentId": "10307",
+      "title": "How a celebrity signer affects open rates",
+      "date": "2019-01-02T19:27:55",
+      "url": "https://www.nextafter.com/experiments/how-a-celebrity-signer-affects-open-rates/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 9.5,
+      "confidence": 99.9,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Mike Huckabee Hosts Ll's own",
+            "metric": "18.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Students freeze up when they hear this",
+            "metric": "20.0%",
+            "lift": "9.5%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a subject line that mentions a conservative celebrity increase open rates?",
+      "summary": "Timeframe: 05/10/2018 - 05/10/2018\nThe Leadership Institute has access to many high profile people in the conservative movement. They wanted to see if mentioning these people would impact their online presence. They decided to test a subject line that states Mike Huckabee has involvement with LI vs a vague subject line about something that makes students freeze when they hear it.",
+      "keyLearnings": "The subject line that included Mike Huckabee garnered an 18.3% open rate, while the vague subject line about students earned a 20% open rate. Though only a small lift of 9.5%, this experiment tells us that LI email recipients care more about what is being discussed on campus than about a conservative celebrity hosting an LI employee on their show. However, these results could change depending on the celebrity signer.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n9.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15480,
+      "experimentId": "8227",
+      "title": "How placement of a sticky bar affects email acquisition on mobile devices",
+      "date": "2018-12-04T15:17:04",
+      "url": "https://www.nextafter.com/experiments/how-placement-of-a-sticky-bar-affects-email-acquisition-on-mobile-devices/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 110.3,
+      "confidence": 96.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Lower Sticky Bar",
+            "metric": "2.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Upper Sticky Bar",
+            "metric": "4.9%",
+            "lift": "110.3%",
+            "confidence": "96.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a sticky bar anchored to the top of the mobile experience perform against one anchored to the bottom?",
+      "summary": "Ended On: 11/15/2018\nLeadership Institute sought to acquire as many email addresses as possible from their flagship news site, CampusReform.org. They had put email acquisition offers on the site through “sticky bars” and sought to optimize both through testing and optimization on both desktop and mobile. They had tested to a sticky bar that appeared when someone scrolled through 25% of the page at the bottom of the page. They hypothesized that this might be interrupting the user experience too much on mobile, as the content removed their ability to scroll down. They decided to test placement—from the current “bottom anchored” bar to the “top anchored” bar.",
+      "keyLearnings": "The top-anchored sticky bar produced a 110% lift in name acquisition than the bottom-anchored sticky bar—which showed that where you place the sticky bar in terms of user experience has a tremendous impact on the results it produces. \n\nUltimately, this test established a new standard—future testing should focus on design and value proposition, but this provides a helpful framework for understanding user experience.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 110.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14956,
+      "experimentId": "4554",
+      "title": "How length and presentation of email copy impact clickthrough rate",
+      "date": "2018-04-25T15:39:47",
+      "url": "https://www.nextafter.com/experiments/how-length-and-presentation-of-email-copy-impact-clickthrough-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 136.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Version A",
+            "metric": "0.68%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Version B",
+            "metric": "1.6%",
+            "lift": "136.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will length and presentation of email copy impact clickthrough rate?",
+      "summary": "Timeframe: 04/10/2018 - 04/23/2018\nLeadership Institute was sending their monthly appeal to their email file, based on the direct mail letter that also went out during that month. They were curious to see how including the full text (including extra spacing) would perform as compared to a truncated email version of the copy that distilled the value proposition into a shorter length email.\nThey created both versions and split the housefile to test.",
+      "keyLearnings": "The truncated version produced a 136.4% lift in clickthrough rate, as the links were much more accessible in the copy. However , a further review of the data showed that the two treatments produced the exact same number of conversions—meaning that there was a decrease in conversion rate for the shorter message. This suggests a new test that presents a longer message with the reduced spacing of the shorter message.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n136.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14953,
+      "experimentId": "8899",
+      "title": "How length and presentation of email copy impact donor conversion rate",
+      "date": "2018-04-25T15:39:00",
+      "url": "https://www.nextafter.com/experiments/how-length-and-presentation-of-email-copy-impact-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -57.7,
+      "confidence": 99.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "27.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "11.6%",
+            "lift": "-57.7%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How will length and presentation of email copy impact conversion rate?",
+      "summary": "Timeframe: 04/10/2018 - 04/25/2018\nLeadership Institute was sending their monthly appeal to their email file, based on the direct mail letter that also went out during that month. They were curious to see how including the full text (including extra spacing) would perform as compared to a truncated email version of the copy that distilled the value proposition into a shorter length email.\nThey created both versions and split the housefile to test.",
+      "keyLearnings": "Though this experiment produced a big lift in the clickthrough rate, it resulted in a conversion rate that was half of the control—meaning that “more clicks” did not result in more donors. This shows the power of copy to motivate email readers to action—more copy produced fewer, more motivated clicks.\nThis suggests a future test to adjust the presentation of the email without shortening the copy.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 57.7% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14309,
+      "experimentId": "7843",
+      "title": "How emotional language, clarity and authority affect ad clickthrough rate",
+      "date": "2018-01-04T01:01:19",
+      "url": "https://www.nextafter.com/experiments/how-emotional-language-clarity-and-authority-affect-ad-clickthrough-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        9.6,
+        56.7,
+        108.7
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Question-focused ad",
+            "metric": "0.82%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Challenger copy",
+            "metric": "0.89%",
+            "lift": "9.6%",
+            "confidence": "61.3%"
+          },
+          {
+            "code": "T2:",
+            "name": "Separate interruptor line",
+            "metric": "1.3%",
+            "lift": "56.7%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T3:",
+            "name": "Levin ad",
+            "metric": "1.7%",
+            "lift": "108.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does emotional language, clarity and authority affect clickthrough rate?",
+      "summary": "Timeframe: 10/02/2017 - 11/09/2017\nLeadership Institute recently re-launched a course about the history and principles of conservatism, called Conservatism 101. As they prepared to market this course through Facebook, they developed several different treatments for the advertisements. The first treatment posed a question: “What are conservatives actually trying to conserve?”, which implied that the course would answer that question. The second treatment introduced emotional language that outlined the threat to conservatism and made a call for conservatives to rediscover their principles. This treatment also included a call to action (CTA) in the top copy: “Start today by enrolling in Conservatism 101 now.” The third treatment took a similar tack with emotional language, but sought to align with the mindset of the reader by declaring the threat to be invalid. This treatment heightened the clarity and authority around the course offer, introducing a list of featured speakers, and introduced line breaks to better isolate the CTA: “Activate your free course today and discover—or rediscover—the principles and beauty of conservatism.” The final treatment used the same copy as the third treatment, but introduced a picture of Mark Levin with the CTA “Join Mark Levin in this new free course: Conservatism 101.”\nSince Facebook is able to serve multiple ads simultaneously and gather data on each, they launched this A/B/C/D test to determine which ad produced the most clicks.",
+      "keyLearnings": "After a few days, LI had enough data to determine a winner. Both the third and fourth treatment produced a clear, statistically significant increase in clickthrough rate over the other treatments. Treatment 3 produced a 56.7% increase over the baseline due to a combination of increased clarity and authority as well as visual clarity around the call-to-action. Treatment 4 produced the largest increase of all—a 108.7% increase over the baseline due to the copy adjustments from treatment three and the new image and embedded CTA, which reinforced the authority of the top copy.\nIn their next experiment, Leadership Institute isolated the top two performing ads to determine which one produced the most conversions on the following landing page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n56.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14314,
+      "experimentId": "7844",
+      "title": "How authority, active language, and clarity affect email acquisition rate",
+      "date": "2018-01-04T01:00:48",
+      "url": "https://www.nextafter.com/experiments/how-authority-active-language-and-clarity-affect-email-acquisition-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 63.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Ad3",
+            "metric": "0.45%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Ad4",
+            "metric": "0.73%",
+            "lift": "63.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does increased authority, active language, and clarity affect email acquisition rate?",
+      "summary": "Timeframe: 10/02/2017 - 11/09/2017\nLeadership Institute recently re-launched a course about the history and principles of conservatism, called Conservatism 101. As they prepared to market this course through Facebook, they developed four different treatments for the advertisements. Testing proved that the third and fourth treatment produced a significant lift to clickthrough rate, but they wanted to gather more data to validate if one of these resulted in more downstream conversions—in this case, more sign-ups for the course.\nThe primary difference in the two treatments was the image and the copy within. The first treatment had a patriotic background that described what the course was: “Conservatism 101: An Introduction to the American Conservative Tradition”. The second, however, featured a picture of Mark Levin, a popular radio host and lecturer in the course. This image contained call-to-action copy as well: “Join Mark Levin in this new free course, Conservatism 101.”\nThe team isolated these two ads to determine which ad was more effective at driving downstream conversions.",
+      "keyLearnings": "The second treatment, with Mark Levin and the call-to-action copy in the image produced a 63.7% increase in downstream conversions. This showed that the increased authority and active call to action was able to shape motivation to affect downstream actions. Ultimately, Leadership Institute didn’t just want more clicks—they wanted more clicks with a higher motivation.\nThis test prompted a new round of testing that used the winner as the control to continue to increase results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n63.7% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14385,
+      "experimentId": "7981",
+      "title": "How acerbic Facebook ad copy affects clickthrough rate",
+      "date": "2018-01-04T00:59:39",
+      "url": "https://www.nextafter.com/experiments/how-acerbic-facebook-ad-copy-affects-clickthrough-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -61.7,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.48%",
+            "lift": "-61.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will more forthright ad copy increase email acquisition in a facebook ad?",
+      "summary": "Timeframe: 11/14/2017 - 11/28/2017\nThe Leadership Institute has found that using Mark Levin’s authority in both copy and imagery has increased course signups for their online course ‘Conservatism 101.’ They wondered: Will more forthright, biting ad copy impact clickthrough rate on a Facebook ad? They launched an A/B test to find out.",
+      "keyLearnings": "The Leadership Institute found that the treatment version of their Conservatism 101 Facebook ad actually caused a 61% decrease in clickthrough rate. Its apparent that the treatment version decreased the motivation of the ad viewer. The Leadership Institute is conducting further messaging tests to discover the best approach in writing Facebook ad copy for Conservatism 101.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n61.7% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 29056,
+      "experimentId": "94062",
+      "title": "How moving the donation page copy to “below the fold” impacted donor conversion rate",
+      "date": "2022-05-22T01:57:47",
+      "url": "https://www.nextafter.com/experiments/how-moving-the-donation-page-copy-to-below-the-fold-impacted-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -57.6,
+      "confidence": 91.4,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$7.62",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Shortened Treatment",
+            "metric": "$3.23",
+            "lift": "-57.6%",
+            "confidence": "91.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that moving the donation page copy to “below the fold” to streamline the giving experience for prospective donors in the text to give channel will achieve decrease revenue.",
+      "summary": "Timeframe: 05/13/2022 - 05/23/2022\nAs a part of a recent acquisition campaign in the “text to give” channel, the MMS partner noted that the donation page copy was “too long” and felt like it should be moved to “below the fold” (a nice newspaper term), or they wouldn’t agree to promote the offer because it was likely to not be as productive as what their “best practices” would dictate.\nSo, to appease them, the Leadership Institute agreed to run an A/B experiment to track the performance on the campaign and see how it impacted overall giving from their audiences.",
+      "keyLearnings": "With a 91.3% level of confidence, we observed a decrease in revenue of -57.6%, largely driven by a decrease in the average gift of more than 50% coming from visitors flowing through the treatment variant.\nWhat's interesting is that there was the exactly same number of transactions between the treatment and the control experiences (0% difference), however, the generosity of the donors in the control experience was nearly twice as much as the treatment visitors.\nThe question is: Why?\nIn reviewing the transactions, we noticed that there were not any outlier gifts in the overall experiment, but there were 4 gifts at or above $100 that came through the control experience.\nWhen you consider the channel used to drive visitors to this page (MMS) — it's clear what is behind this increase in generosity. The MMS channel messaging is designed to get a click, but after a visitor arrives on the donation page — the lack of value proposition and reason to give communicated on the page was enough to drive visitors in the treatment to give at lower amounts. Alternatively, when the value proposition to give in the control experience was placed where it normally has been, it showed that donors to the control decided not only to give at the same rate as those in the treatment experience, but they were more informed on WHY they should give and WHO they were giving to — thereby increasing the amount they decided to give.\nWhen possible, it's highly recommended — especially in campaigns that are not driving donor-motivated clicks (like from your house email file) — to include copy that properly articulates the value proposition on the donation page, so that once they arrive on the page, they'll not only decide to give, but when they do — they'll give more generously.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 24909,
+      "experimentId": "81424",
+      "title": "How communicating how many more donors are needed in a campaign to meet your goal impacts donor conversion rate",
+      "date": "2022-01-05T20:22:12",
+      "url": "https://www.nextafter.com/experiments/how-communicating-how-many-more-donors-are-needed-in-a-campaign-to-meet-your-goal-impacts-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "donor conversion"
+      ],
+      "tier": 2,
+      "lift": [
+        -46.2,
+        18.6
+      ],
+      "confidence": 87.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Same Number",
+            "metric": "0.58%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1 - \"X more\"",
+            "metric": "0.31%",
+            "lift": "-46.2%",
+            "confidence": "87.5%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment #2 - \"One more\"",
+            "metric": "0.68%",
+            "lift": "18.6%",
+            "confidence": "39.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that changing the number of target donors for year-end campaign recipients will achieve improve motivation to make a donation.",
+      "summary": "Ended On: 01/01/2022\nAs a part of the 2021 year end fundraising campaign, the Leadership Institute wanted to experiment with the final email of the campaign to see what would motivate donors to make their gift before the deadline.\nThroughout the campaign, they had been communicating to donors that they needed a certain number of donors to make gifts at a particular gift level. But, they wondered if changing the number of donors on the final email would have any impact on driving gifts before the midnight deadline.\nWe theorized the following variations for the corresponding reasons:\nControl: This variant simply repeats the goal number of donors from the email from earlier in the day.\nTreatment 1:  This variant implies that we achieved the goal number of donors from the email earlier in the day, but we wanted to get X more (e.g. “we want to do more!” messaging).\nTreatment 2: This variant tells the reader that they could be the last donor that is needed to achieve the goal.\nWould any of these variants drive motivation to give to a higher rate and lift overall results?",
+      "keyLearnings": "Although there are no validated results, we observed two outcomes that were of interest:\nThe \"5 More\" (treatment 1) variant actually directionally decreased results. Could this mean that communicating that we've hit and are now attempting to surpass the campaign goal is de-motivating for donors? Future experimentation with this messaging type may need to be paired with an additional value proposition as to what additional gifts secured would lead to in order to see if this motivation type can work in the future to lift results. And,The \"One More\" (treatment 2) variant did not achieve a reliable lift in donor conversion rate. Our team assumed that this would significantly lift response rates, but although there is a slight lift (+18.6%), the confidence score is so low (39.6%) that assuming this kind of lift will be reproduced in a future experiment should be considered unreliable.\nFurther experimentation is required with these variant types. It would be advisable to carry this motivation messaging sequence throughout multiple emails to ensure that the gift samples are high enough to get a reliable reading in the future.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17660,
+      "experimentId": "47190",
+      "title": "How breaking your fundraising goal down into a smaller ask impacts revenue",
+      "date": "2021-06-21T21:25:54",
+      "url": "https://www.nextafter.com/experiments/how-breaking-your-fundraising-goal-down-into-a-smaller-ask-impacts-revenue-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "body copy",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 51.1,
+      "confidence": 89,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.73",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$1.10",
+            "lift": "51.1%",
+            "confidence": "89.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that setting a specific goal of donors and targeted gift amount for campaign prospects will achieve increase revenue.",
+      "summary": "Ended On: 02/03/2021\nDuring the Leadership Institute’s “2021 Kickoff” campaign, we wanted to experiment with asking donors to be one of a few donors to give a specific gift amount to see if it would increase the donor’s likelihood to give, or their generosity altogether.",
+      "keyLearnings": "With an 88.9% level of confidence, we observed a revenue increase of +52.1%.\n\nThis was driven by an increase in the donor conversion rate of +24% (LoC: 73%) and an average gift that was 22.6% higher than gifts made from the control segment.\n\nAlthough this didn't fully validate, the results were directionally sound, which means that through the course of a longer campaign and more gifts, we could expect to see this hold true in 17.7 of 20 times that we ran this experiment.\n\nWhen looking at what donors gave against what they were asked for, we noticed some interesting facts, which are:\n40% of treatment gifts received gave more than what we asked for, representing 43% of the dollars raised in treatment experience.\n \t38% of the treatment gifts received gave exactly what we asked for, representing 37.5% of the dollars raised in the treatment experience.\n \t22% of the treatment gifts received gave less than what we asked for, representing 19.5% of the dollars raised in the treatment experience.\n74% more donors decided to give \"more than\" their MRC when in the treatment experience.\n \tThese donors produced 86.5% more revenue when in the treatment experience than donors in the control experience.\n \t3x as many donors decided to make their largest gift ever through the treatment experience. And,\n \tThis represented a 257% increase in revenue from the treatment segment who decided to give a gift to this campaign that was higher than their HPC value when compared to those in the control segment.\nWhen a donor is left to their own decision on how much to give, they often choose to give less than they could — so we should tell them exactly what we want them to give in this sort of way.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18453,
+      "experimentId": "47190",
+      "title": "How breaking your fundraising goal down into a smaller ask impacts revenue",
+      "date": "2021-06-07T19:36:20",
+      "url": "https://www.nextafter.com/experiments/how-breaking-your-fundraising-goal-down-into-a-smaller-ask-impacts-revenue/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "body copy",
+        "clarity",
+        "Copywriting",
+        "Donation Pages",
+        "micro ask",
+        "Value Proposition"
+      ],
+      "tier": 2,
+      "lift": 52.1,
+      "confidence": 89,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.73",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$1.11",
+            "lift": "52.1%",
+            "confidence": "89.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that setting a specific goal of donors and targeted gift amount for campaign prospects will achieve increase revenue.",
+      "summary": "Ended On: 02/03/2021\nDuring the Leadership Institute’s “2021 Kickoff” campaign, we wanted to experiment with asking donors to be one of a few donors to give a specific gift amount to see if it would increase the donor’s likelihood to give, or their generosity altogether.",
+      "keyLearnings": "With an 88.9% level of confidence, we observed a revenue increase of +52.1%.\nThis was driven by an increase in the donor conversion rate of +24% (LoC: 73%) and an average gift that was 22.6% higher than gifts made from the control segment.\nAlthough this didn't fully validate, the results were directionally sound, which means that through the course of a longer campaign and more gifts, we could expect to see this hold true in 17.7 of 20 times that we ran this experiment.\nWhen looking at what donors gave against what they were asked for, we noticed some interesting facts, which are:\n40% of treatment gifts received gave more than what we asked for, representing 43% of the dollars raised in treatment experience.38% of the treatment gifts received gave exactly what we asked for, representing 37.5% of the dollars raised in the treatment experience.22% of the treatment gifts received gave less than what we asked for, representing 19.5% of the dollars raised in the treatment experience.\nAdditionally, when looking at what we would have asked for from donors who gave in the control experience, we saw that donors gave only 48.6% of what we would have asked them to give.\nMeanwhile, donors who were in the treatment experience ended up giving 71.6% of what we would have asked them to give.\nWhat does this mean? It means that we're 42% more likely to receive what we ask for when telling donors what we want them to give. Otherwise, when left to their own devices, donors are less likely to give at all, and when they do, we're less likely to raise the dollars that we would have otherwise asked them to give.\nFinally, we decided to compare the gifts made to this campaign to the donor's most recent contribution (MRC) and highest previous contribution (HPC) values. The findings were incredible!\nWhen comparing donors in the \"control\" experience against those in the \"treatment\" experience, we observed the following:\n74% more donors decided to give \"more than\" their MRC when in the treatment experience.These donors produced 86.5% more revenue when in the treatment experience than donors in the control experience.3x as many donors decided to make their largest gift ever through the treatment experience. And,This represented a 257% increase in revenue from the treatment segment who decided to give a gift to this campaign that was higher than their HPC value when compared to those in the control segment.\nAll of this is to say: When a donor is left to their own decision on how much to give, they often choose to give less than they could — so we should tell them exactly what we want them to give in this sort of way.\nIt is through this clarity that donors know exactly what they can do to help you (the organization).\nWith this in mind, further experimentation may be required through a longer or larger campaign, but it stands to reason that we're likely to see consistent results on future campaigns with rolling out this treatment experience moving forward.\nWhere possible, increase the clarity in how donors can contribute to the overall goal and make change in the world happen. Don't make them come up with what they should give, but rather ask them to do something that is attainable and within reach for them to contribute to success, and overall more donors will say yes.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15890,
+      "experimentId": "11578",
+      "title": "How emotive language affects donor conversion rate",
+      "date": "2020-10-30T22:04:56",
+      "url": "https://www.nextafter.com/experiments/how-emotive-language-affects-donor-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Advertising",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 2,
+      "lift": 225.3,
+      "confidence": 92.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.09%",
+            "lift": "225.3%",
+            "confidence": "92.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will emotive language cause more conversions, even without language proving credibility?",
+      "summary": "Ended On: 01/29/2019\nThe Leadership Institute has a plan for conservatives to take back college campuses by placing at least one conservative student group on every college in America. They wanted to know if stats that back up their credibility would gain more views on a page than using emotive language without supporting credibility. They decided to test it.",
+      "keyLearnings": "The results were 10 donations for the copy with emotive language versus 2 donations for the copy with language supporting credibility. Out of a sample size of 19,040, the relative difference in this conversion rate saw a 225.3% lift in revenue. The Leadership Institute should focus more on emotive language rather than numbers and stats.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16948,
+      "experimentId": "28674",
+      "title": "How inviting donors to contribute to a matching gift affects revenue",
+      "date": "2020-04-14T22:19:31",
+      "url": "https://www.nextafter.com/experiments/how-inviting-donors-to-contribute-to-a-matching-gift-affects-revenue/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 2,
+      "lift": 75,
+      "confidence": 94.4,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.43",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.76",
+            "lift": "75.0%",
+            "confidence": "94.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the opportunity to contribute to a matching gift affects conversion versus a traditional matching gift?",
+      "summary": "Ended On: 02/25/2020\nLeadership Institute was running a special “pre-Giving Tuesday” campaign as the initial part of their year-end campaign. The team wanted to test whether offering donors the opportunity to contribute to a matching gift would inspire more generosity, as opposed to a traditional matching gift as an incentive (as had traditionally been done). They developed two series of emails and split donors by previous giving amounts to run each through a three-email campaign leading up to Giving Tuesday to determine which approach resulted in more gifts and revenue.",
+      "keyLearnings": "In terms of conversion, there was no statistical difference between the two approaches. Given the same size of housefile recipients, the incentive to \"be the match\" did not get more people to give. However, a deeper look at the data showed that the \"be the match\" effort had a large, if not statistically significant effort on average gift size. This approach may have unlocked larger gifts due to the elevated importance it placed on the donor. Since many donors, especially those at LI, are trained to understand that matching gift sizes are usually $10,000+, there may have been a motivation to give more to join a \"larger giving group\". However, it should be noted that with only 114 gifts between the two campaigns, the sample size is relatively small. This approach (which is somewhat limited in its application abilities) should be tested with a larger sample size and a higher expected number of total gifts.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15912,
+      "experimentId": "10438",
+      "title": "How social validity impacts conversion",
+      "date": "2019-02-12T21:08:31",
+      "url": "https://www.nextafter.com/experiments/how-social-validity-impacts-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 2,
+      "lift": [
+        272.2,
+        558
+      ],
+      "confidence": 93,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.33%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "With Quote",
+            "metric": "1.2%",
+            "lift": "272.2%",
+            "confidence": "75.2%"
+          },
+          {
+            "code": "T2:",
+            "name": "With Quote (right aligned)",
+            "metric": "2.2%",
+            "lift": "558.0%",
+            "confidence": "93.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a quote from a trusted and famed source provide credibility to make others want to donate?",
+      "summary": "Timeframe: 01/15/2019 - 02/10/2019\nThe Leadership Institute has helped many political leaders. To prove their credibility, they wanted to see if including a quote from Vice President Mike Pence would increase conversion on their landing page. They tried a control page without the quote and image of Pence against two treatments: one with the quote and image along the bottom of the copy, and one with the quote and image, right-aligned in the copy.",
+      "keyLearnings": "While the experiment itself did not validate, the combinations of treatments 1 and 2 conclude that the use of a quote from someone favorable and familiar will increase donations. The Leadership Institute should place the validity quote of Vice President Mike Pence on the rest of their donation pages.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15788,
+      "experimentId": "11076",
+      "title": "How mentioning fundraising efforts in an email affects clicks",
+      "date": "2019-01-16T00:09:16",
+      "url": "https://www.nextafter.com/experiments/how-mentioning-fundraising-efforts-in-an-email-affects-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 2,
+      "lift": -57,
+      "confidence": 87.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "No mention of matching grant",
+            "metric": "6.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Mention of matching grant",
+            "metric": "2.9%",
+            "lift": "-57.0%",
+            "confidence": "87.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Does telling the reader exactly what they’re about to click on make an impact on clicks?",
+      "summary": "Timeframe: 07/08/2017 - 07/22/2017\nThe Leadership Institute ran a matching grant campaign to raise funds for field representatives to send to college campuses in the fall semester. They wanted to test their email copy to see if going into detail about the grant would inspire more people to give. They tested copy that did not mention the grant against copy that did mention the grant.",
+      "keyLearnings": "The email copy that did not mention the matching grant generated a 6.8% click rate, while the email copy that did mention the matching grant only generated a 2.9% click rate. The level of confidence is 87.3%, so the experiment can’t be validated — although it’s likely that with more samples, the test could validate in favor of the copy that did not mention the matching grant.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 21005,
+      "experimentId": "42744",
+      "title": "How the sender of cultivation emails during a campaign performed when soliciting for gifts",
+      "date": "2021-11-02T14:38:51",
+      "url": "https://www.nextafter.com/experiments/how-the-sender-of-cultivation-emails-during-a-campaign-performed-when-soliciting-for-gifts-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "cultivation",
+        "email",
+        "email sender"
+      ],
+      "tier": 3,
+      "lift": -12.3,
+      "confidence": 61.1,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$1.05",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.92",
+            "lift": "-12.3%",
+            "confidence": "61.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that the sender of cultivation emails during a campaign for campaign recipients will achieve increased revenue.",
+      "summary": "Ended On: 01/06/2021\nThe Leadership Institute decided to experiment with adding donor stories on top of their regularly scheduled calendar year-end campaign email appeal schedule to experiment with whether or not it inspired more people to give at all or increased generosity from those that saw the donor story emails.\nAs the second part of this year-end experiment, we were interested to learn whether the second sender (who sent the donor stories) would increase the donor conversion rate and/or revenue when soliciting gifts from the treatment segment (that saw the donor stories) over that of the control segment (that did not).",
+      "keyLearnings": "With a 61.1% level of confidence, we observed a -12.3% decrease in revenue.\n\nSimilarly, we only observed with a 48.7% level of confidence a -13.6% decrease in donor conversion rate, as well.\n\nUltimately, we were unable to validate either metric through this experiment and further experimentation may be required.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 21003,
+      "experimentId": "42741",
+      "title": "How adding donor cultivation stories on top of a campaign appeal schedule of emails impacted revenue",
+      "date": "2021-11-02T14:31:22",
+      "url": "https://www.nextafter.com/experiments/how-adding-donor-cultivation-stories-on-top-of-a-campaign-appeal-schedule-of-emails-impacted-revenue-3/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "cultivation",
+        "email"
+      ],
+      "tier": 3,
+      "lift": -1.9,
+      "confidence": 53.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$2.40",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$2.35",
+            "lift": "-1.9%",
+            "confidence": "53.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending donor stories for year-end campaign recipients will achieve increased revenue.",
+      "summary": "Timeframe: 12/10/2020 - 01/02/2021\nThe Leadership Institute decided to experiment with adding donor stories on top of their regularly scheduled calendar year-end campaign email appeal schedule to experiment with whether or not it inspired more people to give at all or increased generosity from those that saw the donor story emails.\nTo administer the test, we evenly split the file based upon (a) donor vs. non-donor statuses, (b) the donor’s highest previous contribution tier, (c) how long the person was on the email file, and finally (d) whether or not they were currently considered “engaged” or “disengaged” from the email program (where “engaged” was whether or not they had opened any of the last 10 emails that we had sent to them before splitting the email file evenly for this experiment).\nThe donor stories were sent from a “secondary sender” for the organization—someone who was planned to be used in two of the year-end campaign messages.\nFinally, to ensure that the samples within the study are accurate, we looked at unique individual emails for both segments that received any year-end email (including the “donor story” emails for the treatment segment)",
+      "keyLearnings": "With only a 53.7% level of confidence, we observed that the treatment segment did not increase revenue in any significant way.\n\nAlthough this treatment segment saw a decrease in the donor conversion rate of -23.2% (with a valid level of confidence of 99.4%) however, we don't believe that the additional donor story emails drove the decrease in donor conversion rate.\n\nWe did notice, however, that there was a +27.8% average gift value for those donors that did decide to give from the treatment segment over that of those in the control segment (who did not receive the donor stories).\n\nFurther experimentation should be considered with this approach.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 18835,
+      "experimentId": "56064",
+      "title": "How changing the value prop to focus more on the speaker affects conversion rate",
+      "date": "2021-08-24T15:30:17",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-value-prop-to-focus-more-on-the-speaker-affects-conversion-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "body copy",
+        "landing page",
+        "Value Proposition"
+      ],
+      "tier": 3,
+      "lift": 14.9,
+      "confidence": 30.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "3.5%",
+            "lift": "14.9%",
+            "confidence": "30.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding copy around Ted Cruz for those that visit the page will achieve a increase in conversion rate .",
+      "summary": "Timeframe: 03/30/2021 - 05/01/2021\nThis experiment was run on the registration page of their WWCB that was promoted on both Facebook and in email prospecting. The control copy focused more on the WWCB event itself with special guest Ted Cruz. With the Treatment copy, we focused more on Ted Cruz and specifically what he was going to be talking about on the call.\nThe thought behind this is people would be more interested and it would have more pull if we talked about what Ted Cruz would be discussing during the WWCB rather than talking about the event itself which happens every week.",
+      "keyLearnings": "While this did not validate we did see a 15% increase in conversion rate. The control saw a 3.1% conversion rate while the treatment saw a 3.5% instant conversion rate.\n\nBy focusing on Ted Cruz specifically and adding a bullet point list of what he was going to cover and talk about during the WWCB event we saw it lead to an increase in conversion rate and revenue as a whole. We will test this value prop again for future registrations to see if we continue to see similar results and if this will validate.\n\n \n\nObservations of the impact on other visitor segments in the experiment:\n25-34 visitors had a 100.0% decrease in donations with an 87% level of confidence.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17673,
+      "experimentId": null,
+      "title": "How adding donor cultivation stories on top of a campaign appeal schedule of emails impacted revenue",
+      "date": "2021-06-22T13:45:43",
+      "url": "https://www.nextafter.com/experiments/how-adding-donor-cultivation-stories-on-top-of-a-campaign-appeal-schedule-of-emails-impacted-revenue-2/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -1.9,
+      "confidence": 53.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$2.40",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$2.35",
+            "lift": "-1.9%",
+            "confidence": "53.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending donor stories for year-end campaign recipients will achieve increase revenue.",
+      "summary": "Timeframe: 12/10/2020 - 01/02/2021\nThe Leadership Institute decided to experiment with adding donor stories on top of their regularly scheduled calendar year-end campaign email appeal schedule to experiment with whether or not it inspired more people to give at all or increased generosity from those that saw the donor story emails.\nTo administer the test, we evenly split the file based upon (a) donor vs. non-donor statuses, (b) the donor’s highest previous contribution tier, (c) how long the person was on the email file, and finally (d) whether or not they were currently considered “engaged” or “disengaged” from the email program (where “engaged” was whether or not they had opened any of the last 10 emails that we had sent to them before splitting the email file evenly for this experiment).\nThe donor stories were sent from a “secondary sender” for the organization—someone who was planned to be used in two of the year-end campaign messages.\nFinally, to ensure that the samples within the study are accurate, we looked at unique individual emails for both segments that received any year-end email (including the “donor story” emails for the treatment segment)",
+      "keyLearnings": "With only a 53.7% level of confidence, we observed that the treatment segment did not increase revenue in any significant way.\n\nAlthough this treatment segment saw a decrease in the donor conversion rate of -23.2% (with a valid level of confidence of 99.4%) however, we don't believe that the additional donor story emails drove the decrease in donor conversion rate.\n\nWe did notice, however, that there was a +27.8% average gift value for those donors that did decide to give from the treatment segment over that of those in the control segment (who did not receive the donor stories).\n\nFurther experimentation should be considered with this approach.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17671,
+      "experimentId": "42741",
+      "title": "How adding donor cultivation stories on top of a campaign appeal schedule of emails impacted revenue",
+      "date": "2021-06-22T13:22:26",
+      "url": "https://www.nextafter.com/experiments/how-adding-donor-cultivation-stories-on-top-of-a-campaign-appeal-schedule-of-emails-impacted-revenue/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -1.9,
+      "confidence": 53.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$2.40",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$2.35",
+            "lift": "-1.9%",
+            "confidence": "53.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending donor stories for year-end campaign recipients will achieve increase revenue.",
+      "summary": "Timeframe: 12/10/2020 - 01/02/2021\nThe Leadership Institute decided to experiment with adding donor stories on top of their regularly scheduled calendar year-end campaign email appeal schedule to experiment with whether or not it inspired more people to give at all or increased generosity from those that saw the donor story emails.\nTo administer the test, we evenly split the file based upon (a) donor vs. non-donor statuses, (b) the donor’s highest previous contribution tier, (c) how long the person was on the email file, and finally (d) whether or not they were currently considered “engaged” or “disengaged” from the email program (where “engaged” was whether or not they had opened any of the last 10 emails that we had sent to them before splitting the email file evenly for this experiment).\nThe donor stories were sent from a “secondary sender” for the organization—someone who was planned to be used in two of the year-end campaign messages.\nFinally, to ensure that the samples within the study are accurate, we looked at unique individual emails for both segments that received any year-end email (including the “donor story” emails for the treatment segment)",
+      "keyLearnings": "With only a 53.7% level of confidence, we observed that the treatment segment did not increase revenue in any significant way.\n\nAlthough this treatment segment saw a decrease in the donor conversion rate of -23.2% (with a valid level of confidence of 99.4%) however, we don't believe that the additional donor story emails drove the decrease in donor conversion rate.\n\nWe did notice, however, that there was a +27.8% average gift value for those donors that did decide to give from the treatment segment over that of those in the control segment (who did not receive the donor stories).\n\nFurther experimentation should be considered with this approach.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17674,
+      "experimentId": null,
+      "title": "How the sender of cultivation emails during a campaign performed when soliciting for gifts",
+      "date": "2021-01-08T16:26:00",
+      "url": "https://www.nextafter.com/experiments/how-the-sender-of-cultivation-emails-during-a-campaign-performed-when-soliciting-for-gifts/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -12.3,
+      "confidence": 61.1,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$1.05",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.92",
+            "lift": "-12.3%",
+            "confidence": "61.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that the sender of cultivation emails during a campaign for campaign recipients will achieve increase revenue.",
+      "summary": "Ended On: 01/06/2021\nThe Leadership Institute decided to experiment with adding donor stories on top of their regularly scheduled calendar year-end campaign email appeal schedule to experiment with whether or not it inspired more people to give at all or increased generosity from those that saw the donor story emails.\nAs the second part of this year-end experiment, we were interested to learn whether the second sender (who sent the donor stories) would increase the donor conversion rate and/or revenue when soliciting gifts from the treatment segment (that saw the donor stories) over that of the control segment (that did not).",
+      "keyLearnings": "With a 61.1% level of confidence, we observed a -12.3% decrease in revenue.\n\nSimilarly, we only observed with a 48.7% level of confidence a -13.6% decrease in donor conversion rate, as well.\n\nUltimately, we were unable to validate either metric through this experiment and further experimentation may be required.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15592,
+      "experimentId": "10175",
+      "title": "How including a hot button issue in the subject line affects open rate",
+      "date": "2020-10-31T12:54:23",
+      "url": "https://www.nextafter.com/experiments/how-including-a-hot-button-issue-in-the-subject-line-affects-open-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 3,
+      "lift": -2.6,
+      "confidence": 64.4,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "The one percent at UM-Amherst",
+            "metric": "20.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Free speech at UM-Amherst",
+            "metric": "19.9%",
+            "lift": "-2.6%",
+            "confidence": "64.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will mentioning free speech in the subject line improve the open rate of the email?",
+      "summary": "Timeframe: 07/13/2018 - 07/14/2018\nThe Leadership Institute works with college students to help defend their free speech on campus. They wanted to see if including hot button terms like “free speech” and “the one percent” in the subject line would affect open rates. Their hypothesis was that the subject line about free speech would generate more opens.",
+      "keyLearnings": "The open rates for each email were no more than .4% deviations away from 20%. This experiment was not conclusive. It’s likely that the hot button issues did not affect open rate as much due to the specified name of the school in the subject line. A further experiment without a specified name may render desired results to confidently conclude this experiment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16945,
+      "experimentId": "20020",
+      "title": "How inviting donors to contribute to a matching gift affects conversion",
+      "date": "2020-03-26T21:25:04",
+      "url": "https://www.nextafter.com/experiments/how-inviting-donors-to-contribute-to-a-matching-gift-affects-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 3,
+      "lift": -3,
+      "confidence": 13,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Direct Ask",
+            "metric": "0.35%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Match Builder",
+            "metric": "0.34%",
+            "lift": "-3.0%",
+            "confidence": "13.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the opportunity to contribute to a matching gift affects conversion versus a traditional matching gift?",
+      "summary": "Ended On: 02/25/2020\nLeadership Institute was running a special “pre-Giving Tuesday” campaign as the initial part of their year-end campaign. The team wanted to test whether offering donors the opportunity to contribute to a matching gift would inspire more generosity, as opposed to a traditional matching gift as an incentive (as had traditionally been done). They developed two series of emails and split donors by previous giving amounts to run each through a three-email campaign leading up to Giving Tuesday to determine which approach resulted in more gifts and revenue.",
+      "keyLearnings": "In terms of conversion, there was no statistical difference between the two approaches. Given the same size of housefile recipients, the incentive to “be the match” did not get more people to give.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 16521,
+      "experimentId": "17150",
+      "title": "How consistency between the call-to-action and the body copy affects donations",
+      "date": "2019-08-16T14:17:32",
+      "url": "https://www.nextafter.com/experiments/how-consistency-between-the-call-to-action-and-the-body-copy-affects-donations/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 42.5,
+      "confidence": 58.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.52%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Expose",
+            "metric": "0.74%",
+            "lift": "42.5%",
+            "confidence": "58.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will consistent messaging of the value prop increase donations?",
+      "summary": "Timeframe: 06/14/2019 - 07/21/2019\nThe Leadership Institute’s campus newsite CampusReform.org is proven to be major point of interest for donors and prospective donors. The Leadership Institute wanted to run a test to optimize the Campus Reform donation page. They wondered: will consistency between the call-to-action and the body copy using the word “expose” and a concentrated message of the value prop increase donations? They hypothesized that it would.",
+      "keyLearnings": "The treatment version of the donation page with concentrated copy led to a 42.5% increase in conversion rate. This experiment did not validate due to the small sample size and number of conversions. It appears that people prefer a more concise message that is consistent throughout the page. The Leadership Institute decided to roll out the winner of this experiment.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15595,
+      "experimentId": "10186",
+      "title": "How a condensed version of a direct mail letter performs against a long version",
+      "date": "2019-01-16T16:29:05",
+      "url": "https://www.nextafter.com/experiments/how-a-condensed-version-of-a-direct-mail-letter-affects-clicks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": -8.4,
+      "confidence": 32.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Fight \"Fake News\" and Stop Campus Indoctrination (short)",
+            "metric": "0.41%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Fight \"Fake News\" and Stop Campus Indoctrination (long)",
+            "metric": "0.37%",
+            "lift": "-8.4%",
+            "confidence": "32.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will long or short copy result in a greater amount of clicks?",
+      "summary": "Timeframe: 05/01/2018 - 05/01/2018\nThe Leadership Institute sends out a 7-12 page direct mail letter each month to its housefile list. They wanted to see if sending that same letter, digitally, would have an impact on clicks. They wrote a condensed version of the long letter to test against the original. Their hypothesis was that the condensed version would generate more clicks than the long version. They did not remove Word formatting for the long version.",
+      "keyLearnings": "There was only a .04% difference in click rate between the two versions. There was insufficient data to determine if longer or shorter copy was more effective.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15589,
+      "experimentId": "10162",
+      "title": "How different colored CTA buttons affect conversion",
+      "date": "2019-01-14T22:50:43",
+      "url": "https://www.nextafter.com/experiments/how-different-colored-buttons-affected-conversion/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 18.8,
+      "confidence": 32.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Orange CTA on CampusWire",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Blue CTA on CampusWire",
+            "metric": "0.04%",
+            "lift": "18.8%",
+            "confidence": "32.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Does the color of the CampusWire CTA button affect the number of people who click on the CTA?",
+      "summary": "Timeframe: 08/22/2018 - 09/07/2018\nThe Leadership Institute’s Campus Reform daily email, CampusWire, is sent from a template with bullet point lists of news stories. This email is a direct copy of what is sent each morning at 5am to major news outlets across the country. At the end of each email is a CTA button which leads to a donation page. They wanted to test different background colors on the CTA button because they didn’t want to deviate too far from the original template. They decided to test an orange button against the original blue button, and looked for the number of clicks on the CTA button itself rather than click through rate on the email, since there are several links in each email. The images below are just one of many emails that were sent during the experiment time frame. They hypothesized that the colors would make no real difference.",
+      "keyLearnings": "With a .03% and .04% conversion rate on the CTA buttons, no real winner can be determined from this experiment when measuring only clicks. However, when comparing the number of clicks to the click through rate for each of the emails, the blue button did receive 35% more clicks with a 95% confidence rate. See the file “Test for CTA color on CampusWire stats” for details (https://docs.google.com/spreadsheets/d/1nFI5H606QoeCdA3Kql90NftVcw02kIFXW4dWpzJvOqA/edit#gid=1283200889). Going forward, the Leadership Institute will use a blue background on the CTA for CampusWire.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15251,
+      "experimentId": "9333",
+      "title": "How personal asks perform against persuasive asks",
+      "date": "2018-08-08T22:04:20",
+      "url": "https://www.nextafter.com/experiments/how-personal-asks-perform-against-persuasive-asks/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 108.8,
+      "confidence": 78.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Persuasive ask",
+            "metric": "1.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal ask",
+            "metric": "2.1%",
+            "lift": "108.8%",
+            "confidence": "78.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a personal ask outperform a persuasive ask?",
+      "summary": "Ended On: 07/31/2018\nLeadership Institute was sending an appeal email to people who had donated to a matching gift campaign the previous year. They were curious whether these people, who had already absorbed and responded to the value proposition a year earlier, would need to be re-persuaded—or if a more personal request from an LI staff member would be more effective.\nThey had a control that sought to persuade through a story of impact, followed by an ask. They developed a personal treatment that very simply reminded the recipient that they had given last year, the need was still there, and requested a gift again this year. Though there was a small sample size to begin with, they launched a split test to see if they could validate a winner.",
+      "keyLearnings": "The sample size was too small to validate, but the treatment delivered twice as many gifts as the control. This needs to be tested with a larger sample size, which means that the copy will need to be adjusted to include non-donors. However, this experiment does deliver a directional learning that can be tested with future donor-specific segments.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15131,
+      "experimentId": "9153",
+      "title": "How value proposition copy affects clicks on a donate button in an email",
+      "date": "2018-06-29T13:58:31",
+      "url": "https://www.nextafter.com/experiments/how-value-proposition-copy-affects-clicks-on-a-donate-button-in-an-email/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -20,
+      "confidence": 36.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Button only",
+            "metric": "0.03%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Value Proposition",
+            "metric": "0.02%",
+            "lift": "-20.0%",
+            "confidence": "36.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How will the additional value proposition copy affect clickthrough rate?",
+      "summary": "Ended On: 06/19/2018\nLeadership Institute sent a daily email called CampusWire, updating their audience about developments through their campus network. At the bottom of the email, they had a simple button that asked the reader to support CampusReform. While this did produce donors, they wondered if adding value proposition to the button would increase clickthrough rate and thus increase donation page traffic. They crafted a treatment and sent it to half of the file for several weeks to see if it would increase conversion.",
+      "keyLearnings": "After several weeks, there was no statistical difference between the two treatments. Clickthrough rate overall was low, since this is at the bottom of an email designed to get people to click through to the site, but it showed that the additional value proposition was not significantly increasing motivation—which suggests that readers were already motivated to give just through the content.\nThis experiment deserves further review to see if donation page conversion improved. It also suggests that fundraising might increase if this value proposition was broken out into its own email, away from the context.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15106,
+      "experimentId": "9123",
+      "title": "How increasing the force of the value proposition affects conversion on an “instant” donation page",
+      "date": "2018-06-29T13:48:04",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-force-of-the-value-proposition-affects-conversion-on-an-instant-donation-page/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 97.5,
+      "confidence": 76.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased Value Prop",
+            "metric": "2.5%",
+            "lift": "97.5%",
+            "confidence": "76.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will optimizing the value proposition on the donation page affect conversion?",
+      "summary": "Timeframe: 05/17/2018 - 06/22/2018\nLeadership Institute offered a free online video course, Conservatism 101 that they promoted through Facebook, hoping to use it to acquire prospects and turn them into donors. After users signed up, they were presented with a thank you page that asked for a donation. While this page had a conversion rate above 1%, which was the low side of the benchmark, they believed they could improve it through testing and optimization. They created a second donation page that took a more emotional tone.\nThe initial page went from the thank you message directly into tactical copy about how the course was delivered and why it was created. They reduced this “tactical” copy on the page in order to move more quickly into “why” the course was created, and the context of how it is currently taught on college campuses. The new copy tried to cast a vision for the course, and made a direct ask (in the form of a question) to fund it, finishing with a quantified ask of how $50 will help. Then, it preemptively thanked the donor before they made their gift. They launched an A/B test to determine which page delivered a better conversion rate.",
+      "keyLearnings": "The second page produced a 97.5% lift, though the results were not statistically valid because of reduced media spend and low sample size. However, since a 75% level of confidence was reached, they felt the risk was mitigated to roll this out as the winner, increase the media spend, and develop a new treatment on top of this learning.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15019,
+      "experimentId": "8993",
+      "title": "How a radical redesign of an in-site ask affected clickthrough rate",
+      "date": "2018-05-15T18:11:38",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-redesign-of-an-in-site-ask-affected-clickthrough-rate/",
+      "organization": "Leadership Institute",
+      "categoryNames": [
+        "Leadership Institute"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": -8.1,
+      "confidence": 51.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.11%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.10%",
+            "lift": "-8.1%",
+            "confidence": "51.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a radical redesign of an end-of-article call-to-action affect clickthrough rate?",
+      "summary": "Timeframe: 05/01/2018 - 05/15/2018\nLeadership Institute had seen a large jump in donation traffic through the implementation of an end-of-article call-to-action on their CampusReform website. They wanted to test to see if improved copy and layout could increase clickthrough rate from the site and hopefully increase overall donation revenue. They created a treatment that added increased persuasive copy, a third-party quote, and statistics to bolster the value proposition. They also made a softer ask in the button, asking the reader to “learn more” rather than “support Campus Reform now”",
+      "keyLearnings": "Ultimately, there was no valid difference in clickthrough rate. After receiving several hundred impressions per CTA, the treatment showed a slight decrease in clickthroughs, but nowhere near validity. The team went back to the drawing board to try to find something more radical that would positively increase clicks.",
+      "fluxMetrics": null
+    }
+  ]
+}

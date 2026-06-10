@@ -1,0 +1,2056 @@
+{
+  "name": "Compassion International",
+  "total": 47,
+  "tierBreakdown": {
+    "valid": 38,
+    "directional": 3,
+    "inconclusive": 6
+  },
+  "experiments": [
+    {
+      "id": 29597,
+      "experimentId": "49906",
+      "title": "How minimized navigation and design affects conversion",
+      "date": "2022-08-15T17:07:24",
+      "url": "https://www.nextafter.com/experiments/how-minimized-navigation-and-design-affects-conversion-2/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion",
+        "landing page"
+      ],
+      "tier": 1,
+      "lift": -36.9,
+      "confidence": 98.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "0.84%",
+            "lift": "-36.9%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a stripped down page for birthday searchers will achieve an increase in sponsor conversion.",
+      "summary": "Timeframe: 02/04/2021 - 02/16/2021\nCompassion International had found “birthday search” to be a compelling offer for new donor acquisition. For many years, they had leveraged a stripped down page to present this offer, with confetti and a headline that gave the visitor a reason to give. However, they had never tested this against a similar landing page experience that lived within the general Compassion design. They wanted to understand whether the old template, which was outside of current brand standards, was worth keeping up. They decided to test this through an A/B test.",
+      "keyLearnings": "The treatment, with the stripped down navigation (which removed the Compassion \"login\" link), produced a 36.9% decrease in conversion. However, it's important to understand exactly what happened here, as there were two different responses based on the device type.\nFirst, mobile visitors had a 45.0% decrease in conversion - with a 100% level of confidence. Since most of the traffic was mobile, this was the deciding factor in the test. However, desktop traffic had a 235.8% increase in conversion - with a 94% level of confidence.\nThis shows that different designs can produce opposite results with the same page—which stresses the importance of responsive design. It also may hint that something was wrong with the mobile version of the treatment that might be corrected to produce a similar result.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 36.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20540,
+      "experimentId": "68084",
+      "title": "How reinforcing need on a child sponsorship page affects conversion rate",
+      "date": "2021-09-02T21:10:56",
+      "url": "https://www.nextafter.com/experiments/how-reinforcing-need-on-a-child-sponsorship-page-affects-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Advertising",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 48.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "6.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "8.9%",
+            "lift": "48.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that reinforcing the element of need for Facebook visitors will achieve an increase in completed sponsorships.",
+      "summary": "Timeframe: 07/22/2021 - 08/27/2021\nCompassion International was testing their top performing offer funnels, among which was “Recently Lost Sponsor”. One thing they noticed as they went through the funnel was that the key value proposition from the advertisement—lost sponsor—was missing once you got to the child’s biography page. They hypothesized that reinforcing that fact with a callout on the biography page would increase conversion rate.\nThey launched a simple test to fire a red banner with this fact on all traffic that came through the “lost sponsor” campaign.",
+      "keyLearnings": "The treatment produced a statistically valid 48% increase in \"adds to cart\", or children who had the \"sponsor me and checkout\" button clicked, which starts the checkout process.\n\nHowever, there was only a 21% directional increase in children sponsored, with 51% Level of Confidence. This finding highlights that there may be some issue with the \"checkout\" process, as this and other tests have shown that similar accelerations in clickthrough rate and adds to cart do not result in more completed sponsorships.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 48.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20477,
+      "experimentId": "69624",
+      "title": "How removing the child biography step from the birthday search process affects child sponsorship conversion",
+      "date": "2021-08-24T15:04:48",
+      "url": "https://www.nextafter.com/experiments/how-removing-the-child-biography-step-from-the-birthday-search-process-affects-child-sponsorship-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -46.6,
+      "confidence": 97.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "1.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "0.54%",
+            "lift": "-46.6%",
+            "confidence": "97.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that taking users straight to the cart page for people who click the main CTA will achieve an increase in completed sponsorships.",
+      "summary": "Timeframe: 08/17/2021 - 08/23/2021\nThe Compassion team had run an experiment that showed that reminding a user who comes through their birthday search funnel of the shared birthday could get more people to click the main call-to-action on that page, which said “sponsor me”. However, these additional CTA clicks did not translate into more sponsorships, because the funnel conversion metrics seemed to slow down significantly after that click. One hypothesis as to why was that after clicking “sponsor me”, the user was taken to the child’s biography page, rather than to the checkout page. The team hypothesized that there was a lack of agreement between the CTA and the expected next action.\nTo test this, the team set both the control and the treatment to have the “reminder” copy on the search results page. Then, half the traffic went straight to the cart when they clicked the button, and half the traffic went to the child biography page instead.\nThey launched the test to determine a winner.",
+      "keyLearnings": "The treatment, which went directly to the cart (or beginning of the checkout process), reduced conversion rate to sponsorship by 46.6%. This suggests that people who click the main CTA might not be\n\nHowever, a review of the creative shows that the initial callout and copy on the search results page was not instituted in the experiment, which means that it should be run again with that integrated.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 46.6% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 20036,
+      "experimentId": "68449",
+      "title": "How strengthening contextual orientation and reinforcement affects clickthrough rate",
+      "date": "2021-08-05T19:20:37",
+      "url": "https://www.nextafter.com/experiments/how-strengthening-contextual-orientation-and-reinforcement-affects-clickthrough-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 26.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "8.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "11.2%",
+            "lift": "26.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that strengthening contextual orientation and adding reinforcement language for birthday search prospects will achieve an increase in completed sponsorships.",
+      "summary": "Timeframe: 07/22/2021 - 08/04/2021\nCompassion had been running “birthday search” as an offer leading to sponsorship for more than a year, allowing potential sponsors to search for a child who shares their birthday. To find a child, the user put their birthday into a search widget and then arrived on a “search results” page. Originally, this page had very little context, making it difficult to understand if the child you were looking at shared your birthday. However, this was optimized by pulling one child to the top and showing that the child’s birthday in the headline.\nThe team wanted to continue to optimize this funnel. When looking at it from the donor’s perspective, they realized that just showing the date might not be enough—they wanted to reinforce that it was the same date the user had put into the widget on the previous page. They added a small, multicolored banner that said “we share the same birthday!” This would serve two purposes: first, it would contextually orient the user to the page, letting them know that they are on the logical next step after the birthday search widget. Second, it would provide reinforcement that this was the right child for them, as it said in words what the date callout also said.",
+      "keyLearnings": "The treatment page produced a 25.8% increase in clickthrough rate on the \"sponsor me\" CTA. Most of the traffic was mobile, which had a 24% increase in clickthrough rate, but desktop had a much larger impact, with a 103% increase in clickthrough rate on the main CTA.\nThis showed that contextual orientation and reinforcement has a big impact on getting prospective donors to take the next step in the funnel. However—looking down the funnel, there was actually a slight decrease in adds to cart and absolutely no difference in completed sponsorships.\nThis brings up two potential hypotheses: first, that when the user clicks \"sponsor me\", they are expecting to go to the cart page, instead of the child's biography page. This should be tested next—sending the \"sponsor me\" straight to the populated cart.\nThe other hypothesis, should this test not validate, is that the contextual orientation is lost once the user arrives on the child biography page, and that reinforcing the shared birthday on that page would lead to an increase in adds to cart.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.3% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17748,
+      "experimentId": "53853",
+      "title": "How clarifying the value proposition affects clickthrough rate",
+      "date": "2021-06-22T13:42:49",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-the-value-proposition-affects-clickthrough-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Advertising",
+        "body copy",
+        "Value Proposition"
+      ],
+      "tier": 1,
+      "lift": 134.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.18%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.43%",
+            "lift": "134.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that clarifying the value proposition for Facebook users will achieve an increase in clickthrough rate.",
+      "summary": "Ended On: 03/04/2021\nCompassion International was running ad to drive traffic to a campaign that offered users the ability to round up their purchases and donate the marginal “change”. The original campaign copy started with a high-level value proposition—”Poverty is complex. Generosity can be simple”. Then, it offered the user the chance to join millions of others who are donating change, and then explained the concept of RoundUp without naming the brand.\nThe team hypothesized that clarifying the value proposition by:\ncreating an ad that spoke more directly to the user on a 1:1 basis,\nAND informed them of the impact they could personally make, \nAND connected the impact to a specific child, rather than a cause,\nalong with a “preview” of the brand name (RoundUp)\n…would attract more clicks. They decided to test this with an ad in Facebook.",
+      "keyLearnings": "The treatment ad produced a 134.2% increase in clickthrough rate—which showed that the clarified value proposition was more likely to attract a click than the control ad.\nHowever—since all clicks are not created equal, downstream conversions (initial signups and \"added credit cards\") must also be validated to make sure that these clicks are equally motivated as the control group.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n134.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 19467,
+      "experimentId": "63208",
+      "title": "The effect copy length and audience-specific language has on a Facebook Ad",
+      "date": "2021-06-14T14:54:06",
+      "url": "https://www.nextafter.com/experiments/the-effect-copy-length-and-audience-specific-language-has-on-a-facebook-ad/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "body copy",
+        "Facebook"
+      ],
+      "tier": 1,
+      "lift": [
+        -87.5,
+        -26
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.00%",
+            "lift": "-87.5%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Treatment #2",
+            "metric": "0.00%",
+            "lift": "-26.0%",
+            "confidence": "43.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that by providing more clarity in ad copy for Facebook audiences will achieve an increase in donations.",
+      "summary": "Ended On: 06/04/2021\nCompassion’s “Birthday Next Month” offer was not performing well in Facebook. The control ad is longer in length in order to further explain the value proposition. In order to increase conversion rate, we wanted to test the language used on the ad.\nIn Treatment 1, shorter copy was used in order to allow the reader to quickly understand the CTA.\nIn Treatment 2, we personalized the ad experience by speaking to the reader as someone who already sponsors a child (to a list of sponsors). Both ad treatments are intended to provide more clarity to the end user.",
+      "keyLearnings": "We found that the treatments did not result in a lift in conversion rate. While the second treatment did not validate, the first treatment (shorter copy), resulted in a 87.5% decrease in conversion rate.\nWe can ascertain that while shorter copy can make the CTA clearer, it does not lead to a higher conversion rate. This suggests that the expansion of the value proposition copy is necessary to the conversion, at least in this case.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 87.5% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17600,
+      "experimentId": null,
+      "title": "How increasing the perceived value of a generous donation affects donor conversion",
+      "date": "2021-06-14T14:34:47",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-perceived-value-of-a-generous-donation-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Advertising",
+        "body copy",
+        "Copywriting",
+        "Facebook",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -54.4,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.00%",
+            "lift": "-54.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that increasing the perceived value of a generous donation for Facebook visitors will achieve an increase in conversion rate.",
+      "summary": "Ended On: 02/19/2021\nCompassion International had run a “find a child who shares your birthday” offer that had been very successful at converting Facebook visitors to donors by introducing a step in the funnel that hyper-personalized the results. The team wanted to test new copy that heightened the donor’s desire to do something impactful by showing the downside of not doing something impactful. The new copy in the ad implored the reader to do something that mattered, and helped unpack the benefit not only for the child, but also for the sponsor themselves.\nThey tested this on Facebook through a Facebook experiment.",
+      "keyLearnings": "The treatment produced a 54% decrease in conversion rate, which indicated that the new ad may have been too theoretical and less response-driving. While increasing the perceived value of what the donor is doing has proven to help along the rest of the funnel, this experiment shows that it may be too much to think about in a low-commitment phase of engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 54.4% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17668,
+      "experimentId": null,
+      "title": "How more direct button copy affects checkout rate",
+      "date": "2021-06-14T14:25:32",
+      "url": "https://www.nextafter.com/experiments/how-more-direct-button-copy-affects-checkout-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "body copy",
+        "sponsorship"
+      ],
+      "tier": 1,
+      "lift": 9.7,
+      "confidence": 97.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "6.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "6.9%",
+            "lift": "9.7%",
+            "confidence": "97.2%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that using direct button copy for prospective sponsors will achieve an increase in completed sponsorships.",
+      "summary": "Ended On: 01/18/2021\nCompassion International sent visitors to a “child bio” page as part of their sponsorship process. In previous testing, this additional step helped provide more information and resulted in more completed sponsorships than immediately beginning the checkout process. However, they still had a large amount of people who added a child to their “cart” but did not complete the sponsorship process. The team hypothesized that the button copy might be a good place to start. The current copy said “Select this child”, which was what the organization wanted the visitor to do. However, they hypothesized that this indirect copy might not give the visitor enough information about what was next—the checkout process. They changed the button copy to “Sponsor this child and check out” to give a sense of a “finish line” and launched a test to determine a winner.",
+      "keyLearnings": "The treatment produced a 9.7% increase in completed sponsorships, which indicated that this sort of copy gave the user more of a \"finish line in sight\". This new copy also provided a \"micro-commitment\" that gave the clicker some sort of obligation to follow through, where the previous copy, \"Select this child\", left the final step a bit less certain.\n\nFuture testing will revolve around increasing the value proposition to sponsor this child. Now that the micro-commitment results in more completed transactions, they need to get more people clicking that button.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 9.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17624,
+      "experimentId": "49906",
+      "title": "How minimized navigation and design affects conversion",
+      "date": "2021-06-10T17:53:58",
+      "url": "https://www.nextafter.com/experiments/how-minimized-navigation-and-design-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "design",
+        "donation page",
+        "Donation Pages",
+        "headline",
+        "layout"
+      ],
+      "tier": 1,
+      "lift": -36.9,
+      "confidence": 98.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "1.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "0.84%",
+            "lift": "-36.9%",
+            "confidence": "98.8%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a stripped down page for birthday searchers will achieve an increase in sponsor conversion.",
+      "summary": "Timeframe: 02/04/2021 - 02/16/2021\nCompassion International had found “birthday search” to be a compelling offer for new donor acquisition. For many years, they had leveraged a stripped down page to present this offer, with confetti and a headline that gave the visitor a reason to give. However, they had never tested this against a similar landing page experience that lived within the general Compassion design. They wanted to understand whether the old template, which was outside of current brand standards, was worth keeping up. They decided to test this through an A/B test.",
+      "keyLearnings": "The treatment, with the stripped down navigation (which removed the Compassion \"login\" link), produced a 36.9% decrease in conversion. However, it's important to understand exactly what happened here, as there were two different responses based on the device type.\n\nFirst, mobile visitors had a 45.0% decrease in conversion - with a 100% level of confidence. Since most of the traffic was mobile, this was the deciding factor in the test. However, desktop traffic had a 235.8% increase in conversion - with a 94% level of confidence.\n\nThis shows that different designs can produce opposite results with the same page—which stresses the importance of responsive design. It also may hint that something was wrong with the mobile version of the treatment that might be corrected to produce a similar result.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 36.9% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17873,
+      "experimentId": "2639",
+      "title": "How adding specificity and urgency affects clickthrough rate",
+      "date": "2021-06-07T22:04:20",
+      "url": "https://www.nextafter.com/experiments/how-adding-specificity-and-urgency-affects-clickthrough-rate-2/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Email Fundraising | Call-to-Action",
+        "Facebook"
+      ],
+      "tier": 1,
+      "lift": 233.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.39%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased specificity and urgency",
+            "metric": "1.3%",
+            "lift": "233.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing specificity and urgency in the call-to-action increase clickthrough rate and conversion rate?",
+      "summary": "Timeframe: 10/22/2017 - 10/24/2017\nCompassion International served Facebook ads to people who had browsed their site that showed them dynamically generated ads based on the children they had viewed. While results were positive for the campaign, they wanted to see if they could increase clickthrough rate and conversion rate by adding specificity to the ads.\nThey created a treatment that was identical to the first ad with one small change—in the call-to-action, instead of “Sponsor a child today”, they changed the copy to “Sponsor this child right now” to increase specificity and urgency.\nThey launched an experiment to determine a winner.",
+      "keyLearnings": "The treatment produced a 233.4% lift in clickthrough rate, but resulted in fewer downstream conversions (though this data was not valid). This suggests that while the ad might increase user motivation to click, something on the following landing page is not aligning with that motivation and is causing cognitive friction in the mind of the prospective sponsor. This shows that the experiment needs more data and possibly downstream conversion testing to discover what is causing the depression in conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n233.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15103,
+      "experimentId": "9111",
+      "title": "How moving a premium offer earlier in the communication chain affects donor conversion",
+      "date": "2020-10-19T15:18:27",
+      "url": "https://www.nextafter.com/experiments/how-moving-a-premium-offer-earlier-in-the-communication-chain-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 569.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.02%",
+            "lift": "569.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will inserting an offer earlier in the communication stream affect donor conversion?",
+      "summary": "Timeframe: 06/01/2018 - 06/15/2018\nCompassion International had run a test offering a book by Chip and Joanna Gaines as a premium for sponsoring a child. Adding the book to the landing page produced no significant lift at all. However, this suggested that users already had their mind made up to sponsor by the time they made it to the page.\nThe team then hypothesized that they might be able to get more traffic to the page with a higher motivation to give if they inserted the offer upstream, into the Facebook ad.\nThey created a new version of the ad that featured the premium in the copy, near the bottom. Their hypothesis was that this would attract much more clicks, and thus, more sponsorships.",
+      "keyLearnings": "The treatment ad produced a 24.6% increase in clickthrough rate, but an astounding 555% increase in donor conversion after the click. From impression to donation, the ad featuring the premium and the landing page that featured the premium produced a 569.2% increase in conversion.\nThis increase in conversion led to an 82% reduction in cost per sponsorship, which brought the results well under the benchmark for cost-per-sponsorship. While the results for this premium may not last forever, it does suggest a remarketing tactic that can be used to bring highly motivated traffic back to the site.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n569.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16358,
+      "experimentId": "12025",
+      "title": "How banner messaging in a checkout process affects donor conversion",
+      "date": "2020-09-01T14:13:56",
+      "url": "https://www.nextafter.com/experiments/how-banner-messaging-in-a-checkout-process-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        10.2,
+        19.2,
+        11.3,
+        17.1,
+        10.6
+      ],
+      "confidence": 96.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control / No Message",
+            "metric": "36.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Celebrity Endorsement",
+            "metric": "39.7%",
+            "lift": "10.2%",
+            "confidence": "74.6%"
+          },
+          {
+            "code": "T2:",
+            "name": "Sponsor Endorsement",
+            "metric": "43.0%",
+            "lift": "19.2%",
+            "confidence": "96.6%"
+          },
+          {
+            "code": "T3:",
+            "name": "Minutes Away",
+            "metric": "40.1%",
+            "lift": "11.3%",
+            "confidence": "78.8%"
+          },
+          {
+            "code": "T4:",
+            "name": "Construal Level Theory",
+            "metric": "42.2%",
+            "lift": "17.1%",
+            "confidence": "94.4%"
+          },
+          {
+            "code": "T5:",
+            "name": "International Sponsor",
+            "metric": "39.9%",
+            "lift": "10.6%",
+            "confidence": "77.2%"
+          }
+        ]
+      },
+      "researchQuestion": "Will different motivational messages, presented during the checkout process, positively affect conversion?",
+      "summary": "Timeframe: 05/07/2019 - 05/21/2019\nCompassion International has a three-step checkout process to sponsor a child. They have long known that there is a drop-off rate for each step of the process, and have wanted to optimize that—knowing that people who have already selected a child have a high motivation and should be more likely to complete their transaction. One thing they noticed is that once a donor entered the shopping cart, there wasn’t much value proposition copy to motivate them through the transaction. They hypothesized that adding a prominent value proposition in a place that anyone on any device could see it—a sticky bar anchored to the top of the page—would increase conversion. However, they weren’t sure which message would resonate most with donors. They crafted five variants, all based on different hypotheses:\nCelebrity endorsement—this banner featured an endorsement from a popular worship leader\nSponsor endorsement—this banner featured a personal endorsement from a sponsor from Florida.\nTime urgency and proximity—this banner reminded the user of the impact of their sponsorship and informed them that the end of the process was near and would only take a short amount of time.\nConstrual level theory—this banner showed users the “club” they were joining by sponsoring a child, and reminded them of the shared values of that group.\nInternational sponsor endorsement—this banner featured a personal endorsement from a sponsor from Finland, subtlely reminding the user that they were part of a global movement.\nThey launched a five-way test to determine a winner.",
+      "keyLearnings": "The two messages that provided the biggest lift were the sponsor endorsement and the construal level theory messages—though the presence of any banner produced a 13.7% aggregate lift. Most of the impact of this test was realized on desktop devices, with mobile having no discernible impact at all. This gives great insight into the messages that motivate Compassion sponsors—first, they want to know that other people get value from sponsorship (even if that endorsement is not from a celebrity), and second, they want to know that they are part of something larger than themselves.\nFurther testing on this area should be done to further refine messaging and test whether different messages on each \"screen\" of the checkout process produce better results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 19.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14529,
+      "experimentId": "11777",
+      "title": "How increasing the force of the value proposition and increasing relevancy affects donor conversion",
+      "date": "2020-08-28T19:54:10",
+      "url": "https://www.nextafter.com/experiments/how-increasing-the-force-of-the-value-proposition-and-increasing-relevancy-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 214.4,
+      "confidence": 99.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment 1",
+            "metric": "0.00%",
+            "lift": "214.4%",
+            "confidence": "99.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will increasing the relevancy between advertisement and landing page, as well as increasing the force of the value proposition affect donor conversion?",
+      "summary": "Timeframe: 12/05/2017 - 01/02/2018\nCompassion International placed a large advertising buy with BibleGateway and received millions of impressions per month. They sought to boost conversion from this display buy. The advertisement (see it here) asked if the viewer shared a birthday with a child in poverty, and let them select their birthday. The user was then placed on a Compassion landing page with the headline “Sponsor a Child Today”. Below that headline was a small-font subheadline that showed that the results were children who matched the selected birthday. From then on, it followed their standard grid design showing many children who shared that day.\nThey had developed a page designed to do four things:\nReduce page exits. The new page removed the top navigation.\nIncrease the force of the value proposition. Rather than “sponsor a child today”, the new page asked the user to “Give a child the best birthday ever—a new sponsor!” with confetti and streamers.\nIncrease relevancy between the ad and the landing page. The new page was birthday-relevant both in design and copy, clarifying the connection between the ad action (selecting a birthday) and the next step (selecting a child who shares that birthday).\nReduce decision friction. Instead of row after row of equally-weighted children, the new page selected one child and featured them at the top, before offering other options below.\nThey launched an A/B test that sent an equal amount of traffic to each page to determine a winner.",
+      "keyLearnings": "The treatment page produced a 214% lift in conversion—showing that multiple factors (a radical redesign) were able to increase the connection between ad and landing page, keep more people on the page, convince more people to give, and simplify the decision process.\nWhile we don’t know the specific contribution of each of these tested elements, we have a significant lift in conversion (and subsequent lift in revenue). This test immediately prompts a similar test on the in-site birthday selector to see if it produces similar results there (where there is much more traffic).",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 214.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16000,
+      "experimentId": "10835",
+      "title": "How prioritization combined with a direct ask affects conversion",
+      "date": "2020-08-27T19:51:08",
+      "url": "https://www.nextafter.com/experiments/how-prioritization-combined-with-a-direct-ask-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 11.2,
+      "confidence": 95.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Multiple Children Selected",
+            "metric": "15.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Prioritized Child with Direct Ask",
+            "metric": "17.6%",
+            "lift": "11.2%",
+            "confidence": "95.2%"
+          }
+        ]
+      },
+      "researchQuestion": "How will prioritization and a direct ask affect conversion?",
+      "summary": "Ended On: 02/26/2019\nCompassion International, at any point, has thousands of children available for sponsorship. As users navigate throughout the site, the team had learned that they liked to sort and filter on certain variables to find the child they want to sponsor: boys vs girls, children in specific countries, ages, and so on. Many people used the search widgets to filter through children, because the number of children available was overwhelming—even after filtering through multiple searches. Their team had tested and found that prioritizing a single child on a birthday search results page produced a lift in conversion for that search, and wanted to see if the lift held on another search—longest waiting children. On the treatment, they put a single child at the top, and gave a direct appeal “Sponsor me” to the user. They hypothesized that this would force the user to consider one child instead of a grid of equally weighted children, and would increase conversion rates. They had to alter the message slightly to fit the search query, but were able to get a test up and running. This test ran after someone searched for “longest waiting children” as a filter, and was also linked from the navigation. They launched the test to determine a winner.",
+      "keyLearnings": "This shows the impact of \"breaking the grid\"—and also reveals something interesting about the sponsors: while we might think that they want more options to choose, they actually are more likely to choose a child when we let them take their hands off the wheel and choose for them. However, testing has also shown that they don't want this to be entirely random, and they don't want to feel like the child was selected for them. That's why it's important that they have some say in the matter—i.e., I want to see \"longest waiting children\", but after that, they are more likely to sponsor the child prioritized and presented to them.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16355,
+      "experimentId": "12030",
+      "title": "How will the presence of a value proposition banner in checkout affect conversion?",
+      "date": "2020-08-14T15:03:45",
+      "url": "https://www.nextafter.com/experiments/how-will-the-presence-of-a-value-proposition-banner-in-checkout-affect-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 13.7,
+      "confidence": 95.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "36.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "41.0%",
+            "lift": "13.7%",
+            "confidence": "95.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a “sticky banner” with any value proposition outperform a control with no banner?",
+      "summary": "Ended On: 05/21/2019\nCompassion International has a three-step checkout process to sponsor a child. They have long known that there is a drop-off rate for each step of the process, and have wanted to optimize that—knowing that people who have already selected a child have a high motivation and should be more likely to complete their transaction. One thing they noticed is that once a donor entered the shopping cart, there wasn’t much value proposition copy to motivate them through the transaction. They had seen tests that showed that a value proposition “sticky banner” in the process increased conversion rates for donations—even on high-conversion-rate pages. They planned to test different value proposition messages, but also wanted to aggregate the data to determine if the presence of a banner with any message increased conversion.",
+      "keyLearnings": "A banner with any message increased conversion by 13.7%. Most of these increases were realized on desktop, though mobile had no decreases and no banner message had less than a 10% lift. This confirmed Compassion's hypothesis that adding value proposition to the checkout process could increase motivation to complete the three-step process. Next, they looked at a different dataset to determine which messages drove the highest increases.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 13.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17214,
+      "experimentId": "33451",
+      "title": "How specificity in impact and in the ask affects email conversion rate",
+      "date": "2020-07-31T14:35:45",
+      "url": "https://www.nextafter.com/experiments/how-specificity-in-impact-and-in-the-ask-affects-email-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "email",
+        "Email Fundraising",
+        "Key Metrics | Conversion Rate",
+        "specificity"
+      ],
+      "tier": 1,
+      "lift": 101.4,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.73%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "1.5%",
+            "lift": "101.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will adding specificity in impact and in the ask affect email conversion rate?",
+      "summary": "Ended On: 07/09/2020\nWe were working with Compassion on a program called “Test and Learn”, where we tested monthly appeals sent to child sponsors. When we reviewed the first email, one key element of persuasion and conversion seemed to be missing: specificity. Two key parts of the email seemed very “broad”, and we hypothesized that specificity could increase conversion.\nFirst, the introduction to the email only broadly acknowledged the relationship between the organization and the sponsor. It thanked them for “deeply caring for children in poverty”. Since child sponsorship at Compassion is 1:1, the recipient had a sponsor (in this case, it was a child named Wayne), and their marketing automation system could use that on a personal basis. We added this detail in to the treatment, and specifically thanked the recipient for being a Compassion sponsor.\nSecond, the case was made for “poverty” in general using statistics to set up an ask for the “Where Most Needed” fund. One of the difficult things about fundraising to combat poverty is that the need can feel overwhelming. Large statistics can amplify this “overwhelming” factor rather than making it seem like something the donor can impact. So, we took the Where Most Needed fund and positioned it as a way to help meet the additional needs of the sponsor’s specific child, Wayne, revealing that sponsorship doesn’t meet every possible unplanned need.\nOur hypothesis was that connecting the donor with a person—particularly one they have a relationship with—rather than a cause or an organization would have a tremendous impact on conversion.\nThen, we split the audience to determine which one won…",
+      "keyLearnings": "The treatment, with increased specificity, increased response by 101.4%. This revealed a few powerful insights:\nPeople might have trouble wrapping their head around a problem expressed generally, or with statistics. This may make the problem seem too broad or difficult to solve. It also may be difficult for the donor to understand how their gift can make any difference at all.The Where Most Needed fund, which is a broad, unrestricted fund, seems to be most effectively communicated through the needs of the sponsor's specific child. Explaining it in abstract might make it difficult to understand. But adding a person—and the extra layer of a person that the reader cares about—might have a multiplier effect. Helping a donor understand a specific goal that they can help reach—in this case, 17 respondents—gives them a very tangible thing to accomplish. Otherwise, they might rest on the assumption that someone else will do the job.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 101.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 17147,
+      "experimentId": "31412",
+      "title": "How shifting the value proposition to sponsors rather than children affects donations",
+      "date": "2020-06-22T18:29:00",
+      "url": "https://www.nextafter.com/experiments/how-focusing-on-sponsors-rather-than-children-affects-donations/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": 119.2,
+      "confidence": 97.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "7.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "15.4%",
+            "lift": "119.2%",
+            "confidence": "97.8%"
+          }
+        ]
+      },
+      "researchQuestion": "How will focusing on sponsors rather than children affect donations?",
+      "summary": "Timeframe: 05/20/2020 - 06/01/2020\nCompassion International had traditionally focused all of their efforts on children as the object and recipient of donations. When the COVID-19 crisis hit, they launched a fundraising effort to help sponsors who were affected financially continue their sponsorship so they wouldn’t lose their child. Naturally, they placed the child as the key recipient of this fundraising effort, with the headline “Help a child keep their sponsor!”. However, the team wondered if this focus was misplaced. Since the appeal was to sponsors, they wondered if focusing on sponsors as the recipient would increase donations. Their hypothesis was that sponsors are more likely to empathize with fellow sponsors (and the child as a secondary element), rather than the child-first, sponsor second.\nThey simply swapped the words child and sponsor in the headline, and launched an experiment to determine a winner.",
+      "keyLearnings": "The treatment, which put the sponsor first, more than doubled donations. This indicated that the appeal of helping a sponsor, in this case, might outweigh the benefit to the child, and lended credence to the hypothesis that sponsors might empathize with fellow sponsors more than the immediate needs of a child. More testing is needed on this page to continue to increase results.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 119.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16927,
+      "experimentId": "28371",
+      "title": "Moving Email Field Higher in Checkout Process to Improve Cart Recovery",
+      "date": "2020-03-26T21:01:15",
+      "url": "https://www.nextafter.com/experiments/moving-email-field-higher-in-checkout-process-to-improve-cart-recovery/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 37.1,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Email Field Second",
+            "metric": "5.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Email Field First",
+            "metric": "8.0%",
+            "lift": "37.1%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will moving the email field to the top of the form increase the number of emails gathered?",
+      "summary": "Ended On: 02/17/2020\nWe wanted to see if we could increase the number of emails gathered during checkout to help fuel our abandoned cart campaign.",
+      "keyLearnings": "We will not implement this as it decreased overall acquisitions but will look to this strategy again as abandonment funnel gets revised due to total decrease in sponsorships was only",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 37.1% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14567,
+      "experimentId": "2833",
+      "title": "How a modal popup affects email acquisition for shopping cart abandonment",
+      "date": "2020-01-16T20:55:39",
+      "url": "https://www.nextafter.com/experiments/how-a-modal-popup-affects-email-acquisition-for-shopping-cart-abandonment/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 61.6,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Straight to Checkout",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Modal Popup",
+            "metric": "2.2%",
+            "lift": "61.6%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will moving the email acquisition step to the beginning of the process (through a modal popup window) increase email acquisition?",
+      "summary": "Timeframe: 11/22/2018 - 01/08/2018\nCompassion International had a remarketing email series in place to recover prospective sponsors who had abandoned their shopping cart. They were curious to see if they could increase the number of emails acquired by moving the email acquisition portion from the first step of the shopping cart to a modal popup window that fired immediately after a user clicked “Sponsor now”.\nThey developed a treatment that moved this step to a modal popup (and pre-populated the shopping cart) and launched an experiment to see if it increased the number of emails that were added to their remarketing series.",
+      "keyLearnings": "The treatment (with the email popup) delivered a 61% increase in emails acquired, which put more people into the remarketing series and delivered a visible (though not statistically valid) lift in sponsorships through that channel based on previous months’ benchmark. This experiment produced a valid way to increase the number of emails acquired, but the relatively low percentage of downstream sponsorship conversion points to more optimization and testing opportunities.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 61.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16686,
+      "experimentId": "23982",
+      "title": "How a personalizing the “envelope” of an email affects open rate",
+      "date": "2019-10-31T20:40:25",
+      "url": "https://www.nextafter.com/experiments/how-a-personalizing-the-envelope-of-an-email-affects-open-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Email Fundraising",
+        "Email Fundraising | Sender",
+        "Email Fundraising | Subject Line"
+      ],
+      "tier": 1,
+      "lift": 329.8,
+      "confidence": 100,
+      "metricName": "Open Rate",
+      "results": {
+        "metricName": "Open Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "12.0%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personal Style",
+            "metric": "51.4%",
+            "lift": "329.8%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will personalizing the “envelope” of an email affect open rate?",
+      "summary": "Ended On: 10/24/2019\nCompassion International invited young college graduates to join their Compassion Go internship program through an email offer. The email came from “Compassion International” as the sender, and they wanted to know if personalizing the “envelope” on the email could increase open rate. They changed the sender to the name of an intern, and changed the subject line from a very sales-heavy subject line to “Quick question”. Then, they ran a test to see which one produced a higher open rate.",
+      "keyLearnings": "The treatment email had a massive 329% increase in open rate. However, this \"personal style\" wasn't just applied to the subject line and sender—the entire email was inviting, and gave the recipient the opportunity to begin a conversation with a person, rather than receive marketing from an organization. Compassion saw that the treatment email, in addition to the lift in open rate, received 7x more submissions to the program than the control, and facilitated a tremendous amount of inbound responses beyond that, proving that personalization helps transcend \"marketing\".",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n329.8% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16697,
+      "experimentId": "23484",
+      "title": "How additional value proposition copy affects email acquisition conversion rate",
+      "date": "2019-10-28T20:05:41",
+      "url": "https://www.nextafter.com/experiments/how-additional-value-proposition-copy-affects-email-acquisition-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -16.5,
+      "confidence": 95.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "40.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "33.7%",
+            "lift": "-16.5%",
+            "confidence": "95.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will additional value proposition copy affect email acquisition conversion rate?",
+      "summary": "Timeframe: 10/08/2019 - 10/28/2019\nCompassion International wanted to increase the size of their prayer network list. They began running Facebook ads to get people to sign up, but wondered if the landing pages were too spare to convince people to give their name and email address away. They crafted a treatment page that explained and “sold” the offer to the visitor, and launched an A/B test to see if it increased conversion rate.",
+      "keyLearnings": "The treatment decreased conversion rate by 16.5%—which showed that the offer did not need any additional copy to sell, and the additional copy added friction that served as an obstacle, rather than an accelerator.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 16.5% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16537,
+      "experimentId": "19100",
+      "title": "How language change and a consideration loop affect donor revenue",
+      "date": "2019-08-16T14:30:01",
+      "url": "https://www.nextafter.com/experiments/how-language-change-and-a-consideration-loop-affect-donor-revenue/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue",
+        "Revenue"
+      ],
+      "tier": 1,
+      "lift": 63.2,
+      "confidence": 99.6,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Donate Now",
+            "metric": "$43.15",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Add to Cart",
+            "metric": "$70.42",
+            "lift": "63.2%",
+            "confidence": "99.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How will button copy and a “consideration loop” affect donations and revenue?",
+      "summary": "Ended On: 08/02/2019\nCompassion International had a donation flow on their Meet Critical Needs page that sent people directly into their shopping cart after they selected a fund to give to. They wanted to test two different changes with one experiment. First, they wanted to test the “Donate Now” language on the buttons. They hypothesized that “add” would subtly suggest that the donation wasn’t final, and could possibly be one of many. Second, they wanted to test a structural change to the donation flow. Instead of sending them directly to the cart, they instead instituted a modal popup or “consideration loop” that gave them the option to select more gifts before proceeding to check out. They launched an experiment to determine the impact of this.",
+      "keyLearnings": "While the direct attribution is unclear since there were multiple variables, the combination of the button language and the \"consideration loop\" produced a 63.2% increase in revenue through the combination of an increase in conversion rate and an increase in average gift, due to more people adding additional funds to their cart.\nThis experiment has implications for other areas of Compassion.com where a similar consideration loop could be applied, particularly the main donation page and the Christmas Gift Catalog.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 9.9% increase in conversion rate\n\t\t\t\t× 48.5% increase in average gift\n\t\t\t\t\t\t\t\t\t63.2% increase in revenue"
+    },
+    {
+      "id": 16234,
+      "experimentId": "14414",
+      "title": "How pre-selecting a child affects conversion on a geographic search results page",
+      "date": "2019-05-14T21:45:37",
+      "url": "https://www.nextafter.com/experiments/how-pre-selecting-a-child-affects-conversion-on-a-geographic-search-results-page/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 48.2,
+      "confidence": 96.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "7.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "10.8%",
+            "lift": "48.2%",
+            "confidence": "96.4%"
+          }
+        ]
+      },
+      "researchQuestion": "Will pre-selecting a child affect conversion on a geographic search results page?",
+      "summary": "Timeframe: 03/21/2019 - 04/17/2019\nCompassion International had run tests that showed that preselecting a child improved conversion for birthday searches and for longest waiting children. They wanted to extend this concept to other areas, so they launched three new single-factor search result tests: boy/girl, orphan/special needs, and Africa/Asia.",
+      "keyLearnings": "The treatment produced a 48.2% increase in child sponsorships, which showed that with a simple geographic filter, pre-selecting a child improved the likelihood of conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 48.2% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16279,
+      "experimentId": "11861",
+      "title": "How “fear of missing out” affects registration rate from a Facebook ad",
+      "date": "2019-05-06T19:04:18",
+      "url": "https://www.nextafter.com/experiments/how-fear-of-missing-out-affects-registration-rate-from-a-facebook-ad/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 105.5,
+      "confidence": 96.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.01%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.01%",
+            "lift": "105.5%",
+            "confidence": "96.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a static ad with a more direct, loss-based message increase clickthrough rate?",
+      "summary": "Ended On: 04/29/2019\nCompassion International was running ads to promote event registration for their Compassion Sunday event. They wanted to drive a large amount of traffic to the registration page, so they tested many different kinds of Facebook ads. Their control was a carousel-style ad that promoted the positive outcomes of hosting a Compassion Sunday event. Their team proposed a radical redesign to test a single image with copy that centered around “not missing out” on the opportunity. They launched a test to see how this affected clickthrough rate and registration rate.",
+      "keyLearnings": "The new ad produced 35% fewer clicks than the previous ad. But this was only part of the story—tracking event registrations showed that this ad produced a visitor with much higher motivation, as the treatment ad produced a 105% increase in event registrations. This doesn't give total clarity between the factors that produced this lift—it was a combination of the structure of the ad (carousel vs. static image) and the messaging—but it does give a good baseline for future Compassion Sunday campaigns.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 105.5% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14711,
+      "experimentId": "8556",
+      "title": "How different banner value propositions affect clickthrough rate",
+      "date": "2019-04-20T04:04:24",
+      "url": "https://www.nextafter.com/experiments/how-different-banner-value-propositions-affects-clickthrough-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        -48.6,
+        -15,
+        -6.2
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.13%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Make Your Birthday Count",
+            "metric": "0.07%",
+            "lift": "-48.6%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Find your match",
+            "metric": "0.11%",
+            "lift": "-15.0%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T3:",
+            "name": "Who is it?",
+            "metric": "0.12%",
+            "lift": "-6.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will different banner value propositions affects clickthrough rate?",
+      "summary": "Timeframe: 12/17/2018 - 01/02/2018\nCompassion International had a large acquisition spend on BibleGateway.com. A previous landing page experiment had produced a significant lift in donor conversion, but they hypothesized that the banner creative might be optimized to produce an additional lift. They produced four different banners to test different value propositions and see if any of them increased donor conversion.\nThe control asked the reader: Do you share a birthday with a child in poverty? It then gave them the opportunity to select their birthdate. They felt that this lacked context and incentive to click through.\nThey created a second treatment that gave the reader the opportunity to “make your birthday count” by sharing it “with a child in poverty”.\nA third treatment gave the reader the opportunity to “find their match”, and a fourth introduced suspense, by suggesting that they share a birthday with a child in poverty—”who is it?”\nThey launched a four-way test to see how these treatments increased clickthrough rate.",
+      "keyLearnings": "None of the banners exceeded the control’s clickthrough rate, which meant that without a much higher on-page conversion rate, they wouldn’t increase conversions. Only one ad (“who is it?”) came within reach of the control in terms of conversion rate. However, the landing page might be optimized to dovetail with the message of the banner and increase congruency, which inspired future experiments.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n48.6% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14570,
+      "experimentId": "8334",
+      "title": "How Facebook ad content at year-end affects clickthrough rate",
+      "date": "2019-04-20T04:03:32",
+      "url": "https://www.nextafter.com/experiments/how-facebook-ad-content-at-year-end-affects-clickthrough-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages"
+      ],
+      "tier": 1,
+      "lift": [
+        84.5,
+        -69.1
+      ],
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Tax Deductible",
+            "metric": "0.08%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Steven Story",
+            "metric": "0.16%",
+            "lift": "84.5%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Don't Wait",
+            "metric": "0.03%",
+            "lift": "-69.1%",
+            "confidence": "99.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Which type of Facebook ad content will drive the most traffic at year-end?",
+      "summary": "Timeframe: 12/21/2017 - 12/31/2017\nCompassion International was advertising on Facebook promoting one-time donations leading up to the end of the calendar year. They wanted to test different types in the content of the ad to see which drove the most traffic to their donation page. They launched three different types of ads, testing three hypotheses. The first ad was centered around the tax-deductible nature of the gift, with a generic image. The second ad featured a story of a boy who suffered horrible burns and was treated through the generosity of Compassion donors. The third ad highlighted urgency, with only a few days left before the end of the year.",
+      "keyLearnings": "The story-focused ad around the young boy produced a big lift in clicks, even though it contained a direct ask. However, the overall number of donors was quite low—and the story-focused ad didn’t produce a proportionate amount more donors, despite the big increase in traffic. This tells us that people who clicked this—even though they clicked a link that said “make your donation now”—weren’t ready to give.\nThere are two alternatives to this:\nIncrease motivation by increasing the force of the value proposition in the ad copy. This gives you the chance to get more motivated traffic.\nIncrease conversion by optimizing the landing page. If people are clicking but not converting, then maybe the landing page isn’t doing its job. Better copy and a stronger value proposition here (or less friction) could increase conversions from your traffic.\nMost likely, a combination of both is needed. But due to the short time to test in year-end, it’s not immediately testable.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n84.5% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16195,
+      "experimentId": "11117",
+      "title": "How removing a free giveaway increases name acquisition for gated content",
+      "date": "2019-04-18T20:30:53",
+      "url": "https://www.nextafter.com/experiments/how-removing-a-free-giveaway-increases-name-acquisition-for-gated-content/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 204,
+      "confidence": 95.8,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "0.48%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "1.5%",
+            "lift": "204.0%",
+            "confidence": "95.8%"
+          }
+        ]
+      },
+      "researchQuestion": "Will removing a “free giveaway” increase form submissions for gated content?",
+      "summary": "Timeframe: 03/25/2019 - 04/11/2019\nCompassion International had a page for their Compassion Sunday campaign that let visitors invite their pastor to participate in the event by giving them a Pastor’s Guide PDF download. The page had a simple form that allowed visitors to enter their pastors name, which was valuable to Compassion for follow-up purposes. However, right next to this form was a simple link to the PDF guide itself. They hypothesized that removing this “free giveaway” of the gated content would result in more form captures, and thus more value to the organization. They set up a simple A/B test to validate a winner.",
+      "keyLearnings": "Removing the free giveaway resulted in three times as many form completions. While there is some value in having the Pastor's Guide on display, Compassion isn't able to capture that value. However, with the Pastor's Guide removed, they are able to capture three times as much value from the page, which results in much more downstream value from Compassion Sunday events.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 204.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15143,
+      "experimentId": "6181",
+      "title": "How a simplified decision process and contextual landing page design affects conversion",
+      "date": "2019-03-22T20:28:37",
+      "url": "https://www.nextafter.com/experiments/how-a-simplified-decision-process-and-contextual-landing-page-design-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 14.4,
+      "confidence": 96.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "1.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "1.7%",
+            "lift": "14.4%",
+            "confidence": "96.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will a simplified decision process and contextual landing page design increase sponsorship conversion?",
+      "summary": "Timeframe: 06/13/2018 - 07/04/2018\nCompassion International receives tens of thousands of child sponsorships every year. Traffic comes to the Compassion homepage from many different sources, with many different motivations, which has made it difficult—if not near impossible to validate homepage tests to increase child sponsorships.\nThe search process for Compassion.com generally contained four choice options: boy/girl, country, age range, and birthday. Previous tests had shown that prioritizing one (in this case, birthday) as the primary choice could increase “sponsorship starts”, but couldn’t validate a lift after going through their four-step sponsorship process. So with the birthday selection driving more “starts”, the team decided to focus on the next page, which was a grid of children who shared the selected birthday.\nThere were two primary hypothesized issues with this second page: first, the grid produced an overwhelming number of choices, so many that it required its own “sorter” at the top. Second, the page gave very little context to the action that had preceded it—a birthday selection. The only indication that the children shared the birthday was a single strip of text that read like code: “Showing results for Birth Day: 2, Birth Month: January”.\nThe team hypothesized that if they could help the user make decisions by reducing decision friction and adding contextual relevance to the page design, they might be able to increase sponsorships.\nThey crafted a responsive treatment based on a landing page that had produced a lift in sponsorships from banner advertising that featured the birthday search. This new page picked a single child who shared the birthday and featured them at the top, along with contextual design clues (confetti) and a bold headline that declared that the child shared the selected birthday.\nThey split traffic from the homepage button “search now” to determine if this treatment, combined with the homepage birthday selector, could produce a lift in sponsorships.",
+      "keyLearnings": "The treatment, with reduced decision-making and contextual design that oriented the reader, produced a 14.4% increase in conversion. This test alone resulted in an additional 1,168 sponsorships each year (a 1.7% increase in annual sponsorships)—and generating nearly $2.9 million dollars (based on Compassion's $2,500 lifetime sponsor value). \n\nThis shows the power of simplifying the process—a single decision, instead of four, followed by a single child, instead of an endless grid. This also implies that the customer might not be as choosy as we think, we might just need to help them find and suggest the right child. It also shows the power of contextualized design—if we can help people understand that they are in the right place, then they are more likely to follow through with the intended action.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 14.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15873,
+      "experimentId": "10565",
+      "title": "How streamlining a mobile child sponsorship experience affects donor conversion",
+      "date": "2019-01-30T21:54:19",
+      "url": "https://www.nextafter.com/experiments/how-streamlining-a-mobile-child-sponsorship-experience-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": -26.1,
+      "confidence": 98.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "4.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Streamlined",
+            "metric": "3.0%",
+            "lift": "-26.1%",
+            "confidence": "98.4%"
+          }
+        ]
+      },
+      "researchQuestion": "How will streamlining a mobile experience by removing text value proposition affect donor conversion?",
+      "summary": "Ended On: 01/27/2019\nCompassion International was examining its child sponsorship funnel and noticed that the mobile experience did not bring children who could be sponsored into the viewport. They wondered if this kept people from realizing that the page allowed them to sponsor children by forcing them to scroll. They developed a treatment that streamlined the “trust seals” into a horizontal row and removed the description of what happens during sponsorship. They launched an A/B test just on mobile to determine the impact.",
+      "keyLearnings": "The treatment reduced conversion by 26.1%. This suggests that there is value to forcing the user to read and absorb the trust seals and value proposition. It also suggests that \"access\" to the available children is not the issue that is holding conversion back on that page. It suggests that the user is not properly motivated or ready to sponsor immediately—the slight pause and \"absorption\" of the value proposition has an effect on a visitor's readiness to sponsor.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 26.1% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14608,
+      "experimentId": "8392",
+      "title": "How tone and shared values in Facebook ad copy affect donor conversion",
+      "date": "2019-01-20T04:13:25",
+      "url": "https://www.nextafter.com/experiments/how-tone-and-shared-values-in-facebook-ad-copy-affect-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": [
+        64.5,
+        132
+      ],
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Direct ask",
+            "metric": "1.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct ask plus Scripture",
+            "metric": "1.8%",
+            "lift": "64.5%",
+            "confidence": "93.2%"
+          },
+          {
+            "code": "T2:",
+            "name": "Shared values, direct ask, and Scripture",
+            "metric": "2.6%",
+            "lift": "132.0%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does tone and shared values in Facebook ad copy affect donor conversion?",
+      "summary": "Timeframe: 12/01/2017 - 01/22/2018\nCompassion International ran Facebook ads through the month of December to remarket to people who had considered sponsoring a child on their site, but had dropped out of the funnel.  They develop three variations of Facebook ads to test and understand what motivated more people to complete their sponsorship. The first ad made a simple, direct offer to the reader: Be the reason one of these children knows the love of Jesus this season. The second ad made an offer that was supported by a scripture reference from the book of Mark: “Will you serve and co-labor with us by sponsoring one of these children today?” The third ad made an attempt to established shared values of familyIs our highest priority after God. Then, it offered the reader the chance to “join the Compassion family” through sponsorship. Finally, as with the second ad, it supported the copy with a scripture reference.",
+      "keyLearnings": "Both ads that contained scripture produced a significant lifts over the control. This shows that Scriptural backing may provide additional motivation for the reader to complete their purpose. However, the third ad produced a 132% lift in conversion over the others, which highlights the importance of establishing a relational link between the marketer and the prospect. In the for-profit world, this link is built in many ways—but in the nonprofit world, it is primarily built through trust. Shared values are just one example of a way to build trust. In this case, it helped build trust with an audience that had already considered sponsorship, and converted more of them when given a second chance.\nBoth of these learnings provide guidance for future remarketing Facebook ads.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 132.0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15275,
+      "experimentId": "6536",
+      "title": "How matching a proven demand generator with an optimized donation page affects donor conversion",
+      "date": "2018-09-13T20:27:18",
+      "url": "https://www.nextafter.com/experiments/how-matching-a-proven-demand-generator-with-an-optimized-donation-page-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 19.6,
+      "confidence": 96.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "1.4%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "1.7%",
+            "lift": "19.6%",
+            "confidence": "96.1%"
+          }
+        ]
+      },
+      "researchQuestion": "Will an animated homepage banner combined with an optimized conversion process result in a full-funnel increase in child sponsorships?",
+      "summary": "Timeframe: 07/26/2018 - 08/14/2018\nCompassion International had run an experiment that showed that an animated homepage banner on desktop increased the number of people who started a search to find their “birthday match”. However, when this experiment was run, the birthday conversion process (after the first form) was not optimized. Previous testing on the birthday conversion process showed that reducing the number of children shown after the search and contextualizing the landing page produced a large increase in conversion. They wanted to join the two experiment results together, and test the animated banner moving website visitors into the optimized conversion flow.",
+      "keyLearnings": "The original experiment for the animated banner increased birthday searches by 11.4%, but had no impact on downstream conversion. The optimized conversion process had lifted child sponsorship conversion by 14.4%. Combining these two produced a 19.6% aggregate increase in conversion rate, which showed that more traffic through an optimized funnel had a significant impact on total sponsorships. \n\nThis test produces the question: how can we get more people into the birthday search conversion funnel?",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 19.6% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15272,
+      "experimentId": "9031",
+      "title": "How moving video in a header affects conversion",
+      "date": "2018-09-13T20:27:14",
+      "url": "https://www.nextafter.com/experiments/how-moving-video-in-a-header-affects-conversion-2/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 11.9,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "2.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "3.2%",
+            "lift": "11.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will moving video in a header affect conversion?",
+      "summary": "Timeframe: 02/16/2018 - 04/13/2018\nCompassion International had heard that moving video as part of a homepage design increases engagement and hypothesized that it might help provide more of the “emotional heft” that could deliver more conversions as well. They developed a quick-loading motion video image that could load in place of the static image and launched an A/B test to see if it resulted in more child sponsorships—or how it affected metrics as a whole.",
+      "keyLearnings": "The treatment had no discernible effect on child sponsorships—not surprising, since it was on the homepage, and people come to Compassion’s homepage with many varied motivations. This is why homepage testing is particularly difficult! However, the treatment did increase birthday searches (which take place in the header box) by 11%. This is an important finding, because downstream optimizations have been found in the birthday search funnel that could be applied here to increase sponsorships through that funnel.\n\nThe next step for Compassion is to institute these downstream optimizations and see if the increased search traffic can be sent through optimized pages to increase sponsorships.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.9% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 15049,
+      "experimentId": "6138",
+      "title": "How moving video in a header affects conversion",
+      "date": "2018-06-15T17:40:43",
+      "url": "https://www.nextafter.com/experiments/how-moving-video-in-a-header-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 11.9,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "2.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Variation #1",
+            "metric": "3.2%",
+            "lift": "11.9%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will moving video in a header affect conversion?",
+      "summary": "Timeframe: 02/16/2018 - 04/13/2018\nCompassion International had heard that moving video as part of a homepage design increases engagement and hypothesized that it might help provide more of the “emotional heft” that could deliver more conversions as well. They developed a quick-loading motion video image that could load in place of the static image and launched an A/B test to see if it resulted in more child sponsorships—or how it affected metrics as a whole.",
+      "keyLearnings": "The treatment had no discernible effect on child sponsorships—not surprising, since it was on the homepage, and people come to Compassion’s homepage with many varied motivations. This is why homepage testing is particularly difficult! However, the treatment did increase birthday searches (which take place in the header box) by 11%. This is an important finding, because downstream optimizations have been found in the birthday search funnel that could be applied here to increase sponsorships through that funnel.\nThe next step for Compassion is to institute these downstream optimizations and see if the increased search traffic can be sent through optimized pages to increase sponsorships.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n11.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14772,
+      "experimentId": "8634",
+      "title": "How adding friction through an extended value proposition affects conversion rate",
+      "date": "2018-03-13T17:46:52",
+      "url": "https://www.nextafter.com/experiments/how-adding-friction-through-an-extended-value-proposition-affects-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -11.1,
+      "confidence": 97.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "59.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified Version",
+            "metric": "52.5%",
+            "lift": "-11.1%",
+            "confidence": "97.5%"
+          }
+        ]
+      },
+      "researchQuestion": "Will adding an extended value proposition increase conversion rate?",
+      "summary": "Timeframe: 02/27/2018 - 03/09/2018\nCompassion International had a short value proposition on their main donation page that didn’t highlight the full impact of the gift. They developed a value proposition that included Scripture, and showed all the ways that a “where most needed” gift provided impact. This new value proposition copy was much longer and pushed the donate button down the page, but they hypothesized that it would produce a higher conversion rate. They launched an A/B test to determine a winner.",
+      "keyLearnings": "The extended value proposition actually decreased conversion rate by 11.1%. Because users who came to this page were already highly motivated (converting at nearly 60%), the additional value proposition instead created friction between their arrival on page and their completion of their intended goal.\nAfter seeing these results, the team shifted focus from trying to increase conversion to trying to reduce friction and anxiety and increase average gift.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 11.1% decrease in conversion rate\n\t\t\t\t× 13.9% decrease in average gift\n\t\t\t\t\t\t\t\t\t23.5% decrease in revenue"
+    },
+    {
+      "id": 14679,
+      "experimentId": "8500",
+      "title": "How different banner value propositions affects donor conversion rate",
+      "date": "2018-02-13T20:09:14",
+      "url": "https://www.nextafter.com/experiments/how-different-banner-value-propositions-affects-donor-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": [
+        -59,
+        -9.2,
+        -6.3
+      ],
+      "confidence": 98.2,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.00%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Make Your Birthday Count",
+            "metric": "0.00%",
+            "lift": "-59.0%",
+            "confidence": "98.2%"
+          },
+          {
+            "code": "T2:",
+            "name": "Find your match",
+            "metric": "0.00%",
+            "lift": "-9.2%",
+            "confidence": "26.1%"
+          },
+          {
+            "code": "T3:",
+            "name": "Who is it?",
+            "metric": "0.00%",
+            "lift": "-6.3%",
+            "confidence": "18.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will different banner value propositions affects donor conversion rate?",
+      "summary": "Timeframe: 01/02/2018 - 02/09/2018\nCompassion International had a large acquisition spend on BibleGateway.com. A previous landing page experiment had produced a significant lift in donor conversion, but they hypothesized that the banner creative might be optimized to produce an additional lift. They produced four different banners to test different value propositions and see if any of them increased donor conversion.\nThe control asked the reader: Do you share a birthday with a child in poverty? It then gave them the opportunity to select their birthdate. They felt that this lacked context and incentive to click through.\nThey created a second treatment that gave the reader the opportunity to “make your birthday count” by sharing it “with a child in poverty”.\nA third treatment gave the reader the opportunity to “find their match”, and a fourth introduced suspense, by suggesting that they share a birthday with a child in poverty—”who is it?”\nThey launched a four-way test to see how these treatments increased conversion.",
+      "keyLearnings": "Two of the three treatments, “find your match” and “who is it”, produced no statistical difference at all. However, the third treatment produced a significant drop in conversion—”make your birthday count”.\nThis suggests one of two things—\nFirst, that the banner had far fewer clicks than the other banners because it didn’t appeal to the reader at a “prospect-level” value proposition. However, they were unable to obtain clickthrough data for this campaign.\nThis might also reveal that the landing page didn’t deliver on the promise generated by the ad—it didn’t tell them how to make their birthday count, or deliver a value proposition that would “close the deal”.\nThese results reveal the need for additional data and further testing to optimize this funnel.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 59.0% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14605,
+      "experimentId": "8391",
+      "title": "How a quote and direct ask copy in a Facebook ad affect donor conversion",
+      "date": "2018-01-23T17:45:18",
+      "url": "https://www.nextafter.com/experiments/how-a-quote-and-direct-ask-copy-in-a-facebook-ad-affect-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 63.4,
+      "confidence": 97.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Two-factor quote-based ask",
+            "metric": "0.95%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Single factor direct ask",
+            "metric": "1.5%",
+            "lift": "63.4%",
+            "confidence": "97.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How will direct ask copy affect conversion against a “two-factor” quote-based ask?",
+      "summary": "Timeframe: 11/01/2017 - 01/22/2018\nCompassion International was running Facebook ads to remarket to people who had visited a sponsorship page, but had not completed their sponsorship. They wanted to test two different ads to develop a better understanding of the copy that motivates prospects to follow through with conversion.\nThe first ad leveraged a quote by Compassion’s former President, Wess Stafford. This copy hinged on the concept of a “divine appointment” that a sponsor could provide for a child. It then extended the offer to the prospect to raise the question in their mind as to whether the children in front of them were their divine appointment. This is an example of a “two-factor” ask—first, we aim to get the prospect to understand a concept, then they are required to apply it to themselves.\nThe second ad only had a single factor—asking the prospect to sponsor a child. The copy began with a sentence designed to reduce the amount of perceived friction in the mind of the prospect. Knowing that this was remarketing copy, it also implies that the reason the prospect didn’t initially finish the sponsorship was because of a lack of time. This sentence takes that off the table, and asks them to give a child hope in 2018.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "The second, “single-factor” ad produced a 63% lift in donor conversion. This tells us a few things:\nThe initial ad might have been too complex. Forcing the user to understand a concept and then apply it might be too much work in the context of a Facebook ad.\nThere might have been too much of an assumption that the user knew who Wess Stafford is, and so there was an unfamiliarity factor.\nTime might have been a factor in the initial decision not to sponsor a child, which means that taking that off the table helped conversion.\nA single-factor direct ask is much clearer and made the decision to click and sponsor more enticing through the second ad.\nAll of these conclusions lead to more testing opportunities in Facebook ads to determine a better model.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 63.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14238,
+      "experimentId": "7686",
+      "title": "How adding specificity and urgency affects clickthrough rate",
+      "date": "2018-01-03T21:53:11",
+      "url": "https://www.nextafter.com/experiments/how-adding-specificity-and-urgency-affects-clickthrough-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 233.4,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.39%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Increased specificity and urgency",
+            "metric": "1.3%",
+            "lift": "233.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will increasing specificity and urgency in the call-to-action increase clickthrough rate and conversion rate?",
+      "summary": "Timeframe: 10/22/2017 - 10/24/2017\nCompassion International served Facebook ads to people who had browsed their site that showed them dynamically generated ads based on the children they had viewed. While results were positive for the campaign, they wanted to see if they could increase clickthrough rate and conversion rate by adding specificity to the ads.\nThey created a treatment that was identical to the first ad with one small change—in the call-to-action, instead of “Sponsor a child today”, they changed the copy to “Sponsor this child right now” to increase specificity and urgency.\nThey launched an experiment to determine a winner.",
+      "keyLearnings": "The treatment produced a 233.4% lift in clickthrough rate, but resulted in fewer downstream conversions (though this data was not valid). This suggests that while the ad might increase user motivation to click, something on the following landing page is not aligning with that motivation and is causing cognitive friction in the mind of the prospective sponsor. This shows that the experiment needs more data and possibly downstream conversion testing to discover what is causing the depression in conversion.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n233.4% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 14317,
+      "experimentId": "7847",
+      "title": "How personalization affects clickthrough rate in a child sponsorship Facebook ad",
+      "date": "2018-01-03T21:52:38",
+      "url": "https://www.nextafter.com/experiments/how-personalization-affects-clickthrough-rate-in-a-child-sponsorship-facebook-ad/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": -40.2,
+      "confidence": 100,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Urgent CTA",
+            "metric": "1.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Personalized CTA",
+            "metric": "1.0%",
+            "lift": "-40.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will personalizing the ad with the child’s name affect clickthrough rate?",
+      "summary": "Timeframe: 11/01/2017 - 11/09/2017\nCompassion International experienced a large increase in clickthrough rate when they added increased urgency to the calls-to-action in their Facebook advertisements. They wanted to see if they could further increase results by including the name of the child in the call-to-action. Although these ads were dynamically generated, they were able to match the name with the photo of the child in this area of the advertisement.\nTheir treatment replaced “this child” with the actual name of the child. They ran both ads simultaneously to determine a winner.",
+      "keyLearnings": "The increased personalization actually reduced clickthrough rate by 40.2%. There are several reasons why this might have happened:\nSince these were not remarketing ads, the end user had no previous relationship with the child and was less incentivized to click. Thus, the ads were “too specific”.\nThe removal of the word “child” from the CTA removed a primary motivating factor.\nThe CTA lost congruency with the copy above when the copy shifted from talking about “a child” to a very specific name.\nAs it currently stands, Compassion International is not able to accurately track conversions directly back to the ad. This concept might be re-tested with a landing page that features the child who was selected. Although clickthrough rate might be lower, in that case, conversion rate might be higher.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n40.2% decrease in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 16793,
+      "experimentId": "18903",
+      "title": "How inserting a gift array on a primary donation page affects conversion rate",
+      "date": "2020-01-07T20:33:49",
+      "url": "https://www.nextafter.com/experiments/how-inserting-a-gift-array-on-a-primary-donation-page-affects-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -18.5,
+      "confidence": 90.3,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "2.5%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "2.0%",
+            "lift": "-18.5%",
+            "confidence": "90.3%"
+          }
+        ]
+      },
+      "researchQuestion": "How will inserting a gift array on a primary donation page affect conversion rate?",
+      "summary": "Timeframe: 10/19/2018 - 12/04/2018\nCompassion International’s main donation page featured an open field with a $100 suggested gift, and a drop down to choose whether to make the gift one-time or monthly. They were curious to see what happened when the one-time ask was replaced with a range of giving options ($50 / $100 / 250) and when the monthly recurring gift ask was brought out of the dropdown and into the decision flow as a “binary checkbox”. They created a treatment that did both of these and launched and experiment to find a winner.",
+      "keyLearnings": "The gift array, after several months, produced an 18.5% decrease in giving, although some of this may have been due to the placement of the array—instead of being in the same position, it was moved down below the main image. However, this coincided with a 385% lift in recurring donations. Further analysis must be done to determine if the losses from one-time giving are offset by the increases to monthly giving.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15535,
+      "experimentId": "9834",
+      "title": "How a “how did you hear about us” field affects conversion",
+      "date": "2018-12-19T03:49:55",
+      "url": "https://www.nextafter.com/experiments/how-a-how-did-you-hear-about-us-field-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": [
+        -5.2,
+        0.6
+      ],
+      "confidence": 89,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "With Attribution",
+            "metric": "73.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Attribution Made Optional",
+            "metric": "69.3%",
+            "lift": "-5.2%",
+            "confidence": "89.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "No Attribution",
+            "metric": "73.5%",
+            "lift": "0.6%",
+            "confidence": "17.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How does the presence of a “how did you hear about us” attribution field affect conversion?",
+      "summary": "Timeframe: 10/25/2012 - 12/18/2018\nCompassion International had long included a required dropdown field in their checkout process that asked the user what prompted their decision to sponsor a child today. This data was used to help guide their high level budgeting process, and thus had some amount value, but they were curious to see how it affected conversion. They created two test variants—one that made the field optional, and one that eliminated the field entirely. They launched a multivariate test to determine a winner.",
+      "keyLearnings": "While none of the treatments gained full statistical validity, the test delivered two important directional learnings. First, there is no increase in conversion by removing the attribution field, which would imply that the data gained is more valuable to have than the revenue gained by removing the field. Second, making the field optional actually decreased conversion (and was approaching validity). One hypothesis as to why is that making the field optional now gave TWO decisions to the user: the first being “should I complete this field?” and the second being “what answer should I give?” This shows how seemingly small tweaks can compound decision friction. The results of this test indicate that this field should stay right where it is, as long as the data is useful to Compassion.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14598,
+      "experimentId": "8385",
+      "title": "How reducing friction in a shopping cart process affects donor conversion",
+      "date": "2018-01-23T20:24:31",
+      "url": "https://www.nextafter.com/experiments/how-reducing-friction-in-a-shopping-cart-process-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -26.8,
+      "confidence": 93.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Straight to Checkout",
+            "metric": "5.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Skip Child Bio",
+            "metric": "3.7%",
+            "lift": "-26.8%",
+            "confidence": "93.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How does reducing friction by removing the child biography page affect conversion?",
+      "summary": "Timeframe: 01/02/2018 - 01/18/2018\nCompassion International had sought to identify gaps in their customer funnel through a deep-dive data analysis. They learned that the most direct path to sponsorship (with the fewest steps in between) had the highest conversion rate.\nIn looking at their child sponsorship funnel, they wondered if the “child biography” section, where a user was redirected after clicking the “choose me” button beneath a child was extraneous. If the user was actively selecting “choose me”, did they really want to just add the child directly to their cart, or was the biography an extra, necessary step in the consideration process?\nThey decided to better understand the consideration process through an A/B test. Half the users would not see the child biography page and would go straight to the cart. The other half would see the biography page as normal. They would look at conversions to understand the importance of the interstitial biography page.",
+      "keyLearnings": "Removing the child biography page led to a 26.8% increase in conversion, and also generated a lot of confusion among users who wanted more information on their child. Not only did removing this page affect conversion, it removed the user’s ability to return to that page, which created a negative user experience loop.\nThe decrease in conversion (though it didn’t achieve 95% significance due to stopping the test) and the feedback from users shows that while a direct path to checkout is ideal, the child biography page is an integral part of the consideration and conversion process.\nThis illustrates the principle that not all friction is bad friction. Sometimes, an extra step is helpful—and even essential—to the donation process.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 17205,
+      "experimentId": "21589",
+      "title": "How a gift array with extended description affects conversion rate",
+      "date": "2020-07-31T14:34:45",
+      "url": "https://www.nextafter.com/experiments/how-a-gift-array-with-extended-description-affects-conversion-rate/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -7.3,
+      "confidence": 30.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Open Field",
+            "metric": "7.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Array with descriptions",
+            "metric": "6.7%",
+            "lift": "-7.3%",
+            "confidence": "30.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a gift array with extended description affect conversion rate?",
+      "summary": "Ended On: 07/07/2020\nCompassion International was running a campaign to ask existing sponsors to make an additional gift to help their fellow sponsors keep their children during the economic hardship caused by the COVID-19 pandemic. They had already learned that the value proposition of “helping a sponsor” versus “helping a child” was more impactful to conversion. However, they wondered if the suggested amount of $114 (which covers three months of sponsorship) was too nebulous and random for the visitor. They created a gift array that still suggested $114, but added a line of copy that explained that “$114 covers three months of sponsorship for a fellow sponsor”. Then, the array offered $74 (two months) and $38 (one month). They hypothesized that the array would help the prospective donor understand the reasoning behind the gift amount meant and make them more likely to convert. They launched an A/B test to determine a winner.",
+      "keyLearnings": "The treatment, with the gift array and additional descriptions, produced a 7.3% decrease with no statistical level of confidence. This ultimately means that the array was ineffective at moving conversion at all.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15100,
+      "experimentId": "9107",
+      "title": "How adding a premium offer to a landing page affects donor conversion",
+      "date": "2019-04-20T04:04:57",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-offer-to-a-landing-page-affects-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 8.1,
+      "confidence": 20.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Gaines Book Premium",
+            "metric": "0.02%",
+            "lift": "8.1%",
+            "confidence": "20.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a premium added to a landing page affect conversion?",
+      "summary": "Timeframe: 05/15/2018 - 06/01/2018\nCompassion International wanted to test the impact of a premium on sponsorship conversion. They had a partnership with Chip and Joanna Gaines that allowed them to offer a book as a premium as a way to thank the donor for their sponsorship.\nThey added this premium to the sponsorship pages specifically around their remarketing campaigns driven from Facebook and launched an A/B test to determine the impact for conversion.",
+      "keyLearnings": "Adding the premium offer to the donation page produced a slight lift (8%) with no statistical confidence. This lack of variance seemed to indicate that by the time the prospect had reached the page, they had already made up their mind to give and weren’t affected by the premium.\n\nThe Compassion team decided to launch another test after this that moved the premium offer upstream in the communication chain to see if the premium would attract more traffic from the Facebook ad itself, and would result in a higher downstream conversion rate.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 15118,
+      "experimentId": "6190",
+      "title": "How adding a premium offer to a landing page affects donor conversion",
+      "date": "2018-06-29T13:51:38",
+      "url": "https://www.nextafter.com/experiments/how-adding-a-premium-offer-to-a-landing-page-increases-donor-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 8.1,
+      "confidence": 20.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Gaines Book Premium",
+            "metric": "0.02%",
+            "lift": "8.1%",
+            "confidence": "20.6%"
+          }
+        ]
+      },
+      "researchQuestion": "How will a premium added to a landing page affect conversion?",
+      "summary": "Timeframe: 05/15/2018 - 06/01/2018\nCompassion International wanted to test the impact of a premium on sponsorship conversion. They had a partnership with Chip and Joanna Gaines that allowed them to offer a book as a premium as a way to thank the donor for their sponsorship.\nThey added this premium to the sponsorship pages specifically around their remarketing campaigns driven from Facebook and launched an A/B test to determine the impact for conversion.",
+      "keyLearnings": "Adding the premium offer to the donation page produced a slight lift (8%) with no statistical confidence. This lack of variance seemed to indicate that by the time the prospect had reached the page, they had already made up their mind to give and weren’t affected by the premium.\n\nThe Compassion team decided to launch another test after this that moved the premium offer upstream in the communication chain to see if the premium would attract more traffic from the Facebook ad itself, and would result in a higher downstream conversion rate.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14965,
+      "experimentId": "8912",
+      "title": "How reducing friction and aligning the CTA with the end result affects conversion",
+      "date": "2018-04-26T18:49:54",
+      "url": "https://www.nextafter.com/experiments/how-reducing-friction-and-aligning-the-cta-with-the-end-result-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [],
+      "tier": 3,
+      "lift": 12,
+      "confidence": 73,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Biography Page",
+            "metric": "18.7%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Straight to Cart",
+            "metric": "20.9%",
+            "lift": "12.0%",
+            "confidence": "73.0%"
+          }
+        ]
+      },
+      "researchQuestion": "How will reducing friction and aligning the CTA with the end result affect conversion?",
+      "summary": "Timeframe: 02/25/2018 - 04/26/2018\nCompassion International has an option on their navigation bar to “select a child for me”. A popout picked a child from the database and gave them the “choose me” call-to-action. When the user clicked “choose me”, they were taken to the biography page of the child to learn more about them.\nThe CI team hypothesized that if they made “choose me” actually add the child to the user’s shopping cart, they would increase the number of people who followed through on their sponsorship.\nThey split their traffic and watched the data to determine a winner.",
+      "keyLearnings": "Over a two month period, this experiment produced a 12% lift in conversions, though it didn’t achieve statistical validity due to low traffic. In this case, a lift of this magnitude is worth rolling out without statistical validity, as the total traffic through this funnel makes the test unlikely to validate at any time of year.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14535,
+      "experimentId": "8247",
+      "title": "How year-end messaging and urgency indicators affect donation page revenue",
+      "date": "2018-01-09T17:55:29",
+      "url": "https://www.nextafter.com/experiments/how-year-end-messaging-and-urgency-indicators-affect-donation-page-revenue/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 3,
+      "lift": 14.1,
+      "confidence": 0.1,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Simplified Version",
+            "metric": "$243.83",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Year End Language",
+            "metric": "$278.28",
+            "lift": "14.1%",
+            "confidence": "0.1%"
+          }
+        ]
+      },
+      "researchQuestion": "How will specific year-end messaging and urgency indicators affect donation page revenue?",
+      "summary": "Timeframe: 12/21/2017 - 01/03/2018\nCompassion International wanted to run a test on their main donation page at the end of year. Typically, people came to this page to make year-end gifts, with traffic and revenue ramping up sharply in December. However, the copy on the page remained the same all year, with nothing special done to reflect the year-end deadline.\nThey wanted to test copy and urgency indicators to see if they could positively affect motivation and generate more revenue from the page during the last half of December.\nThey crafted a treatment page with a new headline: “Make your year end donation today”. They added copy that referenced the December 31st deadline, added a story to show the impact of the donation, and added a countdown clock to visually show urgency in the sidebar.\nThey launched an A/B test to determine a winner.",
+      "keyLearnings": "The year-end treatment page showed a directional lift in revenue (14.1% increase), but it was unable to achieve statistical validity. This outlines the difficulty of testing at a time of the year where there is already high motivation. The treatment page might produce a lift, but because conversion is higher than normal on the control, there wasn’t enough separation to determine a winner.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 14490,
+      "experimentId": "2478",
+      "title": "How simplifying a donation page and removing designations affects conversion",
+      "date": "2018-01-07T20:56:56",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-a-donation-page-and-removing-designations-affects-conversion/",
+      "organization": "Compassion International",
+      "categoryNames": [
+        "Compassion International"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": 1.4,
+      "confidence": 44.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Original",
+            "metric": "48.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simplified Version",
+            "metric": "48.8%",
+            "lift": "1.4%",
+            "confidence": "44.5%"
+          }
+        ]
+      },
+      "researchQuestion": "How will removing designation options and reducing visual friction affect conversion?",
+      "summary": "Timeframe: 11/07/2017 - 12/21/2017\nThough Compassion International’s fundraising focus centered around child sponsorships, they do have a general fund that is collected on their donation page. This page offered donors the opportunity to contribute to a wealth of funds—from HIV to education to clean water.\nTheir team wondered how all of these designation options affected conversion. Did they present too much decision friction? Did they cause donors to think too much about their gift size?\nThey wanted to test a single donation ask with one place to enter a gift. Their hypothesis was that this would increase conversion by reducing decision friction. At the same time, they wanted to test the impact of reducing visual friction by moving the copy from being overlaid on the image to a white background, reducing the size of the image.",
+      "keyLearnings": "There was no statistical difference between the control and the treatment. This tells us two important facts—removing the list of gift designations didn’t increase giving by reducing decision friction, but it also didn’t decrease giving by offering fewer options to give. Thus, the amount of giving options was neither the problem, nor the solution.\nThis indicates that the primary factor affecting conversion on this page might not be friction. Instead, this indicates that the value proposition is the element which should be tested and strengthened. This page’s conversion rate of nearly 50% shows that users are quite motivated when they show up. If we can successfully increase the force of the value proposition, then we have a chance to increase that conversion rate.",
+      "fluxMetrics": null
+    }
+  ]
+}

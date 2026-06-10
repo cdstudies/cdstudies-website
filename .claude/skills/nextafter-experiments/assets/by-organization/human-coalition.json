@@ -1,0 +1,1021 @@
+{
+  "name": "Human Coalition",
+  "total": 24,
+  "tierBreakdown": {
+    "valid": 12,
+    "directional": 6,
+    "inconclusive": 6
+  },
+  "experiments": [
+    {
+      "id": 721218,
+      "experimentId": "199892",
+      "title": "How Facebook Messenger vs. Web-Based Petition Flows Impact Donor Conversion from a Content Offer",
+      "date": "2025-11-13T19:59:44",
+      "url": "https://www.nextafter.com/experiments/how-facebook-messenger-vs-web-based-petition-flows-impact-donor-conversion-from-a-content-offer/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Facebook"
+      ],
+      "tier": 1,
+      "lift": -88.3,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Web-Based Funnel",
+            "metric": "4.1%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Messenger-Based Funnel",
+            "metric": "0.48%",
+            "lift": "-88.3%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believed that reducing friction and delivering the petition flow directly in Facebook Messenger would result in more petition signers and a higher donor conversion rate, because users would be more likely to engage and act when they stay within a native platform environment with minimal disruption.",
+      "summary": "Timeframe: 08/28/2025 - 09/24/2025\nHuman Coalition increased donor acquisition using petitions on social platforms. This test aimed to increase petition signers and their conversion into donors by reducing friction and keeping users on Facebook.\nThe test targeted audiences built from lookalike models of Human Coalition’s donors and subscribers. The control was a traditional funnel: a Facebook ad drove users to a landing page with petition language and an email capture form. After signing, users were redirected to an instant donation page.\nThe treatment utilized a social media automation tool called ManyChat to manage the entire experience within Facebook Messenger. Users who engaged with the ad were entered into an automated workflow triggered by ManyChat, which messaged them through Messenger. This workflow provided the user with a variety of options to present the value proposition they would typically read on a landing page. Once they were ready, the user read the petition, submitted their name and email, and were then asked to donate via a link sent to them in their DM inbox.\nThe test was run as a Facebook A/B campaign with identical audience targeting to prevent overlap and ensure a clean comparison.",
+      "keyLearnings": "This test revealed a key trade-off between cost efficiency and donor intent:\nThe Messenger-based treatment drove more traffic, more signers, and had a dramatically lower CPM ($27.20 vs. $65.01). It achieved:\n \t2x the reach\n \t4x the clicks\n \t49% more signers\n \tHowever, donor conversion was significantly lower in the treatment group:\n \tThe control converted 4.1% of petition signers into donors (46 donors from 1117 signers)\n \tThe treatment converted only 0.48% (8 donors from 1662 signers)\n \tControl revenue was $1,498; treatment revenue was just $170\nkeeping users on-platform via Messenger reduced friction for petition signing, but may have also lowered perceived commitment or donor motivation\nMessenger's rapid, transactional format may have attracted lower-intent users\nFor reach and petition acquisition\nFor donor conversion\nMessenger for acquisition, followed by a timed email donation ask\n \tTesting richer storytelling or urgency-building in the Messenger flow\n \tIntroducing a follow-up web-based donation journey post-petition",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 88.3% decrease in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 70565,
+      "experimentId": "193610",
+      "title": "How a story-based faux-forward email performed against a standard faux-forward email on Giving Tuesday",
+      "date": "2025-03-10T14:31:09",
+      "url": "https://www.nextafter.com/experiments/how-a-story-based-faux-forward-email-performed-against-a-standard-faux-forward-email-on-giving-tuesday/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "click rate",
+        "Email Fundraising | Copy"
+      ],
+      "tier": 1,
+      "lift": 41.2,
+      "confidence": 99.7,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control - Faux Forward with Standard Direct Appeal",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Faux Forward with a Story",
+            "metric": "1.7%",
+            "lift": "41.2%",
+            "confidence": "99.7%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that including a donor testimonial in a faux-forward for a direct ask email will achieve an increase in clicks to the donation page because personal stories from donors can build trust, create emotional connection, and motivate action.",
+      "summary": "Timeframe: 12/03/2024 - 12/03/2024\nDuring the critical Giving Tuesday fundraising period, Human Coalition wanted to test the effectiveness of their Giving Tuesday PM email communication strategy. Our traditional approach has been to use a faux-forward email, where the PM message included a “forwarded” copy of the AM email, with a brief added note from the person forwarding it.\nFor this experiment, we wanted to test the faux-forward against a treatment email that still kept the forwarded AM content but instead focused on a testimonial from two Human Coalition donors sharing their personal connection to the mission.\nThe goal of this test was to determine if focusing on a donor testimonial rather than reiterating the AM email’s message would lead to higher engagement and more conversions. Our theory was that using donor stories would drive more trust and emotional connection to help inspire the reader to take action, while the repeated messaging of the faux-forward strategy could be leading to fatigue or disengagement.",
+      "keyLearnings": "The key learning from this experiment is that personal donor testimonials were far more effective in driving engagement than the traditional faux-forward approach. The Treatment email, which focused on a heartfelt testimonial from two Human Coalition donors, saw a 41.2% increase in clicks to the donation page, suggesting that emotional connection and social proof are powerful motivators for potential donors.\nThe results indicate that people are more likely to take action when they hear directly from fellow supporters who share their values and experiences. Testimonies not only provide social proof but also humanize the organization, fostering a deeper sense of community and purpose. This highlights the psychological principle of social proof, where individuals are influenced by the actions and opinions of others, especially those they can relate to.\nOn the other hand, the Control email, which repeated the morning’s message in a faux-forward format, did not resonate as strongly. This suggests that while reminders can be helpful, they may not always be as compelling as personalized, story-driven content, which has a stronger emotional pull.\nMoving forward, it will be beneficial to incorporate more donor testimonials and personal stories into email campaigns, especially in critical fundraising periods like Giving Tuesday, to build trust and drive higher engagement.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n41.2% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 59307,
+      "experimentId": null,
+      "title": "How co-targeting with Facebook ads affects direct mail acquisition response rate",
+      "date": "2024-04-11T14:43:18",
+      "url": "https://www.nextafter.com/experiments/how-co-targeting-with-facebook-ads-affects-direct-mail-acquisition-response-rate-2/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "facebook ad"
+      ],
+      "tier": 1,
+      "lift": 35.8,
+      "confidence": 98.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.32%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.44%",
+            "lift": "35.8%",
+            "confidence": "98.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that showing Facebook ads for direct mail acquisition prospects will achieve an increase in conversion rate because we will increase brand awareness and familiarity during the “ask period”. because we will increase brand awareness and familiarity during the “ask period”.",
+      "summary": "Ended On: 10/25/2023\nHuman Coalition was running direct mail acquisition and wanted to test the impact of adding brand ads alongside these pieces so that people would see ads 7 days before and 7 days after the direct mail piece arrived in their mailbox.\nThere was a signer test in the direct mail piece itself, between the Human Coalition President Jeff Bradford and the former NFL Player Benjamin Watson. Ads were reflective of the signer that the recipient would receive a letter from.\nThey split the acquisition lists in two and launched an ad campaign, spending $5000 for the total audience to maximize reach across the target audiences.",
+      "keyLearnings": "The key learning from this experiment is that adding brand ads alongside direct mail acquisition pieces significantly increased the conversion rate and resulted in a 35.8% increase in donations. This indicates that the strategy of increasing brand awareness and familiarity during the \"ask period\" positively influenced donors to take action.\n\nIt is important to note that these results only came with the Benjamin Watson treatment — there was no significant difference on the Jeff Bradford-signed email, which had a lower response rate and lost the signer test.\n\nBased on these findings, it is recommended to continue using brand ads alongside direct mail acquisition campaigns in future experimentation. This strategy can be an effective way to maximize reach across target audiences and increase conversion rates. However, it is important to carefully monitor and analyze the performance of these ads to ensure they are effectively driving donations.\n\nAdditionally, it may be beneficial to further explore the impact of different ad messaging and visuals to optimize the effectiveness of the brand ads. By continuously testing and refining the ad content, it is possible to identify the most compelling and persuasive elements that resonate with the target audience and drive even higher conversion rates.\n\nOverall, this experiment highlights the importance of integrating digital advertising with traditional direct mail campaigns and the potential for significant increases in donations and conversion rates when done effectively.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 35.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11360,
+      "experimentId": "11510",
+      "title": "How removing key elements of a donation form affects revenue",
+      "date": "2019-04-20T01:35:24",
+      "url": "https://www.nextafter.com/experiments/removing-key-elements-of-a-donation-form-affects-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -37.7,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Impact-focused Donation Array",
+            "metric": "$0.04",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simple Donation Array",
+            "metric": "$0.02",
+            "lift": "-37.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "A simpler form will improve conversion rate without impacting revenue per visitor.",
+      "summary": "Timeframe: 10/28/2014 - 11/07/2014\nPart of Online for Life’s value proposition is that they can put a dollar amount on the cost to save a child. As a result, they have historically used these dollar figured on their donation page to help increase average gift. However, we wanted to ensure that this additional information was not actually hurting conversion rate by cluttering the page.",
+      "keyLearnings": "The simpler form was able to increase conversion rate by 7.8% but without conveying the value of the gift, the average gift dropped a substantial 42.3%. Future campaign landing pages will include this “cost to save a baby” information in their donation forms.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 7.8% increase in conversion rate\n\t\t\t\t× 42.3% decrease in average gift\n\t\t\t\t\t\t\t\t\t37.7% decrease in revenue"
+    },
+    {
+      "id": 11557,
+      "experimentId": "11512",
+      "title": "How asking for the donation at the right moment affects revenue",
+      "date": "2019-04-20T01:34:45",
+      "url": "https://www.nextafter.com/experiments/how-asking-for-donation-at-right-moment-affects-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 153.4,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Multiple Asks Throughout Copy",
+            "metric": "$2.77",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Ask Delayed Until End of Copy",
+            "metric": "$7.03",
+            "lift": "153.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We hypothesized that reserving the ask until later in the copy would allow the reader to fully understand the value proposition and would result in higher conversion and average gift.",
+      "summary": "Timeframe: 12/09/2014 - 12/19/2014\nThe essence of marketing is the message — and the essence of the message is the value proposition. Every value proposition must be properly crafted to minimize perceived cost and maximize perceived value. However, when you ask matters as much as how you ask. The ask has to be properly set up, even for the most powerful value propositions. During Online for Life’s year-end fundraising campaign, we developed two messaging styles to test with their audience.  The control made direct asks for support earlier and throughout the copy, while the treatment page reinforces the value proposition throughout the copy but did not make a direct appeal until the end of the copy.",
+      "keyLearnings": "Delaying the ask until the end of the copy resulted in 153.4% lift in revenue. This teaches a valuable lesson — even the best value proposition must have the right amount of set up before delivery. After all, you don’t propose marriage on the first date, right?",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 166.4% increase in conversion rate\n\t\t\t\t× 4.9% decrease in average gift\n\t\t\t\t\t\t\t\t\t153.4% increase in revenue"
+    },
+    {
+      "id": 11712,
+      "experimentId": "11514",
+      "title": "How changing the minimum donation amount affects revenue",
+      "date": "2019-04-20T01:33:52",
+      "url": "https://www.nextafter.com/experiments/how-changing-the-minimum-donation-amount-affects-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": 127,
+      "confidence": 99.8,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "$5 minimum",
+            "metric": "$0.59",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "$10 minimum",
+            "metric": "$1.34",
+            "lift": "127.0%",
+            "confidence": "99.8%"
+          }
+        ]
+      },
+      "researchQuestion": "What is the impact of changing the stated minimum donation amount for an acquisition offer?",
+      "summary": "Timeframe: 03/24/2015 - 04/27/2015\nOnline for Life was running an acquisition offer centered around a sticker. The sticker was offered for a “donation of any amount”, with a minimum donation of $5.00. While $5 covered the cost of the sticker and shipping, the offer wasn’t really about the sticker itself — it was about the gift. We thought that the suggested amount was too closely tied to the offer and not the motivation, so we ran a test to change the minimum ask to $10. Our hope was that we would maintain conversion with a small minimum ask but would increase the perceived value of the sticker and inspire people to give more.",
+      "keyLearnings": "If all things were equal, the increase in stated minimum donation amount would have changed average gift $5, by forcing the people who were going to give the minimum amount to double that. Instead, the average gift amount increased by $18 — an increase of more than 126%! This test suggests a strong connection between minimum donation and perceived value and will inform future offers.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 25.4% increase in conversion rate\n\t\t\t\t× 81.1% increase in average gift\n\t\t\t\t\t\t\t\t\t127.0% increase in revenue"
+    },
+    {
+      "id": 12118,
+      "experimentId": "11517",
+      "title": "How a single social proof indicator affects name conversion",
+      "date": "2019-04-20T01:33:00",
+      "url": "https://www.nextafter.com/experiments/how-a-single-social-proof-indicator-affects-name-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 8.4,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control Landing Page",
+            "metric": "57.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Landing Page (with social proof)",
+            "metric": "62.0%",
+            "lift": "8.4%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Will inclusion of a “social proof” indicator boost conversion?",
+      "summary": "Timeframe: 08/01/2015 - 10/01/2015\nOnline for Life had been running their primary name acquisition campaign, the Pro-Life Declaration, for more than a year. In that time, they had amassed a significant amount of names. They wanted to see if these nearly 200,000 names could provide “social proof” that would boost conversion. They created a treatment with a counter in the upper left — aside from this counter, nothing else on the page changed.",
+      "keyLearnings": "Turns out that people like to see that other people have taken an action — in this case, signed a petition.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 8.4% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 12095,
+      "experimentId": "2154",
+      "title": "How clarifying the value proposition affects donor conversion",
+      "date": "2019-04-20T01:31:59",
+      "url": "https://www.nextafter.com/experiments/how-clarifying-the-value-proposition-affects-donor-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 1,
+      "lift": 90.8,
+      "confidence": 98.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.9%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment - Copy Change, Design",
+            "metric": "7.4%",
+            "lift": "90.8%",
+            "confidence": "98.9%"
+          }
+        ]
+      },
+      "researchQuestion": "Will clarifying the value proposition increase donor conversion rate?",
+      "summary": "Timeframe: 09/15/2015 - 09/28/2015\nOnline for Life ran a fundraising campaign during the month of September to raise money to save babies from abortion.\nThey wanted to find out if we could strengthen the value proposition on the landing page by clarifying to the copy and adding visual elements to support it. They created a second treatment with a more direct headline and subheadlines, as well as actual photos of babies who have been saved, along with their names.",
+      "keyLearnings": "Clarity trumps persuasion again! When OFL placed more clear, direct copy to the page and added photos of babies that have been saved, more donors were motivated to give. This tells us a few things:\n1. We must be as clear and concise as possible. The more difficult it is to understand the value proposition, the fewer conversions a page will produce.\n2. It’s better to “show” than “tell”. The number of babies saved is bolstered by showing actual photos of saved babies.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 90.8% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11899,
+      "experimentId": "1678",
+      "title": "How a new email design affects clickthrough rate",
+      "date": "2019-04-20T01:31:55",
+      "url": "https://www.nextafter.com/experiments/how-a-new-email-design-affects-clickthrough-rate/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 8.9,
+      "confidence": 99.3,
+      "metricName": "Click Rate",
+      "results": {
+        "metricName": "Click Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Plain Text Email",
+            "metric": "18.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Imagery and Button in Email",
+            "metric": "20.3%",
+            "lift": "8.9%",
+            "confidence": "99.3%"
+          }
+        ]
+      },
+      "researchQuestion": "Will stronger imagery and a more obvious call-to-action improve email response?",
+      "summary": "Timeframe: 07/01/2015 - 07/14/2015\nOnline for Life was renting email lists to acquire new names and donors. Their Pro-Life Declaration had been an effective name acquisition device in the past, and they wanted to improve their email design to motivate more people to sign it.",
+      "keyLearnings": "These improvements attracted more clicks, which turned into more email addresses, reducing cost-per-name and growing Online for Life’s email file faster. This new design serves as the new control, and the learnings suggest more opportunities for optimization.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n8.9% increase in traffic\n\t\t\t\t× 0% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11610,
+      "experimentId": "864",
+      "title": "How a radical landing page redesign affects name acquisition rate",
+      "date": "2019-04-20T01:31:44",
+      "url": "https://www.nextafter.com/experiments/how-a-radical-landing-page-redesign-affects-name-acquisition-rate/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [],
+      "tier": 1,
+      "lift": 34.7,
+      "confidence": 100,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Standard Landing Page",
+            "metric": "34.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Radical Redesign",
+            "metric": "46.1%",
+            "lift": "34.7%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Does a more evocative landing page with social proof outperform a more straightforward, functional landing page?",
+      "summary": "Timeframe: 01/12/2015 - 02/02/2015\nOnline for Life developed a petition, the Pro-Life Declaration to acquire new email addresses for their house file. Initially, the petition was a flat, content-focused design that looked exactly like…a petition. We wanted to test this against a radical redesign centered around a compelling image combined with the value statement “Life is Precious”. Rather than assume that the site visitor was ready to sign the petition, we assumed that we had to keep selling them once they got on the page. In addition to the new value statement and image, we added a counter at the top to show that by signing the petition, the visitor was joining a much larger group.",
+      "keyLearnings": "The radical redesign delivered a 34.7% lift in the number of people who signed the Declaration — a huge boost to the campaign. This lift proved that the landing page must appeal to the donor. It also reminded us that visuals help sell the ultimate conversion, and we are not done selling once we have the user on the page.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 34.7% increase in conversion rate\n\t\t\t\t× 0% increase in average gift"
+    },
+    {
+      "id": 11554,
+      "experimentId": "637",
+      "title": "How simplifying the design and expanding the content affects revenue",
+      "date": "2019-04-20T01:31:34",
+      "url": "https://www.nextafter.com/experiments/how-simplifying-the-design-and-expanding-the-content-affects-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": -78.2,
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Design Page with Shorter Copy",
+            "metric": "$16.06",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Simple Design with Longer Copy",
+            "metric": "$3.51",
+            "lift": "-78.2%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "A longer explanation of OFL’s unique process coupled with a simpler page design will allow donors to get a better understanding of their value proposition which will, in turn, increase the overall revenue for the campaign.",
+      "summary": "Timeframe: 12/21/2014 - 12/28/2014\nFor their year end campaign, Online for Life used their unique process for reaching abortion-determined women and the cost that it takes to save a child as the primary value proposition. The question became how much the page needed to explain the details of the process vs. keeping it high level.  We created two treatments to find out.",
+      "keyLearnings": "It would appear that less explanation was needed than we had originally thought.  This may be the result of previous efforts to explain how OFL works or the urgency that comes with year end.  In any case, we will know that less is more for future campaigns.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 50.5% decrease in conversion rate\n\t\t\t\t× 55.9% decrease in average gift\n\t\t\t\t\t\t\t\t\t78.2% decrease in revenue"
+    },
+    {
+      "id": 11560,
+      "experimentId": "647",
+      "title": "How a button’s value proposition affects revenue",
+      "date": "2019-04-20T01:30:42",
+      "url": "https://www.nextafter.com/experiments/how-a-buttons-value-proposition-affects-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 1,
+      "lift": [
+        62.2,
+        -30.5
+      ],
+      "confidence": 100,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Save a Baby",
+            "metric": "$1.64",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Save a Child",
+            "metric": "$2.66",
+            "lift": "62.2%",
+            "confidence": "100.0%"
+          },
+          {
+            "code": "T2:",
+            "name": "Give",
+            "metric": "$1.14",
+            "lift": "-30.5%",
+            "confidence": "100.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which language on the donate button most clearly communicates the unique value proposition of Online for Life?",
+      "summary": "Timeframe: 06/10/2014 - 07/22/2014\nThe general donation button on Online for Life’s website had always communicated a value proposition beyond simply giving a gift. The buttons message of “Save a Baby” communicated what their gift accomplished. However, we wanted to test whether this button copy was the best way to communicate both value and the purpose of the subsequent page.",
+      "keyLearnings": "The “Give” button resulted in 41% less conversions and a 30.5% decrease in revenue. Removing the value proposition from the button ended up significantly reducing the visitors likelihood to give.\nOn the other hand, expanding the audience beyond just “Save a Baby” to “Save a Child” increased revenue by 62.2%. This simple change reminded donors of the long term impact of their gift. We save want to save a baby from abortion because of who they will become over time.",
+      "fluxMetrics": "The Flux Metrics analyze the three primary metrics that affect revenue (traffic, conversion rate, and average\n\t\t\t\tgift).\n\t\t\t\tThis experiment produced the following results:\n0% increase in traffic\n\t\t\t\t× 2.8% decrease in conversion rate\n\t\t\t\t× 66.8% increase in average gift\n\t\t\t\t\t\t\t\t\t62.2% increase in revenue"
+    },
+    {
+      "id": 724740,
+      "experimentId": "202896",
+      "title": "How Does a Monthly Ask Influence Recurring Donor Conversion?",
+      "date": "2026-03-24T15:59:54",
+      "url": "https://www.nextafter.com/experiments/how-does-a-monthly-gift-ask-impact-recurring-donor-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Recurring Giving"
+      ],
+      "tier": 2,
+      "lift": 100.5,
+      "confidence": 93.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control: Recurring Donations w/ One-Time Gift Default",
+            "metric": "0.86%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment: Recurring Donations w/ Recurring Gift Default",
+            "metric": "1.7%",
+            "lift": "100.5%",
+            "confidence": "93.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that presenting a clear monthly giving ask to donors arriving from an urgency-driven Facebook ad will increase recurring conversion and long-term value because framing the gift as ongoing support encourages deeper commitment than a one-time ask.",
+      "summary": "Timeframe: 02/19/2026 - 03/20/2026\nHuman Coalition running a Facebook fundraising campaign built around a clear and compelling $26 one-time donation ask. This ad is one of our strongest performers, driven by a message that invites donors to step into a moment of urgent need and provide immediate, compassionate support.\nWhile this approach is effective at generating initial gifts, we want to better understand how to increase long-term donor value from this traffic. Specifically, we are exploring whether donors who respond to this type of urgent, emotionally resonant appeal are open to making an ongoing commitment (monthly gift) rather than a one-time gift.\nTo test this, we ran a split URL experiment on the donation experience following the ad click. All users see the same Facebook ad and $26 framing, but are randomly directed to one of two landing page experiences:\nControl: A standard donation page focused on a one-time gift\nTreatment: A modified donation page that clearly and prominently asks for a monthly recurring gift, with language intentionally adapted to remove ambiguity and reinforce the ongoing nature of the commitment\nThis test is designed to isolate whether reframing the post-click experience, from a single act of giving to a sustained monthly impact, changes how donors choose to give.\nAt its core, this experiment explores a key motivational question: When someone is moved to act in a moment of urgency, are they more likely to give once—or to commit to ongoing support when that path is made clear?",
+      "keyLearnings": "This test did not reach statistical significance (93.5% confidence); however, the directional results provide meaningful insight into donor behavior.\nThe monthly-first experience increased recurring gift conversion from 0.86% to 1.7% (+100.5% relative lift). On its own, this suggests that when donors are explicitly and clearly asked to give monthly, more of them will choose to do so. The treatment successfully surfaced and captured latent willingness among a subset of donors to commit to ongoing support.\nHowever, this increase came from a relatively small base and did not translate into enough total recurring volume to outweigh declines in overall conversion. This indicates that while the ask itself is effective at shifting behavior for some donors, the broader audience arriving from this ad is not primarily motivated by a recurring commitment.\nSecondary Metrics\n1. Overall Conversion Rate (Transactions)\nControl: 10.87%Treatment: 7.01%\nThe treatment saw a significant drop in overall conversion rate. This indicates that introducing a monthly-first ask created friction at the point of decision, reducing the likelihood that donors would complete any gift.\n2. One-Time Donations\nControl: 9.66%Treatment: 5.28%\nOne-time giving declined sharply in the treatment. This is a critical driver of overall performance loss and suggests that the monthly framing may have interrupted donor momentum rather than redirecting it.\n3. Revenue & Value per Visitor\nControl: $5,220.50 total | $4.50 per visitorTreatment: $3,385.50 total | $2.93 per visitor\nRevenue followed the same pattern as conversion rate. The lower value per visitor confirms that the monthly ask did not generate enough higher-value gifts to compensate for reduced participation.\nReviewing all metrics together:\nThe monthly ask works for a subset of donors (as seen in the lift in recurring conversion), but reduces participation across the broader audienceThere is a clear tradeoff between commitment and conversion: increasing upfront commitment decreases the number of people willing to actThe ad creates a moment of urgency and simplicity (“give $26 now”), and the monthly ask introduces cognitive and emotional friction that disrupts that momentumDirectional consistency across metrics increases confidence in the insight, despite not reaching 95% statistical significance\nNext Steps\nTest aligning the ask earlier in the journey (Test ad variants that frame the gift as monthly from the start to better match donor expectations)Test variations of a post-donation monthly upsell",
+      "fluxMetrics": null
+    },
+    {
+      "id": 69905,
+      "experimentId": "195141",
+      "title": "How does sending voicemails during a high-urgency campaign affect donor response?",
+      "date": "2025-02-10T15:09:12",
+      "url": "https://www.nextafter.com/experiments/how-does-sending-voicemails-during-a-high-urgency-campaign-affect-donor-response/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency"
+      ],
+      "tier": 2,
+      "lift": 60.9,
+      "confidence": 89.3,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control (No Voicemails)",
+            "metric": "$6.24",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment (Voicemails)",
+            "metric": "$10.05",
+            "lift": "60.9%",
+            "confidence": "89.3%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that adding voicemails to a multichannel high-urgency campaign for active donors will achieve a higher average gift because of the added personal touch points, relationship cultivation, and sense of ownership that a donor will feel.",
+      "summary": "Timeframe: 11/22/2024 - 12/31/2024\nHuman Coalition is interested in expanding their multichannel approach to fundraising, and decided to test the effectiveness of sending voicemails to a portion of their active donor list during a high urgency campaign.\nThe control group received the standard campaign emails and Facebook ads.\nThe treatment group received the same communication as the control group along with a series of 4 voicemails that were delivered through Slybroadcast over a period of 4 weeks. The content of these voicemails mirrored the content of emails in the campaign and were most often sent from the same person.",
+      "keyLearnings": "The key learnings from this experiment are that adding voicemails to a multichannel high-urgency campaign for active donors can lead to a significant increase in revenue. The treatment group, which received voicemails in addition to the standard campaign emails and Facebook ads, saw a 60.9% increase in revenue compared to the control group. Further analysis of the data showed that the treatment group also increased the number of donations by 37% at a 98% level of confidence.\nThis result suggests that the personal touch points, relationship cultivation, and sense of ownership that voicemails provide can have a positive impact on donor engagement and giving behavior. While the statistical level of confidence is below 95% for increasing revenue, the strong results warrant further testing of this strategy.\nIn future experimentation, it would be beneficial to continue testing the effectiveness of adding voicemails to multichannel fundraising campaigns, perhaps with variations in the timing, frequency, or content of the voicemails. Additionally, collecting qualitative feedback from donors who received the voicemails could provide insights into why they may have been more effective in driving donations. Overall, this experiment highlights the potential of using voicemails as a valuable tool in donor communication and fundraising efforts.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 60909,
+      "experimentId": "186674",
+      "title": "How a simplified campaign Challenge Grant goal impacts overall revenue and average gift",
+      "date": "2024-07-19T17:00:50",
+      "url": "https://www.nextafter.com/experiments/how-a-simplified-campaign-challenge-grant-goal-impacts-overall-revenue-and-average-gift/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Email Fundraising | Copy",
+        "Key Metrics | Average Gift Size",
+        "Revenue"
+      ],
+      "tier": 2,
+      "lift": 124.8,
+      "confidence": 93.6,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.01",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "$0.02",
+            "lift": "124.8%",
+            "confidence": "93.6%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplifying the campaign challenge grant goal for Human Coalition housefile will achieve an increase in donor conversion and revenue because it eliminates potential confusion and instead focuses on highlighting the impact of the challenge grant.",
+      "summary": "Ended On: 07/17/2024\nFor Human Coalition’s Fiscal Year End campaign, readers were presented with two goals: the overall goal of $703,875 as well as the challenge grant goal of $352,000. In reality, these two goals represent the same number. $703,875 is the total of what would be raised if the challenge grant goal was met. We hypothesized that presenting the user with both could cause unnecessary confusion and friction. We believe that by simplifying this goal in the treatment, to only highlight the challenge grant as the main priority will help improve donor conversion and revenue.",
+      "keyLearnings": "The key learning from this experiment is that simplifying the campaign challenge grant goal for Human Coalition by focusing solely on the $352,000 goal led to a significant increase in donor conversion and revenue. By eliminating potential confusion caused by presenting two goals, the treatment version saw a 124.8% increase in revenue for all traffic.\nOur hypothesis is that by simplifying the ask, and focusing the reader's attention on the doubled impact of the challenge grant, users were more likely to make a larger gift knowing.\nIn future experimentation, it is important to continue testing this simplified approach to determine its consistent impact on donor behavior. Further testing with larger sample sizes and variations in messaging could help strengthen the validity of these findings. Additionally, applying this learning to other campaigns within Human Coalition and potentially extending it to other similar nonprofit organizations could help optimize fundraising efforts and improve overall outcomes.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12514,
+      "experimentId": "3372",
+      "title": "How a direct donation ask vs a premium offer affects conversion rate",
+      "date": "2019-04-20T01:32:20",
+      "url": "https://www.nextafter.com/experiments/how-a-direct-donation-ask-vs-a-premium-offer-affects-conversion-rate/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 2,
+      "lift": -57.4,
+      "confidence": 92.9,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Sticker Offer/Donation",
+            "metric": "0.71%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Direct Donation",
+            "metric": "0.30%",
+            "lift": "-57.4%",
+            "confidence": "92.9%"
+          }
+        ]
+      },
+      "researchQuestion": "How would a direct donation ask effect conversion rate?",
+      "summary": "Timeframe: 02/23/2016 - 03/09/2016\nOnline for Life created a petition called the End Abortion Declaration. People were pushed to the petition through Facebook advertising and banner ads. After someone would sign the petition, they were presented with a thank you and donation page. In efforts to increase donations, they set up a test. The control was presenting people with the opportunity to get a “Save the Baby Humans” in exchange for a gift to Online for Life. While this had worked well for previous offers, they wanted to test how it would perform against a direct donation ask with value proposition language that supported the End Abortion Declaration. They did an A/B split test to see which donation experience would perform better.",
+      "keyLearnings": "The sticker offer had a much higher conversion rate and resulted in the direct donation ask having a decrease in conversion rate by 57.4%.\nThis tells us that even though the direct donation landing page reinforced the value proposition of the declaration they just signed, they weren’t motivated enough to give to the cause. But when presented with something they could get – the sticker – they converted instantly and gave a donation. The perceived value of receiving the sticker also caused people to give at a much higher rate as represented by the average gift.\nThe sticker offer was deployed for the remainder of the campaign.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12399,
+      "experimentId": "2995",
+      "title": "How a countdown clock affects the value proposition and revenue",
+      "date": "2019-04-20T01:32:09",
+      "url": "https://www.nextafter.com/experiments/how-a-countdown-clock-affects-the-value-proposition-and-revenue/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 41.6,
+      "confidence": 91,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Every 26 Seconds Clock",
+            "metric": "14.8%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Year-End Clock",
+            "metric": "21.0%",
+            "lift": "41.6%",
+            "confidence": "91.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Which countdown clock would increase donor conversion rate?",
+      "summary": "Timeframe: 12/29/2015 - 01/20/2016\nAs part of their year-end campaign, Online for Life wanted to find a way to boost the conversion rate on their donation page.\nIn a previous test, we had learned that the addition of the “Every 26 seconds” clock on the donation page had increased donor conversion rate. Now, we wanted to test it against a treatment with a timer that counted down to the end of the year.\nOur hypothesis was that people would be more motivated to give based on the urgency of the year-end. We ran a split A/B test. The control donation page had the”Every 26 seconds” clock and the treatment was the donation page with the year-end countdown clock.",
+      "keyLearnings": "The year-end countdown clock was able to increase the urgency of the ask and it also reinforced the value proposition of the donation page. This lead to the increase in conversion rate by 41.6%, but a decrease in average gift by 4.7%. However, overall, the addition of the year-end clock with messaging that supported it resulted in a 35% increase in revenue.\nIn the future, the countdown clock with financially focused messaging will be deployed towards the end of large year-end campaigns to increase revenue in the final days of giving.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 11336,
+      "experimentId": "15",
+      "title": "How the layout of a donation form affects conversion rate",
+      "date": "2019-04-20T01:31:22",
+      "url": "https://www.nextafter.com/experiments/how-the-layout-of-a-donation-form-affects-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Key Metrics | Conversion Rate",
+        "Key Metrics | Revenue"
+      ],
+      "tier": 2,
+      "lift": 59.9,
+      "confidence": 90,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Radio Buttons",
+            "metric": "1.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Designed Buttons",
+            "metric": "1.9%",
+            "lift": "59.9%",
+            "confidence": "90.0%"
+          }
+        ]
+      },
+      "researchQuestion": "Regular buttons will increase the conversion rate given their increased ease of use both for reading and selecting.",
+      "summary": "Timeframe: 09/16/2014 - 09/23/2014\nThe out-of-the-box defaults for Online for Life’s donation system results in giving arrays that consist of radio buttons. Given the amount of text that accompanies each giving option on the form, these radio buttons tend to clutter the form and make it hard to operate on a mobile phone.  We wanted to test a new way of laying out the same information.",
+      "keyLearnings": "The new buttons resulted in a 59.9% increase in conversion rate and were also able to increase the average gift by 56.5%. This proved how the new method for displaying the donation options made it easier for donors to understand.  As a result, the gift had more value to the donor resulting in a net increase of 150.2% revenue.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 722362,
+      "experimentId": "201362",
+      "title": "How Meta Ad Campaign Optimization Goals Affect the Cost of Acquisition",
+      "date": "2026-01-08T17:37:46",
+      "url": "https://www.nextafter.com/experiments/how-meta-ad-campaign-optimization-goals-affect-the-cost-of-acquisition/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "facebook ad"
+      ],
+      "tier": 3,
+      "lift": -2.5,
+      "confidence": 12,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Purchase Optimized Campaign",
+            "metric": "9.3%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "ROAS Optimized Campaign",
+            "metric": "9.1%",
+            "lift": "-2.5%",
+            "confidence": "12.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that optimizing Meta ads for Maximum ROAS for a mixed acquisition and retargeting audience will achieve higher ROI than optimizing for Purchases, because focusing the algorithm on revenue-per-dollar spent may prioritize higher-value donors, even if it reduces overall conversion volume.",
+      "summary": "Timeframe: 11/10/2025 - 12/15/2025\nTo better understand how Meta campaign optimization goals impact both giving behavior and campaign efficiency, Human Coalition tested two different optimization strategies. The control group optimized for Purchases—Meta’s default goal of maximizing the number of tracked donation conversions. The treatment group optimized for maximum Return on Ad Spend (ROAS)—Meta’s strategy that seeks to maximize the total dollar value returned for every ad dollar spent.\nThe team hypothesized that ROAS (Return on Ad Spend) optimization might reduce the number of conversions but increase the average gift size enough to improve overall ROI. This trade-off between conversion volume and gift value is central to the donor motivation question: Are there optimization strategies that attract higher-value donors, even at lower volume?\nBoth groups used the same ad creatives, daily budgets, and targeting parameters, isolating only the optimization goal as the variable under test. This test aimed to surface insights on how optimization settings shape both donor behavior and bottom-line campaign performance.",
+      "keyLearnings": "Optimizing for Maximum ROAS did not outperform Purchase optimization in this campaign. While the average gift in the ROAS-optimized group was higher ($49.27 vs. $38.24), the overall performance suffered due to a sharp decline in donation volume, with the treatment group generating only 39 gifts compared to 175 in the control. As a result, the gross cost per donor more than doubled in the treatment group ($213.70 vs. $86.17), and overall ROI decreased. The treatment group saw a 2.5% decrease in Donations for All Traffic, which was not significant at a 12.0% level of confidence. Therefore, the hypothesis that focusing on revenue per dollar spent would attract higher-value donors, potentially improving overall ROI, was not supported by the data. This suggests that Meta’s ROAS optimization may struggle to scale donation volume for nonprofit campaigns, especially when the audience includes a large proportion of new or cold prospects. While ROAS optimization likely prioritized users predicted to give larger gifts, the reduced reach or conversion frequency significantly undercut overall efficiency. We learned that gift value alone cannot offset a steep drop in conversions—at least in this audience and campaign context. Optimizing for total donor volume may remain the more effective strategy when the primary goal is acquisition, particularly if follow-up engagement can increase lifetime value over time. These results prompt further questions: Could ROAS optimization be more effective with warmer audiences or higher average gift campaigns? Are there hybrid approaches (e.g., campaign-level ROAS goals with ad set-level Purchase optimization) that could better balance value and volume?",
+      "fluxMetrics": null
+    },
+    {
+      "id": 67354,
+      "experimentId": "191633",
+      "title": "How additional cultivation and text appeals amid a High Urgency campaign impact donor giving",
+      "date": "2024-10-14T14:09:36",
+      "url": "https://www.nextafter.com/experiments/how-additional-cultivation-and-text-appeals-amid-a-high-urgency-campaign-impact-donor-giving/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "high urgency",
+        "text message"
+      ],
+      "tier": 3,
+      "lift": 40.6,
+      "confidence": 0,
+      "metricName": "Revenue per Visitor",
+      "results": {
+        "metricName": "Revenue per Visitor",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "$0.05",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment",
+            "metric": "$0.07",
+            "lift": "40.6%",
+            "confidence": "0.0%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that sending cultivation and appeals in an additional channel amid a high urgency campaign for Human Coalition’s housefile will achieve an increase in donor giving and revenue because it diversifies the communication and creates an additional reminder/opportunity to connect with the donor — beyond just their inbox. because  it diversifies the communication and creates an additional reminder/opportunity to connect with the donor — beyond just their inbox.",
+      "summary": "Ended On: 10/08/2024\nAs Human Coalition expands into multi-channel efforts with Facebook retargeting and text appeals, we hypothesized that including additional touchpoints in text for the Back to School high urgency campaign will improve donor conversion rate and revenue. Our goal was to observe the impact on giving, not just from the text directly, but whether these additional touchpoints made donors more likely to give or more generous in their gift amount in other channels throughout the campaign.\nThe additional touchpoints sent by text were a launch day appeal, a cultivation piece with video, and a final day appeal – three texts in total.",
+      "keyLearnings": "Key Learnings from the Experiment:\n1. The treatment group, which included additional touchpoints through Facebook retargeting and text appeals, saw a significant increase in revenue for all traffic by 35.0%. This suggests that incorporating multiple channels for communication can have a positive impact on donor giving during high urgency campaigns.\n2. Despite the increase in revenue, the statistical level of confidence was only at 75.9%, which is below the recommended threshold of 85%. This means that the results are not considered statistically significant and should not be relied upon for future decision making.\nThe key lesson learned is that incorporating multiple touchpoints in fundraising campaigns may have a positive impact on donor giving, but it is essential to gather more data and ensure statistically significant results before implementing any changes based on experiment outcomes.\nUltimately, a helpful takeaway is that receiving an additional communication in text does not negatively impact Human Coalition's audience, it doesn't appear to be an annoyance or a distraction. Rather, it would be worthwhile testing additional pieces in text that are \"bonus\" to the campaign. For example, rather than resending the video already included in email. What if readers were sent a new cultivation or video piece that they hadn't received.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59949,
+      "experimentId": "180404",
+      "title": "How a Humanized Pop-Up Impacts Clicks and Downstream Donor Conversion",
+      "date": "2024-06-04T15:39:00",
+      "url": "https://www.nextafter.com/experiments/how-a-humanized-pop-up-impacts-clicks-and-downstream-donor-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "click rate",
+        "donor conversion",
+        "pop-up"
+      ],
+      "tier": 3,
+      "lift": -0.9,
+      "confidence": 0.5,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.07%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.06%",
+            "lift": "-0.9%",
+            "confidence": "0.5%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that writing a pop-up from the perspective of a real person and including their picture for users on the Human Coalition homepage will achieve an increase in donor conversion rate because it humanizes the pop-up and creates a more compelling experience having it come from a real person “in the field” .",
+      "summary": "Ended On: 05/31/2024\nFor Human Coalition’s Mother’s Day campaign, we hypothesized that a humanized pop-up written from the perspective of a Practice Manager at a center and the inclusion of her picture would generate greater click-thru and downstream donor conversion.",
+      "keyLearnings": "The key learnings from this experiment are that the treatment, which involved a pop-up written from the perspective of a real Practice Manager at a center and included her picture, resulted in little to no difference in downstream conversion. Flat results were also observed on click-thru rate as well:\n\nControl: 1,538 | 15 Clicks | Click Rate: 1.0%\n\nTreatment 1,552 | 13 Clicks | Click Rate .8% | -14.1% Difference | LOC: 31.4%\n\nAlthough a greater sample size and further testing is required to achieve a valid learning, what this trend does indicate is that the humanized experienced made little difference for users on the homepage.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59950,
+      "experimentId": "180405",
+      "title": "How a Humanized Letter Treatment on a Donation Page Impacts Conversion Rate",
+      "date": "2024-06-03T19:06:22",
+      "url": "https://www.nextafter.com/experiments/how-a-humanized-letter-treatment-on-a-donation-page-impacts-conversion-rate/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages | Design",
+        "donor conversion"
+      ],
+      "tier": 3,
+      "lift": 27.8,
+      "confidence": 62.1,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "3.2%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "4.1%",
+            "lift": "27.8%",
+            "confidence": "62.1%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that a humanized treatment of the donation page that looks like a letter from a Practice Manager for users on the Mother’s Day campaign donation page will achieve an increase in donor conversion because it humanizes and personalizes the appeal to come from a real person who is working at the centers impacted. .",
+      "summary": "Ended On: 05/31/2024\nFor Human Coalition’s Mother’s Day campaign, we tested a humanized experience in various channels of the campaign. For the donation page, we hypothesized that updating the intro copy and end of the donation page to look like a letter from Amy, a Practice Manager, would help humanize the experience, personalize the appeal, and as a result improve donor conversion. It’s important to note that aside from the intro and sign-off, no other copy was changed on the donation page.",
+      "keyLearnings": "The humanized treatment in the form of a letter from a Practice Manager on the donation page for the Mother's Day campaign resulted in a 27.8% increase in donations for all traffic. Despite the positive outcome, the statistical level of confidence was only 62.1%, which is below the recommended threshold of 85%. While this humanized treatment showed promise in increasing donor conversion, it is essential to conduct further experiments with a larger sample size to validate the results. Other metrics to observe are revenue and recurring.\n\nRevenue saw slight improvements in average gift but below an 85% level of significance:\n\nControl: $1,442 from 26 Gifts | $55 AVG Gift\n\nTreatment $1,669 from 27 Gifts | $61 AVG Gift\n\nRecurring:\n\nControl: 716 Samples | 2 Recurring Donations | .3% Conversion\n\nTreatment 655 Samples | 4 Recurring Donations | .6% Conv Rat | 118% Relative Difference | 63.9% Significance",
+      "fluxMetrics": null
+    },
+    {
+      "id": 59964,
+      "experimentId": "180406",
+      "title": "How removal of an array in favor of a simplified ask in email impacts donor conversion",
+      "date": "2024-06-03T19:04:13",
+      "url": "https://www.nextafter.com/experiments/how-removal-of-an-array-in-favor-of-a-simplified-ask-in-email-impacts-donor-conversion/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "donor conversion",
+        "Email Fundraising | Design"
+      ],
+      "tier": 3,
+      "lift": 18.5,
+      "confidence": 39.4,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Control",
+            "metric": "0.02%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Treatment #1",
+            "metric": "0.02%",
+            "lift": "18.5%",
+            "confidence": "39.4%"
+          }
+        ]
+      },
+      "researchQuestion": "We believe that simplifying an expanded gift array in email for consistent $26 ask in the copy for Human Coalition housefile will achieve an increase in donor conversion rate because it eliminates decision friction and maintains the consistency of the $26 ask presented in all other parts of the email.",
+      "summary": "Ended On: 05/31/2024\nFor Human Coalition’s Mother’s Day campaign, the main ask presented to the donor was that $26 help reach a mom seeking an abortion. However, in various email the reader would also be presented with an expanded array ask that requested $26, $52, $104, or their best gift in the email copy. Our hypothesis is that by simplifying this array to instead continue focus on the $26 ask would improve donor conversion rate.",
+      "keyLearnings": "The key learning from this experiment is that simplifying the gift array in email by consistently focusing on a single ask amount of $26 can potentially lead to an increase in donor conversion rate. In this case, the treatment group saw an 18.5% increase in donations for all traffic. However, the statistical level of confidence was only 39.4%, which means that the results cannot be considered valid for future decision making.\n\nInterestingly, it should also be noted that despite the treatment eliminating the expanded array of asks, ultimately average gift remained similar between the control and treatment.\n\nControl: 112,985 Samples | 17 Donations | .1% Revenue Per Visitor | Avg Gift $78.22\n\nTreatment: 112,131 Samples | 20 Donations | .1% Revenue Per Visitor | -.5 Relative Difference | 53.8% Significance | Avg Gift $62.56\n\nOverall, the results of this experiment indicate that simplifying the ask amount in email communications can have a positive impact on donor conversion rates, but further testing and larger sample size is needed for validity.",
+      "fluxMetrics": null
+    },
+    {
+      "id": 12424,
+      "experimentId": "3081",
+      "title": "How a countdown clock affects donor conversion rate",
+      "date": "2019-04-20T01:32:14",
+      "url": "https://www.nextafter.com/experiments/how-a-countdown-clock-affects-donor-conversion-rate/",
+      "organization": "Human Coalition",
+      "categoryNames": [
+        "Human Coalition"
+      ],
+      "tagNames": [
+        "Donation Pages",
+        "Key Metrics | Conversion Rate"
+      ],
+      "tier": 3,
+      "lift": -19.8,
+      "confidence": 78.6,
+      "metricName": "Conv. Rate",
+      "results": {
+        "metricName": "Conv. Rate",
+        "rows": [
+          {
+            "code": "C:",
+            "name": "Every 26 Seconds Clock",
+            "metric": "43.6%",
+            "lift": null,
+            "confidence": null
+          },
+          {
+            "code": "T1:",
+            "name": "Year-End Clock",
+            "metric": "34.9%",
+            "lift": "-19.8%",
+            "confidence": "78.6%"
+          }
+        ]
+      },
+      "researchQuestion": "Which countdown clock would increase donor conversion rate?",
+      "summary": "Timeframe: 12/29/2015 - 01/28/2016\nAs part of their year-end campaign, Online for Life wanted to find a way to boost the conversion rate on their donation page.\nIn a previous test, we had learned that the addition of the “Every 26 seconds” clock on the donation page had increased donor conversion rate. Now, we wanted to it against a treatment with a timer that counted down to the end of the year.\nOur hypothesis was that people would be more motivated to give based on the urgency of the year-end. We ran a split A/B test. The control donation page had the”Every 26 seconds” clock and the treatment was the donation page with the year-end countdown clock.",
+      "keyLearnings": "We didn’t reach a large enough sample size to validate the test. We were wrong in our hypothesis, but did learn that the “Every 26 seconds” clock had a greater sense of urgency and supported and reinforced the value proposition creating a stronger message. The strong value proposition not only convinced people to give a gift, but to give a higher gift amount as well. That is reflective in the increase of average gift.\nTaking these learnings, the “Every 26 seconds” clock will be tested again on general donation pages.",
+      "fluxMetrics": null
+    }
+  ]
+}
