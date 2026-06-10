@@ -37,22 +37,23 @@ export function GiftArray({ value, onChange }: GiftArrayProps) {
   return (
     <div className="flex flex-col gap-3">
       <ToggleGroup
-        value={customMode ? ["custom"] : isPreset ? [String(value)] : []}
-        onValueChange={(v) => handleToggle(v[0] != null ? String(v[0]) : "")}
+        type="single"
+        value={customMode ? "custom" : isPreset ? String(value) : ""}
+        onValueChange={handleToggle}
         className="grid grid-cols-2 gap-2 sm:grid-cols-5"
       >
         {GIFT_AMOUNTS.map((amount) => (
           <ToggleGroupItem
             key={amount}
             value={String(amount)}
-            className="h-12 text-base font-semibold aria-pressed:bg-accent aria-pressed:text-accent-foreground"
+            className="h-12 text-base font-semibold data-[state=on]:bg-accent data-[state=on]:text-accent-foreground"
           >
             ${amount}
           </ToggleGroupItem>
         ))}
         <ToggleGroupItem
           value="custom"
-          className="h-12 text-base font-semibold aria-pressed:bg-accent aria-pressed:text-accent-foreground"
+          className="h-12 text-base font-semibold data-[state=on]:bg-accent data-[state=on]:text-accent-foreground"
         >
           Other
         </ToggleGroupItem>

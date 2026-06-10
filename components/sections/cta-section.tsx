@@ -19,23 +19,25 @@ export function CtaSection() {
           </p>
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
             <Button
-              render={<Link href="/donate" />}
-              nativeButton={false}
+              asChild
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90"
             >
-              <Heart data-icon="inline-start" />
-              Donate Now
+              <Link href="/donate">
+                <Heart data-icon="inline-start" />
+                Donate Now
+              </Link>
             </Button>
             <Button
-              render={<Link href="/about" />}
-              nativeButton={false}
+              asChild
               variant="outline"
               size="lg"
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
             >
-              Learn About Our Work
-              <ArrowRight data-icon="inline-end" />
+              <Link href="/about">
+                Learn About Our Work
+                <ArrowRight data-icon="inline-end" />
+              </Link>
             </Button>
           </div>
         </div>

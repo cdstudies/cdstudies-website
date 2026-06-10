@@ -67,12 +67,11 @@ export default async function ThankYouPage({
           )}
         </p>
         <Button
-          render={<Link href="/" />}
-          nativeButton={false}
+          asChild
           size="lg"
           className="bg-accent text-accent-foreground hover:bg-accent/90"
         >
-          Return home
+          <Link href="/">Return home</Link>
         </Button>
       </div>
     </SectionWrapper>

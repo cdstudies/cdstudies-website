@@ -19,16 +19,14 @@ export function MobileNav() {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger
-        render={
-          <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Open menu" />
-        }
-      >
-        <Menu />
+      <SheetTrigger asChild>
+        <Button variant="ghost" size="icon" className="lg:hidden" aria-label="Open menu">
+          <Menu />
+        </Button>
       </SheetTrigger>
       <SheetContent side="right" className="w-72">
-        <SheetTitle render={<div />}>
-          <Logo />
+        <SheetTitle asChild>
+          <div><Logo /></div>
         </SheetTitle>
         <Separator className="my-4" />
         <nav className="flex flex-col gap-1">
@@ -44,12 +42,13 @@ export function MobileNav() {
           ))}
           <Separator className="my-2" />
           <Button
-            render={<Link href="/donate" onClick={() => setOpen(false)} />}
-            nativeButton={false}
+            asChild
             className="mt-2 bg-accent text-accent-foreground hover:bg-accent/90"
           >
-            <Heart data-icon="inline-start" />
-            Donate
+            <Link href="/donate" onClick={() => setOpen(false)}>
+              <Heart data-icon="inline-start" />
+              Donate
+            </Link>
           </Button>
         </nav>
       </SheetContent>

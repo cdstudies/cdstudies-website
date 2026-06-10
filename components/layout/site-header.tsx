@@ -34,13 +34,11 @@ export function SiteHeader() {
               {link.label}
             </Link>
           ))}
-          <Button
-            render={<Link href="/donate" />}
-            nativeButton={false}
-            className="bg-accent text-accent-foreground hover:bg-accent/90"
-          >
-            <Heart data-icon="inline-start" />
-            Donate
+          <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+            <Link href="/donate">
+              <Heart data-icon="inline-start" />
+              Donate
+            </Link>
           </Button>
         </nav>
 
