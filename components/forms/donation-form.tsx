@@ -8,6 +8,7 @@ import { GiftArray } from "@/components/donate/gift-array";
 import { ImpactCallout } from "@/components/donate/impact-callout";
 import { PaymentSection } from "@/components/donate/payment-section";
 import { CheckInstructions } from "@/components/donate/check-instructions";
+import { SectionLabel } from "@/components/donate/section-label";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { stripePromise } from "@/lib/stripe-client";
@@ -44,11 +45,15 @@ export function DonationForm() {
   }
 
   return (
-    <Card className="bg-white py-0">
+    <Card className="overflow-hidden border-border/60 bg-white py-0 shadow-lg shadow-primary/5">
       <CardContent className="flex flex-col gap-6 p-6 md:p-8">
-        <FrequencyToggle value={frequency} onChange={setFrequency} />
-        <GiftArray value={amount} onChange={setAmount} />
-        <ImpactCallout amount={amount} frequency={frequency} />
+        <div className="flex flex-col gap-4">
+          <SectionLabel step={1}>Choose your gift</SectionLabel>
+          <FrequencyToggle value={frequency} onChange={setFrequency} />
+          <GiftArray value={amount} onChange={setAmount} />
+          <ImpactCallout amount={amount} frequency={frequency} />
+        </div>
+        <Separator />
         <Elements
           stripe={stripePromise}
           options={{

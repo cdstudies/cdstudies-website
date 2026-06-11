@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Input } from "@/components/ui/input";
-import { GIFT_AMOUNTS } from "@/lib/constants";
+import { GIFT_AMOUNTS, MOST_POPULAR_AMOUNT } from "@/lib/constants";
 
 interface GiftArrayProps {
   value: number | null;
@@ -40,20 +40,30 @@ export function GiftArray({ value, onChange }: GiftArrayProps) {
         type="single"
         value={customMode ? "custom" : isPreset ? String(value) : ""}
         onValueChange={handleToggle}
-        className="grid grid-cols-2 gap-2 sm:grid-cols-5"
+        className="grid w-full grid-cols-2 gap-2 pt-2 sm:grid-cols-5"
       >
         {GIFT_AMOUNTS.map((amount) => (
           <ToggleGroupItem
             key={amount}
             value={String(amount)}
-            className="h-12 text-base font-semibold data-[state=on]:bg-accent data-[state=on]:text-accent-foreground"
+            className="relative h-13 w-full overflow-visible rounded-lg border border-border bg-white text-base font-semibold shadow-xs transition-all hover:border-accent/50 hover:text-accent data-[state=on]:border-accent data-[state=on]:bg-accent data-[state=on]:text-accent-foreground data-[state=on]:shadow-md"
           >
             ${amount}
+            {amount === MOST_POPULAR_AMOUNT ? (
+              // Social-proof callout: "most popular" on the gift array lifted
+              // donations +27.5% in the NextAfter data (exp. #55676).
+              <span
+                aria-hidden
+                className="pointer-events-none absolute -top-2.5 left-1/2 -translate-x-1/2 rounded-full bg-cds-sage px-2 py-0.5 text-[10px] font-bold tracking-wide whitespace-nowrap text-white uppercase ring-2 ring-white"
+              >
+                Most popular
+              </span>
+            ) : null}
           </ToggleGroupItem>
         ))}
         <ToggleGroupItem
           value="custom"
-          className="h-12 text-base font-semibold data-[state=on]:bg-accent data-[state=on]:text-accent-foreground"
+          className="col-span-2 h-13 w-full rounded-lg border border-border bg-white text-base font-semibold shadow-xs transition-all hover:border-accent/50 hover:text-accent data-[state=on]:border-accent data-[state=on]:bg-accent data-[state=on]:text-accent-foreground data-[state=on]:shadow-md sm:col-span-1"
         >
           Other
         </ToggleGroupItem>
@@ -70,7 +80,7 @@ export function GiftArray({ value, onChange }: GiftArrayProps) {
             placeholder="Enter amount"
             value={customValue}
             onChange={(e) => handleCustomChange(e.target.value)}
-            className="pl-7"
+            className="h-12 pl-7 text-base"
             autoFocus
           />
         </div>

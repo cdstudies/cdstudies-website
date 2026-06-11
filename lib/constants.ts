@@ -10,6 +10,8 @@ export const NAV_LINKS = [
 
 export const GIFT_AMOUNTS = [25, 50, 100, 250] as const;
 export const DEFAULT_AMOUNT = 50;
+// Social-proof callout on the gift array (+27.5%, NextAfter exp. #55676).
+export const MOST_POPULAR_AMOUNT = 50;
 export const DEFAULT_FREQUENCY = "monthly" as const;
 
 export const CURRENCY = "usd";

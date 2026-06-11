@@ -20,7 +20,7 @@ export function DonateButton({ amount, frequency, pending }: DonateButtonProps) 
       type="submit"
       size="lg"
       disabled={!amount || pending}
-      className="h-auto w-full flex-col gap-0.5 bg-accent py-3 text-accent-foreground hover:bg-accent/90"
+      className="h-auto w-full flex-col gap-0.5 bg-accent py-3.5 text-accent-foreground shadow-md shadow-accent/25 transition-all hover:-translate-y-px hover:bg-accent/90 hover:shadow-lg hover:shadow-accent/30"
     >
       <span className="flex items-center gap-2 text-lg">
         {pending ? (

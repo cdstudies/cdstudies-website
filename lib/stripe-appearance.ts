@@ -7,7 +7,7 @@ export const donationAppearance: Appearance = {
   theme: "stripe",
   variables: {
     colorPrimary: "#c35422", // --accent
-    colorBackground: "#f9f6f2", // --card
+    colorBackground: "#ffffff", // white inputs sit crisply inside the sage SecureBand
     colorText: "#100f0d", // --foreground
     colorTextSecondary: "#565552", // --muted-foreground
     colorDanger: "#af3c3a", // --destructive
