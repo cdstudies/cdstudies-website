@@ -15,21 +15,33 @@ interface GiftSummary {
   recurring: boolean;
 }
 
-async function getGiftSummary(sessionId: string | undefined): Promise<GiftSummary | null> {
-  if (!sessionId || !connectedAccountId) return null;
+async function getGiftSummary(
+  paymentIntentId: string | undefined,
+  frequency: string | undefined,
+): Promise<GiftSummary | null> {
+  if (!paymentIntentId || !connectedAccountId) return null;
   try {
-    const session = await stripe.checkout.sessions.retrieve(
-      sessionId,
+    const paymentIntent = await stripe.paymentIntents.retrieve(
+      paymentIntentId,
       {},
       { stripeAccount: connectedAccountId },
     );
-    if (session.status !== "complete" || !session.amount_total) return null;
+    // "processing" covers slower methods (e.g. bank debits) that confirmed
+    // but haven't settled yet — the gift is still on its way.
+    if (
+      paymentIntent.status !== "succeeded" &&
+      paymentIntent.status !== "processing"
+    ) {
+      return null;
+    }
     return {
-      amount: session.amount_total / 100,
-      recurring: session.mode === "subscription",
+      amount: paymentIntent.amount / 100,
+      // The PaymentIntent doesn't reference its subscription on this API
+      // version; frequency is encoded in the return_url we build instead.
+      recurring: frequency === "monthly",
     };
   } catch {
-    // Bad or stale session id — fall back to the generic message.
+    // Bad or stale payment intent id — fall back to the generic message.
     return null;
   }
 }
@@ -37,10 +49,10 @@ async function getGiftSummary(sessionId: string | undefined): Promise<GiftSummar
 export default async function ThankYouPage({
   searchParams,
 }: {
-  searchParams: Promise<{ session_id?: string }>;
+  searchParams: Promise<{ payment_intent?: string; frequency?: string }>;
 }) {
-  const { session_id } = await searchParams;
-  const gift = await getGiftSummary(session_id);
+  const { payment_intent, frequency } = await searchParams;
+  const gift = await getGiftSummary(payment_intent, frequency);
 
   return (
     <SectionWrapper>

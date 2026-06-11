@@ -35,13 +35,24 @@ export async function POST(request: NextRequest) {
   }
 
   switch (event.type) {
-    case "checkout.session.completed": {
-      const session = event.data.object as Stripe.Checkout.Session;
+    case "payment_intent.succeeded": {
+      // One-time gifts (metadata.frequency is set by /api/donate); also fires
+      // for each subscription invoice's underlying payment, without metadata.
+      const paymentIntent = event.data.object as Stripe.PaymentIntent;
       console.log(
-        `Donation completed on account ${event.account}: ` +
-          `${session.amount_total} ${session.currency} (${session.mode})`,
+        `Donation succeeded on account ${event.account}: ` +
+          `${paymentIntent.amount} ${paymentIntent.currency} ` +
+          `(${paymentIntent.metadata.frequency ?? "subscription invoice"})`,
       );
       // Receipts remain CDS's responsibility as merchant of record.
+      break;
+    }
+    case "customer.subscription.created": {
+      const subscription = event.data.object as Stripe.Subscription;
+      console.log(
+        `New monthly donor on account ${event.account}: ` +
+          `subscription ${subscription.id} (${subscription.status})`,
+      );
       break;
     }
     case "invoice.paid": {
@@ -49,6 +60,14 @@ export async function POST(request: NextRequest) {
       console.log(
         `Recurring donation paid on account ${event.account}: ` +
           `${invoice.amount_paid} ${invoice.currency}`,
+      );
+      break;
+    }
+    case "invoice.payment_failed": {
+      const invoice = event.data.object as Stripe.Invoice;
+      console.log(
+        `Recurring donation FAILED on account ${event.account}: ` +
+          `${invoice.amount_due} ${invoice.currency} (invoice ${invoice.id})`,
       );
       break;
     }
