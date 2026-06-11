@@ -18,7 +18,7 @@ export function SecureBand({ children }: { children: ReactNode }) {
       </p>
       {children}
       <p className="mt-3 text-center text-xs text-muted-foreground">
-        Processed by Stripe — your card details never touch our servers.
+        Your card details are encrypted and never touch our servers.
       </p>
     </div>
   );
