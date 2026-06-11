@@ -14,15 +14,15 @@ interface SectionLabelProps {
  */
 export function SectionLabel({ step, children, hint }: SectionLabelProps) {
   return (
-    <div className="flex items-baseline gap-3">
+    <div className="flex items-center gap-3">
       <span
         aria-hidden
-        className="flex size-7 shrink-0 translate-y-1 items-center justify-center rounded-full bg-accent font-heading text-sm leading-none text-accent-foreground"
+        className="flex size-7 shrink-0 items-center justify-center rounded-full bg-accent font-heading text-sm leading-none text-accent-foreground"
       >
         {step}
       </span>
-      <h2 className="font-heading text-2xl leading-tight">{children}</h2>
-      {hint ? <span className="text-xs">{hint}</span> : null}
+      <h2 className="font-heading text-2xl leading-none">{children}</h2>
+      {hint ? <span className="translate-y-px text-xs">{hint}</span> : null}
     </div>
   );
 }
