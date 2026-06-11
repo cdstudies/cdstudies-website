@@ -30,7 +30,11 @@ export function CheckInstructions() {
             Mail your check to:
             <br />
             <span className="text-foreground">
-              [Mailing address will be provided]
+              {SITE_NAME}
+              <br />
+              101 North First Avenue, Suite 2325
+              <br />
+              Phoenix, AZ 85003
             </span>
           </p>
           <p>
