@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { SITE_NAME } from "@/lib/constants";
 
 interface LogoProps {
   className?: string;
@@ -6,12 +8,13 @@ interface LogoProps {
 
 export function Logo({ className }: LogoProps) {
   return (
-    <div className={cn("flex items-baseline gap-1", className)}>
-      <span className="font-heading text-[18px] tracking-tight text-primary sm:text-[22px]">Centre</span>
-      <span className="text-[18px] text-accent/50 sm:text-[22px]">/</span>
-      <span className="font-heading text-[18px] tracking-tight text-primary sm:text-[22px]">Demographic</span>
-      <span className="text-[18px] text-accent/50 sm:text-[22px]">/</span>
-      <span className="font-heading text-[18px] tracking-tight text-primary sm:text-[22px]">Studies</span>
-    </div>
+    <Image
+      src="/cds-logoc.svg"
+      alt={SITE_NAME}
+      width={261}
+      height={100}
+      priority
+      className={cn("h-16 w-auto", className)}
+    />
   );
 }

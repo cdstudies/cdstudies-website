@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { DonationForm } from "@/components/forms/donation-form";
 import { Endorsement } from "@/components/donate/endorsement";
-import { Card, CardContent } from "@/components/ui/card";
 import { TAX_ID, SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -29,13 +28,9 @@ export default function DonatePage() {
           </p>
         </div>
 
-        <Card>
-          <CardContent className="p-6 md:p-8">
-            <Suspense>
-              <DonationForm />
-            </Suspense>
-          </CardContent>
-        </Card>
+        <Suspense>
+          <DonationForm />
+        </Suspense>
 
         <Endorsement />
 

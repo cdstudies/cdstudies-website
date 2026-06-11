@@ -40,7 +40,7 @@ export function DonateEmbeddedCheckout({
   // Checkout Sessions are immutable: the key forces a full iframe
   // destroy/recreate whenever the amount or frequency changes.
   return (
-    <div className="min-h-[24rem]">
+    <div className="min-h-[24rem] overflow-hidden rounded-xl bg-white pb-12">
       <EmbeddedCheckoutProvider
         key={`${amount}-${frequency}`}
         stripe={stripePromise}
