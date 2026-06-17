@@ -92,11 +92,22 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ clientSecret });
     }
 
+    // Attach a customer and save the card so the gift can be upgraded to
+    // monthly in one click on the thank-you page (off-session subscription).
+    const customer = await stripe.customers.create(
+      { email, name },
+      { stripeAccount: connectedAccountId },
+    );
+
     const paymentIntent = await stripe.paymentIntents.create(
       {
         amount: amountCents,
         currency: CURRENCY,
         description: `Donation to ${SITE_NAME}`,
+        customer: customer.id,
+        // Save the payment method to the customer for reuse without the donor
+        // present — powers the one-click "make it monthly" upgrade.
+        setup_future_usage: "off_session",
         // Forces a Stripe receipt email in live mode, independent of the
         // connected account's dashboard email settings.
         receipt_email: email,

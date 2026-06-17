@@ -28,8 +28,14 @@ export function DonationForm() {
   const initialAmount = isValidDonationAmount(queryAmount)
     ? queryAmount
     : DEFAULT_AMOUNT;
+  // Let links (e.g. the thank-you page's top-up / upgrade links) preset the tab.
+  const queryFrequency = searchParams.get("frequency");
+  const initialFrequency =
+    queryFrequency === "monthly" || queryFrequency === "one-time"
+      ? queryFrequency
+      : DEFAULT_FREQUENCY;
 
-  const [frequency, setFrequency] = useState<"monthly" | "one-time">(DEFAULT_FREQUENCY);
+  const [frequency, setFrequency] = useState<"monthly" | "one-time">(initialFrequency);
   const [amount, setAmount] = useState<number | null>(initialAmount);
 
   // Elements requires a positive amount at all times; while the custom field
@@ -60,6 +66,14 @@ export function DonationForm() {
             mode: frequency === "monthly" ? "subscription" : "payment",
             amount: validCents ?? lastValidCents,
             currency: CURRENCY,
+            // One-time gifts save the card off-session so they can be upgraded
+            // to monthly in one click on the thank-you page. In deferred-intent
+            // mode this must match the PaymentIntent's setup_future_usage
+            // (set in /api/donate) or confirmPayment is rejected. Subscriptions
+            // handle saving the card themselves.
+            ...(frequency === "monthly"
+              ? {}
+              : { setupFutureUsage: "off_session" as const }),
             // Card only in the main form: hides Cash App Pay (see
             // theo-stripe-recommendations.md) and Link's save-my-info box
             // (extra fields test badly for donations). Wallets are offered
