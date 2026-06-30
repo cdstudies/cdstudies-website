@@ -72,9 +72,21 @@ export async function POST(request: NextRequest) {
           payment_behavior: "default_incomplete",
           payment_settings: {
             save_default_payment_method: "on_subscription",
-            // Must match the Elements paymentMethodTypes (card covers the
-            // Apple/Google Pay wallets too) or confirmPayment is rejected.
-            payment_method_types: ["card"],
+            // Must match the Elements paymentMethodTypes or confirmPayment is
+            // rejected. Card (covers Apple/Google Pay wallets too) stays first
+            // so it's the default tab; ACH Direct Debit is offered as a
+            // secondary option on monthly only — recurring bank gifts last ~5
+            // years vs ~12 months for cards (NextAfter #2700, +55.2% long-term
+            // revenue, no conversion loss).
+            payment_method_types: ["card", "us_bank_account"],
+            // Verify the bank instantly via Financial Connections (bank login)
+            // rather than 1–2 day microdeposits — lowest-friction path.
+            payment_method_options: {
+              us_bank_account: {
+                verification_method: "instant",
+                financial_connections: { permissions: ["payment_method"] },
+              },
+            },
           },
           // Application fee on every recurring invoice → Gathered's balance.
           application_fee_percent: PLATFORM_FEE_PERCENT,

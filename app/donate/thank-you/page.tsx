@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { UpgradeToMonthly } from "@/components/donate/upgrade-to-monthly";
+import { GiveAgain } from "@/components/donate/give-again";
 import {
   Card,
   CardDescription,
@@ -24,6 +25,9 @@ interface GiftSummary {
   /** Present only when the gift can be upgraded to monthly (one-time, settled,
    *  card saved). */
   upgradePaymentIntentId: string | null;
+  /** Present only when a monthly donor's card is saved, enabling a one-click
+   *  one-time top-up. */
+  topUpPaymentIntentId: string | null;
 }
 
 async function getGiftSummary(
@@ -34,7 +38,7 @@ async function getGiftSummary(
   try {
     const paymentIntent = await stripe.paymentIntents.retrieve(
       paymentIntentId,
-      {},
+      { expand: ["payment_method"] },
       { stripeAccount: connectedAccountId },
     );
     // "processing" covers slower methods (e.g. bank debits) that confirmed
@@ -49,6 +53,12 @@ async function getGiftSummary(
     // frequency is encoded in the return_url we build instead.
     const recurring = frequency === "monthly";
     const hasSavedCard = Boolean(paymentIntent.customer && paymentIntent.payment_method);
+    // The one-click top-up charges off-session; only cards settle instantly and
+    // reliably. A monthly donor who gave via ACH Direct Debit falls through to
+    // the standard "Add a one-time gift" form instead.
+    const savedMethodIsCard =
+      typeof paymentIntent.payment_method !== "string" &&
+      paymentIntent.payment_method?.type === "card";
     return {
       amount: paymentIntent.amount / 100,
       recurring,
@@ -58,6 +68,9 @@ async function getGiftSummary(
         !recurring && paymentIntent.status === "succeeded" && hasSavedCard
           ? paymentIntent.id
           : null,
+      // Offer the one-click top-up only when a monthly donor's card is saved.
+      topUpPaymentIntentId:
+        recurring && hasSavedCard && savedMethodIsCard ? paymentIntent.id : null,
     };
   } catch {
     // Bad or stale payment intent id — fall back to the generic message.
@@ -108,8 +121,17 @@ export default async function ThankYouPage({
         )}
 
         {/* Monthly donor: can't be upsold to monthly, so invite a one-time
-            top-up on top of their recurring commitment. */}
-        {gift?.recurring && (
+            top-up. With a saved card it's one click; otherwise fall back to the
+            full form. */}
+        {gift?.topUpPaymentIntentId && (
+          <div className="mb-8 w-full">
+            <GiveAgain
+              paymentIntentId={gift.topUpPaymentIntentId}
+              defaultAmount={gift.amount}
+            />
+          </div>
+        )}
+        {gift?.recurring && !gift.topUpPaymentIntentId && (
           <Card className="mb-8 w-full text-left">
             <CardHeader>
               <CardTitle>Want to do a little extra today?</CardTitle>

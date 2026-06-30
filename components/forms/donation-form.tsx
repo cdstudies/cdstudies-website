@@ -74,11 +74,15 @@ export function DonationForm() {
             ...(frequency === "monthly"
               ? {}
               : { setupFutureUsage: "off_session" as const }),
-            // Card only in the main form: hides Cash App Pay (see
-            // theo-stripe-recommendations.md) and Link's save-my-info box
-            // (extra fields test badly for donations). Wallets are offered
-            // separately via ExpressCheckoutSection.
-            paymentMethodTypes: ["card"],
+            // Card is always first so it stays the default tab; it also hides
+            // Cash App Pay (see theo-stripe-recommendations.md) and Link's
+            // save-my-info box (extra fields test badly for donations). Wallets
+            // are offered separately via ExpressCheckoutSection. ACH Direct
+            // Debit is added on monthly only — the validated recurring win
+            // (NextAfter #2700) — and must match /api/donate's
+            // payment_method_types for the chosen frequency.
+            paymentMethodTypes:
+              frequency === "monthly" ? ["card", "us_bank_account"] : ["card"],
             appearance: donationAppearance,
           }}
         >

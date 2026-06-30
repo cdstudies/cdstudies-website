@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { stripe, connectedAccountId } from "@/lib/stripe";
+import { getSavedCardContext } from "@/lib/saved-card";
 import { CURRENCY, PLATFORM_FEE_PERCENT } from "@/lib/constants";
 
 /**
@@ -41,33 +42,20 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const paymentIntent = await stripe.paymentIntents.retrieve(
-      paymentIntentId,
-      {},
-      { stripeAccount: connectedAccountId },
-    );
-
-    const customerId =
-      typeof paymentIntent.customer === "string"
-        ? paymentIntent.customer
-        : paymentIntent.customer?.id;
-    const paymentMethodId =
-      typeof paymentIntent.payment_method === "string"
-        ? paymentIntent.payment_method
-        : paymentIntent.payment_method?.id;
+    const context = await getSavedCardContext(paymentIntentId);
 
     // Only upgrade a genuine, settled one-time gift that saved its card.
     if (
-      paymentIntent.status !== "succeeded" ||
-      paymentIntent.metadata?.frequency !== "one-time" ||
-      !customerId ||
-      !paymentMethodId
+      !context ||
+      context.paymentIntent.status !== "succeeded" ||
+      context.paymentIntent.metadata?.frequency !== "one-time"
     ) {
       return NextResponse.json(
         { error: "This gift can't be upgraded automatically." },
         { status: 422 },
       );
     }
+    const { paymentIntent, customerId, paymentMethodId } = context;
 
     // Idempotency / abuse guard: never create a second subscription for a
     // customer who already has one (also see "Limit customers to one

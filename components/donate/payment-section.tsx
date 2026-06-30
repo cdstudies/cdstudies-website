@@ -128,6 +128,17 @@ export function PaymentSection({ amount, frequency }: PaymentSectionProps) {
           />
         </SecureBand>
 
+        {/* Value-led nudge toward the bank tab on monthly — bank gifts don't
+            expire, so support continues uninterrupted (the durability that
+            drove NextAfter #2700's +55.2% long-term revenue). Kept small and
+            non-competing so card stays the default path. */}
+        {frequency === "monthly" ? (
+          <p className="text-xs text-muted-foreground">
+            Giving straight from your bank keeps your support going for years —
+            no expired cards, no interruptions.
+          </p>
+        ) : null}
+
         {error ? (
           <p role="alert" className="text-sm text-destructive">
             {error}
