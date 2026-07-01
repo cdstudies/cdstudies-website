@@ -1,28 +1,19 @@
 import { NextResponse, type NextRequest } from "next/server";
 import type Stripe from "stripe";
-import { stripe, connectedAccountId, platformFeeCents } from "@/lib/stripe";
+import { stripe } from "@/lib/stripe";
 import { parseDonationBody } from "@/lib/donation";
-import { CURRENCY, PLATFORM_FEE_PERCENT, SITE_NAME } from "@/lib/constants";
+import { CURRENCY, SITE_NAME } from "@/lib/constants";
 
 /**
- * Creates the payment for the on-page Payment Element as a DIRECT CHARGE on
- * CDS's connected account: CDS is merchant of record, the donor's gift lands
- * with CDS, and Gathered's cut is collected as a Connect application fee. The
- * whole flow keeps Gathered out of the money path so donations stay
- * tax-deductible.
+ * Creates the payment for the on-page Payment Element as a charge on CDS's own
+ * Stripe account: CDS is the merchant of record and the gift lands directly
+ * with CDS (a 501(c)(3)), so donations stay tax-deductible.
  *
  * Called at submit time (deferred-intent flow): the client renders the
  * Payment Element first, then exchanges { amount, frequency, email, name }
  * for a client secret and confirms it with stripe.confirmPayment.
  */
 export async function POST(request: NextRequest) {
-  if (!connectedAccountId) {
-    return NextResponse.json(
-      { error: "Donations are not configured yet. Please try again later." },
-      { status: 500 },
-    );
-  }
-
   let body: unknown;
   try {
     body = await request.json();
@@ -50,10 +41,7 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      const customer = await stripe.customers.create(
-        { email, name },
-        { stripeAccount: connectedAccountId },
-      );
+      const customer = await stripe.customers.create({ email, name });
 
       const subscription = await stripe.subscriptions.create(
         {
@@ -88,12 +76,9 @@ export async function POST(request: NextRequest) {
               },
             },
           },
-          // Application fee on every recurring invoice → Gathered's balance.
-          application_fee_percent: PLATFORM_FEE_PERCENT,
           expand: ["latest_invoice.confirmation_secret"],
           metadata: { source: "donate-page" },
         },
-        { stripeAccount: connectedAccountId },
       );
 
       const invoice = subscription.latest_invoice as Stripe.Invoice | null;
@@ -106,10 +91,7 @@ export async function POST(request: NextRequest) {
 
     // Attach a customer and save the card so the gift can be upgraded to
     // monthly in one click on the thank-you page (off-session subscription).
-    const customer = await stripe.customers.create(
-      { email, name },
-      { stripeAccount: connectedAccountId },
-    );
+    const customer = await stripe.customers.create({ email, name });
 
     const paymentIntent = await stripe.paymentIntents.create(
       {
@@ -121,16 +103,13 @@ export async function POST(request: NextRequest) {
         // present — powers the one-click "make it monthly" upgrade.
         setup_future_usage: "off_session",
         // Forces a Stripe receipt email in live mode, independent of the
-        // connected account's dashboard email settings.
+        // account's dashboard email settings.
         receipt_email: email,
-        // Fixed application fee on the one-time charge → Gathered's balance.
-        application_fee_amount: platformFeeCents(amountCents),
         // Must match the Elements paymentMethodTypes (card covers the
         // Apple/Google Pay wallets too) or confirmPayment is rejected.
         payment_method_types: ["card"],
         metadata: { frequency: "one-time", donor_name: name ?? "" },
       },
-      { stripeAccount: connectedAccountId },
     );
     return NextResponse.json({ clientSecret: paymentIntent.client_secret });
   } catch (err) {

@@ -3,11 +3,10 @@ import type Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
 
 /**
- * Single Connect-scoped webhook endpoint. For direct charges, events from CDS's
- * account arrive here with `event.account` set to CDS's acct_… id. Signatures
- * are verified with Gathered's (the platform's) webhook secret.
+ * Webhook endpoint for CDS's own Stripe account. Signatures are verified with
+ * the account's webhook signing secret (STRIPE_WEBHOOK_SECRET).
  *
- * Register with: stripe listen --forward-connect-to localhost:3000/api/webhooks/stripe
+ * Register with: stripe listen --forward-to localhost:3000/api/webhooks/stripe
  */
 export async function POST(request: NextRequest) {
   const secret = process.env.STRIPE_WEBHOOK_SECRET;
@@ -40,34 +39,30 @@ export async function POST(request: NextRequest) {
       // for each subscription invoice's underlying payment, without metadata.
       const paymentIntent = event.data.object as Stripe.PaymentIntent;
       console.log(
-        `Donation succeeded on account ${event.account}: ` +
-          `${paymentIntent.amount} ${paymentIntent.currency} ` +
+        `Donation succeeded: ${paymentIntent.amount} ${paymentIntent.currency} ` +
           `(${paymentIntent.metadata.frequency ?? "subscription invoice"})`,
       );
-      // Receipts remain CDS's responsibility as merchant of record.
       break;
     }
     case "customer.subscription.created": {
       const subscription = event.data.object as Stripe.Subscription;
       console.log(
-        `New monthly donor on account ${event.account}: ` +
-          `subscription ${subscription.id} (${subscription.status})`,
+        `New monthly donor: subscription ${subscription.id} (${subscription.status})`,
       );
       break;
     }
     case "invoice.paid": {
       const invoice = event.data.object as Stripe.Invoice;
       console.log(
-        `Recurring donation paid on account ${event.account}: ` +
-          `${invoice.amount_paid} ${invoice.currency}`,
+        `Recurring donation paid: ${invoice.amount_paid} ${invoice.currency}`,
       );
       break;
     }
     case "invoice.payment_failed": {
       const invoice = event.data.object as Stripe.Invoice;
       console.log(
-        `Recurring donation FAILED on account ${event.account}: ` +
-          `${invoice.amount_due} ${invoice.currency} (invoice ${invoice.id})`,
+        `Recurring donation FAILED: ${invoice.amount_due} ${invoice.currency} ` +
+          `(invoice ${invoice.id})`,
       );
       break;
     }

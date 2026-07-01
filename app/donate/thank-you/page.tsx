@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { stripe, connectedAccountId } from "@/lib/stripe";
+import { stripe } from "@/lib/stripe";
 import { SITE_NAME } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -34,12 +34,11 @@ async function getGiftSummary(
   paymentIntentId: string | undefined,
   frequency: string | undefined,
 ): Promise<GiftSummary | null> {
-  if (!paymentIntentId || !connectedAccountId) return null;
+  if (!paymentIntentId) return null;
   try {
     const paymentIntent = await stripe.paymentIntents.retrieve(
       paymentIntentId,
       { expand: ["payment_method"] },
-      { stripeAccount: connectedAccountId },
     );
     // "processing" covers slower methods (e.g. bank debits) that confirmed
     // but haven't settled yet — the gift is still on its way.

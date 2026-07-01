@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import Stripe from "stripe";
-import { stripe, connectedAccountId, platformFeeCents } from "@/lib/stripe";
+import { stripe } from "@/lib/stripe";
 import { getSavedCardContext } from "@/lib/saved-card";
 import { isValidDonationAmount } from "@/lib/donation";
 import { CURRENCY, SITE_NAME } from "@/lib/constants";
@@ -13,13 +13,6 @@ import { CURRENCY, SITE_NAME } from "@/lib/constants";
  * client supplies, and it's re-validated here.
  */
 export async function POST(request: NextRequest) {
-  if (!connectedAccountId) {
-    return NextResponse.json(
-      { error: "Donations are not configured yet. Please try again later." },
-      { status: 500 },
-    );
-  }
-
   let body: unknown;
   try {
     body = await request.json();
@@ -62,11 +55,9 @@ export async function POST(request: NextRequest) {
         off_session: true,
         confirm: true,
         ...(email ? { receipt_email: email } : {}),
-        application_fee_amount: platformFeeCents(amountCents),
         payment_method_types: ["card"],
         metadata: { frequency: "one-time", source: "thank-you-give-again" },
       },
-      { stripeAccount: connectedAccountId },
     );
 
     if (

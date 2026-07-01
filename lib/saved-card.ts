@@ -1,5 +1,5 @@
 import type Stripe from "stripe";
-import { stripe, connectedAccountId } from "@/lib/stripe";
+import { stripe } from "@/lib/stripe";
 
 export interface SavedCardContext {
   /** The retrieved source PaymentIntent — callers reuse it for amount, status,
@@ -20,12 +20,10 @@ export interface SavedCardContext {
 export async function getSavedCardContext(
   paymentIntentId: string,
 ): Promise<SavedCardContext | null> {
-  if (!connectedAccountId) return null;
   try {
     const paymentIntent = await stripe.paymentIntents.retrieve(
       paymentIntentId,
       { expand: ["customer"] },
-      { stripeAccount: connectedAccountId },
     );
 
     const customer = paymentIntent.customer;
