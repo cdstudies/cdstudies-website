@@ -25,10 +25,16 @@ import {
 interface PaymentSectionProps {
   amount: number | null;
   frequency: DonationFrequency;
+  /** Whether the ACH bank tab is offered (US visitors only). */
+  achEligible: boolean;
 }
 
 /** Donor details + payment fields + submit. Must render inside <Elements>. */
-export function PaymentSection({ amount, frequency }: PaymentSectionProps) {
+export function PaymentSection({
+  amount,
+  frequency,
+  achEligible,
+}: PaymentSectionProps) {
   const stripe = useStripe();
   const elements = useElements();
   const router = useRouter();
@@ -132,7 +138,7 @@ export function PaymentSection({ amount, frequency }: PaymentSectionProps) {
             expire, so support continues uninterrupted (the durability that
             drove NextAfter #2700's +55.2% long-term revenue). Kept small and
             non-competing so card stays the default path. */}
-        {frequency === "monthly" ? (
+        {frequency === "monthly" && achEligible ? (
           <p className="text-xs text-muted-foreground">
             Giving straight from your bank keeps your support going for years —
             no expired cards, no interruptions.

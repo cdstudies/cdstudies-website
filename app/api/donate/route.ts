@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import type Stripe from "stripe";
 import { stripe } from "@/lib/stripe";
-import { parseDonationBody } from "@/lib/donation";
+import { isAchEligible, parseDonationBody } from "@/lib/donation";
 import { CURRENCY, SITE_NAME } from "@/lib/constants";
 
 /**
@@ -26,6 +26,11 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: parsed.error }, { status: 400 });
   }
   const { amountCents, frequency, email, name } = parsed.data;
+
+  // Same geo gate as the donate page (which reads this header at render):
+  // ACH is US-only, so non-US visitors get card only. Both sides derive it
+  // from the visitor's own request, so Elements and the intent stay in sync.
+  const achEligible = isAchEligible(request.headers.get("x-vercel-ip-country"));
 
   try {
     if (frequency === "monthly") {
@@ -63,18 +68,26 @@ export async function POST(request: NextRequest) {
             // Must match the Elements paymentMethodTypes or confirmPayment is
             // rejected. Card (covers Apple/Google Pay wallets too) stays first
             // so it's the default tab; ACH Direct Debit is offered as a
-            // secondary option on monthly only — recurring bank gifts last ~5
-            // years vs ~12 months for cards (NextAfter #2700, +55.2% long-term
-            // revenue, no conversion loss).
-            payment_method_types: ["card", "us_bank_account"],
+            // secondary option on monthly only, US visitors only — recurring
+            // bank gifts last ~5 years vs ~12 months for cards (NextAfter
+            // #2700, +55.2% long-term revenue, no conversion loss).
+            payment_method_types: achEligible
+              ? ["card", "us_bank_account"]
+              : ["card"],
             // Verify the bank instantly via Financial Connections (bank login)
             // rather than 1–2 day microdeposits — lowest-friction path.
-            payment_method_options: {
-              us_bank_account: {
-                verification_method: "instant",
-                financial_connections: { permissions: ["payment_method"] },
-              },
-            },
+            ...(achEligible
+              ? {
+                  payment_method_options: {
+                    us_bank_account: {
+                      verification_method: "instant" as const,
+                      financial_connections: {
+                        permissions: ["payment_method" as const],
+                      },
+                    },
+                  },
+                }
+              : {}),
           },
           expand: ["latest_invoice.confirmation_secret"],
           metadata: { source: "donate-page" },

@@ -11,6 +11,17 @@ export interface DonationRequest {
 
 export const AMOUNT_RANGE_ERROR = `Please enter an amount between $${MIN_DONATION} and $${MAX_DONATION.toLocaleString()}.`;
 
+/**
+ * ACH Direct Debit only works with US bank accounts, so the bank tab is
+ * hidden for visitors outside the US — unusable payment options add
+ * choice-friction with no conversion upside (NextAfter #11607, #197606).
+ * The country comes from Vercel's `x-vercel-ip-country` header; it's absent
+ * in local dev, so fail open to the US behavior (the audience skews US).
+ */
+export function isAchEligible(countryCode: string | null | undefined): boolean {
+  return !countryCode || countryCode === "US";
+}
+
 export function isValidDonationAmount(amount: number): boolean {
   return Number.isFinite(amount) && amount >= MIN_DONATION && amount <= MAX_DONATION;
 }

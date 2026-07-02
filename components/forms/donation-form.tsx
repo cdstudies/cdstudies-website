@@ -22,7 +22,13 @@ import { CURRENCY, DEFAULT_AMOUNT, DEFAULT_FREQUENCY } from "@/lib/constants";
  * (no client secret yet) so amount/frequency changes just update the mounted
  * element — the PaymentIntent/Subscription is only created at submit.
  */
-export function DonationForm() {
+interface DonationFormProps {
+  /** False for visitors outside the US (per Vercel geo header) — ACH only
+   *  works with US bank accounts, so they get card only. */
+  achEligible: boolean;
+}
+
+export function DonationForm({ achEligible }: DonationFormProps) {
   const searchParams = useSearchParams();
   const queryAmount = Number(searchParams.get("amount"));
   const initialAmount = isValidDonationAmount(queryAmount)
@@ -79,14 +85,21 @@ export function DonationForm() {
             // save-my-info box (extra fields test badly for donations). Wallets
             // are offered separately via ExpressCheckoutSection. ACH Direct
             // Debit is added on monthly only — the validated recurring win
-            // (NextAfter #2700) — and must match /api/donate's
-            // payment_method_types for the chosen frequency.
+            // (NextAfter #2700) — and only for US visitors (it can't debit
+            // non-US banks). Must match /api/donate's payment_method_types,
+            // which re-derives both conditions server-side.
             paymentMethodTypes:
-              frequency === "monthly" ? ["card", "us_bank_account"] : ["card"],
+              frequency === "monthly" && achEligible
+                ? ["card", "us_bank_account"]
+                : ["card"],
             appearance: donationAppearance,
           }}
         >
-          <PaymentSection amount={amount} frequency={frequency} />
+          <PaymentSection
+            amount={amount}
+            frequency={frequency}
+            achEligible={achEligible}
+          />
         </Elements>
         <Separator />
         <div className="text-center">
